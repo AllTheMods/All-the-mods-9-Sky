@@ -1,0 +1,14 @@
+{
+    "ModSettings": {
+        "highlight_foused_items": {
+            "value": false
+        },
+        "highlight_foused_items_foreground": false,
+        "highlight_foused_items_color": "#01000000",
+        "highlight_foused_items_bg_color": "#00000000",
+        "first_run": false
+    },
+    "GuiSettings": {
+        "continuous_crafting_saved_value": false
+    }
+}
