@@ -1,0 +1,568 @@
+{
+  "entries": [
+    {
+      "item": "minecraft:beef",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:cooked_beef",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:porkchop",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:cooked_porkchop",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:mutton",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:cooked_mutton",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:glowstone_dust",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:obsidian",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "emc": 1024
+    },
+    {
+      "item": "xycraft_world:xychorium_gem_blue",
+      "emc": 1024
+    },
+    {
+      "item": "xycraft_world:xychorium_gem_light",
+      "emc": 1024
+    },
+    {
+      "item": "xycraft_world:xychorium_gem_dark",
+      "emc": 1024
+    },
+    {
+      "item": "xycraft_world:xychorium_gem_red",
+      "emc": 1024
+    },
+    {
+      "item": "xycraft_world:xychorium_gem_green",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:bone_meal",
+      "emc": 48
+    },
+    {
+      "item": "minecraft:bone",
+      "emc": 144
+    },
+    {
+      "item": "minecraft:string",
+      "emc": 12
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "emc": 196
+    },
+    {
+      "item": "minecraft:ghast_tear",
+      "emc": 4096
+    },
+    {
+      "item": "minecraft:acacia_log",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:stripped_jungle_log",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:jungle_log",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:stripped_birch_log",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:birch_log",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:stripped_spruce_log",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:spruce_log",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:stripped_oak_log",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:oak_log",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:stripped_acacia_log",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:dark_oak_log",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:stripped_dark_oak_log",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:mangrove_log",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:stripped_mangrove_log",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:cherry_log",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:stripped_cherry_log",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:crimson_stem",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:stripped_crimson_stem",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:light_gray_carpet",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:gray_carpet",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:black_carpet",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:brown_carpet",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:red_carpet",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:orange_carpet",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:yellow_carpet",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:stripped_warped_stem",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:warped_stem",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:pink_carpet",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:magenta_carpet",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:purple_carpet",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:blue_carpet",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:light_blue_carpet",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:cyan_carpet",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:green_carpet",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:lime_carpet",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:white_carpet",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:slime_ball",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:rotten_flesh",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:mangrove_planks",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:dark_oak_planks",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:acacia_planks",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:jungle_planks",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:birch_planks",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:spruce_planks",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:oak_planks",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:crimson_planks",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:warped_planks",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:cherry_planks",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:bamboo_planks",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:green_wool",
+      "emc": 48
+    },
+    {
+      "item": "minecraft:white_wool",
+      "emc": 48
+    },
+    {
+      "item": "minecraft:light_gray_wool",
+      "emc": 48
+    },
+    {
+      "item": "minecraft:cyan_wool",
+      "emc": 48
+    },
+    {
+      "item": "minecraft:light_blue_wool",
+      "emc": 48
+    },
+    {
+      "item": "minecraft:blue_wool",
+      "emc": 48
+    },
+    {
+      "item": "minecraft:purple_wool",
+      "emc": 48
+    },
+    {
+      "item": "minecraft:magenta_wool",
+      "emc": 48
+    },
+    {
+      "item": "minecraft:pink_wool",
+      "emc": 48
+    },
+    {
+      "item": "minecraft:gray_wool",
+      "emc": 48
+    },
+    {
+      "item": "minecraft:lime_wool",
+      "emc": 48
+    },
+    {
+      "item": "minecraft:orange_wool",
+      "emc": 48
+    },
+    {
+      "item": "minecraft:red_wool",
+      "emc": 48
+    },
+    {
+      "item": "minecraft:brown_wool",
+      "emc": 48
+    },
+    {
+      "item": "minecraft:black_wool",
+      "emc": 48
+    },
+    {
+      "item": "minecraft:yellow_wool",
+      "emc": 48
+    },
+    {
+      "item": "minecraft:white_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:terracotta",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:smooth_basalt",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:basalt",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:sandstone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:cobbled_deepslate",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:deepslate",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:cobblestone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:stone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:green_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:lime_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:yellow_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:orange_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:red_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:brown_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:black_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:gray_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:light_gray_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:sand",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:gravel",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:white_concrete",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:pink_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:magenta_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:purple_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:blue_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:light_blue_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:cyan_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:cherry_leaves",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:mangrove_leaves",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:dark_oak_leaves",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:acacia_leaves",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:jungle_leaves",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:birch_leaves",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:spruce_leaves",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:oak_leaves",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:red_sand",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:azalea_leaves",
+      "emc": 1
+    },
+    {
+      "item": "exdeorum:dust",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:moss_block",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:moss_carpet",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:netherrack",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:calcite",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:flower_pot",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:clay",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:nether_bricks",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:red_sandstone",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:bricks",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:andesite",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:diorite",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:granite",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:dripstone_block",
+      "emc": 4
+    },
+    {
+      "item": "create:limestone",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:ink_sac",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:spider_eye",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:ochre_froglight",
+      "emc": 256
+    },
+    {
+      "item": "minecraft:verdant_froglight",
+      "emc": 256
+    },
+    {
+      "item": "minecraft:pearlescent_froglight",
+      "emc": 256
+    }
+  ]
+}

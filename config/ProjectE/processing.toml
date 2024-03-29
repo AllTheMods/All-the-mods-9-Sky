@@ -1,0 +1,34 @@
+
+#This config is used to control which NBT Processors get used, and which ones actually contribute to the persistent NBT data that gets saved to knowledge/copied in a condenser.
+#To disable an NBT Processor set the 'enabled' option for it to false.
+#To disable an NBT Processor from contributing to the persistent data set the 'persistent' option for it to false. Note: that if there is no persistent' config option, the NBT Processor never has any persistent data.
+#The config options in this file are synced from server to client, as the processors get used dynamically to calculate/preview EMC values for items and are not included in the synced EMC mappings.
+[processors]
+
+	#Reduces the EMC value the more damaged an item is.
+	[processors.DamageProcessor]
+		enabled = true
+
+	#Increases the EMC value of the item to take into account any EMC the item has stored.
+	[processors.StoredEMCProcessor]
+		enabled = true
+
+	#Increases the EMC value to take into account any enchantments on an item.
+	[processors.EnchantmentProcessor]
+		enabled = false
+		persistent = false
+
+	#Takes the different sherds into account for each decorated pot.
+	[processors.DecoratedPotProcessor]
+		enabled = true
+		persistent = true
+
+	#Calculates EMC value of trimmed armor.
+	[processors.ArmorTrimProcessor]
+		enabled = true
+		persistent = true
+
+	#Increases the EMC value of any Mekanism items by the value of the stored or installed contents.
+	[processors.MekanismContentsProcessor]
+		enabled = true
+
