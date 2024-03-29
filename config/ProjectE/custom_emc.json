@@ -38,23 +38,23 @@
     },
     {
       "item": "xycraft_world:xychorium_gem_blue",
-      "emc": 1024
+      "emc": 128
     },
     {
       "item": "xycraft_world:xychorium_gem_light",
-      "emc": 1024
+      "emc": 128
     },
     {
       "item": "xycraft_world:xychorium_gem_dark",
-      "emc": 1024
+      "emc": 128
     },
     {
       "item": "xycraft_world:xychorium_gem_red",
-      "emc": 1024
+      "emc": 128
     },
     {
       "item": "xycraft_world:xychorium_gem_green",
-      "emc": 1024
+      "emc": 128
     },
     {
       "item": "minecraft:bone_meal",
@@ -563,6 +563,434 @@
     {
       "item": "minecraft:pearlescent_froglight",
       "emc": 256
+    },
+    {
+      "item": "minecraft:leather",
+      "emc": 27
+    },
+    {
+      "item": "minecraft:blaze_powder",
+      "emc": 768
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "emc": 1536
+    },
+    {
+      "item": "projecte:mobius_fuel_block",
+      "emc": 18432
+    },
+    {
+      "item": "projecte:alchemical_coal_block",
+      "emc": 4608
+    },
+    {
+      "item": "projecte:aeternalis_fuel_block",
+      "emc": 73728
+    },
+    {
+      "item": "projecte:dark_matter_block",
+      "emc": 557056
+    },
+    {
+      "item": "projecte:red_matter_block",
+      "emc": 1867776
+    },
+    {
+      "item": "projecte:interdiction_torch",
+      "emc": 25864
+    },
+    {
+      "item": "projecte:transmutation_table",
+      "emc": 260
+    },
+    {
+      "item": "projecte:alchemical_chest",
+      "emc": 8987
+    },
+    {
+      "item": "projecte:condenser_mk1",
+      "emc": 42011
+    },
+    {
+      "item": "projecte:condenser_mk2",
+      "emc": 9741339
+    },
+    {
+      "item": "projecte:collector_mk1",
+      "emc": 82953
+    },
+    {
+      "item": "projecte:collector_mk2",
+      "emc": 232969
+    },
+    {
+      "item": "projecte:collector_mk3",
+      "emc": 710665
+    },
+    {
+      "item": "projecte:relay_mk1",
+      "emc": 74177
+    },
+    {
+      "item": "projecte:relay_mk2",
+      "emc": 213889
+    },
+    {
+      "item": "projecte:relay_mk3",
+      "emc": 681281
+    },
+    {
+      "item": "projecte:dm_pedestal",
+      "emc": 4653056
+    },
+    {
+      "item": "projecte:dm_furnace",
+      "emc": 4456456
+    },
+    {
+      "item": "projecte:rm_furnace",
+      "emc": 10059784
+    },
+    {
+      "item": "projecte:dm_pick",
+      "emc": 434176
+    },
+    {
+      "item": "projecte:dm_axe",
+      "emc": 434176
+    },
+    {
+      "item": "projecte:dm_shovel",
+      "emc": 155648
+    },
+    {
+      "item": "projecte:dm_hoe",
+      "emc": 294912
+    },
+    {
+      "item": "projecte:dm_shears",
+      "emc": 147456
+    },
+    {
+      "item": "projecte:dm_hammer",
+      "emc": 303104
+    },
+    {
+      "item": "projecte:rm_hammer",
+      "emc": 1515520
+    },
+    {
+      "item": "projecte:rm_morning_star",
+      "emc": 7053312
+    },
+    {
+      "item": "projecte:rm_shovel",
+      "emc": 761856
+    },
+    {
+      "item": "projecte:rm_shears",
+      "emc": 614400
+    },
+    {
+      "item": "projecte:rm_sword",
+      "emc": 1220608
+    },
+    {
+      "item": "projecte:rm_hoe",
+      "emc": 1368064
+    },
+    {
+      "item": "projecte:rm_axe",
+      "emc": 1974272
+    },
+    {
+      "item": "projecte:rm_pick",
+      "emc": 1974272
+    },
+    {
+      "item": "projecte:philosophers_stone",
+      "emc": 9984
+    },
+    {
+      "item": "projecte:repair_talisman",
+      "emc": 490
+    },
+    {
+      "item": "projecte:transmutation_tablet",
+      "emc": 2228488
+    },
+    {
+      "item": "projecte:destruction_catalyst",
+      "emc": 14476
+    },
+    {
+      "item": "projecte:black_hole_band",
+      "emc": 280712
+    },
+    {
+      "item": "projecte:harvest_goddess_band",
+      "emc": 280770
+    },
+    {
+      "item": "projecte:ignition_ring",
+      "emc": 285776
+    },
+    {
+      "item": "projecte:zero_ring",
+      "emc": 280658
+    },
+    {
+      "item": "projecte:swiftwolf_rending_gale{StoredEMC:64L,UnprocessedEMC:0.0d}",
+      "emc": 559360
+    },
+    {
+      "item": "projecte:swiftwolf_rending_gale",
+      "emc": 559360
+    },
+    {
+      "item": "projecte:klein_star_ein",
+      "emc": 24576
+    },
+    {
+      "item": "projecte:klein_star_zwei",
+      "emc": 98304
+    },
+    {
+      "item": "projecte:klein_star_drei",
+      "emc": 393216
+    },
+    {
+      "item": "projecte:klein_star_vier",
+      "emc": 1572864
+    },
+    {
+      "item": "projecte:klein_star_sphere",
+      "emc": 6291456
+    },
+    {
+      "item": "projecte:klein_star_omega",
+      "emc": 25165824
+    },
+    {
+      "item": "projecte:black_alchemical_bag",
+      "emc": 9851
+    },
+    {
+      "item": "projecte:red_alchemical_bag",
+      "emc": 9851
+    },
+    {
+      "item": "projecte:green_alchemical_bag",
+      "emc": 9851
+    },
+    {
+      "item": "projecte:brown_alchemical_bag",
+      "emc": 9851
+    },
+    {
+      "item": "projecte:blue_alchemical_bag",
+      "emc": 9851
+    },
+    {
+      "item": "projecte:purple_alchemical_bag",
+      "emc": 9851
+    },
+    {
+      "item": "projecte:cyan_alchemical_bag",
+      "emc": 9851
+    },
+    {
+      "item": "projecte:light_gray_alchemical_bag",
+      "emc": 9851
+    },
+    {
+      "item": "projecte:gray_alchemical_bag",
+      "emc": 9851
+    },
+    {
+      "item": "projecte:pink_alchemical_bag",
+      "emc": 9851
+    },
+    {
+      "item": "projecte:lime_alchemical_bag",
+      "emc": 9851
+    },
+    {
+      "item": "projecte:yellow_alchemical_bag",
+      "emc": 9851
+    },
+    {
+      "item": "projecte:light_blue_alchemical_bag",
+      "emc": 9851
+    },
+    {
+      "item": "projecte:magenta_alchemical_bag",
+      "emc": 9851
+    },
+    {
+      "item": "projecte:orange_alchemical_bag",
+      "emc": 9851
+    },
+    {
+      "item": "projecte:white_alchemical_bag",
+      "emc": 9851
+    },
+    {
+      "item": "projecte:evertide_amulet",
+      "emc": 417792
+    },
+    {
+      "item": "projecte:volcanite_amulet",
+      "emc": 418176
+    },
+    {
+      "item": "projecte:gem_of_eternal_density",
+      "emc": 319616
+    },
+    {
+      "item": "projecte:mercurial_eye",
+      "emc": 475584
+    },
+    {
+      "item": "projecte:void_ring",
+      "emc": 1534216
+    },
+    {
+      "item": "projecte:arcana_ring{Mode:0b}",
+      "emc": 3460626
+    },
+    {
+      "item": "projecte:body_stone",
+      "emc": 934842
+    },
+    {
+      "item": "projecte:soul_stone",
+      "emc": 937056
+    },
+    {
+      "item": "projecte:mind_stone",
+      "emc": 935712
+    },
+    {
+      "item": "projecte:life_stone",
+      "emc": 1871898
+    },
+    {
+      "item": "projecte:divining_rod_1",
+      "emc": 12
+    },
+    {
+      "item": "projecte:divining_rod_2",
+      "emc": 76
+    },
+    {
+      "item": "projecte:divining_rod_3",
+      "emc": 1740
+    },
+    {
+      "item": "projecte:dm_sword",
+      "emc": 286720
+    },
+    {
+      "item": "projecte:rm_katar",
+      "emc": 7512064
+    },
+    {
+      "item": "projecte:dm_helmet",
+      "emc": 696320
+    },
+    {
+      "item": "projecte:dm_chestplate",
+      "emc": 1114112
+    },
+    {
+      "item": "projecte:dm_leggings",
+      "emc": 974848
+    },
+    {
+      "item": "projecte:dm_boots",
+      "emc": 557056
+    },
+    {
+      "item": "projecte:rm_boots",
+      "emc": 2424832
+    },
+    {
+      "item": "projecte:rm_leggings",
+      "emc": 4243456
+    },
+    {
+      "item": "projecte:rm_chestplate",
+      "emc": 4849664
+    },
+    {
+      "item": "projecte:rm_helmet",
+      "emc": 3031040
+    },
+    {
+      "item": "projecte:gem_helmet",
+      "emc": 29133920
+    },
+    {
+      "item": "projecte:gem_chestplate",
+      "emc": 30950330
+    },
+    {
+      "item": "projecte:gem_leggings",
+      "emc": 30258504
+    },
+    {
+      "item": "projecte:gem_boots",
+      "emc": 28709376
+    },
+    {
+      "item": "projecte:archangel_smite",
+      "emc": 280928
+    },
+    {
+      "item": "projecte:hyperkinetic_lens",
+      "emc": 329186
+    },
+    {
+      "item": "projecte:catalytic_lens",
+      "emc": 1318510
+    },
+    {
+      "item": "projecte:low_covalence_dust",
+      "emc": 1
+    },
+    {
+      "item": "projecte:medium_covalence_dust",
+      "emc": 5
+    },
+    {
+      "item": "projecte:high_covalence_dust",
+      "emc": 208
+    },
+    {
+      "item": "projecte:alchemical_coal",
+      "emc": 512
+    },
+    {
+      "item": "projecte:mobius_fuel",
+      "emc": 2048
+    },
+    {
+      "item": "projecte:aeternalis_fuel",
+      "emc": 8192
+    },
+    {
+      "item": "projecte:dark_matter",
+      "emc": 139264
+    },
+    {
+      "item": "projecte:red_matter",
+      "emc": 466944
+    },
+    {
+      "item": "projecte:iron_band",
+      "emc": 280770
     }
   ]
 }
