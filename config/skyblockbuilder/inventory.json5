@@ -1,0 +1,8 @@
+{
+  // Should all items be reset on first world join? [default: false]
+  // This will delete all the items given on spawn from other mods guide books.
+  "clearInv": false,
+  
+  // Should players' items be dropped when leaving a team? [default: true]
+  "dropItems": true
+}

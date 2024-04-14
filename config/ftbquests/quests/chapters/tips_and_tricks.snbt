@@ -1,0 +1,497 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "tips_and_tricks"
+	group: ""
+	id: "1BE666F01EFFC00D"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "atm:textures/tips_and_tricks.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 100.0d
+			hover: [ ]
+			image: "atm:textures/clouds.png"
+			rotation: 0.0d
+			width: 100.0d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "atm:textures/tips_and_tricks.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: -3.5d
+			y: -4.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Easy item to automate infinite water. Need more water? Make another!"]
+			id: "722978AC0C1B2649"
+			rewards: [
+				{
+					id: "145F9B3A17676EAA"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "1159FE6CDF262C46"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Can be used as Reactor Coolant"
+			tasks: [{
+				id: "6855AE257D62AA37"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			description: ["Use this item to shrink. Helpful for working on automation and also just overall fun."]
+			id: "7EC8814940C4C3D7"
+			rewards: [
+				{
+					id: "7CCC4171B93B35F0"
+					item: "botania:cosmetic_tiny_potato_mask"
+					type: "item"
+				}
+				{
+					id: "156D559B0B56BA9A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "Honey I Shrunk Myself"
+			tasks: [{
+				id: "30C938C85BED7956"
+				item: {
+					Count: 1b
+					id: "shrink:shrinking_device"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			description: ["This potion will allow you to see the respective ore through the walls."]
+			id: "3EE9F242794CD95F"
+			rewards: [
+				{
+					id: "319A13116831F46D"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "potionsmaster:gold_sight"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "717AB46363706266"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "It's like X-Ray Vision!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "potionsmaster:iron_sight"
+					}
+				}
+				id: "15F5B24545C0D42F"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							Potion: "potionsmaster:iron_sight"
+						}
+					}
+				}
+				title: "IronSight"
+				type: "item"
+			}]
+			title: "OreSight Potions"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["73F91BF3D424B269"]
+			description: [
+				"It's an entire room in one block!"
+				""
+				"Higher tiers are even bigger on the inside."
+			]
+			id: "594540768120A627"
+			rewards: [
+				{
+					count: 8
+					id: "0325FA11C261E21D"
+					item: "compactmachines:wall"
+					type: "item"
+				}
+				{
+					id: "10CFB937D14BE803"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "When an infinite world is too small"
+			tasks: [{
+				id: "029DB3044D5E30A0"
+				item: "compactmachines:machine_tiny"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: ["This item is serves as the guide for Compact Machines, as well as the tool needed to teleport into your tiny machine worlds."]
+			id: "73F91BF3D424B269"
+			rewards: [{
+				id: "43605B432D1C8172"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3B227EED4B839733"
+				item: "compactmachines:personal_shrinking_device"
+				type: "item"
+			}]
+			title: "Compact Machines"
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Some useful gadgets for building."
+				""
+				"&cDestruction Gadget voids blocks!"
+			]
+			id: "0F75D7B9F4FF2459"
+			rewards: [{
+				id: "2087EBA230655A8C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "358F3A8EA9E5E7E3"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:gadget_building"
+						tag: {
+							state: {
+								data: { }
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "008AD88A1CDCEE5E"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:gadget_exchanging"
+						tag: {
+							state: {
+								data: { }
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4738B22DF26DB2D8"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:gadget_copy_paste"
+						tag: {
+							mode: 0b
+							template_id: [I;
+								1687424916
+								-1474150034
+								-1591711937
+								1045183693
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "283D88FA9196A4AC"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:gadget_destruction"
+						tag: {
+							fuzzy: 1b
+							overlay: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Building Gadgets"
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Can be helpful for building."
+				""
+				"The consruction wand has cores that can be added to it in crafting. Sneak left-click the air to switch between cores."
+			]
+			id: "2A2E3D020B1F5126"
+			rewards: [{
+				id: "03F64743F4F59499"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "05D9E287D437CDDB"
+				item: {
+					Count: 1b
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Building Wands"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"722978AC0C1B2649"
+				"7EC8814940C4C3D7"
+				"3EE9F242794CD95F"
+				"594540768120A627"
+				"73F91BF3D424B269"
+				"0F75D7B9F4FF2459"
+				"2A2E3D020B1F5126"
+			]
+			hide_dependency_lines: true
+			id: "0F8F37D7E12078F5"
+			rewards: [{
+				id: "032158E75A1291D8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			subtitle: "Complete all of the tips!"
+			tasks: [{
+				id: "42DA8E971B27ACED"
+				type: "checkmark"
+			}]
+			title: "Tipped Out"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3EE9F242794CD95F"]
+			description: [
+				"OreSight Potions can be used to craft Charms!"
+				""
+				"Charms are Curios that last longer, and can be toggled on and off."
+			]
+			id: "6396AA6918B47DDC"
+			rewards: [
+				{
+					id: "46455F0068AFFF60"
+					item: {
+						Count: 1b
+						id: "minecraft:lingering_potion"
+						tag: {
+							Potion: "potionsmaster:diamond_sight"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "403115903FE0D456"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "apotheosis:potion_charm"
+					tag: {
+						Damage: 0
+						Potion: "potionsmaster:iron_sight"
+					}
+				}
+				id: "3F38B1E12C1ADEF1"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							Damage: 0
+							Potion: "potionsmaster:iron_sight"
+						}
+					}
+				}
+				title: "Charm of IronSight"
+				type: "item"
+			}]
+			title: "X-Ray Charms"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			description: ["On this page, you'll find some useful items and info to help you on your journey!"]
+			id: "0C856BBB1679A7DD"
+			rewards: [{
+				id: "5FA6EA3609ABF6BE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "And Other Useful Items!"
+			tasks: [{
+				id: "3DC008A578A93CCF"
+				title: "Tips and Tricks!"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			id: "3FC002E5A6C08DCC"
+			rewards: [{
+				id: "0F5B656ED410D441"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "A Simple Magnet!"
+			tasks: [{
+				id: "4112D6272EC400DE"
+				item: {
+					Count: 1b
+					id: "simplemagnets:basicmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"The rending gale if you are unfamiliar is a method of creative flight! it requires small amounts of emc to run"
+				""
+				"For EMC before a transmutation table, we recommend redstone/glowstone, or a klein star which is the battery of this mod, you can fill these in a projectE relay!"
+			]
+			id: "25E585C8AE7430DC"
+			tasks: [
+				{
+					id: "1E0446C02381B91A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:swiftwolf_rending_gale"
+					}
+					type: "item"
+				}
+				{
+					id: "6E2C6FF70F097FA5"
+					item: "projecte:relay_mk1"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Structures' compass allows a player to quickly locate a specific structure."
+				""
+				"Obtain corals by sieving sand in a waterlogged sieve."
+				"Coral larvae, when used on sea water, will turn into a coral block."
+			]
+			id: "62D9648D1BA54CCA"
+			rewards: [{
+				id: "1E6189AFA40F8F35"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Can be used to find structures"
+			tasks: [{
+				id: "50DAB04F94CB67F2"
+				item: "structures_compass:structures_compass"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			description: ["Nature's Compass is a utility item that allows you to search for a biome's location anywhere in the world and view information about it."]
+			id: "3E235A6A006694A1"
+			rewards: [{
+				id: "18A39F21FDC40EC6"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Can be used to search for a biome's location"
+			tasks: [{
+				id: "0044BD58084BFB4E"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+	]
+	title: "Tips \\& Tricks"
+}

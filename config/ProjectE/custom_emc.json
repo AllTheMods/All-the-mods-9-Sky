@@ -991,6 +991,26 @@
     {
       "item": "projecte:iron_band",
       "emc": 280770
+    },
+    {
+      "item": "minecraft:feather",
+      "emc": 48
+    },
+    {
+      "item": "minecraft:egg",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:chicken",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:cooked_chicken",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:soul_sand",
+      "emc": 49
     }
   ]
 }

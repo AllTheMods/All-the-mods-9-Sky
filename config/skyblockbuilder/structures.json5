@@ -1,0 +1,26 @@
+{
+  // All the features that should be generated.
+  // A list with all possible structures can be found in config/skyblockbuilder/data/features.txt
+  // INFO: The two default values are required for the obsidian towers in end. If this is missing, they will be first generated when respawning the dragon.
+  // WARNING: Some features like trees need special surface!
+  // WARNING: This only works for vanilla dimensions (Overworld, Nether, End)
+  // This is a resource list. See https://moddingx.org/libx/org/moddingx/libx/util/data/ResourceList.html#use_resource_lists_in_configs
+  "generationFeatures": {
+    "allow_list": true,
+    "elements": [
+      "minecraft:end_spike",
+      "minecraft:end_gateway_return"
+    ]
+  },
+  
+  // All the structures that should be generated.
+  // A list with all possible structures can be found in config/skyblockbuilder/data/structures.txt
+  // WARNING: This only works for vanilla dimensions (Overworld, Nether, End)
+  // This is a resource list. See https://moddingx.org/libx/org/moddingx/libx/util/data/ResourceList.html#use_resource_lists_in_configs
+  "generationStructures": {
+    "allow_list": true,
+    "elements": [
+      "minecraft:fortress"
+    ]
+  }
+}

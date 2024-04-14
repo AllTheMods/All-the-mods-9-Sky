@@ -1,0 +1,40 @@
+{
+  // The template which will be used for spawn only
+  // Example: 
+  // {
+  //     "name": "default",
+  //     "desc": "",
+  //     "file": "default.nbt",
+  //     "spawns": "default",
+  //     "offset": [ 0, 0, 0 ],
+  //     "surroundingMargin": 0,
+  //     "surroundingBlocks": "default"
+  // }
+  "spawn": null,
+  
+  "spawns": {
+    "default": {
+      "south": [
+        [ 6, 3, 5 ]
+      ],
+      "east": [],
+      "west": [],
+      "north": []
+    }
+  },
+  
+  // A list of blocks which can be used to surround islands/caves.
+  "surroundingBlocks": {
+    "default": []
+  },
+  
+  // The list of templates being available. The first entry is the default template.
+  "templates": [
+    {
+      "name": "default",
+      "file": "default.nbt",
+      "spawns": "default",
+      "surroundingBlocks": "default"
+    }
+  ]
+}

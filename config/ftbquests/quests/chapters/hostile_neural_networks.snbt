@@ -1,0 +1,304 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: "square"
+	filename: "hostile_neural_networks"
+	group: "6614EE2378B8AFB9"
+	icon: {
+		Count: 1b
+		id: "hostilenetworks:data_model"
+		tag: {
+			data_model: {
+				id: "hostilenetworks:creeper"
+			}
+		}
+	}
+	id: "0A52D0932DA3F809"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 100.0d
+		hover: [ ]
+		image: "atm:textures/clouds.png"
+		rotation: 0.0d
+		width: 100.0d
+		x: -4.5d
+		y: 4.5d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6Hostile Neural Networks&r (or HNN for short) is a mod based around simulating mob kills for loot."
+				""
+				"The mod is based around collecting data on mobs, then running simulations from the data to output potential drops from the mob's loot pools."
+			]
+			icon: {
+				Count: 1b
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:enderman"
+					}
+				}
+			}
+			id: "37EBB8E0D6E5F821"
+			rewards: [{
+				id: "0BE74809343EA491"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "463EB27ECC7E6509"
+				title: "Welcome to &9Hostile Neural Networks&r!"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37EBB8E0D6E5F821"]
+			description: [
+				"The &9Deep Learner&r is one of the core components of HNN."
+				""
+				"With this item, you can right click to open up a HUD and store &6Data Models&r to gather data while killing mobs."
+				""
+				"Each Learner can hold 4 Data Models, and as long as you have it anywhere in your inventory, it will collect data for the models placed inside when you kill a mob."
+			]
+			hide: true
+			id: "3E3CBDCEAB0FF28F"
+			rewards: [
+				{
+					count: 2
+					id: "6AC001B1ECDB36D4"
+					item: "minecraft:obsidian"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "53E0BE29CFBA6D17"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			subtitle: "The Learning HUD"
+			tasks: [{
+				id: "054BE385F6537CBA"
+				item: "hostilenetworks:deep_learner"
+				type: "item"
+			}]
+			title: "Learning Mobs"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["37EBB8E0D6E5F821"]
+			description: [
+				"&9Model Frameworks&r are the starting point for creating Data Models."
+				""
+				"To start collecting data on a specific mob, you'll want to make one of these then &9right click&r the mob you'd like to gather data on. When done properly, the Model Framework will turn into the Data Model of the mob you clicked on."
+				""
+				"To \"gather data\" for that mob, place the newly created Data Model inside of a &aDeep Learner&r, then start killing that specific mob with the Deep Learner in your inventory."
+			]
+			hide: true
+			id: "58C2ABED43B2EA61"
+			rewards: [
+				{
+					id: "757C87B22E113525"
+					item: "hostilenetworks:blank_data_model"
+					type: "item"
+				}
+				{
+					id: "010AC03DCFB7AFC7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			subtitle: "For \"Gathering Data\""
+			tasks: [{
+				id: "1C090CE24508A2EC"
+				item: "hostilenetworks:blank_data_model"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3E3CBDCEAB0FF28F"
+				"58C2ABED43B2EA61"
+			]
+			description: [
+				"The &dSimulation Chamber&r is the main machine within HNN."
+				""
+				"When given power, and a good amount of power at that, it will run simulations based on the &bData Model&r that is placed inside. The power required also depends on the Data Model placed inside, and can be seen within the Model's tooltip. "
+				""
+				"The machine also requires at least one &9Prediction Matrix&r to run a simulation."
+				""
+				"The result of the simulation will be output onto the Matrix. Simulations will always produce some kind of Generalized Prediction, which can be used in various crafting recipes. They also vary depending on the origin of the mob in the Data Model."
+				""
+				"If the simulation succeeds, you will receive a &5Mob Prediction&r based off of the model. The higher the tier of the Data Model used, the higher the success rate is for a simulation."
+			]
+			hide: true
+			hide_dependency_lines: false
+			id: "104EBBC08B4733F5"
+			rewards: [{
+				id: "71538E4CC7F261BD"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6E9AD3D0255D4F8B"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58C2ABED43B2EA61"]
+			description: [
+				"Once you make your first Data Model, you'll need to level it up to be useful."
+				""
+				"Data Models start out at the first tier: &7Faulty&r. You'll need to at least level it to &aBasic&r if you'd like to run some simulations on it!"
+				""
+				"Once placed inside of the Deep Learner, the HUD will tell you how many kills are required to level it up. You can also see this info in the tooltip of the Model itself, although you'll have to do math."
+			]
+			hide: true
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:blaze"
+					}
+				}
+			}
+			id: "34CD54347E9821B5"
+			optional: true
+			rewards: [
+				{
+					id: "76BA8FBE648B067F"
+					item: "hostilenetworks:empty_prediction"
+					type: "item"
+				}
+				{
+					id: "24AC88E214212942"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7CEA92391454DDD3"
+				title: "Leveling Up Data Models"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["104EBBC08B4733F5"]
+			description: ["Makes various Overworld materials."]
+			hide_dependency_lines: false
+			id: "2559201BCF5D497C"
+			rewards: [{
+				id: "087615C56FE36EA1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "655C40D2B0080E17"
+				item: "hostilenetworks:overworld_prediction"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["104EBBC08B4733F5"]
+			description: ["Makes various Nether materials."]
+			hide_dependency_lines: false
+			id: "10E8BC20D406D9FB"
+			rewards: [{
+				id: "6C51DBC871558E9D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "01DFF76EC79179F4"
+				item: "hostilenetworks:nether_prediction"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["104EBBC08B4733F5"]
+			description: ["Makes various End materials."]
+			hide_dependency_lines: false
+			id: "5A23107C363A209E"
+			rewards: [{
+				id: "045115E180379B21"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "62F42CED16C84B74"
+				item: "hostilenetworks:end_prediction"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["104EBBC08B4733F5"]
+			description: [
+				"The &5Loot Fabricator&r is the machine that gets you that sweet, sweet loot from Mob Predictions."
+				""
+				"When given power and a successful Mob Prediction, you will be able to choose which item you'd like to get from that mob's Data Model. The machine will remember your choice, so it can be automated."
+				""
+				"Notable Mob Predictions:"
+				""
+				"- &dEnder Dragons&r for &dDragon Eggs&r"
+				"- &2Zombies&r for Iron"
+				"- &0Withers&r for &5Nether Stars&r"
+			]
+			hide_dependency_lines: false
+			id: "14B3542ECB59869C"
+			rewards: [
+				{
+					count: 4
+					id: "49341865BD900B18"
+					item: "hostilenetworks:overworld_prediction"
+					type: "item"
+				}
+				{
+					id: "1FB96BBC0BA9D07A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "19F0FC233A052810"
+				item: "hostilenetworks:loot_fabricator"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+	]
+	title: "Hostile Neural Networks"
+}

@@ -4,7 +4,7 @@
 
 	[server.difficulty]
 		#Set to false to disable Gem Armor offensive abilities (helmet zap and chestplate explosion)
-		offensiveAbilities = true
+		offensiveAbilities = false
 		#Amount of damage Katar 'C' key deals
 		#Range: 0.0 ~ 2.147483647E9
 		katarDeathAura = 1000.0
@@ -22,7 +22,7 @@
 		#If set to true, disables all radius-based mining functionality (right click of tools)
 		disableAllRadiusMining = false
 		#Enable Watch of Flowing Time
-		enableTimeWatch = false
+		enableTimeWatch = true
 		#Allow the Evertide amulet to place water in dimensions that water evaporates. For example: The Nether.
 		opEvertide = false
 

@@ -1,0 +1,73 @@
+
+#General settings
+[General]
+	#Dictates the 1 in X chance the Oreberry Bush grows every time it tries to grow [Default: 20]
+	#Range: > 1
+	growthChance = 20
+
+#Placement settings
+[Placement]
+	#Only allow placing Iron Bushes in darkness [Default: true]
+	darknessOnlyIronBush = false
+	#Only allow placing Gold Bushes in darkness [Default: true]
+	darknessOnlyGoldBush = false
+	#Only allow placing Copper Bushes in darkness [Default: true]
+	darknessOnlyCopperBush = false
+	#Only allow placing Tin Bushes in darkness [Default: true]
+	darknessOnlyTinBush = false
+	#Only allow placing Aluminum Bushes in darkness [Default: true]
+	darknessOnlyAluminumBush = false
+	#Only allow placing Lead Bushes in darkness [Default: true]
+	darknessOnlyLeadBush = false
+	#Only allow placing Nickel Bushes in darkness [Default: true]
+	darknessOnlyNickelBush = false
+	#Only allow placing Uranium Bushes in darkness [Default: true]
+	darknessOnlyUraniumBush = false
+	#Only allow placing Osmium Bushes in darkness [Default: true]
+	darknessOnlyOsmiumBush = false
+	#Only allow placing Zinc Bushes in darkness [Default: true]
+	darknessOnlyZincBush = false
+	#Only allow placing Silver Bushes in darkness [Default: true]
+	darknessOnlySilverBush = false
+	#Only allow placing Essence Bushes in darkness [Default: true]
+	darknessOnlyEssenceBush = false
+
+#Density settings
+[Density]
+	#Iron Bush Density [Default: 1]
+	#Range: 1 ~ 32
+	ironBushDensity = 1
+	#Gold Bush Density [Default: 1]
+	#Range: 1 ~ 32
+	goldBushDensity = 1
+	#Copper Bush Density [Default: 2]
+	#Range: 1 ~ 32
+	copperBushDensity = 2
+	#Tin Bush Density [Default: 2]
+	#Range: 1 ~ 32
+	tinBushDensity = 2
+	#Aluminum Bush Density [Default: 2]
+	#Range: 1 ~ 32
+	aluminumBushDensity = 2
+	#Lead Bush Density [Default: 1]
+	#Range: 1 ~ 32
+	leadBushDensity = 1
+	#Nickel Bush Density [Default: 1]
+	#Range: 1 ~ 32
+	nickelBushDensity = 1
+	#Uranium Bush Density [Default: 1]
+	#Range: 1 ~ 32
+	uraniumBushDensity = 1
+	#Osmium Bush Density [Default: 1]
+	#Range: 1 ~ 32
+	osmiumBushDensity = 1
+	#Zinc Bush Density [Default: 2]
+	#Range: 1 ~ 32
+	zincBushDensity = 2
+	#Silver Bush Density [Default: 1]
+	#Range: 1 ~ 32
+	silverBushDensity = 1
+	#Essence Bush Density [Default: 2]
+	#Range: 1 ~ 32
+	essenceBushDensity = 2
+

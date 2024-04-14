@@ -1,0 +1,1350 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal_expansion"
+	group: "2B51AC12041E3F89"
+	icon: "thermal:machine_frame"
+	id: "658721DF03EC997D"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 100.0d
+		hover: [ ]
+		image: "atm:textures/clouds.png"
+		rotation: 0.0d
+		width: 100.0d
+		x: 2.0d
+		y: 1.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Thermal Series is a modular series of mods that add a content-rich blend of magic and technology to your Minecraft experience!"
+				""
+				"A lot of the machines provide a basic function, with easy upgrades."
+			]
+			icon: "thermal:upgrade_augment_3"
+			id: "2C50B0E024C3D92E"
+			rewards: [
+				{
+					id: "184363B38B8B2CBA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "009C332DA938512C"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "thermal:guidebook"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "And Also Thermal Series!"
+			tasks: [{
+				id: "6E9F3C8EAA84CE3E"
+				title: "Thermal Expansion!"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			description: [
+				"The Redstone Furnace uses RF/FE instead of Coal to smelt items."
+				""
+				"Like all machines in the Thermal Series, this machine can be upgraded with augments to increase the speed of each process."
+			]
+			id: "22BC123D486CC3E3"
+			rewards: [
+				{
+					count: 2
+					id: "645C28F20C7B3460"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3931E35AF519F24F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Powered Furnace"
+			tasks: [{
+				id: "288B38C43A7C6D48"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			title: "The Redstone Furnace"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22BC123D486CC3E3"]
+			description: ["The Pulverizer breaks raw ores into dusts, and also has a 25% chance to create an extra dust."]
+			id: "55C8DD9A754545BD"
+			subtitle: "Breaks Ores into Dusts"
+			tasks: [{
+				id: "06665E87CB134F3C"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55C8DD9A754545BD"]
+			description: [
+				"The Induction Furnace combines materials into new alloys."
+				""
+				"This is also useful when smelting Ancient Debris into Netherite Scraps."
+			]
+			id: "452F51995AD0461C"
+			rewards: [
+				{
+					count: 2
+					id: "28388CEF2D0815F6"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "67F235DD23CAEDC4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "The Alloy Maker"
+			tasks: [{
+				id: "63C10CF0EF19F2C8"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: ["The Machine Frame is needed to craft various machines in Thermal Series."]
+			id: "5F385CBA98795C62"
+			rewards: [
+				{
+					id: "157563CE4EFA237B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "676677234F8E6F37"
+					item: "thermal:tin_gear"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "The Basic Frame for Machines"
+			tasks: [{
+				id: "3EC446E752907C94"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "3DA93308D19BA85F"
+			rewards: [
+				{
+					count: 2
+					id: "3F7758B6D2259A67"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "108A20AE0FED5D27"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Generates Power by Burning Items!"
+			tasks: [{
+				id: "4BEE939AC38768ED"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: ["Note: This accepts Tree Oil, Creosote Oil, and Refined Fuel."]
+			hide_dependency_lines: true
+			id: "7FE2EED58AB791E8"
+			rewards: [
+				{
+					count: 2
+					id: "1792D6BA0E5F45D3"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7B21F4A9F2C52F51"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Generates Power using Liquid Fuel!"
+			tasks: [{
+				id: "6E5C2E9D729210C9"
+				item: "thermal:dynamo_compression"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "2F71FCE4E576C977"
+			rewards: [
+				{
+					id: "317ED7FF0734E5F1"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "79A13EA08A164B86"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Generates Power using Lava!"
+			tasks: [{
+				id: "52A52D9AC73D57A6"
+				item: "thermal:dynamo_magmatic"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "72C1C2CE02DCBDFF"
+			rewards: [
+				{
+					count: 2
+					id: "2D68111DA1CB4560"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "48E74944FEA0ECC1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Generates Power using Gems!"
+			tasks: [{
+				id: "7B973B2B2EED7921"
+				item: "thermal:dynamo_lapidary"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: [""]
+			hide_dependency_lines: true
+			id: "2EAE9EDE6EFA59F0"
+			rewards: [
+				{
+					id: "7A632E03F9CD6324"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "47096C6969AB1279"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Generates Power using Enchanted Items!"
+			tasks: [{
+				id: "0E3CDD1130A56248"
+				item: "thermal:dynamo_disenchantment"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "40ADAB71DB70EF32"
+			rewards: [
+				{
+					count: 4
+					id: "557845C485F475BB"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					id: "7C366B7A8CE82E4B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Generates Power using Food?"
+			tasks: [{
+				id: "795A2D642A7B7D50"
+				item: "thermal:dynamo_gourmand"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: [
+				"This is a base upgrade for all machines and items."
+				""
+				"Note: While you can put several base upgrades into a machine, only the highest tier takes effect."
+			]
+			hide_dependency_lines: true
+			id: "76084BE1BBCF941F"
+			rewards: [
+				{
+					id: "6F6FE7215CE5F711"
+					item: "alltheores:invar_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7CD91CF01EAA7BCD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Tier 1 Base Upgrade"
+			tasks: [{
+				id: "3EE6189C5B2FDD2F"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: [
+				"This is a tier 2 upgrade for Thermal Series items and machines."
+				""
+				"Note: While you can put several base upgrades into a machine, only the highest tier takes effect."
+			]
+			hide_dependency_lines: true
+			id: "246CD1925FD6761C"
+			rewards: [
+				{
+					id: "7B0C61173C1E385F"
+					item: "alltheores:electrum_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "723FE016CAA6566D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Tier 2 Base Upgrade"
+			tasks: [{
+				id: "6AD321AC8D6BFDAD"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: [
+				"This is the highest base tier upgrade for Thermal Series items and machines."
+				""
+				"Note: While you can put several base upgrades into a machine, only the highest tier takes effect."
+			]
+			hide_dependency_lines: true
+			id: "034FC4BCCCD7D154"
+			rewards: [
+				{
+					id: "73069B8BEF917238"
+					item: "alltheores:enderium_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "6724D7DE6CC92091"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Tier 3 Base Upgrade"
+			tasks: [{
+				id: "5237B4381DA7BE1B"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: ["Creates an infinite water source when placed between two water source blocks."]
+			hide_dependency_lines: true
+			id: "213FFA67A680E534"
+			rewards: [{
+				id: "46E591F83A20EB99"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "07C7BA8E13F85930"
+				item: "thermal:device_water_gen"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: ["This machine charges the items placed inside."]
+			hide_dependency_lines: true
+			id: "5FDEAA78891874FD"
+			rewards: [{
+				id: "16C939074FA98D0B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "Charges Items"
+			tasks: [{
+				id: "2BB7C4355B61F638"
+				item: "thermal:charge_bench"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: [
+				"This machine can produce several types of stone."
+				""
+				"Place 1 lava source block on one side, and 1 water source block on the other, and it will generate cobblestone. Check the recipes to see the other kinds of stone you can create!"
+			]
+			hide_dependency_lines: false
+			id: "4EA8BA9753D0DD81"
+			optional: true
+			rewards: [{
+				id: "600EF049B3363CCC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "A Cobblestone Generator"
+			tasks: [{
+				id: "2720B59BB163F73B"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			description: [
+				"Can convert certain blocks into liquids."
+				""
+				"This is useful for generating lava from Cobblestone, Netherrack, etc."
+			]
+			id: "0897F7A3203E45AF"
+			rewards: [
+				{
+					count: 2
+					id: "17ED61A2826904F0"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "4C62A0183D243C27"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3D2DFF6062AED26E"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			description: [
+				"This machine works like a Botany Pot, Garden Cloche, etc."
+				""
+				"When given water and a seed, it will grow the seed inside of the machine and auto-output the products into the machine."
+			]
+			id: "648B483B128A32F5"
+			rewards: [
+				{
+					count: 2
+					id: "0A2AFACCD0325725"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "265FD226E965D7B3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "61287BF539F0C5FC"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			hide_dependency_lines: true
+			id: "66321E1F01C36567"
+			rewards: [
+				{
+					count: 2
+					id: "3F6F80DD86768631"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "374BE54F4405BC0B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7A3BCB9C631D8FAD"
+				item: "thermal:machine_sawmill"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "1B04B7EA5220D275"
+			rewards: [{
+				id: "7F764F32D74976B4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "Vacuums up items"
+			tasks: [{
+				id: "3819DBE6E95E998E"
+				item: "thermal:device_collector"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: ["Spreads Potion Effects to an area."]
+			hide_dependency_lines: true
+			id: "66858700C3DDCB9E"
+			rewards: [{
+				id: "479CC02BC1343DBE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "590869F3AE44A956"
+				item: "thermal:device_potion_diffuser"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: ["Can be used to charge items, augment machines, or fill up items with liquid."]
+			id: "74F524F4F0231A78"
+			rewards: [{
+				id: "4E1086FC2DA044FC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5835951863555C2E"
+				item: "thermal:tinker_bench"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "037E566ACC83FE07"
+			rewards: [
+				{
+					count: 8
+					id: "377A6DEE4C0534AC"
+					item: "minecraft:redstone"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "54DBA686738A0538"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "64186CC4330A70D8"
+				item: {
+					Count: 1b
+					id: "thermal:energy_cell"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 1000000
+							EnergyRecv: 1000
+							EnergySend: 1000
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Storing Power"
+			x: -1.25d
+			y: 1.9499999999999997d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "4389E906A2A74867"
+			rewards: [
+				{
+					id: "4AE007FFAF1003F8"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					id: "43B8F1F2FBA0D4EA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "694DB377E094D28E"
+				item: {
+					Count: 1b
+					id: "thermal:fluid_cell"
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								Amount: 0
+								Capacity: 32000
+								FluidName: "minecraft:empty"
+								Tank: 0b
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Storing Fluids"
+			x: 5.25d
+			y: 1.9499999999999997d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "483C1F4D099369A2"
+			shape: "diamond"
+			subtitle: "Allows Storage of XP"
+			tasks: [{
+				id: "66656B02B957573F"
+				item: "thermal:xp_storage_augment"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "0837E35C9C6881B4"
+			rewards: [
+				{
+					id: "201F92E1F14DEB10"
+					item: "thermal:rf_coil"
+					type: "item"
+				}
+				{
+					id: "3990D47351D43E1C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "Increases RF Capacity and Transfer Rate x4"
+			tasks: [{
+				id: "7B26A8BFD1A95C37"
+				item: "thermal:rf_coil_augment"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.1999999999999993d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "3320ADFD7DC4CA00"
+			rewards: [
+				{
+					id: "55A2FDB333D14EB3"
+					item: "thermal:rf_coil"
+					type: "item"
+				}
+				{
+					id: "204DB02FD7E9A4F6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "Increases RF Capacity 6x, RF Transfer 2x"
+			tasks: [{
+				id: "343BE40C70DE294D"
+				item: "thermal:rf_coil_storage_augment"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.1999999999999993d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "79366EC1EE27ED4B"
+			rewards: [
+				{
+					id: "50D125D0277A6840"
+					item: "thermal:rf_coil"
+					type: "item"
+				}
+				{
+					id: "591FD4F323E3FF7C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "Increases RF Transfer 6x, Capacity 2x"
+			tasks: [{
+				id: "5597E985A7D5A648"
+				item: "thermal:rf_coil_xfer_augment"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.1999999999999993d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "6DF4B859ACBCD408"
+			shape: "diamond"
+			subtitle: "Increases Tank Storage 4x"
+			tasks: [{
+				id: "08E5FBA1585C2520"
+				item: "thermal:fluid_tank_augment"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "6D35E56FC874C841"
+			shape: "diamond"
+			tasks: [{
+				id: "1726C6AB09496E0C"
+				item: "thermal:item_filter_augment"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: ["Can Stack."]
+			hide_dependency_lines: true
+			id: "74DD4F8A13EAD3ED"
+			rewards: [
+				{
+					id: "0914250C954E3A06"
+					item: "thermal:rf_coil"
+					type: "item"
+				}
+				{
+					id: "10EE19CDB35235F4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "Increases Processing Speed, but Reduces Efficiency"
+			tasks: [{
+				id: "25A7D08474208FFF"
+				item: "thermal:machine_speed_augment"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.1999999999999993d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "61E2FC5D363A5CA4"
+			rewards: [
+				{
+					id: "24AB9EB0657F21DF"
+					item: "thermal:rf_coil"
+					type: "item"
+				}
+				{
+					id: "5534C32BABF19B6D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "Increases Efficiency at the cost of Speed"
+			tasks: [{
+				id: "0AE3A9A2409328A5"
+				item: "thermal:machine_efficiency_augment"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.6999999999999993d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "58C6BAC128155B4E"
+			rewards: [
+				{
+					count: 4
+					id: "28C68DD4C8E2E290"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "1672462285E4696D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "Increases Secondary Output"
+			tasks: [{
+				id: "45A1CED6F873BAE9"
+				item: "thermal:machine_output_augment"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.6999999999999993d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "7D49A41E4D63A596"
+			rewards: [
+				{
+					count: 4
+					id: "0410D3AC01336E89"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "40E9A3AF6C1A87BC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "Reduces Catalyst Usage"
+			tasks: [{
+				id: "0D7DABD758C2E4D4"
+				item: "thermal:machine_catalyst_augment"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.6999999999999993d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "234CD79746FCAA18"
+			shape: "diamond"
+			subtitle: "Voids By-products"
+			tasks: [{
+				id: "784D4494897AF202"
+				item: "thermal:machine_null_augment"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "7C83735C2D746162"
+			rewards: [
+				{
+					count: 2
+					id: "07C6E60617BB5598"
+					item: "alltheores:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "4B8F25D9433225BF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Increases Generation Rate at Cost of Efficiency"
+			tasks: [{
+				id: "3C21EEF086B0389E"
+				item: "thermal:dynamo_output_augment"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "467CDD14AE21A850"
+			rewards: [
+				{
+					count: 2
+					id: "13FBA70429ECFB9D"
+					item: "alltheores:lead_ingot"
+					type: "item"
+				}
+				{
+					id: "6D0FE4CFD7575A75"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Increases Fuel Efficiency of Dynamos"
+			tasks: [{
+				id: "742509D490DFF478"
+				item: "thermal:dynamo_fuel_augment"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "00C24A7DFEAEE956"
+			shape: "diamond"
+			subtitle: "Increases AoE Effect +1"
+			tasks: [{
+				id: "19645876A73F0E7D"
+				item: "thermal:area_radius_augment"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["66858700C3DDCB9E"]
+			id: "22A1C68078EFB38B"
+			rewards: [{
+				id: "16143BA782E3D869"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "Amplifies Potion Effect"
+			tasks: [{
+				id: "08ED05EBDFF0B4D9"
+				item: "thermal:potion_amplifier_augment"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["66858700C3DDCB9E"]
+			id: "1714E1048F01E1AA"
+			rewards: [{
+				id: "065A80C12CFDB394"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "Increases Duration of Potion Effect"
+			tasks: [{
+				id: "501A3B2548F6DB3E"
+				item: "thermal:potion_duration_augment"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			description: [
+				"Don't get too excited."
+				""
+				"This mostly only works for extracting dyes from flowers, or ore blends back into their components."
+			]
+			id: "3475E12711B6BB98"
+			rewards: [
+				{
+					count: 2
+					id: "4E553FBD4F8A490F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "5C7E902F13347679"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			subtitle: "Separates Items into their Crafting Components"
+			tasks: [{
+				id: "2183800CED355EEB"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			description: [
+				"Creates \"Presses\" using Casts."
+				""
+				"Think plates, gears, etc."
+			]
+			hide_dependency_lines: true
+			id: "5963FBEB78A79668"
+			rewards: [
+				{
+					count: 2
+					id: "606A7B939EE55A1F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "650B53A376632EC3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0C6725EA57E7D9EE"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			description: [
+				"Converts items from a liquid to a solid, some requiring casts."
+				""
+				"There is also a bee spawn egg recipe it can create."
+			]
+			id: "469443A3BA0C3BEE"
+			rewards: [
+				{
+					count: 2
+					id: "6A4E8F8DE71C9E67"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "46B90F00B2015BE6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "66AF5C07727A5B39"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			description: ["Can convert liquids into items or other useful liquids."]
+			hide_dependency_lines: true
+			id: "627D6FDC3D8C42F6"
+			rewards: [
+				{
+					count: 2
+					id: "18FBAF701BE8EC4C"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "7D725FF8CB44785C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3B188F7D7009093C"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			description: [
+				"Works like a Coke Oven, but simplified."
+				""
+				"Insert \"fuel\" like Coal and it'll produce Coal Coke and a by-product."
+			]
+			hide_dependency_lines: true
+			id: "5ECC93FB8F676E3F"
+			rewards: [
+				{
+					count: 2
+					id: "197BC5DF546FEBB7"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "5AA3B772E203E40C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "76A0C32FB86A089D"
+				item: "thermal:machine_pyrolyzer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			description: ["Combines Liquids with Items"]
+			hide_dependency_lines: true
+			id: "469663FE3DA932EF"
+			rewards: [
+				{
+					count: 2
+					id: "2194ED40B390894E"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "05CAA4581B7D1435"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "05867D444D20EABE"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			description: ["Can Create \"Liquid\" Potions that can be bottled into Potions."]
+			hide_dependency_lines: true
+			id: "1BCE8D02CDD13838"
+			rewards: [
+				{
+					count: 2
+					id: "0F4BB5784E5072E7"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "46E350F851A4013C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "70EF981620DADB32"
+				item: "thermal:machine_brewer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			hide_dependency_lines: true
+			id: "7AAEFA2A349D3F82"
+			rewards: [
+				{
+					count: 2
+					id: "1DDD8ACB6A97E509"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "4FE6677655F3B4DD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			subtitle: "An Auto-Crafter!"
+			tasks: [{
+				id: "72EC640A6F6C69C1"
+				item: "thermal:machine_crafter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: ["It's more like a pickaxe that uses RF/FE."]
+			hide_dependency_lines: true
+			id: "5257468DC6C11851"
+			rewards: [
+				{
+					count: 2
+					id: "1C0D860B17A269B8"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7029BD256EF4EEBD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "octagon"
+			subtitle: "An Early-Game Mining Gadget"
+			tasks: [{
+				id: "38EE8C011F7E3FEC"
+				item: {
+					Count: 1b
+					id: "thermal:flux_drill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "6BF6B00BC21CA547"
+			rewards: [
+				{
+					count: 2
+					id: "49051CD5B06A235D"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "539EF1C8332A468C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "octagon"
+			subtitle: "RF-Powered Handsaw!"
+			tasks: [{
+				id: "504ABB4FCF4AA14E"
+				item: {
+					Count: 1b
+					id: "thermal:flux_saw"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+	]
+	title: "Thermal Series"
+}
