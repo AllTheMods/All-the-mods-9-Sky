@@ -41,15 +41,6 @@ ServerEvents.recipes((event) => {
     T: "minecraft:redstone",
     X: "minecraft:stone",
   });
-  // 2x slabs -> 1x plank through shaped crafting
-  event.forEachRecipe(
-    { type: "minecraft:crafting_shaped", output: "#minecraft:slabs" },
-    (r) => {
-      let ingredients = r.originalRecipeIngredients; // returns a List<Ingredient>
-      let output = r.originalRecipeResult; // returns an ItemStack
-      event.shaped(ingredients[0], ["S", "S"], { S: output });
-    }
-  );
   // 1x stair -> 1x plank through stonecutting
   event.forEachRecipe(
     { type: "minecraft:stonecutting", output: "#minecraft:stairs" },
@@ -93,7 +84,7 @@ ServerEvents.recipes((event) => {
   // event.shaped("4x minecraft:chest", ["XXX", "X X", "XXX"], {
   //   X: "#minecraft:logs",
   // });
-  global.chests.forEach((r) => {
-    event.shaped("4x " + r, ["SSS", "S S", "SSS"], { S: "#minecraft:logs" });
+  event.shaped("minecraft:chest", ["YYY", "Y Y", "YYY"], {
+    Y: "#minecraft:logs"
   });
 });
