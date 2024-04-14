@@ -87,15 +87,8 @@
 			]
 			subtitle: "Stacks on Stacks"
 			tasks: [{
-				id: "79EC3CF180A5A940"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "functionalstorage:drawer"
-					}
-				}
-				title: "Any #storagedrawers:drawers"
+				id: "24C2DBB1BD31E7B1"
+				item: "functionalstorage:oak_1"
 				type: "item"
 			}]
 			title: "My First Drawer"

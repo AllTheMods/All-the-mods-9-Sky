@@ -111,36 +111,14 @@
 				}
 			]
 			subtitle: "The Start of Everyone's Journey"
-			tasks: [
-				{
-					count: 8L
-					icon: "minecraft:oak_log"
-					id: "1BB08F6BC4167067"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "minecraft:logs"
-						}
-					}
-					title: "Any #minecraft:logs"
-					type: "item"
-				}
-				{
-					count: 16L
-					icon: "minecraft:oak_planks"
-					id: "63E6BD713B5AF4AE"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "minecraft:planks"
-						}
-					}
-					title: "Any #minecraft:planks"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				icon: "minecraft:oak_log"
+				id: "1BB08F6BC4167067"
+				item: "minecraft:oak_log"
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
 			title: "I'm twerkin' 9 to 5..."
 			x: -6.0d
 			y: -1.0d
@@ -348,15 +326,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"3001B2EEE5C6C9AB"
-				"3BB3AA6C29285837"
-				"1F88C697817A7680"
-				"1F7591DB6D8EC1E7"
-				"212EF8601746C500"
-				"5F6ACDE014A61F46"
-				"1C4ABF4518638A82"
-			]
+			dependencies: ["3001B2EEE5C6C9AB"]
 			description: [
 				"Crooks will give you a much better chance of getting saplings and apples from leaves, but is also how to get silkworms. You will need these to get string for further progression."
 				""
@@ -387,20 +357,11 @@
 				"Remember, you can hammer compressed items."
 			]
 			id: "35EF391AB5344094"
-			rewards: [
-				{
-					auto: "disabled"
-					command: "/create ponder exnihilosequentia:wooden_hammer"
-					id: "316751A6582293A2"
-					title: "Click for a tutorial!"
-					type: "command"
-				}
-				{
-					id: "413B6EC90CF35070"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "413B6EC90CF35070"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "A totally overused joke"
 			tasks: [{
 				id: "596CB9CDB4192339"
@@ -900,12 +861,12 @@
 			rewards: [
 				{
 					id: "62E9DFE0920058BA"
-					item: "allthecompressed:gravel_block_1x"
+					item: "allthecompressed:gravel_1x"
 					type: "item"
 				}
 				{
 					id: "37A0048FB1C89F00"
-					item: "allthecompressed:sand_block_1x"
+					item: "allthecompressed:sand_1x"
 					type: "item"
 				}
 				{
@@ -926,6 +887,11 @@
 		{
 			dependencies: ["647E94E2156CB596"]
 			id: "27187D13B58AC79C"
+			rewards: [{
+				id: "6D70E62266F810C8"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "782F24659594A498"
 				item: "cobblefordays:tier_2"
@@ -937,6 +903,11 @@
 		{
 			dependencies: ["27187D13B58AC79C"]
 			id: "10B71AD29063471F"
+			rewards: [{
+				id: "03571FE7B2B14313"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "00E61B1DC1A037FA"
 				item: "cobblefordays:tier_3"
@@ -948,6 +919,11 @@
 		{
 			dependencies: ["10B71AD29063471F"]
 			id: "0F9EE68E5D61DC91"
+			rewards: [{
+				id: "4C44B80DCCB366E4"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "56B24F9D4DEAC5ED"
 				item: "cobblefordays:tier_4"
@@ -959,6 +935,11 @@
 		{
 			dependencies: ["0F9EE68E5D61DC91"]
 			id: "0FD620A455281A6D"
+			rewards: [{
+				id: "1296B73B7D44238D"
+				type: "xp"
+				xp: 200
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "050F897BBD5226AF"
@@ -1003,6 +984,7 @@
 		{
 			dependencies: ["42240BED17BA0948"]
 			description: [
+				"&l(This is outdated and to be updated. Mix milk with water to get slime.)&l"
 				"Mycelium Spores, when used on witch water, will turn into a brown mushroom block."
 				""
 				"Place the mushroom block down and break it for a chance at a brown mushroom."

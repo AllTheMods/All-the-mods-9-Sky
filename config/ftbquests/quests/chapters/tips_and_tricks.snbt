@@ -66,8 +66,8 @@
 				item: "cookingforblockheads:sink"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 2.0d
+			x: -2.5d
+			y: 0.5d
 		}
 		{
 			description: ["Use this item to shrink. Helpful for working on automation and also just overall fun."]
@@ -169,7 +169,7 @@
 			subtitle: "When an infinite world is too small"
 			tasks: [{
 				id: "029DB3044D5E30A0"
-				item: "compactmachines:machine_tiny"
+				item: "hyperbox:hyperbox"
 				type: "item"
 			}]
 			x: -6.0d
@@ -185,10 +185,14 @@
 			}]
 			tasks: [{
 				id: "3B227EED4B839733"
-				item: "compactmachines:personal_shrinking_device"
+				item: {
+					Count: 1b
+					id: "shrink:shrinking_device"
+					tag: { }
+				}
 				type: "item"
 			}]
-			title: "Compact Machines"
+			title: "Compact Machines # delete?"
 			x: -6.0d
 			y: 1.0d
 		}
@@ -208,65 +212,26 @@
 			tasks: [
 				{
 					id: "358F3A8EA9E5E7E3"
-					item: {
-						Count: 1b
-						id: "buildinggadgets:gadget_building"
-						tag: {
-							state: {
-								data: { }
-								serializer: "buildinggadgets:dummy_serializer"
-								state: {
-									Name: "minecraft:air"
-								}
-							}
-						}
-					}
+					item: "buildinggadgets2:gadget_building"
 					type: "item"
 				}
 				{
 					id: "008AD88A1CDCEE5E"
-					item: {
-						Count: 1b
-						id: "buildinggadgets:gadget_exchanging"
-						tag: {
-							state: {
-								data: { }
-								serializer: "buildinggadgets:dummy_serializer"
-								state: {
-									Name: "minecraft:air"
-								}
-							}
-						}
-					}
+					item: "buildinggadgets2:gadget_exchanging"
 					type: "item"
 				}
 				{
 					id: "4738B22DF26DB2D8"
 					item: {
 						Count: 1b
-						id: "buildinggadgets:gadget_copy_paste"
-						tag: {
-							mode: 0b
-							template_id: [I;
-								1687424916
-								-1474150034
-								-1591711937
-								1045183693
-							]
-						}
+						id: "buildinggadgets2:gadget_copy_paste"
+						tag: { }
 					}
 					type: "item"
 				}
 				{
 					id: "283D88FA9196A4AC"
-					item: {
-						Count: 1b
-						id: "buildinggadgets:gadget_destruction"
-						tag: {
-							fuzzy: 1b
-							overlay: 1b
-						}
-					}
+					item: "buildinggadgets2:gadget_destruction"
 					type: "item"
 				}
 			]
@@ -446,51 +411,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: 3.0d
-		}
-		{
-			description: [
-				"Structures' compass allows a player to quickly locate a specific structure."
-				""
-				"Obtain corals by sieving sand in a waterlogged sieve."
-				"Coral larvae, when used on sea water, will turn into a coral block."
-			]
-			id: "62D9648D1BA54CCA"
-			rewards: [{
-				id: "1E6189AFA40F8F35"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Can be used to find structures"
-			tasks: [{
-				id: "50DAB04F94CB67F2"
-				item: "structures_compass:structures_compass"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 2.5d
-		}
-		{
-			description: ["Nature's Compass is a utility item that allows you to search for a biome's location anywhere in the world and view information about it."]
-			id: "3E235A6A006694A1"
-			rewards: [{
-				id: "18A39F21FDC40EC6"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Can be used to search for a biome's location"
-			tasks: [{
-				id: "0044BD58084BFB4E"
-				item: {
-					Count: 1b
-					id: "naturescompass:naturescompass"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: 2.5d
+			x: -4.5d
+			y: 0.5d
 		}
 	]
 	title: "Tips \\& Tricks"
