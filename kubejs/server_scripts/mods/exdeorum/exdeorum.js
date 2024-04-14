@@ -10,6 +10,7 @@ ServerEvents.recipes(event => {
         let EndStone = 'exdeorum:crushed_end_stone'
         let Deepslate = 'exdeorum:crushed_deepslate'
         let Blackstone = 'exdeorum:crushed_blackstone'
+        let Moss = 'minecraft:moss_block'
 
         let StringMesh = 'exdeorum:string_mesh'
         let FlintMesh = 'exdeorum:flint_mesh'
@@ -107,6 +108,20 @@ ServerEvents.recipes(event => {
 
 // Gravel Sieve
 addSifting(Blackstone, NetheriteMesh, 'minecraft:stick', 4, 0.5)
+
+// misc missing ones
+addSifting(SoulSand, IronMesh, 'mysticalagriculture:prosperity_shard', 1, 0.2)
+addSifting(SoulSand, DiamondMesh, 'mysticalagriculture:prosperity_shard', 1, 0.2)
+addSifting(SoulSand, GoldMesh, 'mysticalagriculture:prosperity_shard', 1, 0.2)
+addSifting(SoulSand, NetheriteMesh, 'mysticalagriculture:prosperity_shard', 1, 0.2)
+addSifting(Moss, IronMesh, 'integrateddynamics:menril_sapling', 1, 0.1)
+addSifting(Moss, GoldMesh, 'integrateddynamics:menril_sapling', 1, 0.1)
+addSifting(Moss, DiamondMesh, 'integrateddynamics:menril_sapling', 1, 0.1)
+addSifting(Moss, NetheriteMesh, 'integrateddynamics:menril_sapling', 1, 0.1)
+addSifting(Moss, IronMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
+addSifting(Moss, GoldMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
+addSifting(Moss, DiamondMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
+addSifting(Moss, NetheriteMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
 
 //xycraft from dust
 addSifting(Dust, FlintMesh, 'xycraft_world:xychorium_gem_blue', 1, 0.1)
