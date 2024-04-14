@@ -5,4 +5,5 @@ ServerEvents.recipes(e =>{
     I: 'minecraft:nether_star',
     G: '#forge:gunpowder',
     B: 'minecraft:blaze_powder'
+    })
   })
