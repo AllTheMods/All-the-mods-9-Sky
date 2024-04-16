@@ -1,0 +1,11 @@
+{
+  "type": "productivebees:bee_spawning",
+  "ingredient": {
+    "item": "productivebees:sand_nest"
+  },
+  "results": [
+    {
+      "bee": "productivebees:chocolate_mining_bee"
+    }
+  ]
+}
