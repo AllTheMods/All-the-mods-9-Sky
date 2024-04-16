@@ -109,6 +109,13 @@ ServerEvents.recipes(event => {
 // Gravel Sieve
 addSifting(Blackstone, NetheriteMesh, 'minecraft:stick', 4, 0.5)
 
+//forcegenm sieve
+addSifting(Dust, FlintMesh, 'forcecraft:force_gem', 1, 0.05)
+addSifting(Dust, IronMesh, 'forcecraft:force_gem', 1, 0.05)
+addSifting(Dust, GoldMesh, 'forcecraft:force_gem', 1, 0.06)
+addSifting(Dust, DiamondMesh, 'forcecraft:force_gem', 1, 0.06)
+addSifting(Dust, NetheriteMesh, 'forcecraft:force_gem', 1, 0.08)
+
 // misc missing ones
 addSifting(SoulSand, IronMesh, 'mysticalagriculture:prosperity_shard', 1, 0.2)
 addSifting(SoulSand, DiamondMesh, 'mysticalagriculture:prosperity_shard', 1, 0.2)
@@ -124,29 +131,29 @@ addSifting(Moss, DiamondMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
 addSifting(Moss, NetheriteMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
 
 //xycraft from dust
-addSifting(Dust, FlintMesh, 'xycraft_world:xychorium_gem_blue', 1, 0.1)
-addSifting(Dust, FlintMesh, 'xycraft_world:xychorium_gem_red', 1, 0.1)
-addSifting(Dust, FlintMesh, 'xycraft_world:xychorium_gem_green', 1, 0.1)
-addSifting(Dust, FlintMesh, 'xycraft_world:xychorium_gem_light', 1, 0.1)
-addSifting(Dust, FlintMesh, 'xycraft_world:xychorium_gem_dark', 1, 0.1)
+addSifting(Dust, FlintMesh, 'xycraft_world:xychorium_gem_blue', 1, 0.05)
+addSifting(Dust, FlintMesh, 'xycraft_world:xychorium_gem_red', 1, 0.05)
+addSifting(Dust, FlintMesh, 'xycraft_world:xychorium_gem_green', 1, 0.05)
+addSifting(Dust, FlintMesh, 'xycraft_world:xychorium_gem_light', 1, 0.05)
+addSifting(Dust, FlintMesh, 'xycraft_world:xychorium_gem_dark', 1, 0.05)
 
-addSifting(Dust, IronMesh, 'xycraft_world:xychorium_gem_blue', 1, 0.12)
-addSifting(Dust, IronMesh, 'xycraft_world:xychorium_gem_red', 1, 0.12)
-addSifting(Dust, IronMesh, 'xycraft_world:xychorium_gem_green', 1, 0.12)
-addSifting(Dust, IronMesh, 'xycraft_world:xychorium_gem_light', 1, 0.12)
-addSifting(Dust, IronMesh, 'xycraft_world:xychorium_gem_dark', 1, 0.12)
+addSifting(Dust, IronMesh, 'xycraft_world:xychorium_gem_blue', 1, 0.06)
+addSifting(Dust, IronMesh, 'xycraft_world:xychorium_gem_red', 1, 0.06)
+addSifting(Dust, IronMesh, 'xycraft_world:xychorium_gem_green', 1, 0.06)
+addSifting(Dust, IronMesh, 'xycraft_world:xychorium_gem_light', 1, 0.06)
+addSifting(Dust, IronMesh, 'xycraft_world:xychorium_gem_dark', 1, 0.06)
 
-addSifting(Dust, DiamondMesh, 'xycraft_world:xychorium_gem_blue', 1, 0.15)
-addSifting(Dust, DiamondMesh, 'xycraft_world:xychorium_gem_red', 1, 0.15)
-addSifting(Dust, DiamondMesh, 'xycraft_world:xychorium_gem_green', 1, 0.15)
-addSifting(Dust, DiamondMesh, 'xycraft_world:xychorium_gem_light', 1, 0.15)
-addSifting(Dust, DiamondMesh, 'xycraft_world:xychorium_gem_dark', 1, 0.15)
+addSifting(Dust, DiamondMesh, 'xycraft_world:xychorium_gem_blue', 1, 0.75)
+addSifting(Dust, DiamondMesh, 'xycraft_world:xychorium_gem_red', 1, 0.75)
+addSifting(Dust, DiamondMesh, 'xycraft_world:xychorium_gem_green', 1, 0.75)
+addSifting(Dust, DiamondMesh, 'xycraft_world:xychorium_gem_light', 1, 0.75)
+addSifting(Dust, DiamondMesh, 'xycraft_world:xychorium_gem_dark', 1, 0.75)
 
-addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_blue', 2, 0.1)
-addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_red', 2, 0.1)
-addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_green', 2, 0.1)
-addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_light', 2, 0.1)
-addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_dark', 2, 0.1)
+addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_blue', 2, 0.05)
+addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_red', 2, 0.05)
+addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_green', 2, 0.05)
+addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_light', 2, 0.05)
+addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_dark', 2, 0.05)
 
 //    addHammer(Deepslate, 'minecraft:stick')
 
