@@ -1,0 +1,17 @@
+{
+  "type": "productivebees:bee_spawning",
+  "ingredient": {
+    "item": "productivebees:slimy_nest"
+  },
+  "results": [
+    {
+      "bee": "productivebees:slimy"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:slimy"
+    }
+  ]
+}
