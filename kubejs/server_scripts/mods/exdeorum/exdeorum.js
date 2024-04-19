@@ -19,6 +19,12 @@ ServerEvents.recipes(event => {
         let DiamondMesh = 'exdeorum:diamond_mesh'
         let NetheriteMesh = 'exdeorum:netherite_mesh'
 
+    // Removal of mesh recipes
+        event.remove( { id: 'exdeorum:flint_mesh' } )
+        event.remove( { id: 'exdeorum:iron_mesh' })
+        event.remove( { id: 'exdeorum:golden_mesh' })
+        event.remove( { id: 'exdeorum:diamond_mesh' })
+
     let addSifting = (input, mesh, output, amount, chance) => {
         event.custom(
             {
@@ -129,6 +135,7 @@ addSifting(Moss, IronMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
 addSifting(Moss, GoldMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
 addSifting(Moss, DiamondMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
 addSifting(Moss, NetheriteMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
+addSifting(Blackstone, NetheriteMesh, 'occultism:raw_iesnium', 1, 0.05)
 
 //xycraft from dust
 addSifting(Dust, FlintMesh, 'xycraft_world:xychorium_gem_blue', 1, 0.05)

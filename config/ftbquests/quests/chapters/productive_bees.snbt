@@ -45,8 +45,8 @@
 			image: "atm:textures/clouds.png"
 			rotation: 0.0d
 			width: 100.0d
-			x: -3.0d
-			y: -2.5d
+			x: -3.5d
+			y: 8.0d
 		}
 		{
 			click: ""
@@ -257,7 +257,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Can be used in any Overworld biome"
+			subtitle: "Lures in bees in any overworld biome."
 			tasks: [
 				{
 					id: "1F2A2E5E1319BBAA"
@@ -305,7 +305,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Lures Bees in any Overworld Biome"
+			subtitle: "Lures in bees in any overworld biome."
 			tasks: [{
 				id: "03A3CD871B01984F"
 				item: "productivebees:stone_nest"
@@ -328,7 +328,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Any Overworld Biome"
+			subtitle: "Lures in bees in any overworld biome."
 			tasks: [{
 				id: "75AC4440283F2FD2"
 				item: "productivebees:coarse_dirt_nest"
@@ -348,7 +348,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Lures bees in Desert Biomes"
+			subtitle: "Lures in bees in any overworld biome."
 			tasks: [{
 				id: "583141D1F71510B3"
 				item: "productivebees:sand_nest"
@@ -359,7 +359,7 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			description: ["Placing a Snow Nest in a snowy biome will lure in a Sweat Bee."]
+			description: ["Placing a Snow Nest will lure in a Sweat Bee."]
 			hide: false
 			hide_dependency_lines: true
 			id: "264BFB8C5F79616F"
@@ -368,7 +368,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Lures the Sweat Bee in Cold Biomes"
+			subtitle: "Lures in bees in any overworld biome."
 			tasks: [{
 				id: "01C9E075D831E1AD"
 				item: "productivebees:snow_nest"
@@ -380,7 +380,7 @@
 		{
 			dependencies: ["120BDCB70AD352AC"]
 			description: [
-				"The Gravel Nest will lure bees in either a River biome or Beach biome."
+				""
 				""
 				"It lures in the Ashy Mining Bee, Chocolate Mining Bee, and the Digger Bee."
 			]
@@ -392,7 +392,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Lures in bees in River and Beach Biomes"
+			subtitle: "Lures in bees in any overworld biome."
 			tasks: [{
 				id: "3091212589824103"
 				item: "productivebees:gravel_nest"
@@ -412,7 +412,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Lures bees in any Overworld Biome"
+			subtitle: "Lures in bees in any overworld biome."
 			tasks: [{
 				id: "3BE7523330044E2F"
 				item: "productivebees:sugar_cane_nest"
@@ -423,7 +423,7 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			description: ["When placed in a swamp biome, the Slimy Nest will lure in Slimy Bees."]
+			description: ["The Slimy Nest will lure in Slimy Bees."]
 			hide: false
 			hide_dependency_lines: true
 			id: "79D6A251FE3761B3"
@@ -432,7 +432,6 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Lures in a Slimy Bee in a Swamp Biome"
 			tasks: [{
 				id: "255B5D268D66C748"
 				item: "productivebees:slimy_nest"
@@ -1139,8 +1138,8 @@
 				item: "productivebees:upgrade_filter"
 				type: "item"
 			}]
-			x: -4.8d
-			y: 1.2d
+			x: -4.085714285714275d
+			y: 2.028571428571439d
 		}
 		{
 			dependencies: ["66324D7D0C51AEAC"]
@@ -3764,7 +3763,7 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
-			icon: "croptopia:chocolate"
+			icon: "create:bar_of_chocolate"
 			id: "06FA7A81C32C1BB2"
 			rewards: [{
 				id: "63F3657E313B7BA1"
@@ -4630,8 +4629,86 @@
 				item: "productivebees:upgrade_simulator"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.9d
+			x: -4.971428571428575d
+			y: 1.3428571428571558d
+		}
+		{
+			dependencies: ["6DBF9CAB37B9BBF3"]
+			id: "5D794F7B073C2CDB"
+			rewards: [
+				{
+					id: "732ADB30A2F22A35"
+					item: "productivebees:honey_treat"
+					type: "item"
+				}
+				{
+					id: "5E47F039C07F7E55"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Increases Bee Productivity by 150%"
+			tasks: [{
+				id: "0407AC3DAB346CCF"
+				item: "productivebees:upgrade_productivity_2"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5D794F7B073C2CDB"
+				"61AE0ECD03F2AB88"
+			]
+			id: "6372AF07673C551D"
+			rewards: [
+				{
+					id: "19750952B9657D5C"
+					item: "productivebees:honey_treat"
+					type: "item"
+				}
+				{
+					id: "57EE4D29FC233CDF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Increases Bee Productivity by 200%"
+			tasks: [{
+				id: "02D9969D89F63C32"
+				item: "productivebees:upgrade_productivity_3"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.7428571428571615d
+		}
+		{
+			dependencies: ["6372AF07673C551D"]
+			id: "65C6FE2CB604133B"
+			rewards: [
+				{
+					id: "317C059894254E71"
+					item: "productivebees:honey_treat"
+					type: "item"
+				}
+				{
+					id: "660AAFC39D139E7C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Increases Bee Productivity by 260%"
+			tasks: [{
+				id: "180B5B51BF85AB69"
+				item: "productivebees:upgrade_productivity_4"
+				type: "item"
+			}]
+			x: -7.114285714285714d
+			y: 0.7428571428571615d
 		}
 	]
 	title: "Productive Bees"

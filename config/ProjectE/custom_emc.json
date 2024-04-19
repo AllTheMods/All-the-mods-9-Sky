@@ -46,7 +46,7 @@
     },
     {
       "item": "minecraft:bone_meal",
-      "emc": 48
+      "emc": 24
     },
     {
       "item": "minecraft:bone",
@@ -62,7 +62,7 @@
     },
     {
       "item": "minecraft:ghast_tear",
-      "emc": 4096
+      "emc": 1024
     },
     {
       "item": "minecraft:acacia_log",
@@ -502,15 +502,15 @@
     },
     {
       "item": "minecraft:andesite",
-      "emc": 4
+      "emc": 1
     },
     {
       "item": "minecraft:diorite",
-      "emc": 4
+      "emc": 1
     },
     {
       "item": "minecraft:granite",
-      "emc": 4
+      "emc": 1
     },
     {
       "item": "minecraft:dripstone_block",
@@ -546,31 +546,11 @@
     },
     {
       "item": "minecraft:blaze_powder",
-      "emc": 768
+      "emc": 256
     },
     {
       "item": "minecraft:blaze_rod",
       "emc": 1536
-    },
-    {
-      "item": "projecte:mobius_fuel_block",
-      "emc": 18432
-    },
-    {
-      "item": "projecte:alchemical_coal_block",
-      "emc": 4608
-    },
-    {
-      "item": "projecte:aeternalis_fuel_block",
-      "emc": 73728
-    },
-    {
-      "item": "projecte:dark_matter_block",
-      "emc": 557056
-    },
-    {
-      "item": "projecte:red_matter_block",
-      "emc": 1867776
     },
     {
       "item": "projecte:interdiction_torch",
@@ -585,108 +565,8 @@
       "emc": 8987
     },
     {
-      "item": "projecte:condenser_mk1",
-      "emc": 42011
-    },
-    {
-      "item": "projecte:condenser_mk2",
-      "emc": 9741339
-    },
-    {
-      "item": "projecte:collector_mk1",
-      "emc": 82953
-    },
-    {
-      "item": "projecte:collector_mk2",
-      "emc": 232969
-    },
-    {
-      "item": "projecte:collector_mk3",
-      "emc": 710665
-    },
-    {
-      "item": "projecte:relay_mk1",
-      "emc": 74177
-    },
-    {
-      "item": "projecte:relay_mk2",
-      "emc": 213889
-    },
-    {
-      "item": "projecte:relay_mk3",
-      "emc": 681281
-    },
-    {
-      "item": "projecte:dm_pedestal",
-      "emc": 4653056
-    },
-    {
-      "item": "projecte:dm_furnace",
-      "emc": 4456456
-    },
-    {
-      "item": "projecte:rm_furnace",
-      "emc": 10059784
-    },
-    {
       "item": "projecte:repair_talisman",
       "emc": 490
-    },
-    {
-      "item": "projecte:transmutation_tablet",
-      "emc": 2228488
-    },
-    {
-      "item": "projecte:destruction_catalyst",
-      "emc": 14476
-    },
-    {
-      "item": "projecte:black_hole_band",
-      "emc": 280712
-    },
-    {
-      "item": "projecte:harvest_goddess_band",
-      "emc": 280770
-    },
-    {
-      "item": "projecte:ignition_ring",
-      "emc": 285776
-    },
-    {
-      "item": "projecte:zero_ring",
-      "emc": 280658
-    },
-    {
-      "item": "projecte:swiftwolf_rending_gale{StoredEMC:64L,UnprocessedEMC:0.0d}",
-      "emc": 559360
-    },
-    {
-      "item": "projecte:swiftwolf_rending_gale",
-      "emc": 559360
-    },
-    {
-      "item": "projecte:klein_star_ein",
-      "emc": 24576
-    },
-    {
-      "item": "projecte:klein_star_zwei",
-      "emc": 98304
-    },
-    {
-      "item": "projecte:klein_star_drei",
-      "emc": 393216
-    },
-    {
-      "item": "projecte:klein_star_vier",
-      "emc": 1572864
-    },
-    {
-      "item": "projecte:klein_star_sphere",
-      "emc": 6291456
-    },
-    {
-      "item": "projecte:klein_star_omega",
-      "emc": 25165824
     },
     {
       "item": "projecte:black_alchemical_bag",
