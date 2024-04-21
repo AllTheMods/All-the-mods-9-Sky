@@ -1,0 +1,20 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+      {"item": "appflux:redstone_crystal"},
+      {"item": "appflux:redstone_crystal"},
+      {"item": "appflux:redstone_crystal"},
+      {"item": "appflux:redstone_crystal"}
+  ],
+  "energy": 80000,
+  "result": {
+    "item": "appflux:charged_redstone",
+    "count": 4
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
+}
