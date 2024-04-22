@@ -397,10 +397,6 @@
       "emc": 1
     },
     {
-      "item": "minecraft:white_concrete",
-      "emc": 1
-    },
-    {
       "item": "minecraft:pink_terracotta",
       "emc": 1
     },
@@ -633,46 +629,6 @@
       "emc": 9851
     },
     {
-      "item": "projecte:evertide_amulet",
-      "emc": 417792
-    },
-    {
-      "item": "projecte:volcanite_amulet",
-      "emc": 418176
-    },
-    {
-      "item": "projecte:gem_of_eternal_density",
-      "emc": 319616
-    },
-    {
-      "item": "projecte:mercurial_eye",
-      "emc": 475584
-    },
-    {
-      "item": "projecte:void_ring",
-      "emc": 1534216
-    },
-    {
-      "item": "projecte:arcana_ring{Mode:0b}",
-      "emc": 3460626
-    },
-    {
-      "item": "projecte:body_stone",
-      "emc": 934842
-    },
-    {
-      "item": "projecte:soul_stone",
-      "emc": 937056
-    },
-    {
-      "item": "projecte:mind_stone",
-      "emc": 935712
-    },
-    {
-      "item": "projecte:life_stone",
-      "emc": 1871898
-    },
-    {
       "item": "projecte:divining_rod_1",
       "emc": 12
     },
@@ -683,18 +639,6 @@
     {
       "item": "projecte:divining_rod_3",
       "emc": 1740
-    },
-    {
-      "item": "projecte:archangel_smite",
-      "emc": 280928
-    },
-    {
-      "item": "projecte:hyperkinetic_lens",
-      "emc": 329186
-    },
-    {
-      "item": "projecte:catalytic_lens",
-      "emc": 1318510
     },
     {
       "item": "projecte:low_covalence_dust",
@@ -723,6 +667,70 @@
     {
       "item": "minecraft:cooked_chicken",
       "emc": 64
-    }
+    },
+    {
+      "item": "minecraft:white_concrete",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:light_gray_concrete",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:gray_concrete",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:black_concrete",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:brown_concrete",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:red_concrete",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:orange_concrete",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:yellow_concrete",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:lime_concrete",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:green_concrete",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:cyan_concrete",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:light_blue_concrete",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:blue_concrete",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:purple_concrete",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:magenta_concrete",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:pink_concrete",
+      "emc": 1
+    },
   ]
 }
