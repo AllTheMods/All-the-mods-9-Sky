@@ -1,13 +1,12 @@
 {
 	id: "3183DFB374F0B096"
 	loot_size: 1
-	order_index: 2
+	order_index: 1
 	rewards: [
-		{ count: 3, item: "refinedstorage:basic_processor", weight: 40.0f }
-		{ count: 2, item: "refinedstorage:improved_processor", weight: 30.0f }
-		{ item: "refinedstorage:advanced_processor", weight: 20.0f }
-		{ item: "extrastorage:neural_processor", weight: 10.0f }
-		{ item: "extradisks:withering_processor" }
+		{ count: 3, item: "refinedstorage:basic_processor", random_bonus: 3, weight: 40.0f }
+		{ count: 2, item: "refinedstorage:improved_processor", weight: 20.0f }
+		{ item: "refinedstorage:advanced_processor", weight: 5.0f }
 	]
-	title: "Refined Storage Parts"
+	title: "Refined Storage Basic Parts"
+	use_title: true
 }

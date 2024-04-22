@@ -162,6 +162,12 @@ addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_green', 2, 0.05)
 addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_light', 2, 0.05)
 addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_dark', 2, 0.05)
 
+//Crucible heating blocks
+addHeatSource(`botania:blaze_block`, 8)
+addHeatSource(`alltheores:uranium_block`, 20)
+addHeatSource(`mekanism:superheating_element`, 60)
+addHeatSource('projecte:dark_matter_block', 100)
+
 //    addHammer(Deepslate, 'minecraft:stick')
 
 //    addBarrelMixing('minecraft:water', 'minecraft:dead_bush', 'minecraft:oak_sapling')

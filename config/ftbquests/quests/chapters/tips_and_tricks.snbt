@@ -6,11 +6,7 @@
 	id: "1BE666F01EFFC00D"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "atm:textures/tips_and_tricks.png"
 			rotation: 0.0d
 			width: 12.0d
@@ -18,11 +14,7 @@
 			y: -3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 100.0d
-			hover: [ ]
 			image: "atm:textures/clouds.png"
 			rotation: 0.0d
 			width: 100.0d
@@ -30,12 +22,8 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
-			image: "atm:textures/tips_and_tricks.png"
+			image: "atm:textures/questpics/tips_and_tricks.png"
 			rotation: 0.0d
 			width: 12.0d
 			x: -3.5d

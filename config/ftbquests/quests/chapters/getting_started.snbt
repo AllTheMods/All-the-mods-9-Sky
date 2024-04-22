@@ -2,16 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "circle"
 	filename: "getting_started"
-	group: "1CF541D7529DA9CF"
+	group: "2084F3F6FB861C5B"
 	icon: "minecraft:furnace"
 	id: "517444D5104113B0"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "minecraft:textures/block/crafting_table_top.png"
 			rotation: 45.0d
 			width: 1.5d
@@ -19,11 +15,7 @@
 			y: -4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "minecraft:textures/block/crafting_table_top.png"
 			rotation: 45.0d
 			width: 1.5d
@@ -31,11 +23,7 @@
 			y: 1.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 100.0d
-			hover: [ ]
 			image: "atm:textures/clouds.png"
 			rotation: 0.0d
 			width: 100.0d
@@ -43,11 +31,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 5.0d
-			hover: [ ]
 			image: "ftbchunks:textures/waypoint_home.png"
 			rotation: 0.0d
 			width: 5.0d

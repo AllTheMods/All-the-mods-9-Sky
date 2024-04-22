@@ -7,8 +7,7 @@
 	detection_delay: 20
 	disable_gui: false
 	drop_loot_crates: false
-	emergency_items: [{ Count: 1b, id: "minecraft:oak_sapling" }]
-	emergency_items_cooldown: 60
+	emergency_items_cooldown: 300
 	grid_scale: 0.5d
 	icon: "allthetweaks:atm_star"
 	lock_message: ""
@@ -18,7 +17,7 @@
 		passive: 4000
 	}
 	pause_game: false
-	progression_mode: "linear"
-	title: "All the Mods 9 To the Sky"
+	progression_mode: "flexible"
+	title: "All the Mods 9"
 	version: 13
 }

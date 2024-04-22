@@ -5,25 +5,23 @@
 	group: "02FE661031A105D8"
 	id: "004F28C5C85F467B"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 100.0d
-		hover: [ ]
-		image: "atm:textures/clouds.png"
+		height: 0.3d
+		hover: ["Needed for the ATM Star"]
+		image: "allthetweaks:item/atm_star"
 		rotation: 0.0d
-		width: 100.0d
-		x: -20.5d
-		y: -2.0d
+		width: 0.3d
+		x: -9.5d
+		y: -1.5d
 	}]
 	order_index: 2
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
 				"Welcome to &cBlood Magic&f!"
 				""
-				"To get started, check your &eEccentric Tome&r for the Blood Magic guidebook. You'll also get one for completing this quest!"
+				"This mod is all about using the Blood of your enemies (or yourself) to create powerful items and networks!"
 				""
 				"The guidebook contains all of the information about the mod if you ever need any help."
 			]
@@ -81,20 +79,15 @@
 			id: "3DA7D0BA045CE7AB"
 			rewards: [
 				{
-					id: "4137E9D70B32E4FA"
-					item: {
-						Count: 1b
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:long_regeneration"
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "2DE0010C8535C460"
 					type: "xp"
-					xp: 100
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4035D131781BA3B1"
+					table_id: 487623848494439020L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -129,16 +122,15 @@
 			id: "6AAB831CB3FB536A"
 			rewards: [
 				{
-					count: 2
-					id: "0F7ECFD0C45EA36C"
-					item: "bloodmagic:blankslate"
-					random_bonus: 2
-					type: "item"
-				}
-				{
 					id: "01162A1F9A3B0A4D"
 					type: "xp"
-					xp: 100
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41A8D927838C237B"
+					table_id: 487623848494439020L
+					type: "loot"
 				}
 			]
 			tasks: [{
@@ -162,22 +154,22 @@
 				""
 				"Note: Speed Runes are the only runes available (besides Blank Runes) until you make a Tier 2 Altar, but can be replaced later on."
 				""
-				"{image:atm:textures/quests/bloodmagic/bloodmagic_tier2.png width:150 height:140 align:1}"
+				"{image:atm:textures/questpics/bloodmagic/bloodmagic_tier2.png width:150 height:140 align:1}"
 			]
 			icon: "bloodmagic:altar"
 			id: "4B51189C36B8D291"
+			min_width: 350
 			rewards: [
-				{
-					count: 2
-					id: "1C97CAB711AE1357"
-					item: "bloodmagic:blankslate"
-					random_bonus: 2
-					type: "item"
-				}
 				{
 					id: "4C507A1D9293C777"
 					type: "xp"
-					xp: 100
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60C63C6C24A4C313"
+					table_id: 5724937697769671936L
+					type: "loot"
 				}
 			]
 			shape: "pentagon"
@@ -198,16 +190,15 @@
 			id: "2C3CA7B9D1A7DC47"
 			rewards: [
 				{
-					count: 2
-					id: "1493A082BCF763E1"
-					item: "bloodmagic:reinforcedslate"
-					random_bonus: 2
-					type: "item"
-				}
-				{
 					id: "448B572D6386F058"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34915581C600A4B8"
+					table_id: 5724937697769671936L
+					type: "loot"
 				}
 			]
 			tasks: [{
@@ -230,6 +221,12 @@
 				"You can also place the Orb in a Blood Altar that has some LP in it. It'll drain faster the more Speed Runes it has."
 			]
 			id: "5BF29A151A04FEF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7260A652122EADE4"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			subtitle: "Holds a max of 5k LP"
 			tasks: [{
@@ -254,16 +251,15 @@
 			id: "4578C0EE82F66BD9"
 			rewards: [
 				{
-					count: 4
-					id: "34E76CD69EB10059"
-					item: "bloodmagic:ritualstone"
-					random_bonus: 4
-					type: "item"
-				}
-				{
 					id: "706F037413BB3D25"
 					type: "xp"
-					xp: 1000
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16F4D172FABD38C4"
+					table_id: 5724937697769671936L
+					type: "loot"
 				}
 			]
 			tasks: [
@@ -287,11 +283,19 @@
 			dependencies: ["2C3CA7B9D1A7DC47"]
 			description: ["This rune increases the amount of LP gained from taking blood away from non-player entities. Each one gives a bonus of 10% additively per rune."]
 			id: "08F28A9E4DEA7CD0"
-			rewards: [{
-				id: "23EBA079A86E799A"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "23EBA079A86E799A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C106D8316F38DAE"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "6C6CDA42FB379A80"
@@ -317,13 +321,19 @@
 				{
 					id: "050236926D942519"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					count: 16
 					id: "217032A5D292D4A1"
 					item: "minecraft:egg"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A545D851730E5B5"
+					table_id: 487623848494439020L
+					type: "loot"
 				}
 			]
 			shape: "rsquare"
@@ -342,29 +352,22 @@
 				"506D48AD9FB2E89D"
 			]
 			description: [
-				"The &4Hellfire Forge&r is one of the main blocks needed for working in Blood Magic."
+				"The &4Hellfire Forge&r is one of the main blocks needed for creating certain items in Blood Magic."
 				""
-				"It is powered by Demon Will, and can be used to create several items including the &bSentient Sword&r."
+				"It is powered by &dDemon Will&r, and can be used to create several items including the &bSentient Sword&r."
 			]
 			id: "7BA086472D87D705"
 			rewards: [
 				{
-					count: 3
-					id: "5D18F40ED6F399D6"
-					item: "bloodmagic:soulsnare"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "19ABF9AB512D180E"
-					item: "bloodmagic:blankslate"
-					random_bonus: 2
-					type: "item"
-				}
-				{
 					id: "65BAEBCF71A95208"
 					type: "xp"
-					xp: 100
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "674C18BAD74BCDAA"
+					table_id: 5724937697769671936L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -388,16 +391,15 @@
 			id: "7C8D74692C963000"
 			rewards: [
 				{
-					count: 2
-					id: "40B798A36DCBFBCB"
-					item: "bloodmagic:blankslate"
-					random_bonus: 2
-					type: "item"
-				}
-				{
 					id: "40D83B6E12A16952"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CBBC06B94BF333B"
+					table_id: 5724937697769671936L
+					type: "loot"
 				}
 			]
 			shape: "octagon"
@@ -430,20 +432,15 @@
 			id: "11D37E7391B49A88"
 			rewards: [
 				{
-					id: "2586A2DC190EE8B7"
-					item: {
-						Count: 1b
-						id: "bloodmagic:basemonstersoul"
-						tag: {
-							souls: 1.0d
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "3C98676E7D871A75"
 					type: "xp"
-					xp: 100
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51113031E18ACFAF"
+					table_id: 5724937697769671936L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -466,20 +463,15 @@
 			id: "487275B970530E3F"
 			rewards: [
 				{
-					id: "093D0A54AA9785C1"
-					item: {
-						Count: 1b
-						id: "bloodmagic:basemonstersoul"
-						tag: {
-							souls: 5.0d
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "6C398EB3B8CC167B"
 					type: "xp"
-					xp: 100
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27780A18A67529DA"
+					table_id: 5724937697769671936L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -499,11 +491,19 @@
 			dependencies: ["487275B970530E3F"]
 			description: ["This will hold a max of 1024 Will."]
 			id: "626C07DB8B8C5A04"
-			rewards: [{
-				id: "0B2775EDC84F8DBC"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					id: "0B2775EDC84F8DBC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DAD375F1A2AF5E4"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "04BCD1D949FCB24D"
@@ -523,11 +523,19 @@
 			dependencies: ["626C07DB8B8C5A04"]
 			description: ["This is the maximum storage item for Demon Will, and will hold 4096 Will max."]
 			id: "20458B8987CD6CB9"
-			rewards: [{
-				id: "706507A5BDE8CAF5"
-				type: "xp"
-				xp: 1000
-			}]
+			rewards: [
+				{
+					id: "706507A5BDE8CAF5"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07407D2054217DCA"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "25B30F1BCCEE920A"
@@ -553,15 +561,15 @@
 			id: "375FF0D8ACD2E17F"
 			rewards: [
 				{
-					id: "017A36C03D074D2B"
-					item: "bloodmagic:infusedslate"
-					random_bonus: 2
-					type: "item"
-				}
-				{
 					id: "467291771E176EC8"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13713EA50BB82824"
+					table_id: 5724937697769671936L
+					type: "loot"
 				}
 			]
 			tasks: [{
@@ -576,19 +584,11 @@
 			dependencies: ["375FF0D8ACD2E17F"]
 			description: ["This rune increases the total capacity of the Altar by 20% for each Capacity rune."]
 			id: "0B2B8247DA280E90"
-			rewards: [
-				{
-					id: "7CF045B2A95086EB"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "62390E5A53188912"
-					item: "bloodmagic:blankrune"
-					random_bonus: 2
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7CF045B2A95086EB"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "41758E5DA17E2FDF"
@@ -602,19 +602,11 @@
 			dependencies: ["375FF0D8ACD2E17F"]
 			description: ["Increases the flow rate of LP in and out of the Altar when pumping to and from an external tank by 20% per rune."]
 			id: "47B985B56C582D6A"
-			rewards: [
-				{
-					id: "31EA9D6A3290C38D"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "6A809308395ADC22"
-					item: "bloodmagic:blankrune"
-					random_bonus: 2
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "31EA9D6A3290C38D"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "00D5D96DA535CFE7"
@@ -634,15 +626,21 @@
 			id: "7CA3AE708F46CEBF"
 			rewards: [
 				{
-					id: "606FCBD36A2918D1"
-					item: "bloodmagic:demonslate"
-					random_bonus: 2
-					type: "item"
-				}
-				{
 					id: "0FE381A79B163DDA"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D292D3B1B5098EE"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "338AE6A0C0C7D4C4"
+					table_id: 4196188979167302596L
+					type: "loot"
 				}
 			]
 			tasks: [{
@@ -657,19 +655,11 @@
 			dependencies: ["7CA3AE708F46CEBF"]
 			description: ["This rune increases the capacity of the Altar by a multiplicative amount of 7.5% per rune. These apply after regular Capacity Runes."]
 			id: "6C0D4CBC089988ED"
-			rewards: [
-				{
-					id: "1B3AA2121F9BABB8"
-					item: "bloodmagic:infusedslate"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "2A8726C8BB765154"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "2A8726C8BB765154"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0B14A7CBC056CC9F"
@@ -689,19 +679,11 @@
 				"No more waiting once placed!"
 			]
 			id: "6C57FF70679AF123"
-			rewards: [
-				{
-					id: "5E055E1CF9CEA375"
-					item: "bloodmagic:infusedslate"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "5E890AEA3E9B9188"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "5E890AEA3E9B9188"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "73F90730D99D6384"
@@ -713,18 +695,22 @@
 		}
 		{
 			dependencies: ["2214B7DCE4075A02"]
-			description: [
-				"You can't even use this for anything that I know of."
-				""
-				"You are too powerful."
-			]
+			description: ["You are too powerful."]
 			id: "396AA75774059D0B"
 			optional: true
-			rewards: [{
-				id: "493159D4211DD8E5"
-				type: "xp"
-				xp: 1000
-			}]
+			rewards: [
+				{
+					id: "493159D4211DD8E5"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "798065D5E6460699"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "600A5AEE6C546B4C"
 				item: "bloodmagic:etherealslate"
@@ -741,19 +727,11 @@
 				"It removes 1 tick of delay per rune, down to a minimum of 1 operation per tick."
 			]
 			id: "0EE2D22A577D10B0"
-			rewards: [
-				{
-					id: "011EDAF134E648E1"
-					item: "bloodmagic:infusedslate"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "0FDD0D502E4E581C"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "0FDD0D502E4E581C"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7EB95246A2F0981D"
@@ -773,20 +751,11 @@
 				"Growing the fruit naturally will result in more Tau Fruit, which can be turned into Oil. But what if we give it some blood......"
 			]
 			id: "50A28E1946047A6E"
-			rewards: [
-				{
-					count: 4
-					id: "0F83AC33131BD953"
-					item: "bloodmagic:weak_tau"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "4899CDA6BDDEB8C3"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "4899CDA6BDDEB8C3"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2D780C226FCF4A03"
 				item: "bloodmagic:weak_tau"
@@ -805,14 +774,15 @@
 			id: "5E2D15E4A410B5DA"
 			rewards: [
 				{
-					id: "7CB7C8464D30CE9C"
-					item: "bloodmagic:strong_tau"
-					type: "item"
-				}
-				{
 					id: "5511EA668DC7B429"
 					type: "xp"
-					xp: 100
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1ED8BE4C480178A5"
+					table_id: 5724937697769671936L
+					type: "loot"
 				}
 			]
 			tasks: [{
@@ -833,15 +803,15 @@
 			id: "308581359FEF32E9"
 			rewards: [
 				{
-					id: "2E509236F2A904AE"
-					item: "bloodmagic:infusedslate"
-					random_bonus: 2
-					type: "item"
-				}
-				{
 					id: "7798ABBC4BAB13CC"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "438B3074141BDD0D"
+					table_id: 5724937697769671936L
+					type: "loot"
 				}
 			]
 			tasks: [{
@@ -873,11 +843,19 @@
 		{
 			dependencies: ["7CA3AE708F46CEBF"]
 			id: "048BD38532A1DDCF"
-			rewards: [{
-				id: "08B35AB2E64B3B71"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "08B35AB2E64B3B71"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D41FABC4E86DDDB"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "Holds a max of 1M LP"
 			tasks: [{
@@ -893,13 +871,34 @@
 				"5E2D15E4A410B5DA"
 				"308581359FEF32E9"
 			]
-			description: ["With our Saturated Tau and our Alchemical Reaction Chamber, we can make the required materials to upgrade our Altar and Blood Orb, the &4Weak Blood Shard&r."]
+			description: [
+				"Hopefully by this point, you've been stocking up on some Demon Will with a Sentient Sword. If not, make sure to go and grab that part of the questline!"
+				""
+				"With our Saturated Tau and our Alchemical Reaction Chamber, we can make the required materials to upgrade our Altar and Blood Orb, the &4Weak Blood Shard&r."
+				""
+				"This does require the Sanguine Reverter, which takes a couple of upgrades to your Tartaric Gem."
+				""
+			]
 			id: "25343A0C4C22AA60"
-			rewards: [{
-				id: "3A386B0E3C9940DE"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "3A386B0E3C9940DE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "217C0C4ECD47524F"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "644089E244D63E1A"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "3A104E7D6C6AA524"
@@ -909,6 +908,17 @@
 				{
 					id: "04EAE604D8B668B3"
 					item: "bloodmagic:largebloodstonebrick"
+					type: "item"
+				}
+				{
+					id: "6C20FD13B73935A7"
+					item: {
+						Count: 1b
+						id: "bloodmagic:sanguinereverter"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
@@ -925,16 +935,15 @@
 			id: "263925A79EBB270F"
 			rewards: [
 				{
-					count: 2
-					id: "71A79FCBB36C348C"
-					item: "bloodmagic:infusedslate"
-					random_bonus: 2
-					type: "item"
-				}
-				{
 					id: "6647598F7C4C2325"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63B03F1E9F9EDDB2"
+					table_id: 5724937697769671936L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -981,7 +990,7 @@
 				{
 					id: "07EB91CE33392DD5"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 			]
 			tasks: [
@@ -1000,6 +1009,7 @@
 							souls: 5.0d
 						}
 					}
+					match_nbt: false
 					type: "item"
 				}
 			]
@@ -1017,15 +1027,15 @@
 			id: "7CC2D826CA6BBDDB"
 			rewards: [
 				{
-					id: "57407D2C81F959E1"
-					item: "bloodmagic:blankslate"
-					random_bonus: 2
-					type: "item"
-				}
-				{
 					id: "080A6AA97A0A41E9"
 					type: "xp"
-					xp: 100
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B73167276AC7063"
+					table_id: 487623848494439020L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -1052,14 +1062,13 @@
 				{
 					id: "422BF2738AC9D3D3"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
-					count: 2
-					id: "62F0A6019DB177BB"
-					item: "bloodmagic:blankslate"
-					random_bonus: 2
-					type: "item"
+					exclude_from_claim_all: true
+					id: "0C02483B7593D250"
+					table_id: 487623848494439020L
+					type: "loot"
 				}
 			]
 			shape: "square"
@@ -1080,11 +1089,19 @@
 				"Each rune gives a bonus of 10% additively."
 			]
 			id: "6CE4ED7A2642674F"
-			rewards: [{
-				id: "5898710F2074585F"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "5898710F2074585F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A6A155E062CAD5B"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "6692D1D1E4E4F758"
@@ -1107,22 +1124,23 @@
 				""
 				"Note: Any non-air block can be used for the pillar, as long as the cap is Glowstone."
 				""
-				"{image:atm:textures/quests/bloodmagic/bloodmagic_tier3.png width:200 height:150 align:1}"
+				"{image:atm:textures/questpics/bloodmagic/bloodmagic_tier3.png width:200 height:150 align:1}"
 			]
 			icon: "bloodmagic:altar"
 			id: "5886C648D14180E1"
+			min_width: 350
+			progression_mode: "linear"
 			rewards: [
-				{
-					count: 3
-					id: "68593AC343A3B626"
-					item: "bloodmagic:blankrune"
-					random_bonus: 3
-					type: "item"
-				}
 				{
 					id: "7698DE23F4AEC268"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23035909D44D4BB3"
+					table_id: 5724937697769671936L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -1154,13 +1172,20 @@
 			]
 			icon: "bloodmagic:altar"
 			id: "431C44439CA54077"
-			rewards: [{
-				count: 4
-				id: "05079D8B752B62E7"
-				item: "bloodmagic:blankrune"
-				random_bonus: 8
-				type: "item"
-			}]
+			progression_mode: "linear"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "24A8055DD26EFD1B"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+				{
+					id: "553B8263DE5508F5"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "octagon"
 			size: 1.25d
 			tasks: [{
@@ -1176,6 +1201,19 @@
 		{
 			dependencies: ["2C3CA7B9D1A7DC47"]
 			id: "08143AD0D63FFD1F"
+			rewards: [
+				{
+					id: "223ED7C4E7DAA411"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "148164406A3507CA"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
 			shape: "diamond"
 			subtitle: "Holds a max of 25k LP"
 			tasks: [{
@@ -1196,20 +1234,15 @@
 			id: "1F3B9803AFAEED5F"
 			rewards: [
 				{
-					id: "661488E84B1A6A57"
-					item: {
-						Count: 1b
-						id: "bloodmagic:arcaneashes"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "4BD9ABC2D427A1FB"
 					type: "xp"
-					xp: 100
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5916530C518A2D60"
+					table_id: 487623848494439020L
+					type: "loot"
 				}
 			]
 			subtitle: "We're drawing on the ground now."
@@ -1225,7 +1258,7 @@
 				type: "item"
 			}]
 			x: -26.0d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1F3B9803AFAEED5F"]
@@ -1241,15 +1274,15 @@
 			id: "281AAC27DEBEE84D"
 			rewards: [
 				{
-					id: "5D23AE912DA218A9"
-					item: "bloodmagic:blankslate"
-					random_bonus: 1
-					type: "item"
-				}
-				{
 					id: "7F59BF8F2886B028"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "322140625890F5F6"
+					table_id: 5724937697769671936L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1269,11 +1302,19 @@
 				"Unless you don't have 100LP. In that case, it'll just take your health. :)"
 			]
 			id: "7EED2502F1F38147"
-			rewards: [{
-				id: "1B7AF47021D62F36"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "1B7AF47021D62F36"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06F671D3C1ABBBD8"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "7825C546B68A7F85"
@@ -1291,11 +1332,19 @@
 				"If you don't have enough LP, that's cool too. It'll just take 5 hearts from you. No biggie."
 			]
 			id: "3AADA53EC01FB0ED"
-			rewards: [{
-				id: "438796468164D727"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "438796468164D727"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CC480A0FD9B8DF8"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "4EFA9FB003D8D147"
@@ -1319,14 +1368,15 @@
 			id: "0E8418B42A744030"
 			rewards: [
 				{
-					id: "7392A41AF4EE71FF"
-					item: "bloodmagic:simplekey"
-					type: "item"
-				}
-				{
 					id: "76C8BCBEA45D07D2"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B7A23C1329E5DA1"
+					table_id: 5724937697769671936L
+					type: "loot"
 				}
 			]
 			tasks: [
@@ -1360,12 +1410,12 @@
 			]
 			icon: "bloodmagic:altar"
 			id: "2214B7DCE4075A02"
+			progression_mode: "linear"
 			rewards: [{
-				count: 8
-				id: "37A59465BECB5B7A"
-				item: "bloodmagic:blankrune"
-				random_bonus: 8
-				type: "item"
+				exclude_from_claim_all: true
+				id: "67D054DD1C29D24C"
+				table_id: 5724937697769671936L
+				type: "loot"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -1399,9 +1449,14 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					exclude_from_claim_all: true
+					id: "683822A5474D0427"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
 			]
 			tasks: [{
-				count: 2L
 				id: "049052953E05D38F"
 				item: "bloodmagic:simplekey"
 				type: "item"
@@ -1414,20 +1469,11 @@
 			dependencies: ["42CDD69527871332"]
 			description: ["Using loot from the Demon Realm, you can upgrade each rune to double its effect. "]
 			id: "2CA28551F2A5B761"
-			rewards: [
-				{
-					count: 2
-					id: "5EA823F1EBE465C6"
-					item: "bloodmagic:hellforgedparts"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "63047FEB0BE55B5A"
-					type: "xp"
-					xp: 1000
-				}
-			]
+			rewards: [{
+				id: "63047FEB0BE55B5A"
+				type: "xp"
+				xp: 1000
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1468,19 +1514,11 @@
 				"&9Suppression Sigil&r - You can push liquids away from you in a 6 block radius. It's pretty cool."
 			]
 			id: "5E2CB036B00758AE"
-			rewards: [
-				{
-					id: "4D08283B9E421D67"
-					item: "bloodmagic:infusedslate"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "12698FAA72C0BF02"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "12698FAA72C0BF02"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1511,18 +1549,11 @@
 				"There is also a ton of rare loot, so make sure to keep an eye out for Intricate Hellforged Parts."
 			]
 			id: "42CDD69527871332"
-			rewards: [
-				{
-					id: "14946BF7D2325894"
-					item: "bloodmagic:dungeon_ore"
-					type: "item"
-				}
-				{
-					id: "5A9B7EEF24D6703A"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "5A9B7EEF24D6703A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7877DD9632B05697"
 				item: "bloodmagic:rawdemonite"
@@ -1546,42 +1577,55 @@
 				"&2Green Gove Sigil&r - Right Clicking a crop that is growable will give it a bonemeal effect for 150LP. Shift-Right Clicking will consume 150LP per 5 seconds, increasing the growth rate of a 7x7x5 area. "
 			]
 			id: "4C6B73322F56BE73"
-			shape: "rsquare"
-			tasks: [
+			rewards: [
 				{
-					id: "28490D6EB0A13853"
-					item: "bloodmagic:airsigil"
-					type: "item"
+					id: "3D60528942A0F56B"
+					type: "xp"
+					xp: 100
 				}
 				{
-					id: "2B9AC526E9F67CF2"
-					item: "bloodmagic:voidsigil"
-					type: "item"
-				}
-				{
-					id: "2F92C698040BD24D"
-					item: "bloodmagic:seersigil"
-					type: "item"
-				}
-				{
-					id: "3668C878D168A77C"
-					item: {
-						Count: 1b
-						id: "bloodmagic:miningsigil"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "189850D288276407"
-					item: {
-						Count: 1b
-						id: "bloodmagic:growthsigil"
-						tag: { }
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "7BD6192C7938A2C4"
+					table_id: 5724937697769671936L
+					type: "loot"
 				}
 			]
+			shape: "rsquare"
+			tasks: [{
+				id: "54A7E248C8A40239"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bloodmagic:growthsigil"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:miningsigil"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:seersigil"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:voidsigil"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:airsigil"
+							}
+						]
+					}
+				}
+				title: "Tier 2 Sigils"
+				type: "item"
+			}]
 			title: "Tier 2 Sigils"
 			x: -22.0d
 			y: 0.5d
@@ -1598,43 +1642,47 @@
 			id: "1780A9FDD6983435"
 			rewards: [
 				{
-					count: 2
-					id: "5309B724BBDF14AE"
-					item: "bloodmagic:blankslate"
-					random_bonus: 4
-					type: "item"
-				}
-				{
 					id: "3CD9508C03CFE55C"
 					type: "xp"
 					xp: 100
 				}
-			]
-			tasks: [
 				{
-					id: "4966B4779B0CE8EF"
-					item: {
-						Count: 1b
-						id: "bloodmagic:bloodlightsigil"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "263ACE485001170B"
-					item: "bloodmagic:sigilofholding"
-					type: "item"
-				}
-				{
-					id: "0432C6E53E4A5553"
-					item: {
-						Count: 1b
-						id: "bloodmagic:sigilofmagnetism"
-						tag: { }
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "1627172716DD1C91"
+					table_id: 5724937697769671936L
+					type: "loot"
 				}
 			]
+			tasks: [{
+				id: "36BBEFDBCCEC8DE0"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bloodmagic:bloodlightsigil"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:sigilofholding"
+								tag: {
+									currentSigil: 5
+								}
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:sigilofmagnetism"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "Tier 3 Sigils"
+				type: "item"
+			}]
+			title: "Tier 3 Sigils"
 			x: -20.0d
 			y: 0.5d
 		}
@@ -1650,20 +1698,11 @@
 				"As you use it, it will \"learn\" from you. You can see what it has learned so far by holding left shift while looking at it."
 			]
 			id: "41030E1E341C3A4E"
-			rewards: [
-				{
-					count: 2
-					id: "512B9C9240BD8628"
-					item: "bloodmagic:reagentbinding"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "6D8D96707F3F4A83"
-					type: "xp"
-					xp: 1000
-				}
-			]
+			rewards: [{
+				id: "6D8D96707F3F4A83"
+				type: "xp"
+				xp: 1000
+			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [
@@ -1721,5 +1760,5 @@
 			y: -4.5d
 		}
 	]
-	title: "Blood Magic"
+	title: "{atm9.chapters.40.title}"
 }

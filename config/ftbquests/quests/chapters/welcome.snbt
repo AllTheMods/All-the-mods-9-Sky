@@ -7,11 +7,7 @@
 	id: "69DBD1BDA43872D9"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftbquests:textures/gui/arrow_left.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -19,11 +15,7 @@
 			y: -0.4999999999999929d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftbquests:textures/gui/arrow_collapsed.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -31,11 +23,7 @@
 			y: -0.4999999999999929d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 100.0d
-			hover: [ ]
 			image: "atm:textures/clouds.png"
 			rotation: 0.0d
 			width: 150.0d
@@ -43,11 +31,7 @@
 			y: -9.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 10.0d
-			hover: [ ]
 			image: "atm:textures/logosmall.png"
 			rotation: 0.0d
 			width: 10.0d
