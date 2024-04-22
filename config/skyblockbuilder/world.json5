@@ -5,9 +5,9 @@
   // These are resource lists. See https://moddingx.org/libx/org/moddingx/libx/util/data/ResourceList.html#use_resource_lists_in_configs
   "biomes": {
     "minecraft:overworld": {
-      "allow_list": false,
+      "allow_list": true,
       "elements": [
-        "minecraft:*ocean*"
+        "minecraft:plains"
       ]
     },
     "minecraft:the_nether": {
