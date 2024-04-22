@@ -1,7 +1,7 @@
 {
 	id: "6AF94D0F814BF4CC"
 	loot_size: 1
-	order_index: 8
+	order_index: 7
 	rewards: [
 		{ item: "ars_nouveau:glyph_ignite" }
 		{ item: "ars_nouveau:glyph_underfoot" }
@@ -29,8 +29,8 @@
 		{ item: "ars_nouveau:glyph_launch" }
 		{ item: "ars_nouveau:glyph_dispel" }
 		{ item: "ars_nouveau:glyph_pull" }
-		{ item: "ars_nouveau:glyph_aquatic" }
 		{ item: "ars_nouveau:glyph_gust" }
 	]
 	title: "Random Tier 1 Glyph"
+	use_title: true
 }

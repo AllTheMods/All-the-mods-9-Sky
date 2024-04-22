@@ -5,19 +5,8 @@
 	group: "2B51AC12041E3F89"
 	icon: "create:large_cogwheel"
 	id: "100C477F4E63F20A"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 100.0d
-		hover: [ ]
-		image: "atm:textures/clouds.png"
-		rotation: 0.0d
-		width: 100.0d
-		x: 1.5d
-		y: -0.5d
-	}]
-	order_index: 1
+	order_index: 0
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -126,9 +115,9 @@
 		{
 			dependencies: ["23A9617F183C4EB1"]
 			description: [
-				"The &n&5Waterwheel&r is one of the most basic ways of generating rotational force. You can hook up multiple wheels by placing them next to each other."
+				"The &n&5Water Wheel&r is one of the most basic ways of generating rotational force. You can hook up multiple wheels by placing them next to each other."
 				""
-				"The speed it's rotating at is measured by how many flowing water blocks are touching the wheel."
+				"You can also change the appearance by using different Wooden Logs on them!"
 			]
 			id: "1AC0B7934F275EDE"
 			rewards: [{
@@ -147,7 +136,7 @@
 		}
 		{
 			dependencies: ["17885C2DE986F1BD"]
-			description: ["The &n&5Encased Fan&r can be used to pull/push items and entities if you spin it. The arrow will show you the direction it's facing and the rotation direction will determine if it pushes or pulls."]
+			description: ["The &n&5Encased Fan&r is used to pull/push items and entities if you spin it. The arrow will show you the direction it's facing and the rotation direction will determine if it pushes or pulls."]
 			id: "1E9B2D814F50A265"
 			tasks: [{
 				id: "1A4B96C7C821174E"
@@ -276,16 +265,33 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["17885C2DE986F1BD"]
+			dependencies: ["47897D827C50629D"]
 			description: ["The &n&5Mechanical Piston&r is similar to the Piston, it can push blocks, but you can add as many Extension Poles as you wish."]
 			id: "45EC31812FB9934D"
 			tasks: [{
-				id: "7C7AF9238D06CB36"
-				item: "create:mechanical_piston"
+				id: "0BD1BA7949BB5855"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:mechanical_piston"
+							}
+							{
+								Count: 1b
+								id: "create:sticky_mechanical_piston"
+							}
+						]
+					}
+				}
+				title: "Mechanical Pistons"
 				type: "item"
 			}]
+			title: "Mechanical Pistons"
 			x: 3.5d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4F95F00ED78FBAB9"]
@@ -414,8 +420,8 @@
 				item: "create:portable_storage_interface"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 5.5d
+			x: 13.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["17885C2DE986F1BD"]
@@ -462,8 +468,8 @@
 				item: "create:brass_casing"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 4.5d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2D41B04C75FA02BC"]
@@ -476,17 +482,6 @@
 			}]
 			x: 11.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["1DA6B8B2DCC97809"]
-			id: "2244A1B11D7D6E11"
-			tasks: [{
-				id: "4BE77A9A3F878072"
-				item: "create:flywheel"
-				type: "item"
-			}]
-			x: 13.5d
-			y: 5.0d
 		}
 		{
 			dependencies: ["4194397DFD0199C2"]
@@ -528,7 +523,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0F16498769DFB3B0"]
@@ -551,8 +546,8 @@
 				item: "create:brass_tunnel"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 4.0d
+			x: 10.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["17885C2DE986F1BD"]
@@ -756,25 +751,14 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["45EC31812FB9934D"]
-			id: "1265C49FE7032C4F"
-			tasks: [{
-				id: "64C79C55EB1CC9F2"
-				item: "create:sticky_mechanical_piston"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["45EC31812FB9934D"]
+			dependencies: ["17885C2DE986F1BD"]
 			id: "47897D827C50629D"
 			tasks: [{
 				id: "473DA14538E1B94C"
 				item: "create:piston_extension_pole"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
@@ -849,5 +833,5 @@
 			y: -4.5d
 		}
 	]
-	title: "Create"
+	title: "{atm9.chapters.18.title}"
 }

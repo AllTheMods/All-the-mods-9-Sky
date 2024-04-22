@@ -5,48 +5,20 @@
 	group: ""
 	icon: "minecraft:zombie_head"
 	id: "18A429E7F56AF5A9"
-	images: [
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 3.0d
-			hover: [ ]
-			image: "atm:textures/bounty.png"
-			rotation: 0.0d
-			width: 12.0d
-			x: 0.5d
-			y: -7.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 100.0d
-			hover: [ ]
-			image: "atm:textures/clouds.png"
-			rotation: 0.0d
-			width: 100.0d
-			x: 8.5d
-			y: 0.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 3.0d
-			hover: [ ]
-			image: "atm:textures/bounty.png"
-			rotation: 0.0d
-			width: 12.0d
-			x: 0.5d
-			y: -6.5d
-		}
-	]
-	order_index: 4
+	images: [{
+		height: 3.0d
+		image: "atm:textures/questpics/bounty.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: 3.0d
+		y: -8.0d
+	}]
+	order_index: 2
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
+			hide: false
 			id: "2B05A29C62676EB2"
 			rewards: [
 				{
@@ -61,7 +33,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Kill 5 Zombies"
+			subtitle: "{atm9.quest.bounty.subt.zombie}"
 			tasks: [{
 				entity: "minecraft:zombie"
 				icon: "minecraft:zombie_head"
@@ -70,12 +42,13 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "&l&9Overworld Bounty:&r&e Zombies"
-			x: -6.5d
-			y: 0.5d
+			title: "{atm9.quest.bounty.zombie}"
+			x: -4.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2B05A29C62676EB2"]
+			hide: true
 			id: "444ACE285311ECB4"
 			rewards: [
 				{
@@ -84,10 +57,10 @@
 					xp: 20
 				}
 				{
-					count: 5
-					id: "54178E89681A580C"
-					item: "reliquary:zombie_heart"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "6A111F9EEADA4BA2"
+					table_id: 487623848494439020L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -98,8 +71,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: -6.5d
-			y: -1.0d
+			x: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["444ACE285311ECB4"]
@@ -111,10 +84,23 @@
 					xp: 50
 				}
 				{
-					count: 10
-					id: "5E79DAB83F92174C"
-					item: "reliquary:zombie_heart"
+					count: 20
+					id: "0030F09FB9D2DE22"
+					item: "minecraft:rotten_flesh"
 					type: "item"
+				}
+				{
+					count: 10
+					id: "03A2CFC2335A776A"
+					item: "minecraft:iron_ingot"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FDDD3EECB6D7A85"
+					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -125,8 +111,8 @@
 				type: "kill"
 				value: 50L
 			}]
-			x: -6.5d
-			y: -2.5d
+			x: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["146232B8504789C1"]
@@ -138,22 +124,10 @@
 					xp: 100
 				}
 				{
-					count: 25
-					id: "5DA606CC7CD77A3F"
-					item: "reliquary:zombie_heart"
-					type: "item"
-				}
-				{
-					id: "34FFD52D71BA51B3"
-					item: {
-						Count: 1b
-						id: "reliquary:mob_charm"
-						tag: {
-							Damage: 0
-							entity: "minecraft:zombie"
-						}
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "180D2F31E833E6B5"
+					table_id: 5564196992594175882L
+					type: "random"
 				}
 			]
 			shape: "pentagon"
@@ -166,8 +140,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -6.5d
-			y: -4.0d
+			x: -4.0d
+			y: -5.0d
 		}
 		{
 			id: "42822B1E8A53D051"
@@ -184,7 +158,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Kill 5 Skeles"
+			subtitle: "{atm9.quest.bounty.subt.skeleton}"
 			tasks: [{
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
@@ -193,24 +167,25 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "&l&9Overworld Bounty:&r&e Skeles"
-			x: -4.5d
-			y: 0.5d
+			title: "{atm9.quest.bounty.skeleton}"
+			x: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["42822B1E8A53D051"]
+			hide: true
 			id: "4748831E75A840BE"
 			rewards: [
-				{
-					count: 5
-					id: "456F7CC9E8BAA08C"
-					item: "reliquary:rib_bone"
-					type: "item"
-				}
 				{
 					id: "0D2AAD3B11A32E90"
 					type: "xp"
 					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "056975CFED74BF64"
+					table_id: 487623848494439020L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -221,23 +196,36 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: -4.5d
-			y: -1.0d
+			x: -2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4748831E75A840BE"]
 			id: "410E0DD607CB3469"
 			rewards: [
 				{
-					count: 10
-					id: "2356BB045B96E1F6"
-					item: "reliquary:rib_bone"
-					type: "item"
-				}
-				{
 					id: "02E2F8ED5DB84B97"
 					type: "xp"
 					xp: 50
+				}
+				{
+					count: 20
+					id: "7A227BD20C66223A"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "342AD2A33F43C0EE"
+					item: "minecraft:arrow"
+					random_bonus: 20
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "649295B3143B081D"
+					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -248,35 +236,23 @@
 				type: "kill"
 				value: 50L
 			}]
-			x: -4.5d
-			y: -2.5d
+			x: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["410E0DD607CB3469"]
 			id: "555957ED58ABF8F8"
 			rewards: [
 				{
-					count: 25
-					id: "43239A50BD455DCE"
-					item: "reliquary:rib_bone"
-					type: "item"
-				}
-				{
 					id: "3F6EFAED74D8B549"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "0652AA6D91DE9381"
-					item: {
-						Count: 1b
-						id: "reliquary:mob_charm"
-						tag: {
-							Damage: 0
-							entity: "minecraft:skeleton"
-						}
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "4F90CF0B7D2FED9B"
+					table_id: 5564196992594175882L
+					type: "random"
 				}
 			]
 			shape: "pentagon"
@@ -289,8 +265,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -4.5d
-			y: -4.0d
+			x: -2.0d
+			y: -5.0d
 		}
 		{
 			id: "77FC692AC94D2EEF"
@@ -307,7 +283,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Kill 5 Creepers"
+			subtitle: "{atm9.quest.bounty.subt.creeper}"
 			tasks: [{
 				entity: "minecraft:creeper"
 				icon: "minecraft:creeper_head"
@@ -316,24 +292,25 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "&l&9Overworld Bounty:&r&e Creepers"
-			x: -2.5d
-			y: 0.5d
+			title: "{atm9.quest.bounty.creeper}"
+			x: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["77FC692AC94D2EEF"]
+			hide: true
 			id: "65BBA5C0DAEEC31F"
 			rewards: [
-				{
-					count: 5
-					id: "127375D9B7C4A08E"
-					item: "reliquary:catalyzing_gland"
-					type: "item"
-				}
 				{
 					id: "687FF91B1E08FDFF"
 					type: "xp"
 					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01F13A0B354BBBFD"
+					table_id: 487623848494439020L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -344,23 +321,36 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: -2.5d
-			y: -1.0d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["65BBA5C0DAEEC31F"]
 			id: "76A29816F19E33A2"
 			rewards: [
 				{
-					count: 10
-					id: "272649D80F0A2836"
-					item: "reliquary:catalyzing_gland"
-					type: "item"
-				}
-				{
 					id: "22546D5D3D7EB48C"
 					type: "xp"
 					xp: 50
+				}
+				{
+					count: 20
+					id: "27F653E02AC93F25"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4A85485A2BF26504"
+					item: "supplementaries:bomb"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C419A310D1686C7"
+					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -371,35 +361,23 @@
 				type: "kill"
 				value: 50L
 			}]
-			x: -2.5d
-			y: -2.5d
+			x: 0.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["76A29816F19E33A2"]
 			id: "5FCA4FF8C135435E"
 			rewards: [
 				{
-					count: 25
-					id: "7FB75217C3012F8F"
-					item: "reliquary:catalyzing_gland"
-					type: "item"
-				}
-				{
 					id: "4648D5CB942BAA4A"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "6985F913F9B4BD05"
-					item: {
-						Count: 1b
-						id: "reliquary:mob_charm"
-						tag: {
-							Damage: 0
-							entity: "minecraft:creeper"
-						}
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "7A4B7D60F897D023"
+					table_id: 5564196992594175882L
+					type: "random"
 				}
 			]
 			shape: "pentagon"
@@ -412,62 +390,47 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -2.5d
-			y: -4.0d
+			x: 0.0d
+			y: -5.0d
 		}
 		{
 			description: [
-				"Here you'll find all of the rewards you can get by slaying enemies."
+				"{atm9.quest.bounty.desc.board1}"
 				""
-				"This page is a work in progress!"
-				"The philosopher's stone projectile keybind can turn mobs into others with either a klein star or a little redstone in your inventory, but be careful, testing this I died to an evoker, and lost my chests to a ghast..."
-				"Also, take a free phantom charm, being a skyblock I think you will thank me for this one"
+				"{atm9.quest.bounty.desc.board2}"
 			]
 			id: "41C0948CD9D50322"
-			rewards: [
-				{
-					id: "55CF29758364D4B2"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "4B54437673FE5F2F"
-					item: {
-						Count: 1b
-						id: "reliquary:mob_charm"
-						tag: {
-							Damage: 0
-							entity: "minecraft:phantom"
-						}
-					}
-					type: "item"
-				}
-			]
-			size: 2.0d
-			subtitle: "Killing All The Things"
-			tasks: [{
-				id: "02A7494248D339EF"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
-					}
-					id: "projecte:philosophers_stone"
-					tag: { }
-				}
-				type: "item"
+			rewards: [{
+				id: "55CF29758364D4B2"
+				type: "xp"
+				xp: 10
 			}]
-			title: "The Bounty Board"
-			x: 0.5d
-			y: 3.0d
+			size: 2.0d
+			subtitle: "{atm9.quest.bounty.subt.board}"
+			tasks: [{
+				id: "3C380961550177C2"
+				title: "Bounty Board"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.bounty.board}"
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			id: "728BE1816DA23DC0"
-			rewards: [{
-				id: "73BAA6AD36E525E5"
-				type: "xp"
-				xp: 1000
-			}]
+			rewards: [
+				{
+					id: "73BAA6AD36E525E5"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72DC79DE53E77CAD"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				entity: "minecraft:ender_dragon"
@@ -477,16 +440,25 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.0d
-			y: 5.5d
+			title: "{atm9.quest.bounty.dragon}"
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			id: "09C82CDDA800D8C9"
-			rewards: [{
-				id: "47314637684743A3"
-				type: "xp"
-				xp: 1000
-			}]
+			rewards: [
+				{
+					id: "47314637684743A3"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12C0D9B030D64A4B"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				entity: "minecraft:wither"
@@ -496,16 +468,25 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.5d
-			y: 5.5d
+			title: "{atm9.quest.bounty.wither}"
+			x: 3.0000000000000004d
+			y: 4.5d
 		}
 		{
 			id: "08D1CC753F6B4283"
-			rewards: [{
-				id: "67970FDC5848EF61"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "67970FDC5848EF61"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BB86DB9D806D3E4"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				entity: "minecraft:elder_guardian"
@@ -515,8 +496,9 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.0d
-			y: 5.5d
+			title: "{atm9.quest.bounty.elder}"
+			x: 4.5d
+			y: 4.5d
 		}
 		{
 			id: "56DA46DC82F6665D"
@@ -532,9 +514,15 @@
 					type: "xp"
 					xp: 1000
 				}
+				{
+					exclude_from_claim_all: true
+					id: "380E221DF1F736A8"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
 			]
 			size: 1.5d
-			subtitle: "This isn't even my final form."
+			subtitle: "{atm9.quest.bounty.subt.chimera}"
 			tasks: [{
 				entity: "ars_nouveau:wilden_boss"
 				icon: "ars_nouveau:wilden_tribute"
@@ -543,37 +531,18 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.0500000000000007d
-			y: 7.0d
+			title: "{atm9.quest.bounty.chimera}"
+			x: 4.550000000000001d
+			y: 6.0d
 		}
 		{
-			id: "5825492F8B874CF2"
-			rewards: [
-				{
-					id: "7D584499C3422A82"
-					type: "xp"
-					xp: 1000
-				}
-				{
-					id: "623E6C4256F301A2"
-					item: "botania:life_essence"
-					type: "item"
-				}
+			description: [
+				"{atm9.quest.bounty.desc.trader1}"
+				""
+				"{atm9.quest.bounty.desc.trader2}"
+				""
+				"{atm9.quest.bounty.desc.trader3}"
 			]
-			size: 1.5d
-			subtitle: "Not the Guardian of Gaia Online btw"
-			tasks: [{
-				entity: "botania:doppleganger"
-				icon: "botania:gaia_head"
-				id: "615EF9B587C0E4F6"
-				title: "Kill the Guardian Of Gaia"
-				type: "kill"
-				value: 1L
-			}]
-			x: -0.9499999999999993d
-			y: 7.0d
-		}
-		{
 			id: "0F55D0B4D5094EDB"
 			optional: true
 			rewards: [
@@ -598,13 +567,19 @@
 					xp: 100
 				}
 				{
-					id: "70505A07F2966850"
-					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					id: "739F0D5CD8C7BA5E"
+					item: "supplementaries:pedestal"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66C49399D8CCD721"
+					table_id: 487623848494439020L
+					type: "random"
 				}
 			]
 			size: 1.5d
-			subtitle: "\"This is Personal\" - AlfredGG"
+			subtitle: "{atm9.quest.bounty.subt.trader}"
 			tasks: [
 				{
 					entity: "minecraft:wandering_trader"
@@ -623,12 +598,12 @@
 					value: 2L
 				}
 			]
-			title: "Kill the Trader Villager and His Annoying Llamas"
-			x: 0.5500000000000007d
-			y: 7.0d
+			title: "{atm9.quest.bounty.trader}"
+			x: 3.0500000000000003d
+			y: 6.0d
 		}
 		{
-			icon: "supplementaries:enderman_head"
+			icon: "minecraft:ender_pearl"
 			id: "17F3AC15ADCFB175"
 			rewards: [
 				{
@@ -643,115 +618,111 @@
 					xp: 10
 				}
 			]
-			subtitle: "Kill 5 Endermen"
+			subtitle: "{atm9.quest.bounty.subt.enderman}"
 			tasks: [{
 				entity: "minecraft:enderman"
-				icon: "supplementaries:enderman_head"
+				icon: "minecraft:ender_pearl"
 				id: "0EA4B08DAAFA4287"
 				title: "&l&9The End Bounty:&r&e Endermen"
 				type: "kill"
 				value: 5L
 			}]
-			x: 7.5d
-			y: 0.5d
+			title: "{atm9.quest.bounty.enderman}"
+			x: 10.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["17F3AC15ADCFB175"]
-			icon: "supplementaries:enderman_head"
+			hide: true
+			icon: "minecraft:ender_pearl"
 			id: "2916F873A4DA84E8"
 			rewards: [
-				{
-					count: 5
-					id: "1238531ABC44F223"
-					item: "reliquary:nebulous_heart"
-					type: "item"
-				}
 				{
 					id: "1E180EED68717968"
 					type: "xp"
 					xp: 20
 				}
+				{
+					exclude_from_claim_all: true
+					id: "2666996F798768C7"
+					table_id: 487623848494439020L
+					type: "random"
+				}
 			]
 			tasks: [{
 				entity: "minecraft:enderman"
-				icon: "supplementaries:enderman_head"
+				icon: "minecraft:ender_pearl"
 				id: "58BF5D3267CF02F8"
 				title: "Kill 10 Endermen"
 				type: "kill"
 				value: 10L
 			}]
-			x: 7.5d
-			y: -1.0d
+			x: 10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2916F873A4DA84E8"]
-			icon: "supplementaries:enderman_head"
+			icon: "minecraft:ender_pearl"
 			id: "2AAF57D1D8AB6BF8"
 			rewards: [
-				{
-					count: 10
-					id: "0800181AB3EE3145"
-					item: "reliquary:nebulous_heart"
-					type: "item"
-				}
 				{
 					id: "6A0CF631E02D49A1"
 					type: "xp"
 					xp: 50
 				}
+				{
+					count: 8
+					id: "05A65D5FBBCE30C9"
+					item: "minecraft:ender_pearl"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46897BBCAF61CBCB"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
 			]
 			tasks: [{
 				entity: "minecraft:enderman"
-				icon: "supplementaries:enderman_head"
+				icon: "minecraft:ender_pearl"
 				id: "6BA6847A172C8DD7"
 				title: "Kill 50 Endermen"
 				type: "kill"
 				value: 50L
 			}]
-			x: 7.5d
-			y: -2.5d
+			x: 10.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2AAF57D1D8AB6BF8"]
-			icon: "supplementaries:enderman_head"
 			id: "479A4E778D8D7317"
 			rewards: [
-				{
-					count: 25
-					id: "6DBC24744D282CC9"
-					item: "reliquary:nebulous_heart"
-					type: "item"
-				}
 				{
 					id: "2BC1E9EBB5267A83"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "4ED537805FB99984"
-					item: {
-						Count: 1b
-						id: "reliquary:mob_charm"
-						tag: {
-							Damage: 0
-							entity: "minecraft:enderman"
-						}
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "4EEDA3086FA8D846"
+					table_id: 5564196992594175882L
+					type: "random"
 				}
 			]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
 				entity: "minecraft:enderman"
-				icon: "supplementaries:enderman_head"
+				icon: "minecraft:ender_eye"
 				id: "53C23DB8B4D1CEE2"
 				title: "Kill 100 Endermen"
 				type: "kill"
 				value: 100L
 			}]
-			x: 7.5d
-			y: -4.0d
+			x: 10.0d
+			y: -5.0d
 		}
 		{
 			icon: "minecraft:spider_eye"
@@ -769,7 +740,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Kill 5 Spiders"
+			subtitle: "{atm9.quest.bounty.subt.spider}"
 			tasks: [{
 				entity: "minecraft:spider"
 				icon: "minecraft:spider_eye"
@@ -777,24 +748,25 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "&l&9Overworld Bounty:&r&e Spiders"
-			x: -0.5d
-			y: 0.5d
+			title: "{atm9.quest.bounty.spider}"
+			x: 2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1F18B64C84C8809D"]
+			hide: true
 			id: "283CA6DB77D5D2EB"
 			rewards: [
-				{
-					count: 5
-					id: "04E7562ED8330512"
-					item: "reliquary:chelicerae"
-					type: "item"
-				}
 				{
 					id: "39C45D0CB4075128"
 					type: "xp"
 					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A6C2A97D769418B"
+					table_id: 487623848494439020L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -805,23 +777,36 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: -0.5d
-			y: -1.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["283CA6DB77D5D2EB"]
 			id: "63A1F25DF658928A"
 			rewards: [
 				{
-					count: 10
-					id: "2964234F26B563B1"
-					item: "reliquary:chelicerae"
-					type: "item"
-				}
-				{
 					id: "5E0D1C18A4137319"
 					type: "xp"
 					xp: 50
+				}
+				{
+					count: 10
+					id: "6D9B9C1582E05FFD"
+					item: "minecraft:string"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					count: 20
+					id: "13133B21B6680DA4"
+					item: "minecraft:spider_eye"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "319B63A612336BE5"
+					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -832,35 +817,23 @@
 				type: "kill"
 				value: 50L
 			}]
-			x: -0.5d
-			y: -2.5d
+			x: 2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["63A1F25DF658928A"]
 			id: "2D7E335B9D780E70"
 			rewards: [
 				{
-					count: 25
-					id: "4227743A3669C2EA"
-					item: "reliquary:chelicerae"
-					type: "item"
-				}
-				{
 					id: "0673C1611D1BC1FD"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "20EF477B19219020"
-					item: {
-						Count: 1b
-						id: "reliquary:mob_charm"
-						tag: {
-							Damage: 0
-							entity: "minecraft:spider"
-						}
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "2B8E13883A6DEF5F"
+					table_id: 5564196992594175882L
+					type: "random"
 				}
 			]
 			shape: "pentagon"
@@ -873,11 +846,11 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -0.5d
-			y: -4.0d
+			x: 2.0d
+			y: -5.0d
 		}
 		{
-			icon: "minecraft:blaze_rod"
+			icon: "minecraft:blaze_powder"
 			id: "6141DE779232C8AA"
 			rewards: [
 				{
@@ -892,32 +865,34 @@
 					xp: 10
 				}
 			]
-			subtitle: "Kill 5 Blazes"
+			subtitle: "{atm9.quest.bounty.subt.blaze}"
 			tasks: [{
 				entity: "minecraft:blaze"
-				icon: "minecraft:blaze_rod"
+				icon: "minecraft:blaze_powder"
 				id: "1718CA0F8978181C"
 				title: "&l&cThe Nether Bounty:&r&e Blazes"
 				type: "kill"
 				value: 5L
 			}]
-			x: 3.5d
-			y: 0.5d
+			title: "{atm9.quest.bounty.blaze}"
+			x: 6.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6141DE779232C8AA"]
+			hide: true
 			id: "4F48A4839B549C92"
 			rewards: [
-				{
-					count: 5
-					id: "48AAE01E98466998"
-					item: "reliquary:molten_core"
-					type: "item"
-				}
 				{
 					id: "10A5CCDDA3FABD37"
 					type: "xp"
 					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E7B0138373F4D28"
+					table_id: 487623848494439020L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -928,23 +903,37 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: 3.5d
-			y: -1.0d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4F48A4839B549C92"]
 			id: "6C9BC3A699E57162"
 			rewards: [
 				{
-					count: 10
-					id: "10D3A125AEF09B06"
-					item: "reliquary:molten_core"
-					type: "item"
-				}
-				{
 					id: "06776533F6B5ABCA"
 					type: "xp"
 					xp: 50
+				}
+				{
+					count: 20
+					id: "3D8FB446CA3F27F4"
+					item: "minecraft:blaze_rod"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					count: 10
+					id: "5A1F2CBC8D91C5BE"
+					item: "minecraft:blaze_powder"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DD5D5A5D39C411C"
+					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -955,35 +944,23 @@
 				type: "kill"
 				value: 50L
 			}]
-			x: 3.5d
-			y: -2.5d
+			x: 6.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6C9BC3A699E57162"]
 			id: "35CC1F1DA9530688"
 			rewards: [
 				{
-					count: 25
-					id: "5C4954E0A01D8BED"
-					item: "reliquary:molten_core"
-					type: "item"
-				}
-				{
 					id: "117A52F30802CC99"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "2586539A54CD42D4"
-					item: {
-						Count: 1b
-						id: "reliquary:mob_charm"
-						tag: {
-							Damage: 0
-							entity: "minecraft:blaze"
-						}
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "0845C88CA6D644A3"
+					table_id: 5564196992594175882L
+					type: "random"
 				}
 			]
 			shape: "pentagon"
@@ -996,8 +973,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 3.5d
-			y: -4.0d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			id: "5AC497F76A086A5C"
@@ -1014,146 +991,176 @@
 					xp: 10
 				}
 			]
-			subtitle: "Kill 5 Witches"
+			subtitle: "{atm9.quest.bounty.subt.witch}"
 			tasks: [{
 				entity: "minecraft:witch"
-				icon: "reliquary:witch_hat"
+				icon: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:invisibility"
+					}
+				}
 				id: "7BAB5E17D2DE4E3E"
 				title: "&l&9Overworld Bounty:&r&e Witches"
 				type: "kill"
 				value: 5L
 			}]
-			x: 1.5d
-			y: 0.5d
+			title: "{atm9.quest.bounty.witch}"
+			x: 4.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5AC497F76A086A5C"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:invisibility"
+				}
+			}
 			id: "6E4FD0B568BEB3F9"
 			rewards: [
-				{
-					id: "25DC7CD5B262E724"
-					item: "reliquary:witch_hat"
-					type: "item"
-				}
 				{
 					id: "15E0578B1F9521EF"
 					type: "xp"
 					xp: 20
 				}
 				{
-					id: "758F0339E707054E"
-					item: "reliquary:witch_hat"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "6CCE54980E8D2003"
+					table_id: 487623848494439020L
+					type: "random"
 				}
 			]
 			tasks: [{
 				entity: "minecraft:witch"
-				icon: "reliquary:witch_hat"
+				icon: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:leaping"
+					}
+				}
 				id: "7127A76DEB4D1696"
 				title: "Kill 10 Witches"
 				type: "kill"
 				value: 10L
 			}]
-			x: 1.5d
-			y: -1.0d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6E4FD0B568BEB3F9"]
 			id: "2D136FCDA92C92AC"
 			rewards: [
 				{
-					id: "62DC7502E0E05E1E"
-					item: "reliquary:witch_hat"
-					type: "item"
-				}
-				{
-					id: "02D8811996774B37"
-					item: "reliquary:witch_hat"
-					type: "item"
-				}
-				{
-					id: "31E51B93C70CAB2D"
-					item: "reliquary:witch_hat"
-					type: "item"
-				}
-				{
-					id: "103F9673D3D9E542"
-					item: "reliquary:witch_hat"
-					type: "item"
-				}
-				{
-					id: "7F45712B8066FA21"
-					item: "reliquary:witch_hat"
-					type: "item"
-				}
-				{
 					id: "0165B8CC821A943F"
 					type: "xp"
 					xp: 50
 				}
+				{
+					count: 10
+					id: "52854A638D3FE878"
+					item: "minecraft:redstone"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0049AE95E8647336"
+					item: "minecraft:sugar"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2A0CD06747FBE0D8"
+					item: "minecraft:glowstone_dust"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F4C40818D552881"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
 			]
 			tasks: [{
 				entity: "minecraft:witch"
-				icon: "reliquary:witch_hat"
-				id: "3CF48F4AEE9557C8"
+				icon: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:slowness"
+					}
+				}
+				id: "78A782913B7E6353"
 				title: "Kill 50 Witches"
 				type: "kill"
 				value: 50L
 			}]
-			x: 1.5d
-			y: -2.5d
+			x: 4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2D136FCDA92C92AC"]
 			id: "6F93A02E620C69FE"
 			rewards: [
 				{
-					id: "4C4C2E39494E6E01"
-					item: {
-						Count: 1b
-						id: "reliquary:mob_charm"
-						tag: {
-							Damage: 0
-							entity: "minecraft:witch"
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "7FF2D930AF11BB82"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2019E33C08375AA8"
+					table_id: 5564196992594175882L
+					type: "random"
 				}
 			]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
 				entity: "minecraft:witch"
-				icon: "reliquary:witch_hat"
+				icon: {
+					Count: 1b
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "ars_nouveau:shielding_potion_strong"
+					}
+				}
 				id: "5A3D6416BA0C7A20"
 				title: "Kill 100 Witches"
 				type: "kill"
 				value: 100L
 			}]
-			x: 1.5d
-			y: -4.0d
+			x: 4.0d
+			y: -5.0d
 		}
 		{
 			id: "3371F9248D403664"
 			rewards: [
 				{
-					count: 3
-					id: "245531F6620C2FDE"
-					item: "wstweaks:fragment"
-					type: "item"
-				}
-				{
 					id: "7EC75E59C315BB3C"
 					type: "xp"
 					xp: 10
 				}
+				{
+					count: 6
+					id: "3C294799544A5584"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "7221550A96E0CD00"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
 			]
-			subtitle: "Kill 5 Wither Skeles"
+			subtitle: "{atm9.quest.bounty.subt.wither_skeleton}"
 			tasks: [{
 				entity: "minecraft:wither_skeleton"
 				icon: "minecraft:wither_skeleton_skull"
@@ -1162,23 +1169,25 @@
 				type: "kill"
 				value: 5L
 			}]
-			x: 5.5d
-			y: 0.5d
+			title: "{atm9.quest.bounty.wither_skeleton}"
+			x: 8.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3371F9248D403664"]
+			hide: true
 			id: "738E94C4CFB05D11"
 			rewards: [
-				{
-					count: 5
-					id: "6BD6B1F31E2EC114"
-					item: "reliquary:withered_rib"
-					type: "item"
-				}
 				{
 					id: "5A7979DA8E07631A"
 					type: "xp"
 					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "021EACDBD76A9D2E"
+					table_id: 487623848494439020L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1189,19 +1198,13 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: 5.5d
-			y: -1.0d
+			x: 8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["738E94C4CFB05D11"]
 			id: "65CE9117B923C0DB"
 			rewards: [
-				{
-					count: 10
-					id: "0655D68E60737608"
-					item: "reliquary:withered_rib"
-					type: "item"
-				}
 				{
 					id: "7ADAFF31822653D1"
 					type: "xp"
@@ -1213,6 +1216,18 @@
 					item: "minecraft:wither_skeleton_skull"
 					type: "item"
 				}
+				{
+					count: 6
+					id: "46FE70A8D25378BD"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24573A422CE166A4"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
 			]
 			tasks: [{
 				entity: "minecraft:wither_skeleton"
@@ -1222,31 +1237,13 @@
 				type: "kill"
 				value: 50L
 			}]
-			x: 5.5d
-			y: -2.5d
+			x: 8.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["65CE9117B923C0DB"]
 			id: "180B3AFF8C552F3F"
 			rewards: [
-				{
-					count: 25
-					id: "44E866989BB2A991"
-					item: "reliquary:withered_rib"
-					type: "item"
-				}
-				{
-					id: "4B90CBA3A14C8611"
-					item: {
-						Count: 1b
-						id: "reliquary:mob_charm"
-						tag: {
-							Damage: 0
-							entity: "minecraft:wither_skeleton"
-						}
-					}
-					type: "item"
-				}
 				{
 					count: 9
 					id: "5AACC888295804E0"
@@ -1254,9 +1251,10 @@
 					type: "item"
 				}
 				{
-					id: "3C86689F40D826F8"
-					type: "xp"
-					xp: 100
+					exclude_from_claim_all: true
+					id: "4E3E6BB30F0AF436"
+					table_id: 5564196992594175882L
+					type: "random"
 				}
 			]
 			shape: "pentagon"
@@ -1269,9 +1267,43 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: 5.5d
-			y: -4.0d
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			icon: "minecraft:sculk_sensor"
+			id: "0E20A9B79D1C6637"
+			rewards: [
+				{
+					id: "1A20BD8574954FE2"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "190AE302BBF17638"
+					item: "allthemodium:allthemodium_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77D3E366578B4BF0"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "minecraft:sculk_catalyst"
+				id: "69678CAC075C8EA5"
+				title: "Kill the Warden"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{atm9.quest.bounty.warden}"
+			x: 1.5d
+			y: 6.0d
 		}
 	]
-	title: "Bounty Board"
+	title: "{atm9.chapters.3.title}"
 }

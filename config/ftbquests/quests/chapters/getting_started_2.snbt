@@ -1,0 +1,971 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic_power_generation"
+	group: "2084F3F6FB861C5B"
+	icon: "mekanismgenerators:wind_generator"
+	id: "02AFCEFE247BAD9F"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "minecraft:textures/item/diamond.png"
+			rotation: 15.0d
+			width: 0.5d
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "minecraft:textures/block/oxeye_daisy.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "minecraft:textures/block/oxeye_daisy.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/item/dragon_breath.png"
+			rotation: -30.0d
+			width: 1.0d
+			x: 20.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 100.0d
+			hover: [ ]
+			image: "atm:textures/clouds.png"
+			rotation: 0.0d
+			width: 100.0d
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "allthetweaks:block/atm_star_block"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.5d
+			y: 0.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Let's make a Metallurgic Infuser."
+				""
+				"This machine allows us to make several materials that can be used for power and more machines in the future"
+				""
+			]
+			id: "59B3C2AF620547E0"
+			rewards: [
+				{
+					id: "6D387B4F6D53CDA9"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+				{
+					id: "5CF217505CA38186"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "To Create More Power"
+			tasks: [{
+				id: "512F3539FAE93680"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			title: "Using Our Power"
+			x: -5.500000000000002d
+			y: 2.0d
+		}
+		{
+			dependencies: ["59B3C2AF620547E0"]
+			description: [
+				"Let's get the materials needed for the Wind Generator."
+				""
+				"Start by placing a piece of redstone in the far left slot, and a piece of iron in the middle-left slot. This will make an Infused Alloy."
+				""
+				"To make the control circuit, you'll need 2 pieces of redstone and an Osmium Ingot."
+				""
+				"Use these pieces to make 2 Energy Tablets."
+			]
+			id: "531DFFDE9EA7838E"
+			rewards: [
+				{
+					count: 3
+					id: "069E9C41474ACF42"
+					item: "alltheores:osmium_ingot"
+					type: "item"
+				}
+				{
+					id: "30277E05FF6E67D4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Getting the Parts"
+			tasks: [
+				{
+					count: 5L
+					id: "568260644F99CE83"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+				{
+					id: "03118FCD2EFD5A30"
+					item: "mekanism:basic_control_circuit"
+					type: "item"
+				}
+				{
+					id: "25B2004192CD0C44"
+					item: "mekanism:energy_tablet"
+					type: "item"
+				}
+				{
+					id: "6186D1DEB76B8C0A"
+					item: "mekanism:energy_tablet"
+					type: "item"
+				}
+			]
+			title: "Wind Generator: Part 1"
+			x: -4.000000000000002d
+			y: 2.0d
+		}
+		{
+			dependencies: ["531DFFDE9EA7838E"]
+			description: [
+				"We'll need a way to transfer our power from our Wind Generator."
+				""
+				"Go ahead and make yourself some Energy Pipez and a Pipe Wrench. You'll need the pipe wrench to get the pipe to extract power."
+				""
+				"*Note: To tell the pipe to \"extract\" the power, shift right click on the pipe connected to the Wind Generator."
+				""
+			]
+			id: "343AEA9974EBCAD8"
+			rewards: [
+				{
+					count: 8
+					id: "6E0D969851049D68"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					id: "2B24EAB2BCF948BC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			subtitle: "Cheap Pipez"
+			tasks: [
+				{
+					count: 16L
+					id: "4F8D11BEBDCE5181"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					id: "11071F99C25B4FD1"
+					item: "pipez:wrench"
+					type: "item"
+				}
+			]
+			title: "Connecting Power"
+			x: -5.499999999999998d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2D0AC4CC9992E3C8"]
+			description: [
+				"The Pulverizer is a basic Thermal Expansion machine used to process 1 raw ore into 1 dust, with a 25% chance to create another dust. This usually means about 25% more ingots."
+				""
+				"Make sure to connect power to it!"
+				""
+				"*Note: These can also be upgraded."
+			]
+			id: "7410CB313F03A6B5"
+			rewards: [
+				{
+					count: 4
+					id: "3EF6A232857870FF"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6554B93843133E88"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					id: "579E29011F2C0351"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Throwback to the Macerator from IC2"
+			tasks: [{
+				id: "19C4E31FAF8AEF8C"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			title: "Leaving it up to Chance!"
+			x: -4.000000000000002d
+			y: -0.9999999999999996d
+		}
+		{
+			description: [
+				"This is the first Jetpack we'll make. It doesn't hold a charge for very long though."
+				""
+				"Make sure to upgrade it quickly!"
+			]
+			id: "201143A8D039A543"
+			rewards: [{
+				id: "357CACC23334834D"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Look Ma! I'm Flying!"
+			tasks: [{
+				id: "4A5D85046D46C7A6"
+				item: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:bronze"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			title: "Our First Flight"
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19FBD3C65A96B311"]
+			description: [
+				"This chargeable item can place blocks for you."
+				""
+				"To use, make sure you find the \"settings\" keybind in your keybind settings, under the Building Gadget category."
+			]
+			id: "4FBE6552DAEADDB7"
+			optional: true
+			rewards: [
+				{
+					id: "0873D0D22302DFB2"
+					item: {
+						Count: 1b
+						id: "constructionwand:diamond_wand"
+						tag: {
+							Damage: 0
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66C949FFA898948E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Sorry, Building Wands."
+			tasks: [{
+				id: "5BC8B2F826F8818B"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			title: "The Best Building Tool"
+			x: -1.1999999999999975d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7FF2F202BE2AEF3E"
+				"216E75E350303F42"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"The Iron Furnace can be upgraded all the way to Unobtainium."
+				""
+				"It's time for an upgrade!"
+			]
+			id: "7FE88F6B16029995"
+			rewards: [
+				{
+					id: "48AC4A7E931847EE"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "1B818AB1DE891746"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "17450880C4EAB5B5"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			title: "Upgrading Our Smelting Machine"
+			x: -2.4999999999999982d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7FE88F6B16029995"]
+			id: "30E59763D0E8684B"
+			optional: true
+			rewards: [{
+				id: "34E92E7C8A211B76"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			subtitle: "Converts to a Blast Furnace"
+			tasks: [{
+				id: "5CEA781ACA858233"
+				item: "ironfurnaces:augment_blasting"
+				type: "item"
+			}]
+			x: -2.4999999999999982d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7FE88F6B16029995"]
+			id: "18D6BF7FD5A599E5"
+			optional: true
+			rewards: [{
+				id: "6E8A1F6B444DC067"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			subtitle: "Smokes Food"
+			tasks: [{
+				id: "1AF765FBFE79955A"
+				item: "ironfurnaces:augment_smoking"
+				type: "item"
+			}]
+			x: -2.4999999999999982d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7FE88F6B16029995"]
+			id: "7B41010503609641"
+			optional: true
+			rewards: [{
+				id: "7F5F18D0FD64DC01"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			subtitle: "GO FASTER!"
+			tasks: [{
+				id: "16A8BEE102ECEFE0"
+				item: "ironfurnaces:augment_speed"
+				type: "item"
+			}]
+			x: -2.9999999999999982d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7FE88F6B16029995"]
+			id: "483BCD08B820CC30"
+			optional: true
+			rewards: [{
+				id: "1BA2F8F9C867C8C5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			subtitle: "Better Fuel Efficiency"
+			tasks: [{
+				id: "3DD3BB53E55041A7"
+				item: "ironfurnaces:augment_fuel"
+				type: "item"
+			}]
+			x: -1.9999999999999982d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7FE88F6B16029995"]
+			description: [
+				"Hook the Wireless Heat Transmitter block up to your power system. Place the receiver into the transmitter to link them, then place the receiver into your furnace as fuel."
+				""
+				"This will give you wireless power for your furnace!"
+			]
+			id: "01188A98FD63631A"
+			rewards: [
+				{
+					id: "7DF48E2657A34158"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					id: "4F6159B4C39C586F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "Wireless Heat?"
+			tasks: [
+				{
+					id: "231DFEB6B91F16FA"
+					item: "ironfurnaces:heater"
+					type: "item"
+				}
+				{
+					id: "57755FB8698B6FF9"
+					item: "ironfurnaces:item_heater"
+					type: "item"
+				}
+			]
+			title: "Wireless Power for the Furnace!"
+			x: -3.9999999999999982d
+			y: -2.0d
+		}
+		{
+			dependencies: ["343AEA9974EBCAD8"]
+			description: [
+				"All Pipez can be upgraded with pipe upgrades."
+				""
+				"To add the pipe upgrade, shift right click on the pipe that is currently set to extract."
+			]
+			id: "496A2D0AD494A942"
+			rewards: [
+				{
+					id: "364C4DE2323BF866"
+					item: "pipez:basic_upgrade"
+					type: "item"
+				}
+				{
+					id: "0453434346F9BE4F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			subtitle: "Increase our pipe output"
+			tasks: [{
+				id: "0FCE12572DC4E75D"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			title: "Pipe Upgrades"
+			x: -3.9999999999999982d
+			y: 3.5d
+		}
+		{
+			dependencies: ["496A2D0AD494A942"]
+			id: "614DA56CB666937A"
+			rewards: [
+				{
+					id: "147A989DF9583238"
+					item: "pipez:improved_upgrade"
+					type: "item"
+				}
+				{
+					id: "71F75C4EDA446036"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "0734C1439698A3BE"
+				item: "pipez:improved_upgrade"
+				type: "item"
+			}]
+			x: -2.4999999999999982d
+			y: 3.5d
+		}
+		{
+			description: [""]
+			id: "1ECF6495A3D77E27"
+			rewards: [{
+				id: "1EC6E0E46142E6D8"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Being in the void there is no end portal for you to search for, all you have to do is taste the (slightly sour) end cake and be on your merry little way!"
+			tasks: [{
+				id: "3EDD7F00E94F9F28"
+				item: "exdeorum:end_cake"
+				type: "item"
+			}]
+			title: "To the End!"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1ECF6495A3D77E27"]
+			description: ["Head to the End and kill the Ender Dragon!"]
+			id: "5C769E0D5C1F806E"
+			rewards: [
+				{
+					id: "60AA4D92FA090F0C"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "4A9A889428332713"
+					item: {
+						Count: 1b
+						id: "minecraft:cake"
+						tag: {
+							display: {
+								Lore: ["\"I beat Minecraft, and all they gave me was this cake.\""]
+								Name: "\"Winner Cake\""
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "For the first time....."
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "77D607A14CA56F5E"
+				title: "Kill the Ender Dragon!"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5Kill the Ender Dragon!"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1ECF6495A3D77E27"]
+			description: [
+				"If you're on a server where the Ender Dragon is already killed, you'll need to resummon it."
+				""
+				"Take 4 End Crystals and place 1 on each side of the exit portal."
+			]
+			id: "6C5EA78B521858CF"
+			optional: true
+			rewards: [{
+				id: "1475AA1CF744F9CB"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "In case someone has already killed it..."
+			tasks: [{
+				count: 4L
+				id: "792082BC111171A3"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			title: "How to Resummon the Dragon"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5C769E0D5C1F806E"]
+			description: [
+				"If you didn't know, there is more to the End than just killing the dragon."
+				""
+				"Once the dragon has been slain, you will find a weird \"structure\" with a portal between 3 blocks. Take an Ender Pearl and throw it into the portal."
+			]
+			icon: "minecraft:ender_pearl"
+			id: "1EC4BA2569828891"
+			rewards: [{
+				id: "072FD927242F3038"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "It's actually really pretty."
+			tasks: [{
+				id: "2675B5F872C3F81C"
+				title: "To the REAL End"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1EC4BA2569828891"]
+			description: [
+				"Somewhere in the End, you'll find a floating ship."
+				""
+				"Defeat the enemies there and make your way to the loot room, and you'll find yourself your first Elytra."
+			]
+			id: "427B251ABCD4B085"
+			rewards: [
+				{
+					id: "31B5682E925986BC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "24B87A9E2C3FEFCA"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+			]
+			subtitle: "But we have a jetpack?"
+			tasks: [{
+				id: "3BAF0CA8558749AE"
+				item: {
+					Count: 1b
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Vanilla \"Flight\""
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["614DA56CB666937A"]
+			id: "0C6454F388EDE751"
+			rewards: [
+				{
+					id: "6F0E92596AA721FB"
+					item: "pipez:advanced_upgrade"
+					type: "item"
+				}
+				{
+					id: "5A142620FE9D1286"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "31B291FD7AF49DC0"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			x: -1.1999999999999975d
+			y: 3.5d
+		}
+		{
+			dependencies: ["531DFFDE9EA7838E"]
+			description: [
+				"The Enrichment Chamber turns 3 Raw ores into 4 dusts. This gives you about 25% more ingots."
+				""
+				"Mekanism also has a progression system that helps you create a factory that can give you even MORE from your raw ore."
+			]
+			id: "487F54A97A334E04"
+			rewards: [
+				{
+					count: 4
+					id: "19B9A062D9DBE6FB"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0D4B4778A88FE069"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					id: "08C93B627FDA5691"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Leads to creating an ore FACTORY."
+			tasks: [{
+				id: "491A3E6D650215D6"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			title: "Sticking with Mekanism"
+			x: -4.000000000000002d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7410CB313F03A6B5"]
+			description: [
+				"To setup automated Ore Smelting, place your Pulverizer directly to the left of your Iron Furnace."
+				""
+				"You'll place a chest on both, and then use the Cogwheel in the Pulverizer to configure input and output. Turn the top face Blue (input) and the right face Red (Output). Make sure to press the \"Auto Eject\" and \"Auto Input\" buttons."
+				""
+				"In the Iron Furnace, you'll do the same thing, except Input from the left and Output to the top."
+				"{image:atm:textures/pulverizer_easy_setup.png width:200 height:158 align:1 fit:true}"
+			]
+			icon: "thermal:wrench"
+			id: "7FF2F202BE2AEF3E"
+			rewards: [
+				{
+					count: 4
+					id: "4698CAE3BB7A4C48"
+					item: "minecraft:iron_ore"
+					type: "item"
+				}
+				{
+					id: "5F275E5917BCF911"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Sticking with Thermal Expansion"
+			tasks: [{
+				id: "720C5793B80F12B0"
+				title: "Automated Ore Smelting with the Pulverizer"
+				type: "checkmark"
+			}]
+			title: "Automated Ore Smelting with Thermal Expansion"
+			x: -2.5000000000000018d
+			y: -0.9999999999999996d
+		}
+		{
+			dependencies: ["487F54A97A334E04"]
+			description: [
+				"To set up automated ore smelting from Mekanism, place the Enrichment Chamber to the left of your Iron Furnace, and place a Chest on top of both."
+				""
+				"In the Enrichment Chamber, use the \"Side Config\" settings to output to the right. Make sure to press the \"Auto Eject\" button."
+				""
+				"To get items into the Enrichment Chamber, you'll need a pipe connecting the chest on top to the machine. This can be done using an Item Pipe from &aPipez&r, or a Basic Logistical Transporter pipe from &9Mekanism&r. "
+				""
+				"In the Iron Furnace, you'll set it to Input from the left and Output to the top. Make sure to select the auto-input and output buttons."
+				"{image:atm:textures/mekanism_easy_setup.png width:300 height:207 align:1 fit:true}"
+			]
+			icon: "mekanism:meka_tool"
+			id: "216E75E350303F42"
+			rewards: [
+				{
+					count: 4
+					id: "19CA300588AC0B60"
+					item: "minecraft:iron_ore"
+					type: "item"
+				}
+				{
+					id: "22E60BD668BCFA22"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "The Factory is Coming."
+			tasks: [{
+				id: "78A9C7EC099DC0E9"
+				title: "Automated Ore Smelting with Mekanism"
+				type: "checkmark"
+			}]
+			title: "Automated Ore Smelting with Mekanism"
+			x: -2.5000000000000018d
+			y: 0.5d
+		}
+		{
+			dependencies: ["216E75E350303F42"]
+			description: ["To get started with Mekanism, check out the &aMekanism&r Chapter in the &6Technology&r Group."]
+			icon: "mekanism:steel_casing"
+			id: "4D21D9AAFACD40C3"
+			rewards: [{
+				id: "084FE78CF9C48D2E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4118C349344299FF"
+				title: "Getting Started with Mekanism"
+				type: "checkmark"
+			}]
+			x: -1.200000000000001d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7FF2F202BE2AEF3E"]
+			description: ["Thermal Expansion is a simple power mod! Check out the &6Thermal Series&r Chapter to get started!"]
+			icon: "thermal:machine_frame"
+			id: "6A2CBA329A84CAE5"
+			rewards: [{
+				id: "587CD4FCD1A38537"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Alloys are in your future."
+			tasks: [{
+				id: "61AA7A3B583225B6"
+				title: "Getting Started with Thermal Expansion"
+				type: "checkmark"
+			}]
+			x: -1.1999999999999975d
+			y: -1.0d
+		}
+		{
+			dependencies: ["531DFFDE9EA7838E"]
+			description: [
+				"The Basic Energy Cube acts as a power bank."
+				""
+				"You can also put chargeable items on the right slot to charge them up!"
+				""
+				"That means it's time for flight!"
+			]
+			id: "19FBD3C65A96B311"
+			rewards: [
+				{
+					count: 2
+					id: "00A1CA9DFDA349DC"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+				{
+					id: "6EB217394E27FA69"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Mekanism can do it all!"
+			tasks: [{
+				id: "6C47709DB58176FE"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			title: "Storing Power"
+			x: -2.5000000000000018d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Being a skyblock, everybody knows about lava power, its always going to happen, and some people will even use it till the very end"
+				"TIP: You can use an ore hammer from AlltheOres to make your ingots into dusts and get yourself invar blend until you have a machine that can do so"
+			]
+			id: "2D0AC4CC9992E3C8"
+			rewards: [{
+				id: "514660634DE053E8"
+				item: "thermal:dynamo_fuel_augment"
+				type: "item"
+			}]
+			subtitle: "the skyblock way"
+			tasks: [{
+				id: "4E55681CE0738191"
+				item: "thermal:dynamo_magmatic"
+				type: "item"
+			}]
+			title: "More power"
+			x: -5.500000000000002d
+			y: -0.9999999999999996d
+		}
+		{
+			dependencies: ["2D0AC4CC9992E3C8"]
+			description: [
+				"Welcome to the custom auto sieve mod!"
+				""
+				"These machines have no output inventory, the sieve outputs to the bottom, and the hammers output to the front, both auto output so you can have an entire system built without any pipes"
+				""
+				"Note* these machines will NOT run without space in the output inventory"
+			]
+			id: "2D9F5CEB4AC30A39"
+			tasks: [
+				{
+					id: "7B6FD18058480DCE"
+					item: "exmachinis:flux_sieve"
+					type: "item"
+				}
+				{
+					id: "3C5D9D39443EB97A"
+					item: "exmachinis:flux_hammer"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D9F5CEB4AC30A39"]
+			description: ["Just like the sieve, this machine auto outputs to the bottom!"]
+			id: "6C7F07947F49D6D7"
+			tasks: [{
+				id: "457DA0721941BEBE"
+				item: "exmachinis:flux_compactor"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D9F5CEB4AC30A39"]
+			description: ["gold and diamond upgrades stack to 3, hover over the upgrade to see the numbers for each!"]
+			id: "24B47CB1A222846A"
+			tasks: [{
+				id: "256254C1F59D7D92"
+				item: "exmachinis:gold_upgrade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["24B47CB1A222846A"]
+			id: "50B4721F77AE23C4"
+			rewards: [{
+				id: "2D99CF1271EDBA6E"
+				item: "exmachinis:gold_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BD4D0C3E5178061"
+				item: "exmachinis:diamond_upgrade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["50B4721F77AE23C4"]
+			id: "284F1F3434BFA984"
+			rewards: [{
+				id: "07612134A4CBBBBB"
+				item: "exmachinis:diamond_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6ED0C511C0C2EFEA"
+				item: "exmachinis:netherite_upgrade"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+	]
+	title: "Getting Started: Part 2"
+}
