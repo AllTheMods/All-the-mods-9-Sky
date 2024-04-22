@@ -126,7 +126,7 @@
 				Count: 1b
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "kubejs:textures/quests/3x3completed.png"
+					Icon: "atm:textures/questpics/biggerreactors/3x3completed.png"
 				}
 			}
 			id: "4AD8363D7359A072"
@@ -940,7 +940,7 @@
 				Count: 1b
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "kubejs:textures/quests/side_turbine_5x4x5.png"
+					Icon: "atm:textures/questpics/biggerreactors/side_turbine_5x4x5.png"
 				}
 			}
 			id: "4ED36AA3766E842B"

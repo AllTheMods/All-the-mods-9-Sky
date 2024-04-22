@@ -1,17 +1,13 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "basic_power_generation"
+	filename: "getting_started_2"
 	group: "2084F3F6FB861C5B"
 	icon: "mekanismgenerators:wind_generator"
 	id: "02AFCEFE247BAD9F"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.5d
-			hover: [ ]
 			image: "minecraft:textures/item/diamond.png"
 			rotation: 15.0d
 			width: 0.5d
@@ -19,11 +15,7 @@
 			y: -1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.5d
-			hover: [ ]
 			image: "minecraft:textures/block/oxeye_daisy.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -31,11 +23,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.5d
-			hover: [ ]
 			image: "minecraft:textures/block/oxeye_daisy.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -43,11 +31,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "minecraft:textures/item/dragon_breath.png"
 			rotation: -30.0d
 			width: 1.0d
@@ -55,11 +39,7 @@
 			y: 0.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 100.0d
-			hover: [ ]
 			image: "atm:textures/clouds.png"
 			rotation: 0.0d
 			width: 100.0d
@@ -67,11 +47,7 @@
 			y: -4.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "allthetweaks:block/atm_star_block"
 			rotation: 0.0d
 			width: 3.0d
