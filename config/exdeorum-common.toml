@@ -1,0 +1,5 @@
+
+#Common configuration for Ex Deorum
+[common]
+	#Whether the Void World type is set as the default world preset in world creation screen and server.properties.
+	set_void_world_as_default = false
