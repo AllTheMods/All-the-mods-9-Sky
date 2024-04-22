@@ -112,8 +112,6 @@ ServerEvents.recipes(event => {
         )
     }
 
-// Gravel Sieve
-addSifting(Blackstone, NetheriteMesh, 'minecraft:stick', 4, 0.5)
 
 //forcegenm sieve
 addSifting(Dust, FlintMesh, 'forcecraft:force_gem', 1, 0.05)
