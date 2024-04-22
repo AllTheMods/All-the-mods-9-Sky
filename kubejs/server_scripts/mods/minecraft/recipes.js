@@ -80,11 +80,4 @@ ServerEvents.recipes((event) => {
   event.shapeless("minecraft:black_dye", ["minecraft:charcoal"]);
   // Bone to bonemeal
   event.smelting("3x minecraft:bone_meal", "minecraft:bone").xp(0.05);
-  // 8x logs -> 4x chests through shaped crafting
-  // event.shaped("4x minecraft:chest", ["XXX", "X X", "XXX"], {
-  //   X: "#minecraft:logs",
-  // });
-  event.shaped("minecraft:chest", ["YYY", "Y Y", "YYY"], {
-    Y: "#minecraft:logs"
-  });
 });
