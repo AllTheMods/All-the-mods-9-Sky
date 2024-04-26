@@ -1,0 +1,10 @@
+{
+    "type": "occultism:miner",
+    "ingredient": {
+      "tag": "occultism:miners/master"
+    },
+    "result": {
+      "item": "allthemodium:allthemodium_nugget"
+    },
+    "weight": 300 
+}
