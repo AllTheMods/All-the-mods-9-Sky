@@ -1,0 +1,13 @@
+#General configuration
+#How much time (ms) to wait before reporting an exception again
+#Range: 1 ~ 10000000
+loggingThrowableTimeout = 20000
+#Is the probe needed to show the tooltip? 0 = no, 1 = yes, 2 = yes and clients cannot override, 3 = probe needed for extended info only
+#Range: 0 ~ 3
+needsProbe = 3
+#If true the probe will automatically show extended information if it is in your main hand (so not required to sneak)
+extendedInMain = false
+#If true there will be a bauble version of the probe if baubles is present
+supportBaubles = true
+#If true there will be a readme note for first-time players
+spawnNote = false
