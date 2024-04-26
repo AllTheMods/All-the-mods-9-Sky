@@ -1,0 +1,7 @@
+
+#General settings
+[general]
+	#Dimensions where hostile mobs will not spawn. Ex: ["minecraft:overworld", "undergarden:undergarden"]. . Run /forge dimensions for a list.
+	dimensionBlacklist = []
+	#Spawn a book in the players inventory on login
+	spawnBook = false
