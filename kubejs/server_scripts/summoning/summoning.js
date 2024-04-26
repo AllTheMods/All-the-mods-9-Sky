@@ -46,7 +46,7 @@ ServerEvents.recipes(event => {
     .input('minecraft:grass_block')
     .input('minecraft:stone')
     .input('minecraft:bone_meal')
-    .mobOutput('resourcechickens:chicken')
+    .mobOutput('miecraft:chicken')
 
     //cow
     event.recipes.summoningrituals
