@@ -2,7 +2,7 @@
   "End": {
   
     // Should end generate as in default world type? [default: false]
-    "Default": false,
+    "Default": true,
     
     // Should the main island be generated as normal? [default: true]
     "mainIsland": true
