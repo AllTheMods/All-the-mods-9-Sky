@@ -1,0 +1,19 @@
+{
+    "output": {
+      "tag": "forge:raw_materials/vibranium"
+    },
+    "rarity": [
+      {
+        "whitelist": {},
+        "blacklist": {},
+        "depth_min": 0,
+        "depth_max": 319,
+        "weight": 0
+      }
+    ],
+    "pointer": 0,
+    "catalyst": {
+      "item": "allthemodium:vibranium_block"
+    },
+    "type": "industrialforegoing:laser_drill_ore"
+  }
