@@ -46,7 +46,7 @@
     },
     {
       "item": "minecraft:bone_meal",
-      "emc": 24
+      "emc": 0
     },
     {
       "item": "minecraft:bone",
@@ -454,7 +454,7 @@
     },
     {
       "item": "minecraft:red_sand",
-      "emc": 1
+      "emc": 0
     },
     {
       "item": "minecraft:azalea_leaves",
@@ -470,7 +470,7 @@
     },
     {
       "item": "minecraft:netherrack",
-      "emc": 1
+      "emc": 0
     },
     {
       "item": "minecraft:calcite",
@@ -542,7 +542,7 @@
     },
     {
       "item": "minecraft:blaze_powder",
-      "emc": 256
+      "emc": 0
     },
     {
       "item": "minecraft:blaze_rod",
@@ -550,7 +550,7 @@
     },
     {
       "item": "projecte:interdiction_torch",
-      "emc": 25864
+      "emc": 0
     },
     {
       "item": "projecte:transmutation_table",
@@ -558,7 +558,7 @@
     },
     {
       "item": "projecte:alchemical_chest",
-      "emc": 8987
+      "emc": 0
     },
     {
       "item": "projecte:repair_talisman",
@@ -731,6 +731,22 @@
     {
       "item": "minecraft:pink_concrete",
       "emc": 1
+    },
+    {
+      "item": "minecraft:glass",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:sea_lantern",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:phantom_membrane",
+      "emc": 2048
     }
   ]
 }
