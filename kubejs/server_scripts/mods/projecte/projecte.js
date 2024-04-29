@@ -27,11 +27,11 @@ ServerEvents.recipes(e =>{
   e.remove({id: 'projecte:red_matter_alt'})
   e.remove({id: 'projecte:red_matter'})
   e.recipes.summoningrituals
-  .altar('projecte:dark_matter')
-  .input('allthemodium:unobtainium_ingot')
-  .input('2x mysticalagriculture:supremium_essence')
+  .altar('allthemodium:unobtainium_ingot')
+  .input('3x projecte:dark_matter')
+  .input('mysticalagradditions:insanium_essence')
   .input('enderio:prescient_crystal')
-  .input('minecraft:phantom_membrane')
+  .input('minecraft:echo_shard')
   .itemOutput('projecte:red_matter')
   .recipeTime(20)  
 
