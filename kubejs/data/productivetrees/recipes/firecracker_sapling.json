@@ -1,13 +1,13 @@
 {
   "type": "productivebees:item_conversion",
-  "bee": "productivebees:sulfur",
+  "bee": "productivebees:blazing",
   "ingredients": [
     {
-      "item": "productivetrees:sparkle_cherry_sapling"
+      "item": "productivetrees:sequoia_sapling"
     }
   ],
   "result": {
-    "item": "productivetrees:flickering_sun_sapling"
+    "item": "productivetrees:firecracker_sapling"
   },
   "conditions": [
     {
@@ -16,7 +16,7 @@
     },
     {
       "type": "productivebees:bee_exists",
-      "bee": "productivebees:sulfur"
+      "bee": "productivebees:amber"
     }
   ]
 }
