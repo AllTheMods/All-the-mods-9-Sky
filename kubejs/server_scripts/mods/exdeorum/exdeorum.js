@@ -160,6 +160,23 @@ addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_green', 2, 0.05)
 addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_light', 2, 0.05)
 addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_dark', 2, 0.05)
 
+// misc missing ones
+addSifting(SoulSand, IronMesh, 'mysticalagriculture:prosperity_shard', 1, 0.2)
+addSifting(SoulSand, DiamondMesh, 'mysticalagriculture:prosperity_shard', 1, 0.2)
+addSifting(SoulSand, GoldMesh, 'mysticalagriculture:prosperity_shard', 1, 0.2)
+addSifting(SoulSand, NetheriteMesh, 'mysticalagriculture:prosperity_shard', 1, 0.2)
+addSifting(Moss, IronMesh, 'integrateddynamics:menril_sapling', 1, 0.1)
+addSifting(Moss, GoldMesh, 'integrateddynamics:menril_sapling', 1, 0.1)
+addSifting(Moss, DiamondMesh, 'integrateddynamics:menril_sapling', 1, 0.1)
+addSifting(Moss, NetheriteMesh, 'integrateddynamics:menril_sapling', 1, 0.1)
+addSifting(Moss, IronMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
+addSifting(Moss, GoldMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
+addSifting(Moss, DiamondMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
+addSifting(Moss, NetheriteMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
+addSifting(Blackstone, NetheriteMesh, 'occultism:raw_iesnium', 1, 0.05)
+addSifting(SoulSand, DiamondMesh, 'mysticalagriculture:soulium_dust', 1, 0.05)
+addSifting(SoulSand, NetheriteMesh, 'mysticalagriculture:soulium_dust', 1, 0.1)
+
 //Crucible heating blocks
 addHeatSource(`botania:blaze_block`, 8)
 addHeatSource(`alltheores:uranium_block`, 20)
