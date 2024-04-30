@@ -29,7 +29,6 @@
 			"minecraft:lava": 1000,
 			"powah:blazing_crystal_block": 2800,
 			"minecraft:magma_block": 800,
-			"allthemodium:soul_lava": 9000,
 			"projecte:dark_matter_block": 13000,
 			"projecte:red_matter_block": 18000
 		},
@@ -179,13 +178,13 @@
 				"nitro": 160000
 			},
 			"generation_rates": {
-				"starter": 20,
-				"basic": 60,
-				"hardened": 100,
-				"blazing": 200,
-				"niotic": 400,
-				"spirited": 800,
-				"nitro": 2000
+				"starter": 40,
+				"basic": 80,
+				"hardened": 150,
+				"blazing": 300,
+				"niotic": 600,
+				"spirited": 1500,
+				"nitro": 3500
 			}
 		}
 	},
