@@ -113,12 +113,17 @@ ServerEvents.recipes(event => {
     }
 
 
-//forcegenm sieve
+//forcegem sieve
 addSifting(Dust, FlintMesh, 'forcecraft:force_gem', 1, 0.05)
 addSifting(Dust, IronMesh, 'forcecraft:force_gem', 1, 0.05)
 addSifting(Dust, GoldMesh, 'forcecraft:force_gem', 1, 0.06)
 addSifting(Dust, DiamondMesh, 'forcecraft:force_gem', 1, 0.06)
 addSifting(Dust, NetheriteMesh, 'forcecraft:force_gem', 1, 0.08)
+
+//Arcane Crystal sieve
+addSifting(Dust, IronMesh, 'forbidden_arcanus:arcane_crystal', 1, 0.05)
+addSifting(Dust, DiamondMesh, 'forbidden_arcanus:arcane_crystal', 1, 0.06)
+addSifting(Dust, NetheriteMesh, 'forbidden_arcanus:arcane_crystal', 1, 0.08)
 
 // misc missing ones
 addSifting(SoulSand, IronMesh, 'mysticalagriculture:prosperity_shard', 1, 0.2)
