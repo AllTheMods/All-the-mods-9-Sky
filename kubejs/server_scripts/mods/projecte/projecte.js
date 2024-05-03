@@ -1,9 +1,9 @@
-ServerEvents.recipes(e =>{
+ServerEvents.recipes(event =>{
 
 
   //darkmatter
-  e.remove({id: 'projecte:dark_matter'})
-  e.recipes.summoningrituals
+  event.remove({id: 'projecte:dark_matter'})
+  event.recipes.summoningrituals
   .altar('projecte:aeternalis_fuel_block')
   .input('allthemodium:allthemodium_ingot')
   .input('minecraft:netherite_scrap')
@@ -12,9 +12,9 @@ ServerEvents.recipes(e =>{
   .itemOutput('projecte:dark_matter')
   .recipeTime(10)
 
-  e.remove({id: 'projecte:philosophers_stone_alt'})
-  e.remove({id: 'projecte:philosophers_stone'})
-  e.recipes.summoningrituals
+  event.remove({id: 'projecte:philosophers_stone_alt'})
+  event.remove({id: 'projecte:philosophers_stone'})
+  event.recipes.summoningrituals
   .altar('minecraft:tnt')
   .input('forbidden_arcanus:dark_nether_star')
   .input('2x botania:manasteel_ingot')
@@ -24,9 +24,9 @@ ServerEvents.recipes(e =>{
   .recipeTime(20)
 
   //redmatter
-  e.remove({id: 'projecte:red_matter_alt'})
-  e.remove({id: 'projecte:red_matter'})
-  e.recipes.summoningrituals
+  event.remove({id: 'projecte:red_matter_alt'})
+  event.remove({id: 'projecte:red_matter'})
+  event.recipes.summoningrituals
   .altar('allthemodium:unobtainium_ingot')
   .input('3x projecte:dark_matter')
   .input('mysticalagradditions:insanium_essence')
@@ -34,5 +34,13 @@ ServerEvents.recipes(e =>{
   .input('minecraft:echo_shard')
   .itemOutput('projecte:red_matter')
   .recipeTime(20)  
+
+  // Transmuation tablet
+  event.remove({ id: 'projecte:transmutation_tablet'})  
+  event.shaped('projecte:transmutation_tablet', ['SDS', 'DTD', 'SDS'], {
+    S: 'minecraft:stone',
+    T: 'projecte:transmutation_table',
+    D: 'projecte:dark_matter'
+  }).id('kubejs:projecte/transmutation_tablet')
 
 })
