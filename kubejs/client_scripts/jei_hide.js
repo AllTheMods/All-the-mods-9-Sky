@@ -1,7 +1,9 @@
 JEIEvents.hideItems(event => {
   event.hide(/ae2:facade/)
-  event.hide(['angelring:leadstone_angel_ring', 'angelring:hardened_angel_ring', 'angelring:reinforced_angel_ring', 'angelring:resonant_angel_ring'])
+  event.hide(['angelring:leadstone_angel_ring', 'angelring:hardened_angel_ring', 'angelring:energetic_angel_ring', 'angelring:reinforced_angel_ring', 'angelring:resonant_angel_ring'])
   event.hide('reliquary:rod_of_lyssa')
+  event.hide('allthemodium:teleport_pad')
+  event.hide('projecte:watch_of_flowing_time')
   event.hide('mekanism:upgrade_anchor')
   event.hide('ars_nouveau:glyph_animate_block')
   event.hide([
