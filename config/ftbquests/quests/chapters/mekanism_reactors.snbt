@@ -200,7 +200,7 @@
 			y: 0.15d
 		}
 	]
-	order_index: 3
+	order_index: 4
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -727,7 +727,7 @@
 				""
 				"Next, we'll combine &bWater Vapor&r with the Sulfur Trioxide to make &2Sulfuric Acid&r."
 			]
-			icon: "gtceu:sulfur_dust"
+			icon: "thermal:sulfur"
 			id: "31EEE2875595F315"
 			progression_mode: "linear"
 			rewards: [

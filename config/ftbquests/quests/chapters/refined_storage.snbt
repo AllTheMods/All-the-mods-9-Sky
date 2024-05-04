@@ -1141,6 +1141,20 @@
 			x: 1.0d
 			y: -6.5d
 		}
+		{
+			dependencies: ["6B04FC81351CD1AB"]
+			description: ["{atm9.quest.rs.desc.creative_transmitter}"]
+			id: "71228149914A103D"
+			shape: "hexagon"
+			tasks: [{
+				id: "792419CEDBFFF132"
+				item: "creativewirelesstransmitter:creative_wireless_transmitter"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.creative_transmitter}"
+			x: 8.0d
+			y: -2.5d
+		}
 	]
 	title: "{atm9.chapters.12.title}"
 }
