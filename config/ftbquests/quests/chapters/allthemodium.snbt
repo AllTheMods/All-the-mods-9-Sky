@@ -12,20 +12,11 @@
 		{
 			dependencies: ["731686C758AD9A99"]
 			dependency_requirement: "one_completed"
-			description: [
-				"{atm9.quest.allthemodium.desc.atm_ore1}"
-				""
-				"{atm9.quest.allthemodium.desc.atm_ore2}"
-			]
+			description: ["{atm9.quest.allthemodium.desc.atm_ore1}"]
 			hide: false
 			hide_dependency_lines: false
 			id: "5BDBE666E604FCAC"
 			rewards: [
-				{
-					id: "35D9FCB5040C66D9"
-					item: "allthemodium:allthemodium_ore"
-					type: "item"
-				}
 				{
 					id: "0205D27EF9929F30"
 					type: "xp"
@@ -42,7 +33,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "6257DCFBD6E194AB"
-				item: "allthemodium:raw_allthemodium"
+				item: "allthemodium:allthemodium_ingot"
 				type: "item"
 			}]
 			title: "{atm9.quest.allthemodium.atm_ore}"
@@ -52,23 +43,10 @@
 		{
 			dependencies: ["5BDBE666E604FCAC"]
 			dependency_requirement: "one_started"
-			description: [
-				"{atm9.quest.allthemodium.desc.vib_ore1}"
-				""
-				"{atm9.quest.allthemodium.desc.vib_ore2}"
-				""
-				"{atm9.quest.allthemodium.desc.vib_ore3}"
-				""
-				"{atm9.quest.allthemodium.desc.vib_ore4}"
-			]
+			description: ["{atm9.quest.allthemodium.desc.vib_ore1}"]
 			hide_dependency_lines: false
 			id: "2DF64CB9298E91EA"
 			rewards: [
-				{
-					id: "5D2EBAC7AC7945CD"
-					item: "allthemodium:vibranium_ore"
-					type: "item"
-				}
 				{
 					id: "459B4DDA26AC0FFC"
 					type: "xp"
@@ -85,7 +63,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "0F6B68E05B7B43AB"
-				item: "allthemodium:raw_vibranium"
+				item: "allthemodium:vibranium_ingot"
 				title: "Vibranium Ore"
 				type: "item"
 			}]
@@ -99,11 +77,6 @@
 			hide_dependency_lines: false
 			id: "4F6E6AF1D9E74CB7"
 			rewards: [
-				{
-					id: "2AA15BC1812E1F77"
-					item: "allthemodium:unobtainium_ore"
-					type: "item"
-				}
 				{
 					id: "2DC06917102E6563"
 					type: "xp"
@@ -120,7 +93,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "52CCB85E5967BF9F"
-				item: "allthemodium:raw_unobtainium"
+				item: "allthemodium:unobtainium_ingot"
 				type: "item"
 			}]
 			title: "{atm9.quest.allthemodium.unob_ore}"
@@ -376,107 +349,6 @@
 			y: 5.5d
 		}
 		{
-			description: [
-				"{atm9.quest.allthemodium.desc.teleport1}"
-				""
-				"{atm9.quest.allthemodium.desc.teleport2}"
-				""
-				"{atm9.quest.allthemodium.desc.teleport3}"
-				""
-				"{atm9.quest.allthemodium.desc.teleport4}"
-			]
-			hide: true
-			hide_dependency_lines: true
-			id: "3C322474D2F2BA99"
-			rewards: [
-				{
-					id: "0B4E3EEE5A9DB68C"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "57F29BA9DE0EB0FB"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-			]
-			shape: "square"
-			size: 1.5d
-			tasks: [{
-				id: "004AE063EA883019"
-				item: "allthemodium:teleport_pad"
-				type: "item"
-			}]
-			title: "{atm9.quest.allthemodium.teleport}"
-			x: 0.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["3C322474D2F2BA99"]
-			description: [
-				"{atm9.quest.allthemodium.desc.other1}"
-				""
-				"{atm9.quest.allthemodium.desc.other2}"
-				""
-				"{atm9.quest.allthemodium.desc.other3}"
-			]
-			hide_dependency_lines: false
-			icon: "allthemodium:piglich_heart"
-			id: "58E3D29E2E034BA2"
-			rewards: [
-				{
-					count: 16
-					id: "26A3F549CA3338F4"
-					item: "allthemodium:ancient_soulberries"
-					type: "item"
-				}
-				{
-					id: "74B5009A2A31A73B"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "7B3D9051C7A0EC60"
-				item: "allthemodium:ancient_stone"
-				type: "item"
-			}]
-			title: "{atm9.quest.allthemodium.other}"
-			x: 1.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["3C322474D2F2BA99"]
-			description: [
-				"{atm9.quest.allthemodium.desc.mining1}"
-				""
-				"{atm9.quest.allthemodium.desc.mining2}"
-			]
-			hide_dependency_lines: false
-			icon: {
-				Count: 1b
-				id: "minecraft:stone_pickaxe"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "7E8FE99A3C448413"
-			rewards: [{
-				id: "7B03C181BB8EB227"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "110AA18477C59A28"
-				title: "The Mining Dimension"
-				type: "checkmark"
-			}]
-			title: "{atm9.quest.allthemodium.mining}"
-			x: -1.5d
-			y: 7.0d
-		}
-		{
 			description: ["{atm9.quest.allthemodium.desc.bees}"]
 			hide_dependency_lines: false
 			id: "5D8A3491889F2C4E"
@@ -556,7 +428,7 @@
 			}]
 			title: "{atm9.quest.allthemodium.atm_unob}"
 			x: 0.0d
-			y: 10.5d
+			y: 7.5d
 		}
 		{
 			hide: true
@@ -575,7 +447,7 @@
 			}]
 			title: "{atm9.quest.allthemodium.vib_unob}"
 			x: 1.5d
-			y: 10.0d
+			y: 7.0d
 		}
 		{
 			hide: true
@@ -594,7 +466,7 @@
 			}]
 			title: "{atm9.quest.allthemodium.atm_vib}"
 			x: -1.5d
-			y: 10.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -617,8 +489,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.allthemodium.sword}"
-			x: -0.7000000000000001d
-			y: 13.5d
+			x: -0.5d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -641,8 +513,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.allthemodium.axe}"
-			x: 0.7000000000000001d
-			y: 13.5d
+			x: 1.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -666,7 +538,7 @@
 			}]
 			title: "{atm9.quest.allthemodium.pickaxe}"
 			x: -2.0d
-			y: 13.5d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -689,8 +561,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.allthemodium.shovel}"
-			x: 2.0d
-			y: 13.5d
+			x: 2.5d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -716,7 +588,7 @@
 			}]
 			title: "{atm9.quest.allthemodium.paxel}"
 			x: 0.0d
-			y: 12.000000000000002d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5BDBE666E604FCAC"]
@@ -1020,31 +892,6 @@
 			title: "{atm9.quest.allthemodium.unob_tools}"
 			x: 1.5d
 			y: 5.5d
-		}
-		{
-			dependencies: ["3C322474D2F2BA99"]
-			description: [
-				"{atm9.quest.allthemodium.desc.beyond1}"
-				""
-				"{atm9.quest.allthemodium.desc.beyond2}"
-			]
-			hide_dependency_lines: false
-			icon: "voidtotem:totem_of_void_undying"
-			id: "53DD784E75965947"
-			optional: true
-			rewards: [{
-				id: "5E779E57482952D9"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				dimension: "allthemodium:the_beyond"
-				id: "5B673FC6B4C064ED"
-				type: "dimension"
-			}]
-			title: "{atm9.quest.allthemodium.beyond}"
-			x: 0.0d
-			y: 9.0d
 		}
 	]
 	title: "{atm9.chapters.2.title}"
