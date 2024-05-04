@@ -37,10 +37,7 @@ ServerEvents.recipes(event =>{
 
   // Transmuation tablet
   event.remove({ id: 'projecte:transmutation_tablet'})  
-  event.shaped('projecte:transmutation_tablet', ['SDS', 'DTD', 'SDS'], {
-    S: 'minecraft:stone',
-    T: 'projecte:transmutation_table',
-    D: 'projecte:dark_matter'
-  }).id('kubejs:projecte/transmutation_tablet')
+  event.shapeless('projecte:transmutation_tablet', 'projecte:transmutation_table')
+  event.shapeless('projecte:transmutation_table', 'projecte:transmutation_tablet')
 
 })
