@@ -5,7 +5,7 @@
       {"item": "powah:uraninite_raw"},
       {"item": "powah:uraninite_raw"}
   ],
-  "energy": 60000,
+  "energy": 6000,
   "result": {
     "item": "powah:uraninite",
     "count": 3
