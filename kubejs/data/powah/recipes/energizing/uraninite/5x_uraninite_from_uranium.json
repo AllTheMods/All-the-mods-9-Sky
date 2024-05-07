@@ -1,0 +1,15 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+      {"tag": "forge:ingots/uranium"},
+      {"tag": "forge:ingots/uranium"},
+      {"tag": "forge:ingots/uranium"},
+      {"tag": "forge:ingots/uranium"},
+      {"tag": "forge:ingots/uranium"}
+  ],
+  "energy": 150000,
+  "result": {
+    "item": "powah:uraninite",
+    "count": 5
+  }
+}
