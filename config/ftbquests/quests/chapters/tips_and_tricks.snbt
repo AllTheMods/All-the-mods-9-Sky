@@ -34,7 +34,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Easy item to automate infinite water. Need more water? Make another!"]
+			description: ["{atm9.quest.tips.desc.sink}"]
 			id: "722978AC0C1B2649"
 			rewards: [
 				{
@@ -48,17 +48,18 @@
 					xp: 10
 				}
 			]
-			subtitle: "Can be used as Reactor Coolant"
+			subtitle: "{atm9.quest.tips.subt.sink}"
 			tasks: [{
 				id: "6855AE257D62AA37"
 				item: "cookingforblockheads:sink"
 				type: "item"
 			}]
+			title: "{atm9.quest.tips.sink}"
 			x: -2.5d
 			y: 0.5d
 		}
 		{
-			description: ["Use this item to shrink. Helpful for working on automation and also just overall fun."]
+			description: ["{atm9.quest.tips.desc.shrink}"]
 			id: "7EC8814940C4C3D7"
 			rewards: [
 				{
@@ -73,7 +74,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Honey I Shrunk Myself"
+			subtitle: "{atm9.quest.tips.subt.shrink}"
 			tasks: [{
 				id: "30C938C85BED7956"
 				item: {
@@ -83,11 +84,12 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.tips.shrink}"
 			x: -0.5d
 			y: 0.5d
 		}
 		{
-			description: ["This potion will allow you to see the respective ore through the walls."]
+			description: ["{atm9.quest.tips.desc.potion}"]
 			id: "3EE9F242794CD95F"
 			rewards: [
 				{
@@ -107,7 +109,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "It's like X-Ray Vision!"
+			subtitle: "{atm9.quest.tips.subt.potion}"
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -129,42 +131,31 @@
 				title: "IronSight"
 				type: "item"
 			}]
-			title: "OreSight Potions"
+			title: "{atm9.quest.tips.potion}"
 			x: -1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["73F91BF3D424B269"]
-			description: [
-				"It's an entire room in one block!"
-				""
-				"Higher tiers are even bigger on the inside."
-			]
+			description: ["{atm9.quest.tips.desc.hyperbox}"]
 			id: "594540768120A627"
-			rewards: [
-				{
-					count: 8
-					id: "0325FA11C261E21D"
-					item: "compactmachines:wall"
-					type: "item"
-				}
-				{
-					id: "10CFB937D14BE803"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "When an infinite world is too small"
+			rewards: [{
+				id: "10CFB937D14BE803"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.tips.subt.hyperbox}"
 			tasks: [{
 				id: "029DB3044D5E30A0"
 				item: "hyperbox:hyperbox"
 				type: "item"
 			}]
+			title: "{atm9.quest.tips.hyperbox}"
 			x: -6.0d
 			y: 0.0d
 		}
 		{
-			description: ["This item is serves as the guide for Compact Machines, as well as the tool needed to teleport into your tiny machine worlds."]
+			description: ["{atm9.quest.tips.desc.compact}"]
 			id: "73F91BF3D424B269"
 			rewards: [{
 				id: "43605B432D1C8172"
@@ -180,16 +171,12 @@
 				}
 				type: "item"
 			}]
-			title: "Compact Machines # delete?"
+			title: "{atm9.quest.tips.compact}"
 			x: -6.0d
 			y: 1.0d
 		}
 		{
-			description: [
-				"Some useful gadgets for building."
-				""
-				"&cDestruction Gadget voids blocks!"
-			]
+			description: ["{atm9.quest.tips.desc.build}"]
 			id: "0F75D7B9F4FF2459"
 			rewards: [{
 				id: "2087EBA230655A8C"
@@ -223,16 +210,12 @@
 					type: "item"
 				}
 			]
-			title: "Building Gadgets"
+			title: "{atm9.quest.tips.build}"
 			x: -5.5d
 			y: 0.5d
 		}
 		{
-			description: [
-				"Can be helpful for building."
-				""
-				"The consruction wand has cores that can be added to it in crafting. Sneak left-click the air to switch between cores."
-			]
+			description: ["{atm9.quest.tips.desc.wand}"]
 			id: "2A2E3D020B1F5126"
 			rewards: [{
 				id: "03F64743F4F59499"
@@ -251,7 +234,7 @@
 				}
 				type: "item"
 			}]
-			title: "Building Wands"
+			title: "{atm9.quest.tips.wand}"
 			x: -6.5d
 			y: 0.5d
 		}
@@ -273,22 +256,18 @@
 				xp: 10
 			}]
 			shape: "gear"
-			subtitle: "Complete all of the tips!"
+			subtitle: "{atm9.quest.tips.subt.tipped_out}"
 			tasks: [{
 				id: "42DA8E971B27ACED"
 				type: "checkmark"
 			}]
-			title: "Tipped Out"
+			title: "{atm9.quest.tips.tipped_out}"
 			x: -3.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["3EE9F242794CD95F"]
-			description: [
-				"OreSight Potions can be used to craft Charms!"
-				""
-				"Charms are Curios that last longer, and can be toggled on and off."
-			]
+			description: ["{atm9.quest.tips.desc.charm}"]
 			id: "6396AA6918B47DDC"
 			rewards: [
 				{
@@ -331,12 +310,12 @@
 				title: "Charm of IronSight"
 				type: "item"
 			}]
-			title: "X-Ray Charms"
+			title: "{atm9.quest.tips.charm}"
 			x: -1.0d
 			y: 0.0d
 		}
 		{
-			description: ["On this page, you'll find some useful items and info to help you on your journey!"]
+			description: ["{atm9.quest.tips.desc.tricks}"]
 			id: "0C856BBB1679A7DD"
 			rewards: [{
 				id: "5FA6EA3609ABF6BE"
@@ -345,23 +324,25 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "And Other Useful Items!"
+			subtitle: "{atm9.quest.tips.subt.tricks}"
 			tasks: [{
 				id: "3DC008A578A93CCF"
 				title: "Tips and Tricks!"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.tips.tricks}"
 			x: -3.5d
 			y: -2.0d
 		}
 		{
+			description: ["{atm9.quest.tips.desc.magnet}"]
 			id: "3FC002E5A6C08DCC"
 			rewards: [{
 				id: "0F5B656ED410D441"
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "A Simple Magnet!"
+			subtitle: "{atm9.quest.tips.subt.magnet}"
 			tasks: [{
 				id: "4112D6272EC400DE"
 				item: {
@@ -371,15 +352,12 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.tips.magnet}"
 			x: -1.5d
 			y: 0.5d
 		}
 		{
-			description: [
-				"The rending gale if you are unfamiliar is a method of creative flight! it requires small amounts of emc to run"
-				""
-				"For EMC before a transmutation table, we recommend redstone/glowstone, or a klein star which is the battery of this mod, you can fill these in a projectE relay!"
-			]
+			description: ["{atm9.quest.tips.desc.gale}"]
 			id: "25E585C8AE7430DC"
 			tasks: [
 				{
@@ -399,9 +377,10 @@
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.tips.gale}"
 			x: -4.5d
 			y: 0.5d
 		}
 	]
-	title: "Tips \\& Tricks"
+	title: "{atm9.chapters.4.title}"
 }

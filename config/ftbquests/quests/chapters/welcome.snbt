@@ -42,17 +42,7 @@
 	order_index: 0
 	quest_links: [ ]
 	quests: [{
-		description: [
-			"Welcome to ATM9... Now With less flooring!"
-			""
-			"To get started with questing, check out the tabs on the left to jump in!"
-			""
-			"If you are new to AllTheMods, make sure to check out the &aAllTheModium&r Chapter!"
-			""
-			"If you are new to Skyblock packs or modded MC, check out the &6Main Questline&r to help you get started."
-			""
-			"Note:  Mods are not gated by quests. Quests are optional."
-		]
+		description: ["{atm9.quest.welcome.desc.welcome}"]
 		icon: "allthecompressed:atm_star_block_1x"
 		id: "23BDBBD3001F9774"
 		optional: true
@@ -75,9 +65,9 @@
 			id: "46E0A1A561E38460"
 			type: "dimension"
 		}]
-		title: "Welcome to ATM7 now in the sky!"
+		title: "{atm9.quest.welcome.welcome}"
 		x: 0.0d
 		y: -8.0d
 	}]
-	title: "Welcome"
+	title: "{atm9.chapters.1.title}"
 }

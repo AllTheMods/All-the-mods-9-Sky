@@ -142,8 +142,8 @@
 				item: "botania:pink_mystical_flower"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -2.0d
+			x: 6.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["13D401048A926A74"]
@@ -268,8 +268,8 @@
 				item: "botania:red_mystical_flower"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.0d
+			x: 4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["13D401048A926A74"]
@@ -4052,6 +4052,19 @@
 			x: 24.5d
 			y: 1.0d
 		}
+		{
+			dependencies: ["371E5E1E435E41AA"]
+			hide: true
+			hide_dependency_lines: true
+			id: "7E05CD0EDF5C78DC"
+			tasks: [{
+				id: "2C267A869D0370FC"
+				item: "botania:green_mystical_flower"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
 	]
-	title: "{atm9.chapters.41.title}"
+	title: "{atm9.chapters.27.title}"
 }
