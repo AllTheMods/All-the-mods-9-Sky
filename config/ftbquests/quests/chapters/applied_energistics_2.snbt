@@ -5,6 +5,26 @@
 	group: "1AC60211DE7427FC"
 	icon: "ae2:controller"
 	id: "07210DDF872160BA"
+	images: [
+		{
+			height: 0.5d
+			hover: ["{atm9.quest.ae2.img.star}"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.5d
+			x: 3.0d
+			y: 4.25d
+		}
+		{
+			height: 0.5d
+			hover: ["{atm9.quest.ae2.img.star}"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.5d
+			x: 5.0d
+			y: 5.5d
+		}
+	]
 	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -68,11 +88,6 @@
 					item: "ae2:certus_quartz_crystal"
 					type: "item"
 				}
-				{
-					id: "57651D6F69AC932B"
-					item: "ae2:sky_dust"
-					type: "item"
-				}
 			]
 			title: "{atm9.quest.ae2.AE2}"
 			x: 0.0d
@@ -95,11 +110,18 @@
 				}
 			]
 			subtitle: "{atm9.quest.ae2.subt.first}"
-			tasks: [{
-				id: "1F40760C2108BA36"
-				item: "ae2:inscriber"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "29C4195E8366DBDD"
+					item: "ae2:charger"
+					type: "item"
+				}
+				{
+					id: "1F40760C2108BA36"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+			]
 			title: "{atm9.quest.ae2.first}"
 			x: 2.0d
 			y: 0.5d
@@ -127,12 +149,20 @@
 					xp: 100
 				}
 			]
-			tasks: [{
-				advancement: "ae2:main/presses"
-				criterion: ""
-				id: "4D25BF3C4F05025D"
-				type: "advancement"
-			}]
+			subtitle: "{atm9.quest.ae2.subt.meteorite}"
+			tasks: [
+				{
+					id: "4D57E005D20BEDB9"
+					item: "ae2:meteorite_compass"
+					type: "item"
+				}
+				{
+					advancement: "ae2:main/presses"
+					criterion: ""
+					id: "4D25BF3C4F05025D"
+					type: "advancement"
+				}
+			]
 			title: "{atm9.quest.ae2.meteorite}"
 			x: 4.0d
 			y: 0.5d
@@ -1971,7 +2001,7 @@
 				}
 			]
 			title: "{atm9.quest.ae2.wireless_AP}"
-			x: 9.5d
+			x: 9.0d
 			y: 4.5d
 		}
 		{
@@ -2005,8 +2035,8 @@
 				}
 			]
 			title: "{atm9.quest.ae2.matter}"
-			x: 7.5d
-			y: 3.0d
+			x: 7.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2B31E6C1707D8195"]
@@ -2029,7 +2059,7 @@
 			tasks: [
 				{
 					id: "195B7DC4D7815D29"
-					item: "ae2wtlib:wireless_pattern_encoding_terminal"
+					item: "ae2:wireless_terminal"
 					type: "item"
 				}
 				{
@@ -2037,21 +2067,13 @@
 					item: "ae2:wireless_crafting_terminal"
 					type: "item"
 				}
-				{
-					id: "1E41D79E94EA96BA"
-					item: "ae2wtlib:wireless_universal_terminal"
-					type: "item"
-				}
 			]
 			title: "{atm9.quest.ae2.wireless_terminal}"
-			x: 9.5d
+			x: 11.0d
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"16299B9AE87257DC"
-				"0B218DD73FE8D985"
-			]
+			dependencies: ["16299B9AE87257DC"]
 			description: ["{atm9.quest.ae2.desc.ininfity}"]
 			id: "234DC1702333EB18"
 			rewards: [
@@ -2066,14 +2088,22 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "4EDA481E8668C82B"
-				item: "ae2wtlib:quantum_bridge_card"
-				type: "item"
-			}]
+			subtitle: "{atm9.quest.ae2.subt.ininfity}"
+			tasks: [
+				{
+					id: "745C92ED1392EE1A"
+					item: "aeinfinitybooster:infinity_card"
+					type: "item"
+				}
+				{
+					id: "4EDA481E8668C82B"
+					item: "aeinfinitybooster:dimension_card"
+					type: "item"
+				}
+			]
 			title: "{atm9.quest.ae2.ininfity}"
-			x: 8.5d
-			y: 7.5d
+			x: 14.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5BB887411B8B38FA"]
@@ -2112,7 +2142,7 @@
 				}
 			]
 			title: "{atm9.quest.ae2.antimatter}"
-			x: 7.5d
+			x: 5.0d
 			y: 4.5d
 		}
 		{
@@ -2187,8 +2217,8 @@
 				}
 			]
 			title: "{atm9.quest.ae2.quantum}"
-			x: 7.5d
-			y: 6.0d
+			x: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5C22E3103544B120"]
@@ -2227,5 +2257,5 @@
 			y: 0.5d
 		}
 	]
-	title: "{atm9.chapters.11.title}"
+	title: "{atm9.chapters.10.title}"
 }
