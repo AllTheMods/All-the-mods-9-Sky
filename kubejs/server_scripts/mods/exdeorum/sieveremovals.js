@@ -17,4 +17,44 @@ ServerEvents.recipes((event) => {
       output: 'minecraft:gold_nugget'
     });
 
+    event.remove({
+      type: 'exdeorum:sieve',
+      mod: 'exdeorum',
+      output: 'exdeorum:iridium_ore_chunk'
+    });
+
+    event.remove({
+      input: 'minecraft:gravel',
+      type: 'exdeorum:sieve',
+      mod: 'exdeorum',
+      output: 'exdeorum:stone_pebble'
+    });
+
+    event.remove({
+      input: 'minecraft:gravel',
+      type: 'exdeorum:sieve',
+      mod: 'exdeorum',
+      output: 'exdeorum:diorite_pebble'
+    });
+
+    event.remove({
+      input: 'minecraft:gravel',
+      type: 'exdeorum:sieve',
+      mod: 'exdeorum',
+      output: 'exdeorum:granite_pebble'
+    });
+
+    event.remove({
+      input: 'minecraft:gravel',
+      type: 'exdeorum:sieve',
+      mod: 'exdeorum',
+      output: 'exdeorum:andesite_pebble'
+    });
+
+    event.remove({
+      input: 'minecraft:gravel',
+      type: 'exdeorum:sieve',
+      mod: 'exdeorum',
+      output: 'exdeorum:deepslate_pebble'
+    });
   });
