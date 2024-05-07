@@ -35,8 +35,16 @@
 			image: "ftbchunks:textures/waypoint_home.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: -8.0d
-			y: -4.5d
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -7.5d
 		}
 	]
 	order_index: 0
@@ -44,15 +52,7 @@
 	quests: [
 		{
 			dependency_requirement: "one_completed"
-			description: [
-				"Welcome to All The Mods 9: To the Sky! "
-				""
-				"If you've played the original (or any skyblock ever), most of what you have to do should be self-explanatory up until the ATM metals."
-				""
-				"If not, don't fear! These quests are here to guide you through the start."
-				""
-				"Some of the quests in this chapter have in-game video-style Ponder tutorials! They will be given as rewards. Click the reward to watch a Ponder video to teach you all about the item!"
-			]
+			description: ["{atm9.quest.start1.desc.start}"]
 			icon: "minecraft:crafting_table"
 			id: "22C568A17B5D1B46"
 			rewards: [{
@@ -67,18 +67,14 @@
 				id: "29CD23D3C0D3DA7E"
 				type: "checkmark"
 			}]
-			title: "&9Getting Started!"
-			x: -8.0d
+			title: "{atm9.quest.start1.start}"
+			x: -11.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["22C568A17B5D1B46"]
 			dependency_requirement: "one_completed"
-			description: [
-				"Chop down the tree."
-				""
-				"*Note: Yes, being a skyblock, you can spam crouch to make your trees grow faster."
-			]
+			description: ["{atm9.quest.start1.desc.log}"]
 			icon: "minecraft:oak_log"
 			id: "3001B2EEE5C6C9AB"
 			rewards: [
@@ -93,27 +89,35 @@
 					type: "xp"
 					xp: 10
 				}
+				{
+					id: "3EA024E22AAD1D7D"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
 			]
-			subtitle: "The Start of Everyone's Journey"
-			tasks: [{
-				count: 8L
-				icon: "minecraft:oak_log"
-				id: "1BB08F6BC4167067"
-				item: "minecraft:oak_log"
-				title: "Any #minecraft:logs"
-				type: "item"
-			}]
-			title: "I'm twerkin' 9 to 5..."
-			x: -6.0d
+			subtitle: "{atm9.quest.start1.subt.log}"
+			tasks: [
+				{
+					count: 4L
+					icon: "minecraft:oak_log"
+					id: "1BB08F6BC4167067"
+					item: "minecraft:oak_log"
+					title: "Any #minecraft:logs"
+					type: "item"
+				}
+				{
+					id: "4B3BBF9967867EA3"
+					title: "Read Description"
+					type: "checkmark"
+				}
+			]
+			title: "{atm9.quest.start1.log}"
+			x: -8.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["231765C07B4A12B7"]
-			description: [
-				"If you surround a furnace with Iron in a crafting table, you can upgrade your furnace to an Iron Furnace."
-				""
-				"These smelt faster and can also be configured to be automated with the cogwheel in the top left of the GUI."
-			]
+			description: ["{atm9.quest.start1.desc.ironfurnace}"]
 			id: "376BAC497511F067"
 			rewards: [
 				{
@@ -127,18 +131,18 @@
 					xp: 100
 				}
 			]
-			subtitle: "Does everything get an upgrade in this pack?"
+			subtitle: "{atm9.quest.start1.subt.ironfurnace}"
 			tasks: [{
 				id: "405EB586C5ADC0A2"
 				item: "ironfurnaces:iron_furnace"
 				type: "item"
 			}]
-			title: "Furnace Upgrade?"
-			x: 0.5d
+			title: "{atm9.quest.start1.ironfurnace}"
+			x: 1.0d
 			y: 0.5d
 		}
 		{
-			description: ["Apples cannot feed you forever! Start yourself a small farm for food."]
+			description: ["{atm9.quest.start1.desc.farm}"]
 			icon: "minecraft:wheat_seeds"
 			id: "1658780534451E39"
 			rewards: [
@@ -160,7 +164,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "The basics of food."
+			subtitle: "{atm9.quest.start1.subt.farm}"
 			tasks: [
 				{
 					count: 8L
@@ -194,13 +198,13 @@
 					type: "item"
 				}
 			]
-			title: "Start a Farm"
-			x: 2.0d
+			title: "{atm9.quest.start1.farm}"
+			x: -8.0d
 			y: -2.5d
 		}
 		{
-			dependencies: ["1658780534451E39"]
-			description: ["Learn about all things food by checking out the &aFood and Farming&r chapter."]
+			dependencies: ["55A7099B9A9E59EA"]
+			description: ["{atm9.quest.start1.desc.food}"]
 			icon: "minecraft:apple"
 			id: "5ED547FE0A9CFC63"
 			rewards: [{
@@ -210,23 +214,19 @@
 			}]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Getting Started with Food"
+			subtitle: "{atm9.quest.start1.subt.food}"
 			tasks: [{
 				id: "212FE7B11E7CA150"
 				title: "Food and Farming"
 				type: "checkmark"
 			}]
-			title: "Food and Farming Chapter"
-			x: 4.0d
-			y: -2.5d
+			title: "{atm9.quest.start1.food}"
+			x: -8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["231765C07B4A12B7"]
-			description: [
-				"There are plenty of ways to generate your first bits of power."
-				""
-				"The RFTools Coal Generator is one of the easiest."
-			]
+			description: ["{atm9.quest.start1.desc.gen}"]
 			icon: "rftoolspower:coalgenerator"
 			id: "25D1363D8890E7C3"
 			rewards: [
@@ -242,23 +242,19 @@
 					xp: 10
 				}
 			]
-			subtitle: "Your First Generator"
+			subtitle: "{atm9.quest.start1.subt.gen}"
 			tasks: [{
 				id: "39565EF66F300895"
 				item: "rftoolspower:coalgenerator"
 				type: "item"
 			}]
-			title: "Starter Power"
-			x: 2.0d
+			title: "{atm9.quest.start1.gen}"
+			x: 3.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["25D1363D8890E7C3"]
-			description: [
-				"If we want to get started with automation in ATM9:TTS, we'll need to dip our toes further into power."
-				""
-				"To continue our progression, check out the &aGetting Started: Part 2&r to keep moving forward!"
-			]
+			description: ["{atm9.quest.start1.desc.part2}"]
 			icon: "mekanismgenerators:wind_generator"
 			id: "162AB6F9257EB71E"
 			rewards: [{
@@ -267,24 +263,20 @@
 				xp: 10
 			}]
 			shape: "gear"
-			size: 2.0d
-			subtitle: "Starting with Power and Beyond"
+			size: 3.0d
+			subtitle: "{atm9.quest.start1.subt.part2}"
 			tasks: [{
 				id: "1AD156F8A190ED63"
 				title: "Power Generation"
 				type: "checkmark"
 			}]
-			title: "Getting Started: Part 2"
-			x: 4.0d
-			y: 2.0d
+			title: "{atm9.quest.start1.part2}"
+			x: 4.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["3001B2EEE5C6C9AB"]
-			description: [
-				"Just like other skyblocks, you can get pebbles from right-clicking grass, but here it works a little differently. "
-				""
-				"You have a 50% chance for cobblestone pebbles, and a 50% chance to get any of the other pebble variants."
-			]
+			dependencies: ["22C568A17B5D1B46"]
+			description: ["{atm9.quest.start1.desc.stone}"]
 			id: "3F755A55B2043E5B"
 			rewards: [
 				{
@@ -305,14 +297,14 @@
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
-			title: "Kick Rocks"
-			x: -4.0d
-			y: -1.0d
+			title: "{atm9.quest.start1.stone}"
+			x: -8.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3001B2EEE5C6C9AB"]
 			description: [
-				"Crooks will give you a much better chance of getting saplings and apples from leaves, but is also how to get silkworms. You will need these to get string for further progression."
+				"{atm9.quest.start1.desc.crook}"
 				""
 			]
 			id: "744E757CA323FF46"
@@ -327,26 +319,20 @@
 				}
 				type: "item"
 			}]
-			title: "Is that crooked, or are my eyes funny?"
-			x: -4.0d
-			y: 0.5d
+			title: "{atm9.quest.start1.crook}"
+			x: -5.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3F755A55B2043E5B"]
-			description: [
-				"To get resources, we'll need to bust up our cobblestone into something we can sieve."
-				""
-				"This is where the hammer comes in. Place down the block you want to hammer, and.... well.. hammer it."
-				""
-				"Remember, you can hammer compressed items."
-			]
+			description: ["{atm9.quest.start1.desc.hammer}"]
 			id: "35EF391AB5344094"
 			rewards: [{
 				id: "413B6EC90CF35070"
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "A totally overused joke"
+			subtitle: "{atm9.quest.start1.subt.hammer}"
 			tasks: [{
 				id: "596CB9CDB4192339"
 				item: {
@@ -358,13 +344,13 @@
 				}
 				type: "item"
 			}]
-			title: "Hammer time! "
-			x: -2.5d
-			y: -1.0d
+			title: "{atm9.quest.start1.hammer}"
+			x: -5.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["744E757CA323FF46"]
-			description: ["To get string in a skyblock some might say it is easier than prior... you will want to grow a tree, add a silkworm to one of the leaves and watch those spread across all the leaves! Once done, harvest these with your crook!"]
+			description: ["{atm9.quest.start1.desc.string}"]
 			id: "4A536710A11856F2"
 			rewards: [{
 				id: "13BA5B0FB5A2ABA3"
@@ -376,21 +362,13 @@
 				item: "minecraft:string"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.5d
+			title: "{atm9.quest.start1.string}"
+			x: -4.0d
+			y: -1.0d
 		}
 		{
-			dependencies: [
-				"4A536710A11856F2"
-				"11CE392E7A41785F"
-			]
-			description: [
-				"Sieving is your most common method of gathering resources in this modpack, and most materials can be acquired this way! "
-				""
-				"Different meshes yield different resources, same for sieving different materials! Meshes can also be enchanted with fortune for a higher yield."
-				""
-				"You can also sieve blocks 25 at a time by making 25 Oak Sieves, and placing them in a 5x5. Right-clicking the middle Sieve with the item you want to sieve will use 25 instead of 1. Each of them do need meshes."
-			]
+			dependencies: ["4A536710A11856F2"]
+			description: ["{atm9.quest.start1.desc.mesh}"]
 			id: "768F0E715B05D9E4"
 			rewards: [
 				{
@@ -406,7 +384,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Its like baking a cake!"
+			subtitle: "{atm9.quest.start1.subt.mesh}"
 			tasks: [
 				{
 					id: "50082DE6C1394D74"
@@ -418,17 +396,19 @@
 					item: "exdeorum:string_mesh"
 					type: "item"
 				}
+				{
+					id: "080853DB718F5B53"
+					item: "minecraft:gravel"
+					type: "item"
+				}
 			]
-			x: -1.0d
-			y: 0.5d
+			title: "{atm9.quest.start1.mesh}"
+			x: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["35EF391AB5344094"]
-			description: [
-				"Most of the starting journey will be getting materials via Sieving. We'll learn more about that in the next quest."
-				""
-				"Don't be afraid to make a ton of gravel. Sieving gravel is how you progress!"
-			]
+			description: ["{atm9.quest.start1.desc.gravel}"]
 			id: "11CE392E7A41785F"
 			rewards: [
 				{
@@ -444,24 +424,20 @@
 					xp: 10
 				}
 			]
-			subtitle: "The First Sieving Item"
+			subtitle: "{atm9.quest.start1.subt.gravel}"
 			tasks: [{
 				count: 3L
 				id: "7CF148153F47112C"
 				item: "minecraft:gravel"
 				type: "item"
 			}]
-			title: "Gravel"
-			x: -1.0d
-			y: -1.0d
+			title: "{atm9.quest.start1.gravel}"
+			x: -5.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["768F0E715B05D9E4"]
-			description: [
-				"With the Flint Mesh, you'll start getting some actual resources."
-				""
-				"If you are wondering what each mesh drops when sieving, you can always hit \"U\" in JEI on the mesh to check out the list."
-			]
+			dependencies: ["5FF2B8BCB3CE6AB0"]
+			description: ["{atm9.quest.start1.desc.flintmesh}"]
 			id: "2CF0EE5C0651F531"
 			rewards: [
 				{
@@ -477,14 +453,15 @@
 					xp: 10
 				}
 			]
-			subtitle: "Our First Upgrade"
+			subtitle: "{atm9.quest.start1.subt.flintmesh}"
 			tasks: [{
 				id: "4591A7EDAC7584E4"
 				item: "exdeorum:flint_mesh"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
+			title: "{atm9.quest.start1.flintmesh}"
+			x: -2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2CF0EE5C0651F531"]
@@ -508,8 +485,9 @@
 				item: "exdeorum:iron_mesh"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 2.0d
+			title: "{atm9.quest.start1.ironmesh}"
+			x: -2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["11097D91EBF2490D"]
@@ -532,8 +510,9 @@
 				item: "exdeorum:golden_mesh"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 2.0d
+			title: "{atm9.quest.start1.goldmesh}"
+			x: -0.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["38852A6C2A1F8363"]
@@ -550,14 +529,15 @@
 					xp: 100
 				}
 			]
+			size: 1.0d
 			tasks: [{
 				id: "6786082559455714"
 				item: "exdeorum:netherite_mesh"
 				type: "item"
 			}]
-			title: "The final mesh"
-			x: -2.5d
-			y: 3.5d
+			title: "{atm9.quest.start1.netherite}"
+			x: -0.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["11CE392E7A41785F"]
@@ -576,14 +556,15 @@
 					xp: 10
 				}
 			]
-			subtitle: "Hammer 2x"
+			subtitle: "{atm9.quest.start1.subt.sand}"
 			tasks: [{
 				id: "68E91C614AAF5C66"
 				item: "minecraft:sand"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.5d
+			title: "{atm9.quest.start1.sand}"
+			x: -5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["36D0417745C747B1"]
@@ -602,22 +583,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Hammer 3x"
+			subtitle: "{atm9.quest.start1.subt.dust}"
 			tasks: [{
 				id: "30578E2D8046B257"
 				item: "exdeorum:dust"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -4.0d
+			title: "{atm9.quest.start1.dust}"
+			x: -5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3F755A55B2043E5B"]
-			description: [
-				"To speed up getting resources, you can compress your cobblestone, gravel, etc. and hammer the compressed version to save time!"
-				""
-				"With the nature of our automated sieving mod, we felt it was best not to allow these to be sieved, but manual hammering is still possible!"
-			]
+			description: ["{atm9.quest.start1.desc.compression}"]
 			id: "0C9B97D2048A1073"
 			rewards: [
 				{
@@ -631,23 +609,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Compressed hammering is still a thing!"
+			subtitle: "{atm9.quest.start1.subt.compression}"
 			tasks: [{
 				id: "0E71F927D6AEFC25"
 				item: "allthecompressed:cobblestone_1x"
 				type: "item"
 			}]
-			title: "Hammering Compressed Items"
-			x: -4.0d
-			y: -2.5d
+			title: "{atm9.quest.start1.compression}"
+			x: -8.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2CF0EE5C0651F531"]
-			description: [
-				"Once you have a Flint Mesh, you will start to get basic materials from sieving, like Iron!"
-				""
-				"Combine your ore pieces and make yourself raw ores, then throw them in your furnace to smelt them!"
-			]
+			description: ["{atm9.quest.start1.desc.furnace}"]
 			id: "231765C07B4A12B7"
 			rewards: [{
 				id: "4A7FB7C5ECEFB666"
@@ -666,23 +640,13 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 2.0d
+			title: "{atm9.quest.start1.furnace}"
+			x: 1.0d
+			y: 2.5d
 		}
 		{
-			dependencies: [
-				"42240BED17BA0948"
-				"36D0417745C747B1"
-			]
-			description: [
-				"Mycelium Spores, gotten from sieving dirt, will convert dirt to mycelium when used on it."
-				""
-				"A barrel, placed on top of mycelium, will convert water to witch water."
-				""
-				"Sand used on witch water is converted to Soul Sand"
-				""
-				"Still unsure on how this all works? check the reward from the barrel quest!"
-			]
+			dependencies: ["42240BED17BA0948"]
+			description: ["{atm9.quest.start1.desc.soulsand}"]
 			icon: "minecraft:soul_sand"
 			id: "1FF2E2B85B9EC00F"
 			rewards: [{
@@ -691,31 +655,18 @@
 				item: "minecraft:soul_sand"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "418174FF58791819"
-					item: "exnihilosequentia:mycelium_spores"
-					type: "item"
-				}
-				{
-					id: "2985C3F0C405582A"
-					item: "minecraft:soul_sand"
-					type: "item"
-				}
-			]
-			title: "Soul Sand"
-			x: -2.5d
-			y: -2.5d
+			tasks: [{
+				id: "2985C3F0C405582A"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			title: "{atm9.quest.start1.soulsand}"
+			x: -5.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["3001B2EEE5C6C9AB"]
-			description: [
-				"The barrel is one of the most important ways to get materials in this pack, second only to the sieve."
-				""
-				"These can make clay using water, soulsand using witchwater, and even create dirt from saplings."
-				""
-				"Note: These will fill with water when it rains."
-			]
+			description: ["{atm9.quest.start1.desc.barrel}"]
 			id: "42240BED17BA0948"
 			rewards: [{
 				count: 2
@@ -724,20 +675,19 @@
 				random_bonus: 2
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "255694580F7FD8B1"
 				item: "exdeorum:oak_barrel"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -4.0d
+			title: "{atm9.quest.start1.barrel}"
+			x: -5.5d
+			y: -2.5d
 		}
 		{
-			dependencies: [
-				"42240BED17BA0948"
-				"70063949E831D49E"
-			]
-			description: ["Fill a barrel with water and right-click it with Dust to get Clay."]
+			dependencies: ["42240BED17BA0948"]
+			description: ["{atm9.quest.start1.desc.clay}"]
 			id: "53F7B1EE005A696C"
 			rewards: [
 				{
@@ -757,16 +707,16 @@
 				item: "minecraft:clay"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -4.0d
+			title: "{atm9.quest.start1.clay}"
+			x: -3.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["53F7B1EE005A696C"]
-			description: [
-				"I mean its a skyblock, no matter how many different power generation methods we try to show you in these quests, you will ultimately end up with 20 of these in your base..."
-				""
-				"These generate lava when a heat source is placed underneath it. You can use a torch to start with, even though it is slow. Fill with some sort of cobblestone."
+			dependencies: [
+				"25E267AAAD4B992B"
+				"53F7B1EE005A696C"
 			]
+			description: ["{atm9.quest.start1.desc.crucible}"]
 			id: "40A495FCD317A38D"
 			rewards: [
 				{
@@ -787,13 +737,13 @@
 				item: "exdeorum:porcelain_crucible"
 				type: "item"
 			}]
-			title: "All Fired Up"
+			title: "{atm9.quest.start1.crucible}"
 			x: -1.0d
 			y: -5.5d
 		}
 		{
-			description: ["For those who want to fast-track the start, this gives you an \"easy-mode\" start. You do not have to complete this quest, and it is optional for progression."]
-			icon: "minecraft:lava_bucket"
+			description: ["{atm9.quest.start1.desc.headstart}"]
+			icon: "allthetweaks:atm_star"
 			id: "2C134DDBF9283407"
 			optional: true
 			rewards: [
@@ -823,24 +773,18 @@
 					type: "item"
 				}
 			]
-			subtitle: "For Those Who Want To Skip Forward"
+			subtitle: "{atm9.quest.start1.subt.headstart}"
 			tasks: [{
 				id: "1C50BB96A8128D96"
 				type: "checkmark"
 			}]
-			title: "A Head Start"
-			x: -9.5d
+			title: "{atm9.quest.start1.headstart}"
+			x: -13.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["40A495FCD317A38D"]
-			description: [
-				"If you don't want to be right-clicking the floor for the rest of eternity, make you one of these."
-				""
-				"You'll need to make lava in your crucible, and you'll need enough iron to make 2 buckets. "
-				""
-				"Trust me, it's worth it. It auto-generates cobblestone, and will automatically export to an attached inventory, like an Oak Drawer from Functional Storage."
-			]
+			description: ["{atm9.quest.start1.desc.cobble1}"]
 			id: "647E94E2156CB596"
 			rewards: [
 				{
@@ -864,7 +808,7 @@
 				item: "cobblefordays:tier_1"
 				type: "item"
 			}]
-			title: "Cobblestone Generator Mk1"
+			title: "{atm9.quest.start1.cobble1}"
 			x: 0.5d
 			y: -5.5d
 		}
@@ -881,8 +825,9 @@
 				item: "cobblefordays:tier_2"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -7.0d
+			title: "{atm9.quest.start1.cobble2}"
+			x: 2.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["27187D13B58AC79C"]
@@ -897,7 +842,8 @@
 				item: "cobblefordays:tier_3"
 				type: "item"
 			}]
-			x: 2.0d
+			title: "{atm9.quest.start1.cobble3}"
+			x: 3.5d
 			y: -5.5d
 		}
 		{
@@ -913,8 +859,9 @@
 				item: "cobblefordays:tier_4"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -7.0d
+			title: "{atm9.quest.start1.cobble4}"
+			x: 3.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["0F9EE68E5D61DC91"]
@@ -930,51 +877,41 @@
 				item: "cobblefordays:tier_5"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -7.0d
+			title: "{atm9.quest.start1.cobble5}"
+			x: 1.875d
+			y: -7.5d
 		}
 		{
 			dependencies: ["40A495FCD317A38D"]
-			description: [
-				"Crucible heat sources are important as they make your lava production faster! This modpack has a few changes to the norm, so I thought I would add a list into the guidebook for you to show you the options"
-				""
-				"Blaze Mesh: 8"
-				"Uranium block: 20"
-				"Mekanism superheating element: 60"
-				"Dark matter block: 100"
-			]
+			description: ["{atm9.quest.start1.desc.heat}"]
+			icon: "minecraft:campfire"
 			id: "74D15276CA30D62F"
 			tasks: [{
 				id: "7F1EEFBE68C82523"
 				title: "Crucible heat sources!"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.start1.heat}"
 			x: -1.0d
-			y: -7.0d
+			y: -8.5d
 		}
 		{
-			description: ["Ran out of saplings? You can get some emergency saplings at the top right of the quest menu!"]
+			description: ["{atm9.quest.start1.desc.emergency}"]
 			icon: "minecraft:oak_sapling"
 			id: "29F82373417B2006"
 			optional: true
 			tasks: [{
 				id: "2019707AE4DAC703"
-				title: "Emergency Saplings"
+				title: "{atm9.quest.start1.emergency}"
 				type: "checkmark"
 			}]
-			x: -9.5d
+			title: "{atm9.quest.start1.emergency}"
+			x: -13.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["42240BED17BA0948"]
-			description: [
-				"&l(This is outdated and to be updated. Mix milk with water to get slime.)&l"
-				"Mycelium Spores, when used on witch water, will turn into a brown mushroom block."
-				""
-				"Place the mushroom block down and break it for a chance at a brown mushroom."
-				""
-				"A Brown Mushroom, when used on witch water, will turn into a slime block. This can then be crafted down to 9 slime balls."
-			]
+			description: ["{atm9.quest.start1.desc.slime}"]
 			icon: "minecraft:slime_ball"
 			id: "40A3726417C13F83"
 			rewards: [{
@@ -983,24 +920,17 @@
 				item: "minecraft:slime_ball"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "4B2B4ECCAB499E6A"
-					item: "minecraft:brown_mushroom_block"
-					type: "item"
-				}
-				{
-					id: "54859420D904A6AC"
-					item: "minecraft:slime_block"
-					type: "item"
-				}
-			]
-			title: "Slimeball"
-			x: -2.5d
-			y: -5.5d
+			tasks: [{
+				id: "54859420D904A6AC"
+				item: "minecraft:slime_block"
+				type: "item"
+			}]
+			title: "{atm9.quest.start1.slime}"
+			x: -4.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["6580DCA54E4C9BC2"]
+			dependencies: ["038D957AF351CB44"]
 			id: "38852A6C2A1F8363"
 			rewards: [
 				{
@@ -1020,9 +950,225 @@
 				item: "exdeorum:diamond_mesh"
 				type: "item"
 			}]
+			title: "{atm9.quest.start1.diamondmesh}"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["768F0E715B05D9E4"]
+			description: ["{atm9.quest.start1.desc.bigsieve}"]
+			id: "342F5ABB7A32224A"
+			rewards: [{
+				count: 5
+				id: "523C5C3797DC984C"
+				item: "exdeorum:compressed_gravel"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "{atm9.quest.start1.subt.bigsieve}"
+			tasks: [{
+				id: "2D268A04CA80BAE1"
+				item: "exdeorum:oak_compressed_sieve"
+				type: "item"
+			}]
+			title: "{atm9.quest.start1.bigsieve}"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6580DCA54E4C9BC2"]
+			description: ["{atm9.quest.start1.desc.drops}"]
+			id: "038D957AF351CB44"
+			tasks: [{
+				id: "0A991D39D78E1939"
+				title: "CHECK DROPS"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.start1.drops}"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1658780534451E39"]
+			description: ["{atm9.quest.start1.desc.toast}"]
+			id: "55A7099B9A9E59EA"
+			rewards: [{
+				count: 5
+				id: "79483F4C14C6A337"
+				item: "croptopia:toast"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.start1.subt.toast}"
+			tasks: [{
+				id: "604E9146ABDF5949"
+				item: "croptopia:toast"
+				type: "item"
+			}]
+			title: "{atm9.quest.start1.toast}"
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1EFE097BA29A5C0D"]
+			id: "3755C36AE60FF795"
+			subtitle: "{atm9.quest.start1.subt.oakcrucible}"
+			tasks: [{
+				id: "5E69FA217FFA4955"
+				item: "exdeorum:oak_crucible"
+				type: "item"
+			}]
+			title: "{atm9.quest.start1.oakcrucible}"
 			x: -4.0d
-			y: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["11CE392E7A41785F"]
+			description: ["{atm9.quest.start1.desc.shears}"]
+			id: "54992605CC8D3CA9"
+			rewards: [{
+				id: "261E09C0692B52FE"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C1A3BCB3654256C"
+				item: {
+					Count: 1b
+					id: "pickletweaks:flint_shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.start1.shears}"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3755C36AE60FF795"]
+			icon: "minecraft:water_bucket"
+			id: "078B62FF2DA20ED9"
+			size: 1.5d
+			subtitle: "{atm9.quest.start1.subt.water}"
+			tasks: [{
+				id: "78161B7F3B8BEC52"
+				title: "Water"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.start1.water}"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			description: ["{atm9.quest.start1.desc.bone}"]
+			id: "25E267AAAD4B992B"
+			rewards: [{
+				id: "3A791192AB97B4D2"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.start1.subt.bone}"
+			tasks: [{
+				id: "5D41217820D4BA15"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			title: "{atm9.quest.start1.bones}"
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["54992605CC8D3CA9"]
+			description: ["{atm9.quest.start1.desc.leaves}"]
+			id: "1EFE097BA29A5C0D"
+			rewards: [{
+				id: "6601937F40C4AA51"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79D7BD24876E7514"
+				item: "minecraft:oak_leaves"
+				type: "item"
+			}]
+			title: "{atm9.quest.start1.leaves}"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"768F0E715B05D9E4"
+				"11CE392E7A41785F"
+			]
+			description: ["{atm9.quest.start1.desc.ready}"]
+			id: "5FF2B8BCB3CE6AB0"
+			subtitle: "{atm9.quest.start1.subt.ready}"
+			tasks: [{
+				id: "22649862928BBE26"
+				title: "Get ready..."
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.start1.ready}"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["40A495FCD317A38D"]
+			description: ["{atm9.quest.start1.desc.lava}"]
+			icon: "minecraft:lava_bucket"
+			id: "6CC58829AD442C66"
+			rewards: [{
+				count: 32
+				id: "2AAAF92DC3161068"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.start1.subt.lava}"
+			tasks: [{
+				id: "0313C9C9B5D2BCE7"
+				title: "Infinite Lava"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.start1.lava}"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0C9B97D2048A1073"]
+			description: ["{atm9.quest.start1.desc.hammersss}"]
+			id: "784B0D83F0229A08"
+			rewards: [{
+				id: "3E3FC3C325D91ACB"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:efficiency"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.start1.subt.hammersss}"
+			tasks: [{
+				id: "58B859E088563425"
+				item: {
+					Count: 1b
+					id: "exdeorum:compressed_stone_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.start1.hammersss}"
+			x: -9.5d
+			y: 3.0d
 		}
 	]
-	title: "Getting Started"
+	title: "{atm9.chapters.5.title}"
 }

@@ -365,8 +365,9 @@
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
-				id: "0DEF49F1356E42EA"
-				type: "checkmark"
+				id: "3C45AF8C3DC5A45E"
+				item: "powah:uraninite_raw"
+				type: "item"
 			}]
 			title: "&aWelcome to&r &9Powah&r!!!"
 			x: -0.5d
@@ -3417,5 +3418,5 @@
 			y: 17.5d
 		}
 	]
-	title: "{atm9.chapters.23.title}"
+	title: "{atm9.chapters.22.title}"
 }
