@@ -370,13 +370,8 @@
 				}
 			]
 			title: "{atm9.quest.storage.ender}"
-<<<<<<< HEAD
 			x: 3.0d
 			y: -0.5d
-=======
-			x: 2.5d
-			y: -1.5d
->>>>>>> 452adc3159a440f4d3ef3a3b27415ef34c44d232
 		}
 		{
 			description: ["{atm9.quest.storage.desc.basic}"]
@@ -434,49 +429,7 @@
 			]
 			title: "{atm9.quest.storage.trash}"
 			x: 4.5d
-<<<<<<< HEAD
 			y: -3.0d
-=======
-			y: -3.5d
-		}
-		{
-			hide_dependency_lines: true
-			id: "3D5852E6D0ADF651"
-			rewards: [
-				{
-					count: 4
-					id: "685834F0A29F6B78"
-					item: "minecraft:ender_pearl"
-					type: "item"
-				}
-				{
-					id: "36EA7EC9235E0AEA"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7BD9855705A23AEE"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-			]
-			tasks: [
-				{
-					id: "61F1446D2A460827"
-					item: "dimstorage:dimensional_chest"
-					type: "item"
-				}
-				{
-					id: "17FE9F196E4C6B44"
-					item: "dimstorage:dimensional_tank"
-					type: "item"
-				}
-			]
-			title: "{atm9.quest.storage.dim}"
-			x: 6.5d
-			y: -1.5d
->>>>>>> 452adc3159a440f4d3ef3a3b27415ef34c44d232
 		}
 		{
 			dependencies: ["072FBEB0F6F1BC48"]
@@ -1828,13 +1781,8 @@
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.storage.NBT}"
-<<<<<<< HEAD
 			x: 6.0d
 			y: -0.5d
-=======
-			x: 4.5d
-			y: 0.5d
->>>>>>> 452adc3159a440f4d3ef3a3b27415ef34c44d232
 		}
 	]
 	title: "{atm9.chapters.9.title}"
