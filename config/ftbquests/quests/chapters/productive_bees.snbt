@@ -2300,7 +2300,7 @@
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
-			icon: "twilightforest:fallen_leaves"
+			icon: "minecraft:oak_leaves"
 			id: "6BEE3578BD2C713C"
 			rewards: [{
 				id: "1C28FA3EA99E8BF1"
