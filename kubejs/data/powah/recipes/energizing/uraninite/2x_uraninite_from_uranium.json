@@ -1,10 +1,10 @@
 {
   "type": "powah:energizing",
   "ingredients": [
-      {"item": "powah:uraninite_raw"},
-      {"item": "powah:uraninite_raw"}
+      {"tag": "forge:ingots/uranium"},
+      {"tag": "forge:ingots/uranium"}
   ],
-  "energy": 4000,
+  "energy": 60000,
   "result": {
     "item": "powah:uraninite",
     "count": 2
