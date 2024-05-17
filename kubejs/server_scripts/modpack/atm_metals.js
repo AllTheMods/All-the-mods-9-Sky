@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
         "count": 1
       },
       {
-        "tag": "forge:pellets/plutonium",
+        "tag": "forge:gems/prescient_crystal",
         "count": 1
       }
     ],

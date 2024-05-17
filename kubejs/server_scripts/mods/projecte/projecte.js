@@ -30,7 +30,7 @@ ServerEvents.recipes(event =>{
   .altar('allthemodium:unobtainium_ingot')
   .input('3x projecte:dark_matter')
   .input('mysticalagradditions:insanium_essence')
-  .input('enderio:prescient_crystal')
+  .input('mekanism:pellet_plutonium')
   .input('minecraft:echo_shard')
   .itemOutput('projecte:red_matter')
   .recipeTime(20)  
