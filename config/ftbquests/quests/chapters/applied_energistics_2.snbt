@@ -352,44 +352,19 @@
 					xp: 10
 				}
 			]
-			tasks: [
-				{
-					id: "40A7CC56DACC2623"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "ae2:glass_cable"
-						}
+			tasks: [{
+				count: 8L
+				id: "40A7CC56DACC2623"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:glass_cable"
 					}
-					title: "Glass Cable"
-					type: "item"
 				}
-				{
-					id: "64EAD3DE84E94F02"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "ae2:covered_cable"
-						}
-					}
-					title: "Covered Cable"
-					type: "item"
-				}
-				{
-					id: "14DEFFB80CC96BC1"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "ae2:covered_dense_cable"
-						}
-					}
-					title: "Dense Covered Cable"
-					type: "item"
-				}
-			]
+				title: "Glass Cable"
+				type: "item"
+			}]
 			title: "{atm9.quest.ae2.cables}"
 			x: 5.0d
 			y: 1.5d
