@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "atm9chapters30title"
+	group: "2084F3F6FB861C5B"
+	icon: "allthetweaks:atm_star"
+	id: "3A32A38909374FD9"
+	images: [{
+		height: 3.0d
+		image: "atm:textures/questpics/chap2/atmstar_title.png"
+		rotation: 0.0d
+		width: 21.63d
+		x: 0.0d
+		y: -8.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		description: ["WIP"]
+		id: "7B16C9B48BFDC6A0"
+		size: 4.0d
+		subtitle: "WIP"
+		tasks: [{
+			id: "7AC3E606FD26313A"
+			item: "allthetweaks:atm_star"
+			type: "item"
+		}]
+		x: 0.0d
+		y: -4.0d
+	}]
+	title: "{atm9.chapters.30.title}"
+}

@@ -645,26 +645,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["42240BED17BA0948"]
-			description: ["{atm9.quest.start1.desc.soulsand}"]
-			icon: "minecraft:soul_sand"
-			id: "1FF2E2B85B9EC00F"
-			rewards: [{
-				count: 2
-				id: "68025572BB281A4E"
-				item: "minecraft:soul_sand"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2985C3F0C405582A"
-				item: "minecraft:soul_sand"
-				type: "item"
-			}]
-			title: "{atm9.quest.start1.soulsand}"
-			x: -5.5d
-			y: -5.5d
-		}
-		{
 			dependencies: ["3001B2EEE5C6C9AB"]
 			description: ["{atm9.quest.start1.desc.barrel}"]
 			id: "42240BED17BA0948"
@@ -886,6 +866,12 @@
 			description: ["{atm9.quest.start1.desc.heat}"]
 			icon: "minecraft:campfire"
 			id: "74D15276CA30D62F"
+			rewards: [{
+				count: 4
+				id: "20FBE8A874971F51"
+				item: "minecraft:torch"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7F1EEFBE68C82523"
 				title: "Crucible heat sources!"
@@ -900,6 +886,11 @@
 			icon: "minecraft:oak_sapling"
 			id: "29F82373417B2006"
 			optional: true
+			rewards: [{
+				id: "6477CE5C4204FFED"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2019707AE4DAC703"
 				title: "{atm9.quest.start1.emergency}"
@@ -953,28 +944,6 @@
 			title: "{atm9.quest.start1.diamondmesh}"
 			x: -0.5d
 			y: 4.5d
-		}
-		{
-			dependencies: ["768F0E715B05D9E4"]
-			description: ["{atm9.quest.start1.desc.bigsieve}"]
-			id: "342F5ABB7A32224A"
-			rewards: [{
-				count: 5
-				id: "523C5C3797DC984C"
-				item: "exdeorum:compressed_gravel"
-				type: "item"
-			}]
-			shape: "diamond"
-			size: 2.0d
-			subtitle: "{atm9.quest.start1.subt.bigsieve}"
-			tasks: [{
-				id: "2D268A04CA80BAE1"
-				item: "exdeorum:oak_compressed_sieve"
-				type: "item"
-			}]
-			title: "{atm9.quest.start1.bigsieve}"
-			x: 1.0d
-			y: -3.0d
 		}
 		{
 			dependencies: ["6580DCA54E4C9BC2"]
@@ -1168,6 +1137,113 @@
 			title: "{atm9.quest.start1.hammersss}"
 			x: -9.5d
 			y: 3.0d
+		}
+		{
+			description: ["{atm9.quest.start1.desc.ma}"]
+			icon: "minecraft:diamond"
+			id: "52CF60CDA1E5D3F2"
+			rewards: [{
+				id: "38B407C4C79B4833"
+				item: "mysticalagriculture:inferium_essence"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "02C17013C91A4440"
+				title: "{atm9.quest.start1.ma}"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5FF2B8BCB3CE6AB0"]
+			description: ["{atm9.quest.start1.desc.dank}"]
+			id: "15D87B54A60525F0"
+			subtitle: "{atm9.quest.start1.subt.dank}"
+			tasks: [{
+				id: "7533F3A728F89EA0"
+				item: "dankstorage:dank_1"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["42240BED17BA0948"]
+			description: ["{atm9.quest.start1.desc.stonebarrel}"]
+			id: "0DE706CEFF3D04DC"
+			tasks: [{
+				id: "269B12BF6CEBC55B"
+				item: "exdeorum:stone_barrel"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["42240BED17BA0948"]
+			description: ["{atm9.quest.start1.desc.witchwater}"]
+			id: "3B2C5513A8781DD3"
+			shape: "pentagon"
+			tasks: [{
+				id: "2A5A47ACE1821C05"
+				item: "exdeorum:witch_water_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3B2C5513A8781DD3"]
+			description: ["{atm9.quest.start1.desc.checkjei}"]
+			id: "02CC88B4C844851B"
+			tasks: [{
+				id: "5DF219ADC0D0011D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:netherrack"
+							}
+							{
+								Count: 1b
+								id: "minecraft:blackstone"
+							}
+							{
+								Count: 1b
+								id: "minecraft:soul_sand"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.start1.usewitchwater}"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["768F0E715B05D9E4"]
+			description: ["{atm9.quest.start1.desc.usefulseeds}"]
+			id: "30A5C7F6D624883F"
+			tasks: [
+				{
+					id: "6796CC6B57FBA03E"
+					item: "exdeorum:grass_seeds"
+					type: "item"
+				}
+				{
+					id: "09BBBCD923E11EC3"
+					item: "exdeorum:mycelium_spores"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -2.0d
 		}
 	]
 	title: "{atm9.chapters.5.title}"

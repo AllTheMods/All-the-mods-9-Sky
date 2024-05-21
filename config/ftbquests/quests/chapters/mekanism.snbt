@@ -2243,11 +2243,9 @@
 		{
 			dependencies: ["6F62B5510FA881CD"]
 			description: [
-				"The Heat Generator has 2 modes to generate power:"
+				"The windmill uses wind to generate power, no maintenance necessary."
 				""
-				"&9Passive:&r Surrounding the generator with lava source or flowing blocks creates passive power by creating heat. Place one lava source block on top, and let it flow over the sides. Make sure to connect pipes first!"
-				""
-				"&9Active:&r Placing combustible materials such as coal or wood into the generator will burn the fuel to create power."
+				"Place it higher up for it to generate more power!"
 			]
 			id: "0650996C7818ADB5"
 			rewards: [
@@ -2266,8 +2264,8 @@
 			size: 1.25d
 			subtitle: "Basic Power Gen"
 			tasks: [{
-				id: "7BA12BAB8271E170"
-				item: "mekanismgenerators:heat_generator"
+				id: "0B695AC8E5D12580"
+				item: "mekanismgenerators:wind_generator"
 				type: "item"
 			}]
 			x: -8.875d

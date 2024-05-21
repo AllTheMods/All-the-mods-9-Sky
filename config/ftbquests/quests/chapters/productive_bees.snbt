@@ -46,7 +46,7 @@
 			y: 3.0d
 		}
 	]
-	order_index: 4
+	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -2300,7 +2300,7 @@
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
-			icon: "minecraft:oak_leaves"
+			icon: "twilightforest:fallen_leaves"
 			id: "6BEE3578BD2C713C"
 			rewards: [{
 				id: "1C28FA3EA99E8BF1"
@@ -4359,6 +4359,18 @@
 			}]
 			x: -8.0d
 			y: 0.5d
+		}
+		{
+			description: ["Grow a birch tree near a flower, or use summoning altar (for spawn egg) to start bees"]
+			id: "7A2C7A955E12E60B"
+			size: 3.0d
+			tasks: [{
+				id: "3B78532B6A29E069"
+				title: "Temp Info"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -4.5d
 		}
 	]
 	title: "{atm9.chapters.16.title}"
