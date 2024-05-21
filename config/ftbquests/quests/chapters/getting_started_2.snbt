@@ -12,8 +12,8 @@
 			image: "atm:textures/clouds.png"
 			rotation: 0.0d
 			width: 100.0d
-			x: 0.5d
-			y: 0.5d
+			x: -3.0d
+			y: 8.5d
 		}
 		{
 			height: 3.0d
