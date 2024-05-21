@@ -1,0 +1,22 @@
+{
+  "type": "productivebees:item_conversion",
+  "bee": "productivebees:blazing",
+  "ingredients": [
+    {
+      "item": "productivetrees:sequoia_sapling"
+    }
+  ],
+  "result": {
+    "item": "productivetrees:firecracker_sapling"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "productivebees"
+    },
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:blazing"
+    }
+  ]
+}

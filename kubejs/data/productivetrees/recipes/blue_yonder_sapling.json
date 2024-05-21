@@ -1,0 +1,22 @@
+{
+  "type": "productivebees:item_conversion",
+  "bee": "productivebees:water",
+  "ingredients": [
+    {
+      "item": "productivetrees:foggy_blast_sapling"
+    }
+  ],
+  "result": {
+    "item": "productivetrees:blue_yonder_sapling"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "productivebees"
+    },
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:water"
+    }
+  ]
+}

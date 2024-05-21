@@ -1,0 +1,22 @@
+{
+  "type": "productivebees:item_conversion",
+  "bee": "productivebees:amber",
+  "ingredients": [
+    {
+      "item": "productivetrees:slimy_delight_sapling"
+    }
+  ],
+  "result": {
+    "item": "productivetrees:brown_amber_sapling"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "productivebees"
+    },
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:amber"
+    }
+  ]
+}

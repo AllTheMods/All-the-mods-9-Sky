@@ -1,0 +1,15 @@
+#Misc
+[misc]
+
+	[misc.misc]
+		# Enable or disable light-updates, furances will no longer emit light, true = disable
+		lightupdates = true
+
+#Update Checker Settings
+[updates]
+
+	[updates.check_updates]
+		# true = check for updates, false = don't check for updates.
+		# Default: true.
+		updates = false
+

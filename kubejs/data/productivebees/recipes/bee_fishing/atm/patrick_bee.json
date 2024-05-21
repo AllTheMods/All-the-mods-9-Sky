@@ -1,0 +1,11 @@
+{
+  "type": "productivebees:bee_fishing",
+  "bee": "productivebees:patrick",
+  "chance": 0.01,
+  "conditions": [
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:patrick"
+    }
+  ]
+}
