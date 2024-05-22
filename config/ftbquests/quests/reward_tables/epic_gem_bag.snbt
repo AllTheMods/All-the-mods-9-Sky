@@ -9,7 +9,7 @@
 	}
 	id: "101AB5CE5A067BA6"
 	loot_size: 1
-	order_index: 45
+	order_index: 43
 	rewards: [
 		{
 			item: {
@@ -175,18 +175,6 @@
 					affix_data: {
 						rarity: "apotheosis:epic"
 					}
-					gem: "irons_spellbooks:intelligent"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "apotheosis:gem"
-				tag: {
-					affix_data: {
-						rarity: "apotheosis:epic"
-					}
 					gem: "apotheosis:overworld/earth"
 				}
 			}
@@ -248,30 +236,6 @@
 						rarity: "apotheosis:epic"
 					}
 					gem: "apotheosis:the_nether/inferno"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "apotheosis:gem"
-				tag: {
-					affix_data: {
-						rarity: "apotheosis:epic"
-					}
-					gem: "apotheosis:twilight/forest"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "apotheosis:gem"
-				tag: {
-					affix_data: {
-						rarity: "apotheosis:epic"
-					}
-					gem: "apotheosis:twilight/queen"
 				}
 			}
 		}

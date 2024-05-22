@@ -1551,9 +1551,17 @@
 				tag: { }
 			}
 			id: "2948E2ADC773C508"
+			rewards: [{
+				command: "/tellraw @p {\"text\":\"Click here to go to the tutorial for AlfredGG!\",\"color\":\"red\",\"underlined\":\"false\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=iLSlFHweJsI\"}}]"
+				exclude_from_claim_all: true
+				id: "0B819CACAA38ACBF"
+				title: "AlfredGG Tutorial"
+				type: "command"
+			}]
 			size: 4.0d
 			tasks: [{
-				id: "746691E472569661"
+				id: "1387373E0B158C74"
+				title: "Mystical Agriculture tutorial"
 				type: "checkmark"
 			}]
 			x: 16.0d

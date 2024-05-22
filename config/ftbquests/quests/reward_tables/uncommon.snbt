@@ -311,28 +311,9 @@
 		{ count: 2, item: "botania:manasteel_ingot", random_bonus: 2, weight: 10.0f }
 		{ item: "botania:mana_diamond", random_bonus: 2, weight: 5.0f }
 		{ item: "botania:mana_pearl", random_bonus: 2, weight: 5.0f }
-		{
-			item: {
-				Count: 1b
-				id: "twilightforest:giant_sword"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "aquaculture:neptunium_sword"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
 		{ item: "reliquary:pedestals/passive/white_passive_pedestal" }
 		{ count: 4, item: "functionalstorage:oak_1", random_bonus: 4, weight: 10.0f }
 		{ item: "mob_grinding_utils:absorption_hopper" }
-		{ count: 2, item: "botanypots:terracotta_hopper_botany_pot", random_bonus: 2, weight: 10.0f }
 		{ item: "mysticalagriculture:imperium_essence", weight: 8.0f }
 		{ item: "mysticalagriculture:tertium_essence", random_bonus: 1, weight: 10.0f }
 		{ count: 2, item: "mysticalagriculture:prudentium_essence", random_bonus: 2, weight: 20.0f }

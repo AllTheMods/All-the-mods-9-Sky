@@ -10,7 +10,6 @@
 	loot_size: 1
 	order_index: 11
 	rewards: [
-		{ item: "botanypots:terracotta_hopper_botany_pot", weight: 5.0f }
 		{ item: "mysticalagriculture:imperium_essence" }
 		{ item: "reliquary:fertile_lily_pad" }
 		{ item: "minecraft:fox_spawn_egg", weight: 5.0f }
