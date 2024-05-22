@@ -1302,6 +1302,7 @@
 		}
 		{
 			dependencies: ["041F4DE6C607E21F"]
+			description: ["{atm9.quest.ma.desc.mastercrys}"]
 			id: "219A5BDA5A01A420"
 			rewards: [{
 				id: "62F6725112D10E87"
@@ -1320,7 +1321,13 @@
 		}
 		{
 			dependencies: ["219A5BDA5A01A420"]
+			description: ["{atm9.quest.ma.desc.craftert3}"]
 			id: "298BDB0A45C27263"
+			rewards: [{
+				id: "1084AD8A0E4C8078"
+				item: "mysticalagriculture:supremium_essence"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -1333,7 +1340,7 @@
 		}
 		{
 			dependencies: ["041F4DE6C607E21F"]
-			description: ["Options for fast farms above and below (DESC WIP)"]
+			description: ["{atm9.quest.ma.desc.opt}"]
 			id: "31D7D45E2F1E5D82"
 			tasks: [{
 				id: "7D9437255807AA6D"
@@ -1344,6 +1351,7 @@
 		}
 		{
 			dependencies: ["31D7D45E2F1E5D82"]
+			description: ["{atm9.quest.ma.desc.phytopath}"]
 			icon: "thermal:machine_insolator"
 			id: "3A04875A8F470627"
 			shape: "pentagon"
@@ -1357,6 +1365,7 @@
 		}
 		{
 			dependencies: ["31D7D45E2F1E5D82"]
+			description: ["{atm9.quest.ma.desc.lilypadpath}"]
 			icon: "mysticalagriculture:supremium_farmland"
 			id: "22F85A11B575C9F8"
 			shape: "pentagon"
@@ -1551,19 +1560,12 @@
 				tag: { }
 			}
 			id: "2948E2ADC773C508"
-			rewards: [{
-				command: "/tellraw @p {\"text\":\"Click here to go to the tutorial for AlfredGG!\",\"color\":\"red\",\"underlined\":\"false\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=iLSlFHweJsI\"}}]"
-				exclude_from_claim_all: true
-				id: "0B819CACAA38ACBF"
-				title: "AlfredGG Tutorial"
-				type: "command"
-			}]
 			size: 4.0d
 			tasks: [{
-				id: "1387373E0B158C74"
-				title: "Mystical Agriculture tutorial"
+				id: "746691E472569661"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.ma.build}"
 			x: 16.0d
 			y: -10.0d
 		}
@@ -1747,6 +1749,7 @@
 				id: "097374E903B9339F"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.ma.build}"
 			x: 12.0d
 			y: 15.0d
 		}
@@ -1769,6 +1772,7 @@
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.ma.subt.phytoultra}"
 			x: 5.0d
 			y: 15.0d
 		}
@@ -1836,7 +1840,13 @@
 		}
 		{
 			dependencies: ["24C2026F428DE0A3"]
+			description: ["{atm9.quest.ma.desc.awakeningaltar}"]
 			id: "5D327A886551A6B4"
+			rewards: [{
+				id: "6DA83C750E03FF9A"
+				item: "mysticalagradditions:insanium_essence"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [
@@ -1863,7 +1873,14 @@
 		}
 		{
 			dependencies: ["31D7D45E2F1E5D82"]
+			description: ["{atm9.quest.ma.desc.cognizant}"]
 			id: "24C2026F428DE0A3"
+			rewards: [{
+				count: 2
+				id: "2C35F4D333E0EA27"
+				item: "mysticalagriculture:cognizant_dust"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -1877,7 +1894,13 @@
 		}
 		{
 			dependencies: ["5D327A886551A6B4"]
+			description: ["{atm9.quest.ma.desc.cognizantdust}"]
 			id: "6ECA35873EFEDB35"
+			rewards: [{
+				id: "4BE1905214695659"
+				item: "mysticalagriculture:supremium_block"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 2.5d
 			tasks: [{
@@ -1890,7 +1913,14 @@
 		}
 		{
 			dependencies: ["6ECA35873EFEDB35"]
+			description: ["{atm9.quest.ma.desc.asbee}"]
 			id: "2A7192CD8D9830DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "404AFBEA64266A46"
+				table_id: 5196609362437981520L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0873805900E5794B"
 				item: {
@@ -1910,6 +1940,12 @@
 		{
 			description: ["{atm9.quest.ma.desc.SupremiumGear}"]
 			id: "15B60B1325E1DBBB"
+			rewards: [{
+				count: 4
+				id: "50DCFB412BF6302A"
+				item: "mysticalagriculture:supremium_ingot"
+				type: "item"
+			}]
 			subtitle: "{atm9.quest.ma.subt.SupremiumGear}"
 			tasks: [{
 				id: "59B5CBC7CC4058EE"

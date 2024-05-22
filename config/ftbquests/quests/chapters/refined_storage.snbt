@@ -166,6 +166,7 @@
 		{
 			dependencies: ["44881E39AB1D62AA"]
 			description: ["{atm9.quest.rs.desc.iron}"]
+			hide: true
 			id: "45FF08E4DB6F7F0E"
 			rewards: [
 				{
@@ -192,6 +193,7 @@
 		{
 			dependencies: ["45FF08E4DB6F7F0E"]
 			description: ["{atm9.quest.rs.desc.gold}"]
+			hide: true
 			id: "4A198E875A6B0A64"
 			rewards: [
 				{
@@ -218,6 +220,7 @@
 		{
 			dependencies: ["4A198E875A6B0A64"]
 			description: ["{atm9.quest.rs.desc.diamond}"]
+			hide: true
 			id: "189018F641FBB44E"
 			rewards: [
 				{
@@ -244,6 +247,7 @@
 		{
 			dependencies: ["189018F641FBB44E"]
 			description: ["{atm9.quest.rs.desc.netherite}"]
+			hide: true
 			id: "24BD32102AFA1691"
 			rewards: [
 				{
@@ -326,6 +330,7 @@
 		{
 			dependencies: ["6904EC449FBEE387"]
 			description: ["{atm9.quest.rs.desc.importer}"]
+			hide: true
 			id: "532229D285CA4858"
 			rewards: [{
 				id: "1DE253380778110D"
@@ -346,6 +351,7 @@
 		{
 			dependencies: ["6904EC449FBEE387"]
 			description: ["{atm9.quest.rs.desc.destructor}"]
+			hide: true
 			id: "6092490EC9008A05"
 			rewards: [{
 				id: "706F07A4768DE9FA"
@@ -366,6 +372,7 @@
 		{
 			dependencies: ["6904EC449FBEE387"]
 			description: ["{atm9.quest.rs.desc.constructor}"]
+			hide: true
 			id: "2CFEE04BA574921E"
 			rewards: [{
 				id: "3CDBEEDBD20A61DE"
@@ -386,6 +393,7 @@
 		{
 			dependencies: ["6904EC449FBEE387"]
 			description: ["{atm9.quest.rs.desc.exporter}"]
+			hide: true
 			id: "4CD83943865018EA"
 			rewards: [{
 				id: "40C3EDC23E165575"
@@ -482,6 +490,7 @@
 		{
 			dependencies: ["6904EC449FBEE387"]
 			description: ["{atm9.quest.rs.desc.external}"]
+			hide: true
 			id: "253657BE5D9D9162"
 			min_width: 300
 			rewards: [{
@@ -588,6 +597,7 @@
 		{
 			dependencies: ["59F5ED931FD70C55"]
 			description: ["{atm9.quest.rs.desc.pattern_grid}"]
+			hide: true
 			id: "65C8A43FEDBA3835"
 			min_width: 300
 			rewards: [{
@@ -767,6 +777,7 @@
 		{
 			dependencies: ["12A43F82FC67A289"]
 			description: ["{atm9.quest.rs.desc.disk_manipulator}"]
+			hide: true
 			id: "4844DEF57A2287B4"
 			rewards: [{
 				id: "70D006DD94C36966"
@@ -865,6 +876,7 @@
 			dependencies: ["12A43F82FC67A289"]
 			dependency_requirement: "one_started"
 			description: ["{atm9.quest.rs.desc.housing}"]
+			hide: true
 			id: "7604D8B3C9FCCFD9"
 			min_width: 300
 			rewards: [
@@ -984,6 +996,7 @@
 			dependencies: ["6904EC449FBEE387"]
 			dependency_requirement: "one_completed"
 			description: ["{atm9.quest.rs.desc.speeding}"]
+			hide: true
 			id: "2B27E4E04A628C60"
 			rewards: [
 				{
@@ -1017,6 +1030,7 @@
 		{
 			dependencies: ["6904EC449FBEE387"]
 			description: ["{atm9.quest.rs.desc.filter}"]
+			hide: true
 			id: "35EC08D610382860"
 			optional: true
 			rewards: [{
@@ -1036,6 +1050,7 @@
 		{
 			dependencies: ["6B04FC81351CD1AB"]
 			description: ["{atm9.quest.rs.desc.range}"]
+			hide: true
 			id: "2E2811D1A0F2A492"
 			rewards: [
 				{
@@ -1063,6 +1078,7 @@
 		{
 			dependencies: ["6904EC449FBEE387"]
 			description: ["{atm9.quest.rs.desc.upgrades}"]
+			hide: true
 			hide_dependency_lines: true
 			id: "30700E99091B712A"
 			min_width: 300

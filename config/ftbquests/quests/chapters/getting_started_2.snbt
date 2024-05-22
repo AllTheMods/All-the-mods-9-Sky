@@ -12,8 +12,8 @@
 			image: "atm:textures/clouds.png"
 			rotation: 0.0d
 			width: 100.0d
-			x: -3.0d
-			y: 8.5d
+			x: 0.5d
+			y: 0.5d
 		}
 		{
 			height: 3.0d
@@ -47,24 +47,6 @@
 			width: 6.0d
 			x: -10.0d
 			y: 7.5d
-		}
-		{
-			height: 3.0d
-			image: "atm:textures/questpics/sieving.png"
-			order: 1
-			rotation: 0.0d
-			width: 6.48d
-			x: 5.0d
-			y: -3.5d
-		}
-		{
-			color: 0
-			height: 3.0d
-			image: "atm:textures/questpics/sieving.png"
-			rotation: 0.0d
-			width: 6.48d
-			x: 5.08d
-			y: -3.42d
 		}
 		{
 			height: 1.0d
@@ -673,7 +655,11 @@
 		}
 		{
 			dependencies: ["1D6B927E4BF4F18B"]
-			description: ["{atm9.quest.start2.desc.sieve}"]
+			description: [
+				"{atm9.quest.start2.desc.sieve}\\"
+				""
+				"{image:atm:textures/questpics/autosieveexample.png width:220 height:100 align:1}"
+			]
 			id: "2D9F5CEB4AC30A39"
 			rewards: [{
 				id: "38B33853BAA93236"
