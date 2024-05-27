@@ -10,8 +10,13 @@
   //     "surroundingMargin": 0,
   //     "surroundingBlocks": "default"
   // }
-  "spawn": null,
-  
+  "spawn": {
+      "name": "default",
+      "desc": "",
+      "file": "default.nbt",
+      "spawns": "exported_at_2024-05-27T04:06:14+0100"
+    },
+
   "spawns": {
     "default": {
       "south": [
@@ -20,7 +25,61 @@
       "east": [],
       "west": [],
       "north": []
+    },
+    "exported_at_2024-05-27T02:47:49+0100": {
+      "north": [
+        [ 21, 5, 23 ]
+      ],
+      "east": [],
+      "south": [],
+      "west": []
+    },
+    "exported_at_2024-05-27T03:35:19+0100": {
+      "north": [],
+      "east": [],
+      "south": [
+        [ 3, 11, 3 ]
+      ],
+      "west": []
+    },
+    "exported_at_2024-05-27T03:39:44+0100": {
+      "north": [],
+      "east": [],
+      "south": [],
+      "west": [
+        [ 5, 4, 4 ]
+      ]
+    },
+    "exported_at_2024-05-27T03:51:35+0100": {
+      "north": [
+        [ 5, 3, 5 ]
+      ],
+      "east": [],
+      "south": [],
+      "west": []
+    },
+    "exported_at_2024-05-27T04:06:14+0100": {
+      "north": [],
+      "east": [
+        [ 6, 4, 7 ]
+      ],
+      "south": [],
+      "west": []
     }
+  },
+  
+  // A list of file names for templates which should spread around an island
+  // Instead of "minOffset" and "maxOffset" with same values, you could also just use "offset".
+  // "origin" defines from where the offset will be used. Possible values are "zero" and "center", where "zero" is default.
+  // Example: 
+  // {
+  //     "file": "default.nbt",
+  //     "minOffset": [ -6, 3, 5 ],
+  //     "maxOffset": [ 4, 10, 3 ],
+  //     "origin": "center"
+  // }
+  "spreads": {
+    "default": []
   },
   
   // A list of blocks which can be used to surround islands/caves.
@@ -31,10 +90,24 @@
   // The list of templates being available. The first entry is the default template.
   "templates": [
     {
-      "name": "default",
-      "file": "default.nbt",
-      "spawns": "default",
-      "surroundingBlocks": "default"
+      "name": "Cozy Cottage",
+      "file": "cozy_cottage.nbt",
+      "spawns": "exported_at_2024-05-27T02:47:49+0100"
+    },
+    {
+      "name": "Anarchy",
+      "file": "anarchy.nbt",
+      "spawns": "exported_at_2024-05-27T03:35:19+0100"
+    },
+    {
+      "name": "Classical",
+      "file": "classical.nbt",
+      "spawns": "exported_at_2024-05-27T03:39:44+0100"
+    },
+    {
+      "name": "The Direwolf",
+      "file": "thedirewolf.nbt",
+      "spawns": "exported_at_2024-05-27T03:51:35+0100"
     }
   ]
 }

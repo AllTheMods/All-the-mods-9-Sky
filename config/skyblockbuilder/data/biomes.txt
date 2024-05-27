@@ -8,6 +8,8 @@ allthemodium:basalt_deltas
 minecraft:basalt_deltas
 minecraft:beach
 minecraft:birch_forest
+ars_elemental:blazing_forest
+ars_elemental:cascading_forest
 minecraft:cherry_grove
 minecraft:cold_ocean
 allthemodium:crimson_forest
@@ -27,6 +29,8 @@ minecraft:end_barrens
 minecraft:end_highlands
 minecraft:end_midlands
 minecraft:eroded_badlands
+ars_elemental:flashing_forest
+ars_elemental:flourishing_forest
 minecraft:flower_forest
 minecraft:forest
 minecraft:frozen_ocean
