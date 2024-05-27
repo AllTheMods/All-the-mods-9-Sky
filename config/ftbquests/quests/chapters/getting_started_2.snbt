@@ -12,15 +12,15 @@
 			image: "atm:textures/clouds.png"
 			rotation: 0.0d
 			width: 100.0d
-			x: -3.0d
-			y: 8.5d
+			x: 0.5d
+			y: 0.5d
 		}
 		{
 			height: 3.0d
 			image: "allthetweaks:block/atm_star_block"
 			rotation: 0.0d
 			width: 3.0d
-			x: 16.0d
+			x: 18.0d
 			y: 0.5d
 		}
 		{
@@ -47,24 +47,6 @@
 			width: 6.0d
 			x: -10.0d
 			y: 7.5d
-		}
-		{
-			height: 3.0d
-			image: "atm:textures/questpics/sieving.png"
-			order: 1
-			rotation: 0.0d
-			width: 6.48d
-			x: 5.0d
-			y: -3.5d
-		}
-		{
-			color: 0
-			height: 3.0d
-			image: "atm:textures/questpics/sieving.png"
-			rotation: 0.0d
-			width: 6.48d
-			x: 5.08d
-			y: -3.42d
 		}
 		{
 			height: 1.0d
@@ -673,7 +655,11 @@
 		}
 		{
 			dependencies: ["1D6B927E4BF4F18B"]
-			description: ["{atm9.quest.start2.desc.sieve}"]
+			description: [
+				"{atm9.quest.start2.desc.sieve}\\"
+				""
+				"{image:atm:textures/questpics/autosieveexample.png width:220 height:100 align:1}"
+			]
 			id: "2D9F5CEB4AC30A39"
 			rewards: [{
 				id: "38B33853BAA93236"
@@ -1436,7 +1422,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["69AFCFCA443735A5"]
+			dependencies: ["4867F74C2ACD535E"]
 			description: ["{atm9.quest.start2.desc.netherstar}"]
 			id: "5020F092319157B7"
 			rewards: [
@@ -1457,7 +1443,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.start2.netherstar}"
-			x: 12.0d
+			x: 14.0d
 			y: 0.5d
 		}
 		{
@@ -1474,7 +1460,7 @@
 				item: "mysticalagriculture:nether_star_seeds"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 14.0d
 			y: -0.5d
 		}
 		{
@@ -1498,7 +1484,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
+			x: 13.5d
 			y: 2.5d
 		}
 		{
@@ -1515,13 +1501,24 @@
 				item: "angelring:angel_ring"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 14.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["5020F092319157B7"]
 			description: ["{atm9.quest.start2.desc.tiab}"]
 			id: "7438B09498907DE0"
+			rewards: [{
+				id: "6A1B508B6EA8B239"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_swiftness"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2BF262A9C61A23F0"
 				item: {
@@ -1532,7 +1529,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.start2.tiab}"
-			x: 14.0d
+			x: 16.0d
 			y: 0.5d
 		}
 		{
@@ -1552,6 +1549,23 @@
 				type: "item"
 			}]
 			x: -21.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["69AFCFCA443735A5"]
+			description: ["{atm9.quest.start2.desc.Fisher}"]
+			id: "4867F74C2ACD535E"
+			rewards: [{
+				id: "02F698B742932AB3"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44785C9145BBD46A"
+				item: "industrialforegoing:marine_fisher"
+				type: "item"
+			}]
+			x: 12.0d
 			y: 0.5d
 		}
 	]
