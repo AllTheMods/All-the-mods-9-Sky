@@ -1,26 +1,18 @@
 {
-  // The template which will be used for spawn only
-  // Example: 
-  // {
-  //     "name": "default",
-  //     "desc": "",
-  //     "file": "default.nbt",
-  //     "spawns": "default",
-  //     "offset": [ 0, 0, 0 ],
-  //     "surroundingMargin": 0,
-  //     "surroundingBlocks": "default"
-  // }
   "spawn": {
-      "name": "default",
-      "desc": "",
-      "file": "default.nbt",
-      "spawns": "exported_at_2024-05-27T04:06:14+0100"
-    },
-
+    "name": "default",
+    "desc": "",
+    "file": "default.nbt",
+    "spawns": "exported_at_2024-05-27T04:06:14+0100"
+  },
   "spawns": {
     "default": {
       "south": [
-        [ 6, 3, 5 ]
+        [
+          6,
+          3,
+          5
+        ]
       ],
       "east": [],
       "west": [],
@@ -28,7 +20,11 @@
     },
     "exported_at_2024-05-27T02:47:49+0100": {
       "north": [
-        [ 21, 5, 23 ]
+        [
+          21,
+          5,
+          23
+        ]
       ],
       "east": [],
       "south": [],
@@ -38,7 +34,11 @@
       "north": [],
       "east": [],
       "south": [
-        [ 3, 11, 3 ]
+        [
+          3,
+          11,
+          3
+        ]
       ],
       "west": []
     },
@@ -47,12 +47,20 @@
       "east": [],
       "south": [],
       "west": [
-        [ 5, 4, 4 ]
+        [
+          5,
+          4,
+          4
+        ]
       ]
     },
     "exported_at_2024-05-27T03:51:35+0100": {
       "north": [
-        [ 5, 3, 5 ]
+        [
+          5,
+          3,
+          5
+        ]
       ],
       "east": [],
       "south": [],
@@ -61,38 +69,39 @@
     "exported_at_2024-05-27T04:06:14+0100": {
       "north": [],
       "east": [
-        [ 6, 4, 7 ]
+        [
+          6,
+          4,
+          7
+        ]
       ],
+      "south": [],
+      "west": []
+    },
+    "exported_at_2024-05-30T15:52:41+0100": {
+      "north": [
+        [
+          26,
+          7,
+          27
+        ]
+      ],
+      "east": [],
       "south": [],
       "west": []
     }
   },
-  
-  // A list of file names for templates which should spread around an island
-  // Instead of "minOffset" and "maxOffset" with same values, you could also just use "offset".
-  // "origin" defines from where the offset will be used. Possible values are "zero" and "center", where "zero" is default.
-  // Example: 
-  // {
-  //     "file": "default.nbt",
-  //     "minOffset": [ -6, 3, 5 ],
-  //     "maxOffset": [ 4, 10, 3 ],
-  //     "origin": "center"
-  // }
   "spreads": {
     "default": []
   },
-  
-  // A list of blocks which can be used to surround islands/caves.
   "surroundingBlocks": {
     "default": []
   },
-  
-  // The list of templates being available. The first entry is the default template.
   "templates": [
     {
-      "name": "Cozy Cottage",
+      "name": "cozy_cottage",
       "file": "cozy_cottage.nbt",
-      "spawns": "exported_at_2024-05-27T02:47:49+0100"
+      "spawns": "exported_at_2024-05-30T15:52:41+0100"
     },
     {
       "name": "Anarchy",
