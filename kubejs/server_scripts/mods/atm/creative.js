@@ -84,20 +84,18 @@ ServerEvents.recipes( event => {
     E: 'ars_nouveau:summon_focus'
   }).id('kubejs:allthetweaks/dragon_soul')
 
-  //dimensional seed
-  event.recipes.summoningrituals
-  .altar('projecte:dark_matter')
-  .input('mysticalagriculture:nitro_crystal_seeds')
-  .input('thermal_extra:dragonsteel_ingot')
-  .input('mysticalagriculture:dragon_egg_crop')
-  .input('thermal_extra:twinite_ingot')
-  .input('mysticalagriculture:gaia_spirit_crop')
-  .input('thermal_extra:shellite_ingot')
-  .input('mysticalagriculture:nether_star_crop')
-  .input('thermal_extra:soul_infused_ingot')
-  .blockBelow('allthetweaks:nether_star_block')
-  .itemOutput('allthetweaks:dimensional_seed')
-  .recipeTime(15)
+  // dimensional_seed
+  event.shaped('allthetweaks:dimensional_seed', ['ABC', 'DEF', 'GHI'], {
+    A: 'mysticalagriculture:nitro_crystal_seeds',
+    B: 'thermal_extra:dragonsteel_ingot',
+    C: 'mysticalagriculture:dragon_egg_seeds',
+    D: 'thermal_extra:twinite_ingot',
+    E: 'projecte:dark_matter',
+    F: 'thermal_extra:shellite_ingot',
+    G: 'mysticalagriculture:gaia_spirit_seeds',
+    H: 'thermal_extra:soul_infused_ingot',
+    I: 'mysticalagriculture:nether_star_seeds'
+    }).id('kubejs:allthetweaks/dimensional_seed')
 
   // Oblivion Shard
   event.shaped('allthetweaks:oblivion_shard', [' AB', 'ACA', 'BA '], {
