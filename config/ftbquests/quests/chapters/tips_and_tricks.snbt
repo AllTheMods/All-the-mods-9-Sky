@@ -4,32 +4,14 @@
 	filename: "tips_and_tricks"
 	group: ""
 	id: "1BE666F01EFFC00D"
-	images: [
-		{
-			height: 3.0d
-			image: "atm:textures/tips_and_tricks.png"
-			rotation: 0.0d
-			width: 12.0d
-			x: 1.0d
-			y: -3.5d
-		}
-		{
-			height: 100.0d
-			image: "atm:textures/clouds.png"
-			rotation: 0.0d
-			width: 100.0d
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			height: 3.0d
-			image: "atm:textures/questpics/tips_and_tricks.png"
-			rotation: 0.0d
-			width: 12.0d
-			x: -3.5d
-			y: -4.5d
-		}
-	]
+	images: [{
+		height: 3.0d
+		image: "atm:textures/questpics/tips_and_tricks.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: -3.5d
+		y: -4.5d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -78,7 +60,7 @@
 			tasks: [{
 				id: "30C938C85BED7956"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "shrink:shrinking_device"
 					tag: { }
 				}
@@ -95,7 +77,7 @@
 				{
 					id: "319A13116831F46D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "potionsmaster:gold_sight"
@@ -112,7 +94,7 @@
 			subtitle: "{atm9.quest.tips.subt.potion}"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "potionsmaster:iron_sight"
@@ -120,7 +102,7 @@
 				}
 				id: "15F5B24545C0D42F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -165,7 +147,7 @@
 			tasks: [{
 				id: "3B227EED4B839733"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "shrink:shrinking_device"
 					tag: { }
 				}
@@ -198,7 +180,7 @@
 				{
 					id: "4738B22DF26DB2D8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "buildinggadgets2:gadget_copy_paste"
 						tag: { }
 					}
@@ -225,7 +207,7 @@
 			tasks: [{
 				id: "05D9E287D437CDDB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "constructionwand:stone_wand"
 					tag: {
 						Damage: 0
@@ -273,7 +255,7 @@
 				{
 					id: "46455F0068AFFF60"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:lingering_potion"
 						tag: {
 							Potion: "potionsmaster:diamond_sight"
@@ -289,7 +271,7 @@
 			]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "apotheosis:potion_charm"
 					tag: {
 						Damage: 0
@@ -298,7 +280,7 @@
 				}
 				id: "3F38B1E12C1ADEF1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -346,7 +328,7 @@
 			tasks: [{
 				id: "4112D6272EC400DE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplemagnets:basicmagnet"
 					tag: { }
 				}
@@ -363,7 +345,7 @@
 				{
 					id: "1E0446C02381B91A"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							Parent: { }
 						}

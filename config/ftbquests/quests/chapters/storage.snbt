@@ -43,7 +43,7 @@
 			tasks: [{
 				id: "77A9435B6739348E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:iron_chest"
 					tag: {
 						woodType: "oak"
@@ -80,7 +80,7 @@
 			tasks: [{
 				id: "0427B441A750316F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:gold_chest"
 					tag: {
 						woodType: "oak"
@@ -117,7 +117,7 @@
 			tasks: [{
 				id: "00ED02255105A973"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:diamond_chest"
 					tag: {
 						woodType: "oak"
@@ -155,7 +155,7 @@
 			tasks: [{
 				id: "34B6EB0B801E4743"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:netherite_chest"
 					tag: {
 						woodType: "oak"
@@ -192,7 +192,7 @@
 			tasks: [{
 				id: "5241AA0EF3C2EA94"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:chest"
 					tag: {
 						woodType: "oak"
@@ -225,7 +225,7 @@
 			tasks: [{
 				id: "79EC3CF180A5A940"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "functionalstorage:drawer"
@@ -309,7 +309,7 @@
 				{
 					id: "1C3AB68685A3FD62"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "enderchests:ender_bag"
 						tag: {
 							code: "000"
@@ -322,7 +322,7 @@
 				{
 					id: "43FE4B654819B6C4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "endertanks:ender_bucket"
 						tag: {
 							code: "000"
@@ -347,7 +347,7 @@
 				{
 					id: "4E5DB7E53717FD3C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "enderchests:ender_chest"
 						tag: {
 							code: "000"
@@ -359,7 +359,7 @@
 				{
 					id: "322CF20C9C5FB841"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "endertanks:ender_tank"
 						tag: {
 							code: "000"
@@ -488,7 +488,7 @@
 		{
 			description: ["{atm9.quest.storage.desc.sophisticated}"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "sophisticatedstorage:iron_chest"
 				tag: {
 					woodType: "oak"
@@ -1540,7 +1540,7 @@
 			tasks: [{
 				id: "62C6F14FE6A82305"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "functionalstorage:linking_tool"
 					tag: {
 						Action: "ADD"
@@ -1731,7 +1731,7 @@
 			tasks: [{
 				id: "2F275302DA90D4E4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "functionalstorage:configuration_tool"
 					tag: {
 						Mode: "LOCKING"
@@ -1746,7 +1746,7 @@
 		{
 			description: ["{atm9.quest.storage.desc.NBT}"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{

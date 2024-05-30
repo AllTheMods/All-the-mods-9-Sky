@@ -16,7 +16,7 @@
 			rewards: [{
 				id: "551D3CE25E4DD3EB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -36,7 +36,7 @@
 				{
 					id: "5A94111976A96FCC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:shears"
 						tag: {
 							Damage: 0
@@ -103,7 +103,7 @@
 			dependencies: ["07D875C6BBFF3264"]
 			description: ["{atm9.quest.spawner.desc.spawner}"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:spawner"
 				tag: {
 					BlockEntityTag: {
@@ -422,7 +422,7 @@
 			tasks: [{
 				id: "39702880D9133E3E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:wool"

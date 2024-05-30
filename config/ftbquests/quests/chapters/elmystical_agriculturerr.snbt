@@ -350,7 +350,7 @@
 			tasks: [{
 				count: 20L
 				id: "6DDA2C1230BBB173"
-				item: { Count: 8b, id: "minecraft:soul_sand" }
+				item: { Count: 8, id: "minecraft:soul_sand" }
 				type: "item"
 			}]
 			x: -12.5d
@@ -432,7 +432,7 @@
 				{
 					count: 8L
 					id: "04DE1F990F95E617"
-					item: { Count: 8b, id: "mysticalagriculture:infusion_pedestal" }
+					item: { Count: 8, id: "mysticalagriculture:infusion_pedestal" }
 					type: "item"
 				}
 			]
@@ -470,7 +470,7 @@
 			tasks: [{
 				count: 8L
 				id: "385507A587953936"
-				item: { Count: 8b, id: "minecraft:bone_meal" }
+				item: { Count: 8, id: "minecraft:bone_meal" }
 				type: "item"
 			}]
 			x: -8.5d
@@ -489,7 +489,7 @@
 				{
 					count: 64L
 					id: "0CF5C9F1B460ABBB"
-					item: { Count: 32b, id: "minecraft:gravel" }
+					item: { Count: 32, id: "minecraft:gravel" }
 					type: "item"
 				}
 			]
@@ -541,7 +541,7 @@
 			rewards: [{
 				id: "2F4A4A8E5A2BB294"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:iron_hoe"
 					tag: {
 						Damage: 0
@@ -636,7 +636,7 @@
 			tasks: [{
 				id: "56C619690E3132AA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "mysticalagriculture:inferium_helmet"
 					tag: {
 						Damage: 0
@@ -654,7 +654,7 @@
 			tasks: [{
 				id: "2DDC13CCE7D95D68"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "mysticalagriculture:inferium_sword"
 					tag: {
 						Damage: 0
@@ -786,7 +786,7 @@
 			tasks: [{
 				id: "3687954B4FF86BEF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "matc:inferium_crystal"
 					tag: {
 						Damage: 0
@@ -805,7 +805,7 @@
 			tasks: [{
 				count: 4L
 				id: "0C61BB543F701FFD"
-				item: { Count: 4b, id: "mysticalagriculture:prudentium_essence" }
+				item: { Count: 4, id: "mysticalagriculture:prudentium_essence" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -852,7 +852,7 @@
 				{
 					count: 80L
 					id: "200B40210D18EFD3"
-					item: { Count: 80b, id: "minecraft:soul_sand" }
+					item: { Count: 80, id: "minecraft:soul_sand" }
 					type: "item"
 				}
 			]
@@ -867,7 +867,7 @@
 				{
 					id: "7698D7D0AC699986"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:soulium_dagger"
 						tag: {
 							Damage: 0
@@ -878,7 +878,7 @@
 				{
 					count: 4L
 					id: "4F1327A4C1BEB155"
-					item: { Count: 4b, id: "mysticalagriculture:soul_jar" }
+					item: { Count: 4, id: "mysticalagriculture:soul_jar" }
 					type: "item"
 				}
 			]
@@ -974,7 +974,7 @@
 			tasks: [{
 				id: "239AEA21DFE7C583"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "matc:prudentium_crystal"
 					tag: {
 						Damage: 0
@@ -1040,7 +1040,7 @@
 			tasks: [{
 				id: "60C2626765B5A065"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "matc:tertium_crystal"
 					tag: {
 						Damage: 0
@@ -1059,7 +1059,7 @@
 			tasks: [{
 				count: 4L
 				id: "774E85EFE6C86D78"
-				item: { Count: 4b, id: "mysticalagriculture:imperium_essence" }
+				item: { Count: 4, id: "mysticalagriculture:imperium_essence" }
 				type: "item"
 			}]
 			x: 20.5d
@@ -1126,7 +1126,7 @@
 			tasks: [{
 				id: "66D58CA3D809E5AD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "matc:imperium_crystal"
 					tag: {
 						Damage: 0
@@ -1145,7 +1145,7 @@
 			tasks: [{
 				count: 4L
 				id: "5ADFE30DD46DA671"
-				item: { Count: 4b, id: "mysticalagriculture:supremium_essence" }
+				item: { Count: 4, id: "mysticalagriculture:supremium_essence" }
 				type: "item"
 			}]
 			x: 26.5d
@@ -1192,7 +1192,7 @@
 			tasks: [{
 				id: "154DB392C05CD716"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "matc:supremium_crystal"
 					tag: {
 						Damage: 0
@@ -1391,7 +1391,7 @@
 			tasks: [{
 				count: 160L
 				id: "31EC50056A47B931"
-				item: { Count: 80b, id: "farmingforblockheads:red_fertilizer" }
+				item: { Count: 80, id: "farmingforblockheads:red_fertilizer" }
 				type: "item"
 			}]
 			x: 35.5d
@@ -1416,7 +1416,7 @@
 			tasks: [{
 				id: "5D85BC8E7B0C5C17"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "mysticalagriculture:imperium_watering_can"
 					tag: {
 						Active: 0b
@@ -1507,7 +1507,7 @@
 			tasks: [{
 				id: "537358FB56C7919F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gateways:gate_pearl"
 					tag: {
 						gateway: "gateways:basic/slime"
@@ -1526,7 +1526,7 @@
 			tasks: [{
 				count: 80L
 				id: "1F0E38CC31EB587A"
-				item: { Count: 80b, id: "reliquary:fertile_lily_pad" }
+				item: { Count: 80, id: "reliquary:fertile_lily_pad" }
 				type: "item"
 			}]
 			x: 23.0d
@@ -1553,7 +1553,7 @@
 				count: 2L
 				id: "022ADBAD07D013B0"
 				item: {
-					Count: 2b
+					Count: 2
 					id: "enderchests:ender_chest"
 					tag: {
 						code: "000"
@@ -1569,7 +1569,7 @@
 			dependencies: ["595CF339A990F98B"]
 			description: ["{atm9.quest.ma.desc.buildlily}"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "redstone_arsenal:flux_hammer"
 				tag: { }
 			}
@@ -1719,7 +1719,7 @@
 				{
 					count: 3L
 					id: "53F2E84E46C1B893"
-					item: { Count: 3b, id: "thermal:machine_speed_augment" }
+					item: { Count: 3, id: "thermal:machine_speed_augment" }
 					type: "item"
 				}
 			]
@@ -1761,7 +1761,7 @@
 			dependency_requirement: "one_completed"
 			description: ["{atm9.quest.ma.desc.phytosetup}"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "redstone_arsenal:flux_hammer"
 				tag: { }
 			}
@@ -1792,7 +1792,7 @@
 				{
 					count: 3L
 					id: "0ABEF9E64818FE17"
-					item: { Count: 3b, id: "thermal_extra:machine_speed_augment_4" }
+					item: { Count: 3, id: "thermal_extra:machine_speed_augment_4" }
 					type: "item"
 				}
 				{
@@ -1890,13 +1890,13 @@
 				{
 					count: 4L
 					id: "0F7EB3CADBBA6588"
-					item: { Count: 4b, id: "mysticalagriculture:awakening_pedestal" }
+					item: { Count: 4, id: "mysticalagriculture:awakening_pedestal" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "44904D12A3572FD7"
-					item: { Count: 4b, id: "mysticalagriculture:essence_vessel" }
+					item: { Count: 4, id: "mysticalagriculture:essence_vessel" }
 					type: "item"
 				}
 			]
@@ -1918,7 +1918,7 @@
 			tasks: [{
 				count: 4L
 				id: "5D6077D8832A9E5A"
-				item: { Count: 4b, id: "mysticalagriculture:cognizant_dust" }
+				item: { Count: 4, id: "mysticalagriculture:cognizant_dust" }
 				type: "item"
 			}]
 			x: 42.0d
@@ -1956,7 +1956,7 @@
 			tasks: [{
 				id: "0873805900E5794B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:spawn_egg_configurable_bee"
 					tag: {
 						EntityTag: {

@@ -5,7 +5,7 @@
 	filename: "project_e"
 	group: "6614EE2378B8AFB9"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "projecte:philosophers_stone"
 		tag: { }
 	}
@@ -53,7 +53,7 @@
 			tasks: [{
 				id: "0DBE465D812A899B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -235,7 +235,7 @@
 			tasks: [{
 				count: 2L
 				id: "05B052E9F18574E3"
-				item: { Count: 2b, id: "botania:manasteel_ingot" }
+				item: { Count: 2, id: "botania:manasteel_ingot" }
 				type: "item"
 			}]
 			x: 10.5d
@@ -253,7 +253,7 @@
 			tasks: [{
 				count: 2L
 				id: "2C3966D57266549C"
-				item: { Count: 2b, id: "minecraft:blaze_rod" }
+				item: { Count: 2, id: "minecraft:blaze_rod" }
 				type: "item"
 			}]
 			x: 10.0d
@@ -303,7 +303,7 @@
 			tasks: [{
 				id: "051054934CEE6DFD"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: { }
 					}
@@ -500,7 +500,7 @@
 			tasks: [{
 				id: "2066BC1506B435A2"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: { }
 					}
@@ -523,7 +523,7 @@
 			tasks: [{
 				id: "63A4FCD02DA46523"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: { }
 					}
@@ -546,7 +546,7 @@
 			tasks: [{
 				id: "41D7857DA38E355D"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: { }
 					}
@@ -569,7 +569,7 @@
 			tasks: [{
 				id: "1AF9E14AC5738268"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: { }
 					}
@@ -592,7 +592,7 @@
 			tasks: [{
 				id: "6B2EBCAA6EA81850"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: { }
 					}
@@ -618,7 +618,7 @@
 			tasks: [{
 				id: "3819E9A673FABD33"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: { }
 					}
@@ -764,7 +764,7 @@
 			tasks: [{
 				count: 2L
 				id: "3E6B2649043A2E94"
-				item: { Count: 2b, id: "projecte:nova_catalyst" }
+				item: { Count: 2, id: "projecte:nova_catalyst" }
 				type: "item"
 			}]
 			x: 16.5d
@@ -835,7 +835,7 @@
 			tasks: [{
 				id: "3C80EA3AE18D383A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -877,7 +877,7 @@
 			tasks: [{
 				id: "20F3DB333AFB8D34"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1114,7 +1114,7 @@
 			tasks: [{
 				count: 3L
 				id: "634C501E17779AC2"
-				item: { Count: 3b, id: "mysticalagradditions:insanium_essence" }
+				item: { Count: 3, id: "mysticalagradditions:insanium_essence" }
 				type: "item"
 			}]
 			x: 30.0d

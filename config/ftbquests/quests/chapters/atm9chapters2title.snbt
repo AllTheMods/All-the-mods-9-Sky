@@ -102,12 +102,12 @@
 				{
 					count: 3L
 					id: "7D36C0984833BF36"
-					item: { Count: 3b, id: "thermal_extra:soul_sand_dust" }
+					item: { Count: 3, id: "thermal_extra:soul_sand_dust" }
 					type: "item"
 				}
 				{
 					id: "11E92BA3A9479831"
-					item: { Count: 2b, id: "thermal:apatite_dust" }
+					item: { Count: 2, id: "thermal:apatite_dust" }
 					type: "item"
 				}
 			]
@@ -203,7 +203,7 @@
 			tasks: [{
 				count: 64L
 				id: "258AFD84976D790A"
-				item: { Count: 64b, id: "exdeorum:dust" }
+				item: { Count: 64, id: "exdeorum:dust" }
 				type: "item"
 			}]
 			x: -4.5d
@@ -322,7 +322,7 @@
 			rewards: [{
 				id: "008B75B953F4675F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -336,7 +336,7 @@
 			tasks: [{
 				id: "2DB07B0DB3F2594D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -449,7 +449,7 @@
 			tasks: [{
 				id: "54597BD99D937D03"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -470,7 +470,7 @@
 				count: 2
 				id: "300A61200AF1B6A4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "industrialforegoing:speed_addon_2"
 					tag: {
 						TitaniumAugment: {
@@ -548,7 +548,7 @@
 			tasks: [{
 				count: 3L
 				id: "445C2138305829E2"
-				item: { Count: 3b, id: "mysticalagradditions:insanium_essence" }
+				item: { Count: 3, id: "mysticalagradditions:insanium_essence" }
 				type: "item"
 			}]
 			x: -1.5d
@@ -685,7 +685,7 @@
 			tasks: [{
 				id: "19A789295FED7DB8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [

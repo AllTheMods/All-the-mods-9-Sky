@@ -549,7 +549,7 @@
 				{
 					id: "26EF416511A49817"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_sword"
 						tag: {
 							Damage: 0
@@ -995,7 +995,7 @@
 			tasks: [{
 				entity: "minecraft:witch"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:invisibility"
@@ -1014,7 +1014,7 @@
 			dependencies: ["5AC497F76A086A5C"]
 			hide: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:invisibility"
@@ -1037,7 +1037,7 @@
 			tasks: [{
 				entity: "minecraft:witch"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:leaping"
@@ -1091,7 +1091,7 @@
 			tasks: [{
 				entity: "minecraft:witch"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:slowness"
@@ -1126,7 +1126,7 @@
 			tasks: [{
 				entity: "minecraft:witch"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:splash_potion"
 					tag: {
 						Potion: "ars_nouveau:shielding_potion_strong"

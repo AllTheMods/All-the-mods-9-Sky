@@ -12,24 +12,16 @@
 			image: "minecraft:textures/block/crafting_table_top.png"
 			rotation: 45.0d
 			width: 1.5d
-			x: -8.0d
-			y: -4.0d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			height: 1.5d
 			image: "minecraft:textures/block/crafting_table_top.png"
 			rotation: 45.0d
 			width: 1.5d
-			x: -8.0d
-			y: 1.5d
-		}
-		{
-			height: 100.0d
-			image: "atm:textures/clouds.png"
-			rotation: 0.0d
-			width: 100.0d
-			x: 0.0d
-			y: 0.0d
+			x: -11.5d
+			y: 2.0d
 		}
 		{
 			height: 5.0d
@@ -175,7 +167,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:stone_hoe"
 						tag: {
 							Damage: 0
@@ -183,7 +175,7 @@
 					}
 					id: "270877E392533EC4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:hoes"
@@ -312,7 +304,7 @@
 			tasks: [{
 				id: "22FBCA5AA2D1B8B1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "exdeorum:crook"
 					tag: {
 						Damage: 0
@@ -337,7 +329,7 @@
 			tasks: [{
 				id: "596CB9CDB4192339"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "exdeorum:stone_hammer"
 					tag: {
 						Damage: 0
@@ -1004,7 +996,7 @@
 			tasks: [{
 				id: "3C1A3BCB3654256C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "pickletweaks:flint_shears"
 					tag: {
 						Damage: 0
@@ -1117,7 +1109,7 @@
 			rewards: [{
 				id: "3E3FC3C325D91ACB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -1132,7 +1124,7 @@
 			tasks: [{
 				id: "58B859E088563425"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "exdeorum:compressed_stone_hammer"
 					tag: {
 						Damage: 0
@@ -1207,7 +1199,7 @@
 			tasks: [{
 				id: "5DF219ADC0D0011D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [

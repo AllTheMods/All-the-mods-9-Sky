@@ -8,14 +8,6 @@
 	id: "02AFCEFE247BAD9F"
 	images: [
 		{
-			height: 100.0d
-			image: "atm:textures/clouds.png"
-			rotation: 0.0d
-			width: 100.0d
-			x: 0.5d
-			y: 0.5d
-		}
-		{
 			height: 3.0d
 			image: "allthetweaks:block/atm_star_block"
 			rotation: 0.0d
@@ -191,7 +183,7 @@
 			tasks: [{
 				id: "0C24DC9A169924C6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ironjetpacks:jetpack"
 					tag: {
 						Id: "ironjetpacks:wood"
@@ -429,7 +421,7 @@
 				{
 					id: "4A9A889428332713"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:cake"
 						tag: {
 							display: {
@@ -517,7 +509,7 @@
 			tasks: [{
 				id: "3BAF0CA8558749AE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:elytra"
 					tag: {
 						Damage: 0
@@ -746,7 +738,7 @@
 			tasks: [{
 				count: 2L
 				id: "57E327B1BB4EE254"
-				item: { Count: 2b, id: "waystones:waystone" }
+				item: { Count: 2, id: "waystones:waystone" }
 				type: "item"
 			}]
 			title: "{atm9.quest.start2.teleport}"
@@ -766,7 +758,7 @@
 			tasks: [{
 				count: 4L
 				id: "01E9574C09C2912B"
-				item: { Count: 4b, id: "alltheores:steel_ingot" }
+				item: { Count: 4, id: "alltheores:steel_ingot" }
 				type: "item"
 			}]
 			x: -13.0d
@@ -786,7 +778,7 @@
 			tasks: [{
 				id: "14AD6E46522279C8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "alltheores:copper_ore_hammer"
 					tag: {
 						Damage: 0
@@ -828,7 +820,7 @@
 			tasks: [{
 				count: 8L
 				id: "0C71E3382D19E86C"
-				item: { Count: 8b, id: "mekanism:basic_universal_cable" }
+				item: { Count: 8, id: "mekanism:basic_universal_cable" }
 				type: "item"
 			}]
 			x: -11.0d
@@ -841,7 +833,7 @@
 			tasks: [{
 				id: "52C132B0EEC38381"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gateways:gate_pearl"
 					tag: {
 						gateway: "gateways:emerald_grove"
@@ -891,13 +883,13 @@
 				{
 					count: 8L
 					id: "4D73A108DD927AEC"
-					item: { Count: 8b, id: "mekanism:upgrade_speed" }
+					item: { Count: 8, id: "mekanism:upgrade_speed" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "251CD0C20169B786"
-					item: { Count: 8b, id: "mekanism:upgrade_energy" }
+					item: { Count: 8, id: "mekanism:upgrade_energy" }
 					type: "item"
 				}
 			]
@@ -1356,7 +1348,7 @@
 			tasks: [{
 				id: "416CD669ACA3ECA3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1392,7 +1384,7 @@
 			tasks: [{
 				id: "1164ED6FFA93C081"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gateways:gate_pearl"
 					tag: {
 						gateway: "gateways:basic/enderman"
@@ -1410,7 +1402,7 @@
 			tasks: [{
 				id: "6DC265F7333AD963"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gateways:gate_pearl"
 					tag: {
 						gateway: "gateways:basic/blaze"
@@ -1476,7 +1468,7 @@
 			tasks: [{
 				id: "67B1108A0D670172"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "constructionwand:infinity_wand"
 					tag: {
 						wand_options: { }
@@ -1511,7 +1503,7 @@
 			rewards: [{
 				id: "6A1B508B6EA8B239"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:strong_swiftness"
@@ -1522,7 +1514,7 @@
 			tasks: [{
 				id: "2BF262A9C61A23F0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tiab:time_in_a_bottle"
 					tag: { }
 				}

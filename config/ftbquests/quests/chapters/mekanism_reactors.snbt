@@ -472,7 +472,7 @@
 				{
 					id: "5BC88AE46F95774D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -747,7 +747,7 @@
 				{
 					id: "14A09EAF150777A3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:dusts/sulfur"
@@ -793,7 +793,7 @@
 				{
 					id: "452FBF76102210BD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:gems/fluorite"
@@ -1506,7 +1506,7 @@
 				{
 					id: "4B63979C49A34565"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mekanismgenerators:hohlraum"
 						tag: {
 							mekData: {
@@ -1833,7 +1833,7 @@
 			tasks: [{
 				id: "31A1425AA09C33F8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:dusts/lithium"
@@ -1933,7 +1933,7 @@
 				{
 					id: "4063C1B5F935A026"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -1962,7 +1962,7 @@
 				{
 					id: "2E3FF129C3668DD8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
