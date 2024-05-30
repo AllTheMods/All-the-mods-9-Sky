@@ -1,0 +1,74 @@
+
+#Server configuration settings
+[server]
+
+	#Tier: 1
+	[server.1]
+		#The number of ticks between every generation update.
+		#Range: > 1
+		interval = 40
+		#The amount of items to generate every update.
+		#Range: > 1
+		count = 4
+		#The maximum amount of items to hold in the internal buffer.
+		#Range: > 1
+		max = 64
+		#Set to true to enable automatically pushing to inventories above this block.
+		pushes = true
+
+	#Tier: 2
+	[server.2]
+		#The number of ticks between every generation update.
+		#Range: > 1
+		interval = 20
+		#The amount of items to generate every update.
+		#Range: > 1
+		count = 4
+		#The maximum amount of items to hold in the internal buffer.
+		#Range: > 1
+		max = 128
+		#Set to true to enable automatically pushing to inventories above this block.
+		pushes = true
+
+	#Tier: 3
+	[server.3]
+		#The number of ticks between every generation update.
+		#Range: > 1
+		interval = 10
+		#The amount of items to generate every update.
+		#Range: > 1
+		count = 4
+		#The maximum amount of items to hold in the internal buffer.
+		#Range: > 1
+		max = 256
+		#Set to true to enable automatically pushing to inventories above this block.
+		pushes = true
+
+	#Tier: 4
+	[server.4]
+		#The number of ticks between every generation update.
+		#Range: > 1
+		interval = 5
+		#The amount of items to generate every update.
+		#Range: > 1
+		count = 4
+		#The maximum amount of items to hold in the internal buffer.
+		#Range: > 1
+		max = 512
+		#Set to true to enable automatically pushing to inventories above this block.
+		pushes = true
+
+	#Tier: 5
+	[server.5]
+		#The number of ticks between every generation update.
+		#Range: > 1
+		interval = 1
+		#The amount of items to generate every update.
+		#Range: > 1
+		count = 4
+		#The maximum amount of items to hold in the internal buffer.
+		#Range: > 1
+		max = 1024
+		#Set to true to enable automatically pushing to inventories above this block.
+		pushes = true
+
