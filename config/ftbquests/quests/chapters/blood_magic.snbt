@@ -26,7 +26,7 @@
 				"The guidebook contains all of the information about the mod if you ever need any help."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "patchouli:guide_book"
 				tag: {
 					"patchouli:book": "bloodmagic:guide"
@@ -42,7 +42,7 @@
 				{
 					id: "5A846312CB17F978"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "bloodmagic:guide"
@@ -96,7 +96,7 @@
 				{
 					id: "49E5D4B7057851E7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bloodmagic:sacrificialdagger"
 						tag: { }
 					}
@@ -406,7 +406,7 @@
 			tasks: [{
 				id: "72A92CB3A5DA9044"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bloodmagic:soulsword"
 					tag: {
 						Damage: 0
@@ -447,7 +447,7 @@
 			tasks: [{
 				id: "1E4979886B89B2AD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bloodmagic:soulgempetty"
 					tag: { }
 				}
@@ -478,7 +478,7 @@
 			tasks: [{
 				id: "55AF014185F20835"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bloodmagic:soulgemlesser"
 					tag: { }
 				}
@@ -508,7 +508,7 @@
 			tasks: [{
 				id: "04BCD1D949FCB24D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bloodmagic:soulgemcommon"
 					tag: {
 						souls: 0.0d
@@ -540,7 +540,7 @@
 			tasks: [{
 				id: "25B30F1BCCEE920A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bloodmagic:soulgemgreater"
 					tag: {
 						souls: 0.0d
@@ -913,7 +913,7 @@
 				{
 					id: "6C20FD13B73935A7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bloodmagic:sanguinereverter"
 						tag: {
 							Damage: 0
@@ -951,7 +951,7 @@
 				{
 					id: "46C11FFD8A06B63E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bloodmagic:duskscribetool"
 						tag: {
 							Damage: 0
@@ -1003,7 +1003,7 @@
 				{
 					id: "42D29681DC076E3C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bloodmagic:basemonstersoul"
 						tag: {
 							souls: 5.0d
@@ -1249,7 +1249,7 @@
 			tasks: [{
 				id: "6168644A110A263A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bloodmagic:arcaneashes"
 					tag: {
 						Damage: 0
@@ -1529,7 +1529,7 @@
 				{
 					id: "097D8139589AF377"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bloodmagic:sigilofsuppression"
 						tag: { }
 					}
@@ -1594,7 +1594,7 @@
 			tasks: [{
 				id: "54A7E248C8A40239"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1656,7 +1656,7 @@
 			tasks: [{
 				id: "36BBEFDBCCEC8DE0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1709,7 +1709,7 @@
 				{
 					id: "26FD5D4411242B25"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bloodmagic:livinghelmet"
 						tag: {
 							Damage: 0
@@ -1720,7 +1720,7 @@
 				{
 					id: "37A82F03CFF9D25A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bloodmagic:livingplate"
 						tag: {
 							Damage: 0
@@ -1735,7 +1735,7 @@
 				{
 					id: "671E6A4CA8F8F77B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bloodmagic:livingleggings"
 						tag: {
 							Damage: 0
@@ -1746,7 +1746,7 @@
 				{
 					id: "5E9B38CD413946E0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bloodmagic:livingboots"
 						tag: {
 							Damage: 0

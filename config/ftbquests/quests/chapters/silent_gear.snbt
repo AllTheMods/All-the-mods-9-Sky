@@ -5,25 +5,14 @@
 	group: "22FB35B0FEF1343D"
 	icon: "silentgear:pickaxe_blueprint"
 	id: "1D42B373285DEF81"
-	images: [
-		{
-			height: 4.0d
-			image: "silentgear:textures/item/blueprint_package.png"
-			rotation: 0.0d
-			width: 4.0d
-			x: 4.0d
-			y: -3.0d
-		}
-		{
-			height: 0.5d
-			hover: ["Needed For The ATM Star"]
-			image: "allthetweaks:item/atm_star"
-			rotation: 0.0d
-			width: 0.5d
-			x: 11.0d
-			y: -0.75d
-		}
-	]
+	images: [{
+		height: 4.0d
+		image: "silentgear:textures/item/blueprint_package.png"
+		rotation: 0.0d
+		width: 4.0d
+		x: 4.0d
+		y: -3.0d
+	}]
 	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -61,7 +50,7 @@
 				{
 					id: "3B33A6AFBCBD24E2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "silentgear:blueprint_package"
 						tag: {
 							silentlib.LootContainer: {
@@ -812,7 +801,7 @@
 			tasks: [{
 				id: "2226DC0E053E8631"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "silentgear:blueprint_book"
 					tag: {
 						Inventory: { }
@@ -1202,7 +1191,7 @@
 			tasks: [{
 				id: "123B475266C035CC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1265,7 +1254,7 @@
 			tasks: [{
 				id: "2ADE9DBE9448AC7F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "silentgear:pickaxe"
 					tag: {
 						Damage: 0
@@ -1354,7 +1343,7 @@
 			dependencies: ["52EB902E76829EBB"]
 			description: ["{atm9.quest.SG.desc.template}"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "silentgear:pickaxe_head"
 				tag: {
 					Damage: 0
@@ -1392,7 +1381,7 @@
 				{
 					id: "46CF8A25D6B2713A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "silentgear:pickaxe_head"
 						tag: {
 							Damage: 0

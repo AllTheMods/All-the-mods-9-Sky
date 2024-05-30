@@ -151,4 +151,26 @@ ServerEvents.recipes(event => {
     .input('minecraft:stone')
     .input('minecraft:sugar')
     .mobOutput('minecraft:bee')
+
+    //slime
+    event.recipes.summoningrituals
+    .altar('minecraft:milk_bucket')
+    .input('#forge:slimeballs')
+    .input('minecraft:stone')
+    .input('#forge:slimeballs')
+    .input('minecraft:dirt')
+    .input('#forge:slimeballs')
+    .input('minecraft:stone')
+    .input('#forge:slimeballs')
+    .mobOutput('minecraft:slime')
+
+    //piglich
+    event.recipes.summoningrituals
+    .altar('enderio:frank_n_zombie')
+    .input('allthemodium:unobtainium_ingot')
+    .input('forcecraft:treasure_core')
+    .input('allthemodium:unobtainium_ingot')
+    .input('projecte:red_matter')
+    .input('allthemodium:unobtainium_ingot')
+    .mobOutput('allthemodium:piglich')
 })

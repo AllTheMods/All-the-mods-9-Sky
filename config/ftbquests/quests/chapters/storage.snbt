@@ -43,7 +43,7 @@
 			tasks: [{
 				id: "77A9435B6739348E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:iron_chest"
 					tag: {
 						woodType: "oak"
@@ -80,7 +80,7 @@
 			tasks: [{
 				id: "0427B441A750316F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:gold_chest"
 					tag: {
 						woodType: "oak"
@@ -117,7 +117,7 @@
 			tasks: [{
 				id: "00ED02255105A973"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:diamond_chest"
 					tag: {
 						woodType: "oak"
@@ -155,7 +155,7 @@
 			tasks: [{
 				id: "34B6EB0B801E4743"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:netherite_chest"
 					tag: {
 						woodType: "oak"
@@ -192,7 +192,7 @@
 			tasks: [{
 				id: "5241AA0EF3C2EA94"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:chest"
 					tag: {
 						woodType: "oak"
@@ -225,7 +225,7 @@
 			tasks: [{
 				id: "79EC3CF180A5A940"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "functionalstorage:drawer"
@@ -309,7 +309,7 @@
 				{
 					id: "1C3AB68685A3FD62"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "enderchests:ender_bag"
 						tag: {
 							code: "000"
@@ -322,7 +322,7 @@
 				{
 					id: "43FE4B654819B6C4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "endertanks:ender_bucket"
 						tag: {
 							code: "000"
@@ -347,7 +347,7 @@
 				{
 					id: "4E5DB7E53717FD3C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "enderchests:ender_chest"
 						tag: {
 							code: "000"
@@ -359,7 +359,7 @@
 				{
 					id: "322CF20C9C5FB841"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "endertanks:ender_tank"
 						tag: {
 							code: "000"
@@ -432,44 +432,6 @@
 			y: -3.5d
 		}
 		{
-			hide_dependency_lines: true
-			id: "3D5852E6D0ADF651"
-			rewards: [
-				{
-					count: 4
-					id: "685834F0A29F6B78"
-					item: "minecraft:ender_pearl"
-					type: "item"
-				}
-				{
-					id: "36EA7EC9235E0AEA"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7BD9855705A23AEE"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-			]
-			tasks: [
-				{
-					id: "61F1446D2A460827"
-					item: "dimstorage:dimensional_chest"
-					type: "item"
-				}
-				{
-					id: "17FE9F196E4C6B44"
-					item: "dimstorage:dimensional_tank"
-					type: "item"
-				}
-			]
-			title: "{atm9.quest.storage.dim}"
-			x: 6.5d
-			y: -1.5d
-		}
-		{
 			dependencies: ["072FBEB0F6F1BC48"]
 			description: ["{atm9.quest.storage.desc.ender}"]
 			id: "1A4B1CA7EC15348E"
@@ -526,7 +488,7 @@
 		{
 			description: ["{atm9.quest.storage.desc.sophisticated}"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "sophisticatedstorage:iron_chest"
 				tag: {
 					woodType: "oak"
@@ -1578,7 +1540,7 @@
 			tasks: [{
 				id: "62C6F14FE6A82305"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "functionalstorage:linking_tool"
 					tag: {
 						Action: "ADD"
@@ -1769,7 +1731,7 @@
 			tasks: [{
 				id: "2F275302DA90D4E4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "functionalstorage:configuration_tool"
 					tag: {
 						Mode: "LOCKING"
@@ -1784,7 +1746,7 @@
 		{
 			description: ["{atm9.quest.storage.desc.NBT}"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{

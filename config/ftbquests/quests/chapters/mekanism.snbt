@@ -734,7 +734,7 @@
 				icon: "alltheores:steel_ingot"
 				id: "6B88F1F9DF50C1E4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:ingots/steel"
@@ -1682,7 +1682,7 @@
 				{
 					id: "3B5A283601BEADA0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:dusts/sulfur"
@@ -1724,7 +1724,7 @@
 			tasks: [{
 				id: "6E75525A5D88EF23"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -2369,7 +2369,7 @@
 				"This mod features Hydrogen-Powered Jetpacks, a mini-robotic friend, reactors, a Digital Miner to automate mining, and much, much more."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "mekanism:creative_energy_cube"
 				tag: {
 					mekData: {

@@ -8,19 +8,11 @@
 	id: "02AFCEFE247BAD9F"
 	images: [
 		{
-			height: 100.0d
-			image: "atm:textures/clouds.png"
-			rotation: 0.0d
-			width: 100.0d
-			x: -3.0d
-			y: 8.5d
-		}
-		{
 			height: 3.0d
 			image: "allthetweaks:block/atm_star_block"
 			rotation: 0.0d
 			width: 3.0d
-			x: 16.0d
+			x: 18.0d
 			y: 0.5d
 		}
 		{
@@ -47,24 +39,6 @@
 			width: 6.0d
 			x: -10.0d
 			y: 7.5d
-		}
-		{
-			height: 3.0d
-			image: "atm:textures/questpics/sieving.png"
-			order: 1
-			rotation: 0.0d
-			width: 6.48d
-			x: 5.0d
-			y: -3.5d
-		}
-		{
-			color: 0
-			height: 3.0d
-			image: "atm:textures/questpics/sieving.png"
-			rotation: 0.0d
-			width: 6.48d
-			x: 5.08d
-			y: -3.42d
 		}
 		{
 			height: 1.0d
@@ -209,7 +183,7 @@
 			tasks: [{
 				id: "0C24DC9A169924C6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ironjetpacks:jetpack"
 					tag: {
 						Id: "ironjetpacks:wood"
@@ -447,7 +421,7 @@
 				{
 					id: "4A9A889428332713"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:cake"
 						tag: {
 							display: {
@@ -535,7 +509,7 @@
 			tasks: [{
 				id: "3BAF0CA8558749AE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:elytra"
 					tag: {
 						Damage: 0
@@ -673,7 +647,11 @@
 		}
 		{
 			dependencies: ["1D6B927E4BF4F18B"]
-			description: ["{atm9.quest.start2.desc.sieve}"]
+			description: [
+				"{atm9.quest.start2.desc.sieve}\\"
+				""
+				"{image:atm:textures/questpics/autosieveexample.png width:220 height:100 align:1}"
+			]
 			id: "2D9F5CEB4AC30A39"
 			rewards: [{
 				id: "38B33853BAA93236"
@@ -760,7 +738,7 @@
 			tasks: [{
 				count: 2L
 				id: "57E327B1BB4EE254"
-				item: { Count: 2b, id: "waystones:waystone" }
+				item: { Count: 2, id: "waystones:waystone" }
 				type: "item"
 			}]
 			title: "{atm9.quest.start2.teleport}"
@@ -780,7 +758,7 @@
 			tasks: [{
 				count: 4L
 				id: "01E9574C09C2912B"
-				item: { Count: 4b, id: "alltheores:steel_ingot" }
+				item: { Count: 4, id: "alltheores:steel_ingot" }
 				type: "item"
 			}]
 			x: -13.0d
@@ -800,7 +778,7 @@
 			tasks: [{
 				id: "14AD6E46522279C8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "alltheores:copper_ore_hammer"
 					tag: {
 						Damage: 0
@@ -842,7 +820,7 @@
 			tasks: [{
 				count: 8L
 				id: "0C71E3382D19E86C"
-				item: { Count: 8b, id: "mekanism:basic_universal_cable" }
+				item: { Count: 8, id: "mekanism:basic_universal_cable" }
 				type: "item"
 			}]
 			x: -11.0d
@@ -855,7 +833,7 @@
 			tasks: [{
 				id: "52C132B0EEC38381"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gateways:gate_pearl"
 					tag: {
 						gateway: "gateways:emerald_grove"
@@ -905,13 +883,13 @@
 				{
 					count: 8L
 					id: "4D73A108DD927AEC"
-					item: { Count: 8b, id: "mekanism:upgrade_speed" }
+					item: { Count: 8, id: "mekanism:upgrade_speed" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "251CD0C20169B786"
-					item: { Count: 8b, id: "mekanism:upgrade_energy" }
+					item: { Count: 8, id: "mekanism:upgrade_energy" }
 					type: "item"
 				}
 			]
@@ -1370,7 +1348,7 @@
 			tasks: [{
 				id: "416CD669ACA3ECA3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1406,7 +1384,7 @@
 			tasks: [{
 				id: "1164ED6FFA93C081"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gateways:gate_pearl"
 					tag: {
 						gateway: "gateways:basic/enderman"
@@ -1424,7 +1402,7 @@
 			tasks: [{
 				id: "6DC265F7333AD963"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gateways:gate_pearl"
 					tag: {
 						gateway: "gateways:basic/blaze"
@@ -1436,7 +1414,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["69AFCFCA443735A5"]
+			dependencies: ["4867F74C2ACD535E"]
 			description: ["{atm9.quest.start2.desc.netherstar}"]
 			id: "5020F092319157B7"
 			rewards: [
@@ -1457,7 +1435,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.start2.netherstar}"
-			x: 12.0d
+			x: 14.0d
 			y: 0.5d
 		}
 		{
@@ -1474,7 +1452,7 @@
 				item: "mysticalagriculture:nether_star_seeds"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 14.0d
 			y: -0.5d
 		}
 		{
@@ -1490,7 +1468,7 @@
 			tasks: [{
 				id: "67B1108A0D670172"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "constructionwand:infinity_wand"
 					tag: {
 						wand_options: { }
@@ -1498,7 +1476,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
+			x: 13.5d
 			y: 2.5d
 		}
 		{
@@ -1515,24 +1493,35 @@
 				item: "angelring:angel_ring"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 14.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["5020F092319157B7"]
 			description: ["{atm9.quest.start2.desc.tiab}"]
 			id: "7438B09498907DE0"
+			rewards: [{
+				id: "6A1B508B6EA8B239"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_swiftness"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2BF262A9C61A23F0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tiab:time_in_a_bottle"
 					tag: { }
 				}
 				type: "item"
 			}]
 			title: "{atm9.quest.start2.tiab}"
-			x: 14.0d
+			x: 16.0d
 			y: 0.5d
 		}
 		{
@@ -1552,6 +1541,23 @@
 				type: "item"
 			}]
 			x: -21.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["69AFCFCA443735A5"]
+			description: ["{atm9.quest.start2.desc.Fisher}"]
+			id: "4867F74C2ACD535E"
+			rewards: [{
+				id: "02F698B742932AB3"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44785C9145BBD46A"
+				item: "industrialforegoing:marine_fisher"
+				type: "item"
+			}]
+			x: 12.0d
 			y: 0.5d
 		}
 	]

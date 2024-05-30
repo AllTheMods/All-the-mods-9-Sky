@@ -22,7 +22,7 @@
 				{
 					id: "009C332DA938512C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "thermal:guidebook"
@@ -690,7 +690,7 @@
 			tasks: [{
 				id: "64186CC4330A70D8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "thermal:energy_cell"
 					tag: {
 						BlockEntityTag: {
@@ -734,7 +734,7 @@
 			tasks: [{
 				id: "694DB377E094D28E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "thermal:fluid_cell"
 					tag: {
 						BlockEntityTag: {
@@ -795,7 +795,7 @@
 			tasks: [{
 				id: "2F608F433D9A3363"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -855,7 +855,7 @@
 			tasks: [{
 				id: "7B5C9FA866C0588A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -914,7 +914,7 @@
 			tasks: [{
 				id: "775A7E11D20688CD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -966,7 +966,7 @@
 			tasks: [{
 				id: "5DFD1C0334466FF2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1049,7 +1049,7 @@
 			tasks: [{
 				id: "46E665F97A2BECB6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1104,7 +1104,7 @@
 			tasks: [{
 				id: "1E0593F1AA073CFD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1159,7 +1159,7 @@
 			tasks: [{
 				id: "497485048E0AD20D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1216,7 +1216,7 @@
 			tasks: [{
 				id: "6C996D5E63879519"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1287,7 +1287,7 @@
 			tasks: [{
 				id: "3861678346D376C1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1342,7 +1342,7 @@
 			tasks: [{
 				id: "3D6A9C7EE22C2ADF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1390,7 +1390,7 @@
 			tasks: [{
 				id: "705AE21001A4E9C7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1717,7 +1717,7 @@
 			tasks: [{
 				id: "38EE8C011F7E3FEC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "thermal:flux_drill"
 					tag: { }
 				}
@@ -1748,7 +1748,7 @@
 			tasks: [{
 				id: "504ABB4FCF4AA14E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "thermal:flux_saw"
 					tag: { }
 				}

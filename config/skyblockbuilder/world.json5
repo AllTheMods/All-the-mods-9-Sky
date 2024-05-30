@@ -40,6 +40,9 @@
   // Can be used to generate them in the middle of .mca files
   "offset": 0,
   
+  // Prevent scheduled ticks after generating the island
+  "preventScheduledTicks": true,
+  
   // Sea level in world [default: 63]
   "seaHeight": 63,
   

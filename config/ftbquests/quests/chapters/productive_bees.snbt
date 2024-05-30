@@ -4,7 +4,7 @@
 	filename: "productive_bees"
 	group: "6614EE2378B8AFB9"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "patchouli:guide_book"
 		tag: {
 			"patchouli:book": "productivebees:guide"
@@ -35,15 +35,6 @@
 			width: 2.0d
 			x: 5.0d
 			y: -7.0d
-		}
-		{
-			height: 0.3d
-			hover: ["Needed for the ATM Star"]
-			image: "allthetweaks:item/atm_star"
-			rotation: 0.0d
-			width: 0.3d
-			x: -7.99d
-			y: 3.0d
 		}
 	]
 	order_index: 3
@@ -188,7 +179,7 @@
 				icon: "productivebees:advanced_oak_beehive"
 				id: "0EF1CA8DED2FF38C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "productivebees:advanced_beehives"
@@ -544,7 +535,7 @@
 			subtitle: "Ashy Mining + Crystalline"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -554,7 +545,7 @@
 				}
 				id: "6D4F62833424ADC0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -576,7 +567,7 @@
 			description: ["The Ashy Mining Bee is spawned from a Dirt, Gravel, or Sand Nest."]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:stone_pickaxe"
 				tag: {
 					Damage: 0
@@ -615,7 +606,7 @@
 			subtitle: "Spawns from a Quartz Nest in the Nether"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -625,7 +616,7 @@
 				}
 				id: "6E21D8349EEB2A11"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -656,7 +647,7 @@
 			subtitle: "Crystalline + Ashy Mining"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -666,7 +657,7 @@
 				}
 				id: "263F0E416A8E1110"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -697,7 +688,7 @@
 			subtitle: "Ashy Mining + Crystalline"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -707,7 +698,7 @@
 				}
 				id: "17C7DC04BC22C0D7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -738,7 +729,7 @@
 			subtitle: "Crystalline + Ashy Mining"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -748,7 +739,7 @@
 				}
 				id: "79712C13C6597E82"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -780,7 +771,7 @@
 			subtitle: "Crystalline + Mason"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -790,7 +781,7 @@
 				}
 				id: "59665D8476656B9F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -882,7 +873,7 @@
 			tasks: [{
 				id: "10D83EFF8DF8830B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:nest_locator"
 					tag: { }
 				}
@@ -1168,7 +1159,7 @@
 			tasks: [{
 				id: "65D52E6A67DD11EB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1206,7 +1197,7 @@
 					count: 2
 					id: "7A4D2E2C591FB3CD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1225,7 +1216,7 @@
 			subtitle: "Ender + Lapis"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -1235,7 +1226,7 @@
 				}
 				id: "4EF5B261BAD2AC7D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -1267,7 +1258,7 @@
 					count: 2
 					id: "1ED82242D8118B20"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1281,7 +1272,7 @@
 			subtitle: "Redstone + Blue Banded"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -1291,7 +1282,7 @@
 				}
 				id: "429FA8057B666565"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -1319,7 +1310,7 @@
 					count: 2
 					id: "0E473480AE6A71DF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1338,7 +1329,7 @@
 			subtitle: "Glowing + Chocolate Mining"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -1348,7 +1339,7 @@
 				}
 				id: "345245C32DB7B4D4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -1376,7 +1367,7 @@
 					count: 2
 					id: "565C007060C1F9EC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1395,7 +1386,7 @@
 			subtitle: "&9Requires End Stone Nest"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -1405,7 +1396,7 @@
 				}
 				id: "43515B26807F9E01"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -1433,7 +1424,7 @@
 					count: 2
 					id: "33CF41454AF3192E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1451,7 +1442,7 @@
 			]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -1461,7 +1452,7 @@
 				}
 				id: "17B0E19125FCFA1A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -1530,7 +1521,7 @@
 					count: 2
 					id: "50B0611117EE75AB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1549,7 +1540,7 @@
 			subtitle: "Diamond Bee + Slimy Bee"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -1559,7 +1550,7 @@
 				}
 				id: "7B7C1C5BFEC92058"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -1586,7 +1577,7 @@
 					count: 2
 					id: "6A5C1F186FAFFADA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1605,7 +1596,7 @@
 			subtitle: "&9Requires Slimy Nest"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -1615,7 +1606,7 @@
 				}
 				id: "5E017E6B7E3F56B7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -1641,7 +1632,7 @@
 					count: 2
 					id: "6B10EC7376089305"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1660,7 +1651,7 @@
 			subtitle: "Feed Diamond Bee a Block of Netherite"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -1670,7 +1661,7 @@
 				}
 				id: "065E5450AC87F1D5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -1696,7 +1687,7 @@
 					count: 2
 					id: "2A44E3F699DB9247"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1715,7 +1706,7 @@
 			subtitle: "Feed a Skeletal Bee a Withered Rose"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -1725,7 +1716,7 @@
 				}
 				id: "5BFAA4BB6651F71A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -1755,7 +1746,7 @@
 					count: 2
 					id: "52BF6B50DD93E0C7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1780,7 +1771,7 @@
 			subtitle: "Ancient + Withered"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -1790,7 +1781,7 @@
 				}
 				id: "5851FC52DDFE7826"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -1818,7 +1809,7 @@
 					count: 2
 					id: "7A6D1C4C8A908A18"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1837,7 +1828,7 @@
 			subtitle: "Spawned with empty Beehives in the Dark"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -1847,7 +1838,7 @@
 				}
 				id: "4203F7ED807F3D30"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -1875,7 +1866,7 @@
 					count: 2
 					id: "52BFF2CF6ECE1B6B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1894,7 +1885,7 @@
 			subtitle: "&9Requires Obsidian Nest"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -1904,7 +1895,7 @@
 				}
 				id: "2CC38211F4C54ED8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -1934,7 +1925,7 @@
 					count: 2
 					id: "7E3C72B5CB548A0D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1959,7 +1950,7 @@
 			subtitle: "Ancient + Draconic"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -1969,7 +1960,7 @@
 				}
 				id: "21F18F576B555114"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -2003,7 +1994,7 @@
 					count: 2
 					id: "252172AFDCBF882B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -2028,7 +2019,7 @@
 			subtitle: "Allthemodium + Vibranium"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -2038,7 +2029,7 @@
 				}
 				id: "271BDC9E7B37BCB5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -2069,7 +2060,7 @@
 			subtitle: "Iron + Sweat"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -2079,7 +2070,7 @@
 				}
 				id: "181135E3A83C5B9E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -2109,7 +2100,7 @@
 			subtitle: "Gold + Silver"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -2119,7 +2110,7 @@
 				}
 				id: "299DE26FF7293F34"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -2149,7 +2140,7 @@
 			subtitle: "Gold + Ender"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -2159,7 +2150,7 @@
 				}
 				id: "726FF2C87E9E972F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -2189,7 +2180,7 @@
 			subtitle: "Iron + Blue Banded"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -2199,7 +2190,7 @@
 				}
 				id: "7830C98BD32DB5F2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -2230,7 +2221,7 @@
 			subtitle: "Magmatic + Nomad"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -2240,7 +2231,7 @@
 				}
 				id: "6B7DB7E426D328BC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -2270,7 +2261,7 @@
 			subtitle: "Copper + Zinc"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -2280,7 +2271,7 @@
 				}
 				id: "79AEDC66EB312BCA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -2346,7 +2337,7 @@
 			]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:wooden_sword"
 				tag: {
 					Damage: 0
@@ -2461,7 +2452,7 @@
 			subtitle: "Spawns in empty Advanced Beehives in a dark place"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -2471,7 +2462,7 @@
 				}
 				id: "71E81E13769F2FF0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -2501,7 +2492,7 @@
 			subtitle: "Copper + Tin"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -2511,7 +2502,7 @@
 				}
 				id: "55F718D796CEB1B1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -2541,7 +2532,7 @@
 			subtitle: "Magmatic + Leafcutter"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -2551,7 +2542,7 @@
 				}
 				id: "3EDE79B7957D45AF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -2582,7 +2573,7 @@
 			subtitle: "Copper + Nickel"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -2592,7 +2583,7 @@
 				}
 				id: "4FCEB24FC83D22A9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -2662,7 +2653,7 @@
 			subtitle: "Lead + Diamond/Platinum"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -2672,7 +2663,7 @@
 				}
 				id: "208145EA6533CDDB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -2702,7 +2693,7 @@
 			subtitle: "Lapis + Emerald"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -2712,7 +2703,7 @@
 				}
 				id: "1E28BFC0AB5CF2FE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -2733,7 +2724,7 @@
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:iron_hoe"
 				tag: {
 					Damage: 0
@@ -2768,7 +2759,7 @@
 			subtitle: "Ghostly + Skeletal/Zombee"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -2778,7 +2769,7 @@
 				}
 				id: "6D15CFE8E1CF6D25"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -2808,7 +2799,7 @@
 			subtitle: "Iron + Nickel"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -2818,7 +2809,7 @@
 				}
 				id: "0C0D6A9D01FED776"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -2868,7 +2859,7 @@
 			subtitle: "Silver + Tin"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -2878,7 +2869,7 @@
 				}
 				id: "4DA6445DB5F3B85E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -2908,7 +2899,7 @@
 			subtitle: "Crystalline + Neon Cuckoo"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -2918,7 +2909,7 @@
 				}
 				id: "22F5DD43B8A7C452"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -2948,7 +2939,7 @@
 			subtitle: "Iron + Sweat"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -2958,7 +2949,7 @@
 				}
 				id: "05E237133AC3F46B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -2988,7 +2979,7 @@
 			subtitle: "Magmatic + Sweat"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -2998,7 +2989,7 @@
 				}
 				id: "50823C029014781A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -3028,7 +3019,7 @@
 			subtitle: "Iron + Neon Cuckoo"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -3038,7 +3029,7 @@
 				}
 				id: "4471A530B55D4140"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -3088,7 +3079,7 @@
 			subtitle: "CreeBee + Iron"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -3098,7 +3089,7 @@
 				}
 				id: "5C358DFF9CD0D1D9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -3148,7 +3139,7 @@
 			subtitle: "Silver + Copper"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -3158,7 +3149,7 @@
 				}
 				id: "5B5DBA0A7644A551"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -3188,7 +3179,7 @@
 			subtitle: "Resin + Reed"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -3198,7 +3189,7 @@
 				}
 				id: "5DE213018E8C64A7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -3228,7 +3219,7 @@
 			subtitle: "Iron + Mason"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -3238,7 +3229,7 @@
 				}
 				id: "47BAD4AA76F9CF82"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -3268,7 +3259,7 @@
 			subtitle: "Iron + Coal"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -3278,7 +3269,7 @@
 				}
 				id: "01F96E4C1D881AD1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -3328,7 +3319,7 @@
 			subtitle: "Spawned using a Nether Brick Nest in the Nether"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -3338,7 +3329,7 @@
 				}
 				id: "3202568944BCBF77"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -3377,7 +3368,7 @@
 				{
 					id: "4ADD8F6F75D38DE6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "productivebees:treat_on_a_stick"
 						tag: {
 							Damage: 0
@@ -3428,7 +3419,7 @@
 			subtitle: "Feed a Diamond Bee Amethyst"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -3438,7 +3429,7 @@
 				}
 				id: "0F2BCC279B5731AB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -3468,7 +3459,7 @@
 			subtitle: "Feed a Shroombee a Brown Mushroom!"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -3478,7 +3469,7 @@
 				}
 				id: "30FE30A7FA067459"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -3554,7 +3545,7 @@
 			subtitle: "Feed a Shroombee a Crimson Fungus!"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -3564,7 +3555,7 @@
 				}
 				id: "3B35F86B42989063"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -3594,7 +3585,7 @@
 			subtitle: "Feed a Spatial Bee a Fluix Pearl!"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -3604,7 +3595,7 @@
 				}
 				id: "669BC6911F43DB26"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -3634,7 +3625,7 @@
 			subtitle: "Feed a Sweat Bee Ice!"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -3644,7 +3635,7 @@
 				}
 				id: "7CD2C8E1A5F4B3D2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -3695,7 +3686,7 @@
 			subtitle: "Feed a Diamond Bee Peridot!"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -3705,7 +3696,7 @@
 				}
 				id: "3DE2AD0FFF364185"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -3735,7 +3726,7 @@
 			subtitle: "Feed a Crystalline Bee a Prosperity Block!"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -3745,7 +3736,7 @@
 				}
 				id: "544D288D9F81C6D8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -3775,7 +3766,7 @@
 			subtitle: "Feed a Shroombee a Red Mushroom!"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -3785,7 +3776,7 @@
 				}
 				id: "39899761508BFACE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -3815,7 +3806,7 @@
 			subtitle: "Feed a Diamond Bee a Ruby!"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -3825,7 +3816,7 @@
 				}
 				id: "2EA19C4E46380CDA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -3855,7 +3846,7 @@
 			subtitle: "Feed a Diamond Bee a Sapphire!"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -3865,7 +3856,7 @@
 				}
 				id: "46C7D666D3A4A3D9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -3895,7 +3886,7 @@
 			subtitle: "Feed a Ghostly Bee a Soulium Dagger!"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -3905,7 +3896,7 @@
 				}
 				id: "70E72633E49DFF88"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -3935,7 +3926,7 @@
 			subtitle: "Feed a Shroombee Warped Fungus!"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
@@ -3945,7 +3936,7 @@
 				}
 				id: "094F0FCF9A64EE00"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:strong_nbt"
 					tag: {
 						value: {
@@ -4036,7 +4027,7 @@
 				icon: "productivebees:expansion_box_oak"
 				id: "5860D1574D18BA1A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "productivebees:expansion_boxes"
@@ -4090,7 +4081,7 @@
 			tasks: [{
 				id: "7CB163461B2D1723"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "productivebees:guide"

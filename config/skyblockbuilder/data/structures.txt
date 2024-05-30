@@ -33,8 +33,13 @@ minecraft:ruined_portal_swamp
 minecraft:shipwreck
 minecraft:shipwreck_beached
 ars_nouveau:stalker_wilden_den
+ars_elemental:starbuncle_shrine
 minecraft:stronghold
 minecraft:swamp_hut
+apotheosis:tower_leaf
+apotheosis:tower_main
+apotheosis:tower_sand
+apotheosis:tower_spruce
 minecraft:trail_ruins
 minecraft:village_desert
 minecraft:village_plains

@@ -350,7 +350,7 @@
 			tasks: [{
 				count: 20L
 				id: "6DDA2C1230BBB173"
-				item: { Count: 8b, id: "minecraft:soul_sand" }
+				item: { Count: 8, id: "minecraft:soul_sand" }
 				type: "item"
 			}]
 			x: -12.5d
@@ -432,7 +432,7 @@
 				{
 					count: 8L
 					id: "04DE1F990F95E617"
-					item: { Count: 8b, id: "mysticalagriculture:infusion_pedestal" }
+					item: { Count: 8, id: "mysticalagriculture:infusion_pedestal" }
 					type: "item"
 				}
 			]
@@ -470,7 +470,7 @@
 			tasks: [{
 				count: 8L
 				id: "385507A587953936"
-				item: { Count: 8b, id: "minecraft:bone_meal" }
+				item: { Count: 8, id: "minecraft:bone_meal" }
 				type: "item"
 			}]
 			x: -8.5d
@@ -489,7 +489,7 @@
 				{
 					count: 64L
 					id: "0CF5C9F1B460ABBB"
-					item: { Count: 32b, id: "minecraft:gravel" }
+					item: { Count: 32, id: "minecraft:gravel" }
 					type: "item"
 				}
 			]
@@ -541,7 +541,7 @@
 			rewards: [{
 				id: "2F4A4A8E5A2BB294"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:iron_hoe"
 					tag: {
 						Damage: 0
@@ -636,7 +636,7 @@
 			tasks: [{
 				id: "56C619690E3132AA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "mysticalagriculture:inferium_helmet"
 					tag: {
 						Damage: 0
@@ -654,7 +654,7 @@
 			tasks: [{
 				id: "2DDC13CCE7D95D68"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "mysticalagriculture:inferium_sword"
 					tag: {
 						Damage: 0
@@ -786,7 +786,7 @@
 			tasks: [{
 				id: "3687954B4FF86BEF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "matc:inferium_crystal"
 					tag: {
 						Damage: 0
@@ -805,7 +805,7 @@
 			tasks: [{
 				count: 4L
 				id: "0C61BB543F701FFD"
-				item: { Count: 4b, id: "mysticalagriculture:prudentium_essence" }
+				item: { Count: 4, id: "mysticalagriculture:prudentium_essence" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -852,7 +852,7 @@
 				{
 					count: 80L
 					id: "200B40210D18EFD3"
-					item: { Count: 80b, id: "minecraft:soul_sand" }
+					item: { Count: 80, id: "minecraft:soul_sand" }
 					type: "item"
 				}
 			]
@@ -867,7 +867,7 @@
 				{
 					id: "7698D7D0AC699986"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mysticalagriculture:soulium_dagger"
 						tag: {
 							Damage: 0
@@ -878,7 +878,7 @@
 				{
 					count: 4L
 					id: "4F1327A4C1BEB155"
-					item: { Count: 4b, id: "mysticalagriculture:soul_jar" }
+					item: { Count: 4, id: "mysticalagriculture:soul_jar" }
 					type: "item"
 				}
 			]
@@ -974,7 +974,7 @@
 			tasks: [{
 				id: "239AEA21DFE7C583"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "matc:prudentium_crystal"
 					tag: {
 						Damage: 0
@@ -1040,7 +1040,7 @@
 			tasks: [{
 				id: "60C2626765B5A065"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "matc:tertium_crystal"
 					tag: {
 						Damage: 0
@@ -1059,7 +1059,7 @@
 			tasks: [{
 				count: 4L
 				id: "774E85EFE6C86D78"
-				item: { Count: 4b, id: "mysticalagriculture:imperium_essence" }
+				item: { Count: 4, id: "mysticalagriculture:imperium_essence" }
 				type: "item"
 			}]
 			x: 20.5d
@@ -1126,7 +1126,7 @@
 			tasks: [{
 				id: "66D58CA3D809E5AD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "matc:imperium_crystal"
 					tag: {
 						Damage: 0
@@ -1145,7 +1145,7 @@
 			tasks: [{
 				count: 4L
 				id: "5ADFE30DD46DA671"
-				item: { Count: 4b, id: "mysticalagriculture:supremium_essence" }
+				item: { Count: 4, id: "mysticalagriculture:supremium_essence" }
 				type: "item"
 			}]
 			x: 26.5d
@@ -1192,7 +1192,7 @@
 			tasks: [{
 				id: "154DB392C05CD716"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "matc:supremium_crystal"
 					tag: {
 						Damage: 0
@@ -1252,6 +1252,7 @@
 		}
 		{
 			dependencies: ["3B38DBA1AF635005"]
+			description: ["{atm9.quest.ma.desc.crux}"]
 			id: "24ACE0FC29377675"
 			tasks: [{
 				id: "60E1208CFB8BB6B0"
@@ -1263,6 +1264,7 @@
 		}
 		{
 			dependencies: ["3908EE8B8883BF2A"]
+			description: ["{atm9.quest.ma.desc.crux}"]
 			id: "71AD5CE00F79A277"
 			tasks: [{
 				id: "51A1A2AA22915FD0"
@@ -1274,6 +1276,7 @@
 		}
 		{
 			dependencies: ["637BBC78E212EAC0"]
+			description: ["{atm9.quest.ma.desc.crux}"]
 			id: "258FB25D3664689A"
 			tasks: [{
 				id: "1ACAB28F9EFD7A0F"
@@ -1289,6 +1292,7 @@
 				"24ACE0FC29377675"
 				"71AD5CE00F79A277"
 			]
+			description: ["{atm9.quest.ma.desc.FarmingT6}"]
 			icon: "minecraft:farmland"
 			id: "5B54A5EA4EB5CAF6"
 			shape: "gear"
@@ -1297,11 +1301,13 @@
 				id: "3ED863320CEA1EF3"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.ma.FarmingT6}"
 			x: 32.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["041F4DE6C607E21F"]
+			description: ["{atm9.quest.ma.desc.mastercrys}"]
 			id: "219A5BDA5A01A420"
 			rewards: [{
 				id: "62F6725112D10E87"
@@ -1320,7 +1326,13 @@
 		}
 		{
 			dependencies: ["219A5BDA5A01A420"]
+			description: ["{atm9.quest.ma.desc.craftert3}"]
 			id: "298BDB0A45C27263"
+			rewards: [{
+				id: "1084AD8A0E4C8078"
+				item: "mysticalagriculture:supremium_essence"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -1333,7 +1345,7 @@
 		}
 		{
 			dependencies: ["041F4DE6C607E21F"]
-			description: ["Options for fast farms above and below (DESC WIP)"]
+			description: ["{atm9.quest.ma.desc.opt}"]
 			id: "31D7D45E2F1E5D82"
 			tasks: [{
 				id: "7D9437255807AA6D"
@@ -1344,6 +1356,7 @@
 		}
 		{
 			dependencies: ["31D7D45E2F1E5D82"]
+			description: ["{atm9.quest.ma.desc.phytopath}"]
 			icon: "thermal:machine_insolator"
 			id: "3A04875A8F470627"
 			shape: "pentagon"
@@ -1352,11 +1365,13 @@
 				id: "139D93555374509C"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.ma.phytofarm}"
 			x: 39.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["31D7D45E2F1E5D82"]
+			description: ["{atm9.quest.ma.desc.lilypadpath}"]
 			icon: "mysticalagriculture:supremium_farmland"
 			id: "22F85A11B575C9F8"
 			shape: "pentagon"
@@ -1365,16 +1380,18 @@
 				id: "5A5911248552A569"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.ma.lilyfarm}"
 			x: 39.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["22F85A11B575C9F8"]
+			description: ["{atm9.quest.ma.desc.redfert}"]
 			id: "538EC52BE3A13FFA"
 			tasks: [{
 				count: 160L
 				id: "31EC50056A47B931"
-				item: { Count: 80b, id: "farmingforblockheads:red_fertilizer" }
+				item: { Count: 80, id: "farmingforblockheads:red_fertilizer" }
 				type: "item"
 			}]
 			x: 35.5d
@@ -1382,6 +1399,7 @@
 		}
 		{
 			dependencies: ["3A04875A8F470627"]
+			description: ["{atm9.quest.ma.desc.phyto}"]
 			id: "2C1C3D6508D87B60"
 			tasks: [{
 				id: "22FC55637E6F2359"
@@ -1393,11 +1411,12 @@
 		}
 		{
 			dependencies: ["538EC52BE3A13FFA"]
+			description: ["{atm9.quest.ma.desc.inferiumcan}"]
 			id: "79213A589A69CB4F"
 			tasks: [{
 				id: "5D85BC8E7B0C5C17"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "mysticalagriculture:imperium_watering_can"
 					tag: {
 						Active: 0b
@@ -1411,6 +1430,7 @@
 		}
 		{
 			dependencies: ["79213A589A69CB4F"]
+			description: ["{atm9.quest.ma.desc.modrouter}"]
 			id: "30C76D2356402B4D"
 			tasks: [{
 				count: 3L
@@ -1435,6 +1455,7 @@
 		}
 		{
 			dependencies: ["30C76D2356402B4D"]
+			description: ["{atm9.quest.ma.desc.securityup}"]
 			id: "6600FFD0F1A7E143"
 			tasks: [{
 				count: 3L
@@ -1481,11 +1502,12 @@
 		}
 		{
 			dependencies: ["07C2DF7B6148A198"]
+			description: ["{atm9.quest.ma.desc.slimegate}"]
 			id: "3BFABBB43335D586"
 			tasks: [{
 				id: "537358FB56C7919F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gateways:gate_pearl"
 					tag: {
 						gateway: "gateways:basic/slime"
@@ -1498,12 +1520,13 @@
 		}
 		{
 			dependencies: ["13A881C06E3519BA"]
+			description: ["{atm9.quest.ma.desc.lilypads}"]
 			id: "15EF0E0D1030FD80"
 			size: 2.0d
 			tasks: [{
 				count: 80L
 				id: "1F0E38CC31EB587A"
-				item: { Count: 80b, id: "reliquary:fertile_lily_pad" }
+				item: { Count: 80, id: "reliquary:fertile_lily_pad" }
 				type: "item"
 			}]
 			x: 23.0d
@@ -1530,7 +1553,7 @@
 				count: 2L
 				id: "022ADBAD07D013B0"
 				item: {
-					Count: 2b
+					Count: 2
 					id: "enderchests:ender_chest"
 					tag: {
 						code: "000"
@@ -1544,31 +1567,31 @@
 		}
 		{
 			dependencies: ["595CF339A990F98B"]
-			description: ["https://www.youtube.com/watch?v=iLSlFHweJsI"]
+			description: ["{atm9.quest.ma.desc.buildlily}"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "redstone_arsenal:flux_hammer"
 				tag: { }
 			}
 			id: "2948E2ADC773C508"
 			rewards: [{
-				command: "/tellraw @p {\"text\":\"Click here to go to the tutorial for AlfredGG!\",\"color\":\"red\",\"underlined\":\"false\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=iLSlFHweJsI\"}}]"
 				exclude_from_claim_all: true
-				id: "0B819CACAA38ACBF"
-				title: "AlfredGG Tutorial"
-				type: "command"
+				id: "207C14F9FFB54D4D"
+				table_id: 7175652334583451871L
+				type: "loot"
 			}]
 			size: 4.0d
 			tasks: [{
-				id: "1387373E0B158C74"
-				title: "Mystical Agriculture tutorial"
+				id: "746691E472569661"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.ma.build}"
 			x: 16.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["2C1C3D6508D87B60"]
+			description: ["{atm9.quest.ma.desc.pulv}"]
 			id: "2857F2DB4E116B38"
 			tasks: [{
 				id: "329A438EA1B620DF"
@@ -1580,6 +1603,7 @@
 		}
 		{
 			dependencies: ["2857F2DB4E116B38"]
+			description: ["{atm9.quest.ma.desc.pulverizethis}"]
 			id: "68E23DF926FECCDF"
 			tasks: [{
 				id: "224AFFE2C9E2DCF3"
@@ -1591,6 +1615,7 @@
 		}
 		{
 			dependencies: ["2857F2DB4E116B38"]
+			description: ["{atm9.quest.ma.desc.pulverizethis}"]
 			id: "6AD4E3F410FD259D"
 			tasks: [{
 				id: "3930C52298AD888A"
@@ -1613,6 +1638,7 @@
 		}
 		{
 			dependencies: ["68E23DF926FECCDF"]
+			description: ["{atm9.quest.ma.desc.pulverizethis}"]
 			id: "16EB16E5597D0B92"
 			tasks: [{
 				id: "4594A46B4FFB9EC8"
@@ -1624,6 +1650,7 @@
 		}
 		{
 			dependencies: ["16EB16E5597D0B92"]
+			description: ["{atm9.quest.ma.desc.niterd}"]
 			id: "387CA6CAF1FBDFD9"
 			tasks: [{
 				id: "4652BCC79E29125E"
@@ -1634,6 +1661,7 @@
 			y: 15.0d
 		}
 		{
+			description: ["{atm9.quest.ma.desc.sand}"]
 			id: "22F7391954E92AE6"
 			tasks: [
 				{
@@ -1667,6 +1695,7 @@
 				"504763273F270850"
 				"6D55AC9D291EB5D6"
 			]
+			description: ["{atm9.quest.ma.desc.phytogro}"]
 			id: "22959F35C12B382E"
 			size: 2.0d
 			tasks: [{
@@ -1679,6 +1708,7 @@
 		}
 		{
 			dependencies: ["1A316D2A48F88B50"]
+			description: ["{atm9.quest.ma.desc.Upgrades}"]
 			id: "348EAF1F97CA1521"
 			tasks: [
 				{
@@ -1689,15 +1719,17 @@
 				{
 					count: 3L
 					id: "53F2E84E46C1B893"
-					item: { Count: 3b, id: "thermal:machine_speed_augment" }
+					item: { Count: 3, id: "thermal:machine_speed_augment" }
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.ma.Upgrades}"
 			x: 19.0d
 			y: 15.0d
 		}
 		{
 			dependencies: ["348EAF1F97CA1521"]
+			description: ["{atm9.quest.ma.desc.ae2}"]
 			id: "2A10F69D0FD26556"
 			tasks: [{
 				id: "25263C6A7C796823"
@@ -1708,19 +1740,10 @@
 			y: 16.5d
 		}
 		{
-			dependencies: ["348EAF1F97CA1521"]
-			id: "4CB2D4DA9ECF9610"
-			tasks: [{
-				id: "43629ED44DF9D8D0"
-				item: "xnet:controller"
-				type: "item"
-			}]
-			x: 17.0d
-			y: 13.5d
-		}
-		{
 			dependencies: ["22959F35C12B382E"]
+			description: ["{atm9.quest.ma.desc.sink}"]
 			id: "1A316D2A48F88B50"
+			subtitle: "{atm9.quest.ma.subt.sink}"
 			tasks: [{
 				id: "234591E7CDCB5117"
 				item: "cookingforblockheads:sink"
@@ -1733,11 +1756,12 @@
 			dependencies: [
 				"2A10F69D0FD26556"
 				"55F776454E551CB4"
-				"4CB2D4DA9ECF9610"
+				"3BE7ED5DB135C598"
 			]
 			dependency_requirement: "one_completed"
+			description: ["{atm9.quest.ma.desc.phytosetup}"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "redstone_arsenal:flux_hammer"
 				tag: { }
 			}
@@ -1747,20 +1771,28 @@
 				id: "097374E903B9339F"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.ma.build}"
 			x: 12.0d
 			y: 15.0d
 		}
 		{
 			dependencies: ["6DE9C2F5854AB764"]
+			description: ["{atm9.quest.ma.desc.UltimatePhyto}"]
 			icon: "thermal:machine_insolator"
 			id: "1E242092907DA500"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C6FEEB7FE159CA2"
+				table_id: 5196609362437981520L
+				type: "random"
+			}]
 			shape: "octagon"
 			size: 5.0d
 			tasks: [
 				{
 					count: 3L
 					id: "0ABEF9E64818FE17"
-					item: { Count: 3b, id: "thermal_extra:machine_speed_augment_4" }
+					item: { Count: 3, id: "thermal_extra:machine_speed_augment_4" }
 					type: "item"
 				}
 				{
@@ -1769,6 +1801,7 @@
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.ma.subt.phytoultra}"
 			x: 5.0d
 			y: 15.0d
 		}
@@ -1785,6 +1818,7 @@
 		}
 		{
 			dependencies: ["387CA6CAF1FBDFD9"]
+			description: ["{atm9.quest.ma.desc.saltpseeds}"]
 			id: "1414277E03E877EE"
 			tasks: [{
 				id: "6C94EF4E1AA9F987"
@@ -1807,10 +1841,12 @@
 		}
 		{
 			dependencies: ["348EAF1F97CA1521"]
+			description: ["{atm9.quest.ma.desc.cyclical}"]
 			id: "55F776454E551CB4"
 			optional: true
 			shape: "rsquare"
 			size: 1.25d
+			subtitle: "{atm9.quest.ma.subt.lazy}"
 			tasks: [{
 				id: "312EBCB3CF90846E"
 				item: "thermal:machine_cycle_augment"
@@ -1836,7 +1872,13 @@
 		}
 		{
 			dependencies: ["24C2026F428DE0A3"]
+			description: ["{atm9.quest.ma.desc.awakeningaltar}"]
 			id: "5D327A886551A6B4"
+			rewards: [{
+				id: "6DA83C750E03FF9A"
+				item: "mysticalagradditions:insanium_essence"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [
@@ -1848,13 +1890,13 @@
 				{
 					count: 4L
 					id: "0F7EB3CADBBA6588"
-					item: { Count: 4b, id: "mysticalagriculture:awakening_pedestal" }
+					item: { Count: 4, id: "mysticalagriculture:awakening_pedestal" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "44904D12A3572FD7"
-					item: { Count: 4b, id: "mysticalagriculture:essence_vessel" }
+					item: { Count: 4, id: "mysticalagriculture:essence_vessel" }
 					type: "item"
 				}
 			]
@@ -1863,13 +1905,20 @@
 		}
 		{
 			dependencies: ["31D7D45E2F1E5D82"]
+			description: ["{atm9.quest.ma.desc.cognizant}"]
 			id: "24C2026F428DE0A3"
+			rewards: [{
+				count: 2
+				id: "2C35F4D333E0EA27"
+				item: "mysticalagriculture:cognizant_dust"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				count: 4L
 				id: "5D6077D8832A9E5A"
-				item: { Count: 4b, id: "mysticalagriculture:cognizant_dust" }
+				item: { Count: 4, id: "mysticalagriculture:cognizant_dust" }
 				type: "item"
 			}]
 			x: 42.0d
@@ -1877,7 +1926,13 @@
 		}
 		{
 			dependencies: ["5D327A886551A6B4"]
+			description: ["{atm9.quest.ma.desc.cognizantdust}"]
 			id: "6ECA35873EFEDB35"
+			rewards: [{
+				id: "4BE1905214695659"
+				item: "mysticalagriculture:supremium_block"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 2.5d
 			tasks: [{
@@ -1890,11 +1945,18 @@
 		}
 		{
 			dependencies: ["6ECA35873EFEDB35"]
+			description: ["{atm9.quest.ma.desc.asbee}"]
 			id: "2A7192CD8D9830DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "404AFBEA64266A46"
+				table_id: 5196609362437981520L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0873805900E5794B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "productivebees:spawn_egg_configurable_bee"
 					tag: {
 						EntityTag: {
@@ -1910,6 +1972,12 @@
 		{
 			description: ["{atm9.quest.ma.desc.SupremiumGear}"]
 			id: "15B60B1325E1DBBB"
+			rewards: [{
+				count: 4
+				id: "50DCFB412BF6302A"
+				item: "mysticalagriculture:supremium_ingot"
+				type: "item"
+			}]
 			subtitle: "{atm9.quest.ma.subt.SupremiumGear}"
 			tasks: [{
 				id: "59B5CBC7CC4058EE"
@@ -1978,6 +2046,7 @@
 		}
 		{
 			dependencies: ["79213A589A69CB4F"]
+			description: ["{atm9.quest.ma.desc.simchamber}"]
 			id: "07C2DF7B6148A198"
 			tasks: [{
 				id: "6098B235F382C6C4"
@@ -1989,6 +2058,7 @@
 		}
 		{
 			dependencies: ["3BFABBB43335D586"]
+			description: ["{atm9.quest.ma.desc.modelframe}"]
 			id: "13A881C06E3519BA"
 			tasks: [{
 				count: 3L
@@ -1998,6 +2068,18 @@
 			}]
 			x: 25.5d
 			y: -10.0d
+		}
+		{
+			dependencies: ["348EAF1F97CA1521"]
+			description: ["{atm9.quest.ma.desc.sfm}"]
+			id: "3BE7ED5DB135C598"
+			tasks: [{
+				id: "22030FECF2CB1D4C"
+				item: "sfm:manager"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 13.5d
 		}
 	]
 	title: "Mystical Agriculture"

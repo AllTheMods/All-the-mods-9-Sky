@@ -178,7 +178,7 @@
 				icon: "minecraft:white_wool"
 				id: "7F08D4E77359BF4A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:wool"
@@ -202,7 +202,7 @@
 			tasks: [{
 				id: "3A9869856B3E9D54"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:shears"
 					tag: {
 						Damage: 0
@@ -385,7 +385,7 @@
 		{
 			description: [""]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:wooden_hoe"
 				tag: {
 					Damage: 0

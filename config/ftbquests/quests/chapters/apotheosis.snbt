@@ -40,7 +40,7 @@
 			tasks: [{
 				id: "1CC9EA4FD2BF3DB0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:bookshelves"
@@ -521,7 +521,7 @@
 			tasks: [{
 				id: "5A01C349DB7F396C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "curios:charm"
@@ -623,7 +623,7 @@
 			rewards: [{
 				id: "2651F1CE1044AC2B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -650,7 +650,7 @@
 			rewards: [{
 				id: "60BFDFEDBA2E930C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -676,7 +676,7 @@
 			rewards: [{
 				id: "54020DF00D36132E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{

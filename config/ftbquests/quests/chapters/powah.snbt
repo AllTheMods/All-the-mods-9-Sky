@@ -313,24 +313,6 @@
 			x: 9.5d
 			y: 18.5d
 		}
-		{
-			height: 0.3d
-			hover: ["Needed for the ATM Star"]
-			image: "allthetweaks:item/atm_star"
-			rotation: 0.0d
-			width: 0.3d
-			x: -5.5d
-			y: 18.1d
-		}
-		{
-			height: 0.3d
-			hover: ["Needed for the ATM Star"]
-			image: "allthetweaks:item/atm_star"
-			rotation: 0.0d
-			width: 0.3d
-			x: -6.5d
-			y: 18.1d
-		}
 	]
 	order_index: 5
 	progression_mode: "flexible"
@@ -353,7 +335,7 @@
 				{
 					id: "0A20CAF72F0E3E11"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "powah:wrench"
 						tag: {
 							PowahWrenchNBT: { }
@@ -453,7 +435,7 @@
 				{
 					id: "36E378BF22554E0A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -475,7 +457,7 @@
 					count: 3L
 					id: "17F07D6404668DE6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -774,7 +756,7 @@
 				{
 					id: "1F929F1DF23460AE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -1075,7 +1057,7 @@
 			tasks: [{
 				id: "1D02EF09FDC433ED"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:battery_starter"
 					tag: { }
 				}
@@ -1187,7 +1169,7 @@
 			tasks: [{
 				id: "64BF6A3821454638"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:battery_basic"
 					tag: { }
 				}
@@ -1550,7 +1532,7 @@
 			tasks: [{
 				id: "4FB89D5C29752C55"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:battery_hardened"
 					tag: { }
 				}
@@ -1826,7 +1808,7 @@
 			tasks: [{
 				id: "022DA80D4ABA1C00"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:battery_blazing"
 					tag: { }
 				}
@@ -2255,7 +2237,7 @@
 			tasks: [{
 				id: "732BEE5909694731"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:battery_niotic"
 					tag: { }
 				}
@@ -2561,7 +2543,7 @@
 			tasks: [{
 				id: "064EE05D48DAFC60"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:battery_spirited"
 					tag: { }
 				}
@@ -2973,7 +2955,7 @@
 			tasks: [{
 				id: "053841A23C52379F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "powah:battery_nitro"
 					tag: { }
 				}
