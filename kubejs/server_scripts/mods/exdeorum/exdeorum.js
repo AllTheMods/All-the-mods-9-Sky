@@ -167,19 +167,19 @@ addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_dark', 2, 0.05)
 
 //Diamond adjustment
 event.remove({output: 'minecraft:diamond', type: 'exdeorum:sieve', mod: 'exdeorum'});
-addSifting(Gravel, FlintMesh, 'minecraft:diamond', 1, 0.04)
-addSifting(Gravel, IronMesh, 'minecraft:diamond', 1, 0.05)
-addSifting(Gravel, GoldMesh, 'minecraft:diamond', 1, 0.06)
-addSifting(Gravel, DiamondMesh, 'minecraft:diamond', 1, 0.07)
-addSifting(Gravel, NetheriteMesh, 'minecraft:diamond', 1, 0.09)
+addSifting(Gravel, FlintMesh, 'minecraft:diamond', 1, 0.01)
+addSifting(Gravel, IronMesh, 'minecraft:diamond', 1, 0.04)
+addSifting(Gravel, GoldMesh, 'minecraft:diamond', 1, 0.05)
+addSifting(Gravel, DiamondMesh, 'minecraft:diamond', 1, 0.06)
+addSifting(Gravel, NetheriteMesh, 'minecraft:diamond', 1, 0.07)
 
 //Emerald Adjustment
 event.remove({output: 'minecraft:emerald', type: 'exdeorum:sieve', mod: 'exdeorum'});
-addSifting(Gravel, FlintMesh, 'minecraft:emerald', 1, 0.03)
-addSifting(Gravel, IronMesh, 'minecraft:emerald', 1, 0.04)
-addSifting(Gravel, GoldMesh, 'minecraft:emerald', 1, 0.05)
-addSifting(Gravel, DiamondMesh, 'minecraft:emerald', 1, 0.06)
-addSifting(Gravel, NetheriteMesh, 'minecraft:emerald', 1, 0.08)
+addSifting(Gravel, FlintMesh, 'minecraft:emerald', 1, 0.02)
+addSifting(Gravel, IronMesh, 'minecraft:emerald', 1, 0.03)
+addSifting(Gravel, GoldMesh, 'minecraft:emerald', 1, 0.04)
+addSifting(Gravel, DiamondMesh, 'minecraft:emerald', 1, 0.05)
+addSifting(Gravel, NetheriteMesh, 'minecraft:emerald', 1, 0.07)
 
 // misc missing ones
 addSifting(SoulSand, IronMesh, 'mysticalagriculture:prosperity_shard', 1, 0.2)
