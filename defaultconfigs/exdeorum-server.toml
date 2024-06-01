@@ -11,9 +11,9 @@
 	#Range: 0 ~ 6
 	simultaneous_sieve_range = 6
 	#Whether machines/fake players can interact with the Sieve. Keep in mind, the intended automation method is to use the Mechanical Sieve.
-	automated_sieves = false
+	automated_sieves = true
 	#Whether machines/fake players that interact with the Sieve can sieve in a 3x3 or larger. This option does nothing if automated_sieves is set to false.
-	nerf_automated_sieves = true
+	nerf_automated_sieves = false
 	#The progress to increment by each tick for barrel composting.
 	#Range: 0.0 ~ 1.0
 	barrel_progress_step = 0.004
