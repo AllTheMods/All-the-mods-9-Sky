@@ -125,21 +125,6 @@ addSifting(Dust, IronMesh, 'forbidden_arcanus:arcane_crystal', 1, 0.05)
 addSifting(Dust, DiamondMesh, 'forbidden_arcanus:arcane_crystal', 1, 0.06)
 addSifting(Dust, NetheriteMesh, 'forbidden_arcanus:arcane_crystal', 1, 0.08)
 
-// misc missing ones
-addSifting(SoulSand, IronMesh, 'mysticalagriculture:prosperity_shard', 1, 0.2)
-addSifting(SoulSand, DiamondMesh, 'mysticalagriculture:prosperity_shard', 1, 0.2)
-addSifting(SoulSand, GoldMesh, 'mysticalagriculture:prosperity_shard', 1, 0.2)
-addSifting(SoulSand, NetheriteMesh, 'mysticalagriculture:prosperity_shard', 1, 0.2)
-addSifting(Moss, IronMesh, 'integrateddynamics:menril_sapling', 1, 0.1)
-addSifting(Moss, GoldMesh, 'integrateddynamics:menril_sapling', 1, 0.1)
-addSifting(Moss, DiamondMesh, 'integrateddynamics:menril_sapling', 1, 0.1)
-addSifting(Moss, NetheriteMesh, 'integrateddynamics:menril_sapling', 1, 0.1)
-addSifting(Moss, IronMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
-addSifting(Moss, GoldMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
-addSifting(Moss, DiamondMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
-addSifting(Moss, NetheriteMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
-addSifting(Blackstone, NetheriteMesh, 'occultism:raw_iesnium', 1, 0.05)
-
 //xycraft from dust
 addSifting(Dust, FlintMesh, 'xycraft_world:xychorium_gem_blue', 1, 0.05)
 addSifting(Dust, FlintMesh, 'xycraft_world:xychorium_gem_red', 1, 0.05)
@@ -197,6 +182,11 @@ addSifting(Moss, NetheriteMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
 addSifting(Blackstone, NetheriteMesh, 'occultism:raw_iesnium', 1, 0.05)
 addSifting(SoulSand, DiamondMesh, 'mysticalagriculture:soulium_dust', 1, 0.05)
 addSifting(SoulSand, NetheriteMesh, 'mysticalagriculture:soulium_dust', 1, 0.1)
+addSifting(Moss, FlintMesh, 'ars_elemental:yellow_archwood_sapling', 1, 0.1)
+addSifting(Moss, IronMesh, 'ars_elemental:yellow_archwood_sapling', 1, 0.1)
+addSifting(Moss, GoldMesh, 'ars_elemental:yellow_archwood_sapling', 1, 0.1)
+addSifting(Moss, DiamondMesh, 'ars_elemental:yellow_archwood_sapling', 1, 0.1)
+addSifting(Moss, NetheriteMesh, 'ars_elemental:yellow_archwood_sapling', 1, 0.1)
 
 //Crucible heating blocks
 addHeatSource(`botania:blaze_block`, 8)
