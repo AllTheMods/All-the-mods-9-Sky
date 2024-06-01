@@ -15,8 +15,8 @@ BlockEvents.leftClicked('minecraft:obsidian', event => {
     if (player.isFake()) return
     let base = block.offset(0, -2, 0)
     let pos = block.pos
-    // if (base.id != 'allthecompressed:obsidian_block_1x') return
-    if (base.id != 'minecraft:crying_obsidian') return
+    if (base.id != 'allthecompressed:obsidian_block_1x') return
+    //if (base.id != 'minecraft:crying_obsidian') return
     let fluxCount = 0
     level.getEntitiesWithin(AABB.ofBlock(pos.below()))
         .filter(entity => entity.type == 'minecraft:item' && entity.item.id == 'minecraft:redstone')
@@ -32,7 +32,7 @@ BlockEvents.leftClicked('minecraft:obsidian', event => {
             }
             return 0
         }).sum()
-    console.log(fluxCount)
+    //console.log(fluxCount)
     if (fluxCount == 0) return
     let fluxOut = Item.of('fluxnetworks:flux_dust').withCount(fluxCount)
     let itemEntity = block.createEntity('minecraft:item')
