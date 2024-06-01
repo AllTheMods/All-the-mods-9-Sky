@@ -3,6 +3,6 @@ const $CreatingFluxRecipeCategory = Java.loadClass('sonar.fluxnetworks.client.je
 
 JEIEvents.addItems(event => {
   let RecipeManager = global.jeiRuntime.getRecipeManager()
-  let customFlux = new $CreatingFluxRecipe('minecraft:crying_obsidian', 'minecraft:obsidian', 'minecraft:redstone', 'fluxnetworks:flux_dust')
+  let customFlux = new $CreatingFluxRecipe('allthecompressed:obsidan_block_1x', 'minecraft:obsidian', 'minecraft:redstone', 'fluxnetworks:flux_dust')
   RecipeManager.addRecipes($CreatingFluxRecipeCategory.RECIPE_TYPE, [customFlux])
 })
