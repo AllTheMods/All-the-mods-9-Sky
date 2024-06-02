@@ -9,7 +9,12 @@ ServerEvents.recipes( event => {
 			B: 'minecraft:glass_bottle'
 	  }) 
 	
-	  //Teleport pad
+	  // Teleport pad
 	  event.remove({id: 'allthemodium:teleport_pad'})
 	  event.remove({id: /exdeorum:.+?_compressed_sieve/})
+
+	  // Nuggetless Gears
+	  event.remove({ id: 'industrialforegoing:iron_gear' })
+	  event.remove({ id: 'industrialforegoing:gold_gear' })
+	  event.remove({ id: 'industrialforegoing:diamond_gear' })
 	})

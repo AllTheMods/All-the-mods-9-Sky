@@ -94,3 +94,16 @@ ServerEvents.tags('worldgen/biome', event => {
     'allthemodium:the_other', 'allthemodium:soul_sand_valley', 'allthemodium:warped_forest',
     'allthemodium:desert_hills', 'allthemodium:desert', 'allthemodium:crimson_forest', 'allthemodium:basalt_deltas'])
 })
+
+ServerEvents.tags('item', event => {
+  event.add('atm9sky:sievable',[
+    'minecraft:moss_block',
+    'exdeorum:crushed_deepslate',
+    'exdeorum:crushed_end_stone',
+    'minecraft:red_sand',
+    'minecraft:dirt',
+    'minecraft:soul_sand',
+    'exdeorum:crushed_blackstone',
+    'exdeorum:crushed_netherrack'
+  ])
+})
