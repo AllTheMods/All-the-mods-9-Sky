@@ -1,0 +1,122 @@
+{
+  "spawn": {
+    "name": "default",
+    "desc": "",
+    "file": "default.nbt",
+    "spawns": "exported_at_2024-05-27T04:06:14+0100"
+  },
+  "spawns": {
+    "default": {
+      "south": [
+        [
+          6,
+          3,
+          5
+        ]
+      ],
+      "east": [],
+      "west": [],
+      "north": []
+    },
+    "exported_at_2024-05-27T02:47:49+0100": {
+      "north": [
+        [
+          21,
+          5,
+          23
+        ]
+      ],
+      "east": [],
+      "south": [],
+      "west": []
+    },
+    "exported_at_2024-05-27T03:35:19+0100": {
+      "north": [],
+      "east": [],
+      "south": [
+        [
+          3,
+          11,
+          3
+        ]
+      ],
+      "west": []
+    },
+    "exported_at_2024-05-27T03:39:44+0100": {
+      "north": [],
+      "east": [],
+      "south": [],
+      "west": [
+        [
+          5,
+          4,
+          4
+        ]
+      ]
+    },
+    "exported_at_2024-05-27T03:51:35+0100": {
+      "north": [
+        [
+          5,
+          3,
+          5
+        ]
+      ],
+      "east": [],
+      "south": [],
+      "west": []
+    },
+    "exported_at_2024-05-27T04:06:14+0100": {
+      "north": [],
+      "east": [
+        [
+          6,
+          4,
+          7
+        ]
+      ],
+      "south": [],
+      "west": []
+    },
+    "exported_at_2024-05-30T15:52:41+0100": {
+      "north": [
+        [
+          26,
+          7,
+          27
+        ]
+      ],
+      "east": [],
+      "south": [],
+      "west": []
+    }
+  },
+  "spreads": {
+    "default": []
+  },
+  "surroundingBlocks": {
+    "default": []
+  },
+  "templates": [
+    {
+      "name": "cozy_cottage",
+      "file": "cozy_cottage.nbt",
+      "spawns": "exported_at_2024-05-30T15:52:41+0100"
+    },
+    {
+      "name": "Anarchy",
+      "file": "anarchy.nbt",
+      "spawns": "exported_at_2024-05-27T03:35:19+0100"
+    },
+    {
+      "name": "Classical",
+      "file": "classical.nbt",
+      "spawns": "exported_at_2024-05-27T03:39:44+0100"
+    },
+    {
+      "name": "The Direwolf",
+      "file": "thedirewolf.nbt",
+      "spawns": "exported_at_2024-05-27T03:51:35+0100"
+    }
+  ]
+}

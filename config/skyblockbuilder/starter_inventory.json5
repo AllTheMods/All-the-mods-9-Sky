@@ -1,0 +1,31 @@
+// See here for more information:
+// https://melanx.github.io/SkyblockBuilder/1.20.x/config/inventory/#starting-inventory
+{
+  "items": [
+    {
+      "item": "minecraft:wooden_sword",
+      "nbt": "{Damage:0,display:{Name:'{\"text\":\"Oly\\'s Sword of the skies\"}'}}"
+    },
+    {
+      "item": "minecraft:wooden_axe",
+      "nbt": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],display:{Name:'{\"text\":\"And My Axe!\"}'}}"
+    },
+    {
+      "item": "minecraft:torch",
+      "count": 8
+    },
+    {
+      "item": "minecraft:cooked_beef",
+      "count": 16
+    },
+    {
+      "item": "minecraft:oak_sapling",
+      "count": 8
+    },
+    {
+      "item": "minecraft:wooden_hoe",
+      "nbt": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:efficiency\",lvl:3s}],display:{Name:'{\"text\":\"Bill\\'s Hoe\"}'}}"
+    }
+  ],
+  "curios_items": []
+}

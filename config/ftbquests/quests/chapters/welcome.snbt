@@ -1,0 +1,73 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: "minecraft:diamond"
+	id: "69DBD1BDA43872D9"
+	images: [
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/arrow_left.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.1020408163265287d
+			y: -0.4999999999999929d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/arrow_collapsed.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.2040816326530646d
+			y: -0.4999999999999929d
+		}
+		{
+			height: 100.0d
+			image: "atm:textures/clouds.png"
+			rotation: 0.0d
+			width: 150.0d
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			height: 10.0d
+			image: "atm:textures/logosmall.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: -12.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["{atm9.quest.welcome.desc.welcome}"]
+		icon: "allthecompressed:atm_star_block_1x"
+		id: "23BDBBD3001F9774"
+		optional: true
+		rewards: [
+			{
+				id: "41B357A352E97746"
+				item: "ftbquests:book"
+				type: "item"
+			}
+			{
+				id: "36E0A3FA2E45757D"
+				type: "xp"
+				xp: 10
+			}
+		]
+		shape: "hexagon"
+		size: 2.0d
+		tasks: [{
+			dimension: "minecraft:overworld"
+			id: "46E0A1A561E38460"
+			type: "dimension"
+		}]
+		title: "{atm9.quest.welcome.welcome}"
+		x: 0.0d
+		y: -8.0d
+	}]
+	title: "{atm9.chapters.1.title}"
+}

@@ -1,0 +1,25 @@
+{
+  "End": {
+  
+    // Should end generate as in default world type? [default: false]
+    "Default": true,
+    
+    // Should the main island be generated as normal? [default: true]
+    "mainIsland": true
+  },
+  
+  "Nether": {
+  
+    // Should nether generate as in default world type? [default: false]
+    "Default": false,
+    
+    // File name in template directory of a valid template containing a nether portal
+    "netherPortalStructure": null
+  },
+  
+  "Overworld": {
+  
+    // Should overworld generate as in default world type? [default: false]
+    "Default": false
+  }
+}

@@ -1,0 +1,51 @@
+
+#Server configuration for Ex Deorum
+[server]
+	#Whether players in a void world start out with a torch or not.
+	starting_torch = true
+	#Whether players in a void world start out with a full wooden watering can.
+	starting_watering_can = true
+	#Whether players can use multiple sieves in a 3x3 or larger area at once.
+	simultaneous_sieve_usage = true
+	#The range from which simultaneous sieve usage can reach. 1 means a maximum of 3x3 sieves at once, 2 means a maximum of 5x5, 3 means maximum of 7x7 simultaneous sieves, and so on.
+	#Range: 0 ~ 6
+	simultaneous_sieve_range = 6
+	#Whether machines/fake players can interact with the Sieve. Keep in mind, the intended automation method is to use the Mechanical Sieve.
+	automated_sieves = true
+	#Whether machines/fake players that interact with the Sieve can sieve in a 3x3 or larger. This option does nothing if automated_sieves is set to false.
+	nerf_automated_sieves = false
+	#The progress to increment by each tick for barrel composting.
+	#Range: 0.0 ~ 1.0
+	barrel_progress_step = 0.004
+	#Whether Witch Water forms dirt when water flows into it, allowing for a dirt version of a cobblestone generator.
+	witch_water_dirt_generator = false
+	#Whether Witch Water forms netherrack when lava flows into it, allowing for a netherrack version of a cobblestone generator.
+	witch_water_netherrack_generator = true
+	#The ID of the default tree feature to use when generating a spawn island (or when useBiomeAppropriateTree is true and the biome has no tree set). By default, minecraft:oak_tree_bees_005 is used.
+	default_spawn_tree_feature = "minecraft:oak_tree_bees_005"
+	#Whether the Spawn Tree in the void world changes based on the biome it's in. If false, Oak Tree is always used.
+	use_biome_appropriate_tree = false
+	#Whether to restrict Moss Block sieve drops to 1-2 items when sieving. May be useful when lots of mods add saplings and the sieve drops become spammy.
+	limit_moss_sieve_drops = true
+	#Whether glass bottles can be used to transfer water between water crucibles and barrels.
+	allow_water_bottle_transfer = true
+	#Whether the entity conversion mechanic of Witch Water is enabled. If enabled, when an entity steps into Witch Water, the following conversions may happen: Villager -> Zombie Villager, Cleric Villager -> Witch, Skeleton -> Wither Skeleton, Creeper -> Charged Creeper, Spider -> Cave Spider, Pig & Piglin -> Zombified Piglin, Squid -> Ghast, Mooshroom -> Brown Mooshroom, Axolotl -> Blue Axolotl, Rabbit -> Killer Rabbit, Pufferfish -> Guardian, Horse -> Skeleton/Zombie Horse
+	allow_witch_water_entity_conversion = true
+	#The maximum amount of FE the mechanical sieve can have in its energy storage.
+	#Range: > 0
+	mechanical_sieve_energy_storage = 40000
+	#The amount of FE/t a tick consumed by the mechanical sieve when sifting a block.
+	#Range: > 0
+	mechanical_sieve_energy_consumption = 40
+	#The maximum amount of FE the mechanical hammer can have in its energy storage.
+	#Range: > 0
+	mechanical_hammer_energy_storage = 40000
+	#The amount of FE/t a tick consumed by the mechanical hammer when crushing a block.
+	#Range: > 0
+	mechanical_hammer_energy_consumption = 20
+	#The minimum number of ticks a player must wait between two sifting operations. Only affects sifting by hand. 0 means no limit.
+	#Range: > 0
+	sieve_interval = 1
+	#Whether players can use multiple compressed sieves in a 3x3 or larger area at once.
+	simultaneous_compressed_sieve_usage = false
+

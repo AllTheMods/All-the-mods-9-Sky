@@ -1,0 +1,59 @@
+{
+  // A list of biomes for each dimension.
+  // You can not use this for the end dimension. The end dimension will always have it's five biomes.
+  // Overworld has all oceans by default because animals cannot spawn in these biomes.
+  // These are resource lists. See https://moddingx.org/libx/org/moddingx/libx/util/data/ResourceList.html#use_resource_lists_in_configs
+  "biomes": {
+    "minecraft:overworld": {
+      "allow_list": true,
+      "elements": [
+        "minecraft:plains"
+      ]
+    },
+    "minecraft:the_nether": {
+      "allow_list": false,
+      "elements": []
+    }
+  },
+  
+  "carvers": {
+    "minecraft:overworld": {
+      "allow_list": true,
+      "elements": []
+    },
+    "minecraft:the_nether": {
+      "allow_list": true,
+      "elements": []
+    },
+    "minecraft:the_end": {
+      "allow_list": true,
+      "elements": []
+    }
+  },
+  
+  // Distance between islands in overworld [default: 8192]
+  // nether the distance is 1/8
+  // Range: 64 - 29999900
+  "islandDistance": 4096,
+  
+  // The offset from 0, 0 to generate the islands
+  // Can be used to generate them in the middle of .mca files
+  "offset": 0,
+  
+  // Prevent scheduled ticks after generating the island
+  "preventScheduledTicks": true,
+  
+  // Sea level in world [default: 63]
+  "seaHeight": 63,
+  
+  // Should a surface be generated in the dimensions? [default: false]
+  "surface": false,
+  
+  // The block settings for generating the different dimensions surfaces.
+  // Same format as flat world generation settings (blocks only)
+  "surfaceSettings": {
+    "minecraft:overworld": "minecraft:bedrock,2*minecraft:dirt,minecraft:grass_block",
+    "minecraft:the_nether": "",
+    "minecraft:the_end": ""
+  }
+}
