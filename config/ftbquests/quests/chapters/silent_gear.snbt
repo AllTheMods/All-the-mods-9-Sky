@@ -60,12 +60,6 @@
 					}
 					type: "item"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "479CB5F180B816A2"
-					table_id: 487623848494439020L
-					type: "random"
-				}
 			]
 			size: 1.5d
 			subtitle: "{atm9.quest.SG.subt.blueprint}"
@@ -650,12 +644,6 @@
 					type: "xp"
 					xp: 10
 				}
-				{
-					exclude_from_claim_all: true
-					id: "1876A75C33CE8313"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
 			]
 			shape: "square"
 			size: 1.25d
@@ -684,12 +672,6 @@
 					id: "426DA90F446231C4"
 					type: "xp"
 					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "355393E9C515534F"
-					table_id: 4196188979167302596L
-					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -828,12 +810,6 @@
 					id: "5920F91CCD994BE4"
 					type: "xp"
 					xp: 20
-				}
-				{
-					exclude_from_claim_all: true
-					id: "049404B484FEF767"
-					table_id: 5564196992594175882L
-					type: "random"
 				}
 			]
 			shape: "diamond"
@@ -979,12 +955,6 @@
 					type: "xp"
 					xp: 10
 				}
-				{
-					exclude_from_claim_all: true
-					id: "5DAB130AC2130247"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
 			]
 			subtitle: "{atm9.quest.SG.subt.alloyer}"
 			tasks: [{
@@ -1011,12 +981,6 @@
 					id: "34EE0AC149807BBB"
 					type: "xp"
 					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "699B2AC65718F5FA"
-					table_id: 4196188979167302596L
-					type: "random"
 				}
 			]
 			shape: "circle"
@@ -1046,12 +1010,6 @@
 					type: "xp"
 					xp: 10
 				}
-				{
-					exclude_from_claim_all: true
-					id: "66C9FB40FE94B925"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
 			]
 			shape: "circle"
 			tasks: [{
@@ -1079,12 +1037,6 @@
 					id: "78F9F7CA7518C4EB"
 					type: "xp"
 					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "77E1C346FB26B6E5"
-					table_id: 5564196992594175882L
-					type: "random"
 				}
 			]
 			shape: "circle"

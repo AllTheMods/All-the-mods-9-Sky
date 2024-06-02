@@ -46,7 +46,7 @@
 			description: [
 				"Based off the original mod &eBig Reactors&r, this mod aims to provide fun and engaging power systems by making customizable multi-block reactors."
 				""
-				"The main element is of course, Uranium (same thing as Yellorite). You'll need this and a lot of coal and iron to get building. "
+				"The main element is of course, Uranium (which you can get from sieving Deepslate). You'll need this and a lot of coal and iron to get building. "
 			]
 			id: "7C4E4793DA887DE4"
 			rewards: [

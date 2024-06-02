@@ -8,7 +8,16 @@
 	images: [
 		{
 			height: 0.3d
-			hover: ["Needed for the ATM Star"]
+			hover: ["{atm9.quest.ae2.img.star}"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 12.506802721088391d
+			y: 7.437925170068027d
+		}
+		{
+			height: 0.3d
+			hover: ["{atm9.quest.ae2.img.star}"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -18,8 +27,8 @@
 		{
 			height: 1.0d
 			hover: [
-				"Mycelial Reactor consists of all the Mycelial generators working at the same time, near the reactor block."
-				"It generates 25MFE/t."
+				"{atm9.quest.industrialForegoing.hover.mycelialReactorFeatures.1}"
+				"{atm9.quest.industrialForegoing.hover.mycelialReactorFeatures.2}"
 			]
 			image: "industrialforegoing:block/reactor_front_mycelial"
 			rotation: 0.0d
@@ -29,7 +38,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Crimed Mycelial Generator"]
+			hover: ["{atm9.quest.industrialForegoing.crimedMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_crimed"
 			rotation: 0.0d
 			width: 1.0d
@@ -38,7 +47,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Culinary Mycelial Generator"]
+			hover: ["{atm9.quest.industrialForegoing.culinaryMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_culinary"
 			rotation: 0.0d
 			width: 1.0d
@@ -47,7 +56,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Death Mycelial Generator"]
+			hover: ["{atm9.quest.industrialForegoing.deathMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_death"
 			rotation: 0.0d
 			width: 1.0d
@@ -56,7 +65,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Disenchantment Mycelial Generator"]
+			hover: ["{atm9.quest.industrialForegoing.disenchantmentMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_disenchantment"
 			rotation: 0.0d
 			width: 1.0d
@@ -65,7 +74,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Ender Mycelial Generator"]
+			hover: ["{atm9.quest.industrialForegoing.enderMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_ender"
 			rotation: 0.0d
 			width: 1.0d
@@ -74,7 +83,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Explosive Mycelial Generator"]
+			hover: ["{atm9.quest.industrialForegoing.explosiveMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_explosive"
 			rotation: 0.0d
 			width: 1.0d
@@ -83,7 +92,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Frosty Mycelial Generator"]
+			hover: ["{atm9.quest.industrialForegoing.frostyMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_frosty"
 			rotation: 0.0d
 			width: 1.0d
@@ -92,7 +101,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Furnace Mycelial Generator"]
+			hover: ["{atm9.quest.industrialForegoing.furnaceMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_furnace"
 			rotation: 0.0d
 			width: 1.0d
@@ -101,7 +110,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Halitosis Mycelial Generator"]
+			hover: ["{atm9.quest.industrialForegoing.halitosisMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_halitosis"
 			rotation: 0.0d
 			width: 1.0d
@@ -110,7 +119,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Magma Mycelial Generator"]
+			hover: ["{atm9.quest.industrialForegoing.magmaMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_magmatic"
 			rotation: 0.0d
 			width: 1.0d
@@ -119,7 +128,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Meatallurgic Mycelial Generator"]
+			hover: ["{atm9.quest.industrialForegoing.meatallurgicMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_meatallurgic"
 			rotation: 0.0d
 			width: 1.0d
@@ -128,7 +137,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Netherstar Mycelial Generator"]
+			hover: ["{atm9.quest.industrialForegoing.netherstarMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_netherstar"
 			rotation: 0.0d
 			width: 1.0d
@@ -137,7 +146,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Pink Mycelial Generator"]
+			hover: ["{atm9.quest.industrialForegoing.pinkMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_pink"
 			rotation: 0.0d
 			width: 1.0d
@@ -146,7 +155,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Potion Mycelial Generator"]
+			hover: ["{atm9.quest.industrialForegoing.potionMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_potion"
 			rotation: 0.0d
 			width: 1.0d
@@ -155,7 +164,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Rocket Mycelial Generator"]
+			hover: ["{atm9.quest.industrialForegoing.rocketMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_rocket"
 			rotation: 0.0d
 			width: 1.0d
@@ -164,7 +173,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Slimey Mycelial Generator"]
+			hover: ["{atm9.quest.industrialForegoing.slimeyMycelialGenerator}"]
 			image: "industrialforegoing:block/generators/generator_front_slimey"
 			rotation: 0.0d
 			width: 1.0d
@@ -174,7 +183,7 @@
 		{
 			click: "#0EC2053B191C55C6"
 			height: 1.0d
-			hover: ["Fluid Extractor - Extracts Latex from logs, some give more latex than others"]
+			hover: ["{atm9.quest.industrialForegoing.fluidExtractor}"]
 			image: "industrialforegoing:block/tree_fluid_extractor_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -184,7 +193,7 @@
 		{
 			click: "#294C729B9EBD7A3C"
 			height: 1.0d
-			hover: ["Block Placer - to automate the log placing"]
+			hover: ["{atm9.quest.industrialForegoing.blockPlacer}"]
 			image: "industrialforegoing:block/block_placer_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -193,7 +202,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Acacia Logs give the most latex"]
+			hover: ["{atm9.quest.industrialForegoing.acaciaLogs}"]
 			image: "chipped:block/acacia_log/firewood_acacia_log"
 			rotation: 0.0d
 			width: 1.0d
@@ -203,7 +212,7 @@
 		{
 			click: "#0EC2053B191C55C6"
 			height: 1.0d
-			hover: ["Fluid Extractor - Extracts Latex from logs, some give more latex than others"]
+			hover: ["{atm9.quest.industrialForegoing.fluidExtractor}"]
 			image: "industrialforegoing:block/tree_fluid_extractor_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -213,7 +222,7 @@
 		{
 			click: "#0EC2053B191C55C6"
 			height: 1.0d
-			hover: ["Fluid Extractor - Extracts Latex from logs, some give more latex than others"]
+			hover: ["{atm9.quest.industrialForegoing.fluidExtractor}"]
 			image: "industrialforegoing:block/tree_fluid_extractor_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -223,7 +232,7 @@
 		{
 			click: "#6FF04DD735346BED"
 			height: 1.0d
-			hover: ["Latex Processing Unit"]
+			hover: ["{atm9.quest.industrialForegoing.latexProcessingUnit}"]
 			image: "industrialforegoing:block/latex_processing_unit_front"
 			rotation: 0.0d
 			width: 1.0d
@@ -249,8 +258,8 @@
 		{
 			height: 7.0d
 			hover: [
-				"Wither in Stasis - Fluid Drill on top"
-				"This is how you get Ether Gas"
+				"{atm9.quest.industrialForegoing.hover.witherInStasisFeatures.1}"
+				"{atm9.quest.industrialForegoing.hover.witherInStasisFeatures.2}"
 			]
 			image: "atm:textures/questpics/industrialforegoing/ether_gas_setup.png"
 			order: 10
@@ -281,7 +290,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Welcome to &aIndustrial Foregoing&f!"]
+			description: ["{atm9.quest.industrialForegoing.desc.welcome}"]
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"
@@ -301,16 +310,16 @@
 				id: "1997E42FA9EA414C"
 				type: "checkmark"
 			}]
-			title: "Industrial Foregoing"
+			title: "{atm9.quest.industrialForegoing.industrialForegoing}"
 			x: 1.007653061224488d
 			y: -3.0d
 		}
 		{
 			dependencies: ["6E616DB197387C86"]
 			description: [
-				"Extracts latex from logs."
+				"{atm9.quest.industrialForegoing.desc.extractLatex}"
 				""
-				"Check JEI for acceptable logs and latex amounts. Best log to use is Acacia."
+				"{atm9.quest.industrialForegoing.desc.checkJEI}"
 			]
 			id: "0EC2053B191C55C6"
 			rewards: [
@@ -420,7 +429,7 @@
 					type: "item"
 				}
 			]
-			title: "Item \\& Fluid Transport"
+			title: "{atm9.quest.industrialForegoing.itemAndFluidTransport}"
 			x: 0.0d
 			y: -1.0d
 		}
@@ -479,7 +488,7 @@
 		}
 		{
 			dependencies: ["6FF04DD735346BED"]
-			description: ["When smelted, gives Plastic, which is the main resource in Industrial Foregoing"]
+			description: ["{atm9.quest.industrialForegoing.desc.givesPlastic}"]
 			id: "0EA9E52B67B533DF"
 			rewards: [{
 				id: "2152C5EA52C0D06F"
@@ -539,7 +548,7 @@
 					type: "item"
 				}
 			]
-			title: "Common Black Hole Storage"
+			title: "{atm9.quest.industrialForegoing.commonBlackHoleStorage}"
 			x: 9.5d
 			y: -1.0d
 		}
@@ -562,8 +571,8 @@
 		{
 			dependencies: ["690CFF61CE787D43"]
 			description: [
-				"Passive Mobs -> More Pink Slime"
-				"Hostile Mobs -> More Meat"
+				"{atm9.quest.industrialForegoing.desc.morePinkSlime}"
+				"{atm9.quest.industrialForegoing.desc.moreMeat}"
 			]
 			id: "1823CC81D613892B"
 			rewards: [
@@ -646,7 +655,7 @@
 					type: "item"
 				}
 			]
-			title: "Pink Slime \\& Liquid Meat"
+			title: "{atm9.quest.industrialForegoing.pinkSlimeAndLiquidMeat}"
 			x: 11.5d
 			y: 0.0d
 		}
@@ -688,7 +697,7 @@
 					type: "item"
 				}
 			]
-			title: "Conveyor Insertion \\& Extraction"
+			title: "{atm9.quest.industrialForegoing.conveyorInsertionAndExtraction}"
 			x: 5.5d
 			y: 1.5d
 		}
@@ -729,7 +738,7 @@
 					type: "item"
 				}
 			]
-			title: "Other Conveyor Upgrades"
+			title: "{atm9.quest.industrialForegoing.otherConveyorUpgrades}"
 			x: 6.5d
 			y: 2.0d
 		}
@@ -754,13 +763,13 @@
 					type: "item"
 				}
 			]
-			title: "Fluids"
+			title: "{atm9.quest.industrialForegoing.fluids}"
 			x: 9.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["690CFF61CE787D43"]
-			description: ["Automate block placing/breaking using these, especially usefull when automating latex."]
+			description: ["{atm9.quest.industrialForegoing.desc.blockAutomation}"]
 			id: "2CCFEE98FE3B2E97"
 			optional: true
 			rewards: [{
@@ -780,7 +789,7 @@
 					type: "item"
 				}
 			]
-			title: "Blocks"
+			title: "{atm9.quest.industrialForegoing.blocks}"
 			x: 8.5d
 			y: -3.0d
 		}
@@ -810,7 +819,7 @@
 					type: "item"
 				}
 			]
-			title: "Animals"
+			title: "{atm9.quest.industrialForegoing.animals}"
 			x: 6.0d
 			y: -2.0d
 		}
@@ -835,7 +844,7 @@
 					type: "item"
 				}
 			]
-			title: "Plants"
+			title: "{atm9.quest.industrialForegoing.plants}"
 			x: 6.5d
 			y: -3.0d
 		}
@@ -860,7 +869,7 @@
 					type: "item"
 				}
 			]
-			title: "Bio Power"
+			title: "{atm9.quest.industrialForegoing.bioPower}"
 			x: 5.5d
 			y: -1.0d
 		}
@@ -885,7 +894,7 @@
 					type: "item"
 				}
 			]
-			title: "Other Machines"
+			title: "{atm9.quest.industrialForegoing.otherMachines}"
 			x: 7.5d
 			y: -3.5d
 		}
@@ -894,7 +903,7 @@
 				"690CFF61CE787D43"
 				"1823CC81D613892B"
 			]
-			description: ["Meat through a tube, yummy"]
+			description: ["{atm9.quest.industrialForegoing.desc.meatTube}"]
 			id: "4C366515E3CCB0B2"
 			tasks: [{
 				id: "381C116FAD6B2236"
@@ -1069,7 +1078,7 @@
 					type: "item"
 				}
 			]
-			title: "Simple Black Hole Storage"
+			title: "{atm9.quest.industrialForegoing.simpleBlackHoleStorage}"
 			x: 9.0d
 			y: 4.5d
 		}
@@ -1185,7 +1194,7 @@
 					type: "item"
 				}
 			]
-			title: "Laser Drills (Void Miner)"
+			title: "{atm9.quest.industrialForegoing.laserDrills}"
 			x: 12.0d
 			y: 5.0d
 		}
@@ -1211,8 +1220,8 @@
 				"418E57E34FFC19E1"
 			]
 			description: [
-				"Suggestion:"
-				"Use some sort of wither-proof glass."
+				"{atm9.quest.industrialForegoing.desc.laserDrillSuggestion.1}"
+				"{atm9.quest.industrialForegoing.desc.laserDrillSuggestion.2}"
 			]
 			id: "7E39FB9F3E973009"
 			rewards: [{
@@ -1847,11 +1856,11 @@
 				"0F8FE6692717AA6A"
 			]
 			description: [
-				"The &bMycelial Reactor&r consists of all the Mycelial Generators working at the same time, near the reactor block, and it produces a total of &a25MFE/t&r."
+				"{atm9.quest.industrialForegoing.desc.mycelialReactorFeatures.1}"
 				""
-				"All sounds good, but you need to automate some stuff to get it working, see what each Mycelial Generator consumes to work, and automate it, most things are simple, but others, not that much... &olooking at Disenchanting Mycelial Generator&r."
+				"{atm9.quest.industrialForegoing.desc.mycelialReactorFeatures.2}"
 				""
-				"But after you get it all automated, you don't need to stop at one, you can make more reactors."
+				"{atm9.quest.industrialForegoing.desc.mycelialReactorFeatures.3}"
 			]
 			id: "0FAAE744E156D8EF"
 			rewards: [{
@@ -1861,10 +1870,10 @@
 			}]
 			tasks: [{
 				id: "1F1A69738DE70DB6"
-				title: "Mycelial Reactor, huh?"
+				title: "{atm9.quest.industrialForegoing.mycelialReactor}"
 				type: "checkmark"
 			}]
-			title: "Mycelial Reactor? Huh?"
+			title: "{atm9.quest.industrialForegoing.mycelialReactorQuestion}"
 			x: 11.5d
 			y: 14.0d
 		}
@@ -1876,12 +1885,12 @@
 			]
 			dependency_requirement: "one_started"
 			description: [
-				"Getting your first &bEther Gas&r is going to be scary."
-				"&bEther Gas&r is made from drilling a &0Wither&r, using a Fluid Drill with &5Purple Lens&r."
+				"{atm9.quest.industrialForegoing.desc.etherGas.1}"
+				"{atm9.quest.industrialForegoing.desc.etherGas.2}"
 				""
-				"But worry not, Industrial Foregoing has a machine just to help you in that task: &4Stasis Chamber&r - this machine freezes in place anything that is on top, in a 3x3 area, so spawning a wither on there is safe."
+				"{atm9.quest.industrialForegoing.desc.etherGas.3}"
 				""
-				"&cHope you don't run out of power, because if you do... well... i hope you are ready to fight the &0Wither&r."
+				"{atm9.quest.industrialForegoing.desc.etherGas.4}"
 			]
 			id: "3CB7884B7B32CF00"
 			rewards: [{
@@ -1891,7 +1900,7 @@
 			}]
 			tasks: [{
 				id: "335D80E83360A7DB"
-				title: "Ether Gas? Huh?"
+				title: "{atm9.quest.industrialForegoing.etherGasQuestion}"
 				type: "checkmark"
 			}]
 			x: 21.0d
@@ -1899,25 +1908,25 @@
 		}
 		{
 			description: [
-				"Welcome to &bIndustrial Foregoing&r, one of the main resources in this mod, is &fLatex.&r Its used to craft machine frames, needed to make.. well... machines, and upgrades. "
+				"{atm9.quest.industrialForegoing.desc.latexIntro.1}"
 				""
-				"&oJEI is your friend&r"
+				"{atm9.quest.industrialForegoing.desc.latexIntro.2}"
 				""
-				"Making Latex is pretty simple, &aFluid Extractor&r extracts Latex from &6Logs&r (Acacia gives the most)."
+				"{atm9.quest.industrialForegoing.desc.latexIntro.3}"
 				""
 				"------------------------"
 				""
-				"Now about making Plastic: Plastic results from smelting Dry Rubber - which is made in the &aLatex Processing Unit&r, that transforms Latex into Dry Rubber."
+				"{atm9.quest.industrialForegoing.desc.latexIntro.4}"
 				""
-				"&bSo basically Latex -> Dry Rubber -> Plastic.&r"
+				"{atm9.quest.industrialForegoing.desc.latexIntro.5}"
 			]
 			id: "1BA3D15FFE7DBE59"
 			tasks: [{
 				id: "391AB5CA0E5C35FD"
-				title: "Latex? Huh?"
+				title: "{atm9.quest.industrialForegoing.latexQuestion}"
 				type: "checkmark"
 			}]
-			title: "Latex and Plastic? Huh?"
+			title: "{atm9.quest.industrialForegoing.latexAndPlasticQuestion}"
 			x: 3.130612244897911d
 			y: 1.603911564625868d
 		}
