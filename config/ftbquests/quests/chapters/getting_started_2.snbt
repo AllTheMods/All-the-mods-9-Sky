@@ -391,6 +391,7 @@
 		{
 			description: [""]
 			id: "1ECF6495A3D77E27"
+			min_width: 300
 			rewards: [{
 				id: "1EC6E0E46142E6D8"
 				type: "xp"

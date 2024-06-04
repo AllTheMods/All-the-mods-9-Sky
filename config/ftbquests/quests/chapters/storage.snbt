@@ -32,12 +32,6 @@
 					type: "xp"
 					xp: 5
 				}
-				{
-					exclude_from_claim_all: true
-					id: "330E21D23165B829"
-					table_id: 487623848494439020L
-					type: "random"
-				}
 			]
 			subtitle: "{atm9.quest.storage.subt.iron}"
 			tasks: [{
@@ -68,12 +62,6 @@
 					id: "2B0E611FC8E7C52F"
 					type: "xp"
 					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6B0B6F06B83B6A93"
-					table_id: 487623848494439020L
-					type: "random"
 				}
 			]
 			subtitle: "{atm9.quest.storage.subt.gold}"
@@ -106,12 +94,6 @@
 					type: "xp"
 					xp: 10
 				}
-				{
-					exclude_from_claim_all: true
-					id: "0415C90C635B77D4"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
 			]
 			subtitle: "{atm9.quest.storage.subt.diamond}"
 			tasks: [{
@@ -143,12 +125,6 @@
 					id: "3E846FD78C055A89"
 					type: "xp"
 					xp: 20
-				}
-				{
-					exclude_from_claim_all: true
-					id: "33035D9E5D284A72"
-					table_id: 4196188979167302596L
-					type: "random"
 				}
 			]
 			subtitle: "{atm9.quest.storage.subt.netherite}"
@@ -283,12 +259,6 @@
 					type: "xp"
 					xp: 10
 				}
-				{
-					exclude_from_claim_all: true
-					id: "64F4676E4C59322D"
-					table_id: 487623848494439020L
-					type: "random"
-				}
 			]
 			shape: "diamond"
 			subtitle: "{atm9.quest.storage.subt.controller}"
@@ -335,12 +305,6 @@
 					id: "28FA25B2F1E211A3"
 					type: "xp"
 					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0116B19B3CFFB4DD"
-					table_id: 4196188979167302596L
-					type: "random"
 				}
 			]
 			tasks: [
@@ -446,12 +410,6 @@
 					type: "xp"
 					xp: 10
 				}
-				{
-					exclude_from_claim_all: true
-					id: "17243362CFFD8E23"
-					table_id: 487623848494439020L
-					type: "random"
-				}
 			]
 			shape: "diamond"
 			subtitle: "{atm9.quest.storage.subt.enderdrawer}"
@@ -546,12 +504,6 @@
 					id: "228B88E9317CB137"
 					type: "xp"
 					xp: 5
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5525286901EED45A"
-					table_id: 487623848494439020L
-					type: "random"
 				}
 			]
 			subtitle: "{atm9.quest.storage.subt.ironBP}"
@@ -1435,12 +1387,6 @@
 					random_bonus: 2
 					type: "item"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "158BE322A99DAC18"
-					table_id: 487623848494439020L
-					type: "random"
-				}
 			]
 			tasks: [{
 				id: "7E9C8C24DD11EE7F"
@@ -1466,12 +1412,6 @@
 					item: "minecraft:diamond"
 					random_bonus: 2
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1821E984D977524B"
-					table_id: 4196188979167302596L
-					type: "random"
 				}
 			]
 			tasks: [{
@@ -1503,12 +1443,6 @@
 					id: "7214DB9CCE3BF452"
 					item: "minecraft:ancient_debris"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "040F46810BB6C345"
-					table_id: 4196188979167302596L
-					type: "random"
 				}
 			]
 			tasks: [{
@@ -1568,12 +1502,6 @@
 					item: "minecraft:copper_ingot"
 					type: "item"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "6217BA32207183D1"
-					table_id: 487623848494439020L
-					type: "random"
-				}
 			]
 			shape: "diamond"
 			subtitle: "{atm9.quest.storage.subt.8}"
@@ -1600,12 +1528,6 @@
 					id: "2DD72079356465CE"
 					item: "minecraft:gold_ingot"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3CEB38F19FD621C4"
-					table_id: 487623848494439020L
-					type: "random"
 				}
 			]
 			shape: "diamond"
@@ -1634,12 +1556,6 @@
 					item: "minecraft:diamond"
 					type: "item"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "66529711E25F3DB7"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
 			]
 			shape: "diamond"
 			subtitle: "{atm9.quest.storage.subt.24}"
@@ -1665,12 +1581,6 @@
 					id: "5FC4E884680BC919"
 					item: "minecraft:ancient_debris"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6D7ABAF9FA2AD2A9"
-					table_id: 4196188979167302596L
-					type: "random"
 				}
 			]
 			shape: "diamond"
@@ -1767,12 +1677,6 @@
 					id: "495C45D51AEDF931"
 					type: "xp"
 					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4F1C07541B66F171"
-					table_id: 487623848494439020L
-					type: "random"
 				}
 			]
 			tasks: [{
