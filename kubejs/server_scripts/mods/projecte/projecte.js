@@ -1,5 +1,6 @@
 ServerEvents.recipes(event =>{
 
+  event.remove({id: 'projecte:watch_of_flowing_time'})
 
   //darkmatter
   event.remove({id: 'projecte:dark_matter'})
@@ -34,6 +35,15 @@ ServerEvents.recipes(event =>{
   .input('minecraft:echo_shard')
   .itemOutput('projecte:red_matter')
   .recipeTime(20)  
+
+  //Gem leggings
+  event.remove({id: 'projecte:gem_leggings'})
+  event.shapeless('projecte:gem_leggings', [
+    'projecte:rm_leggings',
+    'projecte:black_hole_band',
+    'projecte:dark_matter_block',
+    'projecte:klein_star_omega'
+  ])
 
   // Transmuation tablet
   event.remove({ id: 'projecte:transmutation_tablet'})  
