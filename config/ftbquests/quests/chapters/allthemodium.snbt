@@ -142,7 +142,7 @@
 			tasks: [{
 				id: "54B58D4300C033A6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -191,7 +191,7 @@
 			tasks: [{
 				id: "6F4093C7A6276314"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -228,7 +228,7 @@
 				"{atm9.quest.allthemodium.desc.intro2}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "patchouli:guide_book"
 				tag: {
 					"patchouli:book": "allthemodium:allthemodium_book"
@@ -244,7 +244,7 @@
 				{
 					id: "0D061D49519CE0B4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "allthemodium:allthemodium_book"
@@ -341,7 +341,7 @@
 			tasks: [{
 				id: "37CD942230304016"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -455,7 +455,7 @@
 			]
 			hide_dependency_lines: false
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:stone_pickaxe"
 				tag: {
 					Damage: 0
@@ -498,7 +498,7 @@
 			tasks: [{
 				id: "1E0783DED2164C8D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -827,7 +827,7 @@
 			tasks: [{
 				id: "2EE80872FA8540BE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -879,7 +879,7 @@
 			tasks: [{
 				id: "520906D9914D4717"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -931,7 +931,7 @@
 			tasks: [{
 				id: "2DB3FE929A70B1C9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -987,7 +987,7 @@
 			tasks: [{
 				id: "6AC1F79015239A46"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [

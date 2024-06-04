@@ -105,19 +105,12 @@
 				}
 			]
 			subtitle: "{atm9.quest.ae2.subt.meteorite}"
-			tasks: [
-				{
-					id: "4D57E005D20BEDB9"
-					item: "ae2:meteorite_compass"
-					type: "item"
-				}
-				{
-					advancement: "ae2:main/presses"
-					criterion: ""
-					id: "4D25BF3C4F05025D"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "ae2:main/presses"
+				criterion: ""
+				id: "4D25BF3C4F05025D"
+				type: "advancement"
+			}]
 			title: "{atm9.quest.ae2.meteorite}"
 			x: 4.0d
 			y: 0.5d

@@ -16,76 +16,12 @@
 			y: -1.5d
 		}
 		{
-			height: 3.0d
-			image: "atm:textures/questpics/bloodmagic/bloodmagic_tier1.png"
-			rotation: 0.0d
-			width: 3.0d
-			x: -35.0d
-			y: 10.0d
-		}
-		{
-			height: 3.5d
-			image: "atm:textures/questpics/bloodmagic/bloodmagic_tier2.png"
-			rotation: 0.0d
-			width: 4.5d
-			x: -35.0d
-			y: 4.0d
-		}
-		{
 			height: 4.5d
 			image: "atm:textures/questpics/bloodmagic/bloodmagic_tier3.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: -26.0d
 			y: 4.0d
-		}
-		{
-			height: 7.0d
-			image: "atm:textures/questpics/bloodmagic/bloodmagic_tier4.png"
-			rotation: 0.0d
-			width: 14.0d
-			x: -26.0d
-			y: 11.0d
-		}
-		{
-			height: 10.0d
-			image: "atm:textures/questpics/bloodmagic/bloodmagic_tier5.png"
-			rotation: 0.0d
-			width: 14.0d
-			x: -14.0d
-			y: 8.0d
-		}
-		{
-			height: 2.0d
-			image: "atm:textures/questpics/helper_arrow.png"
-			rotation: -90.0d
-			width: 2.0d
-			x: -35.0d
-			y: 6.5d
-		}
-		{
-			height: 2.0d
-			image: "atm:textures/questpics/helper_arrow.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: -31.0d
-			y: 4.0d
-		}
-		{
-			height: 2.0d
-			image: "atm:textures/questpics/helper_arrow.png"
-			rotation: 90.0d
-			width: 2.0d
-			x: -26.0d
-			y: 7.5d
-		}
-		{
-			height: 2.0d
-			image: "atm:textures/questpics/helper_arrow.png"
-			rotation: -45.0d
-			width: 2.0d
-			x: -21.5d
-			y: 10.0d
 		}
 	]
 	order_index: 2
