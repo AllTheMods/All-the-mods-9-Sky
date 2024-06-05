@@ -45,7 +45,7 @@
 			image: "ftbchunks:textures/faces/minecraft/villager.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 9.0d
+			x: 7.0d
 			y: -3.5d
 		}
 		{
@@ -53,8 +53,32 @@
 			image: "ftbchunks:textures/faces/minecraft/warden.png"
 			rotation: 0.0d
 			width: 1.7d
-			x: 11.0d
+			x: 9.0d
 			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "forge:textures/gui/experimental_warning.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.25d
+			y: -1.0d
+		}
+		{
+			height: 0.5d
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.5d
+			x: -22.98d
+			y: -0.25d
+		}
+		{
+			height: 0.5d
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.5d
+			x: -2.45d
+			y: 2.7d
 		}
 	]
 	order_index: 1
@@ -673,7 +697,7 @@
 				}
 			]
 			title: "{atm9.quest.start2.sieve}"
-			x: 5.0d
+			x: 4.0d
 			y: 0.5d
 		}
 		{
@@ -686,7 +710,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.start2.gold}"
-			x: 5.0d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -703,7 +727,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.start2.diamond}"
-			x: 5.0d
+			x: 4.0d
 			y: 3.0d
 		}
 		{
@@ -720,7 +744,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.start2.netherite}"
-			x: 5.0d
+			x: 4.0d
 			y: 4.0d
 		}
 		{
@@ -747,7 +771,7 @@
 			y: 5.25d
 		}
 		{
-			dependencies: ["5A6BFCBF6945246E"]
+			dependencies: ["2E2384DBB3937F10"]
 			description: ["{atm9.quest.start2.desc.steel}"]
 			id: "49C723B694FCB518"
 			rewards: [{
@@ -766,31 +790,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["531DFFDE9EA7838E"]
-			description: ["{atm9.quest.start2.desc.orehammer}"]
-			id: "5A6BFCBF6945246E"
-			rewards: [{
-				count: 2
-				id: "2B21E4EAFA20366D"
-				item: "minecraft:raw_iron"
-				type: "item"
-			}]
-			size: 1.25d
-			tasks: [{
-				id: "14AD6E46522279C8"
-				item: {
-					Count: 1
-					id: "alltheores:copper_ore_hammer"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -15.0d
-			y: 0.5d
-		}
-		{
 			dependencies: ["2D9F5CEB4AC30A39"]
 			description: ["{atm9.quest.start2.desc.crafter}"]
 			id: "4998AC29D9E8C43C"
@@ -805,7 +804,7 @@
 				item: "rftoolsutility:crafter3"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -868,7 +867,7 @@
 				type: "item"
 			}]
 			x: -15.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["487F54A97A334E04"]
@@ -933,7 +932,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["4F3280D257DEF799"]
+			dependencies: ["3ED1DB1985F1CDA7"]
 			description: ["{atm9.quest.start2.desc.morepower}"]
 			id: "786276ED6AF1653C"
 			rewards: [{
@@ -952,7 +951,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["7646F1478AAE63CF"]
+			dependencies: ["786276ED6AF1653C"]
 			description: ["{atm9.quest.start2.desc.ironfurnaces}"]
 			id: "4F3280D257DEF799"
 			rewards: [{
@@ -965,14 +964,11 @@
 				item: "ironfurnaces:iron_furnace"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 0.5d
+			x: -7.0d
+			y: 2.0d
 		}
 		{
-			dependencies: [
-				"4F3280D257DEF799"
-				"786276ED6AF1653C"
-			]
+			dependencies: ["4F3280D257DEF799"]
 			description: ["{atm9.quest.start2.desc.augmentg}"]
 			id: "21F963915C370427"
 			rewards: [{
@@ -985,8 +981,8 @@
 				item: "ironfurnaces:augment_generator"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 2.0d
+			x: -7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["21F963915C370427"]
@@ -1002,8 +998,8 @@
 				item: "ironfurnaces:augment_blasting"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 3.5d
+			x: -7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["786276ED6AF1653C"]
@@ -1080,24 +1076,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["0F809F1DB7700245"]
-			description: ["{atm9.quest.start2.desc.energycondenser}"]
-			id: "10A4FCF2B0E5B90F"
-			rewards: [{
-				count: 40
-				id: "10BB4C80E888539D"
-				item: "projecte:high_covalence_dust"
-				type: "item"
-			}]
-			tasks: [{
-				id: "18229E09E7332574"
-				item: "projecte:condenser_mk1"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 0.5d
-		}
-		{
 			dependencies: ["786276ED6AF1653C"]
 			description: ["{atm9.quest.start2.desc.covdust}"]
 			id: "0F809F1DB7700245"
@@ -1128,7 +1106,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["10A4FCF2B0E5B90F"]
+			dependencies: ["0F809F1DB7700245"]
 			description: ["{atm9.quest.start2.desc.projecte}"]
 			icon: "projecte:red_matter"
 			id: "158005066201304F"
@@ -1137,16 +1115,17 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "74123ED9B7608D4A"
 				title: "{atm9.quest.start2.projecte}"
 				type: "checkmark"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["10A4FCF2B0E5B90F"]
+			dependencies: ["36E083B321AAC749"]
 			id: "1D6B927E4BF4F18B"
 			shape: "pentagon"
 			size: 1.5d
@@ -1168,6 +1147,7 @@
 				item: "mekanism:basic_universal_cable"
 				type: "item"
 			}]
+			subtitle: "{atm9.quest.start2.subt.factory}"
 			tasks: [{
 				id: "4D4CB19013C1A584"
 				item: "ironfurnaces:augment_factory"
@@ -1209,7 +1189,7 @@
 				item: "exmachinis:flux_compactor"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: -1.5d
 		}
 		{
@@ -1265,7 +1245,7 @@
 				item: "minecraft:netherite_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.5d
 			y: 2.0d
 		}
 		{
@@ -1282,7 +1262,7 @@
 				item: "occultism:datura_seeds"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.5d
 			y: 0.5d
 		}
 		{
@@ -1300,7 +1280,7 @@
 				item: "minecraft:moss_block"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: 0.5d
 		}
 		{
@@ -1317,7 +1297,7 @@
 				item: "ars_caelum:ritual_conjure_island_village"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 7.0d
 			y: -2.5d
 		}
 		{
@@ -1334,7 +1314,7 @@
 				item: "ars_caelum:ritual_conjure_island_sculk"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 9.0d
 			y: -2.5d
 		}
 		{
@@ -1375,7 +1355,7 @@
 				title: "{atm9.quest.start2.ars}"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: -1.0d
 		}
 		{
@@ -1436,7 +1416,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.start2.netherstar}"
-			x: 14.0d
+			x: 12.5d
 			y: 0.5d
 		}
 		{
@@ -1453,7 +1433,7 @@
 				item: "mysticalagriculture:nether_star_seeds"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 12.5d
 			y: -0.5d
 		}
 		{
@@ -1477,8 +1457,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 2.5d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5020F092319157B7"]
@@ -1494,8 +1474,8 @@
 				item: "angelring:angel_ring"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 2.5d
+			x: 13.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5020F092319157B7"]
@@ -1522,30 +1502,11 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.start2.tiab}"
-			x: 16.0d
+			x: 14.0d
 			y: 0.5d
 		}
 		{
-			dependencies: ["59B3C2AF620547E0"]
-			description: ["{atm9.quest.start2.desc.SummoningAltar}"]
-			id: "6893569FF6BEBE3D"
-			rewards: [{
-				id: "3B9C39FA72FC1B2E"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "square"
-			size: 1.5d
-			tasks: [{
-				id: "355E7875D14D17B9"
-				item: "summoningrituals:altar"
-				type: "item"
-			}]
-			x: -21.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["69AFCFCA443735A5"]
+			dependencies: ["25B3468FBACCB3ED"]
 			description: ["{atm9.quest.start2.desc.Fisher}"]
 			id: "4867F74C2ACD535E"
 			rewards: [{
@@ -1558,8 +1519,323 @@
 				item: "industrialforegoing:marine_fisher"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["343AEA9974EBCAD8"]
+			description: ["{atm9.quest.start2.subt.filterdest}"]
+			id: "6BF54C1E2C09C73F"
+			rewards: [{
+				id: "16CCB69E346F9057"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E67C43D64FCC7BF"
+				item: "pipez:filter_destination_tool"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7646F1478AAE63CF"]
+			description: ["{atm9.quest.start2.desc.superheat}"]
+			id: "3ED1DB1985F1CDA7"
+			rewards: [{
+				count: 4
+				id: "62D31856D2668522"
+				item: "alltheores:steel_ingot"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.start2.subt.superheat}"
+			tasks: [{
+				id: "4A2F36C43C931794"
+				item: "mekanism:superheating_element"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["786276ED6AF1653C"]
+			description: ["{atm9.quest.start2.desc.magmator}"]
+			id: "2C24C9ECE57D8961"
+			rewards: [{
+				count: 8
+				id: "52198EC58AFD385B"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "{atm9.quest.start2.subt.magmator}"
+			tasks: [{
+				id: "481CAABC6BD375EF"
+				item: "powah:magmator_starter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["531DFFDE9EA7838E"]
+			description: ["{atm9.quest.start2.desc.steeld}"]
+			id: "2E2384DBB3937F10"
+			rewards: [{
+				count: 2
+				id: "5A6D5B16421EDCBD"
+				item: "minecraft:iron_ore"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74703BB214010424"
+				item: "alltheores:steel_dust"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3ED1DB1985F1CDA7"]
+			description: ["{atm9.quest.start2.desc.tank}"]
+			id: "3E771628BC788E7C"
+			rewards: [{
+				id: "714364000D86ABD2"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.start2.subt.tank}"
+			tasks: [{
+				id: "3607FCC81D1AC545"
+				item: "mekanism:basic_fluid_tank"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0F809F1DB7700245"]
+			description: [
+				"{atm9.quest.start2.desc.igneous}"
+				"{image:atm:textures/questpics/igneous.png width:200 height:165 align:1}"
+			]
+			id: "36E083B321AAC749"
+			rewards: [{
+				id: "40F1E793FD1D89B1"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			subtitle: "{atm9.quest.start2.subt.igneous}"
+			tasks: [{
+				id: "7B2AE0BD027C3838"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["59B3C2AF620547E0"]
+			description: ["{atm9.quest.start2.desc.SummoningAltar}"]
+			id: "6D18359C628D7AD7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F9CBCE210C23944"
+				table_id: 4196188979167302596L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "428B4DB1169515D8"
+				item: "summoningrituals:altar"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["36E083B321AAC749"]
+			description: ["{atm9.quest.start2.desc.ice}"]
+			id: "4D63945B9E0BC2AA"
+			rewards: [{
+				count: 4
+				id: "462AE422B9469C8D"
+				item: "minecraft:snow_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4620E27785884169"
+				item: "minecraft:ice"
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.ice}"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			description: ["{atm9.quest.start2.desc.emerald}"]
+			id: "1132517106A700BB"
+			rewards: [{
+				id: "2F5492DA60E15ED8"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2596B5791FB95C40"
+				item: {
+					Count: 1
+					id: "pickletweaks:emerald_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.start2.emerald}"
+			x: -13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D18359C628D7AD7"]
+			description: ["{atm9.quest.start2.desc.piglich}"]
+			id: "2618F237689C2572"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36A88FBA287886CD"
+				table_id: 7025454341029952768L
+				type: "random"
+			}]
+			tasks: [{
+				id: "071F95C78BECD9AA"
+				item: "allthemodium:piglich_heart"
+				title: "{atm9.quest.start2.piglich}"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7438B09498907DE0"]
+			description: [
+				"{atm9.quest.start2.desc.laserbase}"
+				""
+				"{image:atm:textures/questpics/laserbase.png width:210 height:150 align:1}"
+			]
+			id: "4897A7858A863C61"
+			rewards: [{
+				count: 2
+				id: "70E716155F9BAE8E"
+				item: {
+					Count: 1
+					id: "industrialforegoing:speed_addon_2"
+					tag: {
+						TitaniumAugment: {
+							Speed: 3.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1F1105159D672B68"
+					item: "industrialforegoing:ore_laser_base"
+					type: "item"
+				}
+				{
+					id: "182A8498BC72EEA2"
+					item: "industrialforegoing:laser_drill"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["69AFCFCA443735A5"]
+			description: ["{atm9.quest.start2.desc.flux}"]
+			id: "25B3468FBACCB3ED"
+			rewards: [
+				{
+					id: "25BB2326CBDDA7B0"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "27F0F23E41915D8D"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+			]
+			subtitle: "{atm9.quest.start2.subt.flux}"
+			tasks: [{
+				count: 32L
+				id: "6D34BD53DB54E2B2"
+				item: { Count: 32, id: "fluxnetworks:flux_dust" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4897A7858A863C61"]
+			description: ["{atm9.quest.start2.desc.laserlens}"]
+			id: "31CD8C5405C5D1AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73300413D125C25A"
+				table_id: 487623848494439020L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "1D8A4BB5C09F5BBD"
+				item: "industrialforegoing:laser_lens0"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4897A7858A863C61"]
+			description: ["{atm9.quest.start2.desc.final}"]
+			icon: "allthetweaks:atm_star"
+			id: "12FEB94E58970BD5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "116E7923F9B6C7CB"
+				table_id: 7025454341029952768L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 2.5d
+			tasks: [{
+				id: "3AF03B07B0E24FE6"
+				title: "{atm9.quest.start2.final}"
+				type: "checkmark"
+			}]
+			x: 18.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["25B3468FBACCB3ED"]
+			description: ["{atm9.quest.start2.desc.fluxuse}"]
+			id: "4E00D608E17DD6D6"
+			rewards: [{
+				id: "33F25A9CABCAAB45"
+				item: "fluxnetworks:flux_point"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E259208EA62FC04"
+				item: "fluxnetworks:flux_controller"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
 		}
 	]
 	title: "{atm9.chapters.6.title}"

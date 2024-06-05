@@ -4360,6 +4360,18 @@
 			x: -8.0d
 			y: 0.5d
 		}
+		{
+			description: ["Grow a tree near a vanilla flower and it will have a chance to spawn with a hive."]
+			id: "31BCC984092BC030"
+			size: 3.0d
+			tasks: [{
+				id: "293AD44566B7A440"
+				title: "Temp Info"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
 	]
 	title: "{atm9.chapters.16.title}"
 }
