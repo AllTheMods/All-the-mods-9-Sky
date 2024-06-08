@@ -25,8 +25,8 @@ BlockEvents.leftClicked('minecraft:obsidian', event => {
             if (fluxCount < 512) {
                 let count = entity.item.count
                 fluxCount += count
-                console.log(fluxCount)
-                console.log(count)
+                //console.log(fluxCount)
+                //console.log(count)
                 entity.discard()
                 return count
             }
