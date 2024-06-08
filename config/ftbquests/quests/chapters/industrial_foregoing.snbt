@@ -322,18 +322,11 @@
 				"{atm9.quest.industrialForegoing.desc.checkJEI}"
 			]
 			id: "0EC2053B191C55C6"
-			rewards: [
-				{
-					id: "2D3F9D6C16FE7EAF"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "62522B4A46251119"
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "2D3F9D6C16FE7EAF"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3CEAE2B50AD7C5ED"
 				item: "industrialforegoing:fluid_extractor"
@@ -380,18 +373,11 @@
 		{
 			dependencies: ["321FA7348E532F4E"]
 			id: "6FF04DD735346BED"
-			rewards: [
-				{
-					id: "0FB5D498F42B6185"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "165FAC8C2F75A7F9"
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "0FB5D498F42B6185"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "163B2434699EEF1A"
 				item: "industrialforegoing:latex_processing_unit"
@@ -506,19 +492,12 @@
 		{
 			dependencies: ["0EA9E52B67B533DF"]
 			id: "690CFF61CE787D43"
-			rewards: [
-				{
-					count: 5
-					id: "41FDECEBC7DDB3F6"
-					item: "industrialforegoing:plastic"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "10813338F04C0398"
-					type: "loot"
-				}
-			]
+			rewards: [{
+				count: 5
+				id: "41FDECEBC7DDB3F6"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "77579FFDFEA734EB"
@@ -555,11 +534,6 @@
 		{
 			dependencies: ["690CFF61CE787D43"]
 			id: "57C4A0BAE739E903"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5B87BEEF76D40DA7"
-				type: "loot"
-			}]
 			tasks: [{
 				id: "47C0E765FD874FCC"
 				item: "industrialforegoing:dissolution_chamber"
@@ -916,18 +890,11 @@
 		{
 			dependencies: ["57C4A0BAE739E903"]
 			id: "3514E9C1A8C7400C"
-			rewards: [
-				{
-					id: "3CB88390179E68C1"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6DD952E9DAB7B8A7"
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "3CB88390179E68C1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "719FBA82094C5EC2"
@@ -943,11 +910,6 @@
 				"0E8647B8EB4AAC41"
 			]
 			id: "0BCCDE24D378F260"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7A3A00513891003C"
-				type: "loot"
-			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "6C58377563CFA587"

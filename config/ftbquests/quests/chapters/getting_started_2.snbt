@@ -80,6 +80,14 @@
 			x: -2.45d
 			y: 2.7d
 		}
+		{
+			height: 0.5d
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.5d
+			x: 15.57d
+			y: 1.2d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -804,7 +812,7 @@
 				item: "rftoolsutility:crafter3"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -1.5d
 		}
 		{
@@ -1189,7 +1197,7 @@
 				item: "exmachinis:flux_compactor"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: -1.5d
 		}
 		{
@@ -1464,6 +1472,7 @@
 			dependencies: ["5020F092319157B7"]
 			description: ["{atm9.quest.start2.desc.angelring}"]
 			id: "7943055EDCFD2C8A"
+			optional: true
 			rewards: [{
 				id: "53933909B6CE7E5F"
 				type: "xp_levels"
@@ -1836,6 +1845,81 @@
 			}]
 			x: 10.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["56C690488B8548CD"]
+			description: ["{atm9.quest.start2.desc.totem}"]
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/absorption"
+					}]
+				}
+			}
+			id: "73921D0DAD4CBDAE"
+			rewards: [{
+				id: "33449D1D03D935E3"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:swiftness"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5974BCF2D6940F0D"
+				title: "w"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.start2.totem}"
+			x: -18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2D9F5CEB4AC30A39"]
+			description: ["{atm9.quest.start2.desc.compact}"]
+			id: "3702D5289B20C7E6"
+			rewards: [
+				{
+					id: "29D993A4DDF05628"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+				{
+					id: "5459F0635C38C887"
+					item: "sophisticatedstorage:upgrade_base"
+					type: "item"
+				}
+			]
+			subtitle: "{atm9.quest.start2.subt.compact}"
+			tasks: [{
+				id: "5B0C399DC6D7DB24"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:compacting_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:compacting_upgrade"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.start2.compact}"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
 		}
 	]
 	title: "{atm9.chapters.6.title}"
