@@ -240,6 +240,7 @@
 		{
 			dependencies: ["04ED71D67F75FE4C"]
 			description: ["{atm9.quest.start3.desc.blackhole}"]
+			hide: true
 			id: "53A7A475B7CBAEF8"
 			rewards: [
 				{
@@ -409,6 +410,7 @@
 		{
 			dependencies: ["04ED71D67F75FE4C"]
 			description: ["{atm9.quest.start3.desc.altar}"]
+			hide: false
 			hide_dependency_lines: true
 			id: "491E42C5206FE876"
 			rewards: [{
@@ -441,6 +443,7 @@
 		{
 			dependencies: ["04ED71D67F75FE4C"]
 			description: ["{atm9.quest.start3.desc.warden}"]
+			hide: true
 			id: "77E8626D70656436"
 			rewards: [{
 				id: "0F791A5859F068DB"
@@ -464,6 +467,7 @@
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"0F96DC3563DA78EF\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
+			hide: true
 			id: "50CEFDDF4F937A69"
 			rewards: [
 				{
@@ -497,6 +501,7 @@
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"0A093D8C4429B627\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
+			hide: true
 			id: "14589C07F8126DD6"
 			rewards: [
 				{
@@ -524,6 +529,7 @@
 		{
 			dependencies: ["04ED71D67F75FE4C"]
 			description: ["{atm9.quest.start3.desc.rf}"]
+			hide: true
 			id: "1A55007924F509AE"
 			rewards: [
 				{
@@ -551,6 +557,7 @@
 		{
 			dependencies: ["04ED71D67F75FE4C"]
 			description: ["{atm9.quest.start3.desc.ender}"]
+			hide: true
 			id: "7C14A8C7F08A600B"
 			rewards: [
 				{
@@ -582,6 +589,7 @@
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"100C477F4E63F20A\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
+			hide: true
 			id: "4DEB823D217CB142"
 			rewards: [
 				{
@@ -613,11 +621,9 @@
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"4C341941A5100759\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
+			hide: true
 			icon: {
 				Count: 1
-				ForgeCaps: {
-					Parent: { }
-				}
 				id: "projecte:philosophers_stone"
 				tag: { }
 			}
@@ -652,6 +658,7 @@
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"2A6EBEEBAB882679\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
+			hide: true
 			id: "57E131938BB823A6"
 			rewards: [
 				{
@@ -683,6 +690,7 @@
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"193F91842D2ED7D9\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
+			hide: true
 			id: "03643BFC315D3848"
 			rewards: [
 				{
@@ -714,6 +722,7 @@
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"26E6ED94168A05C4\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
+			hide: true
 			icon: "minecraft:honeycomb"
 			id: "65E89D301909C203"
 			rewards: [
@@ -749,6 +758,7 @@
 		{
 			dependencies: ["04ED71D67F75FE4C"]
 			description: ["{atm9.quest.start3.desc.galore}"]
+			hide: true
 			icon: "generatorgalore:diamond_generator"
 			id: "1619B48D3E1FB026"
 			rewards: [
@@ -780,6 +790,7 @@
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"34E8FF3196478229\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
+			hide: true
 			id: "569B29F60344F5E8"
 			rewards: [
 				{
@@ -811,6 +822,7 @@
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"1883B79BDB2AAE5D\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
+			hide: true
 			icon: "botania:lime_mystical_flower"
 			id: "5D2717ECA1C2F8D4"
 			rewards: [
@@ -850,6 +862,7 @@
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"004F28C5C85F467B\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
+			hide: true
 			id: "6613AD93F15C943E"
 			rewards: [
 				{
@@ -877,6 +890,7 @@
 		{
 			dependencies: ["04ED71D67F75FE4C"]
 			description: ["{atm9.quest.start3.desc.force}"]
+			hide: true
 			id: "09DF0AF4E27A671C"
 			rewards: [
 				{
@@ -908,6 +922,7 @@
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"4C507C004144BFEE\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
+			hide: true
 			id: "2E21AA4843CF2C3B"
 			rewards: [
 				{
@@ -934,6 +949,7 @@
 		{
 			dependencies: ["04ED71D67F75FE4C"]
 			description: ["{atm9.quest.start3.desc.reliquary}"]
+			hide: true
 			id: "1DA755A7C94A6721"
 			rewards: [
 				{
@@ -961,6 +977,7 @@
 		{
 			dependencies: ["04ED71D67F75FE4C"]
 			description: ["{atm9.quest.start3.desc.advanced}"]
+			hide: true
 			icon: "advgenerators:turbine_rotor_tier5"
 			id: "27ECF7EED4E9DD55"
 			rewards: [
@@ -993,6 +1010,7 @@
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"07210DDF872160BA\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
+			hide: true
 			id: "226FBA1F681E1C7B"
 			rewards: [
 				{
@@ -1644,6 +1662,7 @@
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"6AEDA2F9BEB57759\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
+			hide: true
 			id: "7A11000C476D2F7F"
 			rewards: [
 				{
@@ -1675,6 +1694,7 @@
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"658721DF03EC997D\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
+			hide: true
 			icon: "thermal:machine_frame"
 			id: "12649E8A55F3F8D6"
 			rewards: [
@@ -1818,9 +1838,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["7438B09498907DE0"]
+			dependencies: ["12FEB94E58970BD5"]
 			description: ["{atm9.quest.start3.desc.start}"]
 			hide_dependent_lines: true
+			icon: "mekanismgenerators:wind_generator"
 			id: "04ED71D67F75FE4C"
 			size: 2.5d
 			tasks: [{
@@ -1839,6 +1860,7 @@
 				""
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"0A52D0932DA3F809\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
+			hide: true
 			id: "6CA4BC4BFC33C392"
 			rewards: [
 				{

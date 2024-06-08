@@ -12,7 +12,7 @@
 		x: -3.5d
 		y: -4.5d
 	}]
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -362,6 +362,24 @@
 			title: "{atm9.quest.tips.gale}"
 			x: -4.5d
 			y: 0.5d
+		}
+		{
+			description: ["{atm9.quest.tips.desc.repair}"]
+			id: "0821032D8ACE7E82"
+			subtitle: "{atm9.quest.tips.subt.repair}"
+			tasks: [{
+				id: "1D6930C723F7BF7C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:repair_talisman"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
 		}
 	]
 	title: "{atm9.chapters.4.title}"

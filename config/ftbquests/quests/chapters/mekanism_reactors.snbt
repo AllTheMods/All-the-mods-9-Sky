@@ -583,10 +583,8 @@
 			size: 1.5d
 			subtitle: "{atm9.quest.mekanismReactors.subt.numbers}"
 			tasks: [{
-				icon: "mekanism:geiger_counter"
-				id: "34D8628732B36EDF"
-				title: "{atm9.quest.mekanismReactors.completedReactor}"
-				type: "custom"
+				id: "151024BDAA90EA7B"
+				type: "checkmark"
 			}]
 			title: "{atm9.quest.mekanismReactors.fissionReactorInterface}"
 			x: 3.0d
@@ -727,7 +725,7 @@
 				""
 				"{atm9.quest.mekanismReactors.desc.sulfuricAcid.4}"
 			]
-			icon: "gtceu:sulfur_dust"
+			icon: "thermal:sulfur_dust"
 			id: "31EEE2875595F315"
 			progression_mode: "linear"
 			rewards: [
@@ -744,26 +742,18 @@
 				}
 			]
 			subtitle: "{atm9.quest.mekanismReactors.subt.quickRecap}"
-			tasks: [
-				{
-					id: "14A09EAF150777A3"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:dusts/sulfur"
-						}
+			tasks: [{
+				id: "14A09EAF150777A3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/sulfur"
 					}
-					title: "{atm9.quest.mekanismReactors.sulfurDust}"
-					type: "item"
 				}
-				{
-					icon: "ftbquests:barrier"
-					id: "66C97246C3EEFB7C"
-					title: "{atm9.quest.mekanismReactors.observeSulfuricAcid}"
-					type: "custom"
-				}
-			]
+				title: "{atm9.quest.mekanismReactors.sulfurDust}"
+				type: "item"
+			}]
 			title: "{atm9.quest.mekanismReactors.sulfuricAcid}"
 			x: 5.5d
 			y: 1.5d
@@ -808,12 +798,6 @@
 					item: "mekanism:chemical_dissolution_chamber"
 					type: "item"
 				}
-				{
-					icon: "ftbquests:barrier"
-					id: "510CE57C709D5A44"
-					title: "{atm9.quest.mekanismReactors.observeHydrofluoricAcid}"
-					type: "custom"
-				}
 			]
 			title: "{atm9.quest.mekanismReactors.hydrofluoricAcid}"
 			x: 7.0d
@@ -840,19 +824,11 @@
 					type: "loot"
 				}
 			]
-			tasks: [
-				{
-					id: "73C5F4AC41EE5123"
-					item: "mekanism:chemical_infuser"
-					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "05A215BE7EE2F35D"
-					title: "{atm9.quest.mekanismReactors.observeUraniumHexafluoride}"
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "73C5F4AC41EE5123"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
 			title: "{atm9.quest.mekanismReactors.uraniumHexafluoride}"
 			x: 8.0d
 			y: 2.5d
@@ -882,19 +858,11 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "3F2371FD486D4F0E"
-					item: "mekanism:isotopic_centrifuge"
-					type: "item"
-				}
-				{
-					icon: "ftbquests:barrier"
-					id: "4E04F8F091D18EA4"
-					title: "{atm9.quest.mekanismReactors.observeFissileFuel}"
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "3F2371FD486D4F0E"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
 			title: "{atm9.quest.mekanismReactors.fissileFuel}"
 			x: 9.5d
 			y: 2.5d
