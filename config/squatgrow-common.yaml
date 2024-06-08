@@ -8,7 +8,7 @@ enableDirtToGrass: true
 enableMysticalCrops: true
 hoeTakesDamage: false
 ignoreList: ['minecraft:grass_block', 'minecraft:grass', 'minecraft:tall_grass', 'minecraft:netherrack',
-  'minecraft:warped_nylium', 'minecraft:crimson_nylium', 'minecraft:sunflower', 'minecraft:rose_bush', 'minecraft:pink_petals']
+  'minecraft:warped_nylium', 'minecraft:crimson_nylium', 'minecraft:sunflower', 'minecraft:rose_bush', 'minecraft:pink_petals', 'minecraft:moss_block']
 randomTickMultiplier: 4
 range: 3
 requireHoe: false

@@ -14,7 +14,12 @@ ServerEvents.recipes( event => {
 	  event.remove({id: /exdeorum:.+?_compressed_sieve/})
 
 	  // Nuggetless Gears
+	  event.remove({ id: 'enderio:iron_gear' })
 	  event.remove({ id: 'industrialforegoing:iron_gear' })
 	  event.remove({ id: 'industrialforegoing:gold_gear' })
 	  event.remove({ id: 'industrialforegoing:diamond_gear' })
+
+	// Rubber
+	event.shaped('8x thermal:rubber', ['N  ', ' N ', '  N'], { N: 'mysticalagriculture:rubber_essence'}) 
+	event.shaped('8x industrialforegoing:dryrubber', [' N ', ' N ', ' N '], { N: 'mysticalagriculture:rubber_essence'}) 
 	})

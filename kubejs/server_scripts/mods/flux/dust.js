@@ -15,7 +15,7 @@ BlockEvents.leftClicked('minecraft:obsidian', event => {
     if (player.isFake()) return
     let base = block.offset(0, -2, 0)
     let pos = block.pos
-    if (base.id != 'allthecompressed:obsidian_block_1x') return
+    if (base.id != 'allthecompressed:obsidian_1x') return
     //if (base.id != 'minecraft:crying_obsidian') return
     let fluxCount = 0
     level.getEntitiesWithin(AABB.ofBlock(pos.below()))
