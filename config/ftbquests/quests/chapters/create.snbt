@@ -576,7 +576,7 @@
 		{
 			dependencies: ["57A7A5C79389A96A"]
 			description: [
-				"These goggles will allow you to see your contrations in more detail."
+				"These goggles will allow you to see your contraptions in more detail."
 				""
 				"It will show things as rotation speed and stress."
 			]
