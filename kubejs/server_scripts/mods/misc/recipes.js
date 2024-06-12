@@ -21,5 +21,28 @@ ServerEvents.recipes( event => {
 
 	// Rubber
 	event.shaped('8x thermal:rubber', ['N  ', ' N ', '  N'], { N: 'mysticalagriculture:rubber_essence'}) 
-	event.shaped('8x industrialforegoing:dryrubber', [' N ', ' N ', ' N '], { N: 'mysticalagriculture:rubber_essence'}) 
+	event.shaped('8x industrialforegoing:dryrubber', [' N ', ' N ', ' N '], { N: 'mysticalagriculture:rubber_essence'})
+
+	// Crying obby w/create
+	let createFilling = (input, fluid, fluidAmount, result) => {
+		event.custom({
+				type: "create:filling",
+				ingredients: [
+				  {
+					item: input
+				  },
+				  {
+					fluid: fluid,
+					amount: fluidAmount
+				  }
+				],
+				results: [
+				  {
+					item: result
+				  }
+				]
+			})
+	}
+
+	createFilling('minecraft:obsidian', 'exdeorum:witch_water', 1000, 'minecraft:crying_obsidian')
 	})

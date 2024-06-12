@@ -20,7 +20,8 @@
   "generationStructures": {
     "allow_list": true,
     "elements": [
-      "minecraft:fortress"
+      "minecraft:fortress",
+      "minecraft:bastion_remnant"
     ]
   }
 }
