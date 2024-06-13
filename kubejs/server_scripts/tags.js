@@ -107,3 +107,21 @@ ServerEvents.tags('item', event => {
     'exdeorum:crushed_netherrack'
   ])
 })
+
+ServerEvents.tags('item', event => {
+  event.add('atm9sky:ore_chunks',[
+    'exdeorum:iron_ore_chunk',
+    'exdeorum:copper_ore_chunk',
+    'exdeorum:gold_ore_chunk',
+    'exdeorum:aluminum_ore_chunk',
+    'exdeorum:silver_ore_chunk',
+    'exdeorum:lead_ore_chunk',
+    'exdeorum:platinum_ore_chunk',
+    'exdeorum:nickel_ore_chunk',
+    'exdeorum:uranium_ore_chunk',
+    'exdeorum:osmium_ore_chunk',
+    'exdeorum:tin_ore_chunk',
+    'exdeorum:zinc_ore_chunk',
+    'exdeorum:iridium_ore_chunk'
+  ])
+})
