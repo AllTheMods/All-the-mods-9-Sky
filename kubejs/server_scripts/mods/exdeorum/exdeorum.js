@@ -149,6 +149,10 @@ addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_green', 1, 0.08)
 addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_light', 1, 0.08)
 addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_dark', 1, 0.08)
 
+//Draconium!
+addSifting(EndStone, DiamondMesh, 'draconicevolution:draconium_dust', 1, 0.005)
+addSifting(EndStone, NetheriteMesh, 'draconicevolution:draconium_dust', 2, 0.075)
+
 //Diamond adjustment
 event.remove({output: 'minecraft:diamond', type: 'exdeorum:sieve', mod: 'exdeorum'});
 addSifting(Gravel, IronMesh, 'minecraft:diamond', 1, 0.01)
