@@ -2,6 +2,7 @@ JEIEvents.hideItems(event => {
   event.hide(/ae2:facade/)
   event.hide(['angelring:leadstone_angel_ring', 'angelring:hardened_angel_ring', 'angelring:energetic_angel_ring', 'angelring:reinforced_angel_ring', 'angelring:resonant_angel_ring'])
   event.hide('reliquary:rod_of_lyssa')
+  event.hide('thermalendergy:endergy_upgrade_1')
   event.hide('allthemodium:teleport_pad')
   event.hide('projecte:watch_of_flowing_time')
   event.hide(/exdeorum:.+?_compressed_sieve/)
