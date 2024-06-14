@@ -167,6 +167,12 @@ addSifting(Gravel, GoldMesh, 'minecraft:emerald', 1, 0.03)
 addSifting(Gravel, DiamondMesh, 'minecraft:emerald', 1, 0.04)
 addSifting(Gravel, NetheriteMesh, 'minecraft:emerald', 2, 0.05)
 
+//salt
+addSifting(Sand, IronMesh, 'mekanism:salt', 1, 0.15)
+addSifting(Sand, DiamondMesh, 'mekanism:salt', 1, 0.15)
+addSifting(Sand, GoldMesh, 'mekanism:salt', 1, 0.15)
+addSifting(Sand, NetheriteMesh, 'mekanism:salt', 2, 0.12)
+
 // misc missing ones
 addSifting(SoulSand, IronMesh, 'mysticalagriculture:prosperity_shard', 1, 0.2)
 addSifting(SoulSand, DiamondMesh, 'mysticalagriculture:prosperity_shard', 1, 0.2)
