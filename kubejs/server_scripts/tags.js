@@ -3,6 +3,7 @@ ServerEvents.tags('item', event => {
   event.add('minecraft:chest_boats', /byg:.+?_chest_boat/)
   event.add('forge:plastic', 'pneumaticcraft:plastic')
   event.add('forge:dusts/ender', 'ae2:ender_dust')
+  event.add('forge:sawdust', 'exdeorum:wood_chippings')
   event.add('ars_nouveau:golem/shard', ['minecraft:amethyst_shard', 'ae2:certus_quartz_crystal'])
   event.add('forge:raw_materials', ['silentgear:raw_azure_silver', 'silentgear:raw_crimson_iron'])
   event.add('forge:rubber', ['ftbic:rubber','industrialforegoing:dryrubber','thermal:cured_rubber'])
