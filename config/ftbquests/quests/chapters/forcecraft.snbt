@@ -8,14 +8,6 @@
 	id: "030548E7416DD46A"
 	images: [
 		{
-			height: 3.0d
-			image: "atm:textures/questpics/force/force_engine.png"
-			rotation: 0.0d
-			width: 4.841772151898734d
-			x: 22.5d
-			y: -5.5d
-		}
-		{
 			height: 2.5d
 			image: "atm:textures/questpics/force/forcecraft.png"
 			rotation: 0.0d
@@ -54,6 +46,14 @@
 			width: 2.0d
 			x: 24.0d
 			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/force/force_engine.png"
+			rotation: 0.0d
+			width: 4.834123222748815d
+			x: 22.5d
+			y: -6.0d
 		}
 	]
 	order_index: 5

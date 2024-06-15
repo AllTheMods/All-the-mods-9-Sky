@@ -476,8 +476,27 @@
 			}]
 			subtitle: "Who needs spiders anyway?"
 			tasks: [{
-				id: "52030BFD91159DAC"
-				item: "supplementaries:flax_seeds"
+				id: "6D7AAE290A87345C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "silentgear:flax_seeds"
+							}
+							{
+								Count: 1b
+								id: "supplementaries:flax_seeds"
+							}
+							{
+								Count: 1b
+								id: "thermal:flax_seeds"
+							}
+						]
+					}
+				}
 				type: "item"
 			}]
 			title: "{atm9.quest.farm.flax}"

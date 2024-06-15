@@ -1379,6 +1379,7 @@
 						gateway: "gateways:basic/enderman"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -16.5d
@@ -1397,6 +1398,7 @@
 						gateway: "gateways:basic/blaze"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -15.5d

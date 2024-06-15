@@ -1825,6 +1825,7 @@
 				"{atm9.quest.industrialForegoing.desc.mycelialReactorFeatures.3}"
 			]
 			id: "0FAAE744E156D8EF"
+			optional: true
 			rewards: [{
 				id: "4072266D7E2B23B7"
 				type: "xp"

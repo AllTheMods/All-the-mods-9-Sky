@@ -707,8 +707,8 @@
 			]
 			size: 1.5d
 			tasks: [{
-				id: "2690AA96627B5807"
-				item: "industrialforegoing:tinydryrubber"
+				id: "49D4D51C8DD8CF11"
+				item: "industrialforegoing:dryrubber"
 				type: "item"
 			}]
 			title: "{atm9.quest.start3.IF}"

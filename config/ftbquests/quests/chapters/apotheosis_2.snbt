@@ -252,8 +252,9 @@
 			description: ["{atm9.quest.spawner.desc.egg}"]
 			id: "6F71FD826C29C31A"
 			rewards: [{
-				id: "1532FF56C99CAB89"
-				item: "aquaculture:box_turtle"
+				count: 4
+				id: "5A20727182CB80C6"
+				item: "minecraft:turtle_egg"
 				type: "item"
 			}]
 			tasks: [{
