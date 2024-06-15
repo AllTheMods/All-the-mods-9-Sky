@@ -8,8 +8,8 @@ BlockEvents.leftClicked('minecraft:obsidian', event => {
     let handField = event.class.getDeclaredField('hand')
     handField.setAccessible(true)
     let hand = handField.get(event)
-    console.log(hand)
-    console.log(level.side)
+    //console.log(hand)
+    //console.log(level.side)
     if (hand != 'MAIN_HAND') return
     if (!item.isEmpty()) return
     if (player.isFake()) return
