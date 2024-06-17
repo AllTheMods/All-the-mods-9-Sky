@@ -3373,6 +3373,14 @@
     "atm9.quest.occultism.familiars.2": "&dFamiliars&r",
 	
 	
+
+    "item.allthemodium.smithing_template.allthemodium_upgrade.base_slot_description": "Add Netherite Armor, Weapon, or Tool",
+    "item.allthemodium.smithing_template.allthemodium_upgrade.additions_slot_description": "Add Allthemodium Ingot",
+    "item.allthemodium.smithing_template.vibranium_upgrade.base_slot_description": "Add Allthemodium Armor, Weapon, or Tool",
+    "item.allthemodium.smithing_template.vibranium_upgrade.additions_slot_description": "Add Vibranium Ingot",
+    "item.allthemodium.smithing_template.unobtainium_upgrade.base_slot_description": "Add Vibranium Armor, Weapon, or Tool",
+    "item.allthemodium.smithing_template.unobtainium_upgrade.additions_slot_description": "Add Unobtainium Ingot",
+	
     "item.kubejs.micro_universe_catalyst.tooltip": "Forged in the fire of a thousand suns.",
 	"kubejs.apiary_ii.tooltip.bee_requirements": "Requires Very High, Any, Metaturnal bees to run",
 	"kubejs.apiary_i.tooltip.bee_eater": "Occasionally eats the bees"
