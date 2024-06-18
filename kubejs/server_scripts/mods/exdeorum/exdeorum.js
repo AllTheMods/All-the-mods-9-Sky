@@ -184,11 +184,6 @@ addSifting(Moss, IronMesh, 'ars_elemental:yellow_archwood_sapling', 1, 0.1)
 addSifting(Moss, GoldMesh, 'ars_elemental:yellow_archwood_sapling', 1, 0.1)
 addSifting(Moss, DiamondMesh, 'ars_elemental:yellow_archwood_sapling', 1, 0.1)
 addSifting(Moss, NetheriteMesh, 'ars_elemental:yellow_archwood_sapling', 1, 0.1)
-addSifting(Deepslate, FlintMesh, 'silentgear:bort', 1, 0.1)
-addSifting(Deepslate, IronMesh, 'silentgear:bort', 1, 0.1)
-addSifting(Deepslate, GoldMesh, 'silentgear:bort', 1, 0.1)
-addSifting(Deepslate, DiamondMesh, 'silentgear:bort', 1, 0.1)
-addSifting(Deepslate, NetheriteMesh, 'silentgear:bort', 1, 0.1)
 
 //Crucible heating blocks
 addHeatSource(`botania:blaze_block`, 8)
