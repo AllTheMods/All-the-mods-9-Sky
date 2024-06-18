@@ -46,7 +46,7 @@ ServerEvents.recipes(event => {
     .input('minecraft:grass_block')
     .input('minecraft:stone')
     .input('minecraft:bone_meal')
-    .mobOutput('miecraft:chicken')
+    .mobOutput('minecraft:chicken')
 
     //cow
     event.recipes.summoningrituals
@@ -163,6 +163,18 @@ ServerEvents.recipes(event => {
     .input('minecraft:stone')
     .input('#forge:slimeballs')
     .mobOutput('minecraft:slime')
+
+    //squid
+    event.recipes.summoningrituals
+    .altar('minecraft:water_bucket')
+    .input('minecraft:black_dye')
+    .input('minecraft:stone')
+    .input('minecraft:black_dye')
+    .input('minecraft:dirt')
+    .input('minecraft:black_dye')
+    .input('minecraft:stone')
+    .input('minecraft:black_dye')
+    .mobOutput('minecraft:squid')
 
     //piglich
     event.recipes.summoningrituals

@@ -1,0 +1,6 @@
+{
+  "blacklisted_entities": [
+    "forcecraft:creeper_tot",
+    "forcecraft:ender_tot"
+  ]
+}

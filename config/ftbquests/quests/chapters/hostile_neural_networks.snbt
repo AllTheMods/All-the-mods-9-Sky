@@ -68,19 +68,11 @@
 			description: ["{atm9.quest.hostile.desc.learn}"]
 			hide: false
 			id: "3E3CBDCEAB0FF28F"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "601E3BA6CC04F9AE"
-					table_id: 487623848494439020L
-					type: "loot"
-				}
-				{
-					id: "5CA80FB9829DC39F"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "5CA80FB9829DC39F"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "square"
 			subtitle: "{atm9.quest.hostile.subt.learn}"
 			tasks: [{
@@ -97,19 +89,11 @@
 			description: ["{atm9.quest.hostile.desc.modeling}"]
 			hide: false
 			id: "58C2ABED43B2EA61"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "050F4D5ACBA8C0C4"
-					table_id: 487623848494439020L
-					type: "loot"
-				}
-				{
-					id: "5FAF62796246C4E8"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "5FAF62796246C4E8"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "square"
 			subtitle: "{atm9.quest.hostile.subt.modeling}"
 			tasks: [{
@@ -1144,19 +1128,11 @@
 			description: ["{atm9.quest.hostile.desc.loot}"]
 			hide_dependency_lines: false
 			id: "14B3542ECB59869C"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4531787C434F9718"
-					table_id: 4196188979167302596L
-					type: "loot"
-				}
-				{
-					id: "0AA237BF385028BD"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "0AA237BF385028BD"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -1216,6 +1192,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -2.5d

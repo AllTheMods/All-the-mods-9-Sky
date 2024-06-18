@@ -8,14 +8,14 @@ BlockEvents.leftClicked('minecraft:obsidian', event => {
     let handField = event.class.getDeclaredField('hand')
     handField.setAccessible(true)
     let hand = handField.get(event)
-    console.log(hand)
-    console.log(level.side)
+    //console.log(hand)
+    //console.log(level.side)
     if (hand != 'MAIN_HAND') return
     if (!item.isEmpty()) return
     if (player.isFake()) return
     let base = block.offset(0, -2, 0)
     let pos = block.pos
-    if (base.id != 'allthecompressed:obsidian_block_1x') return
+    if (base.id != 'allthecompressed:obsidian_1x') return
     //if (base.id != 'minecraft:crying_obsidian') return
     let fluxCount = 0
     level.getEntitiesWithin(AABB.ofBlock(pos.below()))
@@ -25,8 +25,8 @@ BlockEvents.leftClicked('minecraft:obsidian', event => {
             if (fluxCount < 512) {
                 let count = entity.item.count
                 fluxCount += count
-                console.log(fluxCount)
-                console.log(count)
+                //console.log(fluxCount)
+                //console.log(count)
                 entity.discard()
                 return count
             }

@@ -25,9 +25,9 @@
 					type: "item"
 				}
 				{
-					id: "1159FE6CDF262C46"
-					type: "xp"
-					xp: 10
+					id: "27E83245804C145F"
+					type: "xp_levels"
+					xp_levels: 3
 				}
 			]
 			subtitle: "{atm9.quest.tips.subt.sink}"
@@ -41,90 +41,12 @@
 			y: 0.5d
 		}
 		{
-			description: ["{atm9.quest.tips.desc.shrink}"]
-			id: "7EC8814940C4C3D7"
-			rewards: [
-				{
-					id: "7CCC4171B93B35F0"
-					item: "botania:cosmetic_tiny_potato_mask"
-					type: "item"
-				}
-				{
-					id: "156D559B0B56BA9A"
-					type: "xp"
-					xp: 10
-				}
-			]
-			shape: "diamond"
-			subtitle: "{atm9.quest.tips.subt.shrink}"
-			tasks: [{
-				id: "30C938C85BED7956"
-				item: {
-					Count: 1
-					id: "shrink:shrinking_device"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "{atm9.quest.tips.shrink}"
-			x: -0.5d
-			y: 0.5d
-		}
-		{
-			description: ["{atm9.quest.tips.desc.potion}"]
-			id: "3EE9F242794CD95F"
-			rewards: [
-				{
-					id: "319A13116831F46D"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "potionsmaster:gold_sight"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "717AB46363706266"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "{atm9.quest.tips.subt.potion}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:potion"
-					tag: {
-						Potion: "potionsmaster:iron_sight"
-					}
-				}
-				id: "15F5B24545C0D42F"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							Potion: "potionsmaster:iron_sight"
-						}
-					}
-				}
-				title: "IronSight"
-				type: "item"
-			}]
-			title: "{atm9.quest.tips.potion}"
-			x: -1.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["73F91BF3D424B269"]
 			description: ["{atm9.quest.tips.desc.hyperbox}"]
 			id: "594540768120A627"
 			rewards: [{
-				id: "10CFB937D14BE803"
-				type: "xp"
-				xp: 10
+				id: "2A248AC5FB96CA1A"
+				type: "xp_levels"
+				xp_levels: 3
 			}]
 			subtitle: "{atm9.quest.tips.subt.hyperbox}"
 			tasks: [{
@@ -137,12 +59,12 @@
 			y: 0.0d
 		}
 		{
-			description: ["{atm9.quest.tips.desc.compact}"]
+			description: ["{atm9.quest.tips.desc.shrink}"]
 			id: "73F91BF3D424B269"
 			rewards: [{
-				id: "43605B432D1C8172"
-				type: "xp"
-				xp: 10
+				id: "55241015585F591A"
+				type: "xp_levels"
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "3B227EED4B839733"
@@ -153,7 +75,7 @@
 				}
 				type: "item"
 			}]
-			title: "{atm9.quest.tips.compact}"
+			title: "{atm9.quest.tips.shrink}"
 			x: -6.0d
 			y: 1.0d
 		}
@@ -161,9 +83,9 @@
 			description: ["{atm9.quest.tips.desc.build}"]
 			id: "0F75D7B9F4FF2459"
 			rewards: [{
-				id: "2087EBA230655A8C"
-				type: "xp"
-				xp: 100
+				id: "4F4959C6CA30683B"
+				type: "xp_levels"
+				xp_levels: 3
 			}]
 			shape: "diamond"
 			tasks: [
@@ -200,9 +122,9 @@
 			description: ["{atm9.quest.tips.desc.wand}"]
 			id: "2A2E3D020B1F5126"
 			rewards: [{
-				id: "03F64743F4F59499"
-				type: "xp"
-				xp: 10
+				id: "73E17D3567E3D6BD"
+				type: "xp_levels"
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "05D9E287D437CDDB"
@@ -223,19 +145,22 @@
 		{
 			dependencies: [
 				"722978AC0C1B2649"
-				"7EC8814940C4C3D7"
-				"3EE9F242794CD95F"
 				"594540768120A627"
 				"73F91BF3D424B269"
 				"0F75D7B9F4FF2459"
 				"2A2E3D020B1F5126"
+				"0821032D8ACE7E82"
+				"70E66957E98D944D"
+				"2874646A910EA889"
+				"3FC002E5A6C08DCC"
+				"25E585C8AE7430DC"
 			]
 			hide_dependency_lines: true
 			id: "0F8F37D7E12078F5"
 			rewards: [{
-				id: "032158E75A1291D8"
-				type: "xp"
-				xp: 10
+				id: "7C7200EB84547449"
+				type: "xp_levels"
+				xp_levels: 10
 			}]
 			shape: "gear"
 			subtitle: "{atm9.quest.tips.subt.tipped_out}"
@@ -246,55 +171,6 @@
 			title: "{atm9.quest.tips.tipped_out}"
 			x: -3.5d
 			y: 0.5d
-		}
-		{
-			dependencies: ["3EE9F242794CD95F"]
-			description: ["{atm9.quest.tips.desc.charm}"]
-			id: "6396AA6918B47DDC"
-			rewards: [
-				{
-					id: "46455F0068AFFF60"
-					item: {
-						Count: 1
-						id: "minecraft:lingering_potion"
-						tag: {
-							Potion: "potionsmaster:diamond_sight"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "403115903FE0D456"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "apotheosis:potion_charm"
-					tag: {
-						Damage: 0
-						Potion: "potionsmaster:iron_sight"
-					}
-				}
-				id: "3F38B1E12C1ADEF1"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							Damage: 0
-							Potion: "potionsmaster:iron_sight"
-						}
-					}
-				}
-				title: "Charm of IronSight"
-				type: "item"
-			}]
-			title: "{atm9.quest.tips.charm}"
-			x: -1.0d
-			y: 0.0d
 		}
 		{
 			description: ["{atm9.quest.tips.desc.tricks}"]
@@ -320,9 +196,9 @@
 			description: ["{atm9.quest.tips.desc.magnet}"]
 			id: "3FC002E5A6C08DCC"
 			rewards: [{
-				id: "0F5B656ED410D441"
-				type: "xp"
-				xp: 10
+				id: "256A43FECEFF24DB"
+				type: "xp_levels"
+				xp_levels: 3
 			}]
 			subtitle: "{atm9.quest.tips.subt.magnet}"
 			tasks: [{
@@ -340,7 +216,19 @@
 		}
 		{
 			description: ["{atm9.quest.tips.desc.gale}"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "projecte:swiftwolf_rending_gale"
+			}
 			id: "25E585C8AE7430DC"
+			rewards: [{
+				id: "0F1FEE53279D1DCB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [
 				{
 					id: "1E0446C02381B91A"
@@ -362,6 +250,144 @@
 			title: "{atm9.quest.tips.gale}"
 			x: -4.5d
 			y: 0.5d
+		}
+		{
+			description: ["{atm9.quest.tips.desc.repair}"]
+			id: "0821032D8ACE7E82"
+			rewards: [{
+				id: "06651311BB1B0C7F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "{atm9.quest.tips.subt.repair}"
+			tasks: [{
+				id: "1D6930C723F7BF7C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:repair_talisman"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			description: ["{atm9.quest.tips.desc.gateway}"]
+			icon: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:emerald_grove"
+				}
+			}
+			id: "70E66957E98D944D"
+			rewards: [{
+				id: "3CAA8F1EE5F5D087"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "2F8A05433945F741"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:basic/blaze"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:basic/slime"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:basic/enderman"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:emerald_grove"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:endless/blaze"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:overworldian_nights"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:hellish_fortress"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.tips.gateway}"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			description: ["{atm9.quest.tips.desc.torch}"]
+			icon: "torchmaster:megatorch"
+			id: "2874646A910EA889"
+			rewards: [{
+				id: "10D78D51349C01D1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "2EBAFA63D3D96B6C"
+					item: "torchmaster:megatorch"
+					type: "item"
+				}
+				{
+					id: "32A72CBDA8A7CCB2"
+					item: "torchmaster:dreadlamp"
+					type: "item"
+				}
+				{
+					id: "2771EAC66CE43976"
+					item: "torchmaster:feral_flare_lantern"
+					type: "item"
+				}
+				{
+					id: "15185F7D9371601D"
+					item: "torchmaster:frozen_pearl"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.tips.torch}"
+			x: -1.0d
+			y: 1.0d
 		}
 	]
 	title: "{atm9.chapters.4.title}"

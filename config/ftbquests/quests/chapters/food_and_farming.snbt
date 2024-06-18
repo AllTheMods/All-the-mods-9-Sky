@@ -119,9 +119,9 @@
 			size: 1.5d
 			subtitle: "Getting Started"
 			tasks: [{
-				id: "07603A90CCCB3627"
-				title: "Food and Farming"
-				type: "checkmark"
+				dimension: "minecraft:overworld"
+				id: "3B94A540E1653AB0"
+				type: "dimension"
 			}]
 			title: "{atm9.quest.farm.food}"
 			x: 0.5d
@@ -200,10 +200,10 @@
 				xp: 10
 			}]
 			tasks: [{
-				id: "3A9869856B3E9D54"
+				id: "4BA73291E50EB55D"
 				item: {
 					Count: 1
-					id: "minecraft:shears"
+					id: "pickletweaks:flint_shears"
 					tag: {
 						Damage: 0
 					}
@@ -254,12 +254,6 @@
 					id: "72142B51809511CF"
 					type: "xp"
 					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4F333F2FC9C0A269"
-					table_id: 487623848494439020L
-					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -482,8 +476,27 @@
 			}]
 			subtitle: "Who needs spiders anyway?"
 			tasks: [{
-				id: "52030BFD91159DAC"
-				item: "supplementaries:flax_seeds"
+				id: "6D7AAE290A87345C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "silentgear:flax_seeds"
+							}
+							{
+								Count: 1b
+								id: "supplementaries:flax_seeds"
+							}
+							{
+								Count: 1b
+								id: "thermal:flax_seeds"
+							}
+						]
+					}
+				}
 				type: "item"
 			}]
 			title: "{atm9.quest.farm.flax}"
@@ -552,12 +565,6 @@
 					type: "xp"
 					xp: 10
 				}
-				{
-					exclude_from_claim_all: true
-					id: "40EA2F27F5E8685D"
-					table_id: 487623848494439020L
-					type: "random"
-				}
 			]
 			subtitle: "This is totally worth it btw"
 			tasks: [{
@@ -614,12 +621,6 @@
 					type: "xp"
 					xp: 10
 				}
-				{
-					exclude_from_claim_all: true
-					id: "22943343AA0140AF"
-					table_id: 487623848494439020L
-					type: "random"
-				}
 			]
 			shape: "diamond"
 			subtitle: "So much room for activities!"
@@ -648,12 +649,6 @@
 					id: "0B13ECD292D7D073"
 					type: "xp"
 					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "17F23B9B65A62413"
-					table_id: 487623848494439020L
-					type: "random"
 				}
 			]
 			shape: "diamond"
@@ -685,12 +680,6 @@
 					item: "croptopia:vanilla_ice_cream"
 					type: "item"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "48E3792992035011"
-					table_id: 487623848494439020L
-					type: "random"
-				}
 			]
 			shape: "diamond"
 			subtitle: "You'll open it, close it, then open it again, just because you're bored."
@@ -721,12 +710,6 @@
 					type: "xp"
 					xp: 10
 				}
-				{
-					exclude_from_claim_all: true
-					id: "00F96B54F8F81325"
-					table_id: 487623848494439020L
-					type: "random"
-				}
 			]
 			shape: "diamond"
 			subtitle: "No Timer Needed"
@@ -754,12 +737,6 @@
 					id: "2390EE9B8E964CCA"
 					type: "xp"
 					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "285E04C219E15BE2"
-					table_id: 487623848494439020L
-					type: "random"
 				}
 			]
 			shape: "diamond"
@@ -789,12 +766,6 @@
 					type: "xp"
 					xp: 10
 				}
-				{
-					exclude_from_claim_all: true
-					id: "3F871506DE4A9E43"
-					table_id: 487623848494439020L
-					type: "random"
-				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -822,12 +793,6 @@
 					id: "7F98CDC2EA641EF7"
 					type: "xp"
 					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7D1016D39347DFD3"
-					table_id: 487623848494439020L
-					type: "random"
 				}
 			]
 			shape: "diamond"
@@ -876,12 +841,6 @@
 					id: "7F528DE479E680AE"
 					type: "xp"
 					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "688019DBD32BF755"
-					table_id: 487623848494439020L
-					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -938,12 +897,6 @@
 					id: "62FB77230F1D9F9B"
 					type: "xp"
 					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "139855B12BA13469"
-					table_id: 487623848494439020L
-					type: "random"
 				}
 			]
 			shape: "diamond"
