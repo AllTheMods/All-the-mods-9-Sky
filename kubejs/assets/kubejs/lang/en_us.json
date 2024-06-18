@@ -31,7 +31,7 @@
 	"atm9.chapters.21.title": "Mekanism: &dAdvanced&r",
 	"atm9.chapters.22.title": "Powah",
 	"atm9.chapters.23.title": "Thermal Series",
-	"atm9.chapters.32.title": "Quests for Rorax aka {XyCraft)",
+	"atm9.chapters.32.title": "XyCraft",
 	"atm9.chapters.group.6.": "Magic",
 	"atm9.chapters.24.title": "Apotheosis Enchanting",
 	"atm9.chapters.25.title": "Ars Nouveau",
@@ -1899,8 +1899,6 @@
 	"atm9.quest.bees.spatial": "Spatial Bee",
 	"atm9.quest.bees.resin": "Resin Bee",
 	"atm9.quest.bees.beetree": "&e&lThe Bee Tree    ",
-	"atm9.quest.bees.EX": "EX",
-	"atm9.quest.bees.EX": "EX",
 
 	"atm9.quest.bees.desc.welcome": "In this pack, bees can farm you any essential resource! Start your beekeeping journey getting honey, and end it by getting literal &6&lATM Stars&r&r \\n \\nLine 1 teaches you how to use bees, line 2 teaches you how to make the best bees, line 3 is the bee path!",
 	"atm9.quest.bees.desc.first": "To start &eProductive Bees&r, you'll need.. bees. We need vanilla bees to get our first combs going. \\n \\nStart by bonemealing grass to get a &bVanilla Flower&r, easiest being a dandelion. Place a &aSapling&r within a few blocks of the flower, and spam sneak to grow the tree. \\n \\nWith a little luck, the tree will grow with a hive on it.",
@@ -1939,9 +1937,6 @@
 	"atm9.quest.bees.desc.poswarden": "You must kill &b&lPossesed Wardens&r for these",
 	"atm9.quest.bees.desc.shulkers": "Needed for 10 &bHoarder Bees&r, which equates to around 2 spawn eggs",
 	"atm9.quest.bees.desc.wannabee": "Will farm any mob encased in &eAmber&r by an &eAmber Bee&r to generate mob drops out of thin air!",
-	"atm9.quest.bees.desc.EX": "EX",
-	"atm9.quest.bees.desc.EX": "EX",
-	"atm9.quest.bees.desc.EX": "EX",
 
 	"atm9.quest.bees.subt.welcome": "The Best Resource Generation Mod",
 	"atm9.quest.bees.subt.seeds": "For Infinite Honey",
@@ -1950,8 +1945,6 @@
 	"atm9.quest.bees.subt.babee": "Duplicating Most Bees",
 	"atm9.quest.bees.subt.omega": "It says 260%%, When Really, It's More Like 1040%%",
 	"atm9.quest.bees.subt.resin": "Spawns From a Spruce Hive",
-	"atm9.quest.bees.subt.EX": "EX",
-	"atm9.quest.bees.subt.EX": "EX",
 
 	"atm9.quest.proje.welcome": "Welcome to &aProject E&r",
 	"atm9.quest.proje.covdust": "Covalence Dusts",
@@ -1961,7 +1954,6 @@
 	"atm9.quest.proje.dmtools": "Dark Matter Tools",
 	"atm9.quest.proje.heat": "&cVery Hot!&r",
 	"atm9.quest.proje.RM": "Using Red Matter!",
-	"atm9.quest.proje.EX": "EX",
 
 	"atm9.quest.proje.desc.welcome": "Project E is all about trading in EMC for items. This can be done via trading items that have an EMC from one to another, or trading pure EMC for items!",
 	"atm9.quest.proje.desc.covdust": "Covalence dusts have &lhigh&r EMC values and trade in for lots of items. You will use these to trade early on.",
@@ -2001,7 +1993,6 @@
 
 	"atm9.quest.proje.subt.gen": "Passive EMC Generation",
 	"atm9.quest.proje.subt.trans": "Better than Energy Condenser",
-	"atm9.quest.proje.subt.EX": "EX",
 	
 	
 	"atm9.quest.create.desc.welcome.1": "&5&lWelcome To Create!",
