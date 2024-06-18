@@ -45,7 +45,7 @@
 		description: ["{atm9.quest.welcome.desc.welcome}"]
 		icon: "allthecompressed:atm_star_block_1x"
 		id: "23BDBBD3001F9774"
-		optional: true
+		optional: false
 		rewards: [
 			{
 				id: "41B357A352E97746"
