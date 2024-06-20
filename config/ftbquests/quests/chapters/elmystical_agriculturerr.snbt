@@ -1614,19 +1614,6 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["2857F2DB4E116B38"]
-			description: ["{atm9.quest.ma.desc.pulverizethis}"]
-			id: "6AD4E3F410FD259D"
-			tasks: [{
-				id: "3930C52298AD888A"
-				item: "alltheores:tin_ore"
-				type: "item"
-			}]
-			x: 29.5d
-			y: 17.0d
-		}
-		{
-			dependencies: ["6AD4E3F410FD259D"]
 			id: "62024135557CF54A"
 			tasks: [{
 				id: "68C9BFD2BF23F0A4"
