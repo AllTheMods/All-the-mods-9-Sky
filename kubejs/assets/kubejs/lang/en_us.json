@@ -2536,7 +2536,7 @@
     "atm9.quest.powah.energizingRods": "Energizing Rods",
     "atm9.quest.powah.energizingOrb": "The &9Energizing Orb&r",
     "atm9.quest.powah.desc.thermalGenerator.1": "One of the best options for \\\"Passive Power\\\", the &9Thermal Generator&r will produce FE when placed over a &cHeat Source&r and given a steady supply of water.",
-    "atm9.quest.powah.desc.thermalGenerator.2": "There are currently 3 blocks you can place this over: a Magma block which produces the lowest, a lava source block which is a little better, or a &cBlock of Blazing Crystal&r, which provides the most heat. ",
+    "atm9.quest.powah.desc.thermalGenerator.2": "There are currently 5 blocks you can place this over: a Magma block which produces the lowest, a lava source block which is a little better, or a &cBlock of Blazing Crystal&r, which provided the most heat... Until now! Sky has some additional heat sources with dark matter and finally redmatter being significant improvements. ",
     "atm9.quest.powah.desc.furnator": "The &7Furnator&r will burn items like coal and wood to produce FE.",
     "atm9.quest.powah.desc.solarPanel": "The Solar Panel generates FE when given direct access to the sun. However, you can use a &7Lens of Ender&r to ignore blocks in its way.",
     "atm9.quest.powah.desc.magmator": "The &cMagmator&r will generate FE when supplied with Lava.",
