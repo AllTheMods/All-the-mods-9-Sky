@@ -2709,7 +2709,7 @@
 	"atm9.quest.xycraft.desc.io": "Item IOs (IO stands for Input Output) give us the ability to transport items in and out of the Tank. Like buckets to be filled with Water. They can be toggled for Output and Input.",
 	"atm9.quest.xycraft.desc.item": "XyCraft has some Item storage and manipulation. Not much, but still some!",
 	"atm9.quest.xycraft.desc.fabricator": "Fabricator is the Auto-Crafter. It will take Items from the Inventory below and make a set recipe. You can lock recipes with CTRL Click. It will need to pipe out the created items though.",
-	"atm9.quest.xycraft.desc.box": "The Soaryn {Soaryn is the name of the Creator of XyCraft) Box is the chest of XyCraft. It will not hold items off breaking the block! I wonder what those Squares on it does...",
+	"atm9.quest.xycraft.desc.box": "The Soaryn Box (Soaryn is the name of the Creator of XyCraft) is the chest of XyCraft. It will not hold items off breaking the block! I wonder what those Squares on it does...",
 	"atm9.quest.xycraft.desc.collector": "The Collector works as a very cheap Absorption Hopper. It will pick up all items within a 3 block radius and put it in the Inventory below or it's own. It can be turned off with Redstone!",
 	"atm9.quest.xycraft.desc.container": "The Void Container makes any Inventory a Trash Can. Put it ontop of the Inventory and BOOM no more items!",
 	
