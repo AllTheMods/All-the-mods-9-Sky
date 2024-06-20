@@ -3235,7 +3235,7 @@
     "atm9.quest.botania.desc.continuousParticle": "This converts the Mana Spreader's bursts to only fire a continuous particle rather than short bursts. No mana is consumed. Great for decorative uses.",
     "atm9.quest.botania.desc.mobOnlyBurst": "Using this on a Spreader will cause it to fire a Mana Burst only if it can hit a mob or player.",
     "atm9.quest.botania.desc.manaCarryDecrease": "Greatly decreases the amount of Mana a Mana Burst carries and dramatically increases the burst's speed and distance.",
-    "atm9.quest.botania.desc.redirection": "This lens will redirect any Mana Spreaders or entities it collides with to face towards teh block or entity that fired the burst.",
+    "atm9.quest.botania.desc.redirection": "This lens will redirect any Mana Spreaders or entities it collides with to face towards the block or entity that fired the burst.",
     "atm9.quest.botania.desc.createFlame": "Causes the Mana Burst to create flame on the block it hits. This flame provides light and is purely decorative. It can be put out by using another Mana Burst on it.",
     "atm9.quest.botania.desc.moveBlock": "Allows the Mana Burst to move a block just as if a piston would.",
     "atm9.quest.botania.desc.catchFire": "Allows the Mana Burst to catch blocks on fire. It will not work on living beings.",
