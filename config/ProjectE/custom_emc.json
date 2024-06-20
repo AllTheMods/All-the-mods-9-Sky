@@ -137,6 +137,70 @@
       "emc": 32
     },
     {
+      "item": "minecraft:oak_wood",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:stripped_oak_wood",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:spruce_wood",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:stripped_spruce_wood",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:birch_wood",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:stripped_birch_wood",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:jungle_wood",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:stripped_jungle_wood",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:acacia_wood",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:stripped_acacia_wood",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:dark_oak_wood",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:stripped_dark_oak_wood",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:mangrove_wood",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:stripped_mangrove_wood",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:cherry_wood",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:stripped_cherry_wood",
+      "emc": 32
+    },
+    {
       "item": "minecraft:light_gray_carpet",
       "emc": 32
     },
@@ -517,6 +581,23 @@
       "emc": 4
     },
     {
+      "item": "create:asurine",
+      "emc": 4
+    },
+    {
+      "item": "create:crimsite",
+      "emc": 4
+    },
+    {
+      "item": "create:ochrum",
+      "emc": 4
+    },
+    {
+      "item": "create:veridium",
+      "emc": 4
+    },
+
+    {
       "item": "minecraft:ink_sac",
       "emc": 16
     },
@@ -747,6 +828,10 @@
     {
       "item": "minecraft:phantom_membrane",
       "emc": 2048
+    },
+    {
+      "item": "minecraft:magma_cream",
+      "emc": 64
     }
   ]
 }
