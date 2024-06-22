@@ -377,6 +377,7 @@
 	"atm9.quest.start2.desc.village": "Place a source jar near a ritual brazier and use the tablet on it, then right click the brazier with your hand. \\n \\nNote: Do this around 20 blocks away from your other structures.",
 	"atm9.quest.start2.desc.netherstar": "Go slay the wither and obtain your first nether star, these are going to be pretty useful as you progress.",
 	"atm9.quest.start2.desc.netherstarseeds": "Nether star seeds are the easiest way to get an infinite nether star farm. Phytos for the win!",
+	"atm9.quest.start2.desc.witherprediction": "&6Nether Stars&r can be generated using predictions.\\nGet a &7Wither Data Model&r by right-clicking a &7Wither&r with a &7Data Model&r. \\n \\nPlace the &7Data Model&r in the &bDeep Learner&r.\\n \\nNow kill the &7Wither&r 6 times to upgrade the model.\\n \\nIt can now be used in a &bSimulation Chamber&r to generate &7Wither Predictions&r.\\n \\nUse &7Wither Predictions&r in a &bLoot Fabricator&r to get &6Nether Stars&r.",
 	"atm9.quest.start2.desc.infinitywand": "The infinity wand is unbreakable and can place over a stack of blocks, very nice for platforms.",
 	"atm9.quest.start2.desc.angelring": "The angel ring lets you fly as if you were in creative mode.. but why? There's jetpacks..",
 	"atm9.quest.start2.desc.tiab": "Shift click with this item to speed up machines, in fact, speed up anything! Accumulates time over time.",
