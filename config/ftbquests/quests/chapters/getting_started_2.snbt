@@ -1732,37 +1732,22 @@
 		{
 			dependencies: ["7438B09498907DE0"]
 			description: [
-				"{atm9.quest.start2.desc.laserbase}"
+				"{atm9.quest.start2.desc.allthemodium} "
 				""
-				"{image:atm:textures/questpics/laserbase.png width:210 height:150 align:1}"
+				"{ \"text\": \"Allthemodium Chapter\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"031BDF73F745954F\" } }"
 			]
 			id: "4897A7858A863C61"
 			rewards: [{
-				count: 2
-				id: "70E716155F9BAE8E"
-				item: {
-					Count: 1
-					id: "industrialforegoing:speed_addon_2"
-					tag: {
-						TitaniumAugment: {
-							Speed: 3.0f
-						}
-					}
-				}
+				id: "40A9FF73F5DFC761"
+				item: "allthemodium:allthemodium_ingot"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "1F1105159D672B68"
-					item: "industrialforegoing:ore_laser_base"
-					type: "item"
-				}
-				{
-					id: "182A8498BC72EEA2"
-					item: "industrialforegoing:laser_drill"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "466A01AF5F80360F"
+				item: "allthemodium:allthemodium_ingot"
+				type: "item"
+			}]
+			title: "Allthemodium"
 			x: 15.5d
 			y: 0.5d
 		}
@@ -1791,24 +1776,6 @@
 			}]
 			x: 9.5d
 			y: 0.5d
-		}
-		{
-			dependencies: ["4897A7858A863C61"]
-			description: ["{atm9.quest.start2.desc.laserlens}"]
-			id: "31CD8C5405C5D1AA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "73300413D125C25A"
-				table_id: 487623848494439020L
-				type: "choice"
-			}]
-			tasks: [{
-				id: "1D8A4BB5C09F5BBD"
-				item: "industrialforegoing:laser_lens0"
-				type: "item"
-			}]
-			x: 15.5d
-			y: -0.5d
 		}
 		{
 			dependencies: ["4897A7858A863C61"]
