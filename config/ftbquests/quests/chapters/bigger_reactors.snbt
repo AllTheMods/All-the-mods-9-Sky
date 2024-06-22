@@ -17,15 +17,15 @@
 			y: -2.5d
 		}
 		{
-			click: "https://biggerseries.net/biggerreactors/reactor/moderators"
-			dependency: "4AD8363D7359A072"
+			click: "https://biggerseries.net/biggerreactors"
+			dependency: "7C4E4793DA887DE4"
 			height: 0.25d
-			hover: ["Full List of Moderators"]
+			hover: ["Bigger Reactors Wiki"]
 			image: "allthemodium:textures/block/unobtainium_block.png"
 			rotation: 45.0d
 			width: 0.25d
-			x: 2.0d
-			y: 3.5d
+			x: -4.5d
+			y: 0.0d
 		}
 		{
 			click: "https://biggerseries.net/biggerreactors/turbine/coils"
@@ -38,8 +38,19 @@
 			x: -3.0d
 			y: 11.5d
 		}
+		{
+			click: "https://docs.google.com/spreadsheets/d/1HqJb31E-77C0HBAKTw0OTfeoEV5RSO-mK_THcipMVSo/edit?usp=sharing"
+			dependency: "4AD8363D7359A072"
+			height: 0.25d
+			hover: ["Full List of Reactor Moderators"]
+			image: "allthemodium:textures/block/unobtainium_block.png"
+			rotation: 45.0d
+			width: 0.25d
+			x: 2.0d
+			y: 3.5d
+		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
