@@ -28,21 +28,21 @@
 			y: 0.0d
 		}
 		{
-			click: "https://biggerseries.net/biggerreactors/turbine/coils"
+			click: "https://docs.google.com/spreadsheets/d/1NKnuSNmblMEZLxqS8FSFWp8U43vNH7Xd0sRF5vmvGYk/edit?usp=sharing"
 			dependency: "4415C9F8DA2D7E68"
 			height: 0.25d
 			hover: ["List of Turbine Coils and Properties"]
 			image: "biggerreactors:textures/block/turbine/fluid_port/inlet.png"
 			rotation: 45.0d
 			width: 0.25d
-			x: -3.0d
-			y: 11.5d
+			x: -2.75d
+			y: 10.6d
 		}
 		{
 			click: "https://docs.google.com/spreadsheets/d/1HqJb31E-77C0HBAKTw0OTfeoEV5RSO-mK_THcipMVSo/edit?usp=sharing"
 			dependency: "4AD8363D7359A072"
 			height: 0.25d
-			hover: ["Full List of Reactor Moderators"]
+			hover: ["Full List of Moderators and Properties"]
 			image: "allthemodium:textures/block/unobtainium_block.png"
 			rotation: 45.0d
 			width: 0.25d
