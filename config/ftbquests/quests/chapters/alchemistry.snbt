@@ -38,9 +38,9 @@
 		{
 			dependencies: ["611891F4FB775BD3"]
 			description: [
-				"To create your first elements, you're going to want to make a Dissolver. When supplied with FE, the Dissolver will disolve items placed inside into their constituent elements. "
+				"{atm9.quest.alchem.desc.dissolver.1}"
 				""
-				"Most elements are farmable with Productive Bees."
+				"{atm9.quest.alchem.desc.dissolver.2}"
 				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"26E6ED94168A05C4\"}, \"text\": \"Click here to checkout the Questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
 			id: "71815B287D0F162A"
@@ -56,17 +56,18 @@
 					xp: 50
 				}
 			]
-			subtitle: "Creating Elements"
+			subtitle: "{atm9.quest.alchem.subt.dissolving}"
 			tasks: [{
 				id: "2298898337AC0825"
 				item: "alchemistry:dissolver"
 				type: "item"
 			}]
+			title: "{atm9.quest.alchem.dissolving}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			description: ["Alchemistry is a tech and resource generation mod inspired by the mod MineChem. This mod allows you to decompose items into the elements that make them up, then recombine them to create new items. Start by making the guidebook."]
+			description: ["{atm9.quest.alchem.desc.basics}"]
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"
@@ -81,7 +82,7 @@
 				xp: 10
 			}]
 			size: 1.5d
-			subtitle: "Earth, Fire, Water, Air?"
+			subtitle: "{atm9.quest.alchem.subt.basics}"
 			tasks: [{
 				id: "16669E81DC33327A"
 				item: {
@@ -93,12 +94,13 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.alchem.basics}"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["It's like Little Alchemy, combine multiple elements, get another."]
+			description: ["{atm9.quest.alchem.desc.combining}"]
 			hide_dependent_lines: true
 			id: "3AEDE9828B278466"
 			rewards: [{
@@ -106,18 +108,19 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Combing Elements"
+			subtitle: "{atm9.quest.alchem.subt.combining}"
 			tasks: [{
 				id: "0BB33DDA43FE1468"
 				item: "alchemistry:combiner"
 				type: "item"
 			}]
+			title: "{atm9.quest.alchem.combining}"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["Chemical to Dust."]
+			description: ["{atm9.quest.alchem.desc.compacting}"]
 			hide_dependent_lines: true
 			id: "0C882F195627F121"
 			rewards: [{
@@ -125,12 +128,13 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Compacting Elements"
+			subtitle: "{atm9.quest.alchem.subt.compacting}"
 			tasks: [{
 				id: "75EBDEDB404E5CF7"
 				item: "alchemistry:compactor"
 				type: "item"
 			}]
+			title: "{atm9.quest.alchem.compacting}"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -143,12 +147,13 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Liquids to Solids"
+			subtitle: "{atm9.quest.alchem.subt.atomizing}"
 			tasks: [{
 				id: "7C06D2ECF1F3B470"
 				item: "alchemistry:atomizer"
 				type: "item"
 			}]
+			title: "{atm9.quest.alchem.atomizing}"
 			x: -3.5d
 			y: -1.0d
 		}
@@ -161,21 +166,22 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Solids to Liquids"
+			subtitle: "{atm9.quest.alchem.subt.liquifying}"
 			tasks: [{
 				id: "1100B607C6CC157F"
 				item: "alchemistry:liquifier"
 				type: "item"
 			}]
+			title: "{atm9.quest.alchem.liquifying}"
 			x: -3.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1509AAC1A46BDC2C"]
 			description: [
-				"Use the guidebook to help you build this (press on the eye). Glass isn't required, but is recommended."
+				"{atm9.quest.alchem.desc.bothreactors}"
 				""
-				"The Fusion Reactor is a multiblock structure used to divide an element into 2 new elements from the atomic numbers of the element put in. For example, if you put in Bismuth (83), you'll get Molybdenum (42) and Niobium (41). Requires FE to run."
+				"{atm9.quest.alchem.desc.fission}"
 				""
 				""
 				"{image:atm:textures/questpics/alchemistry/fission_controller_1.png width:175 height:135 align:1}"
@@ -204,7 +210,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Dividing"
+			subtitle: "{atm9.quest.alchem.subt.fission}"
 			tasks: [
 				{
 					count: 59L
@@ -245,16 +251,16 @@
 					type: "item"
 				}
 			]
-			title: "Fission Reactor"
+			title: "{atm9.quest.alchem.fission}"
 			x: 7.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5121FA28244BE1A2"]
 			description: [
-				"Use the guidebook to help you build this (press on the eye). Glass isn't required, but is recommended."
+				"{atm9.quest.alchem.desc.bothreactors}"
 				""
-				"The Fusion Reactor is a multiblock structure used to combine 2 elements together to create a new element from the atomic numbers of the elements put in. For example, if you put Molybdenum (42) \\& Niobium (41), you'll get Bismuth (83). Requires FE to run."
+				"{atm9.quest.alchem.desc.fusion}"
 				""
 				""
 				"{image:atm:textures/questpics/alchemistry/fusion_controller_1.png width:175 height:135 align:1}"
@@ -283,7 +289,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Adding"
+			subtitle: "{atm9.quest.alchem.subt.fusion}"
 			tasks: [
 				{
 					count: 59L
@@ -324,13 +330,17 @@
 					type: "item"
 				}
 			]
-			title: "Fusion Reactor"
+			title: "{atm9.quest.alchem.fusion}"
 			x: 7.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["3DFA36ECFEE6003F"]
-			description: ["Dissolve Deepslate."]
+			description: [
+				"{atm9.quest.alchem.desc.yttrium.1}"
+				""
+				"{atm9.quest.alchem.desc.yttrium.2}"
+			]
 			id: "36A2B8D517A57AD4"
 			rewards: [
 				{
@@ -345,7 +355,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "To the Fission Reactor!"
+			subtitle: "{atm9.quest.alchem.subt.yttrium}"
 			tasks: [{
 				id: "66B38D2CCC1565F0"
 				item: "chemlib:yttrium"
@@ -359,7 +369,7 @@
 				"0C882F195627F121"
 				"36A2B8D517A57AD4"
 			]
-			description: ["Compact Yttrium."]
+			description: ["{atm9.quest.alchem.desc.yttriumdust}"]
 			id: "397A33E37610B03E"
 			rewards: [{
 				id: "75AAF2AE058C4FC1"
@@ -376,7 +386,7 @@
 		}
 		{
 			dependencies: ["397A33E37610B03E"]
-			description: ["Smelt Yttrium Dust."]
+			description: ["{atm9.quest.alchem.desc.yttriumingot}"]
 			id: "1509AAC1A46BDC2C"
 			rewards: [{
 				id: "24567AD93D7BF40B"
@@ -393,7 +403,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["There's Hydrogen and..."]
+			description: ["{atm9.quest.alchem.desc.H}"]
 			hide_dependency_lines: true
 			id: "32B961A93D6CDFDF"
 			rewards: [{
@@ -401,6 +411,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "H (1)"
 			tasks: [{
 				id: "721261EF8343AE88"
@@ -419,6 +430,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Be (4)"
 			tasks: [{
 				id: "557947913EF0F0F6"
@@ -430,7 +442,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["For Salty Times."]
+			description: ["{atm9.quest.alchem.desc.Na}"]
 			hide_dependency_lines: true
 			id: "5F3609E1DBEAA148"
 			rewards: [{
@@ -438,6 +450,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Na (11)"
 			tasks: [{
 				id: "2AEC8690D75EEAAB"
@@ -456,6 +469,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Mg (12)"
 			tasks: [{
 				id: "00DAFD219614B061"
@@ -470,7 +484,11 @@
 				"42B681C59981532C"
 				"66629CEE67F85A25"
 			]
-			description: ["Both Reactors need Reactor Casings and Reactor Glass."]
+			description: [
+				"{atm9.quest.alchem.desc.reactors.1}"
+				""
+				"{atm9.quest.alchem.desc.reactors.2}"
+			]
 			icon: "alchemistry:reactor_casing"
 			id: "3DFA36ECFEE6003F"
 			rewards: [
@@ -504,13 +522,13 @@
 					type: "item"
 				}
 			]
-			title: "Building Reactors"
+			title: "{atm9.quest.alchem.reactors}"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["Bananas should be able to dissolve into potassium..."]
+			description: ["{atm9.quest.alchem.desc.K}"]
 			hide_dependency_lines: true
 			id: "421B67F06A6975A0"
 			rewards: [{
@@ -518,6 +536,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "K (19)"
 			tasks: [{
 				id: "503777CE89A61F0B"
@@ -529,7 +548,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["So you'll grow stong!"]
+			description: ["{atm9.quest.alchem.desc.Ca}"]
 			hide_dependency_lines: true
 			id: "7D608E7ECA271757"
 			rewards: [{
@@ -537,6 +556,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Ca (20)"
 			tasks: [{
 				id: "77D0DA0648434AAB"
@@ -555,6 +575,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Sc (21)"
 			tasks: [{
 				id: "0109E18AFE20E108"
@@ -573,6 +594,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Ti (22)"
 			tasks: [{
 				id: "17EAE4C83ED653D7"
@@ -591,6 +613,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Li (3)"
 			tasks: [{
 				id: "00E0D68B79CD8D5E"
@@ -602,7 +625,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["I recommend atomizing water and dissolving that to get oxygen (you'll need a bit to get started)."]
+			description: ["{atm9.quest.alchem.desc.oxygen}"]
 			id: "066827B2F96192F0"
 			rewards: [
 				{
@@ -617,7 +640,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Oxidizing Elements"
+			subtitle: "{atm9.quest.alchem.subt.oxygen}"
 			tasks: [{
 				id: "030FC5CB53537A68"
 				item: "chemlib:oxygen"
@@ -632,7 +655,7 @@
 				"6657CE5CDFC47BB4"
 				"066827B2F96192F0"
 			]
-			description: ["Combine 1 Oxygen and 1 Lead."]
+			description: ["{atm9.quest.alchem.desc.leadoxide}"]
 			hide_dependency_lines: false
 			id: "42B681C59981532C"
 			rewards: [{
@@ -641,7 +664,7 @@
 				table_id: 6257329497410426516L
 				type: "loot"
 			}]
-			subtitle: "Needed for Reactor Glass "
+			subtitle: "{atm9.quest.alchem.subt.oxide}"
 			tasks: [{
 				id: "4B21D69D737379A5"
 				item: "chemlib:lead_oxide"
@@ -652,7 +675,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["Dissolve Lead."]
+			description: ["{atm9.quest.alchem.desc.lead}"]
 			hide_dependency_lines: true
 			id: "6657CE5CDFC47BB4"
 			rewards: [{
@@ -671,10 +694,10 @@
 		{
 			dependencies: [
 				"066827B2F96192F0"
-				"3AEDE9828B278466"
 				"02BB0C4DBB426D9D"
+				"3AEDE9828B278466"
 			]
-			description: ["Combine 2 Oxygen and 1 Silicon."]
+			description: ["{atm9.quest.alchem.desc.silicondioxide}"]
 			id: "66629CEE67F85A25"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -682,7 +705,7 @@
 				table_id: 6257329497410426516L
 				type: "random"
 			}]
-			subtitle: "Needed for Reactor Glass "
+			subtitle: "{atm9.quest.alchem.subt.oxide}"
 			tasks: [{
 				id: "4EC72D44ED9B98E4"
 				item: "chemlib:silicon_dioxide"
@@ -693,7 +716,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["You would think you would be able to get this by dissolving silicon... I recommend dissolving ender pearls."]
+			description: ["{atm9.quest.alchem.desc.silicon}"]
 			hide_dependency_lines: true
 			id: "02BB0C4DBB426D9D"
 			rewards: [{
@@ -711,7 +734,7 @@
 		}
 		{
 			dependencies: ["3DFA36ECFEE6003F"]
-			description: ["Dissolve Stone or Netherite."]
+			description: ["{atm9.quest.alchem.desc.tungsten}"]
 			id: "390CF74633F52E0B"
 			rewards: [
 				{
@@ -726,7 +749,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "To the Fusion Reactor!"
+			subtitle: "{atm9.quest.alchem.subt.tungsten}"
 			tasks: [{
 				id: "640C06F470201F72"
 				item: "chemlib:tungsten"
@@ -740,7 +763,7 @@
 				"390CF74633F52E0B"
 				"0C882F195627F121"
 			]
-			description: ["Compact Tungsten."]
+			description: ["{atm9.quest.alchem.desc.tungstendust}"]
 			id: "107AC5D16A8821D6"
 			rewards: [{
 				id: "1EDBB811AC6E12FE"
@@ -758,9 +781,9 @@
 		{
 			dependencies: ["107AC5D16A8821D6"]
 			description: [
-				"Smelt Tungsten Dust"
+				"{atm9.quest.alchem.desc.tungsteningot.1}"
 				""
-				"Farmable with Seeds."
+				"{atm9.quest.alchem.desc.tungsteningot.2}"
 			]
 			id: "5121FA28244BE1A2"
 			rewards: [{
@@ -785,6 +808,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "V (23)"
 			tasks: [{
 				id: "3CC5FDBBF173999D"
@@ -803,6 +827,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Cr (24)"
 			tasks: [{
 				id: "6699787BF6AD1B3E"
@@ -821,6 +846,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Y (39)"
 			tasks: [{
 				id: "64C736615E19F0E4"
@@ -839,6 +865,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Zr (40)"
 			tasks: [{
 				id: "75BFB87E21C4A3FF"
@@ -850,7 +877,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["This is the periodic table!"]
+			description: ["{atm9.quest.alchem.desc.Mn}"]
 			hide_dependency_lines: true
 			id: "0E1636BD6F19FF71"
 			rewards: [{
@@ -858,6 +885,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Mn (25)"
 			tasks: [{
 				id: "7D3ECFB0BD73FE0A"
@@ -876,6 +904,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Fe (26)"
 			tasks: [{
 				id: "4B1C7F68DB3BC087"
@@ -894,6 +923,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Co (27)"
 			tasks: [{
 				id: "40DFFC7A860FE7D5"
@@ -912,6 +942,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Ni (28)"
 			tasks: [{
 				id: "19A603C22C5399FB"
@@ -930,6 +961,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Cu (29)"
 			tasks: [{
 				id: "3B2D7526B8902404"
@@ -948,6 +980,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Zn (30)"
 			tasks: [{
 				id: "3C28C13240703E3E"
@@ -966,6 +999,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Ga (31)"
 			tasks: [{
 				id: "38E6A365D614B2F3"
@@ -984,6 +1018,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Ge (32)"
 			tasks: [{
 				id: "6CDE26D6BA301EA2"
@@ -1002,6 +1037,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "As (33)"
 			tasks: [{
 				id: "4B08F5DB6BB819C6"
@@ -1024,6 +1060,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Rb (37)"
 			tasks: [{
 				id: "42595FC4C29E66ED"
@@ -1042,6 +1079,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Sr (38)"
 			tasks: [{
 				id: "01C5C2097D0429A3"
@@ -1060,6 +1098,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Se (34)"
 			tasks: [{
 				id: "2CF68DEAC6197D5E"
@@ -1078,6 +1117,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Br (35)"
 			tasks: [{
 				id: "3ABC806C11416AF9"
@@ -1100,6 +1140,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Kr (36)"
 			tasks: [{
 				id: "3B73BA2272F3C8D5"
@@ -1118,6 +1159,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Al (13)"
 			tasks: [{
 				id: "1D0905AB44D71721"
@@ -1136,6 +1178,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Si (14)"
 			tasks: [{
 				id: "52F4AB10A3D905F6"
@@ -1154,6 +1197,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "P (15)"
 			tasks: [{
 				id: "56032D4791F00C7F"
@@ -1172,6 +1216,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "S (16)"
 			tasks: [{
 				id: "469BD87CC8728E64"
@@ -1190,6 +1235,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Cl (17)"
 			tasks: [{
 				id: "70CDB2A4A4C048BA"
@@ -1212,6 +1258,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Ar (18)"
 			tasks: [{
 				id: "56403CAC6622BE02"
@@ -1229,11 +1276,13 @@
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "371BB9A68E98030B"
+			progression_mode: "flexible"
 			rewards: [{
 				id: "6EF31891FA4A9139"
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "B (5)"
 			tasks: [{
 				id: "0D1B440DDED8B855"
@@ -1252,6 +1301,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "C (6)"
 			tasks: [{
 				id: "5ABA485C9317E1BE"
@@ -1270,6 +1320,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "N (7)"
 			tasks: [{
 				id: "6B236FD3DA7E3858"
@@ -1288,6 +1339,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "O (8)"
 			tasks: [{
 				id: "74DB2A6229DAAC32"
@@ -1306,6 +1358,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "F (9)"
 			tasks: [{
 				id: "41670E74CAFAFFCD"
@@ -1328,6 +1381,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Ne (10)"
 			tasks: [{
 				id: "06CEDFB74A5969F6"
@@ -1346,6 +1400,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "He (2)"
 			tasks: [{
 				id: "6087278E005DE365"
@@ -1358,9 +1413,9 @@
 		{
 			dependencies: ["71815B287D0F162A"]
 			description: [
-				"Should be obtainable with Graphite essence..."
+				"{atm9.quest.alchem.desc.graphite.1}"
 				""
-				"Dissolve Coal or compact Carbon"
+				"{atm9.quest.alchem.desc.graphite.2}"
 			]
 			hide_dependency_lines: true
 			id: "1154F68732C0022F"
@@ -1377,14 +1432,14 @@
 					xp: 10
 				}
 			]
-			subtitle: "Coal"
+			subtitle: "{atm9.quest.alchem.subt.graphite}"
 			tasks: [{
 				count: 8L
 				id: "1C188B14CC0F0C57"
 				item: "chemlib:graphite"
 				type: "item"
 			}]
-			title: "Graphite"
+			title: "{atm9.quest.alchem.graphite}"
 			x: 12.0d
 			y: -3.0d
 		}
@@ -1393,7 +1448,7 @@
 				"1154F68732C0022F"
 				"0C882F195627F121"
 			]
-			description: ["Compact 8 graphite to make Graphite Dust."]
+			description: ["{atm9.quest.alchem.desc.graphitedust}"]
 			id: "3B7E8D0231C9B3B6"
 			rewards: [
 				{
@@ -1408,33 +1463,33 @@
 					xp: 10
 				}
 			]
-			subtitle: "To"
+			subtitle: "{atm9.quest.alchem.subt.graphitedust}"
 			tasks: [{
 				count: 16L
 				id: "32807453A07035FB"
 				item: "chemlib:graphite_dust"
 				type: "item"
 			}]
-			title: "Graphite Dust"
+			title: "{atm9.quest.alchem.graphitedust}"
 			x: 13.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["3B7E8D0231C9B3B6"]
-			description: ["Compact 16 Graphite dust for Diamonds!"]
+			description: ["{atm9.quest.alchem.desc.diamonds}"]
 			id: "037945544F12292B"
 			rewards: [{
 				id: "2D6397138D0DBB25"
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Diamonds"
+			subtitle: "{atm9.quest.alchem.subt.diamonds}"
 			tasks: [{
 				id: "0542DE1F162E709C"
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			title: "Diamonds!"
+			title: "{atm9.quest.alchem.diamonds}"
 			x: 15.0d
 			y: -3.0d
 		}
@@ -1447,6 +1502,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Nb (41)"
 			tasks: [{
 				id: "5577BB7FA064BCAB"
@@ -1469,6 +1525,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Mo (42)"
 			tasks: [{
 				id: "6E3A6037D2DC438A"
@@ -1487,6 +1544,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Tc (43)"
 			tasks: [{
 				id: "7BA75482694C0B5F"
@@ -1509,6 +1567,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Ru (44)"
 			tasks: [{
 				id: "7EFBAB507E26408C"
@@ -1531,6 +1590,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Rh (45)"
 			tasks: [{
 				id: "374311827B08F051"
@@ -1553,6 +1613,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Pd (46)"
 			tasks: [{
 				id: "054D417B6675D85E"
@@ -1585,19 +1646,19 @@
 					xp: 100
 				}
 			]
-			subtitle: "Not the ATM Star :("
+			subtitle: "{atm9.quest.alchem.subt.netherstars}"
 			tasks: [{
 				id: "6A0FA092FAD03B08"
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			title: "Nether Stars"
+			title: "{atm9.quest,alchem.netherstars}"
 			x: 13.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["Dissolve Stone."]
+			description: ["{atm9.quest.alchem.desc.64dysprosium}"]
 			hide_dependency_lines: true
 			id: "686D998697278004"
 			rewards: [{
@@ -1605,7 +1666,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Used to make Nether Stars"
+			subtitle: "{atm9.quest.alchem.subt.fornetherstars}"
 			tasks: [{
 				count: 64L
 				id: "774ED308B068D0B2"
@@ -1617,7 +1678,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["Dissolve Chorus Fruit."]
+			description: ["{atm9.quest.alchem.desc.64Lutetium}"]
 			hide_dependency_lines: true
 			id: "6518DDD43E8D7F59"
 			rewards: [{
@@ -1625,7 +1686,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Used to make Nether Stars"
+			subtitle: "{atm9.quest.alchem.subt.fornetherstars}"
 			tasks: [{
 				count: 64L
 				id: "086F3317E603E4DB"
@@ -1637,7 +1698,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["Dissolve Basalt, then dissolve Titanium Oxide."]
+			description: ["{atm9.quest.alchem.desc.64titanium}"]
 			hide_dependency_lines: true
 			id: "714A43E7C2468C74"
 			rewards: [{
@@ -1645,7 +1706,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Used to make Nether Stars"
+			subtitle: "{atm9.quest.alchem.subt.fornetherstars}"
 			tasks: [{
 				count: 64L
 				id: "5F5177384C91A83A"
@@ -1657,7 +1718,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["Dissolve Wither Skeleton Skulls."]
+			description: ["{atm9.quest.alchem.desc.64mendelevium}"]
 			hide_dependency_lines: true
 			id: "408E92AFAC761478"
 			rewards: [{
@@ -1665,7 +1726,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Used to make Nether Stars"
+			subtitle: "{atm9.quest.alchem.subt.fornetherstars}"
 			tasks: [{
 				count: 64L
 				id: "20C233EDB2490C7A"
@@ -1680,7 +1741,7 @@
 				"1869C4BA9F857712"
 				"0C882F195627F121"
 			]
-			description: ["The elements for metals in ATO can be turned into dust."]
+			description: ["{atm9.quest.alchem.desc.dust}"]
 			icon: "alltheores:iron_dust"
 			id: "27DDC30B6B1CF5C7"
 			rewards: [{
@@ -1753,13 +1814,13 @@
 				title: "ATO Element Dusts"
 				type: "item"
 			}]
-			title: "Dust"
+			title: "{atm9.quest.alchem.dust}"
 			x: 13.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["Some elements are also ingots in ATO."]
+			description: ["{atm9.quest.alchem.desc.element}"]
 			hide_dependency_lines: true
 			icon: "chemlib:iron"
 			id: "1869C4BA9F857712"
@@ -1833,13 +1894,13 @@
 				title: "ATO Elements"
 				type: "item"
 			}]
-			title: "Element"
+			title: "{atm9.quest.alchem.element}"
 			x: 12.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["27DDC30B6B1CF5C7"]
-			description: ["The dust can then be smelted into ingots."]
+			description: ["{atm9.quest.alchem.desc.ingot}"]
 			icon: "minecraft:iron_ingot"
 			id: "74D09BDB5E6CC13C"
 			rewards: [{
@@ -1912,7 +1973,7 @@
 				title: "ATO Element Ingots"
 				type: "item"
 			}]
-			title: "Ingot"
+			title: "{atm9.quest.alchem.ingot}"
 			x: 15.0d
 			y: 3.0d
 		}
@@ -1925,6 +1986,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Ag (47)"
 			tasks: [{
 				id: "2AF8E4C62223AC82"
@@ -1943,6 +2005,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Cd (48)"
 			tasks: [{
 				id: "77F924D7DA376268"
@@ -1961,6 +2024,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "In (49)"
 			tasks: [{
 				id: "17FEC6B4D67CBF1C"
@@ -1979,6 +2043,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Sn (50)"
 			tasks: [{
 				id: "4CB49337F9271E35"
@@ -1997,6 +2062,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Sb (51)"
 			tasks: [{
 				id: "05C7F2D570D49A7C"
@@ -2019,6 +2085,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Te (52)"
 			tasks: [{
 				id: "0DEB5075C1B2DF61"
@@ -2037,6 +2104,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			tasks: [{
 				id: "444E63D97CDF7C73"
 				item: "chemlib:iodine"
@@ -2054,6 +2122,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Xe (54)"
 			tasks: [{
 				id: "261750FC677A126F"
@@ -2072,6 +2141,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Ba (56)"
 			tasks: [{
 				id: "7E1C8868C003F0EB"
@@ -2094,6 +2164,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "La (57)"
 			tasks: [{
 				id: "11157B2FE2308D9C"
@@ -2116,6 +2187,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Cs (55)"
 			tasks: [{
 				id: "2C7C0457F7F4BF7F"
@@ -2134,6 +2206,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Hf (72)"
 			tasks: [{
 				id: "06FF674346FF905D"
@@ -2152,6 +2225,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Ta (73)"
 			tasks: [{
 				id: "01501CAAD7393833"
@@ -2170,6 +2244,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "W (74)"
 			tasks: [{
 				id: "25D765D8EAF040F8"
@@ -2188,6 +2263,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Re (75)"
 			tasks: [{
 				id: "4F9C34843447CDD0"
@@ -2206,6 +2282,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Os (76)"
 			tasks: [{
 				id: "0923FBB15F4189F6"
@@ -2224,6 +2301,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Ir (77)"
 			tasks: [{
 				id: "51AF7FBFB0FD9791"
@@ -2242,6 +2320,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Pt (78)"
 			tasks: [{
 				id: "7A5FE9F3F09F7C04"
@@ -2260,6 +2339,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Au (79)"
 			tasks: [{
 				id: "0718F9A920FAF6D0"
@@ -2278,6 +2358,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Hg (80)"
 			tasks: [{
 				id: "5D2AE754F356168A"
@@ -2296,6 +2377,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Tl (81)_"
 			tasks: [{
 				id: "16C45C3F873DF66E"
@@ -2314,6 +2396,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Pb (82)"
 			tasks: [{
 				id: "437105FD2A516742"
@@ -2325,7 +2408,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
-			description: ["Now we're talking Bismuth!"]
+			description: ["{atm9.quest.alchem.desc.Bi}"]
 			hide_dependency_lines: true
 			id: "52050942552AF567"
 			rewards: [{
@@ -2333,6 +2416,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Bi (83)"
 			tasks: [{
 				id: "42DCCCC1A47621E3"
@@ -2351,6 +2435,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Po (84)"
 			tasks: [{
 				id: "40946B2896B32F22"
@@ -2369,6 +2454,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "At (85)"
 			tasks: [{
 				id: "712EB9A74424B6F7"
@@ -2387,6 +2473,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Rn (86)"
 			tasks: [{
 				id: "13EF5592CE552EFD"
@@ -2405,6 +2492,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Fr (87)"
 			tasks: [{
 				id: "3B9B41A4F6366B94"
@@ -2423,6 +2511,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Ra (88)"
 			tasks: [{
 				id: "751E2171EB234DFA"
@@ -2441,6 +2530,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Ac (89)"
 			tasks: [{
 				id: "053559AC021C7389"
@@ -2452,7 +2542,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
-			description: ["A different Rf."]
+			description: ["{atm9.quest.alchem.desc.Rf}"]
 			hide_dependency_lines: true
 			id: "1426CCA90672FAF1"
 			rewards: [{
@@ -2460,6 +2550,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Rf (104)"
 			tasks: [{
 				id: "2A6AF757F11F8B6C"
@@ -2478,6 +2569,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Db (105)"
 			tasks: [{
 				id: "5B808FE936352930"
@@ -2496,6 +2588,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Sg (106)"
 			tasks: [{
 				id: "2F4CC4391CBFF20C"
@@ -2514,6 +2607,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Bh (107)"
 			tasks: [{
 				id: "17B8CB542784F4AA"
@@ -2532,6 +2626,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Hs (108)"
 			tasks: [{
 				id: "3F5DFD19C498673F"
@@ -2550,6 +2645,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Mt (109)"
 			tasks: [{
 				id: "468C62BBC543B0EC"
@@ -2568,6 +2664,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Ds (110)"
 			tasks: [{
 				id: "40C0D1AAD565A99C"
@@ -2586,6 +2683,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Rg (111)"
 			tasks: [{
 				id: "480881EFB680DF25"
@@ -2604,6 +2702,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Cn (112)"
 			tasks: [{
 				id: "0395964E3E756EEF"
@@ -2622,6 +2721,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Nh (113)"
 			tasks: [{
 				id: "588809E4E7C40274"
@@ -2640,6 +2740,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Fl (114)"
 			tasks: [{
 				id: "3C1963D45B8ABCB5"
@@ -2651,7 +2752,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
-			description: ["Mc = Minecraft?"]
+			description: ["{atm9.quest.alchem.desc.Mc}"]
 			hide_dependency_lines: true
 			id: "1FB4AF60D792A517"
 			rewards: [{
@@ -2659,6 +2760,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Mc (115)"
 			tasks: [{
 				id: "73C7D914F9C2272A"
@@ -2677,6 +2779,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Lv (116)"
 			tasks: [{
 				id: "47028725613A31AC"
@@ -2695,6 +2798,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Ts (117)"
 			tasks: [{
 				id: "42508802D035AAB0"
@@ -2706,7 +2810,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
-			description: ["Og even though it's the newest one?"]
+			description: ["{atm9.quest.alchem.desc.Og}"]
 			hide_dependency_lines: true
 			id: "376A8F925F139D7F"
 			rewards: [{
@@ -2714,6 +2818,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Og (118)"
 			tasks: [{
 				id: "30422B894F248DDB"
@@ -2732,6 +2837,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Ce (58)"
 			tasks: [{
 				id: "15D2D59C935DD31E"
@@ -2747,7 +2853,7 @@
 				"1A988BE2A5158A43"
 			]
 			dependency_requirement: "one_completed"
-			description: ["My best (so far)."]
+			description: ["{atm9.quest.alchem.desc.Pr}"]
 			hide_dependency_lines: true
 			id: "2C21A303E3D4D9D8"
 			rewards: [{
@@ -2755,6 +2861,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Pr (59)"
 			tasks: [{
 				id: "1DB581D67D5592DD"
@@ -2773,6 +2880,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Nd (60)"
 			tasks: [{
 				id: "6DBF13FB389E3785"
@@ -2784,7 +2892,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
-			description: ["Good, I'm not a morning person."]
+			description: ["{atm9.quest.alchem.desc.Pm}"]
 			hide_dependency_lines: true
 			id: "3ED95184EF9A8596"
 			rewards: [{
@@ -2792,6 +2900,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Pm (61)"
 			tasks: [{
 				id: "2C28E60B3C078099"
@@ -2810,6 +2919,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Sm (62)"
 			tasks: [{
 				id: "559B9B606584B359"
@@ -2828,6 +2938,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Eu (63)"
 			tasks: [{
 				id: "0351541B10AE75AE"
@@ -2839,7 +2950,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
-			description: ["No, you don't need a stack."]
+			description: ["{atm9.quest.alchem.desc.Gd}"]
 			hide_dependency_lines: true
 			id: "23508A9D88F53858"
 			rewards: [{
@@ -2847,6 +2958,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Gd (64)"
 			tasks: [{
 				id: "2ED10AE6C7353DA7"
@@ -2865,6 +2977,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Tb (65)"
 			tasks: [{
 				id: "53F6E6C654959F7B"
@@ -2883,6 +2996,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Dy (66)"
 			tasks: [{
 				id: "01A0EB76FDB3B0A8"
@@ -2894,7 +3008,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
-			description: ["What did you call me?"]
+			description: ["{atm9.quest.alchem.desc.Ho}"]
 			hide_dependency_lines: true
 			id: "7D377561EDB4F165"
 			rewards: [{
@@ -2902,6 +3016,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Ho (67)"
 			tasks: [{
 				id: "267CC3F4F8FB0C14"
@@ -2920,6 +3035,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Er (68)"
 			tasks: [{
 				id: "447F72D07317EA51"
@@ -2931,7 +3047,7 @@
 		}
 		{
 			dependencies: ["71815B287D0F162A"]
-			description: ["Nice™"]
+			description: ["{atm9.quest.alchem.desc.Tm}"]
 			hide_dependency_lines: true
 			id: "11373202F6B9C2A4"
 			rewards: [{
@@ -2939,6 +3055,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Tm (69)"
 			tasks: [{
 				id: "3A6020A17DA536F7"
@@ -2957,6 +3074,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Yb (70)"
 			tasks: [{
 				id: "761B2843841AE0B9"
@@ -2975,6 +3093,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Lu (71)"
 			tasks: [{
 				id: "0A302B7D8C4F3020"
@@ -2986,7 +3105,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
-			description: ["Odinson."]
+			description: ["{atm9.quest.alchem.desc.Th}"]
 			hide_dependency_lines: true
 			id: "63937F58AC720B31"
 			rewards: [{
@@ -2994,6 +3113,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Th (90)"
 			tasks: [{
 				id: "47C9B4D81877CF30"
@@ -3012,6 +3132,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Pa (91)"
 			tasks: [{
 				id: "352F4951947C0FF7"
@@ -3030,6 +3151,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "U (92)"
 			tasks: [{
 				id: "0AD72F45B87A0BE9"
@@ -3041,7 +3163,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
-			description: ["You should be able to get this no problem."]
+			description: ["{atm9.quest.alchem.desc.Np}"]
 			hide_dependency_lines: true
 			id: "79E421A5F903FE1D"
 			rewards: [{
@@ -3049,6 +3171,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Np (93)"
 			tasks: [{
 				id: "77C9380A7D4D0596"
@@ -3067,6 +3190,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Pu (94)"
 			tasks: [{
 				id: "0C6BBCD54017F402"
@@ -3078,7 +3202,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
-			description: ["Good, I'm a morning person."]
+			description: ["{atm9.quest.alchem.desc.Am}"]
 			hide_dependency_lines: true
 			id: "529D3B7BBD22B2F3"
 			rewards: [{
@@ -3086,6 +3210,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Am (95)"
 			tasks: [{
 				id: "66CC0DB0821FFBDA"
@@ -3104,6 +3229,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Cm (96)"
 			tasks: [{
 				id: "75BFDFCFCFDB72CE"
@@ -3122,6 +3248,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Bk (97)"
 			tasks: [{
 				id: "1463F4F91B9847A7"
@@ -3140,6 +3267,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Cf (98)"
 			tasks: [{
 				id: "741469FE26B8F903"
@@ -3158,6 +3286,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Es (99)"
 			tasks: [{
 				id: "1830F8D09D3CADEF"
@@ -3176,6 +3305,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Fm (100)"
 			tasks: [{
 				id: "53A390D3130DAD09"
@@ -3194,6 +3324,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			tasks: [{
 				id: "791F518B2DDDA533"
 				item: "chemlib:mendelevium"
@@ -3204,7 +3335,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
-			description: ["But, yes?"]
+			description: ["{atm9.quest.alchem.desc.No}"]
 			hide_dependency_lines: true
 			id: "7A079FDC0F29E25D"
 			rewards: [{
@@ -3212,6 +3343,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "No (102)"
 			tasks: [{
 				id: "4ABEA5D5C01D41B5"
@@ -3230,6 +3362,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "Lr (103)"
 			tasks: [{
 				id: "3746F5CE2095187E"
@@ -3240,5 +3373,5 @@
 			y: 15.5d
 		}
 	]
-	title: "Alchemistry"
+	title: "{atm9.chapters.34.title}"
 }
