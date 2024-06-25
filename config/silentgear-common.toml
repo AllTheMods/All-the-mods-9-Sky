@@ -1,0 +1,12 @@
+
+[item]
+
+	#Blueprint and template settings
+	[item.blueprint]
+		#Allowed blueprint types. Valid values are: BOTH, BLUEPRINT, and TEMPLATE
+		#Allowed Values: BOTH, BLUEPRINT, TEMPLATE
+		typesAllowed = "BOTH"
+		#When joining a new world, should players be given a blueprint package?
+		#The blueprint package gives some blueprints when used (right-click).
+		#To change what is given, override the starter_blueprints loot table.
+		spawnWithStarterBlueprints = false

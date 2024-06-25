@@ -1,0 +1,18 @@
+{
+  "type": "ae2:inscriber",
+  "mode": "press",
+  "result": {
+    "item": "ae2:silicon_press"
+  },
+  "ingredients": {
+    "middle": {
+      "item": "ae2:silicon"
+    },
+    "top": {
+      "item": "ae2:sky_dust"
+    },
+    "bottom": {
+      "item": "alltheores:iron_plate"
+    }
+  }
+}

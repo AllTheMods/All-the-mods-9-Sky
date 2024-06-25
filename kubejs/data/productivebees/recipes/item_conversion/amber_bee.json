@@ -1,0 +1,28 @@
+{
+  "type": "productivebees:item_conversion",
+  "bee": "productivebees:sponge",
+  "ingredients": [
+    {
+      "item": "productivebees:spawn_egg_resin_bee"
+    }
+  ],
+  "result": {
+    "type": "forge:nbt",
+    "item": "productivebees:spawn_egg_configurable_bee",
+    "nbt": {
+      "EntityTag": {
+        "type": "productivebees:amber"
+      }
+    }
+  },
+  "conditions": [
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:sponge"
+    },
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:amber"
+    }
+  ]
+}

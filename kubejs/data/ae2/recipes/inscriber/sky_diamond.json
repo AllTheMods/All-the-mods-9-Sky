@@ -1,0 +1,18 @@
+{
+  "type": "ae2:inscriber",
+  "mode": "press",
+  "result": {
+    "item": "ae2:engineering_processor_press"
+  },
+  "ingredients": {
+    "middle": {
+      "item": "minecraft:diamond"
+    },
+    "top": {
+      "item": "ae2:sky_dust"
+    },
+    "bottom": {
+      "item": "alltheores:iron_plate"
+    }
+  }
+}

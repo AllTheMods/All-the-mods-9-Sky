@@ -11,16 +11,4 @@ ServerEvents.recipes(event => {
       R: 'thermal_extra:upgrade_augment',
       S: 'minecraft:shulker_shell'
     }).id('atm9sky:extra_to_endergy')
-
-    event.custom({
-        type: 'thermal:pulverizer',
-        ingredients: [
-            Ingredient.of('draconicevolution:awakened_draconium_ingot').toJson()
-        ],
-        results: [
-            Item.of('draconicevolution:awakened_draconium_dust')
-        ],
-        processingTime: 100
-    })
-    
 })

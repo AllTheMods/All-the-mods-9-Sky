@@ -1,0 +1,58 @@
+{
+  // Should players be able to create their own team? [default: false]
+  "createOwnTeam": true,
+  
+  // Force the check if the world is skyblock
+  // This enables the commands in worlds without any skyblock dimension
+  // USE AT YOUR OWN RISK, NO SUPPORT FOR DEFAULT WORLDS WITH THIS ENABLED
+  "forceSkyblockCheck": false,
+  
+  // Should players be able to leave their team or invite others? [default: true]
+  "selfManage": true,
+  
+  "Spawns": {
+  
+    // Should players be able to modify their spawn positions? [default: true]
+    "modifySpawns": true,
+    
+    // The range from island center for possible spawns to add. [default: 50]
+    "range": 50
+  },
+  
+  "Teleports": {
+  
+    // Should players be able to visit other island? [default: true]
+    "allowVisits": true,
+    
+    // Should players be able to teleport to another dimension? [default: true]
+    "crossDimensionTeleportation": true,
+    
+    // Should players be able to teleport to their home island? [default: true]
+    "home": true,
+    
+    // Cooldown in ticks for teleporting back home. [default: 3600 = 3min]
+    "homeCooldown": 100,
+    
+    // Should fall damage be removed when teleporting? [default: false]
+    "noFallDamage": false,
+    
+    // Should teleporting be prevented while falling? [default: false]
+    "preventWhileFalling": false,
+    
+    // Should players be able to teleport to spawn? [default: true]
+    "spawn": true,
+    
+    // Cooldown in ticks for teleporting to spawn. [default: 3600 = 3min]
+    "spawnCooldown": 100,
+    
+    // Dimensions in this list are not allowed for executing teleportation commands. Inverted behaviour if you set "allow_list" to true.
+    // This is a resource list. See https://moddingx.org/libx/org/moddingx/libx/util/data/ResourceList.html#use_resource_lists_in_configs
+    "teleportationDimensions": {
+      "allow_list": false,
+      "elements": []
+    },
+    
+    // Cooldown in ticks for visiting other islands. [default: 3600 = 3min]
+    "visitCooldown": 100
+  }
+}
