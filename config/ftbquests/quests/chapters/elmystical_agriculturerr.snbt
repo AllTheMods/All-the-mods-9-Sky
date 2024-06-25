@@ -12,7 +12,7 @@
 			image: "rftoolspower:block/endergenic/floatingsphere"
 			rotation: 45.0d
 			width: 6.0d
-			x: -15.5d
+			x: -14.0d
 			y: 3.0d
 		}
 		{
@@ -28,15 +28,15 @@
 			image: "minecraft:item/diamond"
 			rotation: 0.0d
 			width: 4.0d
-			x: -15.5d
-			y: -1.0d
+			x: -14.0d
+			y: -0.5d
 		}
 		{
 			height: 4.0d
 			image: "minecraft:item/emerald"
 			rotation: 0.0d
 			width: 4.0d
-			x: -15.5d
+			x: -14.0d
 			y: 6.5d
 		}
 		{
@@ -52,7 +52,7 @@
 			image: "allthemodium:item/allthemodium_ingot"
 			rotation: 0.0d
 			width: 4.0d
-			x: -19.5d
+			x: -18.0d
 			y: 3.0d
 		}
 		{
@@ -126,14 +126,6 @@
 			width: 1.0d
 			x: 16.0d
 			y: 1.0d
-		}
-		{
-			height: 1.0d
-			image: "enderio:item/clayed_glowstone"
-			rotation: 0.0d
-			width: 1.0d
-			x: 14.5d
-			y: 0.5d
 		}
 		{
 			height: 1.0d
@@ -311,6 +303,14 @@
 			x: 34.5d
 			y: 10.0d
 		}
+		{
+			height: 1.0d
+			image: "minecraft:item/glowstone_dust"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 0.5d
+		}
 	]
 	order_index: 3
 	quest_links: [ ]
@@ -337,8 +337,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["5E818719D99A5FA2"]
-			description: ["{atm9.quest.ma.dec.SoulSand}"]
+			description: [
+				"{atm9.quest.ma.dec.Welcome}"
+				""
+				"{atm9.quest.ma.dec.SoulSand}"
+			]
 			id: "54735C5FCD2077B3"
 			rewards: [{
 				count: 5
@@ -353,7 +356,7 @@
 				item: { Count: 8, id: "minecraft:soul_sand" }
 				type: "item"
 			}]
-			x: -12.5d
+			x: -14.0d
 			y: 3.0d
 		}
 		{
@@ -364,8 +367,10 @@
 			optional: true
 			shape: "gear"
 			tasks: [{
-				id: "22B3A350EB92EC6A"
-				type: "checkmark"
+				dimension: "minecraft:the_end"
+				id: "6219B985EB8543E3"
+				title: "Visit The End"
+				type: "dimension"
 			}]
 			title: "{atm9.quest.ma.TheEnd}"
 			x: -10.5d
@@ -379,8 +384,17 @@
 			optional: true
 			shape: "gear"
 			tasks: [{
-				id: "51B9DBB3B293513B"
-				type: "checkmark"
+				id: "7B4867ECA010A36F"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:prosperity"
+						}
+					}
+				}
+				type: "item"
 			}]
 			title: "{atm9.quest.ma.Bees}"
 			x: -10.5d
@@ -440,19 +454,6 @@
 			y: 3.0d
 		}
 		{
-			description: ["{atm9.quest.ma.dec.Welcome}"]
-			icon: "pneumaticcraft:security_upgrade"
-			id: "5E818719D99A5FA2"
-			size: 2.5d
-			tasks: [{
-				id: "0F4EB8A4EE8218DE"
-				type: "checkmark"
-			}]
-			title: "{atm9.quest.ma.Welcome}"
-			x: -15.5d
-			y: 3.0d
-		}
-		{
 			dependencies: ["7B7D0BBFC09D9271"]
 			id: "6ACF8099D43E6363"
 			tasks: [{
@@ -477,6 +478,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["11097D91EBF2490D"]
 			description: ["{atm9.quest.ma.desc.Mesh}"]
 			id: "3D85F85333C6B88E"
 			subtitle: "{atm9.quest.ma.subt.CraftTip}"
@@ -662,8 +664,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: 6.0d
+			x: -1.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7C0E4991F1DAF902"]
@@ -686,14 +688,15 @@
 				item: "mysticalagradditions:inferium_coal"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 5.5d
+			x: -0.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
 				"271E213DE1E7BEB1"
 				"00E594F9F06CB7B1"
 			]
+			dependency_requirement: "one_completed"
 			description: ["{atm9.quest.ma.desc.Augments}"]
 			id: "37B297640F537383"
 			tasks: [{
@@ -726,6 +729,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["48161279D3FD1774"]
 			id: "4E703BF3A7CE9B8A"
 			tasks: [{
 				id: "1D23AE12E56AA938"
@@ -736,6 +740,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["48161279D3FD1774"]
 			id: "6DBC6D5B2F889381"
 			tasks: [{
 				id: "5BC9384C04810911"
@@ -746,6 +751,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["48161279D3FD1774"]
 			description: ["{atm9.quest.ma.desc.ElementalSeeds}"]
 			id: "014AB5E8833CCA8B"
 			shape: "rsquare"
@@ -812,24 +818,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["2D389E9C0C20B1F0"]
-			description: ["{atm9.quest.ma.desc.Animals}"]
-			icon: "minecraft:cow_spawn_egg"
-			id: "237EE326E19981C1"
-			size: 1.5d
-			tasks: [{
-				id: "19F133414687D0D1"
-				type: "checkmark"
-			}]
-			title: "{atm9.quest.ma.Animals}"
-			x: 8.5d
-			y: 0.5d
-		}
-		{
 			dependencies: [
-				"237EE326E19981C1"
 				"5C590DB2F3D935E5"
+				"2D389E9C0C20B1F0"
 			]
+			description: ["{atm9.quest.ma.desc.Animals}"]
 			id: "5AF24AF35893AF5A"
 			tasks: [{
 				count: 20L
@@ -837,10 +830,12 @@
 				item: "mysticalagriculture:soulium_dust"
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.Animals}"
 			x: 8.5d
 			y: -1.5d
 		}
 		{
+			dependencies: ["6580DCA54E4C9BC2"]
 			description: ["{atm9.quest.ma.desc.SSprocessing}"]
 			id: "5C590DB2F3D935E5"
 			tasks: [
@@ -914,6 +909,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["2D389E9C0C20B1F0"]
 			id: "0FDF01D37D5BC256"
 			tasks: [{
 				id: "6547AB1AE6D56C6D"
@@ -924,6 +920,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["2D389E9C0C20B1F0"]
 			id: "42161B0184A08D95"
 			tasks: [{
 				id: "1A8BE4DAFC7EAE03"
@@ -934,6 +931,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["2D389E9C0C20B1F0"]
 			id: "657CB0B0C3E9FD74"
 			tasks: [{
 				id: "1EDB51654A0EC657"
@@ -944,6 +942,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["2D389E9C0C20B1F0"]
 			id: "3B58CC793B9EBEFB"
 			tasks: [{
 				id: "2C2AB267039BC0E7"
@@ -954,6 +953,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["2D389E9C0C20B1F0"]
 			id: "6B26A0DD901886E7"
 			tasks: [{
 				id: "3146F13A12A26461"
@@ -1000,6 +1000,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["4186AF0A239F1B23"]
 			id: "32C0862DA613BB7E"
 			tasks: [{
 				id: "78226F3D9428F0F4"
@@ -1010,6 +1011,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["4186AF0A239F1B23"]
 			id: "154CB6EA39AE1493"
 			tasks: [{
 				id: "0BD8E78F0C3F4AD0"
@@ -1020,6 +1022,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["4186AF0A239F1B23"]
 			id: "624ECC4459B4A25A"
 			tasks: [{
 				id: "189455E3CDC43716"
@@ -1066,6 +1069,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["48B48B9EF21579B6"]
 			id: "3763CBA32CF7BEA7"
 			tasks: [{
 				id: "3E152E936330E476"
@@ -1076,6 +1080,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["48B48B9EF21579B6"]
 			id: "61AEE06DD4FF2B52"
 			tasks: [{
 				id: "2CDD164F4346E917"
@@ -1086,6 +1091,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["48B48B9EF21579B6"]
 			id: "5E6E3E7BCD4C4FB2"
 			tasks: [{
 				id: "17785192A84DDB61"
@@ -1096,6 +1102,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["48B48B9EF21579B6"]
 			id: "67D70D8CF1DE481F"
 			tasks: [{
 				id: "3FE42CA63F345268"
@@ -1106,6 +1113,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["48B48B9EF21579B6"]
 			id: "0D6EF402855C6E50"
 			tasks: [{
 				id: "42BC35AB04D7C4A2"
@@ -1152,6 +1160,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["5E56A5A0D5E9F831"]
 			id: "27E15F1039424045"
 			tasks: [{
 				id: "5ED346F5796D7DD5"
@@ -1162,6 +1171,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["5E56A5A0D5E9F831"]
 			id: "0B8EA08C3E36B349"
 			tasks: [{
 				id: "0DD6BF78F60BEAFC"
@@ -1172,6 +1182,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["5E56A5A0D5E9F831"]
 			id: "17B70EC84AE063C4"
 			tasks: [{
 				id: "19ABD9B71E3766BF"
@@ -1614,13 +1625,14 @@
 			y: 15.0d
 		}
 		{
+			dependencies: ["11097D91EBF2490D"]
 			id: "62024135557CF54A"
 			tasks: [{
 				id: "68C9BFD2BF23F0A4"
 				item: "thermal:apatite"
 				type: "item"
 			}]
-			x: 28.0d
+			x: 29.0d
 			y: 17.0d
 		}
 		{
@@ -1648,21 +1660,23 @@
 			y: 15.0d
 		}
 		{
+			dependencies: ["48161279D3FD1774"]
 			description: ["{atm9.quest.ma.desc.sand}"]
+			hide_dependency_lines: true
 			id: "22F7391954E92AE6"
 			tasks: [
 				{
-					id: "3FA76F74510F2D09"
-					item: "mysticalagriculture:dirt_essence"
+					id: "79E54D497E89E26D"
+					item: "mysticalagriculture:dirt_seeds"
 					type: "item"
 				}
 				{
-					id: "51928E6322F13A1E"
-					item: "mysticalagriculture:fire_essence"
+					id: "062D620882B555E3"
+					item: "mysticalagriculture:fire_seeds"
 					type: "item"
 				}
 			]
-			x: 29.5d
+			x: 29.0d
 			y: 13.0d
 		}
 		{
@@ -1957,6 +1971,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["5E56A5A0D5E9F831"]
 			description: ["{atm9.quest.ma.desc.SupremiumGear}"]
 			id: "15B60B1325E1DBBB"
 			rewards: [{
@@ -2000,7 +2015,7 @@
 				item: "mysticalagriculture:soulium_seed_base"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 14.25d
 			y: -1.5d
 		}
 		{
