@@ -18,6 +18,10 @@ let MarketBlackList = [
   "twilightforest:transformation_sapling",
   "occultism:otherworld_sapling",
   "occultism:otherworld_sapling_natural",
+  "ars_nouveau:blue_archwood_sapling",
+  "ars_nouveau:red_archwood_sapling",
+  "ars_nouveau:purple_archwood_sapling",
+  "ars_nouveau:green_archwood_sapling",
   "ars_nouveau:magebloom_crop"
 ]
 
