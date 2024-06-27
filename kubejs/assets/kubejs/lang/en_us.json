@@ -135,13 +135,13 @@
 	"atm9.quest.tips.wand": "Building Wands",
 	"atm9.quest.tips.build": "Building Gadgets",
 	"atm9.quest.tips.shrink": "'Honey I Shrunk Myself'",
-	"atm9.quest.tips.hyperbox": "Hyperbox",
 	"atm9.quest.tips.gale": "Creative flight with EMC",
 	"atm9.quest.tips.sink": "Infinite Water",
 	"atm9.quest.tips.magnet": "Simple Magnets",
 	"atm9.quest.tips.gateway": "Gateways to Eternity",
 	"atm9.quest.tips.torch": "Torchmaster",
 	"atm9.quest.tips.tipped_out": "Tipped Out",
+	"atm9.quest.tips.sleepcharm": "No More Phantoms",
 	
 	"atm9.quest.tips.desc.tricks": "On this page, you'll find some useful items and info to help you on your journey!",
 	"atm9.quest.tips.desc.wand": "The mod &9Construction Wand&r adds helpful wands that are used when building. \\n \\n When right-clicking a face of a block with the wand, it will extend that face out as long as you have the blocks in your inventory.",
@@ -154,6 +154,7 @@
 	"atm9.quest.tips.desc.gateway": "Gateways are great ways of getting materials early on. When used they'll spawn waves of enemies and feature penalties or buffs. After all ways are defeated it'll drop rewards! Good way of getting sheep, cows, pigs, and chickens early on!",
 	"atm9.quest.tips.desc.repair": "This thing is extremely cheap, and repairs the tools in your inventory!",
 	"atm9.quest.tips.desc.torch": "Torchmaster brings a bunch of new useful blocks and items. The Mega Torch prevents hostile mobs from spawning in a large area, while the Dreadful Lamp does the same but for friendly mobs. The Feral Flare Lantern when placed down will randomly spawn light sources around it, and the Frozen Pearl can be used to get rid of those. ",
+	"atm9.quest.tips.desc.sleepcharm": "Are you tired of all those annoying phantoms forcing you to sleep? If so, the Sleep Charm is for you! \\n \\n The Sleep Charm can be equipped to make sure no more annoying phantoms spawn, without ever needing to sleep.",
 	
 	"atm9.quest.tips.subt.tricks": "And Other Useful Items!",
 	"atm9.quest.tips.subt.hyperbox": "When an infinite world is too small",
@@ -162,6 +163,7 @@
 	"atm9.quest.tips.subt.shrink": "Shrinking Device",
 	"atm9.quest.tips.subt.tipped_out": "Complete all of the tips!",
 	"atm9.quest.tips.subt.repair": "Tools Breaking? No problem",
+	"atm9.quest.tips.subt.sleepcharm": "No more Insomnia!",
 	
 	
 	"atm9.quest.start1.headstart": "A Head Start",
