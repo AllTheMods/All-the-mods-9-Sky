@@ -369,7 +369,7 @@
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "6219B985EB8543E3"
-				title: "Visit The End"
+				title: "{atm9.quest.ma.visitend}"
 				type: "dimension"
 			}]
 			title: "{atm9.quest.ma.TheEnd}"
@@ -474,6 +474,7 @@
 				item: { Count: 8, id: "minecraft:bone_meal" }
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.bonemeal}"
 			x: -8.5d
 			y: 6.0d
 		}
@@ -636,16 +637,46 @@
 			description: ["{atm9.quest.ma.desc.Armor}"]
 			id: "00E594F9F06CB7B1"
 			tasks: [{
-				id: "56C619690E3132AA"
+				id: "1A8613ACEBCE1625"
 				item: {
 					Count: 1
-					id: "mysticalagriculture:inferium_helmet"
+					id: "itemfilters:or"
 					tag: {
-						Damage: 0
+						items: [
+							{
+								Count: 1b
+								id: "mysticalagriculture:inferium_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:inferium_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:inferium_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:inferium_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.inferiumarmor}"
 			x: 0.5d
 			y: 5.5d
 		}
@@ -664,6 +695,7 @@
 				}
 				type: "item"
 			}]
+			title: "{atm9.quest.ma.inferiumtools}"
 			x: -1.5d
 			y: 5.5d
 		}
@@ -777,6 +809,7 @@
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.ma.elementalseeds}"
 			x: 3.5d
 			y: 1.5d
 		}
