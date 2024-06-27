@@ -22,12 +22,10 @@ ServerEvents.recipes(event => {
     .altar('allthemodium:allthemodium_ingot')
     .input('ars_nouveau:air_essence')
     .input('ars_nouveau:water_essence')
-    .input('mysticalagradditions:insanium_essence')
+    .input('3x mysticalagradditions:insanium_essence')
     .input('ars_nouveau:earth_essence')
     .input('ars_nouveau:fire_essence')
-    .input('mysticalagradditions:insanium_essence')
     .input('bloodmagic:life_essence_bucket')
-    .input('mysticalagradditions:insanium_essence')
     .itemOutput('3x allthemodium:vibranium_ingot')
     .recipeTime(20)
     

@@ -12,40 +12,29 @@ ServerEvents.recipes(event => {
     event.recipes.summoningrituals
     .altar('minecraft:blaze_powder')
     .sacrifice('minecraft:blaze')
-    .input('minecraft:ice')
-    .input('minecraft:snowball')
-    .input('minecraft:snow_block')
-    .input('minecraft:snowball')
-    .input('minecraft:ice')
-    .input('minecraft:snowball')
-    .input('minecraft:snow_block')
-    .input('minecraft:snowball')
+    .input('2x minecraft:ice')
+    .input('4x minecraft:snowball')
+    .input('2x minecraft:snow_block')
     .mobOutput('thermal:blizz')
 
     //basalz
     event.recipes.summoningrituals
     .altar('minecraft:blaze_powder')
     .sacrifice('minecraft:blaze')
-    .input('#forge:dusts/obsidian')
-    .input('minecraft:stone')
-    .input('#forge:dusts/obsidian')
+    .input('4x mekanism:dust_obsidian')
+    .input('2x minecraft:stone')
     .input('minecraft:dirt')
-    .input('#forge:dusts/obsidian')
-    .input('minecraft:stone')
-    .input('#forge:dusts/obsidian')
     .mobOutput('thermal:basalz')
 
     //chicken
     event.recipes.summoningrituals
     .altar('minecraft:wheat_seeds')
-    .input('minecraft:dirt')
+    .input('2x minecraft:dirt')
     .input('minecraft:grass')
-    .input('minecraft:bone_meal')
-    .input('minecraft:dirt')
+    .input('2x minecraft:bone_meal')
     .input('minecraft:clay')
     .input('minecraft:grass_block')
     .input('minecraft:stone')
-    .input('minecraft:bone_meal')
     .mobOutput('minecraft:chicken')
 
     //cow
@@ -64,10 +53,9 @@ ServerEvents.recipes(event => {
     //sheep
     event.recipes.summoningrituals
     .altar('minecraft:string')
-    .input('minecraft:dirt')
+    .input('2x minecraft:dirt')
     .input('minecraft:grass')
     .input('minecraft:bone_meal')
-    .input('minecraft:dirt')
     .input('minecraft:clay')
     .input('minecraft:grass_block')
     .input('minecraft:stone')
@@ -77,10 +65,9 @@ ServerEvents.recipes(event => {
     //pig
     event.recipes.summoningrituals
     .altar('minecraft:carrot')
-    .input('minecraft:dirt')
+    .input('2x minecraft:dirt')
     .input('minecraft:grass')
     .input('minecraft:bone_meal')
-    .input('minecraft:dirt')
     .input('minecraft:clay')
     .input('minecraft:grass_block')
     .input('minecraft:stone')
@@ -90,10 +77,9 @@ ServerEvents.recipes(event => {
     //fox
     event.recipes.summoningrituals
     .altar('minecraft:sweet_berries')
-    .input('minecraft:dirt')
+    .input('2x minecraft:dirt')
     .input('minecraft:grass')
     .input('minecraft:bone_meal')
-    .input('minecraft:dirt')
     .input('minecraft:clay')
     .input('minecraft:grass_block')
     .input('minecraft:stone')
@@ -103,10 +89,9 @@ ServerEvents.recipes(event => {
     //bat
     event.recipes.summoningrituals
     .altar('minecraft:torch')
-    .input('minecraft:dirt')
+    .input('2x minecraft:dirt')
     .input('minecraft:grass')
     .input('minecraft:bone_meal')
-    .input('minecraft:dirt')
     .input('minecraft:clay')
     .input('minecraft:grass_block')
     .input('minecraft:stone')
@@ -115,11 +100,10 @@ ServerEvents.recipes(event => {
 
     //wolf
     event.recipes.summoningrituals
-    .altar('minecraft:bone')   
-    .input('minecraft:dirt')
+    .altar('minecraft:bone')
+    .input('2x minecraft:dirt')
     .input('minecraft:grass')
     .input('minecraft:bone_meal')
-    .input('minecraft:dirt')
     .input('minecraft:clay')
     .input('minecraft:grass_block')
     .input('minecraft:stone')
@@ -129,10 +113,9 @@ ServerEvents.recipes(event => {
     //cat
     event.recipes.summoningrituals
     .altar('minecraft:cod')   
-    .input('minecraft:dirt')
+    .input('2x minecraft:dirt')
     .input('minecraft:grass')
     .input('minecraft:bone_meal')
-    .input('minecraft:dirt')
     .input('minecraft:clay')
     .input('minecraft:grass_block')
     .input('minecraft:stone')
@@ -142,10 +125,9 @@ ServerEvents.recipes(event => {
     //bee
     event.recipes.summoningrituals
     .altar('minecraft:glass_bottle')   
-    .input('minecraft:dirt')
+    .input('2x minecraft:dirt')
     .input('minecraft:grass')
     .input('minecraft:bone_meal')
-    .input('minecraft:dirt')
     .input('minecraft:clay')
     .input('minecraft:grass_block')
     .input('minecraft:stone')
@@ -155,34 +137,24 @@ ServerEvents.recipes(event => {
     //slime
     event.recipes.summoningrituals
     .altar('minecraft:milk_bucket')
-    .input('#forge:slimeballs')
-    .input('minecraft:stone')
-    .input('#forge:slimeballs')
+    .input('4x #forge:slimeballs')
+    .input('2x minecraft:stone')
     .input('minecraft:dirt')
-    .input('#forge:slimeballs')
-    .input('minecraft:stone')
-    .input('#forge:slimeballs')
     .mobOutput('minecraft:slime')
 
     //squid
     event.recipes.summoningrituals
     .altar('minecraft:water_bucket')
-    .input('minecraft:black_dye')
-    .input('minecraft:stone')
-    .input('minecraft:black_dye')
+    .input('4x minecraft:black_dye')
+    .input('2x minecraft:stone')
     .input('minecraft:dirt')
-    .input('minecraft:black_dye')
-    .input('minecraft:stone')
-    .input('minecraft:black_dye')
     .mobOutput('minecraft:squid')
 
     //piglich
     event.recipes.summoningrituals
     .altar('enderio:frank_n_zombie')
-    .input('allthemodium:unobtainium_ingot')
+    .input('3x allthemodium:unobtainium_ingot')
     .input('forcecraft:treasure_core')
-    .input('allthemodium:unobtainium_ingot')
     .input('projecte:red_matter')
-    .input('allthemodium:unobtainium_ingot')
     .mobOutput('allthemodium:piglich')
 })
