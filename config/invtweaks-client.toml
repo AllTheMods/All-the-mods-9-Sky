@@ -132,6 +132,14 @@
 	[[sorting.containerOverrides]]
 		containerClass = "gripe._90.megacells.menu.MEGAInterfaceMenu"
 		sortRange = ""
+  
+	[[sorting.containerOverrides]]
+		containerClass = "com.direwolf20.laserio.client.screens.LaserNodeScreen"
+		sortRange = ""
+
+ 	[[sorting.containerOverrides]]
+		containerClass = "com.direwolf20.laserio.client.screens.CardHolderScreen"
+		sortRange = ""
 
 #Tweaks
 [tweaks]
