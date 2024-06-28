@@ -50,7 +50,7 @@
     },
     {
       "item": "minecraft:bone",
-      "emc": 128
+      "emc": 144
     },
     {
       "item": "minecraft:string",
@@ -815,6 +815,70 @@
     },
     {
       "item": "minecraft:glass",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:white_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:light_gray_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:gray_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:black_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:brown_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:red_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:orange_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:yellow_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:lime_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:green_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:cyan_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:light_blue_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:blue_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:purple_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:magenta_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:pink_stained_glass",
       "emc": 1
     },
     {
