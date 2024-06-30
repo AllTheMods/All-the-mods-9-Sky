@@ -17,17 +17,6 @@
 			y: -2.5d
 		}
 		{
-			click: "https://biggerseries.net/biggerreactors"
-			dependency: "7C4E4793DA887DE4"
-			height: 0.25d
-			hover: ["Bigger Reactors Wiki"]
-			image: "allthemodium:textures/block/unobtainium_block.png"
-			rotation: 45.0d
-			width: 0.25d
-			x: -4.5d
-			y: 0.0d
-		}
-		{
 			click: "https://docs.google.com/spreadsheets/d/1NKnuSNmblMEZLxqS8FSFWp8U43vNH7Xd0sRF5vmvGYk/edit?usp=sharing"
 			dependency: "4415C9F8DA2D7E68"
 			height: 0.25d

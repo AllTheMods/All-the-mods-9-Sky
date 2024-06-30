@@ -67,6 +67,7 @@
 			dependencies: ["37EBB8E0D6E5F821"]
 			description: ["{atm9.quest.hostile.desc.learn}"]
 			hide: false
+			hide_dependency_lines: false
 			id: "3E3CBDCEAB0FF28F"
 			rewards: [{
 				id: "5CA80FB9829DC39F"
@@ -88,6 +89,7 @@
 			dependencies: ["37EBB8E0D6E5F821"]
 			description: ["{atm9.quest.hostile.desc.modeling}"]
 			hide: false
+			hide_dependency_lines: false
 			id: "58C2ABED43B2EA61"
 			rewards: [{
 				id: "5FAF62796246C4E8"
@@ -1171,32 +1173,6 @@
 			}]
 			x: -2.5d
 			y: 10.0d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "4C6930EF03D62376"
-			optional: true
-			rewards: [{
-				id: "592AF71BD84F79BF"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "5817A7F875C852D7"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:ars_nouveau/wilden_mobs"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -2.5d
-			y: 15.5d
 		}
 	]
 	title: "{atm9.chapters.14.title}"

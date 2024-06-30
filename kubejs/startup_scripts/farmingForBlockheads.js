@@ -12,17 +12,14 @@ const FFBAPI = Java.loadClass('net.blay09.mods.farmingforblockheads.api.FarmingF
 
 // list of items to not add to the Market
 let MarketBlackList = [
-  "twilightforest:time_sapling",
-  "twilightforest:mining_sapling",
-  "twilightforest:sorting_sapling",
-  "twilightforest:transformation_sapling",
   "occultism:otherworld_sapling",
   "occultism:otherworld_sapling_natural",
   "ars_nouveau:blue_archwood_sapling",
   "ars_nouveau:red_archwood_sapling",
   "ars_nouveau:purple_archwood_sapling",
   "ars_nouveau:green_archwood_sapling",
-  "ars_nouveau:magebloom_crop"
+  "ars_nouveau:magebloom_crop",
+  "forbidden_arcanus:growing_edelwood"
 ]
 
 ForgeEvents.onEvent('net.blay09.mods.farmingforblockheads.api.MarketRegistryReloadEvent$Post', allthemods => {
