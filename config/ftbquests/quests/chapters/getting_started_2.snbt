@@ -88,6 +88,14 @@
 			x: 15.57d
 			y: 1.2d
 		}
+		{
+			height: 0.5d
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.5d
+			x: 12.5d
+			y: -2.0d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -1443,8 +1451,8 @@
 				item: "mysticalagriculture:nether_star_seeds"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -0.5d
+			x: 12.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5020F092319157B7"]
@@ -1922,6 +1930,36 @@
 			}]
 			x: 4.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["5020F092319157B7"]
+			description: [
+				"{atm9.quest.start2.desc.witherprediction}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"0A52D0932DA3F809\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			id: "79636556AB664E60"
+			rewards: [{
+				id: "195A60A4A5F101C3"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35AC366F1EFBEA4F"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:wither"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Wither Prediction"
+			x: 13.0d
+			y: -1.0d
 		}
 	]
 	title: "{atm9.chapters.6.title}"
