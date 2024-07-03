@@ -519,7 +519,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "5A01C349DB7F396C"
+				id: "2B93F79C28DE3BE4"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
@@ -527,6 +527,7 @@
 						value: "curios:charm"
 					}
 				}
+				tags: ["apotheosis"]
 				title: "Any #curios:charm"
 				type: "item"
 			}]
@@ -671,7 +672,13 @@
 			y: 0.5d
 		}
 		{
+			dependencies: [
+				"218803812A9C332B"
+				"076DFB0B39A4259F"
+			]
+			dependency_requirement: "one_completed"
 			description: ["{atm9.quest.enchant.desc.library}"]
+			hide_dependency_lines: true
 			id: "314E41B84C8DD464"
 			rewards: [{
 				id: "54020DF00D36132E"

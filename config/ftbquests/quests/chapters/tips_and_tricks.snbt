@@ -54,7 +54,6 @@
 				item: "hyperbox:hyperbox"
 				type: "item"
 			}]
-			title: "{atm9.quest.tips.hyperbox}"
 			x: -6.0d
 			y: 0.0d
 		}
@@ -388,6 +387,28 @@
 			title: "{atm9.quest.tips.torch}"
 			x: -1.0d
 			y: 1.0d
+		}
+		{
+			description: [
+				"{atm9.quest.tips.desc.sleepcharm}"
+				""
+				""
+			]
+			id: "7193A76409F26E93"
+			rewards: [{
+				id: "5A0C6C2615247B4F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "{atm9.quest.tips.subt.sleepcharm}"
+			tasks: [{
+				id: "08AD28F438762CBF"
+				item: "darkutils:charm_sleep"
+				type: "item"
+			}]
+			title: "{atm9.quest.tips.sleepcharm}"
+			x: -3.5d
+			y: 1.5d
 		}
 	]
 	title: "{atm9.chapters.4.title}"

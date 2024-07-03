@@ -1558,6 +1558,7 @@
 		}
 		{
 			description: ["{atm9.quest.force.desc.furnace}"]
+			icon: "forcecraft:force_furnace"
 			icon_scale: 2.0d
 			id: "6C8DD6CD32A26135"
 			rewards: [{
