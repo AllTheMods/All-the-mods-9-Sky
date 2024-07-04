@@ -268,8 +268,8 @@
 			image: "minecraft:item/nether_star"
 			rotation: 0.0d
 			width: 8.0d
-			x: 16.0d
-			y: -10.0d
+			x: 15.8d
+			y: -10.2d
 		}
 		{
 			height: 2.0d
@@ -427,6 +427,7 @@
 				"3D85F85333C6B88E"
 			]
 			description: ["{atm9.quest.ma.desc.IA}"]
+			icon: "mysticalagriculture:infusion_altar"
 			id: "0B37355262121DD5"
 			rewards: [{
 				count: 2
@@ -481,6 +482,7 @@
 		{
 			dependencies: ["11097D91EBF2490D"]
 			description: ["{atm9.quest.ma.desc.Mesh}"]
+			icon: "exdeorum:golden_mesh"
 			id: "3D85F85333C6B88E"
 			subtitle: "{atm9.quest.ma.subt.CraftTip}"
 			tasks: [
@@ -540,6 +542,7 @@
 		{
 			dependencies: ["7F01ADF500CECE3D"]
 			description: ["{atm9.quest.ma.desc.Farmreq}"]
+			icon: "minecraft:water_bucket"
 			id: "506E5287077BC00D"
 			rewards: [{
 				id: "2F4A4A8E5A2BB294"
@@ -635,6 +638,13 @@
 		{
 			dependencies: ["7C0E4991F1DAF902"]
 			description: ["{atm9.quest.ma.desc.Armor}"]
+			icon: {
+				Count: 1
+				id: "mysticalagriculture:inferium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "00E594F9F06CB7B1"
 			tasks: [{
 				id: "1A8613ACEBCE1625"
@@ -870,6 +880,7 @@
 		{
 			dependencies: ["6580DCA54E4C9BC2"]
 			description: ["{atm9.quest.ma.desc.SSprocessing}"]
+			icon: "exdeorum:diamond_mesh"
 			id: "5C590DB2F3D935E5"
 			tasks: [
 				{
@@ -890,6 +901,13 @@
 		{
 			dependencies: ["734AD1B5DAD46F02"]
 			description: ["{atm9.quest.ma.desc.SoulDagger}"]
+			icon: {
+				Count: 1
+				id: "mysticalagriculture:soulium_dagger"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "258917BBF3A8C3D2"
 			tasks: [
 				{
@@ -1743,6 +1761,7 @@
 		{
 			dependencies: ["1A316D2A48F88B50"]
 			description: ["{atm9.quest.ma.desc.Upgrades}"]
+			icon: "thermal:machine_speed_augment"
 			id: "348EAF1F97CA1521"
 			tasks: [
 				{
@@ -1907,6 +1926,7 @@
 		{
 			dependencies: ["24C2026F428DE0A3"]
 			description: ["{atm9.quest.ma.desc.awakeningaltar}"]
+			icon: "mysticalagriculture:awakening_altar"
 			id: "5D327A886551A6B4"
 			rewards: [{
 				id: "6DA83C750E03FF9A"
@@ -1981,6 +2001,7 @@
 			dependencies: ["6ECA35873EFEDB35"]
 			description: ["{atm9.quest.ma.desc.asbee}"]
 			id: "2A7192CD8D9830DF"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "404AFBEA64266A46"
