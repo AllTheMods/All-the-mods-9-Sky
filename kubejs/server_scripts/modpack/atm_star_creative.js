@@ -1,5 +1,5 @@
 /*
-    Authored by Mitchell52, EnigmaQuip
+    Authored by Mitchell52, EnigmaQuip, oly2o6
     for AllTheMods 8
 */
 ServerEvents.recipes(e => {

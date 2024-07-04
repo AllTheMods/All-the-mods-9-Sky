@@ -57,7 +57,7 @@ ServerEvents.recipes( event => {
     event.shaped('allthetweaks:withers_compass', ['DCD', 'ABA', 'DED'], {
         A: 'generatorgalore:netherstar_generator',
         B: 'industrialforegoing:wither_builder',
-        C: Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:wither"}}'),
+        C: Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:wither"}}').strongNBT(),
         D: 'bloodmagic:accelerationrune',
         E: 'reliquary:witherless_rose'
       }).id('kubejs:allthetweaks/withers_compass')
@@ -74,14 +74,16 @@ ServerEvents.recipes( event => {
       }).id('kubejs:allthetweaks/nexium_emitter')
 
   // Dragon Soul
-  event.shaped('allthetweaks:dragon_soul', ['CDA', ' N ', 'BGE'], {
+  event.shaped('allthetweaks:dragon_soul', ['CDA', 'XNY', 'BGE'], {
     C: 'mysticalagradditions:dragon_scale',
     D: 'occultism:soul_gem',
     A: 'minecraft:dragon_egg',
     N: 'allthemodium:piglich_heart_block',
     B: 'botania:life_essence',
 	G: 'productivebees:inactive_dragon_egg',
-    E: 'ars_nouveau:summon_focus'
+    E: 'ars_nouveau:summon_focus',
+    X: 'draconicevolution:chaotic_core',
+    Y: 'draconicevolution:chaotic_energy_core'
   }).id('kubejs:allthetweaks/dragon_soul')
 
   // dimensional_seed
