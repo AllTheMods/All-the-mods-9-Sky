@@ -74,25 +74,6 @@
 		{ item: "mekanism:upgrade_speed", weight: 3.0f }
 		{ item: "mekanism:upgrade_energy", weight: 3.0f }
 		{ item: "productivebees:sturdy_bee_cage", weight: 5.0f }
-		{
-			item: {
-				Count: 1
-				id: "minecraft:potion"
-				tag: {
-					Potion: "potionsmaster:iron_sight"
-				}
-			}
-			weight: 3.0f
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:potion"
-				tag: {
-					Potion: "potionsmaster:gold_sight"
-				}
-			}
-		}
 		{ item: "modularrouters:modular_router" }
 		{ count: 4, item: "minecraft:iron_ingot", random_bonus: 4, weight: 7.0f }
 		{ count: 2, item: "minecraft:gold_ingot", random_bonus: 2, weight: 5.0f }
@@ -315,41 +296,6 @@
 		{ item: "minecraft:beehive", weight: 7.0f }
 		{ item: "productivebees:advanced_oak_beehive", weight: 5.0f }
 		{ item: "ae2:flawless_budding_quartz" }
-		{
-			command: "/sgear_random_gear @p silentgear:hammer 2"
-			elevate_perms: true
-			silent: true
-			type: "command"
-			weight: 5.0f
-		}
-		{
-			command: "/sgear_random_gear @p silentgear:hammer 3"
-			elevate_perms: true
-			silent: true
-			type: "command"
-			weight: 3.0f
-		}
-		{
-			command: "/sgear_random_gear @p silentgear:pickaxe 2"
-			elevate_perms: true
-			silent: true
-			type: "command"
-			weight: 7.0f
-		}
-		{
-			command: "/sgear_random_gear @p silentgear:pickaxe 3"
-			elevate_perms: true
-			silent: true
-			type: "command"
-			weight: 5.0f
-		}
-		{
-			command: "/sgear_random_gear @p silentgear:paxel 3"
-			elevate_perms: true
-			silent: true
-			type: "command"
-			weight: 3.0f
-		}
 		{ item: "powah:magmator_basic" }
 		{ item: "powah:furnator_basic" }
 		{

@@ -1172,32 +1172,6 @@
 			x: -2.5d
 			y: 10.0d
 		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "4C6930EF03D62376"
-			optional: true
-			rewards: [{
-				id: "592AF71BD84F79BF"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "5817A7F875C852D7"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:ars_nouveau/wilden_mobs"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -2.5d
-			y: 15.5d
-		}
 	]
 	title: "{atm9.chapters.14.title}"
 }

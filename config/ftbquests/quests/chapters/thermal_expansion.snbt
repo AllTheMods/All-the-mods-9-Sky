@@ -5,7 +5,7 @@
 	group: "2B51AC12041E3F89"
 	icon: "thermal:machine_frame"
 	id: "658721DF03EC997D"
-	order_index: 6
+	order_index: 7
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -1135,7 +1135,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 3.6999999999999993d
+			y: 3.75d
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]

@@ -193,6 +193,13 @@
 		}
 		{
 			dependencies: ["2E9C035EEE7E5C34"]
+			icon: {
+				Count: 1
+				id: "minecraft:shears"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "18EADBAFC932F864"
 			rewards: [{
 				id: "68AA10BF3AA0408A"
@@ -203,11 +210,12 @@
 				id: "4BA73291E50EB55D"
 				item: {
 					Count: 1
-					id: "pickletweaks:flint_shears"
+					id: "itemfilters:tag"
 					tag: {
-						Damage: 0
+						value: "forge:shears"
 					}
 				}
+				title: "Shears"
 				type: "item"
 			}]
 			title: "{atm9.quest.farm.sheep}"
