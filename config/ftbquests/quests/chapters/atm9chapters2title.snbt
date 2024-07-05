@@ -4,7 +4,7 @@
 	default_quest_shape: ""
 	filename: "atm9chapters2title"
 	group: ""
-	icon: "allthemodium:raw_allthemodium"
+	icon: "allthemodium:allthemodium_ingot"
 	id: "45266BB4B938FF39"
 	order_index: 3
 	quest_links: [ ]
@@ -271,6 +271,7 @@
 			dependencies: ["031BDF73F745954F"]
 			description: [""]
 			id: "68DB25B8F9FF0A13"
+			min_width: 250
 			subtitle: "{atm9.quest.allthemodium.subt.flux-inf}"
 			tasks: [{
 				id: "13975CC0A9988A32"
@@ -506,6 +507,7 @@
 				"6A6ACFC1BAFCDBEE"
 			]
 			dependency_requirement: "one_completed"
+			description: ["{atm9.quest.allthemodium.desc.vibinfo}"]
 			id: "2909CC7DAE6E69AC"
 			rewards: [{
 				id: "570C2623EFBB28F2"
@@ -617,7 +619,7 @@
 				item: "allthemodium:vibranium_block"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: 9.5d
 		}
 		{
@@ -629,14 +631,13 @@
 				item: "allthemodium:vibranium_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 9.5d
 		}
 		{
 			dependencies: [
 				"2625DD6A82F48341"
 				"1B1C8FA979C2DF94"
-				"7D97ABEC63109E88"
 			]
 			description: ["{atm9.quest.allthemodium.desc.unob_ore}"]
 			id: "0091DB2772579996"
@@ -660,18 +661,6 @@
 			}]
 			x: 0.0d
 			y: 12.0d
-		}
-		{
-			dependencies: ["2909CC7DAE6E69AC"]
-			description: ["{atm9.quest.allthemodium.desc.vibinfo}"]
-			id: "7D97ABEC63109E88"
-			tasks: [{
-				id: "05FA6B0B3FF157C6"
-				title: "{atm9.quest.allthemodium.vib_ore}"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 9.5d
 		}
 		{
 			dependencies: ["441BB6FFE77E9620"]

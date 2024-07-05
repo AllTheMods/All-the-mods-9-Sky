@@ -889,7 +889,11 @@
 		}
 		{
 			dependencies: ["04ED71D67F75FE4C"]
-			description: ["{atm9.quest.start3.desc.force}"]
+			description: [
+				"{atm9.quest.start3.desc.force}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"030548E7416DD46A\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
 			hide: true
 			id: "09DF0AF4E27A671C"
 			rewards: [
