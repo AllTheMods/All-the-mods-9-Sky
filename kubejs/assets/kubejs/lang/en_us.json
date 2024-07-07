@@ -3145,7 +3145,7 @@
     "atm9.quest.bloodMagic.desc.voidSigil.1": "&cVoid Sigil&r - Right Click on any liquid to void it, costing 50 LP.",
     "atm9.quest.bloodMagic.desc.seersSigil.1": "&6Seer's Sigil&r - A better version of the Divination Sigil. Gives more info when looking at Altars.",
     "atm9.quest.bloodMagic.desc.minersSigil.1": "&aMiner's Sigil&r - Shift-Right Click to use 100LP per 5 seconds to give yourself a Haste buff.",
-    "atm9.quest.bloodMagic.desc.greenGroveSigil.1": "&2Green Gove Sigil&r - Right Clicking a crop that is growable will give it a bonemeal effect for 150LP. Shift-Right Clicking will consume 150LP per 5 seconds, increasing the growth rate of a 7x7x5 area. ",
+    "atm9.quest.bloodMagic.desc.greenGroveSigil.1": "&2Green Grove Sigil&r - Right Clicking a crop that is growable will give it a bonemeal effect for 150LP. Shift-Right Clicking will consume 150LP per 5 seconds, increasing the growth rate of a 7x7x5 area. ",
     "atm9.quest.bloodMagic.tier2Sigils": "Tier 2 Sigils",
     "atm9.quest.bloodMagic.desc.bloodLamp.1": "&cBlood Lamp&r - Launches a blood light when used. Costs 10LP",
     "atm9.quest.bloodMagic.desc.holding.1": "&9Holding&r - Holds up to 5 other Sigils at a time, providing their passive effects and allowing you to activate them on a while. You can keybind buttons to access the inventory and cycle through the Sigils.",
