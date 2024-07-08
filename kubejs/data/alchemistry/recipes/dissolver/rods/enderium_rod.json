@@ -1,0 +1,48 @@
+{
+    "type": "alchemistry:dissolver",
+    "group": "alchemistry:dissolver",
+    "input": {
+        "ingredient": {
+            "tag": "forge:rods/enderium"
+        },
+        "count": 1
+    },
+    "output": {
+        "rolls": 32,
+        "weighted": true,
+        "groups": [
+            {
+                "probability": 60,
+                "results": [
+                    {
+                        "item": "chemlib:lead"
+                    }
+                ]
+            },
+            {
+                "probability": 20,
+                "results": [
+                    {
+                        "item": "chemlib:graphite"
+                    }
+                ]
+            },
+            {
+                "probability": 10,
+                "results": [
+                    {
+                        "item": "chemlib:neodymium"
+                    }
+                ]
+            },
+            {
+                "probability": 10,
+                "results": [
+                    {
+                        "item": "chemlib:mercury"
+                    }
+                ]
+            }
+        ]
+    }
+}

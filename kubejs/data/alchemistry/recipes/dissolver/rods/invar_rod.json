@@ -1,0 +1,32 @@
+{
+    "type": "alchemistry:dissolver",
+    "group": "alchemistry:dissolver",
+    "input": {
+      "ingredient": {
+        "tag": "forge:rods/invar"
+      },
+      "count": 1
+    },
+    "output": {
+      "rolls": 32,
+      "weighted": true,
+      "groups": [
+        {
+          "probability": 66.67,
+          "results": [
+            {
+              "item": "chemlib:iron"
+            }
+          ]
+        },
+        {
+          "probability": 33.33,
+          "results": [
+            {
+                "item": "chemlib:nickel"
+            }
+          ]
+        }
+      ]
+    }
+  }
