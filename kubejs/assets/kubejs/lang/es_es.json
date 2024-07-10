@@ -785,7 +785,6 @@
 	"atm9.quest.mahou.desc.damage": "Un Pergamino que necesitarás aplicar para obtener Réplica es el Pergamino de Intercambio de Daño. Para obtenerlo, haz el Ritual de Intercambio de Daño con 1 Hierro en Polvo y 2 Esmeraldas en Polvo.",
 	"atm9.quest.mahou.desc.immunity": "El segundo Pergamino que necesitas activar para obtener Réplica es el Pergamino de Intercambio de Inmunidad. Para obtenerlo, necesitarás el Ritual de Intercambio de Inmunidad, que necesita 1 Ojo en Polvo y 2 Esmeraldas en Polvo.",
 	"atm9.quest.mahou.desc.replica": "Ahora esto es complicado. Para obtener Réplica, primero ten 100 almas, Intercambio de Daño y Intercambio de Inmunidad listos. Luego, sostén tu escudo fortalecido para bloquear un ataque, y entonces tendrás a Réplica.",
-
 	
 	"atm9.quest.storage.basic": "Almacenamiento Básico",
 	"atm9.quest.storage.trash": "Botes de Basura",
@@ -1099,14 +1098,13 @@
 	"atm9.quest.ae2.subt.ininfity": "No estoy escribiendo la línea de Toy Story",
 	"atm9.quest.ae2.subt.antimatter": "No es exactamente antimateria",
 	
-	"atm9.quest.ae2.img.star": "Needed For The ATM Star",
+	"atm9.quest.ae2.img.star": "Necesario Para La Estrella ATM",
 	
 	
     "atm9.quest.rs.refined": "&dRefined Storage",
     "atm9.quest.rs.security": "Gestor de Seguridad",
     "atm9.quest.rs.grid": "Redes de Cuadrícula",
     "atm9.quest.rs.transmitter": "Transmisor",
-    "atm9.quest.rs.wrench": "Llave Inglesa",
     "atm9.quest.rs.cables": "Cables",
     "atm9.quest.rs.speeding": "¡Acelerando Todo!",
     "atm9.quest.rs.external": "Almacenamiento Externo",
@@ -1178,7 +1176,6 @@
     "atm9.quest.rs.desc.security": "El &9Gestor de Seguridad&r te permite otorgar acceso y permisos a los usuarios dentro de tu red. \\n \\n Cuando se coloca en tu sistema, necesitarás crear una &9Tarjeta de Seguridad&r para cada jugador al que quieras configurar permisos. Cuando no hay tarjetas presentes, todos tienen acceso a todos los permisos. \\n \\n Para restringir los permisos y el acceso a todos los jugadores no configurados, configura una tarjeta que no esté vinculada a un jugador y colócala en el gestor. La persona que colocó el Gestor de Seguridad siempre tendrá acceso a él.",
     "atm9.quest.rs.desc.grid": "Debido al límite del Controlador, probablemente querrás conectar diferentes sistemas a tu concentrador principal sin un billón de cables conectándolos. \\n \\n Esto se hace usando &6Transmisores de Red&r y &6Receptores&r. \\n \\n Los &9Transmisores&r deben estar conectados a tu sistema principal, donde sea que esté tu Controlador. \\n \\n El &9Receptor&r debe ir donde quieras que esté tu red externa. Por ejemplo, esto puede ser una parte separada de tu base donde tengas Abejas, una granja de mobs, etc. \\n \\n Para conectar el Receptor a tu red principal, necesitarás usar una &eTarjeta de Red&r. Para vincular la Tarjeta de Red, haz clic derecho en el Receptor de Red y luego coloca la Tarjeta de Red en el Transmisor de Red que está conectado a tu sistema principal.",
     "atm9.quest.rs.desc.transmitter": "Para conectar el Receptor a tu red principal, necesitarás usar una &eTarjeta de Red&r. Para vincular la Tarjeta de Red, haz clic derecho en el Receptor de Red y luego coloca la Tarjeta de Red en el Transmisor de Red que está conectado a tu sistema principal.",
-    "atm9.quest.rs.desc.wrench": "La Llave Inglesa es una herramienta que puede hacer dos cosas: \\n-> Rotar bloques \\n-> Romper coberturas de Refined Storage.\\n\\nSimplemente sneakea y haz clic derecho cuando uses la Llave Inglesa.",
     "atm9.quest.rs.desc.cables": "&9Cables&r se usan para conectar bloques e ítems a tu sistema. \\n \\n Al principio, puedes arreglártelas colocando bloques uno al lado del otro para conectarlos a tu sistema, pero los Cables te permiten extenderte. Esto es un elemento básico para cualquier Red de Refined Storage.",
     "atm9.quest.rs.desc.speeding": "La &9Mejora de Velocidad&r hace exactamente lo que dice. Aumenta la velocidad a la que funciona la interfaz/bloque. ¿Necesitas que un importador saque más rápido? ¿Quieres que tus creadores trabajen más rápido? ¡Esta es la mejora! \\n \\n La &6Mejora de Pila&r aumenta la velocidad de transferencia por una pila de ítems en lugar de solo uno. ¡Combínala con Mejora de Velocidad!",
     "atm9.quest.rs.desc.external": "Este tipo de interfaz de cable es probablemente el ítem más importante que uno puede hacer en su viaje de Refined Storage. \\n \\n Este tipo de interfaz de cable conecta un almacenamiento externo a tu Red de Refined Storage. Básicamente permite que RS mire dentro del contenedor de almacenamiento para permitirte acceder a él dentro de tu cuadrícula. \\n \\n Esto funciona en muchas cosas, incluyendo pero no limitado a: Cofres, Barriles, Cajones, Controladores de Cajones y más. \\n \\n Si no puedes hacer discos y tienes un montón de cofres por todas partes, esta es tu mejor opción para crear una Red de Almacenamiento.",
@@ -1246,7 +1243,6 @@
     "atm9.quest.rs.subt.security": "¡Asegura tu cuadrícula!",
     "atm9.quest.rs.subt.grid": "¡Conectando Redes de Forma Inalámbrica!",
     "atm9.quest.rs.subt.transmitter": "Redes a Distancia",
-    "atm9.quest.rs.subt.wrench": "Gírame de un lado a otro",
     "atm9.quest.rs.subt.cables": "Conectando el Sistema",
     "atm9.quest.rs.subt.destructor": "¡Rompiendo Bloques!",
     "atm9.quest.rs.subt.constructor": "¡Colocando Bloques!",
@@ -1300,8 +1296,8 @@
     "atm9.quest.spawner.desc.apple": "Al usar una Manzana Dorada en un Generador, absorbes las almas de los mobs que serán generados, dejando solo un cascarón hueco de lo que solían ser. Los mobs perderán toda su IA, así que harán básicamente lo que hace un soporte de armaduras. No pueden golpearte, no pueden teletransportarse, no pueden moverse por sí mismos. Se quedan ahí listos para ser asesinados, ¡qué emocionante!",
     "atm9.quest.spawner.desc.egg": "Este puede ser nuevo para aquellos que regresan de versiones anteriores. Al usar un huevo de tortuga en un generador, solo generará versiones bebés de los mobs en él. Esto solo funciona con versiones bebés de mobs de Vanilla, no modded.",
     "atm9.quest.spawner.desc.rods": "El Rango de Aparición es el área donde los mobs pueden generarse. Cuanto más grande sea el área, más espacio para que se generen. Cuanto más pequeña sea el área, más barato será la fábrica.",
-
 	
+    
     "atm9.quest.farm.food": "Comida y Agricultura",
     "atm9.quest.farm.farming": "El Plantador",
     "atm9.quest.farm.grass": "Golpea la Hierba",
@@ -1623,7 +1619,7 @@
     "atm9.quest.productiveBees.desc.centrifugeUse.2": "Si estás buscando la mejor manera de procesar tus panales, la &cCentrífuga Calentada&r es aún más rápida y puede incluso procesar &aBloques de Panales&r.",
     "atm9.quest.productiveBees.desc.centrifugeUse.3": "Todos estos se pueden hacer más rápidos utilizando actualizaciones de velocidad.",
     "atm9.quest.productiveBees.subt.processingHoneycombs": "Procesando Panales",
-    "atm9.quest.productiveBees.centrifuges": "Centrífugas",
+    "atm9.quest.productiveBees.centrifuges": "Centrífugadora",
     "atm9.quest.productiveBees.desc.diamondBeeCreation": "¡Cruzando la Abeja del Ender con una Abeja de Lapis crearás una Abeja de Diamante!",
     "atm9.quest.productiveBees.subt.enderLapis": "Ender + Lapis",
     "atm9.quest.productiveBees.diamondComb": "Panales de Diamante",
@@ -2810,7 +2806,7 @@
 	"atm9.quest.xycraft.subt.green": "El segundo nombre de Roy Biv",
 	"atm9.quest.xycraft.subt.red": "La R en Roy G. Biv",
 	"atm9.quest.xycraft.subt.dark": "Quien apago las luces?",
-	"atm9.quest.xycraft.subt.light": "Demadiada Luz!",
+	"atm9.quest.xycraft.subt.light": "Demasiada Luz!",
 	"atm9.quest.xycraft.subt.water": "Hielo?",
 	"atm9.quest.xycraft.subt.balloon": "Arriba!",
 	
@@ -3518,7 +3514,7 @@
 	"atm9.quest.force.engine": "Motor de Fuerza",
 	"atm9.quest.force.inert": "Estrella del Nether Usada",
 	"atm9.quest.force.wither": "Wither Embotellado",
-
+    
 	
 	"atm9.quest.force.desc.forcecraft": "¡Di 'Hola' a ForceCraft! \\n \\nEste mod se centra en el poder de la Fuerza y en usarlo para Infundir objetos. \\n \\n¡Todo es amarillo!",
 	"atm9.quest.force.desc.ingot": "Los Lingotes de Fuerza son de lo que estarán hechas la mayoría de herramientas y objetos. Escucha atentamente, la receta es un poco confusa. Tomas 1 Gema de Fuerza y ya sea 2 Lingotes de Oro o 2 Lingotes de Hierro, ¡y obtienes un Lingote de Fuerza!",
