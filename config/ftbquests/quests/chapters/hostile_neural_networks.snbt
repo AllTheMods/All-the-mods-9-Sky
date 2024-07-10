@@ -59,7 +59,6 @@
 				title: "{atm9.quest.hostile.welcome}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.hostile.welcome}"
 			x: -2.5d
 			y: -0.5d
 		}
@@ -161,7 +160,6 @@
 				title: "{atm9.quest.hostile.data}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.hostile.data}"
 			x: -2.5d
 			y: 1.5d
 		}
@@ -934,8 +932,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -1.5d
-			y: 13.5d
+			x: -2.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1068,8 +1066,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -2.5d
-			y: 8.5d
+			x: -1.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
