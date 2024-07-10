@@ -23,7 +23,7 @@
 			rewards: [{
 				id: "44770C4FF8BA232F"
 				type: "xp_levels"
-				xp_levels: 30
+				xp_levels: 15
 			}]
 			size: 2.5d
 			tasks: [{
@@ -182,19 +182,6 @@
 		}
 		{
 			dependencies: ["031BDF73F745954F"]
-			icon: "minecraft:dragon_egg"
-			id: "0F74E73190E5FFAF"
-			tasks: [{
-				id: "24F188B7392948BF"
-				title: "{atm9.quest.start2.mundabitar}"
-				type: "checkmark"
-			}]
-			title: "{atm9.quest.start2.mundabitur}"
-			x: -2.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["031BDF73F745954F"]
 			description: ["{atm9.quest.allthemodium.desc.arcane}"]
 			id: "75310892130278C6"
 			tasks: [{
@@ -226,13 +213,16 @@
 		{
 			description: ["{atm9.quest.allthemodium.desc.intro1}"]
 			hide_dependent_lines: true
+			icon: "allthemodium:allthemodium_ingot"
 			id: "031BDF73F745954F"
 			size: 1.75d
 			tasks: [{
-				id: "63490EE01B9A128E"
-				title: "{atm9.quest.allthemodium.intro}"
-				type: "checkmark"
+				dimension: "minecraft:overworld"
+				id: "066AC64406153427"
+				title: "Exist"
+				type: "dimension"
 			}]
+			title: "{atm9.quest.allthemodium.intro}"
 			x: 0.0d
 			y: -5.0d
 		}
@@ -264,7 +254,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1C014E4F1DE73C03"]
@@ -282,7 +272,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["45FDD8348D8FD770"]
@@ -337,7 +327,7 @@
 			}]
 			title: "{atm9.quest.allthemodium.atm_tools}"
 			x: 3.5d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1C014E4F1DE73C03"]
@@ -353,7 +343,7 @@
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["45FDD8348D8FD770"]
@@ -370,7 +360,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4D3C691CC647D955"]
@@ -387,7 +377,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["45FDD8348D8FD770"]
@@ -404,7 +394,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["19CF6A22EE39CD0D"]
@@ -429,7 +419,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["19CF6A22EE39CD0D"]
@@ -462,7 +452,7 @@
 				}
 			]
 			x: -3.5d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -471,8 +461,8 @@
 				"45FDD8348D8FD770"
 				"2C459814EFC92B12"
 				"5438AE1312DEFB10"
-				"34A2B9DD94C5BEF2"
 				"6A6ACFC1BAFCDBEE"
+				"1DCEB4E657CEC114"
 			]
 			dependency_requirement: "one_completed"
 			description: ["{atm9.quest.allthemodium.desc.vibinfo}"]
@@ -492,6 +482,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["3DA7D0BA045CE7AB"]
 			description: ["{atm9.quest.allthemodium.desc.bucketoflife}"]
 			id: "2C459814EFC92B12"
 			rewards: [{
@@ -508,6 +499,7 @@
 			y: 6.5d
 		}
 		{
+			dependencies: ["52D64B2C7EEA688C"]
 			description: ["{atm9.quest.allthemodium.desc.insanium}"]
 			id: "6A6ACFC1BAFCDBEE"
 			rewards: [{
@@ -521,26 +513,11 @@
 				item: { Count: 3, id: "mysticalagradditions:insanium_essence" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: 1.5d
 			y: 7.5d
 		}
 		{
-			description: ["{atm9.quest.allthemodium.desc.atmingredient}"]
-			id: "34A2B9DD94C5BEF2"
-			rewards: [{
-				id: "42F2A26D3A7807E5"
-				type: "xp"
-				xp: 1
-			}]
-			tasks: [{
-				id: "2298DBAD2D002F55"
-				item: "allthemodium:allthemodium_ingot"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 6.5d
-		}
-		{
+			dependencies: ["40BC67BDEE15D1DE"]
 			description: ["{atm9.quest.allthemodium.desc.ars}"]
 			id: "5438AE1312DEFB10"
 			rewards: [{
@@ -570,7 +547,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: -1.5d
 			y: 7.5d
 		}
 		{
@@ -669,7 +646,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0091DB2772579996"]
@@ -680,7 +657,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 13.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["0091DB2772579996"]
@@ -691,7 +668,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 13.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["031BDF73F745954F"]
@@ -704,6 +681,31 @@
 			}]
 			x: -2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"563F2612891F528A"
+				"132662785B170DAB"
+				"251EBF1F5BC241EF"
+				"01B836D34B0E1281"
+				"287D3F78ACDFFDBA"
+				"4147C85073D29955"
+			]
+			description: ["{atm9.quest.allthemodium.desc.atmingot}"]
+			hide_dependency_lines: true
+			id: "1DCEB4E657CEC114"
+			rewards: [{
+				id: "777BE7E4B443C27E"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
+			tasks: [{
+				id: "5FE42FDE5E6BEEE5"
+				item: "allthemodium:allthemodium_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
 		}
 	]
 	title: "{atm9.chapters.2.title}"
