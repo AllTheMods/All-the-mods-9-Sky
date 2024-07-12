@@ -89,6 +89,18 @@
       "east": [],
       "south": [],
       "west": []
+    },
+    "headstart": {
+      "south": [
+        [
+          9,
+          2,
+          6
+        ]
+      ],
+      "east": [],
+      "west": [],
+      "north": []
     }
   },
   "spreads": {
@@ -117,6 +129,16 @@
       "name": "The Direwolf",
       "file": "thedirewolf.nbt",
       "spawns": "exported_at_2024-05-27T03:51:35+0100"
+    },
+    {
+      "name": "Headstart",
+      "file": "headstart.nbt",
+      "spawns": "headstart"
+    },
+    {
+      "name": "Headstart with power",
+      "file": "headstart_pwr.nbt",
+      "spawns": "headstart"
     }
   ]
 }
