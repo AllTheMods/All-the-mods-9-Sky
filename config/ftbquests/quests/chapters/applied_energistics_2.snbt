@@ -1598,33 +1598,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.ae2.pylon}"
-			x: 19.5d
+			x: 18.0d
 			y: 6.0d
-		}
-		{
-			dependencies: ["18DFB25DC48D8BF7"]
-			description: ["{atm9.quest.ae2.desc.Sanchor}"]
-			id: "2897FA291E5A38D8"
-			rewards: [
-				{
-					id: "1560015D5E8AFFEA"
-					table_id: 5871764666515020368L
-					type: "random"
-				}
-				{
-					id: "29737736E2B314EA"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [{
-				id: "68A36AB341CC016D"
-				item: "ae2:spatial_anchor"
-				type: "item"
-			}]
-			title: "{atm9.quest.ae2.Sanchor}"
-			x: 20.5d
-			y: 5.0d
 		}
 		{
 			dependencies: ["18DFB25DC48D8BF7"]
@@ -1655,8 +1630,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.ae2.SSC}"
-			x: 18.5d
-			y: 5.0d
+			x: 19.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["51DE3157DE3E57B8"]

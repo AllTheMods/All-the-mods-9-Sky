@@ -941,10 +941,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"4B81E84CAE814BA9"
-				"4101F8275B41C79B"
-			]
+			dependencies: ["4101F8275B41C79B"]
 			description: ["{atm9.quest.rs.desc.1kstorage_block}"]
 			id: "62625CAF6649AB53"
 			optional: true
@@ -961,7 +958,7 @@
 			}]
 			title: "{atm9.quest.rs.1kstorage_block}"
 			x: -1.5d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6092490EC9008A05"]
@@ -1140,6 +1137,45 @@
 			title: "{atm9.quest.rs.crafting_monitor}"
 			x: 1.0d
 			y: -6.5d
+		}
+		{
+			dependencies: ["2E2811D1A0F2A492"]
+			description: ["{atm9.quest.rs.desc.infiniterange}"]
+			id: "6FE2D0B83A342E64"
+			rewards: [{
+				id: "7264FDA2E5C580FA"
+				item: "rsinfinitybooster:infinity_card"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "681EC80CB2ED7F51"
+				item: "rsinfinitybooster:infinity_card"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.infiniterange}"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6FE2D0B83A342E64"]
+			description: ["{atm9.quest.rs.desc.dimension}"]
+			id: "4B77657055E0D36A"
+			rewards: [{
+				count: 4
+				id: "3B4E1617EA62D067"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "13098082ACDD0118"
+				item: "rsinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			title: "{atm9.quest.rs.dimension}"
+			x: 5.5d
+			y: 0.5d
 		}
 	]
 	title: "{atm9.chapters.11.title}"
