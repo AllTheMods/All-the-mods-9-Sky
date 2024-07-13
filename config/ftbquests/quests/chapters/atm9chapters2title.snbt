@@ -230,6 +230,7 @@
 			dependencies: ["031BDF73F745954F"]
 			description: [""]
 			id: "68DB25B8F9FF0A13"
+			min_width: 250
 			subtitle: "{atm9.quest.allthemodium.subt.flux-inf}"
 			tasks: [{
 				id: "13975CC0A9988A32"

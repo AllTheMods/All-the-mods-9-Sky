@@ -9,20 +9,144 @@
       "emc": 64
     },
     {
+      "item": "forcecraft:raw_bacon",
+      "emc": 32
+    },
+    {
+      "item": "forcecraft:cooked_bacon",
+      "emc": 32
+    },
+    {
       "item": "minecraft:porkchop",
       "emc": 64
+    },
+    {
+      "item": "croptopia:bacon",
+      "emc": 64
+    },
+    {
+      "item": "croptopia:cooked_bacon",
+      "emc": 64
+    },
+    {
+      "item": "farmersdelight:bacon",
+      "emc": 32
     },
     {
       "item": "minecraft:cooked_porkchop",
       "emc": 64
     },
     {
+      "item": "farmersdelight:cooked_bacon",
+      "emc": 32
+    },
+    {
       "item": "minecraft:mutton",
       "emc": 64
     },
     {
+      "item": "farmersdelight:mutton_chops",
+      "emc": 32
+    },
+    {
       "item": "minecraft:cooked_mutton",
       "emc": 64
+    },
+    {
+      "item": "farmersdelight:cooked_mutton_chops",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:chicken",
+      "emc": 64
+    },
+    {
+      "item": "farmersdelight:chicken_cuts",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:cooked_chicken",
+      "emc": 64
+    },
+    {
+      "item": "farmersdelight:cooked_chicken_cuts",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:rabbit",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:cooked_rabbit",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:tropical_fish",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:pufferfish",
+      "emc": 64
+    },
+    {
+      "item": "croptopia:shrimp",
+      "emc": 64
+    },
+    {
+      "item": "croptopia:cooked_shrimp",
+      "emc": 64
+    },
+    {
+      "item": "croptopia:tuna",
+      "emc": 64
+    },
+    {
+      "item": "croptopia:cooked_tuna",
+      "emc": 64
+    },
+    {
+      "item": "croptopia:anchovy",
+      "emc": 64
+    },
+    {
+      "item": "croptopia:cooked_anchovy",
+      "emc": 64
+    },
+    {
+      "item": "croptopia:roe",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:cod",
+      "emc": 64
+    },
+    {
+      "item": "farmersdelight:cod_slice",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:cooked_cod",
+      "emc": 64
+    },
+    {
+      "item": "farmersdelight:cooked_cod_slice",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:salmon",
+      "emc": 64
+    },
+    {
+      "item": "farmersdelight:salmon_slice",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:cooked_salmon",
+      "emc": 64
+    },
+    {
+      "item": "farmersdelight:cooked_salmon_slice",
+      "emc": 32
     },
     {
       "item": "xycraft_world:xychorium_gem_blue",
@@ -45,12 +169,8 @@
       "emc": 128
     },
     {
-      "item": "minecraft:bone_meal",
-      "emc": 0
-    },
-    {
       "item": "minecraft:bone",
-      "emc": 144
+      "emc": 128
     },
     {
       "item": "minecraft:string",
@@ -61,152 +181,12 @@
       "emc": 196
     },
     {
+      "item": "forcecraft:pile_of_gunpowder",
+      "emc": 49
+    },
+    {
       "item": "minecraft:ghast_tear",
       "emc": 1024
-    },
-    {
-      "item": "minecraft:acacia_log",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:stripped_jungle_log",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:jungle_log",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:stripped_birch_log",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:birch_log",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:stripped_spruce_log",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:spruce_log",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:stripped_oak_log",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:oak_log",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:stripped_acacia_log",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:dark_oak_log",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:stripped_dark_oak_log",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:mangrove_log",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:stripped_mangrove_log",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:cherry_log",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:stripped_cherry_log",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:crimson_stem",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:stripped_crimson_stem",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:light_gray_carpet",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:gray_carpet",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:black_carpet",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:brown_carpet",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:red_carpet",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:orange_carpet",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:yellow_carpet",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:stripped_warped_stem",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:warped_stem",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:pink_carpet",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:magenta_carpet",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:purple_carpet",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:blue_carpet",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:light_blue_carpet",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:cyan_carpet",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:green_carpet",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:lime_carpet",
-      "emc": 32
-    },
-    {
-      "item": "minecraft:white_carpet",
-      "emc": 32
     },
     {
       "item": "minecraft:slime_ball",
@@ -217,131 +197,43 @@
       "emc": 32
     },
     {
-      "item": "minecraft:mangrove_planks",
-      "emc": 8
-    },
-    {
-      "item": "minecraft:dark_oak_planks",
-      "emc": 8
-    },
-    {
-      "item": "minecraft:acacia_planks",
-      "emc": 8
-    },
-    {
-      "item": "minecraft:jungle_planks",
-      "emc": 8
-    },
-    {
-      "item": "minecraft:birch_planks",
-      "emc": 8
-    },
-    {
-      "item": "minecraft:spruce_planks",
-      "emc": 8
-    },
-    {
-      "item": "minecraft:oak_planks",
-      "emc": 8
-    },
-    {
-      "item": "minecraft:crimson_planks",
-      "emc": 8
-    },
-    {
-      "item": "minecraft:warped_planks",
-      "emc": 8
-    },
-    {
-      "item": "minecraft:cherry_planks",
-      "emc": 8
-    },
-    {
-      "item": "minecraft:bamboo_planks",
-      "emc": 8
-    },
-    {
-      "item": "minecraft:green_wool",
-      "emc": 48
-    },
-    {
-      "item": "minecraft:white_wool",
-      "emc": 48
-    },
-    {
-      "item": "minecraft:light_gray_wool",
-      "emc": 48
-    },
-    {
-      "item": "minecraft:cyan_wool",
-      "emc": 48
-    },
-    {
-      "item": "minecraft:light_blue_wool",
-      "emc": 48
-    },
-    {
-      "item": "minecraft:blue_wool",
-      "emc": 48
-    },
-    {
-      "item": "minecraft:purple_wool",
-      "emc": 48
-    },
-    {
-      "item": "minecraft:magenta_wool",
-      "emc": 48
-    },
-    {
-      "item": "minecraft:pink_wool",
-      "emc": 48
-    },
-    {
-      "item": "minecraft:gray_wool",
-      "emc": 48
-    },
-    {
-      "item": "minecraft:lime_wool",
-      "emc": 48
-    },
-    {
-      "item": "minecraft:orange_wool",
-      "emc": 48
-    },
-    {
-      "item": "minecraft:red_wool",
-      "emc": 48
-    },
-    {
-      "item": "minecraft:brown_wool",
-      "emc": 48
-    },
-    {
-      "item": "minecraft:black_wool",
-      "emc": 48
-    },
-    {
-      "item": "minecraft:yellow_wool",
-      "emc": 48
-    },
-    {
-      "item": "minecraft:white_terracotta",
-      "emc": 1
-    },
-    {
-      "item": "minecraft:terracotta",
-      "emc": 1
-    },
-    {
       "item": "minecraft:smooth_basalt",
       "emc": 1
     },
     {
-      "item": "minecraft:basalt",
+      "item": "#chipped:basalt",
       "emc": 1
     },
     {
-      "item": "minecraft:sandstone",
+      "item": "#chipped:sandstone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:smooth_sandstone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:chiseled_sandstone",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:red_sandstone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:smooth_red_sandstone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:chiseled_red_sandstone",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:blackstone",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:tuff",
       "emc": 1
     },
     {
@@ -349,119 +241,75 @@
       "emc": 1
     },
     {
-      "item": "minecraft:deepslate",
+      "item": "#chipped:deepslate",
       "emc": 1
     },
     {
-      "item": "minecraft:cobblestone",
+      "item": "minecraft:polished_deepslate",
       "emc": 1
     },
     {
-      "item": "minecraft:stone",
+      "item": "minecraft:deepslate_bricks",
       "emc": 1
     },
     {
-      "item": "minecraft:green_terracotta",
+      "item": "minecraft:deepslate_tiles",
       "emc": 1
     },
     {
-      "item": "minecraft:lime_terracotta",
+      "item": "#chipped:cobblestone",
       "emc": 1
     },
     {
-      "item": "minecraft:yellow_terracotta",
+      "item": "minecraft:cobblestone_stairs",
       "emc": 1
     },
     {
-      "item": "minecraft:orange_terracotta",
+      "item": "minecraft:cobblestone_wall",
       "emc": 1
     },
     {
-      "item": "minecraft:red_terracotta",
+      "item": "#chipped:mossy_cobblestone",
       "emc": 1
     },
     {
-      "item": "minecraft:brown_terracotta",
+      "item": "#chipped:stone",
       "emc": 1
     },
     {
-      "item": "minecraft:black_terracotta",
+      "item": "minecraft:stone_stairs",
       "emc": 1
     },
     {
-      "item": "minecraft:gray_terracotta",
+      "item": "minecraft:stone_pressure_plate",
       "emc": 1
     },
     {
-      "item": "minecraft:light_gray_terracotta",
+      "item": "minecraft:stone_button",
       "emc": 1
     },
     {
-      "item": "minecraft:pink_terracotta",
+      "item": "#chipped:smooth_stone",
       "emc": 1
     },
     {
-      "item": "minecraft:magenta_terracotta",
+      "item": "#minecraft:stone_bricks",
       "emc": 1
     },
     {
-      "item": "minecraft:purple_terracotta",
+      "item": "minecraft:stone_brick_stairs",
       "emc": 1
     },
     {
-      "item": "minecraft:blue_terracotta",
+      "item": "minecraft:stone_brick_wall",
       "emc": 1
     },
     {
-      "item": "minecraft:light_blue_terracotta",
+      "item": "#chipped:mossy_stone_bricks",
       "emc": 1
     },
     {
-      "item": "minecraft:cyan_terracotta",
-      "emc": 1
-    },
-    {
-      "item": "minecraft:cherry_leaves",
-      "emc": 1
-    },
-    {
-      "item": "minecraft:mangrove_leaves",
-      "emc": 1
-    },
-    {
-      "item": "minecraft:dark_oak_leaves",
-      "emc": 1
-    },
-    {
-      "item": "minecraft:acacia_leaves",
-      "emc": 1
-    },
-    {
-      "item": "minecraft:jungle_leaves",
-      "emc": 1
-    },
-    {
-      "item": "minecraft:birch_leaves",
-      "emc": 1
-    },
-    {
-      "item": "minecraft:spruce_leaves",
-      "emc": 1
-    },
-    {
-      "item": "minecraft:oak_leaves",
-      "emc": 1
-    },
-    {
-      "item": "minecraft:red_sand",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:azalea_leaves",
-      "emc": 1
-    },
-    {
-      "item": "minecraft:moss_block",
+      "item": "#chipped:moss_block",
       "emc": 1
     },
     {
@@ -469,11 +317,7 @@
       "emc": 1
     },
     {
-      "item": "minecraft:netherrack",
-      "emc": 0
-    },
-    {
-      "item": "minecraft:calcite",
+      "item": "#chipped:calcite",
       "emc": 4
     },
     {
@@ -481,35 +325,43 @@
       "emc": 4
     },
     {
-      "item": "minecraft:clay",
+      "item": "#chipped:clay",
       "emc": 4
     },
     {
-      "item": "minecraft:nether_bricks",
+      "item": "#chipped:nether_bricks",
       "emc": 4
     },
     {
-      "item": "minecraft:red_sandstone",
+      "item": "#chipped:bricks",
       "emc": 4
     },
     {
-      "item": "minecraft:bricks",
-      "emc": 4
-    },
-    {
-      "item": "minecraft:andesite",
+      "item": "#chipped:andesite",
       "emc": 1
     },
     {
-      "item": "minecraft:diorite",
+      "item": "minecraft:polished_andesite",
       "emc": 1
     },
     {
-      "item": "minecraft:granite",
+      "item": "#chipped:diorite",
       "emc": 1
     },
     {
-      "item": "minecraft:dripstone_block",
+      "item": "minecraft:polished_diorite",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:granite",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:polished_granite",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:dripstone_block",
       "emc": 4
     },
     {
@@ -517,7 +369,39 @@
       "emc": 4
     },
     {
+      "item": "create:asurine",
+      "emc": 4
+    },
+    {
+      "item": "create:crimsite",
+      "emc": 4
+    },
+    {
+      "item": "create:ochrum",
+      "emc": 4
+    },
+    {
+      "item": "create:veridium",
+      "emc": 4
+    },
+    {
+      "item": "croptopia:calamari",
+      "emc": 16
+    },
+    {
+      "item": "croptopia:cooked_calamari",
+      "emc": 16
+    },
+    {
       "item": "minecraft:ink_sac",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:glow_ink_sac",
+      "emc": 16
+    },
+    {
+      "item": "croptopia:glowing_calamari",
       "emc": 16
     },
     {
@@ -525,15 +409,15 @@
       "emc": 128
     },
     {
-      "item": "minecraft:ochre_froglight",
+      "item": "#chipped:ochre_froglight",
       "emc": 256
     },
     {
-      "item": "minecraft:verdant_froglight",
+      "item": "#chipped:verdant_froglight",
       "emc": 256
     },
     {
-      "item": "minecraft:pearlescent_froglight",
+      "item": "#chipped:pearlescent_froglight",
       "emc": 256
     },
     {
@@ -541,92 +425,28 @@
       "emc": 27
     },
     {
-      "item": "minecraft:blaze_powder",
-      "emc": 0
-    },
-    {
       "item": "minecraft:blaze_rod",
-      "emc": 1536
+      "emc": 1024
     },
     {
-      "item": "projecte:interdiction_torch",
-      "emc": 0
+      "item": "thermal:basalz_rod",
+      "emc": 1024
+    },
+    {
+      "item": "thermal:blitz_rod",
+      "emc": 1024
+    },
+    {
+      "item": "thermal:blizz_rod",
+      "emc": 1024
     },
     {
       "item": "projecte:transmutation_table",
       "emc": 260
     },
     {
-      "item": "projecte:alchemical_chest",
-      "emc": 0
-    },
-    {
       "item": "projecte:repair_talisman",
       "emc": 490
-    },
-    {
-      "item": "projecte:black_alchemical_bag",
-      "emc": 9851
-    },
-    {
-      "item": "projecte:red_alchemical_bag",
-      "emc": 9851
-    },
-    {
-      "item": "projecte:green_alchemical_bag",
-      "emc": 9851
-    },
-    {
-      "item": "projecte:brown_alchemical_bag",
-      "emc": 9851
-    },
-    {
-      "item": "projecte:blue_alchemical_bag",
-      "emc": 9851
-    },
-    {
-      "item": "projecte:purple_alchemical_bag",
-      "emc": 9851
-    },
-    {
-      "item": "projecte:cyan_alchemical_bag",
-      "emc": 9851
-    },
-    {
-      "item": "projecte:light_gray_alchemical_bag",
-      "emc": 9851
-    },
-    {
-      "item": "projecte:gray_alchemical_bag",
-      "emc": 9851
-    },
-    {
-      "item": "projecte:pink_alchemical_bag",
-      "emc": 9851
-    },
-    {
-      "item": "projecte:lime_alchemical_bag",
-      "emc": 9851
-    },
-    {
-      "item": "projecte:yellow_alchemical_bag",
-      "emc": 9851
-    },
-    {
-      "item": "projecte:light_blue_alchemical_bag",
-      "emc": 9851
-    },
-    {
-      "item": "projecte:magenta_alchemical_bag",
-      "emc": 9851
-    },
-    {
-      "item": "projecte:orange_alchemical_bag",
-      "emc": 9851
-    },
-    {
-      "item": "projecte:white_alchemical_bag",
-      "emc": 9851
     },
     {
       "item": "projecte:divining_rod_1",
@@ -661,92 +481,400 @@
       "emc": 16
     },
     {
-      "item": "minecraft:chicken",
-      "emc": 64
-    },
-    {
-      "item": "minecraft:cooked_chicken",
-      "emc": 64
-    },
-    {
-      "item": "minecraft:white_concrete",
+      "item": "#chipped:glass",
       "emc": 1
     },
     {
-      "item": "minecraft:light_gray_concrete",
+      "item": "connectedglass:borderless_glass",
       "emc": 1
     },
     {
-      "item": "minecraft:gray_concrete",
+      "item": "connectedglass:clear_glass",
       "emc": 1
     },
     {
-      "item": "minecraft:black_concrete",
+      "item": "connectedglass:scratched_glass",
       "emc": 1
     },
     {
-      "item": "minecraft:brown_concrete",
+      "item": "create:tiled_glass",
       "emc": 1
     },
     {
-      "item": "minecraft:red_concrete",
+      "item": "create:framed_glass",
       "emc": 1
     },
     {
-      "item": "minecraft:orange_concrete",
+      "item": "create:horizontal_framed_glass",
       "emc": 1
     },
     {
-      "item": "minecraft:yellow_concrete",
+      "item": "create:vertical_framed_glass",
       "emc": 1
     },
     {
-      "item": "minecraft:lime_concrete",
+      "item": "xycraft_world:glass_viewer",
       "emc": 1
     },
     {
-      "item": "minecraft:green_concrete",
+      "item": "xycraft_world:glass_viewer_silicon",
       "emc": 1
     },
     {
-      "item": "minecraft:cyan_concrete",
+      "item": "xycraft_world:glass_viewer_dire",
       "emc": 1
     },
     {
-      "item": "minecraft:light_blue_concrete",
+      "item": "xycraft_world:glass_viewer_glowing",
       "emc": 1
     },
     {
-      "item": "minecraft:blue_concrete",
+      "item": "xycraft_world:glass_viewer_glowing_clear",
       "emc": 1
     },
     {
-      "item": "minecraft:purple_concrete",
+      "item": "#forge:stained_glass",
       "emc": 1
     },
     {
-      "item": "minecraft:magenta_concrete",
+      "item": "#chipped:black_stained_glass",
       "emc": 1
     },
     {
-      "item": "minecraft:pink_concrete",
+      "item": "#chipped:blue_stained_glass",
       "emc": 1
     },
     {
-      "item": "minecraft:glass",
+      "item": "#chipped:brown_stained_glass",
       "emc": 1
+    },
+    {
+      "item": "#chipped:cyan_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:gray_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:green_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:light_blue_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:light_gray_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:lime_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:magenta_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:orange_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:pink_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:purple_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:red_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:white_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:yellow_stained_glass",
+      "emc": 1
+    },
+    {
+      "item": "forbidden_arcanus:ender_pearl_fragment",
+      "emc": 256
     },
     {
       "item": "minecraft:ender_pearl",
       "emc": 1024
     },
     {
-      "item": "minecraft:sea_lantern",
+      "item": "#chipped:sea_lantern",
       "emc": 128
     },
     {
       "item": "minecraft:phantom_membrane",
       "emc": 2048
+    },
+    {
+      "item": "minecraft:magma_cream",
+      "emc": 64
+    },
+    {
+      "item": "#projecte:alchemical_bags",
+      "emc": 8192
+    },
+    {
+      "item": "#minecraft:wool",
+      "emc": 48
+    },
+    {
+      "item": "#minecraft:wool_carpets",
+      "emc": 32
+    },
+    {
+      "item": "#chipped:terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:white_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:light_gray_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:gray_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:black_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:brown_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:red_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:orange_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:yellow_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:lime_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:green_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:cyan_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:light_blue_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:blue_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:purple_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:magenta_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:pink_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:white_glazed_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:light_gray_glazed_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:gray_glazed_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:black_glazed_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:brown_glazed_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:red_glazed_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:orange_glazed_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:yellow_glazed_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:lime_glazed_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:green_glazed_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:cyan_glazed_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:light_blue_glazed_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:blue_glazed_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:purple_glazed_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:magenta_glazed_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:pink_glazed_terracotta",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:white_concrete",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:light_gray_concrete",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:gray_concrete",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:black_concrete",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:brown_concrete",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:red_concrete",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:orange_concrete",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:yellow_concrete",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:lime_concrete",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:green_concrete",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:cyan_concrete",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:light_blue_concrete",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:blue_concrete",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:purple_concrete",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:magenta_concrete",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:pink_concrete",
+      "emc": 1
+    },
+    {
+      "item": "#minecraft:leaves",
+      "emc": 1
+    },
+    {
+      "item": "#minecraft:planks",
+      "emc": 8
+    },
+    {
+      "item": "#minecraft:wooden_slabs",
+      "emc": 4
+    },
+    {
+      "item": "#minecraft:wooden_stairs",
+      "emc": 8
+    },
+    {
+      "item": "#minecraft:wooden_doors",
+      "emc": 16
+    },
+    {
+      "item": "#minecraft:wooden_trapdoors",
+      "emc": 24
+    },
+    {
+      "item": "#minecraft:wooden_buttons",
+      "emc": 8
+    },
+    {
+      "item": "#minecraft:wooden_pressure_plates",
+      "emc": 4
+    },
+    {
+      "item": "#minecraft:wooden_fences",
+      "emc": 8
+    },
+    {
+      "item": "#forge:fence_gates/wooden",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:bamboo_mosaic",
+      "emc": 8
+    },
+    {
+      "item": "#minecraft:logs",
+      "emc": 32
     },
     {
       "item": "mcwfences:acacia_hedge",
@@ -1757,10 +1885,6 @@
       "emc": 1
     },
     {
-      "item": "mcwbridges:pliers",
-      "emc": 0
-    },
-    {
       "item": "mcwbridges:prismarine_bricks_bridge",
       "emc": 1
     },
@@ -1883,34 +2007,6 @@
     {
       "item": "mcwbridges:warped_rope_bridge_stair",
       "emc": 1
-    },
-    {
-      "item": "mcwfurnitures:acacia_bookshelf",
-      "emc": 0
-    },
-    {
-      "item": "mcwfurnitures:acacia_bookshelf_cupboard",
-      "emc": 0
-    },
-    {
-      "item": "mcwfurnitures:acacia_bookshelf_drawer",
-      "emc": 0
-    },
-    {
-      "item": "mcwfurnitures:acacia_chair",
-      "emc": 0
-    },
-    {
-      "item": "mcwfurnitures:acacia_coffee_table",
-      "emc": 0
-    },
-    {
-      "item": "mcwfurnitures:acacia_counter",
-      "emc": 0
-    },
-    {
-      "item": "mcwfurnitures:acacia_covered_desk",
-      "emc": 0
     }
   ]
 }
