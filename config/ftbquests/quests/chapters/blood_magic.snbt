@@ -1156,7 +1156,7 @@
 			size: 1.25d
 			subtitle: "{atm9.quest.bloodMagic.subt.useGuidebook}"
 			tasks: [{
-				count: 28L
+				count: 20L
 				id: "45FE50B70B45B915"
 				item: "bloodmagic:blankrune"
 				type: "item"
@@ -1198,7 +1198,7 @@
 			shape: "octagon"
 			size: 1.25d
 			tasks: [{
-				count: 48L
+				count: 28L
 				id: "03DBCA5695879C49"
 				item: "bloodmagic:blankrune"
 				type: "item"
@@ -1429,7 +1429,7 @@
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				count: 64L
+				count: 60L
 				id: "3830486EDCC81431"
 				item: "bloodmagic:blankrune"
 				type: "item"

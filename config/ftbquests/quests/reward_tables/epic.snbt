@@ -24,15 +24,6 @@
 		{ item: "pipez:ultimate_upgrade", random_bonus: 2, weight: 2.0f }
 		{ item: "mekanism:ultimate_tier_installer" }
 		{ item: "ironfurnaces:netherite_furnace" }
-		{
-			item: {
-				Count: 1
-				id: "minecraft:potion"
-				tag: {
-					Potion: "potionsmaster:allthemodium_sight"
-				}
-			}
-		}
 		{ item: "apotheosis:sigil_of_socketing", random_bonus: 1 }
 		{
 			item: {
