@@ -1930,6 +1930,9 @@
 	"atm9.quest.bees.spatial": "Spatial Bee",
 	"atm9.quest.bees.resin": "Resin Bee",
 	"atm9.quest.bees.beetree": "&e&lThe Bee Tree    ",
+	"atm9.quest.bees.starry": "Starry Bee",
+	"atm9.quest.bees.patrick": "Patrick Bee",
+	"atm9.quest.bees.element": "Element Bees",
 
 	"atm9.quest.bees.desc.welcome": "In this pack, bees can farm you any essential resource! Start your beekeeping journey getting honey, and end it by getting literal &6&lATM Stars&r&r \\n \\nLine 1 teaches you how to use bees, line 2 teaches you how to make the best bees, line 3 is the bee path!",
 	"atm9.quest.bees.desc.first": "To start &eProductive Bees&r, you'll need.. bees. We need vanilla bees to get our first combs going. \\n \\nStart by bonemealing grass to get a &bVanilla Flower&r, easiest being a dandelion. Place a &aSapling&r within a few blocks of the flower, and spam sneak to grow the tree. \\n \\nWith a little luck, the tree will grow with a hive on it.",
@@ -1962,12 +1965,14 @@
 	"atm9.quest.bees.desc.modifying": "To apply the genes to a bee, you must combine the gene with a &eHoney Treat&r. Before you feed this to a bee though, first decide on a good one. &c&lDO NOT FEED TO VANILLA BEES: GENES WASTED&r&r",
 	"atm9.quest.bees.desc.thebestbee": "So, you should have all three of the genes by now. Pick a bee that can breed with itself so you can duplicate it, best would be &0&lDraconic Bees&r&r. \\n \\nBreed lots of these bees, don't worry, the best traits will always be passed on to baby bees. &c&lOnce you have a bunch, you can start squishing them to get more traits and apply them to other bees!&r&r",
 	"atm9.quest.bees.desc.Spatial": "Crystalline + Ender",
-	"atm9.quest.bees.desc.beetree": "The quests below shows what bees you can make, and hovering over any bee will show which two bees are needed to breed it. This &c&lis not&r&r all of the bees in &eProductive Bees&r, but it is a good majority, remember to always check JEI to see if resources can come from combs. \\n \\nThe ultimate goal is to have a BUNCH (hundreds) of draconic bees, and either some &eAllthemodium&r grade bees, or a &dWannaBee&r, which can farm mobs without killing them! \\n \\nIf a quest says you need a certain &bBiome&r to spawn a bee in, ignore it, the skyblock is all plains.",
-	"atm9.quest.bees.desc.atmstarblock": "Normally you'd need 2 &eATM Star Blocks&r to get &eStarry Bees&r up and running, but this skyblock doesnt have those in :(",
+	"atm9.quest.bees.desc.beetree": "The quests below shows what bees you can make, and hovering over any bee will show which two bees are needed to breed it. This &c&lis not&r&r all of the bees in &eProductive Bees&r, but it is a good majority, remember to always check JEI to see if resources can come from combs. \\n \\nThe ultimate goal is to have a BUNCH (hundreds) of draconic bees, and either some &eAllthemodium&r grade bees, or a &dWannaBee&r, which can farm mobs without killing them!",
 	"atm9.quest.bees.desc.sqush": "Squish the required bees and use the &eType&r gene, combined with a honey treat, to incubate an egg. The result will be a spawn egg needed for the &c&dWannaBee&r&r",
 	"atm9.quest.bees.desc.poswarden": "You must kill &b&lPossesed Wardens&r for these",
 	"atm9.quest.bees.desc.shulkers": "Needed for 10 &bHoarder Bees&r, which equates to around 2 spawn eggs",
 	"atm9.quest.bees.desc.wannabee": "Will farm any mob encased in &eAmber&r by an &eAmber Bee&r to generate mob drops out of thin air!",
+	"atm9.quest.bees.desc.element": "There are bees for each element of the Periodic Table. Their combs will give their respective ChemLib Elements.",
+	"atm9.quest.bees.desc.patrick": "While these are required for Starry Bees, their comb isn't. This is the easiest way of automating Patrick Stars.",
+	"atm9.quest.bees.desc.starry": "With 2 ATM Star Blocks you can now make infinite!",
 
 	"atm9.quest.bees.subt.welcome": "The Best Resource Generation Mod",
 	"atm9.quest.bees.subt.seeds": "For Infinite Honey",
@@ -1976,6 +1981,9 @@
 	"atm9.quest.bees.subt.babee": "Duplicating Most Bees",
 	"atm9.quest.bees.subt.omega": "It says 260%%, When Really, It's More Like 1040%%",
 	"atm9.quest.bees.subt.resin": "Spawns From a Spruce Hive",
+	"atm9.quest.bees.subt.patrick": "Found while fishing",
+	"atm9.quest.bees.subt.starry": "Feed a Patrick Bee an ATM Star Block.",
+
 
 
 	"atm9.quest.alchem.basics": "Alchemistry Basics",
