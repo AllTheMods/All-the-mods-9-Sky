@@ -34,14 +34,22 @@
 					type: "item"
 				}
 				{
-					id: "5A94111976A96FCC"
-					item: {
+					icon: {
 						Count: 1
 						id: "minecraft:shears"
 						tag: {
 							Damage: 0
 						}
 					}
+					id: "5A94111976A96FCC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:shears"
+						}
+					}
+					title: "Any #forge:shears"
 					type: "item"
 				}
 			]
@@ -140,9 +148,10 @@
 			}
 			id: "310969B8FE0A94DE"
 			tasks: [{
-				id: "5C9366CC53004462"
-				item: "minecraft:spawner"
-				type: "item"
+				advancement: "apotheosis:spawner/root"
+				criterion: ""
+				id: "7C093CC9BA19BC19"
+				type: "advancement"
 			}]
 			title: "{atm9.quest.spawner.spawner}"
 			x: 1.0d
@@ -183,9 +192,10 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "5F16431DBEAF97B0"
-				item: "minecraft:soul_lantern"
-				type: "item"
+				advancement: "apotheosis:spawner/light"
+				criterion: ""
+				id: "418727DB7F07362B"
+				type: "advancement"
 			}]
 			title: "{atm9.quest.spawner.lantern}"
 			x: 2.0d
@@ -239,9 +249,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "7CA847C78EB1B215"
-				item: "minecraft:golden_apple"
-				type: "item"
+				advancement: "apotheosis:spawner/noai"
+				criterion: ""
+				icon: "minecraft:golden_apple"
+				id: "2D3CCA3A4E9656B7"
+				type: "advancement"
 			}]
 			title: "{atm9.quest.spawner.apple}"
 			x: 2.5d
@@ -296,9 +308,10 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "39E60F2CA2EFAB9E"
-				item: "minecraft:comparator"
-				type: "item"
+				advancement: "apotheosis:spawner/redstone"
+				criterion: ""
+				id: "540DD00934CDFDB2"
+				type: "advancement"
 			}]
 			title: "{atm9.quest.spawner.redstone}"
 			x: 3.0d
@@ -369,9 +382,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "211FBEB0E4FF1FD6"
-				item: "minecraft:conduit"
-				type: "item"
+				advancement: "apotheosis:spawner/players"
+				criterion: ""
+				icon: "minecraft:conduit"
+				id: "37D74DD9992E8FD3"
+				type: "advancement"
 			}]
 			title: "{atm9.quest.spawner.conduit}"
 			x: 4.0d
@@ -388,9 +403,10 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "74B1D74F1C52D05C"
-				item: "minecraft:dragon_egg"
-				type: "item"
+				advancement: "apotheosis:spawner/conditions"
+				criterion: ""
+				id: "6403F94B1A84EFC9"
+				type: "advancement"
 			}]
 			title: "{atm9.quest.spawner.dragon}"
 			x: 5.0d
