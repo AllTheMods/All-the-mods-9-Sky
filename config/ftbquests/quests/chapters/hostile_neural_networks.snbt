@@ -67,6 +67,7 @@
 			dependencies: ["37EBB8E0D6E5F821"]
 			description: ["{atm9.quest.hostile.desc.learn}"]
 			hide: false
+			hide_dependency_lines: false
 			id: "3E3CBDCEAB0FF28F"
 			rewards: [{
 				id: "5CA80FB9829DC39F"
@@ -88,6 +89,7 @@
 			dependencies: ["37EBB8E0D6E5F821"]
 			description: ["{atm9.quest.hostile.desc.modeling}"]
 			hide: false
+			hide_dependency_lines: false
 			id: "58C2ABED43B2EA61"
 			rewards: [{
 				id: "5FAF62796246C4E8"
@@ -1171,6 +1173,46 @@
 			}]
 			x: -2.5d
 			y: 10.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "74B7D8538416ECCC"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "2ECDBD1D085A4480"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "570BF38EA2870300"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -2.5d
+			y: -2.0d
 		}
 	]
 	title: "{atm9.chapters.14.title}"

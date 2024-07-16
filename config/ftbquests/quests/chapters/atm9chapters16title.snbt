@@ -339,7 +339,7 @@
 			y: 16.5d
 		}
 	]
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -1079,10 +1079,7 @@
 			y: -1.2d
 		}
 		{
-			dependencies: [
-				"499E1A727909C71B"
-				"7B8AA5B4C4A1CAB0"
-			]
+			dependencies: ["499E1A727909C71B"]
 			id: "13987FB505561C13"
 			tasks: [{
 				id: "016EB62169501B40"
@@ -1094,8 +1091,8 @@
 		}
 		{
 			dependencies: [
+				"499E1A727909C71B"
 				"670EE986943D1B89"
-				"13987FB505561C13"
 			]
 			id: "48851A60B94D5276"
 			rewards: [{
@@ -1135,7 +1132,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["0CB5C7302493AC35"]
+			dependencies: [
+				"499E1A727909C71B"
+				"0CB5C7302493AC35"
+			]
 			id: "670EE986943D1B89"
 			rewards: [{
 				id: "4A196E690954FE0B"
@@ -1151,7 +1151,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["499E1A727909C71B"]
+			dependencies: [
+				"47E01F11CD550ED2"
+				"499E1A727909C71B"
+			]
 			id: "022D1803B374D519"
 			tasks: [{
 				id: "58F9213740EF123F"
@@ -1179,7 +1182,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["499E1A727909C71B"]
 			id: "0CB5C7302493AC35"
 			tasks: [{
 				id: "7660AD8F30ED44CF"
@@ -1383,6 +1385,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "{atm9.quest.productiveBees.subt.overworldBiome.1}"
 			tasks: [
 				{
 					id: "04AF37B2304C8056"
@@ -1778,6 +1781,7 @@
 		}
 		{
 			dependencies: ["6A492AA8AEE35F85"]
+			description: ["{atm9.quest.productiveBees.desc.slimyNestLure}"]
 			hide_dependent_lines: true
 			icon: "minecraft:slime_ball"
 			id: "4E9D9C9752708BF9"

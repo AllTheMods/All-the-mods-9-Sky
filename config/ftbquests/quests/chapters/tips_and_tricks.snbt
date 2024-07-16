@@ -13,6 +13,7 @@
 		y: -4.5d
 	}]
 	order_index: 2
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -54,7 +55,6 @@
 				item: "hyperbox:hyperbox"
 				type: "item"
 			}]
-			title: "{atm9.quest.tips.hyperbox}"
 			x: -6.0d
 			y: 0.0d
 		}
@@ -388,6 +388,68 @@
 			title: "{atm9.quest.tips.torch}"
 			x: -1.0d
 			y: 1.0d
+		}
+		{
+			description: [
+				"{atm9.quest.tips.desc.sleepcharm}"
+				""
+				""
+			]
+			id: "7193A76409F26E93"
+			rewards: [{
+				id: "5A0C6C2615247B4F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "{atm9.quest.tips.subt.sleepcharm}"
+			tasks: [{
+				id: "08AD28F438762CBF"
+				item: "darkutils:charm_sleep"
+				type: "item"
+			}]
+			title: "{atm9.quest.tips.sleepcharm}"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "392BD853FE455DD6"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "4A13A2070E35B659"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "4514AC93E859A463"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -3.5d
+			y: -0.5d
 		}
 	]
 	title: "{atm9.chapters.4.title}"

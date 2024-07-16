@@ -17,17 +17,6 @@
 			y: -2.5d
 		}
 		{
-			click: "https://biggerseries.net/biggerreactors"
-			dependency: "7C4E4793DA887DE4"
-			height: 0.25d
-			hover: ["Bigger Reactors Wiki"]
-			image: "allthemodium:textures/block/unobtainium_block.png"
-			rotation: 45.0d
-			width: 0.25d
-			x: -4.5d
-			y: 0.0d
-		}
-		{
 			click: "https://docs.google.com/spreadsheets/d/1NKnuSNmblMEZLxqS8FSFWp8U43vNH7Xd0sRF5vmvGYk/edit?usp=sharing"
 			dependency: "4415C9F8DA2D7E68"
 			height: 0.25d
@@ -50,7 +39,8 @@
 			y: 3.5d
 		}
 	]
-	order_index: 0
+	order_index: 1
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -1070,6 +1060,46 @@
 			}]
 			x: -3.0d
 			y: 10.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "0F948E11633474A1"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "32202DBA77854A99"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "18B5189090D0BB36"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -4.0d
+			y: 0.5d
 		}
 	]
 	title: "{atm9.chapters.17.title}"
