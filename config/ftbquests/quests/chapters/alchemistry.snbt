@@ -77,14 +77,14 @@
 			}
 			id: "611891F4FB775BD3"
 			rewards: [{
-				id: "1CBDAF4C25DE4840"
+				id: "68E03873DCF4761C"
 				type: "xp"
 				xp: 10
 			}]
 			size: 1.5d
 			subtitle: "{atm9.quest.alchem.subt.basics}"
 			tasks: [{
-				id: "16669E81DC33327A"
+				id: "487816C0DBFBA734"
 				item: {
 					Count: 1
 					id: "patchouli:guide_book"
@@ -92,6 +92,7 @@
 						"patchouli:book": "alchemistry:alchemistry_book"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			title: "{atm9.quest.alchem.basics}"
@@ -3371,6 +3372,22 @@
 			}]
 			x: 13.0d
 			y: 15.5d
+		}
+		{
+			dependencies: [
+				"0B566C9D3E2E80E2"
+				"0C882F195627F121"
+			]
+			description: ["{atm9.quest.alchem.desc.ice}"]
+			id: "2BDC8E68FDF3A1B4"
+			subtitle: "{atm9.quest.alchem.subt.ice}"
+			tasks: [{
+				id: "0D0AF7B4F02AB04C"
+				item: "minecraft:ice"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
 		}
 	]
 	title: "{atm9.chapters.34.title}"

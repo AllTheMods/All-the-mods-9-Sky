@@ -1,0 +1,32 @@
+{
+    "type": "alchemistry:dissolver",
+    "group": "alchemistry:dissolver",
+    "input": {
+      "ingredient": {
+        "tag": "forge:rods/electrum"
+      },
+      "count": 1
+    },
+    "output": {
+      "rolls": 32,
+      "weighted": true,
+      "groups": [
+        {
+          "probability": 50,
+          "results": [
+            {
+              "item": "chemlib:silver"
+            }
+          ]
+        },
+        {
+          "probability": 50,
+          "results": [
+            {
+                "item": "chemlib:gold"
+            }
+          ]
+        }
+      ]
+    }
+  }

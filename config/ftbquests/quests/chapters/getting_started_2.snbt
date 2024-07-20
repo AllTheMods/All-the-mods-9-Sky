@@ -72,27 +72,12 @@
 			x: -22.98d
 			y: -0.25d
 		}
-		{
-			height: 0.5d
-			image: "allthetweaks:item/atm_star"
-			rotation: 0.0d
-			width: 0.5d
-			x: -2.45d
-			y: 2.7d
-		}
-		{
-			height: 0.5d
-			image: "allthetweaks:item/atm_star"
-			rotation: 0.0d
-			width: 0.5d
-			x: 15.57d
-			y: 1.2d
-		}
 	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["162AB6F9257EB71E"]
 			description: ["{atm9.quest.start2.desc.infuser}"]
 			id: "59B3C2AF620547E0"
 			rewards: [
@@ -421,6 +406,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["162AB6F9257EB71E"]
 			description: [""]
 			id: "1ECF6495A3D77E27"
 			min_width: 300
@@ -609,7 +595,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.start2.enrichment}"
-			x: -12.0d
+			x: -13.0d
 			y: -1.0d
 		}
 		{
@@ -629,7 +615,7 @@
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.start2.mekanism}"
-			x: -10.0d
+			x: -11.0d
 			y: -1.0d
 		}
 		{
@@ -656,7 +642,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.start2.storage}"
-			x: -10.0d
+			x: -11.0d
 			y: 2.0d
 		}
 		{
@@ -901,7 +887,7 @@
 					type: "item"
 				}
 			]
-			x: -12.5d
+			x: -13.5d
 			y: -3.0d
 		}
 		{
@@ -919,7 +905,7 @@
 				item: "mekanism:basic_tier_installer"
 				type: "item"
 			}]
-			x: -11.5d
+			x: -12.5d
 			y: -3.0d
 		}
 		{
@@ -1129,7 +1115,7 @@
 				title: "{atm9.quest.start2.projecte}"
 				type: "checkmark"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: 2.0d
 		}
 		{
@@ -1253,7 +1239,7 @@
 				item: "minecraft:netherite_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.5d
 			y: 2.0d
 		}
 		{
@@ -1444,7 +1430,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5020F092319157B7"]
@@ -1624,7 +1610,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0F809F1DB7700245"]
@@ -1684,9 +1670,10 @@
 			}]
 			title: "{atm9.quest.start2.ice}"
 			x: -2.0d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
+			dependencies: ["11097D91EBF2490D"]
 			description: ["{atm9.quest.start2.desc.emerald}"]
 			id: "1132517106A700BB"
 			rewards: [{
@@ -1808,7 +1795,7 @@
 				type: "item"
 			}]
 			x: 15.5d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4897A7858A863C61"]
@@ -1845,7 +1832,7 @@
 				item: "fluxnetworks:flux_controller"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 9.5d
 			y: -1.0d
 		}
 		{
@@ -1874,13 +1861,19 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "5974BCF2D6940F0D"
-				title: "w"
-				type: "checkmark"
+				id: "29B7624E0BFEC287"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [ ]
+					}
+				}
+				type: "item"
 			}]
 			title: "{atm9.quest.start2.totem}"
 			x: -18.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2D9F5CEB4AC30A39"]

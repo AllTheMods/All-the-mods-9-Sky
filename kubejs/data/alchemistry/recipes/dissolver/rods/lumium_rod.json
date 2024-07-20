@@ -1,0 +1,40 @@
+{
+    "type": "alchemistry:dissolver",
+    "group": "alchemistry:dissolver",
+    "input": {
+      "ingredient": {
+        "tag": "forge:rods/lumium"
+      },
+      "count": 1
+    },
+    "output": {
+      "rolls": 32,
+      "weighted": true,
+      "groups": [
+        {
+          "probability": 60,
+          "results": [
+            {
+              "item": "chemlib:tin"
+            }
+          ]
+        },
+        {
+          "probability": 20,
+          "results": [
+            {
+              "item": "chemlib:silver"
+            }
+          ]
+        },
+        {
+          "probability": 20,
+          "results": [
+            {
+                "item": "chemlib:phosphorus"
+            }
+          ]
+        }
+      ]
+    }
+  }

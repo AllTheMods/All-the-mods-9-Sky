@@ -135,6 +135,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["22C568A17B5D1B46"]
 			description: ["{atm9.quest.start1.desc.farm}"]
 			icon: "minecraft:wheat_seeds"
 			id: "1658780534451E39"
@@ -213,7 +214,7 @@
 				title: "Food and Farming"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.start1.food}"
+			title: "{atm9.quest.farm.food}"
 			x: -8.0d
 			y: -6.0d
 		}
@@ -259,9 +260,9 @@
 			size: 3.0d
 			subtitle: "{atm9.quest.start1.subt.part2}"
 			tasks: [{
-				id: "1AD156F8A190ED63"
-				title: "Power Generation"
-				type: "checkmark"
+				id: "35642D72ACA7D3CA"
+				item: "minecraft:redstone"
+				type: "item"
 			}]
 			title: "{atm9.quest.start1.part2}"
 			x: 4.5d
@@ -523,14 +524,14 @@
 				}
 			]
 			size: 1.0d
+			subtitle: "{atm9.quest.start1.netherite}"
 			tasks: [{
 				id: "6786082559455714"
 				item: "exdeorum:netherite_mesh"
 				type: "item"
 			}]
-			title: "{atm9.quest.start1.netherite}"
-			x: -0.5d
-			y: 5.5d
+			x: -2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["11CE392E7A41785F"]
@@ -914,7 +915,9 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["038D957AF351CB44"]
+			dependencies: ["6580DCA54E4C9BC2"]
+			description: ["{atm9.quest.start1.desc.drops}"]
+			icon: "exdeorum:diamond_mesh"
 			id: "38852A6C2A1F8363"
 			rewards: [
 				{
@@ -929,26 +932,20 @@
 					xp: 100
 				}
 			]
-			tasks: [{
-				id: "1244CE2DE8D1F57F"
-				item: "exdeorum:diamond_mesh"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1244CE2DE8D1F57F"
+					item: "exdeorum:diamond_mesh"
+					type: "item"
+				}
+				{
+					id: "2F2B64496A87228E"
+					title: "{atm9.quest.start1.drops}"
+					type: "checkmark"
+				}
+			]
 			title: "{atm9.quest.start1.diamondmesh}"
 			x: -0.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["6580DCA54E4C9BC2"]
-			description: ["{atm9.quest.start1.desc.drops}"]
-			id: "038D957AF351CB44"
-			tasks: [{
-				id: "0A991D39D78E1939"
-				title: "CHECK DROPS"
-				type: "checkmark"
-			}]
-			title: "{atm9.quest.start1.drops}"
-			x: -2.0d
 			y: 4.5d
 		}
 		{
@@ -1024,7 +1021,9 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["22C568A17B5D1B46"]
 			description: ["{atm9.quest.start1.desc.bone}"]
+			hide_dependency_lines: true
 			id: "25E267AAAD4B992B"
 			rewards: [{
 				id: "3A791192AB97B4D2"
@@ -1038,7 +1037,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.start1.bones}"
-			x: -3.0d
+			x: -2.5d
 			y: -5.5d
 		}
 		{
@@ -1137,22 +1136,24 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["3798FF7264E959DE"]
 			description: ["{atm9.quest.start1.desc.ma}"]
 			icon: "minecraft:diamond"
 			id: "52CF60CDA1E5D3F2"
 			rewards: [{
+				count: 5
 				id: "38B407C4C79B4833"
 				item: "mysticalagriculture:inferium_essence"
 				type: "item"
 			}]
 			shape: "gear"
 			tasks: [{
-				id: "02C17013C91A4440"
-				title: "{atm9.quest.start1.ma}"
-				type: "checkmark"
+				id: "1BE92C22167ECF39"
+				item: "mysticalagriculture:inferium_essence"
+				type: "item"
 			}]
-			x: 1.0d
-			y: 4.0d
+			x: -5.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["5FF2B8BCB3CE6AB0"]
@@ -1322,17 +1323,17 @@
 			description: ["{atm9.quest.start1.desc.soulsand}"]
 			id: "3798FF7264E959DE"
 			rewards: [{
-				id: "133B675E9D8A8DCD"
-				item: "exdeorum:compressed_soul_sand"
+				id: "527A5E1AD97AB456"
+				item: "allthecompressed:soul_sand_1x"
 				type: "item"
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{atm9.quest.start1.subt.soulsand}"
 			tasks: [{
-				count: 64L
+				count: 32L
 				id: "1EE2D70FEC9BC78D"
-				item: { Count: 64, id: "minecraft:soul_sand" }
+				item: "minecraft:soul_sand"
 				type: "item"
 			}]
 			x: -5.5d

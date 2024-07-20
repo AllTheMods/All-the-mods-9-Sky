@@ -553,6 +553,7 @@
 		{
 			dependencies: ["2893F483C10293E6"]
 			description: ["{atm9.quest.ae2.desc.wrench}"]
+			hide_dependent_lines: true
 			id: "1B686954D34A0F23"
 			rewards: [{
 				id: "3F733DD53ED27710"
