@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/add_xycraft_overrides_glass","builtin/add_xycraft_overrides_metal","builtin/add_xycraft_overrides_stone","builtin/add_xycraft_overrides_optional_mc","builtin/add_xycraft_override_ae2","file/SmoothFont_1.20.zip","file/MekanismThings_CTM-Fusion_devbuild0.1.zip","file/ForceCraft_Retextured.zip"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/add_xycraft_overrides_glass","builtin/add_xycraft_overrides_metal","builtin/add_xycraft_overrides_stone","file/ForceCraft_Retextured.zip","file/SmoothFont_1.20.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
