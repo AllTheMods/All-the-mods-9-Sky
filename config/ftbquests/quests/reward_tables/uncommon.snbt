@@ -85,25 +85,6 @@
 			}
 		}
 		{ item: "minecraft:netherite_ingot" }
-		{
-			item: {
-				Count: 1
-				id: "minecraft:potion"
-				tag: {
-					Potion: "potionsmaster:netherite_sight"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:potion"
-				tag: {
-					Potion: "potionsmaster:diamond_sight"
-				}
-			}
-			weight: 5.0f
-		}
 		{ item: "mob_grinding_utils:golden_egg", weight: 2.0f }
 		{ item: "mob_grinding_utils:rotten_egg", weight: 2.0f }
 		{
@@ -132,9 +113,7 @@
 		}
 		{ item: "sophisticatedbackpacks:void_upgrade", weight: 2.0f }
 		{ item: "dankstorage:dank_3" }
-		{ item: "apotheosis:vial_of_expulsion" }
 		{ item: "ars_nouveau:glyph_accelerate" }
-		{ item: "apotheosis:vial_of_extraction" }
 		{ item: "ars_nouveau:glyph_aoe" }
 		{ item: "reliquary:lantern_of_paranoia", weight: 2.0f }
 		{ item: "sophisticatedbackpacks:stack_upgrade_tier_1", weight: 5.0f }

@@ -65,8 +65,8 @@
 			image: "supplementaries:block/cannon_target"
 			rotation: 0.0d
 			width: 1.6d
-			x: 2.0d
-			y: -3.0d
+			x: 1.52d
+			y: -2.97d
 		}
 		{
 			height: 1.0d
@@ -335,11 +335,11 @@
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 2.0d
-			x: 1.0d
-			y: 14.5d
+			x: -4.5d
+			y: 16.5d
 		}
 	]
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -481,7 +481,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "04BA614CAEDAD5C4"
+				id: "74C9B82219FC6CD9"
 				item: "productivebees:advanced_oak_beehive"
 				type: "item"
 			}]
@@ -527,7 +527,6 @@
 			dependencies: ["25160EFA39A4F436"]
 			description: ["{atm9.quest.bees.desc.seeds}"]
 			id: "195296B70CC4942D"
-			optional: true
 			subtitle: "{atm9.quest.bees.subt.seeds}"
 			tasks: [{
 				id: "04726A9A7865A2A0"
@@ -569,7 +568,6 @@
 		{
 			dependencies: ["251C4715C2824065"]
 			description: ["{atm9.quest.bees.desc.nests}"]
-			icon: "productivebees:oak_wood_nest"
 			id: "6955A905FD1CC8EB"
 			rewards: [
 				{
@@ -978,7 +976,6 @@
 		{
 			dependencies: ["1E577FC36C072059"]
 			description: ["{atm9.quest.bees.desc.metaturnal}"]
-			icon: "minecraft:lead"
 			id: "06551134D539E39D"
 			rewards: [{
 				id: "76CC5EF245951E08"
@@ -1082,7 +1079,7 @@
 			y: -1.2d
 		}
 		{
-			dependencies: ["7B8AA5B4C4A1CAB0"]
+			dependencies: ["499E1A727909C71B"]
 			id: "13987FB505561C13"
 			tasks: [{
 				id: "016EB62169501B40"
@@ -1094,8 +1091,8 @@
 		}
 		{
 			dependencies: [
+				"499E1A727909C71B"
 				"670EE986943D1B89"
-				"13987FB505561C13"
 			]
 			id: "48851A60B94D5276"
 			rewards: [{
@@ -1131,11 +1128,14 @@
 				item: "productivebees:upgrade_productivity_4"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: -3.0d
 		}
 		{
-			dependencies: ["0CB5C7302493AC35"]
+			dependencies: [
+				"499E1A727909C71B"
+				"0CB5C7302493AC35"
+			]
 			id: "670EE986943D1B89"
 			rewards: [{
 				id: "4A196E690954FE0B"
@@ -1147,8 +1147,8 @@
 				item: "productivebees:upgrade_simulator"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.0d
+			x: 0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -1165,7 +1165,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["13987FB505561C13"]
+			dependencies: ["499E1A727909C71B"]
 			id: "60A07F5BF18BDC67"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1182,14 +1182,13 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["499E1A727909C71B"]
 			id: "0CB5C7302493AC35"
 			tasks: [{
 				id: "7660AD8F30ED44CF"
 				item: "productivebees:upgrade_anti_teleport"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: -2.0d
 		}
 		{
@@ -1756,6 +1755,7 @@
 				title: "{atm9.quest.productiveBees.diggerBees}"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.productiveBees.diggerBee}"
 			x: -6.0d
 			y: 7.0d
 		}
@@ -1781,7 +1781,7 @@
 		}
 		{
 			dependencies: ["6A492AA8AEE35F85"]
-			description: [""]
+			description: ["{atm9.quest.productiveBees.desc.slimyNestLure}"]
 			hide_dependent_lines: true
 			icon: "minecraft:slime_ball"
 			id: "4E9D9C9752708BF9"
@@ -1876,6 +1876,7 @@
 				title: "{atm9.quest.productiveBees.chocolateMiningBee}"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.productiveBees.chocolateMiningBee}"
 			x: -8.0d
 			y: 7.0d
 		}
@@ -1915,6 +1916,7 @@
 				title: "{atm9.quest.productiveBees.leafcutterBees}"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.productiveBees.leafcutterBee}"
 			x: -7.5d
 			y: 8.0d
 		}
@@ -1939,6 +1941,7 @@
 				title: "{atm9.quest.productiveBees.collectorBee}"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.productiveBees.collectorBee}"
 			x: -5.0d
 			y: 7.0d
 		}
@@ -1997,6 +2000,7 @@
 				title: "{atm9.quest.productiveBees.yellowCarpenterBees}"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.productiveBees.yellowCarpenterBee}"
 			x: -10.0d
 			y: 7.0d
 		}
@@ -2036,6 +2040,7 @@
 				title: "{atm9.quest.productiveBees.reedBee}"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.productiveBees.reedBee}"
 			x: -12.5d
 			y: 11.0d
 		}
@@ -2055,6 +2060,7 @@
 				title: "{atm9.quest.productiveBees.neonCuckooBee}"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.productiveBees.neonCuckooBee}"
 			x: -10.0d
 			y: 9.0d
 		}
@@ -2095,7 +2101,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.productiveBees.amethystBee}"
-			x: 0.0d
+			x: 1.0d
 			y: 11.0d
 		}
 		{
@@ -2374,6 +2380,7 @@
 				title: "{atm9.quest.productiveBees.dyeBee}"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.productiveBees.dyeBee}"
 			x: -9.5d
 			y: 10.0d
 		}
@@ -2541,6 +2548,7 @@
 				title: "{atm9.quest.productiveBees.masonBees}"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.productiveBees.masonBee}"
 			x: -6.5d
 			y: 8.0d
 		}
@@ -2838,7 +2846,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.productiveBees.enderiumBee}"
-			x: -5.0d
+			x: -1.0d
 			y: 11.0d
 		}
 		{
@@ -3159,6 +3167,7 @@
 				title: "{atm9.quest.productiveBees.quarryBee}"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.productiveBees.quarryBee}"
 			x: -8.5d
 			y: 8.0d
 		}
@@ -3178,6 +3187,7 @@
 				title: "{atm9.quest.productiveBees.lumberBee}"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.productiveBees.lumberBee}"
 			x: -9.5d
 			y: 8.0d
 		}
@@ -3743,7 +3753,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.productiveBees.ancientBeeNetherite}"
-			x: -1.0d
+			x: 0.0d
 			y: 11.0d
 		}
 		{
@@ -3810,7 +3820,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.productiveBees.allthemodiumBee}"
-			x: -3.0d
+			x: -1.5d
 			y: 13.5d
 		}
 		{
@@ -3877,7 +3887,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.productiveBees.vibraniumBee}"
-			x: -1.5d
+			x: 0.5d
 			y: 13.5d
 		}
 		{
@@ -3947,7 +3957,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.productiveBees.unobtainiumBee}"
-			x: -2.25d
+			x: -0.5d
 			y: 15.0d
 		}
 		{
@@ -4034,6 +4044,7 @@
 				title: "{atm9.quest.productiveBees.nomadBee}"
 				type: "checkmark"
 			}]
+			title: "{atm9.quest.productiveBees.nomadBee}"
 			x: -7.0d
 			y: 9.0d
 		}
@@ -4155,18 +4166,17 @@
 			description: ["{atm9.quest.bees.desc.poswarden}"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
-			icon: "minecraft:echo_shard"
 			id: "326BD4144A7B2771"
 			tasks: [
+				{
+					id: "61C8EA1748DB3678"
+					item: "minecraft:music_disc_5"
+					type: "item"
+				}
 				{
 					count: 2L
 					id: "00228D87165279E7"
 					item: { Count: 2, id: "minecraft:echo_shard" }
-					type: "item"
-				}
-				{
-					id: "07926F8D34261DEF"
-					item: "minecraft:music_disc_5"
 					type: "item"
 				}
 			]
@@ -4273,72 +4283,21 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["22B1748CC9BD8376"]
-			description: ["{atm9.quest.bees.desc.starry}"]
-			icon: "allthetweaks:atm_star"
+			description: ["{atm9.quest.bees.desc.atmstarblock}"]
 			id: "1AF754160F104B1D"
-			optional: true
 			rewards: [{
-				id: "10347BE40C8A017C"
-				item: "allthetweaks:atm_star_shard"
+				id: "4C0AB9996BA0E6F0"
+				item: "allthetweaks:greg_star"
 				type: "item"
 			}]
-			subtitle: "{atm9.quest.bees.subt.starry}"
 			tasks: [{
-				id: "066B65A79618E167"
-				item: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:starry"
-						}
-					}
-				}
+				count: 2L
+				id: "53A5095076868349"
+				item: { Count: 2, id: "allthetweaks:atm_star_block" }
 				type: "item"
 			}]
-			title: "{atm9.quest.bees.starry}"
-			x: 1.0d
-			y: 14.5d
-		}
-		{
-			dependencies: ["10834E9FC835DE88"]
-			description: ["{atm9.quest.bees.desc.patrick}"]
-			hide_dependent_lines: true
-			icon: "allthetweaks:patrick_star"
-			id: "22B1748CC9BD8376"
-			subtitle: "{atm9.quest.bees.subt.patrick}"
-			tasks: [{
-				id: "39F62394DD7A7501"
-				title: "{atm9.quest.bees.patrick}"
-				type: "checkmark"
-			}]
-			x: 1.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["499E1A727909C71B"]
-			id: "4E22EF1CEA84E421"
-			tasks: [{
-				id: "0AA9ACCD25D866AD"
-				item: "productivebees:upgrade_breeding"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["10834E9FC835DE88"]
-			description: ["{atm9.quest.bees.desc.element}"]
-			icon: "chemlib:hydrogen"
-			id: "2DF2783DF298BCCA"
-			tasks: [{
-				id: "5422CE7FCA082ED5"
-				title: "{atm9.quest.bees.element}"
-				type: "checkmark"
-			}]
-			x: -6.0d
-			y: 11.0d
+			x: -4.5d
+			y: 16.5d
 		}
 	]
 	title: "{atm9.chapters.16.title}"

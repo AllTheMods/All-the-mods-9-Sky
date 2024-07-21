@@ -332,7 +332,7 @@
 			y: 18.1d
 		}
 	]
-	order_index: 6
+	order_index: 7
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -3448,6 +3448,46 @@
 			title: "{atm9.quest.powah.uraninite}"
 			x: -0.5d
 			y: 8.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "3531D0BC711D9DD0"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "2E34D75C93AA85F1"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "4854DBA1287F957F"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -0.5d
+			y: 1.5d
 		}
 	]
 	title: "{atm9.chapters.22.title}"

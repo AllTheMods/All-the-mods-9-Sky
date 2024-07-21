@@ -15,6 +15,7 @@
 		y: -10.5d
 	}]
 	order_index: 2
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -1923,6 +1924,46 @@
 			title: "{atm9.quest.start3.prediction}"
 			x: -2.0d
 			y: 8.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "7F3DB620B0E37D30"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "5529B90F0334211A"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "14A780EEFEFB9C9E"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: -7.5d
 		}
 	]
 	title: "{atm9.chapters.30.title}"

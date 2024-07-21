@@ -19,15 +19,31 @@
 		y: -1.75d
 	}]
 	order_index: 6
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"{atm9.quest.proje.desc.welcome}"
-				""
-				"{atm9.quest.proje.desc.covdust}"
-			]
-			icon: "projecte:tome"
+			description: ["{atm9.quest.proje.desc.welcome}"]
+			icon: "pneumaticcraft:security_upgrade"
+			id: "44EF05AADE7C8376"
+			rewards: [{
+				id: "68D9D0462F8FF890"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "00D22F337E483B30"
+				title: "{atm9.quest.proje.welcome}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44EF05AADE7C8376"]
+			description: ["{atm9.quest.proje.desc.covdust}"]
 			id: "178C5BEC6D278EB0"
 			rewards: [{
 				count: 2
@@ -35,10 +51,7 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			shape: "hexagon"
-			size: 2.0d
 			tasks: [{
-				icon: "projecte:high_covalence_dust"
 				id: "0DBE465D812A899B"
 				item: {
 					Count: 1
@@ -63,9 +76,8 @@
 				title: "{atm9.quest.proje.covdust}"
 				type: "item"
 			}]
-			title: "{atm9.quest.proje.welcome}"
-			x: 0.0d
-			y: 0.0d
+			x: 2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["715E4B9E11B32789"]
@@ -106,7 +118,6 @@
 		{
 			dependencies: ["715E4B9E11B32789"]
 			description: ["{atm9.quest.proje.desc.alchbag}"]
-			icon: "projecte:white_alchemical_bag"
 			id: "6EAC607F521FC7C3"
 			rewards: [{
 				count: 64
@@ -116,14 +127,7 @@
 			}]
 			tasks: [{
 				id: "7A16148FD9C56C19"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "projecte:alchemical_bags"
-					}
-				}
-				title: "Alchemical Bags"
+				item: "projecte:white_alchemical_bag"
 				type: "item"
 			}]
 			x: 2.5d
@@ -204,7 +208,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1ECF6495A3D77E27"]
+			dependencies: ["44EF05AADE7C8376"]
 			hide_dependency_lines: true
 			id: "1D500A8F88F85E95"
 			rewards: [{
@@ -239,7 +243,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["40A495FCD317A38D"]
+			dependencies: ["44EF05AADE7C8376"]
 			hide_dependency_lines: true
 			id: "3BD0A9B3A50630CC"
 			rewards: [{
@@ -313,7 +317,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["36D0417745C747B1"]
+			dependencies: ["44EF05AADE7C8376"]
 			description: ["{atm9.quest.proje.desc.tnt}"]
 			hide_dependency_lines: true
 			id: "7F52DC9ED96C3639"
@@ -331,7 +335,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["23ADD20D9B1AE0F3"]
+			dependencies: ["44EF05AADE7C8376"]
 			description: ["{atm9.quest.proje.desc.mana}"]
 			hide_dependency_lines: true
 			id: "40786CBFA8F2039D"
@@ -349,7 +353,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["40A495FCD317A38D"]
+			dependencies: ["44EF05AADE7C8376"]
 			description: ["{atm9.quest.proje.desc.obbyiron}"]
 			hide_dependency_lines: true
 			id: "3941E092B73D6537"
@@ -484,7 +488,7 @@
 		{
 			dependencies: [
 				"73E2BCD99012BC89"
-				"070D2E7011E1DC83"
+				"5578841B615E8458"
 			]
 			description: ["{atm9.quest.proje.desc.klein}"]
 			id: "572AA7CD5D6BEEB4"
@@ -678,7 +682,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1C014E4F1DE73C03"]
+			dependencies: ["44EF05AADE7C8376"]
 			description: ["{atm9.quest.proje.desc.crafting}"]
 			hide_dependency_lines: true
 			id: "5AC193616C776DCD"
@@ -696,7 +700,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["768F0E715B05D9E4"]
+			dependencies: ["44EF05AADE7C8376"]
 			description: ["{atm9.quest.proje.desc.crafting}"]
 			hide_dependency_lines: true
 			id: "5E20E63D1C116609"
@@ -714,7 +718,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["02CC88B4C844851B"]
+			dependencies: ["44EF05AADE7C8376"]
 			description: ["{atm9.quest.proje.desc.crafting}"]
 			hide_dependency_lines: true
 			id: "166C734AE2A84917"
@@ -732,7 +736,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["2893F483C10293E6"]
+			dependencies: ["44EF05AADE7C8376"]
 			description: ["{atm9.quest.proje.desc.crafting}"]
 			hide_dependency_lines: true
 			id: "3B57BE7DCECC8C3B"
@@ -1045,7 +1049,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1B1C8FA979C2DF94"]
+			dependencies: ["44EF05AADE7C8376"]
 			description: ["{atm9.quest.proje.desc.unobtainium}"]
 			hide_dependency_lines: true
 			id: "73CF53117AF0E0E4"
@@ -1063,11 +1067,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"01FEB5D4F5ADD557"
-				"19B704B4BCE60182"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["44EF05AADE7C8376"]
 			description: ["{atm9.quest.proje.desc.echo}"]
 			hide_dependency_lines: true
 			id: "008F3652B8E149FB"
@@ -1085,7 +1085,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["16A6C47E35F3B9D0"]
+			dependencies: ["44EF05AADE7C8376"]
 			description: ["{atm9.quest.proje.desc.plutonium}"]
 			hide_dependency_lines: true
 			id: "65FB257CEAC5EE31"
@@ -1103,7 +1103,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["52D64B2C7EEA688C"]
+			dependencies: ["44EF05AADE7C8376"]
 			description: ["{atm9.quest.proje.desc.insanium}"]
 			hide_dependency_lines: true
 			id: "17824256E60ACE82"
@@ -1138,6 +1138,46 @@
 			}]
 			x: 31.5d
 			y: -0.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "2E03CEC9ADDFB776"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "2F6CD3F19A5BC6E5"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "5F9101CD06E2E25E"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
 		}
 	]
 	title: "{atm9.chapters.31.title}"

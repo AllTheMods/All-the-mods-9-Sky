@@ -2346,11 +2346,6 @@
 			dependencies: ["563CFA1EF74E52E9"]
 			description: ["{atm9.quest.storage.desc.s_controller}"]
 			id: "1FE17B1C7C639F88"
-			rewards: [{
-				id: "06EF1194CCAF6A03"
-				type: "xp"
-				xp: 10
-			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -2369,11 +2364,6 @@
 			]
 			description: ["{atm9.quest.storage.desc.storage_link}"]
 			id: "0108F3EFDFD6DFD0"
-			rewards: [{
-				id: "3DF055B0B5D7669B"
-				type: "xp"
-				xp: 10
-			}]
 			tasks: [{
 				id: "031CC9264895DCFC"
 				item: "sophisticatedstorage:storage_link"
@@ -2387,11 +2377,6 @@
 			dependencies: ["1FE17B1C7C639F88"]
 			description: ["{atm9.quest.storage.desc.storage_tool}"]
 			id: "78E51D22C16C4686"
-			rewards: [{
-				id: "3D3812B8E066E01C"
-				type: "xp"
-				xp: 10
-			}]
 			tasks: [{
 				id: "3D7AA8FBC90E1087"
 				item: "sophisticatedstorage:storage_tool"

@@ -11,7 +11,6 @@
 	quests: [
 		{
 			description: ["{atm9.quest.rs.desc.refined}"]
-			icon: "refinedstorage:creative_controller"
 			id: "01F18150EC923482"
 			rewards: [
 				{
@@ -271,6 +270,32 @@
 			title: "{atm9.quest.rs.netherite}"
 			x: 2.5d
 			y: -8.0d
+		}
+		{
+			dependencies: ["01F18150EC923482"]
+			description: ["{atm9.quest.rs.desc.transmitter}"]
+			id: "3FAD086F7D9CCAE9"
+			rewards: [{
+				id: "182081F231AA3B51"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
+			subtitle: "{atm9.quest.rs.subt.transmitter}"
+			tasks: [
+				{
+					id: "66C161825999C4EF"
+					item: "refinedstorage:network_transmitter"
+					type: "item"
+				}
+				{
+					id: "4635012B066F66F3"
+					item: "refinedstorage:network_receiver"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.rs.transmitter}"
+			x: -5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["01F18150EC923482"]
@@ -546,7 +571,6 @@
 		{
 			dependencies: ["43E8912CB307E421"]
 			description: ["{atm9.quest.rs.desc.crafting_grid}"]
-			hide_dependent_lines: true
 			id: "0F00BBDF3618B3BA"
 			rewards: [
 				{
@@ -594,7 +618,6 @@
 		{
 			dependencies: ["43E8912CB307E421"]
 			description: ["{atm9.quest.rs.desc.fluid_grid}"]
-			hide_dependent_lines: true
 			id: "51E9D03CD755A607"
 			rewards: [
 				{
@@ -621,7 +644,6 @@
 		{
 			dependencies: ["6B04FC81351CD1AB"]
 			description: ["{atm9.quest.rs.desc.WG}"]
-			icon: "refinedstorage:creative_wireless_grid"
 			id: "15ECBC8E174FA39B"
 			rewards: [
 				{
@@ -646,12 +668,8 @@
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"6B04FC81351CD1AB"
-				"51E9D03CD755A607"
-			]
+			dependencies: ["6B04FC81351CD1AB"]
 			description: ["{atm9.quest.rs.desc.WFG}"]
-			icon: "refinedstorage:creative_wireless_fluid_grid"
 			id: "7FA85713C86166DA"
 			rewards: [
 				{
@@ -676,12 +694,8 @@
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"6B04FC81351CD1AB"
-				"0F00BBDF3618B3BA"
-			]
+			dependencies: ["6B04FC81351CD1AB"]
 			description: ["{atm9.quest.rs.desc.WCG}"]
-			icon: "refinedstorageaddons:creative_wireless_crafting_grid"
 			id: "744842B2AED28344"
 			rewards: [
 				{
@@ -710,11 +724,6 @@
 			description: ["{atm9.quest.rs.desc.portable_grid}"]
 			hide: false
 			hide_dependency_lines: false
-			icon: {
-				Count: 1
-				id: "refinedstorage:creative_portable_grid"
-				tag: { }
-			}
 			id: "66D85424EC74EDCC"
 			optional: true
 			rewards: [{
@@ -932,12 +941,8 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"4101F8275B41C79B"
-				"4B81E84CAE814BA9"
-			]
-			dependency_requirement: "one_completed"
-			description: ["{atm9.quest.rs.desc.storage_blocks}"]
+			dependencies: ["4101F8275B41C79B"]
+			description: ["{atm9.quest.rs.desc.1kstorage_block}"]
 			id: "62625CAF6649AB53"
 			optional: true
 			rewards: [{
@@ -947,32 +952,17 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
-				id: "2B787DFE90FFB239"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "refinedstorage:64k_fluid_storage_block"
-							}
-							{
-								Count: 1b
-								id: "refinedstorage:1k_storage_block"
-							}
-						]
-					}
-				}
-				title: "{atm9.quest.rs.storage_blocks}"
+				id: "4540AB0231FE3B1A"
+				item: "refinedstorage:1k_storage_block"
 				type: "item"
 			}]
+			title: "{atm9.quest.rs.1kstorage_block}"
 			x: -1.5d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6092490EC9008A05"]
-			description: ["{atm9.quest.rs.desc.destructor_upgrades}"]
+			description: ["{atm9.quest.rs.desc.destructor_upgrade}"]
 			hide_dependency_lines: false
 			id: "787415570026FFAA"
 			min_width: 300
@@ -995,7 +985,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.rs.destructor_upgrades}"
+			title: "{atm9.quest.rs.destructor_upgrade}"
 			x: -3.5d
 			y: -6.0d
 		}
@@ -1125,7 +1115,6 @@
 		{
 			dependencies: ["65C8A43FEDBA3835"]
 			description: ["{atm9.quest.rs.desc.crafting_monitor}"]
-			hide_dependent_lines: true
 			id: "7044EAB5EDF32BBC"
 			rewards: [
 				{
@@ -1189,206 +1178,43 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["532229D285CA4858"]
-			description: ["{atm9.quest.rs.desc.advancedI}"]
-			id: "21A7B21140F03E3C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "29034D9A12AC5907"
-				table_id: 3567941291661635734L
-				type: "random"
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "42565933421D514A"
-				item: "extrastorage:advanced_importer"
-				type: "item"
-			}]
-			title: "{atm9.quest.rs.advancedI}"
-			x: -6.5d
-			y: -7.5d
-		}
-		{
-			dependencies: ["4CD83943865018EA"]
-			description: ["{atm9.quest.rs.desc.advancedE}"]
-			id: "138C635408CC0B7A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5C431E70FAE63CDB"
-				table_id: 3567941291661635734L
-				type: "random"
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "3F09917807E4A989"
-				item: "extrastorage:advanced_exporter"
-				type: "item"
-			}]
-			title: "{atm9.quest.rs.advancedE}"
-			x: -7.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["3F8EEE1AD4420702"]
-			description: ["{atm9.quest.rs.desc.256kstorage}"]
-			id: "7E5F1144849278CE"
-			tasks: [{
-				id: "605E8C88DB526B3D"
-				item: "extrastorage:storagepart_256k"
-				type: "item"
-			}]
-			title: "{atm9.quest.rs.256kstorage}"
-			x: -0.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["01F18150EC923482"]
-			description: ["{atm9.quest.rs.desc.wrench}"]
-			id: "37F34DF76D30ADC9"
-			rewards: [
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "1665A02AC058CD42"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
 				{
-					exclude_from_claim_all: true
-					id: "56945E1A76A58837"
-					table_id: 4001436279668650237L
-					type: "random"
+					disable_toast: true
+					id: "1B78FD13605ACFDE"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "2A1878655A245193"
-					table_id: 3567941291661635734L
-					type: "loot"
+					id: "5BD9E7D536A64B8E"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
 				}
 			]
-			subtitle: "{atm9.quest.rs.subt.wrench}"
-			tasks: [{
-				id: "394598A9632C73BA"
-				item: "refinedstorage:wrench"
-				type: "item"
-			}]
-			title: "{atm9.quest.rs.wrench}"
-			x: -5.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["3751015CD5C84134"]
-			description: ["{atm9.quest.rs.desc.16384kfluid}"]
-			id: "35600323B9C5FAB6"
-			tasks: [{
-				id: "14F4EF15732391EA"
-				item: "extrastorage:storagepart_16384k_fluid"
-				type: "item"
-			}]
-			title: "{atm9.quest.rs.16384kfluid}"
-			x: -2.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["7E5F1144849278CE"]
-			description: ["{atm9.quest.rs.desc.1024kstorage}"]
-			id: "14BA18A422087794"
-			tasks: [{
-				id: "3320FD201C360287"
-				item: "extrastorage:storagepart_1024k"
-				type: "item"
-			}]
-			title: "{atm9.quest.rs.1024kstorage}"
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["35600323B9C5FAB6"]
-			description: ["{atm9.quest.rs.desc.65536kfluid}"]
-			id: "6AC51E883AC89CE1"
-			tasks: [{
-				id: "1546E48518B9F53F"
-				item: "extrastorage:storagepart_65536k_fluid"
-				type: "item"
-			}]
-			title: "{atm9.quest.rs.65536kfluid}"
-			x: -3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["14BA18A422087794"]
-			description: ["{atm9.quest.rs.desc.4096kstorage}"]
-			id: "4C3B8A4D782A5522"
-			tasks: [{
-				id: "13FB37F575D0C560"
-				item: "extrastorage:storagepart_4096k"
-				type: "item"
-			}]
-			title: "{atm9.quest.rs.4096kstorage}"
-			x: 0.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["4C3B8A4D782A5522"]
-			description: ["{atm9.quest.rs.desc.16384kstorage}"]
-			id: "6090EC31B65F5508"
-			tasks: [{
-				id: "7E771CD175F4B9DF"
-				item: "extrastorage:storagepart_16384k"
-				type: "item"
-			}]
-			title: "{atm9.quest.rs.16384kstorage}"
-			x: 0.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["6AC51E883AC89CE1"]
-			description: ["{atm9.quest.rs.desc.262144kfluid}"]
-			id: "29E16B5A659EA2F5"
-			tasks: [{
-				id: "6E0195D62715FC41"
-				item: "extrastorage:storagepart_262144k_fluid"
-				type: "item"
-			}]
-			title: "{atm9.quest.rs.262144kfluid}"
-			x: -3.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["29E16B5A659EA2F5"]
-			description: ["{atm9.quest.rs.desc.1048576kfluid}"]
-			id: "112FC5D37496F310"
-			tasks: [{
-				id: "32BD726335F7CE36"
-				item: "extrastorage:storagepart_1048576k_fluid"
-				type: "item"
-			}]
-			title: "{atm9.quest.rs.1048576kfluid}"
-			x: -3.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["44881E39AB1D62AA"]
-			description: ["{atm9.quest.rs.desc.crafter_manager}"]
-			id: "7C0A020352FF4C60"
-			subtitle: "{atm9.quest.rs.subt.crafter_manager}"
-			tasks: [{
-				id: "6E1EF9630C2CFDE2"
-				item: "refinedstorage:crafter_manager"
-				type: "item"
-			}]
-			title: "{atm9.quest.rs.crafter_manager}"
-			x: 2.0d
-			y: -10.0d
-		}
-		{
-			dependencies: [
-				"7044EAB5EDF32BBC"
-				"6B04FC81351CD1AB"
-			]
-			description: ["{atm9.quest.rs.desc.wireless_monitor}"]
-			icon: "refinedstorageaddons:creative_wireless_crafting_grid"
-			id: "3B88B480306B0964"
-			tasks: [{
-				id: "42A9ED71674DEDE5"
-				item: "refinedstorage:wireless_crafting_monitor"
-				type: "item"
-			}]
-			title: "{atm9.quest.rs.wireless_monitor}"
-			x: 6.5d
+			x: -8.0d
 			y: -2.5d
 		}
 	]

@@ -33,6 +33,7 @@
 		}
 	]
 	order_index: 0
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -77,14 +78,14 @@
 			}
 			id: "611891F4FB775BD3"
 			rewards: [{
-				id: "68E03873DCF4761C"
+				id: "1CBDAF4C25DE4840"
 				type: "xp"
 				xp: 10
 			}]
 			size: 1.5d
 			subtitle: "{atm9.quest.alchem.subt.basics}"
 			tasks: [{
-				id: "487816C0DBFBA734"
+				id: "16669E81DC33327A"
 				item: {
 					Count: 1
 					id: "patchouli:guide_book"
@@ -92,7 +93,6 @@
 						"patchouli:book": "alchemistry:alchemistry_book"
 					}
 				}
-				match_nbt: true
 				type: "item"
 			}]
 			title: "{atm9.quest.alchem.basics}"
@@ -202,7 +202,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "246985ACBE78E6DE"
-					table_id: 6257329497410426516L
 					type: "random"
 				}
 				{
@@ -281,7 +280,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "5CB7DCD3CA77F343"
-					table_id: 6257329497410426516L
 					type: "random"
 				}
 				{
@@ -347,7 +345,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "3F066CF52C1CC094"
-					table_id: 6257329497410426516L
 					type: "random"
 				}
 				{
@@ -632,7 +629,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "05DB37E1F3B6B8D2"
-					table_id: 6257329497410426516L
 					type: "random"
 				}
 				{
@@ -662,7 +658,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3CC730F489B2CEA8"
-				table_id: 6257329497410426516L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.alchem.subt.oxide}"
@@ -703,7 +698,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7FA401AE01A033A9"
-				table_id: 6257329497410426516L
 				type: "random"
 			}]
 			subtitle: "{atm9.quest.alchem.subt.oxide}"
@@ -741,7 +735,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "060B4DCB8A73F90D"
-					table_id: 6257329497410426516L
 					type: "random"
 				}
 				{
@@ -1424,7 +1417,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "3FD000C4018BD8F7"
-					table_id: 6257329497410426516L
 					type: "random"
 				}
 				{
@@ -1455,7 +1447,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "7670F4556C7AF7BC"
-					table_id: 6257329497410426516L
 					type: "random"
 				}
 				{
@@ -1638,7 +1629,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "6395994AFB7756E6"
-					table_id: 6257329497410426516L
 					type: "random"
 				}
 				{
@@ -3374,20 +3364,44 @@
 			y: 15.5d
 		}
 		{
-			dependencies: [
-				"0B566C9D3E2E80E2"
-				"0C882F195627F121"
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
-			description: ["{atm9.quest.alchem.desc.ice}"]
-			id: "2BDC8E68FDF3A1B4"
-			subtitle: "{atm9.quest.alchem.subt.ice}"
-			tasks: [{
-				id: "0D0AF7B4F02AB04C"
-				item: "minecraft:ice"
-				type: "item"
-			}]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "2F747EDD1869CF8E"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "1A4BE209A694AE34"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "64B0BDBA2905560C"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
 			x: -3.5d
-			y: -2.5d
+			y: 0.0d
 		}
 	]
 	title: "{atm9.chapters.34.title}"
