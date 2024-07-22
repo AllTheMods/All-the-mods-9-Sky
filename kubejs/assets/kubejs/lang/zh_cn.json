@@ -26,6 +26,7 @@
 	"atm9.chapters.34.title": "炼金化学",
 	"atm9.chapters.17.title": "更大的反应堆",
 	"atm9.chapters.18.title": "机械动力",
+	"atm9.chapters.35.title": "龙之研究",
 	"atm9.chapters.19.title": "工业先锋",
 	"atm9.chapters.20.title": "通用机械",
 	"atm9.chapters.21.title": "通用机械: &d进阶&r",
@@ -40,6 +41,8 @@
 	"atm9.chapters.28.title": "禁忌与奥秘",
 	"atm9.chapters.33.title": "&e力量工艺&r",
 	"atm9.chapters.29.title": "神秘学",
+
+
 	"atm9.quest.welcome.welcome": "欢迎来到All The Mods 9 to the sky!",
 	"atm9.quest.welcome.desc.welcome": "欢迎来到ATM9... 现在是空岛版！ \\n \\n 要开始任务，请点击左侧选项卡！ \\n \\n 如果你是ATM模组包的新手, 请务必查看 &aAllthemodium&r 章节！ \\n \\n 如果你是空岛整合包或MC整合包的新手, 可以查看&6主线任务章节&r 来帮助你开始。 \\n \\n 注意：  模组并不受任务的限制，任务是可选的。",
 	"atm9.quest.allthemodium.intro": "Allthemodium简介！",
