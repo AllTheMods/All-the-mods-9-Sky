@@ -141,6 +141,7 @@
 		}
 		{
 			dependencies: ["611891F4FB775BD3"]
+			description: ["{atm9.quest.alchem.desc.atomizing}"]
 			id: "0B566C9D3E2E80E2"
 			optional: true
 			rewards: [{
@@ -195,17 +196,18 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "2B3420A9C3FE0A46"
-					table_id: 4196188979167302596L
+					id: "58E34802058811CD"
+					table_id: 6720101959938472115L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "246985ACBE78E6DE"
+					id: "63DC98A7D14321A9"
+					table_id: 4196188979167302596L
 					type: "random"
 				}
 				{
-					id: "18F151CCEB3EF230"
+					id: "0A26CD273E36DCBF"
 					type: "xp"
 					xp: 100
 				}
@@ -273,17 +275,18 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "7C0E264B64484109"
-					table_id: 4196188979167302596L
+					id: "121BBC3FBF9EBCAD"
+					table_id: 6720101959938472115L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "5CB7DCD3CA77F343"
+					id: "19B14C5DA09148CB"
+					table_id: 4196188979167302596L
 					type: "random"
 				}
 				{
-					id: "2C4482C49FD648BE"
+					id: "70AE38228A575465"
 					type: "xp"
 					xp: 100
 				}
@@ -344,11 +347,12 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "3F066CF52C1CC094"
+					id: "2D73456958B25344"
+					table_id: 6720101959938472115L
 					type: "random"
 				}
 				{
-					id: "73539ACFB683E0E5"
+					id: "00C74D34B93CB389"
 					type: "xp"
 					xp: 10
 				}
@@ -505,7 +509,7 @@
 				{
 					id: "085E6410667B2E6B"
 					type: "xp"
-					xp: 50
+					xp: 100
 				}
 			]
 			tasks: [
@@ -628,11 +632,12 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "05DB37E1F3B6B8D2"
+					id: "60965276BFD5437A"
+					table_id: 487623848494439020L
 					type: "random"
 				}
 				{
-					id: "67B6C4B4CB5D6A6F"
+					id: "469B6DB50855AFDB"
 					type: "xp"
 					xp: 10
 				}
@@ -655,11 +660,19 @@
 			description: ["{atm9.quest.alchem.desc.leadoxide}"]
 			hide_dependency_lines: false
 			id: "42B681C59981532C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3CC730F489B2CEA8"
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77E4114DD68C08CC"
+					table_id: 6720101959938472115L
+					type: "random"
+				}
+				{
+					id: "2521E47838DFEDC2"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "{atm9.quest.alchem.subt.oxide}"
 			tasks: [{
 				id: "4B21D69D737379A5"
@@ -695,11 +708,19 @@
 			]
 			description: ["{atm9.quest.alchem.desc.silicondioxide}"]
 			id: "66629CEE67F85A25"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7FA401AE01A033A9"
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0CC3C3F2327CF58A"
+					table_id: 6720101959938472115L
+					type: "random"
+				}
+				{
+					id: "0629C25B28827844"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "{atm9.quest.alchem.subt.oxide}"
 			tasks: [{
 				id: "4EC72D44ED9B98E4"
@@ -734,11 +755,12 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "060B4DCB8A73F90D"
+					id: "419E66B7172D41AB"
+					table_id: 6720101959938472115L
 					type: "random"
 				}
 				{
-					id: "7F180D76158139DF"
+					id: "7B5FF32ED2D1006C"
 					type: "xp"
 					xp: 10
 				}
@@ -1263,11 +1285,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: [
-				"01448392C2A13D94"
-				"1A988BE2A5158A43"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["71815B287D0F162A"]
 			hide_dependency_lines: true
 			id: "371BB9A68E98030B"
 			progression_mode: "flexible"
@@ -1625,18 +1643,11 @@
 			]
 			description: ["{atm9.quest.alchem.desc.netherstars}"]
 			id: "04017B926E892C90"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6395994AFB7756E6"
-					type: "random"
-				}
-				{
-					id: "5690007BF3D3CCD3"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "646295AF5C6DA5E4"
+				type: "xp"
+				xp: 250
+			}]
 			subtitle: "{atm9.quest.alchem.subt.netherstars}"
 			tasks: [{
 				id: "6A0FA092FAD03B08"
@@ -1652,11 +1663,19 @@
 			description: ["{atm9.quest.alchem.desc.64dysprosium}"]
 			hide_dependency_lines: true
 			id: "686D998697278004"
-			rewards: [{
-				id: "60CE116519305268"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "680A071FD8E8260A"
+					table_id: 6720101959938472115L
+					type: "random"
+				}
+				{
+					id: "594C178E45793801"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "{atm9.quest.alchem.subt.fornetherstars}"
 			tasks: [{
 				count: 64L
@@ -1672,11 +1691,19 @@
 			description: ["{atm9.quest.alchem.desc.64Lutetium}"]
 			hide_dependency_lines: true
 			id: "6518DDD43E8D7F59"
-			rewards: [{
-				id: "17633B178509BCA1"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "006A804CCF40F518"
+					table_id: 6720101959938472115L
+					type: "random"
+				}
+				{
+					id: "523B72A754A70F20"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "{atm9.quest.alchem.subt.fornetherstars}"
 			tasks: [{
 				count: 64L
@@ -1692,11 +1719,19 @@
 			description: ["{atm9.quest.alchem.desc.64titanium}"]
 			hide_dependency_lines: true
 			id: "714A43E7C2468C74"
-			rewards: [{
-				id: "73AA2A02E6567323"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7D984B69E9072A1E"
+					table_id: 6720101959938472115L
+					type: "random"
+				}
+				{
+					id: "20B5FB70E0599F6F"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "{atm9.quest.alchem.subt.fornetherstars}"
 			tasks: [{
 				count: 64L
@@ -1712,11 +1747,19 @@
 			description: ["{atm9.quest.alchem.desc.64mendelevium}"]
 			hide_dependency_lines: true
 			id: "408E92AFAC761478"
-			rewards: [{
-				id: "7B1A1C43657B0450"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "047260BF503CD9F0"
+					table_id: 6720101959938472115L
+					type: "random"
+				}
+				{
+					id: "4F1C05EBC06F566F"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "{atm9.quest.alchem.subt.fornetherstars}"
 			tasks: [{
 				count: 64L
@@ -2476,6 +2519,7 @@
 		}
 		{
 			dependencies: ["1A988BE2A5158A43"]
+			description: ["{atm9.quest.alchem.desc.Fr}"]
 			hide_dependency_lines: true
 			id: "6EBA70B456E00641"
 			rewards: [{
@@ -2800,7 +2844,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["1A988BE2A5158A43"]
+			dependencies: ["71815B287D0F162A"]
 			description: ["{atm9.quest.alchem.desc.Og}"]
 			hide_dependency_lines: true
 			id: "376A8F925F139D7F"
@@ -2839,11 +2883,7 @@
 			y: 14.5d
 		}
 		{
-			dependencies: [
-				"01448392C2A13D94"
-				"1A988BE2A5158A43"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["71815B287D0F162A"]
 			description: ["{atm9.quest.alchem.desc.Pr}"]
 			hide_dependency_lines: true
 			id: "2C21A303E3D4D9D8"
@@ -3095,7 +3135,7 @@
 			y: 14.5d
 		}
 		{
-			dependencies: ["1A988BE2A5158A43"]
+			dependencies: ["71815B287D0F162A"]
 			description: ["{atm9.quest.alchem.desc.Th}"]
 			hide_dependency_lines: true
 			id: "63937F58AC720B31"
@@ -3400,8 +3440,8 @@
 					type: "checkmark"
 				}
 			]
-			x: -3.5d
-			y: 0.0d
+			x: -1.5d
+			y: 1.5d
 		}
 	]
 	title: "{atm9.chapters.34.title}"

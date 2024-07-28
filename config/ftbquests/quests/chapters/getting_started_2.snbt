@@ -119,34 +119,15 @@
 				{
 					id: "30277E05FF6E67D4"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			subtitle: "{atm9.quest.start2.subt.wind}"
-			tasks: [
-				{
-					count: 5L
-					id: "568260644F99CE83"
-					item: "mekanism:alloy_infused"
-					type: "item"
-				}
-				{
-					id: "03118FCD2EFD5A30"
-					item: "mekanism:basic_control_circuit"
-					type: "item"
-				}
-				{
-					id: "25B2004192CD0C44"
-					item: "mekanism:energy_tablet"
-					type: "item"
-				}
-				{
-					id: "6186D1DEB76B8C0A"
-					item: "mekanism:energy_tablet"
-					type: "item"
-				}
-			]
-			title: "{atm9.quest.start2.wind}"
+			tasks: [{
+				id: "0C2AB4FD5D6525EA"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
 			x: -17.0d
 			y: 0.5d
 		}
@@ -408,7 +389,7 @@
 		}
 		{
 			dependencies: ["162AB6F9257EB71E"]
-			description: [""]
+			description: ["{atm9.quest.start2.desc.cake}"]
 			id: "1ECF6495A3D77E27"
 			min_width: 300
 			rewards: [{
@@ -418,7 +399,6 @@
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "{atm9.quest.start2.subt.cake}"
 			tasks: [{
 				id: "3EDD7F00E94F9F28"
 				item: "exdeorum:end_cake"

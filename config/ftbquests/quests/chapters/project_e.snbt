@@ -10,21 +10,36 @@
 		tag: { }
 	}
 	id: "4C341941A5100759"
-	images: [{
-		height: 0.8d
-		image: "allthetweaks:item/atm_star"
-		rotation: 0.0d
-		width: 0.8d
-		x: 28.5d
-		y: -1.75d
-	}]
-	order_index: 6
+	images: [
+		{
+			height: 0.7d
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.7d
+			x: 28.5d
+			y: -1.5d
+		}
+		{
+			height: 0.3d
+			hover: ["{atm9.quest.ae2.img.star}"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 18.0d
+			y: 3.75d
+		}
+	]
+	order_index: 5
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{atm9.quest.proje.desc.welcome}"]
-			icon: "pneumaticcraft:security_upgrade"
+			description: [
+				"{atm9.quest.proje.desc.welcome}"
+				""
+				"{atm9.quest.proje.desc.covdust}"
+			]
+			icon: "projecte:high_covalence_dust"
 			id: "44EF05AADE7C8376"
 			rewards: [{
 				id: "68D9D0462F8FF890"
@@ -33,51 +48,26 @@
 			}]
 			shape: "pentagon"
 			size: 2.0d
-			tasks: [{
-				id: "00D22F337E483B30"
-				title: "{atm9.quest.proje.welcome}"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "5E7172836B23D07F"
+					item: "projecte:low_covalence_dust"
+					type: "item"
+				}
+				{
+					id: "4A7EAD0616AB07B9"
+					item: "projecte:medium_covalence_dust"
+					type: "item"
+				}
+				{
+					id: "3C9352472609AA59"
+					item: "projecte:high_covalence_dust"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.proje.welcome}"
 			x: 0.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["44EF05AADE7C8376"]
-			description: ["{atm9.quest.proje.desc.covdust}"]
-			id: "178C5BEC6D278EB0"
-			rewards: [{
-				count: 2
-				id: "1A0C2E4BB83519D7"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0DBE465D812A899B"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "projecte:low_covalence_dust"
-							}
-							{
-								Count: 1b
-								id: "projecte:medium_covalence_dust"
-							}
-							{
-								Count: 1b
-								id: "projecte:high_covalence_dust"
-							}
-						]
-					}
-				}
-				title: "{atm9.quest.proje.covdust}"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -1.5d
 		}
 		{
 			dependencies: ["715E4B9E11B32789"]
@@ -98,7 +88,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["178C5BEC6D278EB0"]
+			dependencies: ["44EF05AADE7C8376"]
 			description: ["{atm9.quest.proje.desc.alchchest}"]
 			id: "715E4B9E11B32789"
 			rewards: [{
@@ -118,6 +108,7 @@
 		{
 			dependencies: ["715E4B9E11B32789"]
 			description: ["{atm9.quest.proje.desc.alchbag}"]
+			icon: "projecte:white_alchemical_bag"
 			id: "6EAC607F521FC7C3"
 			rewards: [{
 				count: 64
@@ -127,9 +118,17 @@
 			}]
 			tasks: [{
 				id: "7A16148FD9C56C19"
-				item: "projecte:white_alchemical_bag"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "projecte:alchemical_bags"
+					}
+				}
+				title: "{atm9.quest.proje.desc.anyalchbag}"
 				type: "item"
 			}]
+			title: "{atm9.quest.proje.alcbag}"
 			x: 2.5d
 			y: 1.5d
 		}
@@ -192,6 +191,7 @@
 			dependency_requirement: "one_completed"
 			description: ["{atm9.quest.proje.desc.tip}"]
 			id: "72A0CB897AFB6786"
+			optional: true
 			rewards: [{
 				id: "552AB3D4560A9CBF"
 				type: "xp"
@@ -200,10 +200,9 @@
 			shape: "gear"
 			tasks: [{
 				id: "3F29CDC7F1A0B94B"
-				title: "{atm9.quest.proje.desc.tip}"
+				title: "{atm9.quest.proje.tip}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.proje.tip}"
 			x: 7.5d
 			y: 0.0d
 		}
@@ -229,9 +228,10 @@
 			dependencies: ["40786CBFA8F2039D"]
 			id: "6472957BF1B84B45"
 			rewards: [{
-				id: "3701BA9D6CFE5C7F"
-				item: "minecraft:iron_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "7D3E08E1BF827585"
+				table_id: 5354288240016506720L
+				type: "random"
 			}]
 			tasks: [{
 				count: 2L
@@ -247,6 +247,7 @@
 			hide_dependency_lines: true
 			id: "3BD0A9B3A50630CC"
 			rewards: [{
+				count: 2
 				id: "44BE30BC2A27529C"
 				item: "minecraft:blaze_powder"
 				type: "item"
@@ -296,11 +297,12 @@
 				{
 					id: "1042DAAA31BD5D6E"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 500
 				}
 			]
 			shape: "pentagon"
 			size: 1.7d
+			subtitle: "{atm9.quest.proje.subt.Pstone}"
 			tasks: [{
 				id: "051054934CEE6DFD"
 				item: {
@@ -322,9 +324,9 @@
 			hide_dependency_lines: true
 			id: "7F52DC9ED96C3639"
 			rewards: [{
-				id: "5F265BD100816E04"
-				item: "minecraft:gunpowder"
-				type: "item"
+				id: "0193CAB3E9C84E43"
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "2B3241D4990ABD62"
@@ -336,13 +338,18 @@
 		}
 		{
 			dependencies: ["44EF05AADE7C8376"]
-			description: ["{atm9.quest.proje.desc.mana}"]
+			description: [
+				"{atm9.quest.proje.desc.mana}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"1883B79BDB2AAE5D\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
 			hide_dependency_lines: true
 			id: "40786CBFA8F2039D"
 			rewards: [{
-				id: "4162E423ED8A17B0"
-				item: "botania:endoflame"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "2BDBA0891568BFCB"
+				table_id: 1340875193044128734L
+				type: "random"
 			}]
 			tasks: [{
 				id: "3BC5C1C3150AB6D9"
@@ -358,7 +365,6 @@
 			hide_dependency_lines: true
 			id: "3941E092B73D6537"
 			rewards: [{
-				count: 2
 				id: "10F915BF504B7FAC"
 				item: "minecraft:obsidian"
 				type: "item"
@@ -397,14 +403,14 @@
 			id: "070D2E7011E1DC83"
 			rewards: [
 				{
-					id: "7A08CACE427D4C8F"
-					item: "minecraft:blaze_rod"
-					type: "item"
-				}
-				{
 					count: 64
 					id: "5629AE2A01F42000"
 					item: "projecte:high_covalence_dust"
+					type: "item"
+				}
+				{
+					id: "522768FA8DC9C1C1"
+					item: "minecraft:blaze_rod"
 					type: "item"
 				}
 			]
@@ -455,10 +461,9 @@
 			dependencies: ["73E2BCD99012BC89"]
 			id: "7C7D2D4E2AA0D84C"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "7F897E43A6737466"
-				table_id: 7025454341029952768L
-				type: "loot"
+				id: "3D1C20652F1EAE58"
+				item: "projecte:mobius_fuel_block"
+				type: "item"
 			}]
 			tasks: [{
 				id: "7C44744F75F95479"
@@ -519,7 +524,7 @@
 			rewards: [{
 				id: "16E8512FF82A0D76"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 500
 			}]
 			tasks: [{
 				id: "63A4FCD02DA46523"
@@ -540,9 +545,9 @@
 			description: ["{atm9.quest.proje.desc.klientier}"]
 			id: "3106ACFAB8900F11"
 			rewards: [{
-				id: "0DBBEBC11EAE3C9E"
-				type: "xp_levels"
-				xp_levels: 10
+				id: "0F8C7676601D9EAD"
+				type: "xp"
+				xp: 500
 			}]
 			tasks: [{
 				id: "41D7857DA38E355D"
@@ -563,9 +568,9 @@
 			description: ["{atm9.quest.proje.desc.klientier}"]
 			id: "1006FED6AD1EC4BC"
 			rewards: [{
-				id: "6DC2917C8C9095B1"
-				type: "xp_levels"
-				xp_levels: 15
+				id: "47EBE229F971640B"
+				type: "xp"
+				xp: 500
 			}]
 			tasks: [{
 				id: "1AF9E14AC5738268"
@@ -586,9 +591,9 @@
 			description: ["{atm9.quest.proje.desc.klientier}"]
 			id: "08CA0D6622233636"
 			rewards: [{
-				id: "5AFD289EC8856AC4"
-				type: "xp_levels"
-				xp_levels: 20
+				id: "379F275FA2A2654F"
+				type: "xp"
+				xp: 1000
 			}]
 			tasks: [{
 				id: "6B2EBCAA6EA81850"
@@ -606,14 +611,21 @@
 		}
 		{
 			dependencies: ["08CA0D6622233636"]
-			description: ["{atm9.quest.proje.desc.klientier}"]
+			description: ["{atm9.quest.proje.desc.kleinomega}"]
 			id: "4F45C0BE9B1169AB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7F98070441C42D57"
-				table_id: 7175652334583451871L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7F98070441C42D57"
+					table_id: 7175652334583451871L
+					type: "random"
+				}
+				{
+					id: "6ABCC854C0304CB8"
+					type: "xp"
+					xp: 2000
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -634,17 +646,24 @@
 			dependencies: ["7C7D2D4E2AA0D84C"]
 			description: ["{atm9.quest.proje.desc.aefuelblock}"]
 			id: "07D0708C04578B8A"
-			rewards: [{
-				id: "2AEE39A252AC1129"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "3965C89BAEA0D750"
+					item: "projecte:aeternalis_fuel"
+					type: "item"
+				}
+				{
+					id: "59F8CA8DB6C05978"
+					type: "xp"
+					xp: 500
+				}
+			]
 			tasks: [{
 				id: "20634BF1177A5EE5"
 				item: "projecte:aeternalis_fuel_block"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 19.5d
 			y: 0.0d
 		}
 		{
@@ -757,45 +776,34 @@
 			dependencies: ["73E2BCD99012BC89"]
 			description: ["{atm9.quest.proje.desc.nova}"]
 			id: "2FDE877B472D4DAC"
-			rewards: [{
-				id: "277C5CCF8F2C47C3"
-				item: "ae2:tiny_tnt"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "277C5CCF8F2C47C3"
+					item: "ae2:tiny_tnt"
+					type: "item"
+				}
+				{
+					id: "47D24FBE0B44D415"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.proje.subt.nova}"
 			tasks: [{
-				count: 2L
 				id: "3E6B2649043A2E94"
-				item: { Count: 2, id: "projecte:nova_catalyst" }
+				item: "projecte:nova_catalyst"
 				type: "item"
 			}]
 			x: 16.5d
 			y: -2.5d
 		}
 		{
-			dependencies: ["2FDBE21A36F2CA2A"]
-			id: "07B3847D3D40DCBE"
-			rewards: [{
-				id: "7DFC04FE9C33122E"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "gear"
-			size: 1.25d
-			tasks: [{
-				id: "04264CCCBE04F817"
-				title: "{atm9.quest.proje.darkm}"
-				type: "checkmark"
-			}]
-			x: 24.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["0366439B3678C01F"]
 			description: ["{atm9.quest.proje.desc.dmfurnace}"]
 			id: "693949D1AD00F6E1"
 			rewards: [{
-				id: "2E2F8BC8F398C8AC"
-				item: "allthemodium:allthemodium_block"
+				id: "48629EB746824D69"
+				item: "projecte:aeternalis_fuel_block"
 				type: "item"
 			}]
 			tasks: [{
@@ -803,36 +811,39 @@
 				item: "projecte:dm_furnace"
 				type: "item"
 			}]
-			x: 25.0d
-			y: -2.5d
+			x: 25.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0E12B87B875C02CA"]
 			description: ["{atm9.quest.proje.desc.dmpedestal}"]
 			id: "24CAFA6C79C705AA"
-			rewards: [{
-				id: "62AD7BDE536AFCA8"
-				type: "xp_levels"
-				xp_levels: 40
-			}]
+			rewards: [
+				{
+					id: "70C124404C73A348"
+					table_id: 7175652334583451871L
+					type: "random"
+				}
+				{
+					id: "0B28B64D285420C4"
+					type: "xp"
+					xp: 1000
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				id: "0D4538F44CDD0B63"
 				item: "projecte:dm_pedestal"
 				type: "item"
 			}]
-			x: 31.5d
+			x: 31.0d
 			y: 0.5d
 		}
 		{
-			dependencies: ["07B3847D3D40DCBE"]
+			dependencies: ["2FDBE21A36F2CA2A"]
 			description: ["{atm9.quest.proje.desc.dmarmor}"]
+			icon: "projecte:dm_chestplate"
 			id: "1B421A424B2F47A5"
-			rewards: [{
-				id: "3C26663A10E0567B"
-				item: "projecte:aeternalis_fuel_block"
-				type: "item"
-			}]
 			tasks: [{
 				id: "3C80EA3AE18D383A"
 				item: {
@@ -863,12 +874,20 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.proje.dmarmor}"
-			x: 23.5d
+			x: 24.5d
 			y: -1.0d
 		}
 		{
-			dependencies: ["07B3847D3D40DCBE"]
+			dependencies: ["2FDBE21A36F2CA2A"]
 			description: ["{atm9.quest.proje.desc.dmtools}"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "projecte:dm_axe"
+				tag: { }
+			}
 			id: "6D9483E9C6F132A5"
 			rewards: [{
 				id: "142CC24F8AC2D17B"
@@ -928,41 +947,25 @@
 				title: "{atm9.quest.proje.dmtools}"
 				type: "item"
 			}]
-			x: 25.5d
-			y: -1.0d
+			x: 24.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["07B3847D3D40DCBE"]
+			dependencies: ["2FDBE21A36F2CA2A"]
+			description: ["{atm9.quest.proje.desc.DMblock}"]
 			id: "0366439B3678C01F"
 			rewards: [{
-				id: "16303262818344BB"
-				type: "xp_levels"
-				xp_levels: 10
+				id: "2934C407AF7BDA54"
+				type: "xp"
+				xp: 1000
 			}]
 			tasks: [{
 				id: "2564D0E2289F3097"
 				item: "projecte:dark_matter_block"
 				type: "item"
 			}]
-			x: 24.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["0366439B3678C01F"]
-			description: ["{atm9.quest.proje.desc.heat}"]
-			id: "567C57E1D7ABB282"
-			rewards: [{
-				id: "53700E31E776B76C"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "2DA0EEA9F4383921"
-				title: "{atm9.quest.proje.heat}"
-				type: "checkmark"
-			}]
 			x: 24.0d
-			y: -2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4C71677D32D87637"]
@@ -1018,11 +1021,11 @@
 		}
 		{
 			dependencies: [
-				"07B3847D3D40DCBE"
 				"17824256E60ACE82"
 				"65FB257CEAC5EE31"
 				"008F3652B8E149FB"
 				"73CF53117AF0E0E4"
+				"2FDBE21A36F2CA2A"
 			]
 			description: ["{atm9.quest.proje.desc.RM}"]
 			id: "0E12B87B875C02CA"
@@ -1030,16 +1033,16 @@
 				{
 					exclude_from_claim_all: true
 					id: "26EEC2B9F8B8BFAD"
-					table_id: 7175652334583451871L
+					table_id: 7025454341029952768L
 					type: "loot"
 				}
 				{
 					id: "2B7FE35DD51E0992"
 					type: "xp_levels"
-					xp_levels: 30
+					xp_levels: 1000
 				}
 			]
-			size: 3.0d
+			size: 2.5d
 			tasks: [{
 				id: "29544A8F5BC5FA75"
 				item: "projecte:red_matter"
@@ -1056,7 +1059,7 @@
 			rewards: [{
 				id: "0AE28445673B5520"
 				type: "xp"
-				xp: 10
+				xp: 100
 			}]
 			tasks: [{
 				id: "53128062C1311048"
@@ -1074,7 +1077,7 @@
 			rewards: [{
 				id: "1A8726E2ACDBE124"
 				type: "xp"
-				xp: 10
+				xp: 100
 			}]
 			tasks: [{
 				id: "0C1ED8276A96ED90"
@@ -1086,13 +1089,17 @@
 		}
 		{
 			dependencies: ["44EF05AADE7C8376"]
-			description: ["{atm9.quest.proje.desc.plutonium}"]
+			description: [
+				"{atm9.quest.proje.desc.plutonium}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"23983F4DC524B14B\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
 			hide_dependency_lines: true
 			id: "65FB257CEAC5EE31"
 			rewards: [{
 				id: "13EB5C2C446B3148"
 				type: "xp"
-				xp: 10
+				xp: 100
 			}]
 			tasks: [{
 				id: "2C9F8D100841B3BF"
@@ -1104,13 +1111,17 @@
 		}
 		{
 			dependencies: ["44EF05AADE7C8376"]
-			description: ["{atm9.quest.proje.desc.insanium}"]
+			description: [
+				"{atm9.quest.proje.desc.insanium}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"0F96DC3563DA78EF\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
 			hide_dependency_lines: true
 			id: "17824256E60ACE82"
 			rewards: [{
 				id: "7F6315399836DFFA"
 				type: "xp"
-				xp: 10
+				xp: 100
 			}]
 			tasks: [{
 				count: 3L
@@ -1123,12 +1134,12 @@
 		}
 		{
 			dependencies: ["0E12B87B875C02CA"]
-			description: ["{atm9.quest.proje.desc.rmuse}"]
+			description: ["{atm9.quest.proje.desc.RMuse}"]
 			id: "6FC09C0B93CC580D"
 			rewards: [{
 				id: "1AF7A2CD0383AB4E"
 				type: "xp"
-				xp: 10
+				xp: 100
 			}]
 			shape: "gear"
 			tasks: [{
@@ -1136,7 +1147,7 @@
 				title: "{atm9.quest.proje.RM}"
 				type: "checkmark"
 			}]
-			x: 31.5d
+			x: 31.0d
 			y: -0.5d
 		}
 		{
@@ -1176,8 +1187,121 @@
 					type: "checkmark"
 				}
 			]
-			x: -1.5d
-			y: 0.0d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2FDE877B472D4DAC"]
+			description: [
+				"{atm9.quest.proje.desc.DC}"
+				""
+				""
+				"{image:atm:textures/questpics/projecte/destruction_catalyst.png width:100 height:60 align:center}"
+			]
+			id: "0B06577ECC1BF379"
+			subtitle: "{atm9.quest.proje.subt.DC}"
+			tasks: [{
+				id: "19D8B71A0B0B8051"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:destruction_catalyst"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2FDE877B472D4DAC"]
+			description: ["{atm9.quest.proje.desc.HL}"]
+			id: "6AEEFA5FFE8F2C21"
+			subtitle: "{atm9.quest.proje.subt.HL}"
+			tasks: [{
+				id: "7A4902D3C3E686A0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:hyperkinetic_lens"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6AEEFA5FFE8F2C21"
+				"0B06577ECC1BF379"
+			]
+			description: [
+				"{atm9.quest.proje.desc.CL}"
+				""
+				""
+				"{image:atm:textures/questpics/projecte/catalytic_lens.png width:100 height:60 align:center}"
+			]
+			id: "48B1BDB10886E63B"
+			subtitle: "{atm9.quest.proje.subt.CL}"
+			tasks: [{
+				id: "28686A6171C494E4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:catalytic_lens"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"7C7D2D4E2AA0D84C"
+				"2FDE877B472D4DAC"
+			]
+			description: ["{atm9.quest.proje.desc.nova2}"]
+			id: "2E4980944AB2D53D"
+			rewards: [
+				{
+					id: "671EA4F23B174DF1"
+					item: "minecraft:tnt"
+					type: "item"
+				}
+				{
+					id: "0434DAB469EEFEE3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.proje.subt.nova2}"
+			tasks: [{
+				id: "2600626F2EB5D496"
+				item: "projecte:nova_cataclysm"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4C71677D32D87637"]
+			description: ["{atm9.quest.proje.desc.energycondenserMK2}"]
+			id: "70952560BA18E372"
+			tasks: [{
+				id: "16EEA058EDC203D9"
+				item: "projecte:condenser_mk2"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
 		}
 	]
 	title: "{atm9.chapters.31.title}"

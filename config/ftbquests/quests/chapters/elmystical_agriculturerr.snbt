@@ -84,8 +84,8 @@
 			image: "minecraft:item/coal"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.5d
-			y: 6.0d
+			x: 6.5d
+			y: 5.5d
 		}
 		{
 			height: 1.0d
@@ -108,8 +108,8 @@
 			image: "chipped:block/stripped_spruce_log/reinforced_stripped_spruce_log_top"
 			rotation: 0.0d
 			width: 1.0d
-			x: 6.5d
-			y: 5.5d
+			x: 8.5d
+			y: 6.0d
 		}
 		{
 			height: 1.0d
@@ -343,14 +343,26 @@
 				""
 				"{atm9.quest.ma.dec.SoulSand}"
 			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "mysticalagriculture:guide"
+				}
+			}
 			id: "54735C5FCD2077B3"
 			rewards: [{
-				count: 5
-				id: "48BE7C6E5559F060"
-				item: "minecraft:soul_sand"
+				id: "75279B5965F91D31"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "mysticalagriculture:guide"
+					}
+				}
 				type: "item"
 			}]
-			size: 1.0d
+			size: 2.0d
 			tasks: [{
 				count: 20L
 				icon: "minecraft:soul_sand"
@@ -475,7 +487,9 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["54735C5FCD2077B3"]
 			description: ["{atm9.quest.ma.desc.BoneM}"]
+			hide_dependency_lines: true
 			id: "7B7D0BBFC09D9271"
 			subtitle: "{atm9.quest.ma.subt.CraftTip}"
 			tasks: [{
@@ -484,13 +498,14 @@
 				item: { Count: 8, id: "minecraft:bone_meal" }
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.bonemeal}"
+			title: "{atm9.quest.ma.BoneM}"
 			x: -8.5d
 			y: 6.0d
 		}
 		{
-			dependencies: ["11097D91EBF2490D"]
+			dependencies: ["54735C5FCD2077B3"]
 			description: ["{atm9.quest.ma.desc.Mesh}"]
+			hide_dependency_lines: true
 			id: "3D85F85333C6B88E"
 			subtitle: "{atm9.quest.ma.subt.CraftTip}"
 			tasks: [
@@ -878,8 +893,9 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6580DCA54E4C9BC2"]
+			dependencies: ["54735C5FCD2077B3"]
 			description: ["{atm9.quest.ma.desc.SSprocessing}"]
+			hide_dependency_lines: true
 			id: "5C590DB2F3D935E5"
 			tasks: [
 				{
@@ -1341,25 +1357,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"258FB25D3664689A"
-				"24ACE0FC29377675"
-				"71AD5CE00F79A277"
-			]
-			description: ["{atm9.quest.ma.desc.FarmingT6}"]
-			icon: "minecraft:farmland"
-			id: "5B54A5EA4EB5CAF6"
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "3ED863320CEA1EF3"
-				type: "checkmark"
-			}]
-			title: "{atm9.quest.ma.FarmingT6}"
-			x: 32.5d
-			y: 8.0d
-		}
-		{
 			dependencies: ["041F4DE6C607E21F"]
 			description: ["{atm9.quest.ma.desc.mastercrys}"]
 			id: "219A5BDA5A01A420"
@@ -1668,7 +1665,8 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["11097D91EBF2490D"]
+			dependencies: ["54735C5FCD2077B3"]
+			hide_dependency_lines: true
 			id: "62024135557CF54A"
 			tasks: [{
 				id: "68C9BFD2BF23F0A4"
@@ -1991,6 +1989,7 @@
 			dependencies: ["6ECA35873EFEDB35"]
 			description: ["{atm9.quest.ma.desc.asbee}"]
 			id: "2A7192CD8D9830DF"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "404AFBEA64266A46"
@@ -2016,7 +2015,9 @@
 		{
 			dependencies: ["5E56A5A0D5E9F831"]
 			description: ["{atm9.quest.ma.desc.SupremiumGear}"]
+			icon: "mysticalagriculture:supremium_pickaxe"
 			id: "15B60B1325E1DBBB"
+			optional: true
 			rewards: [{
 				count: 4
 				id: "50DCFB412BF6302A"
@@ -2025,11 +2026,94 @@
 			}]
 			subtitle: "{atm9.quest.ma.subt.SupremiumGear}"
 			tasks: [{
-				id: "59B5CBC7CC4058EE"
-				item: "mysticalagriculture:supremium_pickaxe"
+				id: "7E95823F6C4E75D9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mysticalagriculture:supremium_sword"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:supremium_pickaxe"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:supremium_shovel"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:supremium_axe"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:supremium_hoe"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:supremium_bow"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:supremium_crossbow"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:supremium_shears"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:supremium_watering_can"
+								tag: {
+									Active: 0b
+									Water: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:supremium_sickle"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:supremium_scythe"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:supremium_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:supremium_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:supremium_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:supremium_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.ma.SupremiumGear}"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.SupremiumGear}"
 			x: 26.5d
 			y: 4.5d
 		}
@@ -2103,7 +2187,11 @@
 		}
 		{
 			dependencies: ["3BFABBB43335D586"]
-			description: ["{atm9.quest.ma.desc.modelframe}"]
+			description: [
+				"{atm9.quest.ma.desc.modelframe}"
+				""
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"0A52D0932DA3F809\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
 			id: "13A881C06E3519BA"
 			tasks: [{
 				count: 3L

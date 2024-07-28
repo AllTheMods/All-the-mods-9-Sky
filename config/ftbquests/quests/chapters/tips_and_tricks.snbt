@@ -3,6 +3,11 @@
 	default_quest_shape: "diamond"
 	filename: "tips_and_tricks"
 	group: ""
+	icon: {
+		Count: 1
+		id: "simplemagnets:basicmagnet"
+		tag: { }
+	}
 	id: "1BE666F01EFFC00D"
 	images: [{
 		height: 3.0d
@@ -38,8 +43,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.tips.sink}"
-			x: -2.5d
-			y: 0.5d
+			x: -3.5d
+			y: 2.0d
 		}
 		{
 			description: ["{atm9.quest.tips.desc.hyperbox}"]
@@ -55,7 +60,7 @@
 				item: "hyperbox:hyperbox"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: 0.0d
 		}
 		{
@@ -76,7 +81,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.tips.shrink}"
-			x: -6.0d
+			x: -5.5d
 			y: 1.0d
 		}
 		{
@@ -115,11 +120,19 @@
 				}
 			]
 			title: "{atm9.quest.tips.build}"
-			x: -5.5d
+			x: -5.0d
 			y: 0.5d
 		}
 		{
 			description: ["{atm9.quest.tips.desc.wand}"]
+			icon: {
+				Count: 1
+				id: "constructionwand:diamond_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
 			id: "2A2E3D020B1F5126"
 			rewards: [{
 				id: "73E17D3567E3D6BD"
@@ -127,19 +140,50 @@
 				xp_levels: 3
 			}]
 			tasks: [{
-				id: "05D9E287D437CDDB"
+				id: "4EAE6AD12D7541EA"
 				item: {
 					Count: 1
-					id: "constructionwand:stone_wand"
+					id: "itemfilters:or"
 					tag: {
-						Damage: 0
-						wand_options: { }
+						items: [
+							{
+								Count: 1b
+								id: "constructionwand:stone_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:iron_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:diamond_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:infinity_wand"
+								tag: {
+									wand_options: { }
+								}
+							}
+						]
 					}
 				}
+				title: "{atm9.quest.tips.wand}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tips.wand}"
-			x: -6.5d
+			x: -6.0d
 			y: 0.5d
 		}
 		{
@@ -154,6 +198,7 @@
 				"2874646A910EA889"
 				"3FC002E5A6C08DCC"
 				"25E585C8AE7430DC"
+				"7193A76409F26E93"
 			]
 			hide_dependency_lines: true
 			id: "0F8F37D7E12078F5"
@@ -211,7 +256,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.tips.magnet}"
-			x: -1.5d
+			x: -2.0d
 			y: 0.5d
 		}
 		{
@@ -248,8 +293,8 @@
 				}
 			]
 			title: "{atm9.quest.tips.gale}"
-			x: -4.5d
-			y: 0.5d
+			x: -3.0d
+			y: 2.5d
 		}
 		{
 			description: ["{atm9.quest.tips.desc.repair}"]
@@ -271,7 +316,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
@@ -348,10 +393,10 @@
 						]
 					}
 				}
+				title: "{atm9.quest.tips.gateway}"
 				type: "item"
 			}]
-			title: "{atm9.quest.tips.gateway}"
-			x: -0.5d
+			x: -1.0d
 			y: 0.5d
 		}
 		{
@@ -386,7 +431,7 @@
 				}
 			]
 			title: "{atm9.quest.tips.torch}"
-			x: -1.0d
+			x: -1.5d
 			y: 1.0d
 		}
 		{
@@ -408,8 +453,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.tips.sleepcharm}"
-			x: -3.5d
-			y: 1.5d
+			x: -4.0d
+			y: 2.5d
 		}
 		{
 			can_repeat: false
