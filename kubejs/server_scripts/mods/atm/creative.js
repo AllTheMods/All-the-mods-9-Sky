@@ -45,7 +45,7 @@ ServerEvents.recipes( event => {
   event.shaped('allthetweaks:improbable_probability_device', ['ABA', 'CGE', 'FDF'], {
     A: 'mekanism:pellet_antimatter',
     B: 'enderio:vibrant_capacitor_bank',
-    C: ['extradisks:1048576k_storage_part', 'extradisks:1048576k_fluid_storage_part', 'megacells:cell_component_256m'],
+    C: ['extrastorage:storagepart_16384k', 'megacells:cell_component_16m'],
     D: 'advgenerators:power_capacitor_tier3',
     E: 'rftoolsutility:flight_module',
     F: Item.of('powah:battery_nitro', '{powah_tile_data:{energy_stored_main_energy:2000000000L}}').weakNBT(),
