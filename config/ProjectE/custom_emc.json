@@ -149,6 +149,126 @@
       "emc": 32
     },
     {
+      "item": "minecraft:bone",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:string",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "emc": 128
+    },
+    {
+      "item": "forcecraft:pile_of_gunpowder",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:ghast_tear",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:slime_ball",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:rotten_flesh",
+      "emc": 32
+    },
+    {
+      "item": "croptopia:calamari",
+      "emc": 16
+    },
+    {
+      "item": "croptopia:cooked_calamari",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:ink_sac",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:glow_ink_sac",
+      "emc": 16
+    },
+    {
+      "item": "croptopia:glowing_calamari",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:spider_eye",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:leather",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:rabbit_hide",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:rabbit_foot",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "emc": 1024
+    },
+    {
+      "item": "thermal:basalz_rod",
+      "emc": 1024
+    },
+    {
+      "item": "thermal:blitz_rod",
+      "emc": 1024
+    },
+    {
+      "item": "thermal:blizz_rod",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:feather",
+      "emc": 48
+    },
+    {
+      "item": "minecraft:egg",
+      "emc": 16
+    },
+    {
+      "item": "projecte:transmutation_table",
+      "emc": 256
+    },
+    {
+      "item": "projecte:repair_talisman",
+      "emc": 460
+    },
+    {
+      "item": "projecte:divining_rod_1",
+      "emc": 8
+    },
+    {
+      "item": "projecte:divining_rod_2",
+      "emc": 48
+    },
+    {
+      "item": "projecte:divining_rod_3",
+      "emc": 1712
+    },
+    {
+      "item": "projecte:low_covalence_dust",
+      "emc": 1
+    },
+    {
+      "item": "projecte:medium_covalence_dust",
+      "emc": 5
+    },
+    {
+      "item": "projecte:high_covalence_dust",
+      "emc": 208
+    },
+    {
       "item": "xycraft_world:xychorium_gem_blue",
       "emc": 128
     },
@@ -169,39 +289,59 @@
       "emc": 128
     },
     {
-      "item": "minecraft:bone",
+      "item": "#chipped:ochre_froglight",
       "emc": 128
     },
     {
-      "item": "minecraft:string",
-      "emc": 12
+      "item": "absentbydesign:stairs_ochre_froglight",
+      "emc": 128
     },
     {
-      "item": "minecraft:gunpowder",
-      "emc": 196
+      "item": "#chipped:verdant_froglight",
+      "emc": 128
     },
     {
-      "item": "forcecraft:pile_of_gunpowder",
-      "emc": 49
+      "item": "absentbydesign:stairs_verdant_froglight",
+      "emc": 128
     },
     {
-      "item": "minecraft:ghast_tear",
-      "emc": 1024
+      "item": "#chipped:pearlescent_froglight",
+      "emc": 128
     },
     {
-      "item": "minecraft:slime_ball",
-      "emc": 32
+      "item": "absentbydesign:stairs_pearlescent_froglight",
+      "emc": 128
     },
     {
-      "item": "minecraft:rotten_flesh",
-      "emc": 32
+      "item": "absentbydesign:slab_sculk",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_sculk",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:wall_sculk",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:basalt",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_basalt",
+      "emc": 1
     },
     {
       "item": "minecraft:smooth_basalt",
       "emc": 1
     },
     {
-      "item": "#chipped:basalt",
+      "item": "minecraft:polished_basalt",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_polished_basalt",
       "emc": 1
     },
     {
@@ -221,6 +361,10 @@
       "emc": 1
     },
     {
+      "item": "minecraft:cut_red_sandstone",
+      "emc": 1
+    },
+    {
       "item": "minecraft:smooth_red_sandstone",
       "emc": 1
     },
@@ -233,7 +377,107 @@
       "emc": 1
     },
     {
+      "item": "minecraft:polished_blackstone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:polished_blackstone_button",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:polished_blackstone_pressure_plate",
+      "emc": 2
+    },
+    {
+      "item": "minecraft:blackstone_bricks",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:polished_blackstone_bricks",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:cracked_polished_blackstone_bricks",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:chiseled_polished_blackstone",
+      "emc": 1
+    },
+    {
+      "item": "supplementaries:blackstone_tile",
+      "emc": 1
+    },
+    {
+      "item": "supplementaries:blackstone_tile_stairs",
+      "emc": 1
+    },
+    {
+      "item": "supplementaries:blackstone_tile_wall",
+      "emc": 1
+    },
+    {
+      "item": "supplementaries:checker_block",
+      "emc": 1
+    },
+    {
       "item": "#chipped:tuff",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_tuff",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_tuff_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_tuff_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:polished_cut_tuff",
+      "emc": 1
+    },
+    {
+      "item": "create:polished_cut_tuff_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:polished_cut_tuff_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_tuff_bricks",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_tuff_brick_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_tuff_brick_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:small_tuff_bricks",
+      "emc": 1
+    },
+    {
+      "item": "create:small_tuff_brick_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:small_tuff_brick_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:layered_tuff",
+      "emc": 1
+    },
+    {
+      "item": "create:tuff_pillar",
       "emc": 1
     },
     {
@@ -245,11 +489,71 @@
       "emc": 1
     },
     {
+      "item": "create:cut_deepslate",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_deepslate_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_deepslate_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:polished_cut_deepslate",
+      "emc": 1
+    },
+    {
+      "item": "create:polished_cut_deepslate_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:polished_cut_deepslate_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_deepslate_bricks",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_deepslate_brick_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_deepslate_brick_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:small_deepslate_bricks",
+      "emc": 1
+    },
+    {
+      "item": "create:small_deepslate_brick_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:small_deepslate_brick_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:layered_deepslate",
+      "emc": 1
+    },
+    {
+      "item": "create:deepslate_pillar",
+      "emc": 1
+    },
+    {
       "item": "minecraft:polished_deepslate",
       "emc": 1
     },
     {
       "item": "minecraft:deepslate_bricks",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:cracked_deepslate_bricks",
       "emc": 1
     },
     {
@@ -293,6 +597,10 @@
       "emc": 1
     },
     {
+      "item": "absentbydesign:stairs_smooth_stone",
+      "emc": 1
+    },
+    {
       "item": "#minecraft:stone_bricks",
       "emc": 1
     },
@@ -301,7 +609,23 @@
       "emc": 1
     },
     {
+      "item": "absentbydesign:stairs_bricks_cracked",
+      "emc": 1
+    },
+    {
       "item": "minecraft:stone_brick_wall",
+      "emc": 1
+    },
+    {
+      "item": "supplementaries:stone_tile",
+      "emc": 1
+    },
+    {
+      "item": "supplementaries:stone_tile_stairs",
+      "emc": 1
+    },
+    {
+      "item": "supplementaries:stone_wall",
       "emc": 1
     },
     {
@@ -321,8 +645,68 @@
       "emc": 4
     },
     {
+      "item": "create:cut_calcite",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_calcite_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_calcite_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:polished_cut_calcite",
+      "emc": 1
+    },
+    {
+      "item": "create:polished_cut_calcite_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:polished_cut_calcite_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_calcite_bricks",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_calcite_brick_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_calcite_brick_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:small_calcite_bricks",
+      "emc": 1
+    },
+    {
+      "item": "create:small_calcite_brick_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:small_calcite_brick_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:layered_calcite",
+      "emc": 1
+    },
+    {
+      "item": "create:calcite_pillar",
+      "emc": 1
+    },
+    {
       "item": "minecraft:flower_pot",
-      "emc": 4
+      "emc": 3
+    },
+    {
+      "item": "supplementaries:flower_box",
+      "emc": 20
     },
     {
       "item": "#chipped:clay",
@@ -341,11 +725,135 @@
       "emc": 1
     },
     {
+      "item": "#chipped:granite",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_andesite",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_andesite_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_andesite_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:polished_cut_andesite",
+      "emc": 1
+    },
+    {
+      "item": "create:polished_cut_andesite_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:polished_cut_andesite_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_andesite_bricks",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_andesite_brick_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_andesite_brick_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:small_andesite_bricks",
+      "emc": 1
+    },
+    {
+      "item": "create:small_andesite_brick_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:small_andesite_brick_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:layered_andesite",
+      "emc": 1
+    },
+    {
+      "item": "create:andesite_pillar",
+      "emc": 1
+    },
+    {
       "item": "minecraft:polished_andesite",
       "emc": 1
     },
     {
+      "item": "absentbydesign:wall_andesite_smooth",
+      "emc": 1
+    },
+    {
       "item": "#chipped:diorite",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_diorite",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_diorite_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_diorite_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:polished_cut_diorite",
+      "emc": 1
+    },
+    {
+      "item": "create:polished_cut_diorite_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:polished_cut_diorite_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_diorite_bricks",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_diorite_brick_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_diorite_brick_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:small_diorite_bricks",
+      "emc": 1
+    },
+    {
+      "item": "create:small_diorite_brick_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:small_diorite_brick_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:layered_diorite",
+      "emc": 1
+    },
+    {
+      "item": "create:diorite_pillar",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:wall_diorite_smooth",
       "emc": 1
     },
     {
@@ -357,19 +865,203 @@
       "emc": 1
     },
     {
+      "item": "create:cut_granite",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_granite_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_granite_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:polished_cut_granite",
+      "emc": 1
+    },
+    {
+      "item": "create:polished_cut_granite_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:polished_cut_granite_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_granite_bricks",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_granite_brick_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_granite_brick_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:small_granite_bricks",
+      "emc": 1
+    },
+    {
+      "item": "create:small_granite_brick_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:small_granite_brick_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:layered_granite",
+      "emc": 1
+    },
+    {
+      "item": "create:granite_pillar",
+      "emc": 1
+    },
+    {
       "item": "minecraft:polished_granite",
       "emc": 1
     },
     {
-      "item": "#chipped:dripstone_block",
-      "emc": 4
+      "item": "absentbydesign:wall_granite_smooth",
+      "emc": 1
     },
     {
-      "item": "create:limestone",
-      "emc": 4
+      "item": "#chipped:dripstone_block",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_dripstone",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_dripstone_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_dripstone_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_dripstone_bricks",
+      "emc": 1
+    },
+    {
+      "item": "create:polished_cut_dripstone",
+      "emc": 1
+    },
+    {
+      "item": "create:polished_cut_dripstone_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:polished_cut_dripstone_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_dripstone_brick_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:cut_dripstone_brick_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:small_dripstone_bricks",
+      "emc": 1
+    },
+    {
+      "item": "create:small_dripstone_brick_stairs",
+      "emc": 1
+    },
+    {
+      "item": "create:small_dripstone_brick_wall",
+      "emc": 1
+    },
+    {
+      "item": "create:layered_dripstone",
+      "emc": 1
+    },
+    {
+      "item": "create:dripstone_pillar",
+      "emc": 1
     },
     {
       "item": "create:asurine",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_asurine",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_asurine_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_asurine_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:cut_asurine_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:polished_cut_asurine",
+      "emc": 4
+    },
+    {
+      "item": "create:polished_cut_asurine_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:polished_cut_asurine_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:polished_cut_asurine_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_asurine_bricks",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_asurine_brick_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_asurine_brick_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:cut_asurine_brick_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:small_asurine_bricks",
+      "emc": 4
+    },
+    {
+      "item": "create:small_asurine_brick_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:small_asurine_brick_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:small_asurine_brick_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:layered_asurine",
+      "emc": 4
+    },
+    {
+      "item": "create:asurine_pillar",
       "emc": 4
     },
     {
@@ -377,7 +1069,379 @@
       "emc": 4
     },
     {
+      "item": "create:cut_crimsite",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_crimsite_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_crimsite_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:cut_crimsite_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:polished_cut_crimsite",
+      "emc": 4
+    },
+    {
+      "item": "create:polished_cut_crimsite_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:polished_cut_crimsite_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:polished_cut_crimsite_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_crimsite_bricks",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_crimsite_brick_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_crimsite_brick_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:cut_crimsite_brick_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:small_crimsite_bricks",
+      "emc": 4
+    },
+    {
+      "item": "create:small_crimsite_brick_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:small_crimsite_brick_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:small_crimsite_brick_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:layered_crimsite",
+      "emc": 4
+    },
+    {
+      "item": "create:crimsite_pillar",
+      "emc": 4
+    },
+    {
+      "item": "create:limestone",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_limestone",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_limestone_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_limestone_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:cut_limestone_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:polished_cut_limestone",
+      "emc": 4
+    },
+    {
+      "item": "create:polished_cut_limestone_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:polished_cut_limestone_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:polished_cut_limestone_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_limestone_bricks",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_limestone_brick_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_limestone_brick_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:cut_limestone_brick_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:small_limestone_bricks",
+      "emc": 4
+    },
+    {
+      "item": "create:small_limestone_brick_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:small_limestone_brick_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:small_limestone_brick_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:layered_limestone",
+      "emc": 4
+    },
+    {
+      "item": "create:limestone_pillar",
+      "emc": 4
+    },
+    {
       "item": "create:ochrum",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_ochrum",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_ochrum_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_ochrum_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:cut_ochrum_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:polished_cut_ochrum",
+      "emc": 4
+    },
+    {
+      "item": "create:polished_cut_ochrum_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:polished_cut_ochrum_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:polished_cut_ochrum_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_ochrum_bricks",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_ochrum_brick_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_ochrum_brick_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:cut_ochrum_brick_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:small_ochrum_bricks",
+      "emc": 4
+    },
+    {
+      "item": "create:small_ochrum_brick_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:small_ochrum_brick_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:small_ochrum_brick_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:layered_ochrum",
+      "emc": 4
+    },
+    {
+      "item": "create:ochrum_pillar",
+      "emc": 4
+    },
+    {
+      "item": "create:scoria",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_scoria",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_scoria_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_scoria_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:cut_scoria_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:polished_cut_scoria",
+      "emc": 4
+    },
+    {
+      "item": "create:polished_cut_scoria_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:polished_cut_scoria_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:polished_cut_scoria_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_scoria_bricks",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_scoria_brick_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_scoria_brick_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:cut_scoria_brick_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:small_scoria_bricks",
+      "emc": 4
+    },
+    {
+      "item": "create:small_scoria_brick_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:small_scoria_brick_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:small_scoria_brick_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:layered_scoria",
+      "emc": 4
+    },
+    {
+      "item": "create:scoria_pillar",
+      "emc": 4
+    },
+    {
+      "item": "create:scorchia",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_scorchia",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_scorchia_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_scorchia_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:cut_scorchia_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:polished_cut_scorchia",
+      "emc": 4
+    },
+    {
+      "item": "create:polished_cut_scorchia_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:polished_cut_scorchia_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:polished_cut_scorchia_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_scorchia_bricks",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_scorchia_brick_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:cut_scorchia_brick_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:cut_scorchia_brick_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:small_scorchia_bricks",
+      "emc": 4
+    },
+    {
+      "item": "create:small_scorchia_brick_stairs",
+      "emc": 4
+    },
+    {
+      "item": "create:small_scorchia_brick_slab",
+      "emc": 2
+    },
+    {
+      "item": "create:small_scorchia_brick_wall",
+      "emc": 4
+    },
+    {
+      "item": "create:layered_scorchia",
+      "emc": 4
+    },
+    {
+      "item": "create:scorchia_pillar",
       "emc": 4
     },
     {
@@ -385,103 +1449,147 @@
       "emc": 4
     },
     {
-      "item": "croptopia:calamari",
-      "emc": 16
+      "item": "create:cut_veridium",
+      "emc": 4
     },
     {
-      "item": "croptopia:cooked_calamari",
-      "emc": 16
+      "item": "create:cut_veridium_stairs",
+      "emc": 4
     },
     {
-      "item": "minecraft:ink_sac",
-      "emc": 16
+      "item": "create:cut_veridium_slab",
+      "emc": 2
     },
     {
-      "item": "minecraft:glow_ink_sac",
-      "emc": 16
+      "item": "create:cut_veridium_wall",
+      "emc": 4
     },
     {
-      "item": "croptopia:glowing_calamari",
-      "emc": 16
+      "item": "create:polished_cut_veridium",
+      "emc": 4
     },
     {
-      "item": "minecraft:spider_eye",
-      "emc": 128
+      "item": "create:polished_cut_veridium_stairs",
+      "emc": 4
     },
     {
-      "item": "#chipped:ochre_froglight",
-      "emc": 256
+      "item": "create:polished_cut_veridium_slab",
+      "emc": 2
     },
     {
-      "item": "#chipped:verdant_froglight",
-      "emc": 256
+      "item": "create:polished_cut_veridium_wall",
+      "emc": 4
     },
     {
-      "item": "#chipped:pearlescent_froglight",
-      "emc": 256
+      "item": "create:cut_veridium_bricks",
+      "emc": 4
     },
     {
-      "item": "minecraft:leather",
-      "emc": 27
+      "item": "create:cut_veridium_brick_stairs",
+      "emc": 4
     },
     {
-      "item": "minecraft:blaze_rod",
-      "emc": 1024
+      "item": "create:cut_veridium_brick_slab",
+      "emc": 2
     },
     {
-      "item": "thermal:basalz_rod",
-      "emc": 1024
+      "item": "create:cut_veridium_brick_wall",
+      "emc": 4
     },
     {
-      "item": "thermal:blitz_rod",
-      "emc": 1024
+      "item": "create:small_veridium_bricks",
+      "emc": 4
     },
     {
-      "item": "thermal:blizz_rod",
-      "emc": 1024
+      "item": "create:small_veridium_brick_stairs",
+      "emc": 4
     },
     {
-      "item": "projecte:transmutation_table",
-      "emc": 260
+      "item": "create:small_veridium_brick_slab",
+      "emc": 2
     },
     {
-      "item": "projecte:repair_talisman",
-      "emc": 490
+      "item": "create:small_veridium_brick_wall",
+      "emc": 4
     },
     {
-      "item": "projecte:divining_rod_1",
-      "emc": 12
+      "item": "create:layered_veridium",
+      "emc": 4
     },
     {
-      "item": "projecte:divining_rod_2",
-      "emc": 76
-    },
-    {
-      "item": "projecte:divining_rod_3",
-      "emc": 1740
-    },
-    {
-      "item": "projecte:low_covalence_dust",
-      "emc": 1
-    },
-    {
-      "item": "projecte:medium_covalence_dust",
-      "emc": 5
-    },
-    {
-      "item": "projecte:high_covalence_dust",
-      "emc": 208
-    },
-    {
-      "item": "minecraft:feather",
-      "emc": 48
-    },
-    {
-      "item": "minecraft:egg",
-      "emc": 16
+      "item": "create:veridium_pillar",
+      "emc": 4
     },
     {
       "item": "#chipped:glass",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_glass",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_glass_white",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_glass_orange",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_glass_purple",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_glass_light_blue",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_glass_yellow",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_glass_lime",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_glass_pink",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_glass_gray",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_glass_light_gray",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_glass_cyan",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_glass_purple",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_glass_blue",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_glass_brown",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_glass_green",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_glass_red",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_glass_black",
       "emc": 1
     },
     {
@@ -503,6 +1611,10 @@
     {
       "item": "create:framed_glass",
       "emc": 1
+    },
+    {
+      "item": "create:framed_glass_trapdoor",
+      "emc": 25
     },
     {
       "item": "create:horizontal_framed_glass",
@@ -530,6 +1642,66 @@
     },
     {
       "item": "xycraft_world:glass_viewer_glowing_clear",
+      "emc": 1
+    },
+    {
+      "item": "#chipped:shroomlight",
+      "emc": 8
+    },
+    {
+      "item": "supplementaries:stone_lamp",
+      "emc": 8
+    },
+    {
+      "item": "supplementaries:blackstone_lamp",
+      "emc": 8
+    },
+    {
+      "item": "supplementaries:deepslate_lamp",
+      "emc": 8
+    },
+    {
+      "item": "supplementaries:end_stone_lamp",
+      "emc": 8
+    },
+    {
+      "item": "create:oak_window",
+      "emc": 12
+    },
+    {
+      "item": "create:spruce_window",
+      "emc": 12
+    },
+    {
+      "item": "create:birch_window",
+      "emc": 12
+    },
+    {
+      "item": "create:jungle_window",
+      "emc": 12
+    },
+    {
+      "item": "create:acacia_window",
+      "emc": 12
+    },
+    {
+      "item": "create:dark_oak_window",
+      "emc": 12
+    },
+    {
+      "item": "create:mangrove_window",
+      "emc": 12
+    },
+    {
+      "item": "create:crimson_window",
+      "emc": 12
+    },
+    {
+      "item": "create:warped_window",
+      "emc": 12
+    },
+    {
+      "item": "create:ornate_iron_window",
       "emc": 1
     },
     {
@@ -626,6 +1798,134 @@
     },
     {
       "item": "#minecraft:wool",
+      "emc": 48
+    },
+    {
+      "item": "absentbydesign:slab_wool_black",
+      "emc": 24
+    },
+    {
+      "item": "absentbydesign:slab_wool_blue",
+      "emc": 24
+    },
+    {
+      "item": "absentbydesign:slab_wool_brown",
+      "emc": 24
+    },
+    {
+      "item": "absentbydesign:slab_wool_cyan",
+      "emc": 24
+    },
+    {
+      "item": "absentbydesign:slab_wool_gray",
+      "emc": 24
+    },
+    {
+      "item": "absentbydesign:slab_wool_green",
+      "emc": 24
+    },
+    {
+      "item": "absentbydesign:slab_wool_light_blue",
+      "emc": 24
+    },
+    {
+      "item": "absentbydesign:slab_wool_lime",
+      "emc": 24
+    },
+    {
+      "item": "absentbydesign:slab_wool_magenta",
+      "emc": 24
+    },
+    {
+      "item": "absentbydesign:slab_wool_orange",
+      "emc": 24
+    },
+    {
+      "item": "absentbydesign:slab_wool_pink",
+      "emc": 24
+    },
+    {
+      "item": "absentbydesign:slab_wool_purple",
+      "emc": 24
+    },
+    {
+      "item": "absentbydesign:slab_wool_red",
+      "emc": 24
+    },
+    {
+      "item": "absentbydesign:slab_wool_silver",
+      "emc": 24
+    },
+    {
+      "item": "absentbydesign:slab_wool_white",
+      "emc": 24
+    },
+    {
+      "item": "absentbydesign:slab_wool_yellow",
+      "emc": 24
+    },
+    {
+      "item": "absentbydesign:stairs_wool_black",
+      "emc": 48
+    },
+    {
+      "item": "absentbydesign:stairs_wool_blue",
+      "emc": 48
+    },
+    {
+      "item": "absentbydesign:stairs_wool_brown",
+      "emc": 48
+    },
+    {
+      "item": "absentbydesign:stairs_wool_cyan",
+      "emc": 48
+    },
+    {
+      "item": "absentbydesign:stairs_wool_gray",
+      "emc": 48
+    },
+    {
+      "item": "absentbydesign:stairs_wool_green",
+      "emc": 48
+    },
+    {
+      "item": "absentbydesign:stairs_wool_light_blue",
+      "emc": 48
+    },
+    {
+      "item": "absentbydesign:stairs_wool_lime",
+      "emc": 48
+    },
+    {
+      "item": "absentbydesign:stairs_wool_magenta",
+      "emc": 48
+    },
+    {
+      "item": "absentbydesign:stairs_wool_orange",
+      "emc": 48
+    },
+    {
+      "item": "absentbydesign:stairs_wool_pink",
+      "emc": 48
+    },
+    {
+      "item": "absentbydesign:stairs_wool_purple",
+      "emc": 48
+    },
+    {
+      "item": "absentbydesign:stairs_wool_red",
+      "emc": 48
+    },
+    {
+      "item": "absentbydesign:stairs_wool_silver",
+      "emc": 48
+    },
+    {
+      "item": "absentbydesign:stairs_wool_white",
+      "emc": 48
+    },
+    {
+      "item": "absentbydesign:stairs_wool_yellow",
       "emc": 48
     },
     {
@@ -829,6 +2129,70 @@
       "emc": 1
     },
     {
+      "item": "absentbydesign:stairs_concrete_black",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_concrete_blue",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_concrete_brown",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_concrete_cyan",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_concrete_gray",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_concrete_green",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_concrete_light_blue",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_concrete_lime",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_concrete_magenta",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_concrete_orange",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_concrete_pink",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_concrete_purple",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_concrete_red",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_concrete_silver",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_concrete_white",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:stairs_concrete_yellow",
+      "emc": 1
+    },
+    {
       "item": "#minecraft:leaves",
       "emc": 1
     },
@@ -837,11 +2201,39 @@
       "emc": 8
     },
     {
+      "item": "supplementaries:notice_board",
+      "emc": 64
+    },
+    {
+      "item": "supplementaries:clock_block",
+      "emc": 64
+    },
+    {
+      "item": "supplementaries:pulley_block",
+      "emc": 56
+    },
+    {
+      "item": "supplementaries:speaker_block",
+      "emc": 64
+    },
+    {
       "item": "#minecraft:wooden_slabs",
       "emc": 4
     },
     {
       "item": "#minecraft:wooden_stairs",
+      "emc": 8
+    },
+    {
+      "item": "#minecraft:signs",
+      "emc": 16
+    },
+    {
+      "item": "#minecraft:hanging_signs",
+      "emc": 32
+    },
+    {
+      "item": "#supplementaries:sign_posts",
       "emc": 8
     },
     {
@@ -853,11 +2245,67 @@
       "emc": 24
     },
     {
+      "item": "#chipped:acacia_trapdoor",
+      "emc": 24
+    },
+    {
+      "item": "#chipped:birch_trapdoor",
+      "emc": 24
+    },
+    {
+      "item": "#chipped:dark_oak_trapdoor",
+      "emc": 24
+    },
+    {
+      "item": "#chipped:jungle_trapdoor",
+      "emc": 24
+    },
+    {
+      "item": "#chipped:mangrove_trapdoor",
+      "emc": 24
+    },
+    {
+      "item": "#chipped:oak_trapdoor",
+      "emc": 24
+    },
+    {
+      "item": "#chipped:spruce_trapdoor",
+      "emc": 24
+    },
+    {
+      "item": "#chipped:crimson_trapdoor",
+      "emc": 24
+    },
+    {
+      "item": "#chipped:warped_trapdoor",
+      "emc": 24
+    },
+    {
+      "item": "#chipped:cherry_trapdoor",
+      "emc": 24
+    },
+    {
+      "item": "#chipped:bamboo_trapdoor",
+      "emc": 24
+    },
+    {
+      "item": "thermal:rubberwood_trapdoor",
+      "emc": 24
+    },
+    {
       "item": "#minecraft:wooden_buttons",
       "emc": 8
     },
     {
+      "item": "thermal:rubberwood_pressure_plate",
+      "emc": 24
+    },
+    {
       "item": "#minecraft:wooden_pressure_plates",
+      "emc": 4
+    },
+    {
+      "item": "thermal:rubberwood_pressure_plate",
       "emc": 4
     },
     {
@@ -869,12 +2317,184 @@
       "emc": 8
     },
     {
+      "item": "absentbydesign:fence_log_acacia",
+      "emc": 20
+    },
+    {
+      "item": "absentbydesign:fence_log_birch",
+      "emc": 20
+    },
+    {
+      "item": "absentbydesign:fence_log_darkoak",
+      "emc": 20
+    },
+    {
+      "item": "absentbydesign:fence_log_jungle",
+      "emc": 20
+    },
+    {
+      "item": "absentbydesign:fence_log_oak",
+      "emc": 20
+    },
+    {
+      "item": "absentbydesign:fence_log_spruce",
+      "emc": 20
+    },
+    {
+      "item": "absentbydesign:fencecrimson",
+      "emc": 20
+    },
+    {
+      "item": "absentbydesign:fence_warped",
+      "emc": 20
+    },
+    {
+      "item": "absentbydesign:fence_mangrove",
+      "emc": 20
+    },
+    {
+      "item": "absentbydesign:fence_cherry",
+      "emc": 20
+    },
+    {
+      "item": "absentbydesign:fence_red_netherbrick",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:fence_obsidian",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:fence_quartz",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:gate_bricks",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:gate_prismarine_brick",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:wall_prismarine_brick",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:wall_dark_prismarine",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:slab_obsidian",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:slab_crying_obsidian",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:slab_end_stone",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:slab_netherrack",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:slab_snow",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:slab_coarse_dirt",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:slab_lodestone",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:slab_quartz_bricks",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:slab_glowstone",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:slab_sea_lantern",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:slab_magma",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:slab_amethyst",
+      "emc": 1
+    },
+    {
+      "item": "absentbydesign:slab_cracked_nether_bricks",
+      "emc": 1
+    },
+    {
       "item": "minecraft:bamboo_mosaic",
       "emc": 8
     },
     {
       "item": "#minecraft:logs",
       "emc": 32
+    },
+    {
+      "item": "supplementaries:gold_door",
+      "emc": 1
+    },
+    {
+      "item": "supplementaries:gold_trapdoor",
+      "emc": 1
+    },
+    {
+      "item": "supplementaries:netherite_door",
+      "emc": 1
+    },
+    {
+      "item": "supplementaries:netherite_trapdoor",
+      "emc": 1
+    },
+    {
+      "item": "supplementaries:iron_gate",
+      "emc": 1
+    },
+    {
+      "item": "supplementaries:lapis_bricks_stairs",
+      "emc": 1
+    },
+    {
+      "item": "supplementaries:lapis_bricks_slab",
+      "emc": 1
+    },
+    {
+      "item": "supplementaries:lapis_bricks_wall",
+      "emc": 1
+    },
+    {
+      "item": "supplementaries:daub",
+      "emc": 1
+    },
+    {
+      "item": "supplementaries:daub_frame",
+      "emc": 1
+    },
+    {
+      "item": "supplementaries:daub_brace",
+      "emc": 1
+    },
+    {
+      "item": "supplementaries:daub_cross_brace",
+      "emc": 1
+    },
+    {
+      "item": "supplementaries:cog_block",
+      "emc": 1
     },
     {
       "item": "mcwfences:acacia_hedge",
