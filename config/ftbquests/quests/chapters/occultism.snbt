@@ -168,7 +168,6 @@
 		}
 		{
 			height: 3.0d
-			hover: ["{atm9.quest.occultism.berserker}"]
 			image: "occultism:textures/gui/book/familiar_beholder.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -177,7 +176,6 @@
 		}
 		{
 			height: 3.0d
-			hover: ["{atm9.quest.occultism.headlessRatman}"]
 			image: "occultism:textures/gui/book/familiar_headless_ratman.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -234,11 +232,11 @@
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
-			x: 6.0d
-			y: 5.5d
+			x: 7.0d
+			y: 4.5d
 		}
 	]
-	order_index: 6
+	order_index: 7
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -903,20 +901,16 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["5316DF321B45D2CA"]
 			description: [
 				"{atm9.quest.occultism.desc.findIesnium.1}"
 				""
 				"{atm9.quest.occultism.desc.findIesnium.2}"
 				""
-				"{atm9.quest.occultism.desc.findIesnium.3}"
-				""
-				"{atm9.quest.occultism.desc.findIesnium.4}"
-				""
-				"{atm9.quest.occultism.desc.findIesnium.5}"
-				""
 				"{image:atm:textures/questpics/occultism/iesniumexample.png width:200 height:175 align:1}"
 			]
-			icon: "occultism:iesnium_ore"
+			hide_dependency_lines: true
+			icon: "occultism:iesnium_ingot"
 			id: "33106E24A3B5DDD8"
 			min_width: 450
 			rewards: [{
@@ -926,7 +920,7 @@
 			}]
 			tasks: [{
 				id: "2C341B16967645C9"
-				item: "occultism:iesnium_ore"
+				item: "occultism:raw_iesnium"
 				type: "item"
 			}]
 			title: "{atm9.quest.occultism.iesniumOreOtherworld}"
