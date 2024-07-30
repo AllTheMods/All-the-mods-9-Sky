@@ -212,16 +212,16 @@
 			image: "minecraft:item/nether_star"
 			rotation: 0.0d
 			width: 3.0d
-			x: 35.5d
-			y: 6.5d
+			x: 32.5d
+			y: 8.0d
 		}
 		{
 			height: 3.0d
 			image: "allthemodium:item/allthemodium_ingot"
 			rotation: 0.0d
 			width: 3.0d
-			x: 30.5d
-			y: 9.5d
+			x: 36.0d
+			y: 6.0d
 		}
 		{
 			height: 4.0d
@@ -260,7 +260,7 @@
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 8.0d
-			x: 5.0d
+			x: 7.5d
 			y: 15.0d
 		}
 		{
@@ -300,8 +300,8 @@
 			image: "atm:textures/questpics/netherstarex.png"
 			rotation: 0.0d
 			width: 3.25d
-			x: 34.5d
-			y: 10.0d
+			x: 35.0d
+			y: 9.0d
 		}
 		{
 			height: 1.0d
@@ -1306,7 +1306,7 @@
 				item: "mysticalagriculture:nether_star_seeds"
 				type: "item"
 			}]
-			x: 33.5d
+			x: 32.5d
 			y: 4.5d
 		}
 		{
@@ -1317,7 +1317,7 @@
 				item: "mysticalagriculture:allthemodium_seeds"
 				type: "item"
 			}]
-			x: 32.5d
+			x: 33.5d
 			y: 4.5d
 		}
 		{
@@ -1341,7 +1341,7 @@
 				item: "mysticalagradditions:nether_star_crux"
 				type: "item"
 			}]
-			x: 33.5d
+			x: 32.5d
 			y: 6.0d
 		}
 		{
@@ -1353,7 +1353,7 @@
 				item: "kubejs:magical_soil"
 				type: "item"
 			}]
-			x: 32.5d
+			x: 33.5d
 			y: 6.0d
 		}
 		{
@@ -1637,8 +1637,8 @@
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.ma.build}"
-			x: 16.0d
-			y: -10.0d
+			x: 16.25d
+			y: -9.8d
 		}
 		{
 			dependencies: ["2C1C3D6508D87B60"]
@@ -1653,18 +1653,6 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["2857F2DB4E116B38"]
-			description: ["{atm9.quest.ma.desc.pulverizethis}"]
-			id: "68E23DF926FECCDF"
-			tasks: [{
-				id: "224AFFE2C9E2DCF3"
-				item: "minecraft:sandstone"
-				type: "item"
-			}]
-			x: 30.0d
-			y: 15.0d
-		}
-		{
 			dependencies: ["54735C5FCD2077B3"]
 			hide_dependency_lines: true
 			id: "62024135557CF54A"
@@ -1673,38 +1661,38 @@
 				item: "thermal:apatite"
 				type: "item"
 			}]
-			x: 29.0d
+			x: 27.0d
 			y: 17.0d
 		}
 		{
-			dependencies: ["68E23DF926FECCDF"]
-			description: ["{atm9.quest.ma.desc.pulverizethis}"]
+			dependencies: ["2857F2DB4E116B38"]
+			description: ["{atm9.quest.ma.desc.niter}"]
 			id: "16EB16E5597D0B92"
 			tasks: [{
 				id: "4594A46B4FFB9EC8"
 				item: "thermal:niter"
 				type: "item"
 			}]
-			x: 29.0d
+			x: 30.0d
 			y: 15.0d
 		}
 		{
 			dependencies: ["16EB16E5597D0B92"]
-			description: ["{atm9.quest.ma.desc.niterd}"]
+			description: ["{atm9.quest.ma.desc.niterDust}"]
 			id: "387CA6CAF1FBDFD9"
 			tasks: [{
 				id: "4652BCC79E29125E"
 				item: "thermal:niter_dust"
 				type: "item"
 			}]
-			x: 28.0d
+			x: 29.0d
 			y: 15.0d
 		}
 		{
-			dependencies: ["48161279D3FD1774"]
+			dependencies: ["504763273F270850"]
 			description: ["{atm9.quest.ma.desc.sand}"]
-			hide_dependency_lines: true
 			id: "22F7391954E92AE6"
+			optional: true
 			tasks: [
 				{
 					id: "79E54D497E89E26D"
@@ -1717,25 +1705,26 @@
 					type: "item"
 				}
 			]
-			x: 29.0d
+			x: 29.5d
 			y: 13.0d
 		}
 		{
-			dependencies: ["22F7391954E92AE6"]
+			dependencies: ["54735C5FCD2077B3"]
+			hide_dependency_lines: true
 			id: "504763273F270850"
 			tasks: [{
 				id: "4B85ACFC88164B37"
 				item: "minecraft:sand"
 				type: "item"
 			}]
-			x: 26.5d
+			x: 27.0d
 			y: 13.0d
 		}
 		{
 			dependencies: [
-				"25983BA39C977CF4"
 				"504763273F270850"
-				"6D55AC9D291EB5D6"
+				"387CA6CAF1FBDFD9"
+				"62024135557CF54A"
 			]
 			description: ["{atm9.quest.ma.desc.phytogro}"]
 			id: "22959F35C12B382E"
@@ -1745,7 +1734,7 @@
 				item: "thermal:phytogro"
 				type: "item"
 			}]
-			x: 23.5d
+			x: 24.0d
 			y: 15.0d
 		}
 		{
@@ -1766,7 +1755,7 @@
 				}
 			]
 			title: "{atm9.quest.ma.Upgrades}"
-			x: 19.0d
+			x: 20.0d
 			y: 15.0d
 		}
 		{
@@ -1778,7 +1767,7 @@
 				item: "ae2:interface"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 18.0d
 			y: 16.5d
 		}
 		{
@@ -1791,7 +1780,7 @@
 				item: "cookingforblockheads:sink"
 				type: "item"
 			}]
-			x: 21.0d
+			x: 22.0d
 			y: 15.0d
 		}
 		{
@@ -1814,7 +1803,7 @@
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.ma.build}"
-			x: 12.0d
+			x: 13.5d
 			y: 15.0d
 		}
 		{
@@ -1844,41 +1833,44 @@
 				}
 			]
 			title: "{atm9.quest.ma.subt.phytoultra}"
-			x: 5.0d
+			x: 7.5d
 			y: 15.0d
 		}
 		{
 			dependencies: ["62024135557CF54A"]
 			id: "25983BA39C977CF4"
+			optional: true
 			tasks: [{
 				id: "29228B2E6AB7D393"
 				item: "mysticalagriculture:apatite_seeds"
 				type: "item"
 			}]
-			x: 26.5d
+			x: 29.5d
 			y: 17.0d
 		}
 		{
 			dependencies: ["387CA6CAF1FBDFD9"]
 			description: ["{atm9.quest.ma.desc.saltpseeds}"]
 			id: "1414277E03E877EE"
+			optional: true
 			tasks: [{
 				id: "6C94EF4E1AA9F987"
 				item: "mysticalagriculture:saltpeter_seeds"
 				type: "item"
 			}]
-			x: 27.0d
+			x: 28.0d
 			y: 15.0d
 		}
 		{
 			dependencies: ["1414277E03E877EE"]
 			id: "6D55AC9D291EB5D6"
+			optional: true
 			tasks: [{
 				id: "7B2C27711954E1FF"
 				item: "chemlib:potassium_nitrate_dust"
 				type: "item"
 			}]
-			x: 26.0d
+			x: 27.0d
 			y: 15.0d
 		}
 		{
@@ -1894,7 +1886,7 @@
 				item: "thermal:machine_cycle_augment"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 17.5d
 			y: 15.0d
 		}
 		{
@@ -2211,7 +2203,7 @@
 				item: "sfm:manager"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 18.0d
 			y: 13.5d
 		}
 		{
