@@ -228,15 +228,15 @@
 			image: "minecraft:particle/vibration"
 			rotation: 0.0d
 			width: 4.0d
-			x: 5.0d
-			y: 13.0d
+			x: 7.5d
+			y: 12.0d
 		}
 		{
 			height: 4.0d
 			image: "minecraft:particle/vibration"
 			rotation: 90.0d
 			width: 4.0d
-			x: 7.0d
+			x: 10.0d
 			y: 15.0d
 		}
 		{
@@ -244,15 +244,15 @@
 			image: "minecraft:particle/vibration"
 			rotation: 180.0d
 			width: 4.0d
-			x: 5.0d
-			y: 17.0d
+			x: 7.5d
+			y: 18.0d
 		}
 		{
 			height: 4.0d
 			image: "minecraft:particle/vibration"
 			rotation: -90.0d
 			width: 4.0d
-			x: 3.0d
+			x: 4.5d
 			y: 15.0d
 		}
 		{
@@ -276,8 +276,8 @@
 			image: "ae2:block/controller_lights"
 			rotation: 0.0d
 			width: 2.0d
-			x: 17.0d
-			y: 18.5d
+			x: 17.5d
+			y: 18.0d
 		}
 		{
 			height: 2.0d
@@ -1767,7 +1767,7 @@
 				item: "ae2:interface"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 17.5d
 			y: 16.5d
 		}
 		{
@@ -2203,7 +2203,7 @@
 				item: "sfm:manager"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 17.5d
 			y: 13.5d
 		}
 		{
