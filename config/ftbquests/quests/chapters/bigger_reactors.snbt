@@ -39,15 +39,15 @@
 			y: 3.5d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"Based off the original mod &eBig Reactors&r, this mod aims to provide fun and engaging power systems by making customizable multi-block reactors."
+				"{atm9.quest.biggerR.desc.welcome.1}"
 				""
-				"The main element is of course, Uranium (which you can get from sieving Deepslate). You'll need this and a lot of coal and iron to get building. "
+				"{atm9.quest.biggerR.desc.welcome.2}"
 			]
 			id: "7C4E4793DA887DE4"
 			rewards: [
@@ -71,17 +71,13 @@
 				item: "alltheores:uranium_ingot"
 				type: "item"
 			}]
-			title: "Welcome to &9Bigger Reactors&r!"
+			title: "{atm9.quest.biggerR.welcome}"
 			x: -5.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["7C4E4793DA887DE4"]
-			description: [
-				"Before we can start building our reactor, we'll need to smelt some coal (or charcoal) to create &9Graphite Ingots&r."
-				""
-				"Graphite, coupled with Iron, is one of the main materials when making a Reactor."
-			]
+			description: ["{atm9.quest.biggerR.desc.graphite}"]
 			hide: true
 			id: "4FA6BEA4E646B742"
 			rewards: [
@@ -97,29 +93,25 @@
 					type: "random"
 				}
 			]
-			subtitle: "Hardened Carbon"
+			subtitle: "{atm9.quest.biggerR.subt.graphite}"
 			tasks: [{
 				count: 16L
 				id: "4B83A0D1C2C3C226"
 				item: "biggerreactors:graphite_ingot"
 				type: "item"
 			}]
-			title: "Graphite for Casings"
+			title: "{atm9.quest.biggerR.graphite}"
 			x: -5.5d
 			y: 2.5d
 		}
 		{
-			dependencies: ["75AD0CEBC1335915"]
+			dependencies: [
+				"75AD0CEBC1335915"
+				"2A20000FAEC2E16A"
+				"7B4AAC741F0A6073"
+			]
 			description: [
-				"We're going to build the smallest passive reactor possible, the &93x3x3&r. The requirements for the quest are the exact amounts for what you need to build one."
-				""
-				"To build this, you start by building a 3x3x3 frame made out of Casings. On the bottom wall, you can use glass or a casing to fill it in. You'll want each wall to have a &9reactor component&r, like a power tap or access port."
-				""
-				"Every reactor you build will require exactly 1 &6Reactor Terminal&r, which is usually put in the middle of the front wall. Next, we'll place 1 &aControl Rod&r in the middle of the top, and 1 &eReactor Fuel Rod&r underneath it, meaning in the middle of your reactor."
-				""
-				"You will need a way to input and output waste, which is done by using &9Reactor Access Ports&r. For this build, place one on the left side and one on the right."
-				""
-				"To extract power, we'll place the &cPower Tap&r on the middle of the back wall. Once placed, the reactor should complete!"
+				"{atm9.quest.biggerR.desc.reactor}"
 				""
 				"{image:atm:textures/questpics/biggerreactors/3x3_reactor.png width:150 height:150 align:1}"
 			]
@@ -161,7 +153,7 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Learning the Basics"
+			subtitle: "{atm9.quest.biggerR.subt.reactor}"
 			tasks: [
 				{
 					count: 21L
@@ -196,17 +188,14 @@
 					type: "item"
 				}
 			]
-			title: "&dOur First Passive Reactor"
+			title: "{atm9.quest.biggerR.reactor}"
 			x: -0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["4FA6BEA4E646B742"]
-			description: [
-				"To build a reactor, you'll need to start by making &6Reactor Casings&r."
-				""
-				"These make up the frame and walls of your reactor, although the walls can be replaced by &9Reactor Glass&r if you'd like to see inside of your reactor."
-			]
+			description: ["{atm9.quest.biggerR.desc.components}"]
+			icon: "biggerreactors:reactor_casing"
 			id: "4B9E9497E44D0096"
 			rewards: [
 				{
@@ -237,19 +226,13 @@
 					type: "item"
 				}
 			]
-			title: "Reactor Building Components"
+			title: "{atm9.quest.biggerR.components}"
 			x: -5.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["4B9E9497E44D0096"]
-			description: [
-				"To extract power or items from your reactor, or even input fuel, you'll need these &crequired&r items."
-				""
-				"The &cPower Tap&r provides a way for you to \"tap\" into the power that a &9passive&r reactor makes. You can attach pipes and cables to extract the power from it."
-				""
-				"The &aAccess Ports&r are required for every reactor, and allows you to both input fuel (Uranium) from the reactor, or extract waste (Cyanite). While it only requires one, it's usually a good idea to have 2 per reactor. If the inventory can push &land&r pull (i.e. hopper), Cyanite will be pushed into the inventory as an input."
-			]
+			description: ["{atm9.quest.biggerR.desc.interacting}"]
 			id: "2A20000FAEC2E16A"
 			rewards: [
 				{
@@ -278,18 +261,14 @@
 					type: "item"
 				}
 			]
-			title: "Interacting with the Reactor"
+			title: "{atm9.quest.biggerR.interacting}"
 			x: -3.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["4B9E9497E44D0096"]
 			description: [
-				"The &dReactor Terminal&r is the heart of the reactor. When a reactor is formed, you can right-click the terminal to open up the reactor interface."
-				""
-				"Depending on if it is a &9Passive&r or an &eActive&r reactor, the interface will change. Passive reactors are used to produce power directly by burning fuel. Active Reactors burn fuel to create heat to power Turbines for power generation."
-				""
-				"In the interface of a passive reactor, you can see and toggle the status and waste ejection. You'll also see the temps, how much RF/t the reactor is producing, and how much fuel the reactor is burning per tick."
+				"{atm9.quest.biggerR.desc.terminal}"
 				""
 				"{image:atm:textures/questpics/biggerreactors/reactor_passive.png width:200 height:175 align:1}"
 			]
@@ -316,7 +295,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "The Heart of the Reactor"
+			subtitle: "{atm9.quest.biggerR.subt.terminal}"
 			tasks: [{
 				id: "62A0FE4CFAB9621B"
 				item: "biggerreactors:reactor_terminal"
@@ -327,15 +306,7 @@
 		}
 		{
 			dependencies: ["4B9E9497E44D0096"]
-			description: [
-				"Every reactor needs &9Reactor Control Rods&r and &9Fuel Rods&r. These control how fuel is inserted into the reactor."
-				""
-				"The Control Rods are placed on the top of the reactor. You can also have more than one per reactor, but you must have at least 1. Typically, the more you have, the more fuel the reactor can use and burn. That can mean more overall power, but at the cost of higher burn rates depending on the setup of your reactor."
-				""
-				"For every Control Rod, you'll need enough Fuel Rods to extend to the base of the reactor. For example, if your reactor is 5 blocks tall, you'll need 3 Fuel Rods extending from each Control Rod."
-				""
-				"If you right-click on a Control Rod, you can control how much fuel is burned in the reactor by inserting or retracting the fuel rods. The further that you extend the rods, the less fuel that will be burned."
-			]
+			description: ["{atm9.quest.biggerR.desc.rods}"]
 			id: "7B4AAC741F0A6073"
 			min_width: 300
 			rewards: [
@@ -370,19 +341,13 @@
 					type: "item"
 				}
 			]
-			title: "Reactor Control Rods"
+			title: "{atm9.quest.biggerRc.rods}"
 			x: -3.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["4B9E9497E44D0096"]
-			description: [
-				"There are several optional blocks you can make to control your reactor."
-				""
-				"The &cRedstone Port&r allows you to control your reactor with redstone. This means levers, buttons, etc."
-				""
-				"The &9Computer Port&r allows for control of the reactor using Lua scripts from mods like &eComputerCraft&r."
-			]
+			description: ["{atm9.quest.biggerR.desc.control}"]
 			id: "0EF58EA4D6568E0C"
 			optional: true
 			rewards: [
@@ -400,6 +365,7 @@
 				}
 			]
 			shape: "diamond"
+			subtitle: "{atm9.quest.biggerR.subt.control}"
 			tasks: [
 				{
 					id: "079E5060492EC3F3"
@@ -412,16 +378,14 @@
 					type: "item"
 				}
 			]
-			title: "Reactor Control Components"
+			title: "{atm9.quest.biggerR.control}"
 			x: -5.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["4AD8363D7359A072"]
 			description: [
-				"To insert fuel into the reactor, you'll need to pick one of the sides that has a &9Reactor Access Port&r and pump in &eUranium&r from an inventory."
-				""
-				"The easiest way to do this is to use something like a &aStorage Drawer&r or even just a &aChest&r with an &9Item Pipe&r connected at the top, like the image shown below."
+				"{atm9.quest.biggerR.desc.fuel}"
 				""
 				"{image:atm:textures/questpics/biggerreactors/storage_example.png width:150 height:150 align:1}"
 			]
@@ -446,17 +410,13 @@
 				item: "alltheores:uranium_ingot"
 				type: "item"
 			}]
-			title: "Fueling our Passive Reactor"
+			title: "{atm9.quest.biggerR.fuel}"
 			x: 1.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["4AD8363D7359A072"]
-			description: [
-				"Just as you'll need to pump in Fuel, burning Uranium creates a byproduct of &9Cyanite&r as a waste."
-				""
-				"Note: &eCyanite Dust&r is craftable. "
-			]
+			description: ["{atm9.quest.biggerR.desc.waste}"]
 			hide: true
 			id: "4745152F6FF242B3"
 			rewards: [
@@ -470,28 +430,25 @@
 				{
 					id: "3C59017024A58441"
 					type: "xp"
-					xp: 50
+					xp: 100
 				}
 			]
-			subtitle: "Waste Not Want Not or something...."
+			subtitle: "{atm9.quest.biggerR.subt.waste}"
 			tasks: [{
 				count: 4L
 				id: "77F79D09A76CFF15"
 				item: "biggerreactors:cyanite_ingot"
 				type: "item"
 			}]
-			title: "Dealing with Waste"
+			title: "{atm9.quest.biggerR.waste}"
 			x: -0.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["4745152F6FF242B3"]
-			description: [
-				"That waste is actually rather useful! Making a &9Cyanite Reprocessor&r allows you to convert &e2 Cyanite Ingots&r into &dBlutonium&r. The Reprocessor will also need water to complete the conversion. "
-				""
-				"Blutonium is used in several crafting recipes, but can also be used in a reactor for fuel, just like Uranium."
-			]
+			description: ["{atm9.quest.biggerR.desc.reprocessingWaste}"]
 			hide: true
+			icon: "biggerreactors:blutonium_ingot"
 			id: "354086C858E10154"
 			rewards: [
 				{
@@ -518,17 +475,13 @@
 					type: "item"
 				}
 			]
-			title: "Reprocessing our Waste"
+			title: "{atm9.quest.biggerR.reprocessingWaste}"
 			x: -0.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["354086C858E10154"]
-			description: [
-				"We now have a way to create &5Ludicrite Blocks&r. "
-				""
-				"These are rather expensive to make, but they serve as great &9Moderators&r for reactors, as well as breaking down into Ingots to craft a component of the &cHeat Exchanger&r."
-			]
+			description: ["{atm9.quest.biggerR.desc.ludicrite}"]
 			id: "2DF6657DB4950B79"
 			rewards: [
 				{
@@ -550,23 +503,20 @@
 					type: "random"
 				}
 			]
-			subtitle: "Don't judge these bad jokes."
+			subtitle: "{atm9.quest.biggerR.subt.ludicrite}"
 			tasks: [{
 				id: "6BFA36E89207A86C"
 				item: "biggerreactors:ludicrite_block"
 				type: "item"
 			}]
-			title: "That's just Ludicrite!"
+			title: "{atm9.quest.biggerR.ludicrite}"
 			x: 1.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["354086C858E10154"]
-			description: [
-				"Now that we have Blutonium, we can create the heart of the Turbine, the &9Turbine Terminal&r."
-				""
-				"Turbines are multi-block structures, just like Reactors! They input heated liquids like &7Steam&r made by &dActive&r Reactors to create TONS of power! We'll need a few other pieces to be able to build our first one."
-			]
+			description: ["{atm9.quest.biggerR.desc.makingTurbines}"]
+			icon: "biggerreactors:turbine_terminal"
 			id: "4415C9F8DA2D7E68"
 			rewards: [
 				{
@@ -602,25 +552,25 @@
 					type: "item"
 				}
 			]
-			title: "Making Turbines"
+			title: "{atm9.quest.biggerR.makingTurbines}"
 			x: -0.5d
 			y: 10.0d
 		}
 		{
 			dependencies: ["4AD8363D7359A072"]
 			description: [
-				"Reactor &9Moderators&r are materials placed inside of a reactor to change how it performs, based on the properties of the moderator. These are placed &linside&r of the reactor during construction."
+				"{atm9.quest.biggerR.desc.moderators.1}"
 				""
-				"There are 4 properties of a Moderator:"
+				"{atm9.quest.biggerR.desc.moderatorsA}"
+				"{atm9.quest.biggerR.desc.moderatorsE}"
+				"{atm9.quest.biggerR.desc.moderatorsM}"
+				"{atm9.quest.biggerR.desc.moderatorsC}"
 				""
-				"- Absorption: The speed at which radiation is absorbed and converted to case heat"
-				"- Efficiency: How efficiently absorbed radiation is converted into heat."
-				"- Moderation: The effectiveness at which radiation is moderated."
-				"- Conductivity: How well heat is transferred from the fuel rods to the reactor casing."
+				"{atm9.quest.biggerR.desc.moderators.2}"
 				""
-				"Typically, the rarer the material is, the better of a Moderator it is. In the ATM series, &dUnobtainium Blocks&r are considered one of the best moderators."
+				"{atm9.quest.biggerR.desc.moderators.3}"
 				""
-				"Adding these inside of your reactor can increase the overall performance and output of your reactor. Try using diamond blocks in the early game!"
+				"{atm9.quest.biggerR.desc.moderatorList}"
 			]
 			id: "73362EDC984B8A0F"
 			min_width: 300
@@ -637,31 +587,27 @@
 					type: "loot"
 				}
 			]
-			subtitle: "They are Moderators, not Coolants."
+			subtitle: "{atm9.quest.biggerR.subt.moderators}"
 			tasks: [{
 				count: 3L
 				id: "3B3C22507E3FBACC"
 				item: "minecraft:diamond_block"
 				type: "item"
 			}]
-			title: "Reactor Moderators"
+			title: "{atm9.quest.biggerR.moderators}"
 			x: 1.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
-			description: [
-				"When a reactor is Passive, it just burns fuel directly into power. When you add a &dReactor Coolant Port&r to one of the reactor's walls, it converts the reactor to an Active reactor, which will instead burn fuel to heat fluids, like water into &9Steam&r. You cannot have a &cPower Tap&r and a Coolant Port on the same reactor. "
-				""
-				"Once placed, it will also convert the reactor's interface, showing more information about your reactor. You will now have a tank for the coolant, a tank for the exhaust, and can see the &9Exhaust Generation Rate&r. For example: If you're pumping in water, this will be the steam output."
-			]
+			description: ["{atm9.quest.biggerR.desc.converting}"]
 			id: "476755275B948A5F"
 			min_width: 300
 			rewards: [
 				{
 					id: "450F59D9CB0FEF7A"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
@@ -670,30 +616,20 @@
 					type: "random"
 				}
 			]
-			subtitle: "To Make Steam!!"
+			subtitle: "{atm9.quest.biggerR.subt.converting}"
 			tasks: [{
 				count: 2L
 				id: "3A1B16362F885F1F"
 				item: "biggerreactors:reactor_coolant_port"
 				type: "item"
 			}]
-			title: "Converting our \"Passive\" Reactor"
+			title: "{atm9.quest.biggerR.coverting}"
 			x: 1.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["4AD8363D7359A072"]
-			description: [
-				"Reactors are multi-block structures, meaning you can create your own custom size!"
-				""
-				"The &lBiggest&r Reactor that you can make is 128x128x192. There are a lot of variables that contribute to the overall output of a reactor, so make sure to experiment!"
-				""
-				"Some overall tips:"
-				""
-				"The taller the reactor, the more fuel it can hold and burn because there are more fuel rods, meaning more overall power. This also means a higher &9burn rate&r."
-				""
-				"The wider the reactor, the more efficient it is, as long as you don't add more fuel rods to the design. This means less consumption overall."
-			]
+			description: ["{atm9.quest.biggerR.desc.expanding}"]
 			id: "3F9D553C9FA64F2A"
 			min_width: 300
 			rewards: [
@@ -715,21 +651,13 @@
 				item: "biggerreactors:reactor_casing"
 				type: "item"
 			}]
-			title: "Expanding Our Reactors"
+			title: "{atm9.quest.biggerR.expanding}"
 			x: 1.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
-			description: [
-				"To interact with our Turbine, we'll need several &6Ports&r."
-				""
-				"The &9Fluid Port&r is used to insert heated liquid like steam, or extract exhaust, like water. Steam does get condensed back into water, so it's good to have 2 of these for your Turbine: One to input Steam, and one to output Water back into the reactor."
-				""
-				"The &cPower Tap&r extracts power, and is required for us to get power from the turbine."
-				""
-				"You can also make a &eComputer Port&r, but it is completely optional. It allows you to interact with the Turbine with ComputerCraft using scripts."
-			]
+			description: ["{atm9.quest.biggerR.desc.ports}"]
 			id: "186731580B14F9D2"
 			rewards: [
 				{
@@ -742,7 +670,7 @@
 				{
 					id: "7BC028EFCCFAF39A"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -758,25 +686,18 @@
 					type: "item"
 				}
 			]
-			title: "Turbine Ports"
+			title: "{atm9.quest.biggerR.ports}"
 			x: -3.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
-				"To get a Turbine spinning, we'll need these &crequired&r components:"
-				""
-				"- &9Rotor Bearings&r are placed at each end of the shaft of the turbine. While the shaft technically does not have to be centered in the turbine, it's generally the optimal place for it. You will need exactly 2 per Turbine, one at the top and one at the base."
-				""
-				"- &eRotor Shafts&r extend from one Rotor Bearing to the other, creating the shaft for the Turbine. The shaft can be vertical or horizontal."
-				""
-				"- &9Rotor Blades&r make the rotor spin. These are placed onto the Rotor Shafts and can be multiple blocks in length."
-				""
-				"Here is an example of a Horizontal Shaft setup for a Turbine, with the Turbine Coil of Gold on the right side."
+				"{atm9.quest.biggerR.desc.shaft}"
 				""
 				"{image:atm:textures/questpics/biggerreactors/turbine_horizontal_shaft.png width:200 height:125 align:1}"
 			]
+			icon: "biggerreactors:turbine_rotor_shaft"
 			id: "67AFCBCE7AAC3089"
 			min_width: 300
 			rewards: [
@@ -796,7 +717,7 @@
 				{
 					id: "433D5587FE499E95"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -820,16 +741,16 @@
 					type: "item"
 				}
 			]
-			title: "Creating The Turbine Shaft"
+			title: "{atm9.quest.biggerR.shaft}"
 			x: -4.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
-				"&dTurbine Coils&r are blocks placed around a shaft at one end of a Turbine. These are required to generate power from the turbine."
+				"{atm9.quest.biggerR.desc.coils}"
 				""
-				"This quest requires at least one of the acceptable blocks you can use as coils."
+				"{atm9.quest.biggerR.desc.coilList}"
 				""
 				"{image:atm:textures/questpics/biggerreactors/turbine_coil.png width:150 height:100 align:1}"
 			]
@@ -917,7 +838,7 @@
 				title: "Turbine Coils"
 				type: "item"
 			}]
-			title: "Turbine Coils"
+			title: "{atm9.quest.biggerR.coils}"
 			x: -3.0d
 			y: 11.0d
 		}
@@ -927,13 +848,10 @@
 				"67AFCBCE7AAC3089"
 				"186731580B14F9D2"
 				"775D176081DD75F5"
+				"2D592669F4D41793"
 			]
 			description: [
-				"Instead of building the smallest Turbine at this point, it's better to build a Turbine based off of the design of your &9Active Reactor&r."
-				""
-				"For starters, you want to build a Turbine that can handle the &9Exhaust Flow Rate&r of your reactor. To get the most power out of it, it'll need to maintain 1800RPM as well. This takes a lot of experimenting with different coils, # of blades, and overall size of the Turbine!"
-				""
-				"Note: To complete this quest, you'll need to create a &dTask Screen&r of any size. Once placed, you can right-click the screen and select this quest as the requirement, then output power into the task screen block to fill it up and complete the quest."
+				"{atm9.quest.biggerR.desc.turbine}"
 				""
 				"{image:atm:textures/questpics/biggerreactors/reactor_turbine_example.png width:300 height:150 align:1}"
 			]
@@ -998,17 +916,13 @@
 					value: 10000000L
 				}
 			]
-			title: "&dOur First Turbine"
+			title: "{atm9.quest.biggerR.turbine}"
 			x: -5.5d
 			y: 10.0d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
-			description: [
-				"The &9Turbine&r has a minimum shape of 5x4x5, but can go up to 32x192x32 in size."
-				""
-				"Just like the Reactor, the frame must be built out of &dCasings&r, but the walls can be &9Turbine Glass&r instead."
-			]
+			description: ["{atm9.quest.biggerR.desc.construction}"]
 			id: "2D592669F4D41793"
 			rewards: [
 				{
@@ -1021,7 +935,7 @@
 				{
 					id: "46A906727C46868C"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -1031,18 +945,14 @@
 				item: "biggerreactors:turbine_glass"
 				type: "item"
 			}]
-			title: "Turbine Construction"
+			title: "{atm9.quest.biggerR.construction}"
 			x: -2.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
-				"Right-clicking on a Turbine Terminal when it is fully built will show you the Turbine Interface."
-				""
-				"Here, you can see all of the stats for the Turbine. Hovering over each will tell you more info about each one."
-				""
-				"On the right side, you'll have 2 arrows to control the &9Input Flow Rate&r. This controls how much heated fluid is pumped into the Turbine. To know how much you should set this to, check your reactor's &dExhaust Flow Rate&r as a starting point. "
+				"{atm9.quest.biggerR.desc.interface}"
 				""
 				"{image:atm:textures/questpics/biggerreactors/turbine_ui.png width:150 height:140 align:1}"
 			]
@@ -1055,7 +965,7 @@
 			}]
 			tasks: [{
 				id: "2905C4386A407A1E"
-				title: "The Turbine Interface"
+				title: "{atm9.quest.biggerR.interface}"
 				type: "checkmark"
 			}]
 			x: -3.0d

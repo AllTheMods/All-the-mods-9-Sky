@@ -286,7 +286,6 @@
 				"1A0010FBB8F0E045"
 				"16D782A4164F5DB2"
 			]
-			description: ["{atm9.quest.start3.desc.wither}"]
 			id: "283BCA98822430FD"
 			rewards: [
 				{
@@ -1255,11 +1254,10 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "435BF5C3725B0864"
-				item: "megacells:cell_component_256m"
+				id: "127013C8E8960B80"
+				item: "megacells:cell_component_16m"
 				type: "item"
 			}]
-			title: "{atm9.quest.start3.storage}"
 			x: 8.5d
 			y: -5.5d
 		}
