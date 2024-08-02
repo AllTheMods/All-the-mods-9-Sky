@@ -906,8 +906,6 @@
 				"{atm9.quest.occultism.desc.findIesnium.1}"
 				""
 				"{atm9.quest.occultism.desc.findIesnium.2}"
-				""
-				"{image:atm:textures/questpics/occultism/iesniumexample.png width:200 height:175 align:1}"
 			]
 			hide_dependency_lines: true
 			icon: "occultism:iesnium_ingot"
