@@ -200,7 +200,7 @@
 			y: 0.15d
 		}
 	]
-	order_index: 6
+	order_index: 7
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -584,9 +584,9 @@
 			subtitle: "{atm9.quest.mekanismReactors.subt.numbers}"
 			tasks: [{
 				id: "151024BDAA90EA7B"
+				title: "{atm9.quest.mekanismReactors.fissionReactorInterface}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.mekanismReactors.fissionReactorInterface}"
 			x: 3.0d
 			y: 2.5d
 		}
@@ -735,15 +735,8 @@
 			]
 			subtitle: "{atm9.quest.mekanismReactors.subt.quickRecap}"
 			tasks: [{
-				id: "14A09EAF150777A3"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:dusts/sulfur"
-					}
-				}
-				title: "{atm9.quest.mekanismReactors.sulfurDust}"
+				id: "22A2932D0B5628AA"
+				item: "thermal:sulfur_dust"
 				type: "item"
 			}]
 			title: "{atm9.quest.mekanismReactors.sulfuricAcid}"
@@ -774,19 +767,12 @@
 			]
 			tasks: [
 				{
-					id: "452FBF76102210BD"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:gems/fluorite"
-						}
-					}
-					title: "{atm9.quest.mekanismReactors.fluorite}"
+					id: "3A5FB51FB9B65990"
+					item: "mekanism:fluorite_gem"
 					type: "item"
 				}
 				{
-					id: "4F5A28143EFF4944"
+					id: "2091F0A297A1A3C9"
 					item: "mekanism:chemical_dissolution_chamber"
 					type: "item"
 				}
@@ -1972,12 +1958,84 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			tasks: [{
-				icon: "mekanism:induction_casing"
-				id: "621A4E28BD50F96C"
-				title: "{atm9.quest.mekanismReactors.observeCompletedMatrix}"
-				type: "custom"
-			}]
+			tasks: [
+				{
+					count: 44L
+					id: "0BF23825EE11DF6D"
+					item: "mekanism:induction_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6BADC678793385B9"
+					item: "mekanism:induction_port"
+					type: "item"
+				}
+				{
+					count: 55L
+					id: "59BC537DAD76299C"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+				{
+					id: "1F13B8408F7D7833"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mekanism:basic_induction_cell"
+								}
+								{
+									Count: 1b
+									id: "mekanism:advanced_induction_cell"
+								}
+								{
+									Count: 1b
+									id: "mekanism:elite_induction_cell"
+								}
+								{
+									Count: 1b
+									id: "mekanism:ultimate_induction_cell"
+								}
+							]
+						}
+					}
+					title: "{atm9.quest.mekanismReactors.inductionCells}"
+					type: "item"
+				}
+				{
+					id: "6953D5E8C8F8C624"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mekanism:basic_induction_provider"
+								}
+								{
+									Count: 1b
+									id: "mekanism:advanced_induction_provider"
+								}
+								{
+									Count: 1b
+									id: "mekanism:elite_induction_provider"
+								}
+								{
+									Count: 1b
+									id: "mekanism:ultimate_induction_provider"
+								}
+							]
+						}
+					}
+					title: "{atm9.quest.mekanismReactors.inductionProviders}"
+					type: "item"
+				}
+			]
 			title: "{atm9.quest.mekanismReactors.completingMatrix}"
 			x: 5.0d
 			y: -1.0d
