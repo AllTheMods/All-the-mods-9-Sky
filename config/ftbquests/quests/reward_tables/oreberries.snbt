@@ -1,0 +1,30 @@
+{
+	id: "290FD253BBE38432"
+	loot_size: 1
+	order_index: 51
+	rewards: [
+		{ count: 5, item: "oreberriesreplanted:iron_oreberry", random_bonus: 5 }
+		{ count: 5, item: "oreberriesreplanted:gold_oreberry", random_bonus: 5 }
+		{ count: 5, item: "oreberriesreplanted:copper_oreberry", random_bonus: 5 }
+		{ count: 5, item: "oreberriesreplanted:tin_oreberry", random_bonus: 5 }
+		{ count: 5, item: "oreberriesreplanted:aluminum_oreberry", random_bonus: 5 }
+		{ count: 5, item: "oreberriesreplanted:lead_oreberry", random_bonus: 5 }
+		{ count: 5, item: "oreberriesreplanted:nickel_oreberry", random_bonus: 5 }
+		{ count: 5, item: "oreberriesreplanted:uranium_oreberry", random_bonus: 5 }
+		{ count: 5, item: "oreberriesreplanted:osmium_oreberry", random_bonus: 5 }
+		{ count: 5, item: "oreberriesreplanted:zinc_oreberry", random_bonus: 5 }
+		{ count: 5, item: "oreberriesreplanted:silver_oreberry", random_bonus: 5 }
+		{ item: "oreberriesreplanted:iron_oreberry_bush", weight: 0.25f }
+		{ item: "oreberriesreplanted:gold_oreberry_bush", weight: 0.25f }
+		{ item: "oreberriesreplanted:copper_oreberry_bush", weight: 0.25f }
+		{ item: "oreberriesreplanted:tin_oreberry_bush", weight: 0.25f }
+		{ item: "oreberriesreplanted:aluminum_oreberry_bush", weight: 0.25f }
+		{ item: "oreberriesreplanted:lead_oreberry_bush", weight: 0.25f }
+		{ item: "oreberriesreplanted:nickel_oreberry_bush", weight: 0.25f }
+		{ item: "oreberriesreplanted:uranium_oreberry_bush", weight: 0.25f }
+		{ item: "oreberriesreplanted:osmium_oreberry_bush", weight: 0.25f }
+		{ item: "oreberriesreplanted:zinc_oreberry_bush", weight: 0.25f }
+		{ item: "oreberriesreplanted:silver_oreberry_bush", weight: 0.25f }
+	]
+	title: "Oreberries"
+}
