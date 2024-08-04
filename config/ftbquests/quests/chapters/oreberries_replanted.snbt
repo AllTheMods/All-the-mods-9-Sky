@@ -1,0 +1,956 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oreberries_replanted"
+	group: "6614EE2378B8AFB9"
+	icon: "oreberriesreplanted:copper_oreberry"
+	id: "66B8306AD8CDF7E1"
+	images: [
+		{
+			height: 0.75d
+			image: "oreberriesreplanted:item/uranium_oreberry"
+			rotation: 0.0d
+			width: 0.75d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			click: "#3A9856E9BB8E4517"
+			height: 2.0d
+			image: "atm:textures/questpics/oreberries/hopper_vat.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			height: 0.75d
+			image: "oreberriesreplanted:item/lead_oreberry"
+			rotation: 0.0d
+			width: 0.75d
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			height: 0.75d
+			image: "oreberriesreplanted:item/zinc_oreberry"
+			rotation: 0.0d
+			width: 0.75d
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			height: 0.75d
+			image: "oreberriesreplanted:item/essence_berry"
+			rotation: 0.0d
+			width: 0.75d
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			height: 0.75d
+			image: "oreberriesreplanted:item/osmium_oreberry"
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			height: 0.75d
+			image: "oreberriesreplanted:item/nickel_oreberry"
+			rotation: 0.0d
+			width: 0.75d
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			height: 0.75d
+			image: "oreberriesreplanted:item/silver_oreberry"
+			rotation: 0.0d
+			width: 0.75d
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			height: 0.75d
+			image: "oreberriesreplanted:item/aluminum_oreberry"
+			rotation: 0.0d
+			width: 0.75d
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			height: 0.75d
+			image: "oreberriesreplanted:item/tin_oreberry"
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			height: 0.75d
+			image: "oreberriesreplanted:item/gold_oreberry"
+			rotation: 0.0d
+			width: 0.75d
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			height: 0.75d
+			image: "oreberriesreplanted:item/iron_oreberry"
+			rotation: 0.0d
+			width: 0.75d
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			height: 0.75d
+			image: "oreberriesreplanted:item/copper_oreberry"
+			rotation: 0.0d
+			width: 0.75d
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			height: 4.0d
+			image: "rftoolspower:block/endergenic/floatingsphere"
+			rotation: 45.0d
+			width: 4.0d
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{atm9.quest.oreberries.desc.oreberries}"]
+			icon: "oreberriesreplanted:gold_oreberry"
+			id: "73085C791ABB32E6"
+			rewards: [{
+				id: "7AEBCEE392C2BD3C"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "7904CD59933EBDC8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "{atm9.quest.oreberries.oreberries}"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73085C791ABB32E6"]
+			description: [
+				"{atm9.quest.oreberries.desc.makingBushes.1}"
+				""
+				"{atm9.quest.oreberries.desc.recipe.1}"
+				"{atm9.quest.oreberries.desc.recipe.2}"
+				"{atm9.quest.oreberries.desc.recipe.3}"
+				"{atm9.quest.oreberries.desc.recipe.4}"
+				""
+				"{atm9.quest.oreberries.desc.makingBushes.2}"
+			]
+			icon: "summoningrituals:altar"
+			icon_scale: 1.25d
+			id: "4BE70185B65521C9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A08D3251FF8779A"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+				{
+					id: "19858F2ED873F64F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "{atm9.quest.oreberries.subt.makingBushes}"
+			tasks: [
+				{
+					id: "6D3EEF3BBA4F139C"
+					item: "minecraft:oak_leaves"
+					type: "item"
+				}
+				{
+					id: "77ED7F4C45194FC5"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "3CA02020FA341425"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2736C52BDB3A7296"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:raw_iron"
+								}
+								{
+									Count: 1b
+									id: "minecraft:raw_gold"
+								}
+								{
+									Count: 1b
+									id: "minecraft:raw_copper"
+								}
+								{
+									Count: 1b
+									id: "alltheores:raw_tin"
+								}
+								{
+									Count: 1b
+									id: "alltheores:raw_aluminum"
+								}
+								{
+									Count: 1b
+									id: "alltheores:raw_lead"
+								}
+								{
+									Count: 1b
+									id: "alltheores:raw_nickel"
+								}
+								{
+									Count: 1b
+									id: "alltheores:raw_uranium"
+								}
+								{
+									Count: 1b
+									id: "alltheores:raw_osmium"
+								}
+								{
+									Count: 1b
+									id: "alltheores:raw_zinc"
+								}
+								{
+									Count: 1b
+									id: "alltheores:raw_silver"
+								}
+								{
+									Count: 1b
+									id: "minecraft:experience_bottle"
+								}
+							]
+						}
+					}
+					title: "Oreberry Materials"
+					type: "item"
+				}
+				{
+					id: "6452C5AA4B032947"
+					item: "summoningrituals:altar"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.oreberries.makingBushes}"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BE70185B65521C9"]
+			description: ["{atm9.quest.oreberries.desc.iron}"]
+			id: "363B18D266DDD4BE"
+			rewards: [
+				{
+					id: "33457C37F6350FC0"
+					item: "oreberriesreplanted:iron_oreberry_bush"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7DCAD9E14126A2BC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.oreberries.subt.iron}"
+			tasks: [{
+				id: "556DBC37A78AEA7F"
+				item: "oreberriesreplanted:iron_oreberry_bush"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4BE70185B65521C9"]
+			description: ["{atm9.quest.oreberries.desc.gold}"]
+			id: "2CFC6F2B0F4B8FB1"
+			rewards: [
+				{
+					id: "3F5AB756014C402E"
+					item: "oreberriesreplanted:gold_oreberry_bush"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "61CFB36BAF16DECF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.oreberries.subt.gold}"
+			tasks: [{
+				id: "56E96D9169B41C72"
+				item: "oreberriesreplanted:gold_oreberry_bush"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4BE70185B65521C9"]
+			description: ["{atm9.quest.oreberries.desc.copper}"]
+			id: "33A0D85264B2066E"
+			rewards: [
+				{
+					id: "30B76B5CAF4B7283"
+					item: "oreberriesreplanted:copper_oreberry_bush"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5EFC5B78E3E5A1F7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.oreberries.subt.copper}"
+			tasks: [{
+				id: "7FCB27BA319E2BD6"
+				item: "oreberriesreplanted:copper_oreberry_bush"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4BE70185B65521C9"]
+			description: ["{atm9.quest.oreberries.desc.tin}"]
+			id: "08B651A966571490"
+			rewards: [
+				{
+					id: "2002EF64127A4B4F"
+					item: "oreberriesreplanted:tin_oreberry_bush"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "52540673F74766BB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.oreberries.subt.tin}"
+			tasks: [{
+				id: "1D97CDB46D743774"
+				item: "oreberriesreplanted:tin_oreberry_bush"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4BE70185B65521C9"]
+			description: ["{atm9.quest.oreberries.desc.aluminum}"]
+			id: "7731C197C523650C"
+			rewards: [
+				{
+					id: "3836ECA3B873FBF3"
+					item: "oreberriesreplanted:aluminum_oreberry_bush"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "496BFF03090D21CB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.oreberries.subt.aluminum}"
+			tasks: [{
+				id: "7E03031ED70C5DC9"
+				item: "oreberriesreplanted:aluminum_oreberry_bush"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4BE70185B65521C9"]
+			description: ["{atm9.quest.oreberries.desc.lead}"]
+			id: "6C898DC745E95B6F"
+			rewards: [
+				{
+					id: "34CB8A393925773E"
+					item: "oreberriesreplanted:lead_oreberry_bush"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "53E109302611488E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.oreberries.subt.lead}"
+			tasks: [{
+				id: "11C86380CC740A92"
+				item: "oreberriesreplanted:lead_oreberry_bush"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4BE70185B65521C9"]
+			description: ["{atm9.quest.oreberries.desc.nickel}"]
+			id: "51D2313B48350738"
+			rewards: [
+				{
+					id: "764086E02299BD10"
+					item: "oreberriesreplanted:nickel_oreberry_bush"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "096A001B48722417"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.oreberries.subt.nickel}"
+			tasks: [{
+				id: "10F41D155F1A4CD7"
+				item: "oreberriesreplanted:nickel_oreberry_bush"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4BE70185B65521C9"]
+			description: ["{atm9.quest.oreberries.desc.uranium}"]
+			id: "054A872E529C98AD"
+			rewards: [
+				{
+					id: "0AEDEEC9FD779D09"
+					item: "oreberriesreplanted:uranium_oreberry_bush"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "429E86B93BCC7256"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.oreberries.subt.uranium}"
+			tasks: [{
+				id: "76C35E21EA0FBDA4"
+				item: "oreberriesreplanted:uranium_oreberry_bush"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4BE70185B65521C9"]
+			description: ["{atm9.quest.oreberries.desc.osmium}"]
+			id: "02956156D1EE144F"
+			rewards: [
+				{
+					id: "22DE2D5766AA1269"
+					item: "oreberriesreplanted:osmium_oreberry_bush"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "60230A1F296E0125"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.oreberries.subt.osmium}"
+			tasks: [{
+				id: "4917983385CE179D"
+				item: "oreberriesreplanted:osmium_oreberry_bush"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4BE70185B65521C9"]
+			description: ["{atm9.quest.oreberries.desc.zinc}"]
+			id: "3275C84286F403EC"
+			rewards: [
+				{
+					id: "614019B667CE2400"
+					item: "oreberriesreplanted:zinc_oreberry_bush"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6293347F76C6EA6C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.oreberries.subt.zinc}"
+			tasks: [{
+				id: "52255A24F050105B"
+				item: "oreberriesreplanted:zinc_oreberry_bush"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4BE70185B65521C9"]
+			description: ["{atm9.quest.oreberries.desc.silver}"]
+			id: "3D80D7D41E89982A"
+			rewards: [
+				{
+					id: "4B4745E87821BE7B"
+					item: "oreberriesreplanted:silver_oreberry_bush"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "45C85A5420135AA4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.oreberries.subt.silver}"
+			tasks: [{
+				id: "7860709E9381C8A3"
+				item: "oreberriesreplanted:silver_oreberry_bush"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4BE70185B65521C9"]
+			description: ["{atm9.quest.oreberries.desc.essence}"]
+			id: "36D27062C3D09B23"
+			rewards: [
+				{
+					id: "48E4628873CCAD82"
+					item: "oreberriesreplanted:essence_berry_bush"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "20F56CA32C423539"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.oreberries.subt.essence}"
+			tasks: [{
+				id: "27EB0ADE214B8BDA"
+				item: "oreberriesreplanted:essence_berry_bush"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C1ADA6E87D777DF"]
+			description: [
+				"{atm9.quest.oreberries.desc.vats.1}"
+				""
+				"{image:atm:textures/questpics/oreberries/juicing.png width:200 height:100 align:center}"
+				""
+				"{atm9.quest.oreberries.desc.vats.2}"
+			]
+			icon: "oreberriesreplanted:oak_vat"
+			id: "3A9856E9BB8E4517"
+			min_width: 250
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15ACE93B6D4A9954"
+					table_id: 2958814737282073650L
+					type: "random"
+				}
+				{
+					id: "7BAADC19F5BC06C3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			subtitle: "{atm9.quest.oreberries.subt.vats}"
+			tasks: [{
+				id: "05F9462D4C018AAE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "oreberriesreplanted:oak_vat"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:spruce_vat"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:birch_vat"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:jungle_vat"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:acacia_vat"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:dark_oak_vat"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:mangrove_vat"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:cherry_vat"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:crimson_vat"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:warped_vat"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.oreberries.vats}"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BE70185B65521C9"]
+			description: ["{atm9.quest.oreberries.desc.growingBerries}"]
+			id: "5C1ADA6E87D777DF"
+			min_width: 250
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "032E1C790BB47D89"
+					table_id: 2958814737282073650L
+					type: "random"
+				}
+				{
+					id: "2B3A3BCD0F162ECC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			size: 1.25d
+			subtitle: "{atm9.quest.oreberries.subt.growingBerries}"
+			tasks: [{
+				id: "756254925A19400C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "oreberriesreplanted:iron_oreberry"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:gold_oreberry"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:copper_oreberry"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:tin_oreberry"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:aluminum_oreberry"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:lead_oreberry"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:nickel_oreberry"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:uranium_oreberry"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:osmium_oreberry"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:zinc_oreberry"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:silver_oreberry"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:essence_berry"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.oreberries.growingBerries}"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C1ADA6E87D777DF"]
+			description: [
+				"{atm9.quest.oreberries.desc.pottedBerries}"
+				""
+				"{image:atm:textures/questpics/oreberries/potted_berries.png width:280 height:175 align:center}"
+			]
+			id: "2BB0C86C7E07EEDF"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F0B22885F70F098"
+					table_id: 2958814737282073650L
+					type: "random"
+				}
+				{
+					id: "1534A96CF31BCB94"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "5630BEC40B1E2674"
+				item: "minecraft:flower_pot"
+				type: "item"
+			}]
+			title: "{atm9.quest.oreberries.pottedBerries}"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C1ADA6E87D777DF"]
+			description: [
+				"{atm9.quest.oreberries.desc.farmingBerries.1}"
+				""
+				"{image:atm:textures/questpics/oreberries/possible_farm.png width:300 height:150 align:center}"
+				""
+				"{atm9.quest.oreberries.desc.farmingBerries.2}"
+			]
+			id: "29CA0F107FAF82D9"
+			min_width: 300
+			rewards: [{
+				id: "1D6EA9EDEAF11DCD"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.oreberries.subt.farmingBerries}"
+			tasks: [{
+				id: "1EAC1A379323CFC4"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			title: "{atm9.quest.oreberries.farmingBerries}"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3A9856E9BB8E4517"]
+			description: [
+				"{atm9.quest.oreberries.desc.autoJuicing.1}"
+				""
+				"{image:atm:textures/questpics/oreberries/auto_vat.png width:200 height:100 align:center}"
+				""
+				"{atm9.quest.oreberries.desc.autoJuicing.2}"
+			]
+			icon: "minecraft:zombie_head"
+			id: "5143C16732091B79"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0964C033B8518C2C"
+					table_id: 2958814737282073650L
+					type: "random"
+				}
+				{
+					id: "4C10A01C9D9ADEB6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.oreberries.subt.autoJuicing}"
+			tasks: [{
+				id: "3D5B582C8E6821B0"
+				item: "minecraft:hopper"
+				type: "item"
+			}]
+			title: "{atm9.quest.oreberries.autoJuicing}"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "2019363FD557C0F9"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "71F67A47781DD165"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "2DAF120FE73578FB"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["29CA0F107FAF82D9"]
+			description: [
+				"{atm9.quest.oreberries.desc.click}"
+				""
+				"{image:atm:textures/questpics/oreberries/auto_growing.png width:300 height:150 align:center}"
+			]
+			id: "7E53269412054B51"
+			min_width: 300
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3CB1A950A838A0CF"
+					table_id: 2958814737282073650L
+					type: "random"
+				}
+				{
+					id: "530037B0BB6D5CCB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.oreberries.subt.click}"
+			tasks: [{
+				id: "782D0F27317A3EDF"
+				item: "clickmachine:auto_clicker"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7E53269412054B51"
+				"5143C16732091B79"
+			]
+			description: [
+				"{atm9.quest.oreberries.desc.automated}"
+				""
+				"{image:atm:textures/questpics/oreberries/fully_automated.png width:300 height:150 align:center}"
+			]
+			icon: "minecraft:hopper"
+			id: "06669D5951019D2B"
+			min_width: 300
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "700D01BDEB7E37F1"
+					table_id: 2958814737282073650L
+					type: "random"
+				}
+				{
+					id: "5DFBFC7F5A9BD96A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.oreberries.subt.automated}"
+			tasks: [
+				{
+					id: "00054BB177874595"
+					item: "clickmachine:auto_clicker"
+					type: "item"
+				}
+				{
+					id: "309BB1651C988EEC"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "7B440BD87DAB00D3"
+					item: "minecraft:chest"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.oreberries.automated}"
+			x: 10.5d
+			y: -2.0d
+		}
+	]
+	title: "{atm9.chapters.37.title}"
+}
