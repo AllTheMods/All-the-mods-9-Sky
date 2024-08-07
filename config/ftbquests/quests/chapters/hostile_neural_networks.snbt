@@ -30,6 +30,14 @@
 			x: -2.5d
 			y: 10.0d
 		}
+		{
+			height: 0.3d
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: -2.5d
+			y: 11.9d
+		}
 	]
 	order_index: 2
 	progression_mode: "flexible"
@@ -59,7 +67,6 @@
 				title: "{atm9.quest.hostile.welcome}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.hostile.welcome}"
 			x: -2.5d
 			y: -0.5d
 		}
@@ -161,7 +168,6 @@
 				title: "{atm9.quest.hostile.data}"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.hostile.data}"
 			x: -2.5d
 			y: 1.5d
 		}
@@ -234,8 +240,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.5d
-			y: 9.5d
+			x: -4.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -316,7 +322,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 13.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -369,8 +375,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.5d
-			y: 11.5d
+			x: -4.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -423,8 +429,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.5d
-			y: 10.5d
+			x: -3.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -477,8 +483,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -0.5d
-			y: 14.5d
+			x: -1.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -504,7 +510,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.5d
+			x: -5.5d
 			y: 13.5d
 		}
 		{
@@ -584,8 +590,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -1.5d
-			y: 11.5d
+			x: -0.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -611,8 +617,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.5d
-			y: 8.5d
+			x: -3.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -720,7 +726,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 8.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -746,8 +752,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.5d
-			y: 12.5d
+			x: -1.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -880,8 +886,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -1.5d
-			y: 12.5d
+			x: -4.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -907,8 +913,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.5d
-			y: 13.5d
+			x: -5.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -934,7 +940,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.5d
 			y: 13.5d
 		}
 		{
@@ -1022,6 +1028,7 @@
 			dependencies: ["14B3542ECB59869C"]
 			hide: false
 			id: "24157BFA5B85DCBA"
+			optional: true
 			rewards: [{
 				id: "511D2EB668CFFC24"
 				type: "xp"
@@ -1068,8 +1075,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -2.5d
-			y: 8.5d
+			x: -1.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1122,8 +1129,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.5d
-			y: 13.5d
+			x: -2.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]

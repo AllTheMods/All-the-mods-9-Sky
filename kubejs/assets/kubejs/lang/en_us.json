@@ -1,14 +1,15 @@
 {
-	
+
 	"atm9.modpack.title": "All The Mods 9 To The Sky",
 	"atm9.chapters.1.title": "Welcome",
 	"atm9.chapters.2.title": "Allthemodium",
 	"atm9.chapters.3.title": "Bounty Board",
 	"atm9.chapters.4.title": "Tips and Tricks",
 	"atm9.chapters.group.1.": "Main Questline",
-	"atm9.chapters.5.title": "&l&6Getting Started&r",
-	"atm9.chapters.6.title": "&l&5Getting Started: 2&r",
+	"atm9.chapters.5.title": "&l&6Getting Started",
+	"atm9.chapters.6.title": "&l&5Getting Started: 2",
 	"atm9.chapters.30.title": "&l&fThe Star&r",
+	"atm9.chapters.36.title": "&l&dCreative",
 	"atm9.chapters.group.2.": "Tools and Armor",
 	"atm9.chapters.7.title": "Apotheosis Gear",
 	"atm9.chapters.8.title": "Silent Gear",
@@ -21,6 +22,7 @@
 	"atm9.chapters.13.title": "Food and Farming",
 	"atm9.chapters.14.title": "Hostile Neural Networks",
 	"atm9.chapters.15.title": "Mystical Agriculture",
+	"atm9.chapters.37.title": "Oreberries",
 	"atm9.chapters.16.title": "Productive Bees",
 	"atm9.chapters.31.title": "ProjectE",
 	"atm9.chapters.group.5.": "Tech",
@@ -40,16 +42,16 @@
 	"atm9.chapters.26.title": "Blood Magic",
 	"atm9.chapters.27.title": "Botania",
 	"atm9.chapters.28.title": "Forbidden and Arcanus",
-	"atm9.chapters.33.title": "&eForceCraft&r",
+	"atm9.chapters.33.title": "&eForceCraft",
 	"atm9.chapters.29.title": "Occultism",
 
-	
-	
+
+
 	"atm9.quest.welcome.welcome": "Welcome to All The Mods 9, now in the sky!",
 	
 	"atm9.quest.welcome.desc.welcome": "Welcome to ATM9... Now With less flooring!\\n\\n To get started with questing, check out the tabs on the left to jump in!\\n\\n If you are new to AllTheMods, make sure to check out the &aAllTheModium&r Chapter!\\n\\n If you are new to Skyblock packs or modded MC, check out the &6Main Questline&r to help you get started.\\n\\n Note: Mods are not gated by quests. Quests are optional.",
-	
-	
+
+
 	"atm9.quest.allthemodium.intro": "Intro to Allthemodium!",
 	"atm9.quest.allthemodium.atm": "&6Allthemodium",
 	"atm9.quest.allthemodium.vib": "&3Vibranium",
@@ -83,7 +85,7 @@
 	"atm9.quest.allthemodium.apple": "&6Allthemodium Apple",
 	"atm9.quest.allthemodium.dust": "Soul Sand and Apatite Dust",
 	"atm9.quest.allthemodium.element_essence": "Elemental Essences",
-	
+
 	"atm9.quest.allthemodium.desc.intro1": "&6Allthemodium&r is the core mod in all AllTheMods modpacks. This mod adds endgame ores to the world that amplify your modded experience. In this pack however, you get this a little differently than you normally would.",
 	"atm9.quest.allthemodium.desc.pulv": "The Pulverizer is going to be your first step to making a Soul Infused Ingot needed for &6Allthemodium&r. Pulverize some Apatite to get Apatite Dust, then pulverize some Soul Sand to get Soul Sand Dust!",
 	"atm9.quest.allthemodium.desc.soulinfused": "Make some Soul Infused Dust first, then smelt it.",
@@ -147,13 +149,13 @@
 	"atm9.quest.bounty.warden": "Kill the Warden",
 	"atm9.quest.bounty.trader": "Kill the Trader Villager and His Annoying Llamas",
 	"atm9.quest.bounty.chimera": "Kill the Wilden Chimera",
-	
+
 	"atm9.quest.bounty.desc.board1": "Here you'll find all of the rewards you can get by slaying enemies.",
 	"atm9.quest.bounty.desc.board2": "This page is a work in progress!",
 	"atm9.quest.bounty.desc.trader1": "'While making a lot of the questlines for the ATM7, the Trader Villager thought it'd be funny to constantly push me around in the quest screen.",
 	"atm9.quest.bounty.desc.trader2": "Take them out. All of them.'",
 	"atm9.quest.bounty.desc.trader3": "- AlfredGG",
-	
+
 	"atm9.quest.bounty.subt.board": "Killing All The Things",
 	"atm9.quest.bounty.subt.zombie": "Kill 5 Zombies",
 	"atm9.quest.bounty.subt.skeleton": "Kill 5 Skeles",
@@ -165,8 +167,8 @@
 	"atm9.quest.bounty.subt.enderman": "Kill 5 Endermen",
 	"atm9.quest.bounty.subt.trader": "'This is Personal' - AlfredGG",
 	"atm9.quest.bounty.subt.chimera": "This isn't even my final form.",
-	
-	
+
+
 	"atm9.quest.tips.tricks": "Tips and Tricks!",
 	"atm9.quest.tips.wand": "Construction Wands",
 	"atm9.quest.tips.build": "Building Gadgets",
@@ -178,7 +180,7 @@
 	"atm9.quest.tips.torch": "Torchmaster",
 	"atm9.quest.tips.tipped_out": "Tipped Out",
 	"atm9.quest.tips.sleepcharm": "No More Phantoms",
-	
+
 	"atm9.quest.tips.desc.tricks": "On this page, you'll find some useful items and info to help you on your journey!",
 	"atm9.quest.tips.desc.wand": "The mod &9Construction Wand&r adds helpful wands that are used when building.\\n\\n When right-clicking a face of a block with the wand, it will extend that face out as long as you have the blocks in your inventory.",
 	"atm9.quest.tips.desc.build": "Some useful gadgets for building.\\n\\n &cDestruction Gadget voids blocks!&r",
@@ -191,7 +193,7 @@
 	"atm9.quest.tips.desc.repair": "This thing is extremely cheap, and repairs the tools in your inventory!",
 	"atm9.quest.tips.desc.torch": "Torchmaster brings a bunch of new useful blocks and items. The Mega Torch prevents hostile mobs from spawning in a large area, while the Dreadful Lamp does the same but for friendly mobs. The Feral Flare Lantern when placed down will randomly spawn light sources around it, and the Frozen Pearl can be used to get rid of those. ",
 	"atm9.quest.tips.desc.sleepcharm": "Are you tired of all those annoying Phantoms forcing you to sleep? If so, the Sleep Charm is for you!\\n\\nThe Sleep Charm can be equipped to make sure no more Phantoms spawn, without ever needing to sleep.",
-	
+
 	"atm9.quest.tips.subt.tricks": "And Other Useful Items!",
 	"atm9.quest.tips.subt.hyperbox": "When an infinite world is too small",
 	"atm9.quest.tips.subt.sink": "Can be used as Reactor Coolant",
@@ -201,7 +203,7 @@
 	"atm9.quest.tips.subt.repair": "Tools Breaking? No problem",
 	"atm9.quest.tips.subt.sleepcharm": "No more Insomnia!",
 
-	
+
 	"atm9.quest.start1.headstart": "A Head Start",
 	"atm9.quest.start1.emergency": "Emergency Saplings",
 	"atm9.quest.start1.start": "&9Getting Started!&r",
@@ -494,7 +496,7 @@
 	"atm9.quest.start2.subt.compact": "The Best Option",
 	
 	"atm9.quest.start3.start": "&lComplete Chapter 2&r&r",
-	"atm9.quest.start3.star": "&l&6ATM Star&r&r",
+	"atm9.quest.start3.star": "&l&6ATM Star &r&r",
 	"atm9.quest.start3.altar": "'Crafting' the Star",
 	"atm9.quest.start3.blackhole": "&dPulsating Black Hole&r",
 	"atm9.quest.start3.compass": "&8Wither's Compass&r",
@@ -618,8 +620,25 @@
 	"atm9.quest.start3.desc.storage": "AE2 is for storage and the 16M MEGA Storage Component (while not ebing the largest) really shows it. That M stands for Million, 16,000,000 estimate. It can be used for storage, upgraded for even more storage, or make the Star, your choice.",
 	"atm9.quest.start3.desc.terminal": "For power of the creative universe to be obtained by the Star it needs to reach the entire universe. A Universal Terminal and Singularity should help that! The Terminal can be crafted from other Terminals but the Singularity is different. Using a Matter Condenser you can Condense Storage Components in hopes of it being a Singularity. The Storage Components may need to be full though...",
 	"atm9.quest.start3.desc.singularity": "Make an infinitely dense and small item, even smaller and denser?",
-	
-	
+
+	"atm9.quest.creative.welcome": "Set For Life",
+	"atm9.quest.creative.mana": "Infinite Mana",
+	"atm9.quest.creative.pressure": "Creative Pressure",
+	"atm9.quest.creative.spells": "Creative Spell Book",
+	"atm9.quest.creative.create": "Getting Create-ive.",
+	"atm9.quest.creative.powah": "Creative Power",
+	"atm9.quest.creative.storage": "Creative Virtual Storage Power",
+	"atm9.quest.creative.source": "Creative Source Jar",
+	"atm9.quest.creative.blocks": "Congratulations?",
+
+	"atm9.quest.creative.desc.welcome": "If you make 9 Stars, or enough to make an ATM Star Block, you'll be able to create a &dStarry Bee&r. This bee gives you &6ATM Star Shards&r from their combs.\\n\\n Oh, and they will also need another ATM Star Block for their flower! Simple enough, right?",
+	"atm9.quest.creative.desc.blocks": "But...why?",
+
+	"atm9.quest.creative.subt.welcome": "Enough to make everything in the pack?",
+
+	"atm9.quest.creative.img.star": "What do I do with the ATM Star?",
+
+
 	"atm9.quest.affixes.gems": "Apotheosis Gear",
 	"atm9.quest.affixes.dust": "Gem Dust",
 	"atm9.quest.affixes.smith": "Applying Gems (and others)",
@@ -642,7 +661,7 @@
 	"atm9.quest.affixes.simple": "Simple Reforging Table",
 	"atm9.quest.affixes.reforge": "(Better) Reforing Table",
 	"atm9.quest.affixes.augment": "(Best) Augmenting Table",
-	
+
 	"atm9.quest.affixes.desc.gems": "If you want good gear you're gonna need Apotheosis Affixes, and that all starts with a Gem. ",
 	"atm9.quest.affixes.desc.dust": "To get Gem Dust you need an Apotheosis Gem and an anvil. Any Apotheosis Gem (Recommended only common and uncommon). Once you get your gems smash them with a falling anvil! Then to make this easier make a Salvaging Table.",
 	"atm9.quest.affixes.desc.smith": "You got tools and Gems so how do we combine them? First, make sure your tool has an open Socket. (For more on Sockets check the Vials and Sigils section). If one is open, you can combine your tool and Gem in a Smithing Table. If you aren't happy with your current Gems then you might need a...",
@@ -660,14 +679,14 @@
 	"atm9.quest.affixes.desc.simple": "The Simple Reforging Table is used like an Enchantment Table but with Affixes. With Gem Dust, Rarity Materials, Sigils of Rebirth, and an Affixed Item you can reroll the affixes for a cost of EXP. This can also be used to change the Rarity of the Affixed item up to Rare ",
 	"atm9.quest.affixes.desc.reforge": "The Reforging Table does everything a Simple one does but better, it can do Epic and Mythic Affixes!",
 	"atm9.quest.affixes.desc.augment": "This is what you really need for perfect affixes. First you need the Table, a Tool, and Sigils of Enhancement. Once you have all those, the world is all yours. You can reroll affixes, choose a specific affix, or upgrade set affixes!",
-	
+
 	"atm9.quest.affixes.subt.common": "Common",
 	"atm9.quest.affixes.subt.uncommon": "Uncommon",
 	"atm9.quest.affixes.subt.rare": "Rare",
 	"atm9.quest.affixes.subt.epic": "Epic",
 	"atm9.quest.affixes.subt.mythic": "Mythic",
-	
-	
+
+
 	"atm9.quest.SG.SG": "Silent Gear Weapons, Tools, and Armor",
 	"atm9.quest.SG.template": "Template Boards",
 	"atm9.quest.SG.SGTool": "Your First Tool!",
@@ -722,12 +741,12 @@
 	"atm9.quest.SG.tier1SGCPC": "Tier 1 Starlight Charger Pillar Cap",
 	"atm9.quest.SG.tier2SGCPC": "Tier 2 Starlight Charger Pillar Cap",
 	"atm9.quest.SG.tier3SGCPC": "Tier 3 Starlight Charger Pillar Cap",
-	
-	"atm9.quest.SG.desc.SG": "Silent Gear is a tool and armor mod that makes crafting gear easy.\\n\\n Each gear piece is customizable, allowing you to upgrade it with special traits or repair it on the go!\\n\\n You can also convert vanilla tools like an iron pickaxe to a Silent Gear pickaxe by putting it into a crafting table!",
+
+	"atm9.quest.SG.desc.SG": "Silent Gear is a tool and armor mod that makes crafting gear easy.\\n\\n Each gear piece is customizable, allowing you to upgrade it with special traits or repair it on the go!\\n\\n You can also convert vanilla tools like an Iron Pickaxe to a Silent Gear pickaxe by putting it into a Crafting Table!",
 	"atm9.quest.SG.desc.template": "To get started with gear crafting in the early game, we'll need to make some &9Template Boards&r to create our first &eTemplate&r.\\n\\n Templates are single-use 'blueprints' for creating tool parts. Using the basic boards, craft yourself a &aPickaxe Template&r.\\n\\n If you combine the Pickaxe Template with 3 of most materials*, you can create a Pickaxe Head part.\\n\\n *Note: Material must have a Silent Gear Material tooltip with the Main type.",
 	"atm9.quest.SG.desc.SGTool": "To make your first tool, take your Pickaxe Head part and put it into the crafting table.\\n\\n To create a full pickaxe, you can either add a stick to the crafting table, or create your own custom handle using a &9Tool Rod Template&r instead of using a stick.\\n\\n *Note: You can always search up the templates and then press U on it, then navigate to the 'Gear Crafting' tab. This will show you how to make gear parts.",
 	"atm9.quest.SG.desc.blueprint": "You can't use template boards forever!!!\\n\\n Blueprint paper is used to make blueprints, which are reusable, unlike template boards.",
-	"atm9.quest.SG.desc.tip": "The tip upgrade is used to increase the mining level of the tool.\\n\\n For example: If you have an iron pickaxe with 1 diamond, you can make a Diamond Tip Upgrade, and place it on your pickaxe. This will allow it to mine obsidian, as well as give it a stat boost.",
+	"atm9.quest.SG.desc.tip": "The tip upgrade is used to increase the mining level of the tool.\\n\\n For example: If you have an Iron Pickaxe with 1 Diamond, you can make a Diamond Tip Upgrade, and place it on your Pickaxe. This will allow it to mine Obsidian, as well as give it a stat boost.",
 	"atm9.quest.SG.desc.coating": "Coats an item or tool.\\n\\n Netherite makes a great coating material.",
 	"atm9.quest.SG.desc.sword": "Everyone loves the sword.\\n\\n With this blueprint, you can make the basic sword! Reliable damage, reliable speed.",
 	"atm9.quest.SG.desc.dagger": " Low damage, very high attack speed. Reduces the invincibility time of the target.",
@@ -742,13 +761,13 @@
 	"atm9.quest.SG.desc.tier1SGCPC": "This is a Tier 1 Pillar Cap for the Starlight Charger structure.",
 	"atm9.quest.SG.desc.tier2SGCPC": "This is a Tier 2 Pillar Cap for the Starlight Charger structure.",
 	"atm9.quest.SG.desc.tier3SGCPC": "This is a Tier 3 Pillar Cap for the Starlight Charger structure.",
-	
+
 	"atm9.quest.SG.subt.SG": "Simple Tool Crafting",
 	"atm9.quest.SG.subt.SGTool": "Or At Least How To Make It",
 	"atm9.quest.SG.subt.blueprint": "The Schematic Maker",
 	"atm9.quest.SG.subt.book": "Stores all of your blueprints!",
 	"atm9.quest.SG.subt.toolrod": "Create your own Handle!",
-	"atm9.quest.SG.subt.tip": "For when you didn't find 3 diamonds.",
+	"atm9.quest.SG.subt.tip": "For when you didn't find 3 Diamonds.",
 	"atm9.quest.SG.subt.coating": "Totally not just for Netherite.",
 	"atm9.quest.SG.subt.grip": "Get a Grip.",
 	"atm9.quest.SG.subt.binding": "It holds everything together.",
@@ -768,7 +787,7 @@
 	"atm9.quest.SG.subt.material_grader": "The Material Tester",
 	"atm9.quest.SG.subt.alloyer": "Combines Materials",
 	"atm9.quest.SG.subt.starlight_charger": "'Enchanting' Materials",
-	
+
 
 	"atm9.quest.storage.basic": "Basic Storage",
 	"atm9.quest.storage.trash": "Trash Cans",
@@ -777,15 +796,10 @@
 	"atm9.quest.storage.ender": "Ender Storage",
 	"atm9.quest.storage.functional": "Functional Storage",
 	"atm9.quest.storage.drawer": "My First Drawer",
-	"atm9.quest.storage.8": "&6Copper Upgrade&r",
-	"atm9.quest.storage.16": "&eGold Upgrade&r",
-	"atm9.quest.storage.24": "&bDiamond Upgrade&r",
-	"atm9.quest.storage.32": "&5Netherite Upgrade&r",
 	"atm9.quest.storage.link": "Linking Tool",
 	"atm9.quest.storage.configurator": "Configuration Tool",
 	"atm9.quest.storage.enderdrawer": "Ender Drawers!",
 	"atm9.quest.storage.controller": "Storage Controller",
-	"atm9.quest.storage.acess_point": "Controller Acess Point",
 	"atm9.quest.storage.simple_compacting": "Simple Compacting Drawer",
 	"atm9.quest.storage.adv_compacting": "Advanced Compacting Drawer",
 	"atm9.quest.storage.framed": "Framed Drawers",
@@ -860,7 +874,7 @@
 	"atm9.quest.storage.module2": "Tier 2 Storage Module",
 	"atm9.quest.storage.module3": "Tier 3 Storage Module",
 	"atm9.quest.storage.module4": "Tier 4 Storage Module",
-	
+
 	"atm9.quest.storage.desc.basic": "Welcome to the Basic Storage Chapter!\\n\\n You'll find all of the basic ways to store items without power, as well as useful items for your storage needs!",
 	"atm9.quest.storage.desc.trash": "A way to destroy unwanted items, liquid, and power.",
 	"atm9.quest.storage.desc.NBT": "Looking to create virtual storage using &9Refined Storage&r or &9Applied Energistics 2&r?\\n\\n These are both great ways to upgrade your storage, but it is important to talk about &eNBT Items&r and the best way to store them.\\n\\n NBT items are items with extra tags attached to them. Enchanted items, items with durability, Apotheosis gems... these are all items with NBT tags attached to them. Because of this, they don't usually stack.\\n\\n When you store a lot of these into a storage system like RS or AE2, you run the chance of creating issues for your save or server.\\n\\n Because of this, it is best to store them in chests or bags!",
@@ -872,7 +886,7 @@
 	"atm9.quest.storage.desc.enderdrawer": "Using a &aLinking Tool&r, you can link 2 Ender Drawers to sync up the contents.\\n\\n This works just like an Ender Chest, but for Drawers.\\n\\n To link, Right click the first Ender Drawer with the &aLinking Tool&r, then left click the second Ender Drawer to sync.",
 	"atm9.quest.storage.desc.f_controller": "When placed and connected with the &aLinking Tool&r to other drawers, this block acts as a 'Hub.'\\n\\n If you double right-click this, all items within the Storage Drawers 'Network' will be pulled from your inventory.",
 	"atm9.quest.storage.desc.simple_compacting": "This drawer will auto convert the item placed inside to it's compacted form.",
-	"atm9.quest.storage.desc.adv_compacting": "This item can convert items placed inside to their nugget or block forms.\\n\\n For example: An Iron Ingot placed in this will allow you to pull out 9 nuggets, or if more iron is placed in, will covert it to Iron Blocks.",
+	"atm9.quest.storage.desc.adv_compacting": "This item can convert items placed inside to their nugget or block forms.\\n\\n For example: An Iron Ingot placed in this will allow you to pull out 9 nuggets, or if more Iron is placed in, will covert it to Iron Blocks.",
 	"atm9.quest.storage.desc.framed": "Want to have custom drawers? Look no further, these can mimic a block's texture on the outside, and a different one in the front.\\n\\n Follow the tooltip on how to do it.",
 	"atm9.quest.storage.desc.fluid_drawers": "If you though this mod only stored items, you would be wrong, there are also Fluid Drawers.\\n They work the same way as regular drawers, but store fluids instead.",
 	"atm9.quest.storage.desc.f_upgrades": "Aside from the storage upgrades, there is also other usefull upgrades.",
@@ -893,10 +907,10 @@
 	"atm9.quest.storage.desc.storage_tool": "The controller is also able to connect to other storages wirelessly, this is possible using the Storage Tool, just right click the controller to bind it, and right click the storages to link them.\\n\\n The range for wireless linking is the same as regular, 14 blocks of space.",
 	"atm9.quest.storage.desc.storage_link": "Storage link allows you to connect multiple storages that are not attached to controller or any blocks that are connected to it.\\n\\n So its a way to wirelessly connect a \"multiblock\" of storages without needing to right click each one of them.\\n\\n 14 blocks of range still applies.",
 	"atm9.quest.storage.desc.rftools": "RFTools is a powerfull mod with tons of usefull machines/blocks in many different categories. Storage is one of them.",
-	"atm9.quest.storage.desc.scanner": "The Storage Scanner is a very powerfull early-game storage \"system\", it uses energy to wirelessly read and acess inventories in a area up to 20 blocks.\n\n It allows you to store items through it and craft using the items in all of the inventories as well.\n\n\n  &oNote and recomendation:&r It doesnt deal well with double-chests(it reads them as 2 different chests, showing 2 times the items), either find the duplicates, and click the star icon in one of them, or just dont have double-chests.",
+	"atm9.quest.storage.desc.scanner": "The Storage Scanner is a very powerfull early-game storage \"system\", it uses energy to wirelessly read and access inventories in a area up to 20 blocks.\n\n It allows you to store items through it and craft using the items in all of the inventories as well.\n\n\n  &oNote and recomendation:&r It doesnt deal well with double-chests(it reads them as 2 different chests, showing 2 times the items), either find the duplicates, and click the star icon in one of them, or just dont have double-chests.",
 	"atm9.quest.storage.desc.modular": "Modular Storage is the main storage component in RFTools, it stores the items in digital form, and as the name suggests, you can have multiple of them working as one. \n\n How much it stores will depend on the Storage Module tier you have. \n\n Digital systems are more sensitive to trash and high NBT items. What's that? Look for the \"NBT and you\" quest in the middle of this chapter.",
 	"atm9.quest.storage.desc.filter": "The filter module has many uses, one of which being limiting what items can enter a Modular Storage, be it by you, or by external sources, like hoppers or pipes.",
-	"atm9.quest.storage.desc.module1": "Storage Modules are the disks of Modular Storage, each tier has a different quantity of stacks it can fit inside. \n\n This one, the first one, has 100 stacks capacity. Keep in mind that that can be either 100 stacks of stone, or 100 pieces or armor/tools, as they dont stack, so be carefull with putting trash in your system.",
+	"atm9.quest.storage.desc.module1": "Storage Modules are the disks of Modular Storage, each tier has a different quantity of stacks it can fit inside.\n\n This one, the first one, has 100 stacks capacity. Keep in mind that that can be either 100 stacks of stone, or 100 pieces or armor/tools, as they dont stack, so be carefull with putting trash in your system.",
 	"atm9.quest.storage.desc.module2": "Tier 2, 200 stacks space.",
 	"atm9.quest.storage.desc.module3": "Tier 3, 300 stacks space.",
 	"atm9.quest.storage.desc.module4": "Tier 4, 500 stacks space.",
@@ -949,7 +963,8 @@
 	"atm9.quest.storage.subt.rftools": "The multitool tech mod.",
 	"atm9.quest.storage.subt.scanner": "No need to run around to find a item anymore.",
 	"atm9.quest.storage.subt.modular": "Going digital.",
-	
+
+
 	"atm9.quest.ae2.AE2": "Applied Energistics 2",
 	"atm9.quest.ae2.wrench": "Quartz Wrench",
 	"atm9.quest.ae2.first": "First Things First",
@@ -1019,7 +1034,7 @@
 	"atm9.quest.ae2.matter": "Condensed Matter",
 	"atm9.quest.ae2.antimatter": "Hyper-Condensed Matter",
 	"atm9.quest.ae2.quantum": "Quantum Network Bridge",
-	
+
 	"atm9.quest.ae2.desc.AE2": "&lWelcome to &bApplied Energistics 2&f!\\n\\n Applied Energistics 2 (or &oAE2&r for short) is an incredibly versatile &bdigital storage&f mod, allowing for extremely efficient storage and all sorts of automation capabilities to greatly augment your modded Minecraft experience from as early as you want to the very endgame.\\n\\n To get started with AE2, you will need to sieve for an important resource for the mod known as &bCertus Quartz&f.\\n\\n For more information on AE2 beyond this chapter, consult the wiki over at",
 	"atm9.quest.ae2.desc.wrench": "The &bQuartz Wrench&f does what any regular tech mod wrench would do. It rotates blocks and devices along the face you right-click on and dismantles them when right-clicked while sneaking.\\n\\n AE2's wrench comes in both certus and nether quartz flavours.",
 	"atm9.quest.ae2.desc.first": "Two of the very first things you will need to get started in AE2 are the &bCharger&f and the &bInscriber&f.\\n\\n The &bCharger&f, when supplied with power, will take &eCertus Quartz Crystals&r and charge them. These &eCharged Certus Crystals&r can then be used in the production of &eFluix&f, another important resource in the mod. It can also be used to charge any item that stores power.\\n\\n The &bInscriber&f can be used to turn the various quartz crystals in AE2 into their dust form, but more importantly is used to fabricate special &ePrinted Circuits&f and &eProcessors&f, as will become clearer in the next quest.",
@@ -1056,7 +1071,7 @@
 	"atm9.quest.ae2.desc.more_items": "Aside from DISKs, you can also use netherite to craft what is effectively the complete opposite of the DISK.\\n\\n &dMEGA Cells&f offers the bespoke &bBulk Item Storage Cell&f, which is limited to no more than &oone&r type of item storeable per cell but can store a practically &o&lINFINITE&r* number of that item type. Before it can accept an item type, it must be filtered in advance using a Cell Workbench.\\n\\n *&oTechnically 'max long'. If you know then you know.&r",
 	"atm9.quest.ae2.desc.fluid": "Items are not the only things that can be stored in ME cells. &bME Fluid Storage Cells&f can store liquids such as water, lava and any variety of modded oils and fuels, just to give a few examples.\\n\\n Note that all storage cells, regardless of what they're designed to store, only differ in terms of their housing; both item and fluid cells use the same kind of storage component to make.\\n\\n For fluids, 1 byte equals 8 buckets (8000mb).",
 	"atm9.quest.ae2.desc.portable": "&bPortable Cells&f function identically to regular cells in that they can be inserted into a chest or drive and filled accordingly.\\n\\n However, unlike regular cells, their contents can also be accessed standalone via the cell item itself, a bit like a digital ME-flavoured backpack.",
-	"atm9.quest.ae2.desc.weapons": "These last three items are more or less some extra toys provided by AE2 and don't necessarily fit under any of these quest trees.\\n\\n The &bCharged Staff&f is just a simple powered staff which deals 3 hearts of damage and consumes 300AE per hit. It also uses pre-1.9 combat mechanics, meaning that you can spam-click with this like in the good old days.\\n\\n The &bEntropy Manipulator&f, when &oused&r on certain blocks in the world, will smelt them in-place, such as sand to glass and metal ores to metal ingots. If not, it will simply light a fire on the block.\\n\\n Finally, the &bMatter Cannon&f functions similarly to the Color Applicator as a dedicated cell for holding 'ammo' items such as Matter Balls and iron/gold nuggets, which can then be fired out to deal damage to mobs or break blocks. Heavier 'ammo'Matter Balls in a Matter Cannon can be substituted with &bPaint Balls&f, which will apply a paint splatter effect on the face of whatever block being fired at. &bLumen Paint Balls&f are a variant of paint balls exclusively used by the Matter Cannon, whose paint splatters also give off some light once present in the world.",
+	"atm9.quest.ae2.desc.weapons": "These last three items are more or less some extra toys provided by AE2 and don't necessarily fit under any of these quest trees.\\n\\n The &bCharged Staff&f is just a simple powered staff which deals 3 hearts of damage and consumes 300AE per hit. It also uses pre-1.9 combat mechanics, meaning that you can spam-click with this like in the good old days.\\n\\n The &bEntropy Manipulator&f, when &oused&r on certain blocks in the world, will smelt them in-place, such as sand to glass and metal ores to metal ingots. If not, it will simply light a fire on the block.\\n\\n Finally, the &bMatter Cannon&f functions similarly to the Color Applicator as a dedicated cell for holding 'ammo' items such as Matter Balls and Iron/Gold Nuggets, which can then be fired out to deal damage to mobs or break blocks. Heavier 'ammo'Matter Balls in a Matter Cannon can be substituted with &bPaint Balls&f, which will apply a paint splatter effect on the face of whatever block being fired at. &bLumen Paint Balls&f are a variant of paint balls exclusively used by the Matter Cannon, whose paint splatters also give off some light once present in the world.",
 	"atm9.quest.ae2.desc.autocrafting": "Storage is nice and all that, but what good is a storage system if it's clogged up with raw materials needing to be crafted and processed into something and you're still stuck with having to do so manually?\\n\\n AE2's &eauto-crafting&f system begins with the &bME Pattern Provider&f. The Pattern Provider holds certain items called &bPatterns&f (covered in the next quest) which are programmed to hold some recipe that turns input items into a certain output. Up to 9 patterns can fit in one provider.\\n\\n You'll often be making use of multiple pattern providers scattered all throughout your base, which is why it's useful to have a &bPattern Access Terminal&f to remotely access the contents of any and all providers on your wider ME network.",
 	"atm9.quest.ae2.desc.growth": "Naturally, AE2 provides its own way to dramatically speed up crystal growth.\\n\\n Place these around your Budding Crystals, give them some power, and watch your crystals grow!",
 	"atm9.quest.ae2.desc.patterns": "&bPatterns&f are what hold an encoded recipe to be fulfilled by a Pattern Provider. To encode a recipe onto a Pattern, the &bME Pattern Encoding Terminal&f must be used.\\n\\n Patterns can be set to hold either a regular &ecrafting&f recipe, which will require the use of a &eMolecular Assembler&f on the face of its Provider, or a more general '&eprocessing&f' recipe, wherein any input items can be sent out by the provider into some other machine block or specialised processing plant.",
@@ -1089,7 +1104,7 @@
 	"atm9.quest.ae2.desc.matter": "As for wirelessly expanding the ME Network itself, the first step is admittedly somewhat unorthodox.\\n\\n The &bMatter Condenser&f is AE2's take on a trash can, voiding any items inserted into it. When fitted with a &eStorage Component&f, however, the condenser can harness some left-over energy from the item being voided and store it to make two special crafting items out of enough concentrated energy.\\n\\n The first of these two items is the &bMatter Ball&f, requiring at least a 1k storage component and 256 items' worth of voided material.",
 	"atm9.quest.ae2.desc.antimatter": "When using a 64k storage component or higher, the Matter Condenser becomes able to condense significantly more to produce a &bSingularity&f. A single singularity requires 256000 items to be voided. That's exactly &o4000 stacks&r!\\n\\n See what happens when you throw this singularity on the ground with a piece of &eender dust&f. You'll have to deal some damage to the surroundings while you're at it, but thankfully AE2 offers its own &bTiny TNT&f to minimise that.",
 	"atm9.quest.ae2.desc.quantum": "If you did that last quest correctly, you should have turned that singularity into a pair of &bQuantum Entangled Singularities&f. These new singularities are used to link together a ring-shaped device known as a &eQuantum Network Bridge&f.\\n\\n When two of these individual rings have been linked using the Quantum Entangled Singularities and jumpstarted with some AE power (e.g. an energy cell), an ME network can be expanded wirelessly on the other side of the bridge, across either long distances or even dimensions.",
-	
+
 	"atm9.quest.ae2.subt.AE2": "Virtual Storage System",
 	"atm9.quest.ae2.subt.wrench": "Does exactly what you'd expect.",
 	"atm9.quest.ae2.subt.first": "Some basic machines",
@@ -1129,7 +1144,7 @@
 
 	"atm9.quest.ae2.img.star": "Needed For The ATM Star",
 
-	
+
 	"atm9.quest.rs.refined": "&dRefined Storage",
 	"atm9.quest.rs.security": "Security Manager",
 	"atm9.quest.rs.grid": "Grid Networks",
@@ -1296,7 +1311,7 @@
 	"atm9.quest.spawner.entity": "Entity Spawner",
 	"atm9.quest.spawner.soulium": "Soulium Spawner",
 	"atm9.quest.spawner.pressurized": "Pressurized Spawner",
-	
+
 	"atm9.quest.spawner.desc.apotheosis": "Apotheosis is quite a big mod so I'm dividing it in 3 quests chapters. The Enchanting and Affixes will be separate. This one is for normal game changes.",
 	"atm9.quest.spawner.desc.changes": "Apotheosis adds some small changes to Minecraft, don't worry all are good and helpful!",
 	"atm9.quest.spawner.desc.anvil": "Some of the items changed with Apotheosis is Enchantments for Anvils and Shears. Shears can now use the normal enchants but now including fortune and new enchants. Shears can get Growth Serum, Chromatic Aberation, and Workers Explotiation. You can discover what they do yourself. The Anvils can now be enchanted with Unbreaking and new enchants as well! Splitting and Obleritation. Both are used on the anvil then use the Enchanted Anvil to drop it on an Enchanted Book.",
@@ -1327,15 +1342,15 @@
 	"atm9.quest.spawner.desc.entity": "Mob Grinding Utils is all about Mob Farming so of course it has a Spawner! The Entity Spawner! It'll need 3 things to work though: a Spawn Egg, XP Jelly Babies, and a Redstone signal. XP Jelly Babies are made by processing XP through a XP Solidifier with the XP Mould Jelly Baby. They can be eaten or used as Fuel in the second slot. Once you have the Spawn Egg in the top slot, XP Jelly Babies in the Second, and a Redstone signal it'll start spawning the mobs!",
 	"atm9.quest.spawner.desc.soulium": "The Soulium Spawner is the Spawner gifted to us by Mystical Agriculture. It uses Mob Essense and Energy to spawn the mobs. Mob Essense is gotten through harvesting Mob Plants, made by Soul Jars. So you'll have to kill the mobs first.",
 	"atm9.quest.spawner.desc.pressurized": "Another one from PneumaticCraft? Oh this one is the actual Spawner I see. Like the Draconic Stabilized Spawner you'll need a Vanilla Spawner first. Once you have one, place a Spawner Extrator above the Spawner and give it below -0.5 Bars to get it to work. Once it's done it'll give you a Spawner Core filled with whatever mob was in it and it will leave you with an Empty Spawner. Then use the Empty Spawner to craft a Pressurized Spawner and then put the Spawner Core into it. (To upgrade the Core use a Vacuum Trap to suck up the mobs that will go into the Spawner Core). Once you do that the Spawner will now need Pressure to work, ignores Light Level, and is Redstone Activated.",
-	
+
 	"atm9.quest.spawner.subt.power": "EnderIO",
 	"atm9.quest.spawner.subt.agitator": "You're not leaving on my watch!",
 	"atm9.quest.spawner.subt.stabilized": "Draconic Evolution",
 	"atm9.quest.spawner.subt.entity": "Mob Grinting Utils",
 	"atm9.quest.spawner.subt.soulium": "Mystical Agriculture",
 	"atm9.quest.spawner.subt.pressurized": "PneumaticCraft",
-	
-	
+
+
 	"atm9.quest.farm.food": "Food and Farming",
 	"atm9.quest.farm.farming": "The Planter",
 	"atm9.quest.farm.grass": "Punch the Grass",
@@ -1347,10 +1362,6 @@
 	"atm9.quest.farm.sugar": "You so sweet.",
 	"atm9.quest.farm.cake": "You can have your Cake and Eat it too.",
 	"atm9.quest.farm.fish": "The Start of a Fisher",
-	"atm9.quest.farm.iron": "Iron Fishing Rod",
-	"atm9.quest.farm.gold": "Golden Fishing Rod",
-	"atm9.quest.farm.diamond": "Diamond Fishing Rod",
-	"atm9.quest.farm.neptune": "Neptunium Fishing Rod",
 	"atm9.quest.farm.book": "Making a Kitchen, with a book.",
 	"atm9.quest.farm.cookbook": "Cooking with the power of Diamonds",
 	"atm9.quest.farm.kitchen": "THE BEST THING SINCE SLICED BREAD",
@@ -1372,7 +1383,7 @@
 	"atm9.quest.farm.market": "Purchasing Farm Supplies",
 	"atm9.quest.farm.chicken": "The Chickens Must Go",
 	"atm9.quest.farm.egg": "I'm not gonna make an Egg pun",
-	
+
 	"atm9.quest.farm.desc.food": "Welcome to the Food and Farming chapter!\\n\\n Here, you'll find different ways for you to grow and make food!",
 	"atm9.quest.farm.desc.grass": "Let's gather some seeds.",
 	"atm9.quest.farm.desc.flax": "&2Flax Seeds&r are a great way to get string in the early game!",
@@ -1400,7 +1411,7 @@
 	"atm9.quest.farm.desc.wool": "Let's gather some pieces of wool!",
 	"atm9.quest.farm.desc.market": "Markets provide you with a villager than can sell you anything if you have the right amount of emeralds.\\n\\n Spoiler: It's usually just 1 Emerald per item. BUT THEY HAVE EVERYTHING.",
 	"atm9.quest.farm.desc.chicken": "Chickens will lay these naturally. I guess it's not really considered naturally...\\n\\n I guess the chickens are just getting... &oEggs-ercise!!!&r.",
-	
+
 	"atm9.quest.farm.subt.food": "Getting Started",
 	"atm9.quest.farm.subt.farming": "Just wait until you get machines for this...",
 	"atm9.quest.farm.subt.grass": "Block Hand 1, Block Grass 0",
@@ -1425,8 +1436,8 @@
 	"atm9.quest.farm.subt.market": "The villager has more than one way to spawn",
 	"atm9.quest.farm.subt.chicken": "or am I?",
 	"atm9.quest.farm.subt.egg": "How else do you think Fried Chicken is made?",
-	
-	
+
+
 	"atm9.quest.hostile.welcome": "Welcome to &9Hostile Neural Networks&r!",
 	"atm9.quest.hostile.learn": "&aLearning Mobs&r",
 	"atm9.quest.hostile.modeling": "&9Modeling Mobs&r",
@@ -1437,7 +1448,7 @@
 	"atm9.quest.hostile.end": "Generalized End Prediction", 
 	"atm9.quest.hostile.twilight": "Generalized Twilight Prediction",
 	"atm9.quest.hostile.loot": "Creating &dLoot&r",
-	
+
 	"atm9.quest.hostile.desc.welcome": "&6Hostile Neural Networks&r (or HNN for short) is a mod based around simulating mob kills for loot!\\n\\n To do this, you will be collecting 'data' on mobs, then running simulations from the data to create their drops!",
 	"atm9.quest.hostile.desc.learn": "The &9Deep Learner&r is one of the core components of HNN.\\n\\n With this item, you can right click to open up a HUD and store &6Data Models&r to gather data while killing mobs.\\n\\n Each Learner can hold 4 Data Models, and as long as you have the Learner anywhere in your inventory, it will collect data for the models placed inside!\\n\\n Note: You can have multiple Deep Learners in your inventory, and it will count the kills for all Data Models inside all of the Learners.",
 	"atm9.quest.hostile.desc.modeling": "&9Model Frameworks&r are the starting point for creating Data Models.\\n\\n To start collecting data on a specific mob, you'll want to make one of these then &9right click&r the mob you'd like to gather data on. When done properly, the Model Framework will turn into the Data Model of the mob you clicked on.\\n\\n To 'gather data' for that mob, place the newly created Data Model inside of a &aDeep Learner&r, then start killing that specific mob with the Deep Learner in your inventory.",
@@ -1448,11 +1459,11 @@
 	"atm9.quest.hostile.desc.end": "Makes various End materials.", 
 	"atm9.quest.hostile.desc.twilight": "Makes various Twilight Forest materials.",
 	"atm9.quest.hostile.desc.loot": "The &5Loot Fabricator&r is the machine that gets you that sweet, sweet loot from Mob Predictions.\\n\\n When given power and a successful Mob Prediction, you will be able to choose which item you'd like to get from that mob's Data Model. The machine will remember your choice, so it can be automated.\\n\\n Notable Mob Predictions:\\n\\n - &dEnder Dragons&r for &dDragon Eggs&r\\n - &2Zombies&r for Iron\\n - &0Withers&r for &5Nether Stars&r",
-	
+
 	"atm9.quest.hostile.subt.learn": "The Learning HUD",
 	"atm9.quest.hostile.subt.modeling": "For 'Gathering Data'",
-	
-	
+
+
 	"atm9.quest.ma.Welcome": "&aWelcome to Mystical Agriculture!&r",
 	"atm9.quest.ma.inferiumtools": "Inferium Tools",
 	"atm9.quest.ma.inferiumarmor": "Inferium Armor",
@@ -1470,7 +1481,7 @@
 	"atm9.quest.ma.lilyfarm": "The Lilypad Farm",
 	"atm9.quest.ma.phytofarm": "The Phytogenic Insolator Farm",
 	"atm9.quest.ma.Upgrades": "Speed Up Your Phytos",
-	
+
 	"atm9.quest.ma.dec.Welcome": "Welcome to Mystical Agriculture, the place where you can farm most fundamental resources in the game!",
 	"atm9.quest.ma.dec.SoulSand": "To get started with Mystical Agriculture, we need Soul Sand. This was outlined in the &6&lGetting Started&r&r Quest Chapter.",
 	"atm9.quest.ma.desc.TheEnd": "The End happens to be completely normal in this empty world, and there happens to be plenty of Prosperity Ore there. If you're tired of sieving Soul Sand, go visit The End!",
@@ -1486,7 +1497,7 @@
 	"atm9.quest.ma.desc.IC": "You can farm a lot of crops by holding your ultimine keybind (default is `) and right clicking the crops. This will drop a lot of crops and the Item Collecter will come in handy by storing them in a chest for you!\\n\\n If you only have one pearl, multiply it using ProjectE first! Don't waste it here.",
 	"atm9.quest.ma.desc.FarmStart": "Plant your seeds, connect the Item Collector to a chest (preferably a Sophisticated  Storage Chest with Stack Upgrades), then spam &bsneak&r while holding your ultimine keybind and spamming &bright click&r!", 
 	"atm9.quest.ma.desc.Info": "Essences allow you to create a lot of useful stuff, ranging from anti-fall damage boots, to apples way better than even &denchanted golden apples&r. I &lhighly&r recommend checking out the chapters below even though they aren't necessary for progression.\\n\\n All of the following items are available for all tiers of essences, from Inferium to Supremium",
-	"atm9.quest.ma.desc.Furnace": "Just a better Furnace. Would recommend over iron furnaces if you don't have power.",
+	"atm9.quest.ma.desc.Furnace": "Just a better Furnace. Would recommend over Iron Furnaces if you don't have power.",
 	"atm9.quest.ma.desc.Coal": "Coal that burns longer, you can make it into blocks too.",
 	"atm9.quest.ma.desc.Weapons": "Inferium tools and weapons start off similar to Diamond, but get INSANELY strong later on. Augments can be used to give effects, definitely worth it",
 	"atm9.quest.ma.desc.Armor": "Just stronger Diamond armor. Augments allow for this armor to give insane effects.",
@@ -1551,8 +1562,66 @@
 	"atm9.quest.ma.subt.phytoultra": "&d&lTHE ULTIMATE PHYTO&r&r",
 	"atm9.quest.ma.subt.sink": "Infinite Water",
 	"atm9.quest.ma.subt.lazy": "The Lazy Option",
-	
-	
+
+
+    "atm9.quest.oreberries.oreberries": "Oreberries Replanted",
+    "atm9.quest.oreberries.makingBushes": "Making Oreberry Bushes",
+    "atm9.quest.oreberries.growingBerries": "Growing Oreberries",
+    "atm9.quest.oreberries.pottedBerries": "Potted Oreberries",
+    "atm9.quest.oreberries.vats": "Vats",
+    "atm9.quest.oreberries.autoJuicing": "Automated Juicing",
+    "atm9.quest.oreberries.farmingBerries": "Farming Oreberries",
+    "atm9.quest.oreberries.automated": "Automated Oreberries",
+
+    "atm9.quest.oreberries.desc.oreberries": "Oreberries Replanted adds a new way to generate common ores by growing them on bushes. It is intended for use in the early game. The mod is inspired by Oreberry Bushes from Tinker's Construct.\\n\\nTo get started you will need Oreberry Bushes, obtained via the Summoning Alter. Each recipe will require an Emerald.",
+    "atm9.quest.oreberries.desc.makingBushes.1": "All Oreberry Bushes are made the same way, by using the Summoning Alter. The recipe will be:",
+    "atm9.quest.oreberries.desc.recipe.1": "1. 1 Oak Leaves",
+    "atm9.quest.oreberries.desc.recipe.2": "2. 1 Bone Meal",
+    "atm9.quest.oreberries.desc.recipe.3": "3. 1 Glowstone Dust",
+    "atm9.quest.oreberries.desc.recipe.4": "2 Raw Ore/ Bottles o'Enchanting",
+    "atm9.quest.oreberries.desc.makingBushes.2": "Then put in an Emerald as the catalyst to craft your Oreberry Bushes.",
+    "atm9.quest.oreberries.desc.copper": "Scientists are still trying to figure out why it tastes like metal.",
+    "atm9.quest.oreberries.desc.iron": "It's Ironic that this pun is from the mod and not even from me.",
+    "atm9.quest.oreberries.desc.gold": "Piglins don't even accept these. Such a scam.",
+    "atm9.quest.oreberries.desc.tin": "Tin Man is just Iron Man without the heart. Prove me wrong.",
+    "atm9.quest.oreberries.desc.aluminum": "I'm more of a Milk Chocolate kind of guy myself.",
+    "atm9.quest.oreberries.desc.silver": "Use something less pure if you want your Vampire friends back.",
+    "atm9.quest.oreberries.desc.essence": "Technically not an 'Oreberry' however I will still refer to it as an Oreberry in these quests.",
+    "atm9.quest.oreberries.desc.zinc": "I swear these aren't even my puns...",
+    "atm9.quest.oreberries.desc.osmium": "I bet you're singing now, am I right?",
+    "atm9.quest.oreberries.desc.nickel": "If i have a Nickel for every time I had to copy puns into these quests I would have 12 Nickels. Which isn't a lot but it's weird that I still have a soul.",
+    "atm9.quest.oreberries.desc.lead": "Unfortunately just like the rest of the Oreberries, they aren't edible.",
+    "atm9.quest.oreberries.desc.uranium": "I think Uranium might be radioactive...just a hunch though.",
+    "atm9.quest.oreberries.desc.growingBerries": "To grow the actual Oreberries simply place down your Oreberry Bush and wait. After a while it will start growing like Sweet Berries do and you will be able to harvest them.\\n\\nYou can now smelt your Oreberries for one Metal Nugget each. If you grew Essence Berries simply right-click to gain some experience.\\n\\nNote: Smelting Oreberries in a Restone Furnace will always give you Iron Nuggets, no matter what Oreberry you're smelting...Magic.",
+    "atm9.quest.oreberries.desc.pottedBerries": "Oreberry Bushes can be placed into pots and used for decoration.",
+    "atm9.quest.oreberries.desc.vats.1": "Instead of smelting you're Oreberries, you can squish them for more Nuggets!\\n\\nStart by making a Vat and placing it down. Now put some Oreberries in it and walk in the middle of it, you should start automatically jumping. Jumping on the berries will turn them into Oreberry Juice (Each berry = 150-200mb). You will notice the juice starts evaporating and leaving behind Nuggets (1 Nugget = 100mb of Juice). This doesn't work with Essence Berries.\\n\\nNote: You can use a Time in a Bottle to speed up this process.",
+    "atm9.quest.oreberries.desc.vats.2": "Congratulations, you've almost doubled your output!",
+    "atm9.quest.oreberries.desc.autoJuicing.1": "You can automate the use of vats very easily. All you will need is a Hopper, a Chest and a trapped mob.",
+    "atm9.quest.oreberries.desc.autoJuicing.2": "This works by having your trapped mob (a Zombie, not all mobs work) stuck in the Vat, causing it to automatically jump and squish your Berries. Remember to Name Tag it so it doesn't despawn.",
+    "atm9.quest.oreberries.desc.farmingBerries.1": "Oreberry Bushes can be placed as closely next to each other as you wish, meaning you could recreate the image below if you wished.",   	"atm9.quest.oreberries.desc.farmingBerries.2": "Note: Oreberries grow at the same speed no matter the light level at where they are placed.",
+	"atm9.quest.oreberries.desc.click": "An incredibly easy and simple way of automating Oreberries can be done using a Click Machine as shown in this image. No this isn't the best automation, but it is probably one of the simplest.",
+   	"atm9.quest.oreberries.desc.automated": "If you set up a farm that funnels items into your automated juicing setup you can fully automate the production of Oreberries.",
+
+    "atm9.quest.oreberries.subt.makingBushes": "The Crafting Components",
+    "atm9.quest.oreberries.subt.copper": "Tastes like metal",
+    "atm9.quest.oreberries.subt.iron": "Sweet Irony",
+    "atm9.quest.oreberries.subt.gold": "To barter for",
+    "atm9.quest.oreberries.subt.tin": "Tin Man",
+    "atm9.quest.oreberries.subt.aluminum": "White Chocolate",
+    "atm9.quest.oreberries.subt.silver": "Now with less Werewolves",
+    "atm9.quest.oreberries.subt.essence": "Tastes like Creeper",
+    "atm9.quest.oreberries.subt.zinc": "Let that one Zinc in",
+    "atm9.quest.oreberries.subt.osmium": "I am Blue Da ba dee da ba di",
+    "atm9.quest.oreberries.subt.nickel": "If I had a Nickel for every...",
+    "atm9.quest.oreberries.subt.lead": "Would not eat, may be poisonous",
+    "atm9.quest.oreberries.subt.uranium": "RADIOACTIVE, RADIOACTIVE!",
+    "atm9.quest.oreberries.subt.growingBerries": "No, they aren't edible...(I've tested)",
+    "atm9.quest.oreberries.subt.vats": "1 Berry to 1.5-2 Nuggets",
+    "atm9.quest.oreberries.subt.autoJuicing": "With the help of slaves!",
+    "atm9.quest.oreberries.subt.farmingBerries": "Important Information",
+    "atm9.quest.oreberries.subt.click": "No Autoclickers! Ban!",
+    "atm9.quest.oreberries.subt.automated": "No more Manual Labor! (For you)",
+
     "atm9.quest.productiveBees.advancedBeehive": "Advanced Beehives",
     "atm9.quest.productiveBees.desc.nests.1": "Wood Nests are used to lure Carpenter Bees and the Blue Banded Bee.",
     "atm9.quest.productiveBees.desc.nests.2": "Dark Oak Nests lures 3 different bees.",
@@ -2132,7 +2201,7 @@
 	"atm9.quest.biggerR.coilList": "List of Turbine Coils and Properties",
 
 	"atm9.quest.biggerR.desc.welcome.1": "Based off the original mod &eBig Reactors&r, this mod aims to provide fun and engaging power systems by making customizable multi-block reactors.",
-	"atm9.quest.biggerR.desc.welcome.2": "The main element is of course, Uranium (which you can get from sieving Deepslate). You'll need this and a lot of coal and iron to get building.",
+	"atm9.quest.biggerR.desc.welcome.2": "The main element is of course, Uranium (which you can get from sieving Deepslate). You'll need this and a lot of Coal and Iron to get building.",
 	"atm9.quest.biggerR.desc.graphite": "Before we can start building our reactor, we'll need to smelt some coal (or Charcoal) to create &9Graphite Ingots&r.\\n\\nGraphite, coupled with Iron, is one of the main materials when making a Reactor.",
 	"atm9.quest.biggerR.desc.components": "To build a reactor, you'll need to start by making &6Reactor Casings&r.\\n\\nThese make up the frame and walls of your reactor, although the walls can be replaced by &9Reactor Glass&r if you'd like to see inside of your reactor.",
 	"atm9.quest.biggerR.desc.control": "There are several optional blocks you can make to control your reactor.\\n\\nThe &cRedstone Port&r allows you to control your reactor with redstone. This means levers, buttons, etc.\\n\\nThe &9Computer Port&r allows for control of the reactor using Lua scripts from mods like &eComputerCraft&r.",
@@ -2147,7 +2216,7 @@
 	"atm9.quest.biggerR.desc.moderatorsM": "- Moderation: The effectiveness at which radiation is moderated.",
 	"atm9.quest.biggerR.desc.moderatorsC": "- Conductivity: How well heat is transferred from the fuel rods to the reactor casing.",
 	"atm9.quest.biggerR.desc.moderators.2": "Typically, the rarer the material is, the better of a Moderator it is. &dUnobtainium Blocks&r are considered one of the best moderators.",
-	"atm9.quest.biggerR.desc.moderators.3": "Adding these inside of your reactor can increase the overall performance and output of your reactor. Try using diamond blocks in the early game!",
+	"atm9.quest.biggerR.desc.moderators.3": "Adding these inside of your reactor can increase the overall performance and output of your reactor. Try using Diamond Blocks in the early game!",
 	"atm9.quest.biggerR.desc.moderatorList": "For a full list of all Reactor Moderators and their properties, click on the link to the top-right of this quest.",
 	"atm9.quest.biggerR.desc.expanding": "Reactors are multi-block structures, meaning you can create your own custom size!\\n\\nThe &lBiggest&r Reactor that you can make is 128x128x192. There are a lot of variables that contribute to the overall output of a reactor, so make sure to experiment!\\n\\nSome overall tips:\\n\\nThe taller the reactor, the more fuel it can hold and burn because there are more fuel rods, meaning more overall power. This also means a higher &9burn rate&r.\\n\\nThe wider the reactor, the more efficient it is, as long as you don't add more fuel rods to the design. This means less consumption overall.",
 	"atm9.quest.biggerR.desc.waste": "Just as you'll need to pump in Fuel, burning Uranium creates a byproduct of &9Cyanite&r as a waste.\\n\\nNote: &eCyanite Dust&r is craftable.",
@@ -2244,8 +2313,8 @@
     "atm9.quest.create.desc.superGlue": "&n&5Super Glue&r can be used to attach blocks to each other to move them with pistons or other means.",
     "atm9.quest.create.desc.belts.1": "&n&5Belts&r can be placed between two &n&5Shafts&r to transfer mobs/items or to simply transfer rotational energy from one point to another.",
     "atm9.quest.create.desc.belts.2": "The &n&5Shafts&r must be at either 45, 90 or 180 degrees from each other.",
-	
-	
+
+
 	"atm9.quest.draconic.endstone": "&l&5Draconic Evolution&r",
 	"atm9.quest.draconic.dust": "&5Draconium Dust&r",
 	"atm9.quest.draconic.ore": "It used to come from here!",
@@ -2387,7 +2456,7 @@
 	"atm9.quest.draconic.fuel": "Fuel for our Reactor",
 	"atm9.quest.draconic.power": "A jump start",
 	"atm9.quest.draconic.on": "Activating the Reactor",
-	
+
 	"atm9.quest.draconic.desc.endstone": "Welcome to &5Draconic Evolution&r, a very fun and OP mod! To get started you'll need Endstone to crush and sieve. You can make some with Barrel mixing or find it in &dThe End&r.",
 	"atm9.quest.draconic.desc.dust": "Sieving Crushed Endstone can rarely get you &5Draconium Dust&r. This is needed for most recipes and can be smelted to get &5Draconium Ingots&r. These are 1 of the 2 important Ingots from &5DE&r, the other comes from &6Awakened Draconium Blocks&r.",
 	"atm9.quest.draconic.desc.ore": "Don't feel like sieving? You can always find the ore in &dThe End&r and mine it!",
@@ -2715,11 +2784,11 @@
     "atm9.quest.mekanism.desc.poweredItemCharger.1": "Standing on this item will charge up any powered item from any mod.",
     "atm9.quest.mekanism.desc.poweredItemCharger.2": "This is also needed for the Robit.",
     "atm9.quest.mekanism.desc.antimatterPellets.1": "Now that we have some experience working with more advanced machinery, it's time to move towards making &dAntimatter Pellets&r.",
-    "atm9.quest.mekanism.desc.antimatterPellets.2": "These create several &5End Game&r items, including the &6ATM Star&r. To learn all about Reactors and more, head over to the &aMekanism&r: &dReactors&r questline!",
+    "atm9.quest.mekanism.desc.antimatterPellets.2": "These create several &5End Game&r items, including the &6ATM Star&r. To learn all about Reactors and more, head over to the &aMekanism&r: &dAdvanced&r questline!",
     "atm9.quest.mekanism.thePathToReactors": "The Path to Reactors",
     "atm9.quest.mekanism.advancedMekanism": "&dAdvanced Mekanism&r",
-	
-	
+
+
 	"atm9.quest.mekanismReactors.fusionReactor": "Fusion Reactor",
 	"atm9.quest.mekanismReactors.industrialTurbine": "Industrial Turbine",
 	"atm9.quest.mekanismReactors.fissionReactor": "Fission Reactor",
@@ -2934,6 +3003,9 @@
 	"atm9.quest.mekanismReactors.completingMatrix": "&aCompleting the&r &9Matrix&r",
 
 
+	"atm9.quest.pneumatic.desc.pneumatic": "&aPneumaticCraft&r is all about Pressure!\\n\\n To get started, you'll need to craft some &3Compressed Iron Ingots&r! The easiest way to do this is to make a hole in the ground, throw in some iron ingots (or blocks) and then blow it up with some TNT!\\n\\n Some might get lost in the explosion, but that's a risk we'll have to take!",
+
+
 	"atm9.quest.powah.desc.intro.1": "&9Powah&r is a tech mod that's all about generating, storing, and transmitting &dPower&r. Ranging from basic FE generation to &aReactors&r that produce &b250k FE/t&r, Powah has you covered!",
     "atm9.quest.powah.desc.intro.2": "To get started, go out and Energize some Uranium into &aUraninite&r!",
     "atm9.quest.powah.welcome": "&aWelcome to&r &9Powah&r!!!",
@@ -2986,7 +3058,7 @@
 	"atm9.quest.powah.uraninite": "Making Uraninite",
 	"atm9.quest.powah.desc.uraninite": "Since we are in the sky we can't mine Uraninite we have to make it. First get Uranium from Sieving Deepslate. Then use the Energizing we learned from last quest to Energize Uranium into Uraninite! Now your Reactor Fuel is ready.",
 
-	
+
 	"atm9.quest.thermalExpansion.desc.modIntro": "Thermal Series is a modular series of mods that adds a content-rich blend of magic and technology to your Minecraft experience!",
     "atm9.quest.thermalExpansion.welcome": "Welcome to the &9Thermal Series&r!",
     "atm9.quest.thermalExpansion.desc.redstoneFurnaceFeatures.1": "The Redstone Furnace uses RF/FE instead of Coal to smelt items.",
@@ -3073,8 +3145,8 @@
     "atm9.quest.thermalExpansion.subt.earlyGameMiningGadget": "An Early-Game Mining Gadget",
     "atm9.quest.thermalExpansion.subt.rfPoweredHandsaw": "RF-Powered Handsaw!",
     "atm9.quest.thermalExpansion.subt.tier4BaseUpgrade": "Tier 4 Base Upgrade",
-	
-	
+
+
 	"atm9.quest.xycraft.dust": "&lXyCraft&r",
 	"atm9.quest.xycraft.blue": "&bBlue Gems&r",
 	"atm9.quest.xycraft.green": "&aGreen Gems&r",
@@ -3101,7 +3173,7 @@
 	"atm9.quest.xycraft.box": "Soaryn Box",
 	"atm9.quest.xycraft.collector": "Collector",
 	"atm9.quest.xycraft.container": "Void Container",
-	
+
 	"atm9.quest.xycraft.desc.dust": "&lWelcome to XyCraft!&r\\n\\nThis series of mods is mostly dedicated to XyCraft: World and Machines!\\nWorld gives us the Gems which can be obtained from sieving Dust.",
 	"atm9.quest.xycraft.desc.igneous": "The Igneous Extruder is a Thermal Machine but is the only way of getting Kivi without having Kivi. Place the Ingeous Extruder down, but Obsidian below it, and Water and Lava on it's sides. It will start spawning Items into it's inventory, it doesn't need power.",
 	"atm9.quest.xycraft.desc.kivi": "Kivi can be used for a couple of things, mainly decoration or machines. You'll need Kivi for Machine Frames and the other Machines with XyCraft. It can also be used with Xy Gems and stonecutting for Deco.",
@@ -3123,7 +3195,7 @@
 	"atm9.quest.xycraft.desc.box": "The Soaryn Box (Soaryn is the name of the Creator of XyCraft) is the chest of XyCraft. It will not hold items off breaking the block! I wonder what those Squares on it does...",
 	"atm9.quest.xycraft.desc.collector": "The Collector works as a very cheap Absorption Hopper. It will pick up all items within a 3 block radius and put it in the Inventory below or it's own. It can be turned off with Redstone!",
 	"atm9.quest.xycraft.desc.container": "The Void Container makes any Inventory a Trash Can. Put it on top of the Inventory and BOOM no more items!",
-	
+
 	"atm9.quest.xycraft.subt.blue": "The B in Roy G. Biv",
 	"atm9.quest.xycraft.subt.green": "Roy Biv's middle name",
 	"atm9.quest.xycraft.subt.red": "The R in Roy G. Biv",
@@ -3131,8 +3203,8 @@
 	"atm9.quest.xycraft.subt.light": "Too much light!",
 	"atm9.quest.xycraft.subt.water": "Ice?",
 	"atm9.quest.xycraft.subt.balloon": "Up!",
-	
-	
+
+
 	"atm9.quest.enchant.enchant": "Enchanting with Apotheosis",
 	"atm9.quest.enchant.book": "Vanilla Max is just the start",
 	"atm9.quest.enchant.hellshelf": "&4Hellshelves&r",
@@ -3164,7 +3236,7 @@
 	"atm9.quest.enchant.pearlescent": "&dPearlescent Endshelf&r",
 	"atm9.quest.enchant.draconic": "&dDraconic Endshelf&r",
 	"atm9.quest.enchant.perfect": "&l&6Best Enchanting set-up&r",
-	
+
 	"atm9.quest.enchant.desc.enchant": "Enchanting gets a few changes with Apotheosis. To summarize it, 15 bookshelves won't be enough now. There's new bookshelves and actions you can do with Enchantment Tables now and hopefully these quests will help you understand.",
 	"atm9.quest.enchant.desc.book": "Bookshelves are your starting point, but definitely not your end point. Atleast not normal bookshelves. With only normal bookshelves you can only get &aEterna&r up and to a max of 15. (I will explain the Enchantment Levels soon but just know you need them up)",
 	"atm9.quest.enchant.desc.infusion": "Infusion is a special version of Enchanting which ironically is used for better enchantments. When the right amount of &aEterna&r, &cQuanta&r, and &5Arcana&r is reached the enchantments will offer Infusion. (To know the Levels needed you can check JEI or follow these Quests).",
@@ -3198,8 +3270,8 @@
 	"atm9.quest.enchant.desc.perfect": "Ever want THE most perfect Enchants? Then this is the setup you need, for 100%% everything. &95 Echoing Skulkshelves&r, &95 Soul-Touched Sculkshelves&r, and &d1 Draconic Shelf&r will get you &a50 Eterna&r, &c100%% Quanta&r, &5100%% Arcana&r and &96 Enchanting Clues&r. &e3 Shelves of End Fused Rectification&r will give &e100%% Rectification&r. And &6Deepshelf of Arcane Treasures&r will top it all off with &6Treasure Enchantments&r.",
 
 	"atm9.quest.enchant.img.guide": "Github Guide for Apotheosis Enchanting",
-	
-	
+
+
 	"atm9.quest.arsNouveau.welcome": "Welcome to &aArs Nouveau&f!",
     "atm9.quest.arsNouveau.desc.magicModIntro": "Ars Nouveau is a magic mod that allows you to create custom spells with the different Glyphs made within the mod!",
     "atm9.quest.arsNouveau.arsNouveau": "Ars Nouveau",
@@ -3324,8 +3396,8 @@
     "atm9.quest.arsNouveau.desc.castersWand.1": "The &9Caster's Wand&r only accepts a single spell, and is inscribed using the Scribe's Table.",
     "atm9.quest.arsNouveau.desc.castersWand.2": "Wand spells always start with Projectile > Accelerate, and MUST be inscribed with a spell that does not have another method (like touch, self, etc).",
     "atm9.quest.arsNouveau.desc.castersWand.3": "This allows you to cast spells beyond the 10 spell cap. If you want to use Break, just inscribe the wand with Break by itself.",
-	
-	
+
+
 	"atm9.quest.bloodMagic.desc.welcome.1": "Welcome to &cBlood Magic&f!",
     "atm9.quest.bloodMagic.desc.welcome.2": "This mod is all about using the Blood of your enemies (or yourself) to create powerful items and networks!",
     "atm9.quest.bloodMagic.desc.welcome.3": "The guidebook contains all of the information about the mod if you ever need any help.",
@@ -3347,7 +3419,7 @@
     "atm9.quest.bloodMagic.upgradingAltarTier2": "Upgrading Our Altar to Tier 2",
     "atm9.quest.bloodMagic.desc.upgradeJourney.1": "With our Altar now at Tier 2, we can make even better Runes. We'll need some Reinforced slate to continue our journey in Blood Magic, including doing some Rituals.",
     "atm9.quest.bloodMagic.desc.weakBloodOrbFeatures.1": "The &9Weak Blood Orb&r is used to store blood (or LP). It can be used as a way to transport blood to and from Altars. It also is used in several crafting recipes.",
-    "atm9.quest.bloodMagic.desc.weakBloodOrbFeatures.2": "To craft this, you'll need to place a diamond on top of the Blood Altar, then generate enough LP to craft it.",
+    "atm9.quest.bloodMagic.desc.weakBloodOrbFeatures.2": "To craft this, you'll need to place a Diamond on top of the Blood Altar, then generate enough LP to craft it.",
     "atm9.quest.bloodMagic.desc.weakBloodOrbFeatures.3": "To charge a Blood Orb, you can right-click to sacrifice some of your health to the Orb. This also links your Soul to your Soul Network. :)",
     "atm9.quest.bloodMagic.desc.weakBloodOrbFeatures.4": "You can also place the Orb in a Blood Altar that has some LP in it. It'll drain faster the more Speed Runes it has.",
     "atm9.quest.bloodMagic.subt.weakBloodOrbCapacity": "Holds a max of 5k LP",
@@ -3475,8 +3547,8 @@
     "atm9.quest.bloodMagic.desc.livingEquipment.3": "It starts off as the equivalent of Iron, but has Upgrade Points that can be spent to train it in specific ways. It starts with 100, but there are ways to increase this limit.",
     "atm9.quest.bloodMagic.desc.livingEquipment.4": "As you use it, it will \\\"learn\\\" from you. You can see what it has learned so far by holding left shift while looking at it.",
     "atm9.quest.bloodMagic.livingArmor": "Living Armor",
-	
-	
+
+
 	"atm9.quest.botania.desc.pureDaisyIntro": "The &aPure Daisy&r is one of the first flowers you'll create!",
     "atm9.quest.botania.desc.pureDaisyFunction.1": "This flower will convert up to 8 nearby &2Wooden Logs&r or &9Stone&r into &2Livingwood&r or &9Livingrock&r, respectively. This only converts in a 1 block radius around the flower.",
     "atm9.quest.botania.firstFlower": "Our First Flower",
@@ -3657,8 +3729,8 @@
     "atm9.quest.botania.desc.gaiaTrinkets.2": "You can find all of the descriptions within the &aLexica Botania&r.",
     "atm9.quest.botania.gaiaTrinkets": "Gaia Trinkets",
     "atm9.quest.botania.gaiaGearAndTrinkets": "&aGaia Gear and Trinkets&r",
-	
-	
+
+
 	"atm9.quest.forbiddenAndArcanus.desc.newArmor.1": "Forbidden and Arcanus adds new ways to get better armor, enchants, and more!",
     "atm9.quest.forbiddenAndArcanus.desc.newArmor.2": "This magic-themed mod has amazing animations, as well as some overpowered items like the &6Eternal Stella&r.",
 	"atm9.quest.forbiddenAndArcanus.desc.newArmor.3": "To get started you'll need Darkstone. Now we can't really mine for it so we'll need to create some! With Lava, Blue Ice, and Obsidian you can make some.",
@@ -3774,8 +3846,8 @@
     "atm9.quest.forbiddenAndArcanus.desc.upgradingForgeFeatures.1": "The &dHephaestus Forge&r can be upgraded into higher tiers using things like Spawner Scraps, Arcane Crystals, and more!",
     "atm9.quest.forbiddenAndArcanus.desc.upgradingForgeFeatures.2": "You'll need higher tiers to make some of the higher tier items, like the &aEternal Stella&r. Make sure to check out JEI for more info!",
     "atm9.quest.forbiddenAndArcanus.upgradingTheForge": "&dUpgrading The Forge&r",
-	
-	
+
+
 	"atm9.quest.force.forcecraft": "&l&eForceCraft&r",
 	"atm9.quest.force.ingot": "&eForce Ingot&r",
 	"atm9.quest.force.pack": "&eForce Pack&r",
@@ -3839,7 +3911,7 @@
 	"atm9.quest.force.engine": "Force Engine",
 	"atm9.quest.force.inert": "Used up Nether Star",
 	"atm9.quest.force.wither": "Bottled Wither",
-	
+
 	"atm9.quest.force.desc.forcecraft": "Say 'Helllo' to ForceCraft!\\n\\nThis mod focuses on the power of Force and using it to Infuse items!\\n\\nEverything is yellow!",
 	"atm9.quest.force.desc.ingot": "Force Ingots are what most tools and items will be made of. Listen carefully though, the recipe is kinda confusing. You take 1 Force Gem and either 2 Gold Ingots or 2 Iron Ingots and you get Force Ingot!",
 	"atm9.quest.force.desc.pack": "Force Pack acts as a Backpack but with limited space and can't be placed on you. You can upgrade them with Infusion through ForceCraft to increase their space. Shift Right Click to change color and name of it!",
@@ -3903,8 +3975,8 @@
 	"atm9.quest.force.desc.engine": "The Force Engine is... well the only Energy producing block in ForceCraft. It needs 2 things to make Energy, Fuel and a Redstone Signal. The Fuel can be Liquid Force, Lava, or some other mods Fuel. It will give Energy to where it was placed down facing. It also has a second Liquid spot which helps it become more efficient. Water makes it 2 times efficient and Milk by 2.5 times.",
 	"atm9.quest.force.desc.inert": "The Force Engine can use more than just liquids, it can also use a Nether Star! By putting one in the Engine you can make tons of power. But once it's drained you're left with an Inert Core which can be used by...",
 	"atm9.quest.force.desc.wither": "Setting the Inert Core on Fire and Right Clicking it with a Force Rod you'll get a Bottled Wither. It will spawn a Wither ready to fight when Right Clicked on the ground. No waiting, no initial explosion, just Wither.",
-	
-	
+
+
 	"atm9.quest.occultism.shubNiggurathFamiliar": "&5Shub Niggurath&r Familiar",
     "atm9.quest.occultism.drikwingFamiliar": "&2Drikwing&r Familiar",
     "atm9.quest.occultism.desc.welcome.1": "Welcome to &dOccultism&r!",
@@ -3979,9 +4051,6 @@
     "atm9.quest.occultism.desc.otherworldItems.1": "There are more Otherworld items you will need to gather, and eating &cDemon's Dream Fruit&r every time you need the &7Third Eye&r effect gets annoying.",
     "atm9.quest.occultism.desc.otherworldItems.2": "This is what the &dOtherworld Goggles&r are for! When equipped (even in your Curios slot), it gives the Third Eye effect!",
     "atm9.quest.occultism.quitEatingFruit": "Quit Eating That Fruit!",
-    "atm9.quest.occultism.desc.newTools.1": "Most of the items we've needed from the &3Otherworld&r so far just needed some Spiritfire. However, we will need to use the help of the &3Third Eye&r to find the Metal of the &3Otherworld&r.",
-    "atm9.quest.occultism.desc.newTools.2": "We'll also need a special pickaxe to be able to mine it. For this, we'll need to Infuse a Demon into a &dSpirit Attuned Pickaxe Head&r to create a pickaxe that can break this new kind of ore.",
-    "atm9.quest.occultism.newToolsForNewOres": "New Tools for New Ores",
     "atm9.quest.occultism.desc.findIesnium.1": "The next step in your journey will be to get some Raw &eIesnium Ore&r.",
 	"atm9.quest.occultism.desc.findIesnium.2": "Since this is a skyblock and of course the Nether is a void dimension, you will get this by sieving Blackstone!",
     "atm9.quest.occultism.iesniumOreOtherworld": "&cIesnium: Metal of the Otherworld&r",
@@ -4022,10 +4091,10 @@
     "atm9.quest.occultism.desc.demonsAndFamiliars.3": "There are also ways to summon cool friends known as &dFamiliars&r that give special buffs and even fight for you! Make sure to check out the &dFamiliar Rituals&r in your guide book!",
     "atm9.quest.occultism.familiars.1": "Familiars",
     "atm9.quest.occultism.familiars.2": "&dFamiliars&r",
-	
-	
+
+
     "item.kubejs.micro_universe_catalyst.tooltip": "Forged in the fire of a thousand suns.",
 	"kubejs.apiary_ii.tooltip.bee_requirements": "Requires Very High, Any, Metaturnal bees to run.",
-	"kubejs.apiary_i.tooltip.bee_eater": "Occasionally eats the bees."
-	
+	"kubejs.apiary_i.tooltip.bee_eater": "Occasionally eats the Bees."
+
 }

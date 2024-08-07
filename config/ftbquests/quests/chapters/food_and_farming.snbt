@@ -119,9 +119,17 @@
 			size: 1.5d
 			subtitle: "{atm9.quest.farm.subt.food}"
 			tasks: [{
-				dimension: "minecraft:overworld"
-				id: "3B94A540E1653AB0"
-				type: "dimension"
+				icon: "minecraft:carrot"
+				id: "7F993924F0D679A3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops"
+					}
+				}
+				title: "Any #forge:crops"
+				type: "item"
 			}]
 			title: "{atm9.quest.farm.food}"
 			x: 0.5d
@@ -346,7 +354,7 @@
 				item: "minecraft:egg"
 				type: "item"
 			}]
-			title: "{atm9.quest.farm.chicken}"
+			title: "{atm9.quest.farm.egg}"
 			x: 4.0d
 			y: 1.0d
 		}
@@ -380,7 +388,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.farm.egg}"
+			title: "{atm9.quest.farm.chicken}"
 			x: 6.0d
 			y: 1.0d
 		}
@@ -411,9 +419,16 @@
 			size: 1.25d
 			subtitle: "{atm9.quest.farm.subt.farming}"
 			tasks: [{
-				id: "78772A2785AE9DD2"
-				title: "The Planter"
-				type: "checkmark"
+				id: "390FC97A4954D712"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:hoes"
+					}
+				}
+				title: "Any #minecraft:hoes"
+				type: "item"
 			}]
 			title: "{atm9.quest.farm.farming}"
 			x: -1.5749999999999997d

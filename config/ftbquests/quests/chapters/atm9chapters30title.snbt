@@ -12,7 +12,7 @@
 		rotation: 0.0d
 		width: 21.63d
 		x: 0.0d
-		y: -10.5d
+		y: -11.5d
 	}]
 	order_index: 2
 	progression_mode: "flexible"
@@ -720,7 +720,7 @@
 			description: [
 				"{atm9.quest.start3.desc.bees}"
 				""
-				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"26E6ED94168A05C4\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"5D1ED06D1FA06FA9\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 			]
 			hide: true
 			icon: "minecraft:honeycomb"
@@ -1854,7 +1854,7 @@
 			}]
 			title: "{atm9.quest.start3.start}"
 			x: 0.0d
-			y: -7.5d
+			y: -8.75d
 		}
 		{
 			dependencies: ["04ED71D67F75FE4C"]
@@ -1960,8 +1960,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 2.5d
-			y: -7.5d
+			x: 0.0d
+			y: -7.0d
 		}
 	]
 	title: "{atm9.chapters.30.title}"
