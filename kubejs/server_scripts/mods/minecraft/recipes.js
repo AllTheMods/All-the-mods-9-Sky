@@ -5,4 +5,16 @@ ServerEvents.recipes(event =>{
     c: "minecraft:phantom_membrane",
     d: "minecraft:nether_star"
   })
+
+
+        //netherite template
+       nadien.shaped('minecraft:netherite_upgrade_smithing_template', [
+        'TCT',
+        'TLT',
+        'TTT'
+      ], {
+        T: 'minecraft:nether_brick',
+        L: 'minecraft:ender_eye',
+        C: 'minecraft:nether_star'
+      })
 })
