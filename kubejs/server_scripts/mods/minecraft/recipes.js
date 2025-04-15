@@ -8,7 +8,7 @@ ServerEvents.recipes(event =>{
 
 
         //netherite template
-       nadien.shaped('minecraft:netherite_upgrade_smithing_template', [
+       event.shaped('minecraft:netherite_upgrade_smithing_template', [
         'TCT',
         'TLT',
         'TTT'
