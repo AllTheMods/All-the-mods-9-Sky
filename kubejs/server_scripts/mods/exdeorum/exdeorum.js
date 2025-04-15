@@ -11,6 +11,7 @@ ServerEvents.recipes(event => {
         let Deepslate = 'exdeorum:crushed_deepslate'
         let Blackstone = 'exdeorum:crushed_blackstone'
         let Moss = 'minecraft:moss_block'
+        let comSand = 'exdeorum:compressed_sand'
 
         let StringMesh = 'exdeorum:string_mesh'
         let FlintMesh = 'exdeorum:flint_mesh'
@@ -217,11 +218,60 @@ addSifting(Moss, GoldMesh, 'ars_elemental:yellow_archwood_sapling', 1, 0.1)
 addSifting(Moss, DiamondMesh, 'ars_elemental:yellow_archwood_sapling', 1, 0.1)
 addSifting(Moss, NetheriteMesh, 'ars_elemental:yellow_archwood_sapling', 1, 0.1)
 
+//mystical agriculture add
+ addSifting(SoulSand, IronMesh, 'mysticalagriculture:inferium_essence', 1, 0.3)
+ addSifting(SoulSand, DiamondMesh, 'mysticalagriculture:inferium_essence', 1, 0.3)
+ addSifting(SoulSand, GoldMesh, 'mysticalagriculture:inferium_essence', 1, 0.3)
+ addSifting(SoulSand, NetheriteMesh, 'mysticalagriculture:inferium_essence', 1, 0.3)
+
+//minecraft Add
+addSifting(comSand, StringMesh, 'minecraft:sculk_sensor', 1, 0.10)
+ addSifting(comSand, FlintMesh, 'minecraft:sculk_sensor', 1, 0.10)
+ addSifting(comSand, IronMesh, 'minecraft:sculk_sensor', 1, 0.10)
+ addSifting(comSand, GoldMesh, 'minecraft:sculk_sensor', 1, 0.10)
+ addSifting(comSand, DiamondMesh, 'minecraft:sculk_sensor', 1, 0.10)
+ addSifting(comSand, NetheriteMesh, 'minecraft:sculk_sensor', 1, 0.10)
+ addSifting(comSand, StringMesh, 'minecraft:sculk_catalyst', 1, 0.10)
+ addSifting(comSand, FlintMesh, 'minecraft:sculk_catalyst', 1, 0.10)
+ addSifting(comSand, IronMesh, 'minecraft:sculk_catalyst', 1, 0.10)
+ addSifting(comSand, GoldMesh, 'minecraft:sculk_catalyst', 1, 0.10)
+ addSifting(comSand, DiamondMesh, 'minecraft:sculk_catalyst', 1, 0.10)
+ addSifting(comSand, NetheriteMesh, 'minecraft:sculk_catalyst', 1, 0.10)
+ addSifting(comSand, StringMesh, 'minecraft:sculk_shrieker', 1, 0.10)
+ addSifting(comSand, FlintMesh, 'minecraft:sculk_shrieker', 1, 0.10)
+ addSifting(comSand, IronMesh, 'minecraft:sculk_shrieker', 1, 0.10)
+ addSifting(comSand, GoldMesh, 'minecraft:sculk_shrieker', 1, 0.10)
+ addSifting(comSand, DiamondMesh, 'minecraft:sculk_shrieker', 1, 0.10)
+ addSifting(comSand, NetheriteMesh, 'minecraft:sculk_shrieker', 1, 0.10)
+ addSifting(comSand, StringMesh, 'minecraft:echo_shard', 1, 0.10)
+ addSifting(comSand, FlintMesh, 'minecraft:echo_shard', 1, 0.10)
+ addSifting(comSand, IronMesh, 'minecraft:echo_shard', 1, 0.10)
+ addSifting(comSand, GoldMesh, 'minecraft:echo_shard', 1, 0.10)
+ addSifting(comSand, DiamondMesh, 'minecraft:echo_shard', 1, 0.10)
+ addSifting(comSand, NetheriteMesh, 'minecraft:echo_shard', 1, 0.10)
+ addSifting(comSand, StringMesh, 'minecraft:sculk_vein', 1, 0.10)
+ addSifting(comSand, FlintMesh, 'minecraft:sculk_vein', 1, 0.10)
+ addSifting(comSand, IronMesh, 'minecraft:sculk_vein', 1, 0.10)
+ addSifting(comSand, GoldMesh, 'minecraft:sculk_vein', 1, 0.10)
+ addSifting(comSand, DiamondMesh, 'minecraft:sculk_vein', 1, 0.10)
+ addSifting(comSand, NetheriteMesh, 'minecraft:sculk_vein', 1, 0.10)
+ addSifting(comSand, StringMesh, 'minecraft:sculk', 1, 0.10)
+ addSifting(comSand, FlintMesh, 'minecraft:sculk', 1, 0.10)
+ addSifting(comSand, IronMesh, 'minecraft:sculk', 1, 0.10)
+ addSifting(comSand, GoldMesh, 'minecraft:sculk', 1, 0.10)
+ addSifting(comSand, DiamondMesh, 'minecraft:sculk', 1, 0.10)
+ addSifting(comSand, NetheriteMesh, 'minecraft:sculk', 1, 0.10)
+
 //Crucible heating blocks
 addHeatSource(`botania:blaze_block`, 8)
 addHeatSource(`alltheores:uranium_block`, 20)
 addHeatSource(`mekanism:superheating_element`, 60)
 addHeatSource('projecte:dark_matter_block', 100)
+addHeatSource('mysticalagradditions:dragon_egg_crux', 100000)
+addHeatSource('ironfurnaces:netherite_furnace', 1500)
+addHeatSource('create:blaze_burner', 15000)
+addHeatSource('biggerreactors:heat_exchanger_computer_port', 25000)
+addHeatSource('pneumaticcraft:heat_frame', 500)
 
 //    addHammer(Deepslate, 'minecraft:stick')
 
