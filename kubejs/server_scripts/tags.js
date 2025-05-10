@@ -64,9 +64,7 @@ ServerEvents.tags('block', event => {
     'allthemodium:unobtainium_vibranium_alloy_block',
     'allthetweaks:atm_star_block'
   ])
-
   event.add('entangled:invalid_targets', ['@megacells','@expatternprovider','@cabletiers'])
-
 })
 
 ServerEvents.tags('fluid', event => {
@@ -75,8 +73,10 @@ ServerEvents.tags('fluid', event => {
     'ad_astra:cryo_fuel','ad_astra:flowing_cryo_fuel',
     'ad_astra:fuel','ad_astra:flowing_fuel',
     'createaddition:flowing_seed_oil','createaddition:seed_oil',
-    'createaddition:bioethanol','createaddition:flowing_bioethanol'])
+    'createaddition:bioethanol','createaddition:flowing_bioethanol'
+  ])
   event.add('forge:oil', 'thermal:crude_oil')
+  event.add('forge:ethanol', 'chemlib:ethanol_fluid')
 })
 
 ServerEvents.tags('entity_type', event => {
