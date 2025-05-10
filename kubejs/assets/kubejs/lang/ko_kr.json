@@ -1,12 +1,14 @@
 {
     "atm9.modpack.title": "All the Mods 9 - To the Sky",
+
+
     "atm9.chapters.1.title": "환영합니다",
     "atm9.chapters.2.title": "올더모듐",
     "atm9.chapters.3.title": "현상금 게시판",
     "atm9.chapters.4.title": "팁과 요령",
     "atm9.chapters.group.1.": "메인 퀘스트라인",
     "atm9.chapters.5.title": "&l&6시작하기&r",
-    "atm9.chapters.6.title": "&l&5시작하기: 2&r",
+    "atm9.chapters.6.title": "&l&5시작하기: 2",
     "atm9.chapters.30.title": "&l&f별&r",
     "atm9.chapters.group.2.": "도구와 갑옷",
     "atm9.chapters.7.title": "어포더시스 기어",
@@ -37,8 +39,14 @@
     "atm9.chapters.27.title": "보타니아",
     "atm9.chapters.28.title": "포비든 앤 아카누스",
     "atm9.chapters.29.title": "오컬티즘",
+
+
+
     "atm9.quest.welcome.welcome": "All the Mods 9가 이제 하늘에 있습니다!",
+
     "atm9.quest.welcome.desc.welcome": "ATM9에 오신 것을 환영합니다... 이제 바닥이 줄어들었습니다! \\n \\n 퀘스트를 시작하려면 왼쪽 탭을 확인하여 시작하세요! \\n \\n AllTheMods가 처음이라면 &a올더모듐&r 챕터를 꼭 확인하세요! \\n \\n Skyblock 팩이나 모드된 MC가 처음이라면 &6메인 퀘스트라인&r을 확인하여 시작하는 데 도움이 되도록 하세요. \\n \\n 참고: 모드는 퀘스트에 의해 제한되지 않습니다. 퀘스트는 선택 사항입니다.",
+
+
     "atm9.quest.allthemodium.intro": "올더모듐 소개!",
     "atm9.quest.allthemodium.atm_ore": "올더모듐 사용법",
     "atm9.quest.allthemodium.vib_ore": "비브라늄 정보",

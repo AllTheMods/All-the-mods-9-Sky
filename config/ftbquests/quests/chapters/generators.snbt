@@ -279,7 +279,7 @@
 			y: 2.0d
 		}
 	]
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

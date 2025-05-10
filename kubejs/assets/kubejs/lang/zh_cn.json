@@ -1,14 +1,15 @@
 {
+	"atm9.modpack.title": "All the Mods 9 - To the Sky",
 
-	"atm9.modpack.title": "All The Mods 9 To The Sky",
+
 	"atm9.chapters.1.title": "欢迎",
 	"atm9.chapters.2.title": "ATM金属",
 	"atm9.chapters.3.title": "悬赏板",
 	"atm9.chapters.4.title": "提示与技巧",
 	"atm9.chapters.group.1.": "主线任务",
-	"atm9.chapters.5.title": "&l&6入门&r",
-	"atm9.chapters.6.title": "&l&5入门: 第二部分&r",
-	"atm9.chapters.30.title": "&l&fATM之星&r",
+	"atm9.chapters.5.title": "&l&6入门",
+	"atm9.chapters.6.title": "&l&5入门: 第二部分",
+	"atm9.chapters.30.title": "&l&fATM之星",
 	"atm9.chapters.36.title": "&l&d创造",
 	"atm9.chapters.group.2.": "工具与装备",
 	"atm9.chapters.7.title": "神化装备",
@@ -32,7 +33,7 @@
 	"atm9.chapters.35.title": "龙之进化",
 	"atm9.chapters.19.title": "工业先锋",
 	"atm9.chapters.20.title": "通用机械",
-	"atm9.chapters.21.title": "通用机械：&d进阶&r",
+	"atm9.chapters.21.title": "通用机械：&d进阶",
 	"atm9.chapters.22.title": "Powah",
 	"atm9.chapters.23.title": "热力系列",
 	"atm9.chapters.32.title": "XyCraft",
@@ -42,12 +43,12 @@
 	"atm9.chapters.26.title": "血魔法",
 	"atm9.chapters.27.title": "植物魔法",
 	"atm9.chapters.28.title": "禁忌与奥秘",
-	"atm9.chapters.33.title": "&e力量工艺&r",
+	"atm9.chapters.33.title": "&e力量工艺",
 	"atm9.chapters.29.title": "神秘学",
 
 
 
-	"atm9.quest.welcome.welcome": "欢迎来到 All The Mods 9 to the sky!",
+	"atm9.quest.welcome.welcome": "欢迎来到 All the Mods 9 - To the Sky!",
 	
 	"atm9.quest.welcome.desc.welcome": "欢迎来到ATM9... 现在是空岛版！\\n\\n要开始任务，请点击左侧选项卡！\\n\\n如果你是ATM模组包的新手, 请务必查看&aATM金属&r章节！\\n\\n如果你是空岛整合包或MC整合包的新手, 可以查看&6主线任务章节&r 来帮助你开始。\\n\\n注意：  模组并不受任务的限制，任务是可选的。",
 
@@ -4095,11 +4096,5 @@
 	"atm9.quest.occultism.desc.demonsAndFamiliars.2": "There are Demons that can move stuff for you, chop down wood, and more!!",
 	"atm9.quest.occultism.desc.demonsAndFamiliars.3": "There are also ways to summon cool friends known as &dFamiliars&r that give special buffs and even fight for you! Make sure to check out the &dFamiliar Rituals&r in your guide book!",
 	"atm9.quest.occultism.familiars.1": "魔宠",
-	"atm9.quest.occultism.familiars.2": "&d使魔&r",
-
-
-	"item.kubejs.micro_universe_catalyst.tooltip": "Forged in the fire of a thousand suns.",
-	"kubejs.apiary_ii.tooltip.bee_requirements": "Requires Very High, Any, Metaturnal bees to run.",
-	"kubejs.apiary_i.tooltip.bee_eater": "Occasionally eats the bees."
-
+	"atm9.quest.occultism.familiars.2": "&d使魔"
 }
