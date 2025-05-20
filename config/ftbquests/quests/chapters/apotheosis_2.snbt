@@ -550,8 +550,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -582,7 +582,7 @@
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			description: ["{atm9.quest.spawner.desc.stabilized}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1E811C8903B79D46"
 			rewards: [{
 				count: 3
@@ -604,7 +604,7 @@
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			description: ["{atm9.quest.spawner.desc.agitator}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7064DBD1B17C1B79"
 			rewards: [{
 				count: 10
@@ -626,7 +626,7 @@
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			description: ["{atm9.quest.spawner.desc.power}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "78ADEBBC7D0D8217"
 			rewards: [{
 				count: 9
@@ -652,7 +652,7 @@
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			description: ["{atm9.quest.spawner.desc.soulium}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "775F2A480F91F49F"
 			rewards: [{
 				count: 4
@@ -674,7 +674,7 @@
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			description: ["{atm9.quest.spawner.desc.pressurized}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "75B8F5447C59D17B"
 			rewards: [{
 				count: 20
@@ -696,7 +696,7 @@
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			description: ["{atm9.quest.spawner.desc.entity}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5CB80587A332A98D"
 			rewards: [{
 				count: 20

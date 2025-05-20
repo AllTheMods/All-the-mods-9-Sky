@@ -1,7 +1,7 @@
 {
 	id: "290FD253BBE38432"
 	loot_size: 1
-	order_index: 51
+	order_index: 53
 	rewards: [
 		{ count: 5, item: "oreberriesreplanted:iron_oreberry", random_bonus: 5 }
 		{ count: 5, item: "oreberriesreplanted:gold_oreberry", random_bonus: 5 }
@@ -27,4 +27,5 @@
 		{ item: "oreberriesreplanted:silver_oreberry_bush", weight: 0.25f }
 	]
 	title: "Oreberries"
+	use_title: true
 }

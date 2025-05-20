@@ -200,7 +200,7 @@
 			y: 0.15d
 		}
 	]
-	order_index: 6
+	order_index: 7
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -269,7 +269,7 @@
 				""
 				"{atm9.quest.mekanismReactors.desc.reactorBuildingBasics.5}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "1482F2D45E8F761D"
 			min_width: 300
 			rewards: [
@@ -1794,7 +1794,7 @@
 				""
 				"{image:atm:textures/questpics/mek/induction_matrix.png width:200 height:200 align:1}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "673FCBF8685D0EEE"
 			min_width: 300
 			rewards: [
@@ -1849,7 +1849,7 @@
 				""
 				"{image:atm:textures/questpics/mek/induction_inside.png width:300 height:200 align:1}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "14D772808D1BEAE2"
 			min_width: 350
 			rewards: [
@@ -2051,8 +2051,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

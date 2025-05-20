@@ -47,7 +47,6 @@
 			description: ["{atm9.quest.welcome.desc.welcome}"]
 			icon: "allthecompressed:atm_star_block_1x"
 			id: "23BDBBD3001F9774"
-			optional: true
 			rewards: [
 				{
 					id: "41B357A352E97746"
@@ -82,8 +81,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -108,8 +107,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.5d
-			y: -8.0d
+			x: 0.0d
+			y: -6.0d
 		}
 	]
 	title: "{atm9.chapters.1.title}"

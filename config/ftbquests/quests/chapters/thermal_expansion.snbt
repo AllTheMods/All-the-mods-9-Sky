@@ -5,7 +5,7 @@
 	group: "2B51AC12041E3F89"
 	icon: "thermal:machine_frame"
 	id: "658721DF03EC997D"
-	order_index: 9
+	order_index: 10
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -14,11 +14,6 @@
 			icon: "thermal:upgrade_augment_3"
 			id: "2C50B0E024C3D92E"
 			rewards: [
-				{
-					id: "184363B38B8B2CBA"
-					type: "xp"
-					xp: 10
-				}
 				{
 					id: "009C332DA938512C"
 					item: {
@@ -29,6 +24,11 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					id: "3C7D00055E4482F2"
+					type: "xp"
+					xp: 10
 				}
 			]
 			shape: "square"
@@ -511,15 +511,15 @@
 			id: "0897F7A3203E45AF"
 			rewards: [
 				{
-					id: "4C62A0183D243C27"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "564837E9A2526BDB"
 					table_id: 7377440633892994587L
 					type: "random"
+				}
+				{
+					id: "21D46FB28ECA11D5"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -541,15 +541,15 @@
 			id: "648B483B128A32F5"
 			rewards: [
 				{
-					id: "265FD226E965D7B3"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "356E519785E2B5E2"
 					table_id: 7377440633892994587L
 					type: "random"
+				}
+				{
+					id: "66927E95BCD79088"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -718,15 +718,15 @@
 					type: "item"
 				}
 				{
-					id: "43B8F1F2FBA0D4EA"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "671A9B5208396DBE"
 					table_id: 7377440633892994587L
 					type: "random"
+				}
+				{
+					id: "2104B153CCD279D8"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "gear"
@@ -1291,15 +1291,15 @@
 			id: "7C83735C2D746162"
 			rewards: [
 				{
-					id: "4B8F25D9433225BF"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "68A241917208B66A"
 					table_id: 7377440633892994587L
 					type: "random"
+				}
+				{
+					id: "1EFAE3766E3326F4"
+					type: "xp"
+					xp: 50
 				}
 			]
 			shape: "hexagon"
@@ -1350,15 +1350,15 @@
 			id: "467CDD14AE21A850"
 			rewards: [
 				{
-					id: "6D0FE4CFD7575A75"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "677183781F1344D9"
 					table_id: 7377440633892994587L
 					type: "random"
+				}
+				{
+					id: "4BB5482356ADDC3E"
+					type: "xp"
+					xp: 50
 				}
 			]
 			shape: "hexagon"
@@ -1579,12 +1579,19 @@
 			dependencies: ["5F385CBA98795C62"]
 			description: ["{atm9.quest.thermalExpansion.desc.extractDyes}"]
 			id: "3475E12711B6BB98"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "31F0296EE8936FFA"
-				table_id: 7377440633892994587L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "31F0296EE8936FFA"
+					table_id: 7377440633892994587L
+					type: "random"
+				}
+				{
+					id: "248804F419BDEFAB"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "diamond"
 			subtitle: "{atm9.quest.thermalExpansion.subt.separateItems}"
 			tasks: [{
@@ -1634,12 +1641,19 @@
 				"{atm9.quest.thermalExpansion.desc.convertItems.2}"
 			]
 			id: "469443A3BA0C3BEE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "046E00AC462A9536"
-				table_id: 7377440633892994587L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "046E00AC462A9536"
+					table_id: 7377440633892994587L
+					type: "random"
+				}
+				{
+					id: "778FADFF739B6B24"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "66AF5C07727A5B39"
@@ -1795,15 +1809,15 @@
 			id: "5257468DC6C11851"
 			rewards: [
 				{
-					id: "7029BD256EF4EEBD"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "498091B0B90B28EF"
 					table_id: 7377440633892994587L
 					type: "random"
+				}
+				{
+					id: "367281C804C4E528"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "octagon"
@@ -1826,15 +1840,15 @@
 			id: "6BF6B00BC21CA547"
 			rewards: [
 				{
-					id: "539EF1C8332A468C"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "25DEC0A5098BD973"
 					table_id: 7377440633892994587L
 					type: "random"
+				}
+				{
+					id: "28852B98C2DB964D"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "octagon"
@@ -1882,8 +1896,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

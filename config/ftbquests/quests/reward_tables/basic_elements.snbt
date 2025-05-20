@@ -1,7 +1,7 @@
 {
 	id: "5D429920C089F8B3"
 	loot_size: 1
-	order_index: 50
+	order_index: 52
 	rewards: [
 		{ count: 5, item: "chemlib:hydrogen", random_bonus: 5 }
 		{ count: 5, item: "chemlib:helium" }
@@ -19,4 +19,5 @@
 		{ count: 2, item: "chemlib:calcium", random_bonus: 3 }
 	]
 	title: "Basic Elements"
+	use_title: true
 }
