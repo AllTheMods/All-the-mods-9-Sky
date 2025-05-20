@@ -144,16 +144,7 @@
 		}
 		{
 			dependencies: ["73085C791ABB32E6"]
-			description: [
-				"{atm9.quest.oreberries.desc.makingBushes.1}"
-				""
-				"{atm9.quest.oreberries.desc.recipe.1}"
-				"{atm9.quest.oreberries.desc.recipe.2}"
-				"{atm9.quest.oreberries.desc.recipe.3}"
-				"{atm9.quest.oreberries.desc.recipe.4}"
-				""
-				"{atm9.quest.oreberries.desc.makingBushes.2}"
-			]
+			description: ["{atm9.quest.oreberries.desc.makingBushes.1}\\n\\n{atm9.quest.oreberries.desc.recipe.1}\\n{atm9.quest.oreberries.desc.recipe.2}\\n{atm9.quest.oreberries.desc.recipe.3}\\n{atm9.quest.oreberries.desc.recipe.4}\\n\\n{atm9.quest.oreberries.desc.makingBushes.2}"]
 			icon: "summoningrituals:altar"
 			icon_scale: 1.25d
 			id: "4BE70185B65521C9"
@@ -576,11 +567,9 @@
 		{
 			dependencies: ["5C1ADA6E87D777DF"]
 			description: [
-				"{atm9.quest.oreberries.desc.vats.1}"
-				""
+				"{atm9.quest.oreberries.desc.vats.1}\\n"
 				"{image:atm:textures/questpics/oreberries/juicing.png width:200 height:100 align:center}"
-				""
-				"{atm9.quest.oreberries.desc.vats.2}"
+				"\\n{atm9.quest.oreberries.desc.vats.2}"
 			]
 			icon: "oreberriesreplanted:oak_vat"
 			id: "3A9856E9BB8E4517"
@@ -775,11 +764,9 @@
 		{
 			dependencies: ["5C1ADA6E87D777DF"]
 			description: [
-				"{atm9.quest.oreberries.desc.farmingBerries.1}"
-				""
+				"{atm9.quest.oreberries.desc.farmingBerries.1}\\n"
 				"{image:atm:textures/questpics/oreberries/possible_farm.png width:300 height:150 align:center}"
-				""
-				"{atm9.quest.oreberries.desc.farmingBerries.2}"
+				"\\n{atm9.quest.oreberries.desc.farmingBerries.2}"
 			]
 			id: "29CA0F107FAF82D9"
 			min_width: 300
@@ -801,11 +788,9 @@
 		{
 			dependencies: ["3A9856E9BB8E4517"]
 			description: [
-				"{atm9.quest.oreberries.desc.autoJuicing.1}"
-				""
+				"{atm9.quest.oreberries.desc.autoJuicing.1}\\n"
 				"{image:atm:textures/questpics/oreberries/auto_vat.png width:200 height:100 align:center}"
-				""
-				"{atm9.quest.oreberries.desc.autoJuicing.2}"
+				"\\n{atm9.quest.oreberries.desc.autoJuicing.2}"
 			]
 			icon: "minecraft:zombie_head"
 			id: "5143C16732091B79"
@@ -843,8 +828,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -875,8 +860,7 @@
 		{
 			dependencies: ["29CA0F107FAF82D9"]
 			description: [
-				"{atm9.quest.oreberries.desc.click}"
-				""
+				"{atm9.quest.oreberries.desc.click}\\n"
 				"{image:atm:textures/questpics/oreberries/auto_growing.png width:300 height:150 align:center}"
 			]
 			id: "7E53269412054B51"
@@ -909,8 +893,7 @@
 				"5143C16732091B79"
 			]
 			description: [
-				"{atm9.quest.oreberries.desc.automated}"
-				""
+				"{atm9.quest.oreberries.desc.automated}\\n"
 				"{image:atm:textures/questpics/oreberries/fully_automated.png width:300 height:150 align:center}"
 			]
 			icon: "minecraft:hopper"
@@ -950,6 +933,85 @@
 			title: "{atm9.quest.oreberries.automated}"
 			x: 10.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["3A9856E9BB8E4517"]
+			description: ["{atm9.quest.oreberries.desc.juice}"]
+			id: "4B8F54EB595A5FC7"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0C5F5E1F5CDC2E26"
+					table_id: 2958814737282073650L
+					type: "random"
+				}
+				{
+					id: "60E234980CBF1C60"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{atm9.quest.oreberries.subt.juice}"
+			tasks: [{
+				id: "37CF2AF1D8454E60"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "oreberriesreplanted:iron_oreberry_juice_bucket"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:gold_oreberry_juice_bucket"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:copper_oreberry_juice_bucket"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:tin_oreberry_juice_bucket"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:aluminum_oreberry_juice_bucket"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:lead_oreberry_juice_bucket"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:uranium_oreberry_juice_bucket"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:nickel_oreberry_juice_bucket"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:osmium_oreberry_juice_bucket"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:zinc_oreberry_juice_bucket"
+							}
+							{
+								Count: 1b
+								id: "oreberriesreplanted:silver_oreberry_juice_bucket"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.oreberries.juice}"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
 		}
 	]
 	title: "{atm9.chapters.37.title}"

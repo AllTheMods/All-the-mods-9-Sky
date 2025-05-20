@@ -1,6 +1,7 @@
 {
-	
-	"atm9.modpack.title": "All The Mods 9 To The Sky",
+	"atm9.modpack.title": "All the Mods 9 - To the Sky",
+
+
 	"atm9.chapters.1.title": "ようこそ",
 	"atm9.chapters.2.title": "Allthemodium",
 	"atm9.chapters.3.title": "賞金首ボード",
@@ -3242,10 +3243,5 @@
     "atm9.quest.occultism.desc.demonsAndFamiliars.2": "デーモンはアイテムを移動させたり、木を切り倒したり、その他多くのことができます！",
     "atm9.quest.occultism.desc.demonsAndFamiliars.3": "また、特別なバフを与えたり、戦ってくれる&d使い魔&rと呼ばれるクールな友達を召喚する方法もあります！ガイドブックの&d使い魔儀式&rを必ずチェックしてください！",
     "atm9.quest.occultism.familiars.1": "使い魔",
-    "atm9.quest.occultism.familiars.2": "&d使い魔&r",
-	
-    "item.kubejs.micro_universe_catalyst.tooltip": "千の太陽の火で鍛えられた。",
-	"kubejs.apiary_ii.tooltip.bee_requirements": "非常に高い、任意、メタターナルの蜂が必要です",
-	"kubejs.apiary_i.tooltip.bee_eater": "時々蜂を食べます"
-
+    "atm9.quest.occultism.familiars.2": "&d使い魔"
 }

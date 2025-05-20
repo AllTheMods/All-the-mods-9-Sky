@@ -1,6 +1,7 @@
 {
-	
-	"atm9.modpack.title": "All The Mods 9",
+	"atm9.modpack.title": "All the Mods 9 - To the Sky",
+
+
 	"atm9.chapters.1.title": "Bienvenue",
 	"atm9.chapters.2.title": "Allthemodium",
 	"atm9.chapters.3.title": "Tableau des primes",
@@ -385,11 +386,5 @@
 	"atm9.quest.enchant.desc.endshelf": "Les derniers ensembles de bibliothèques dont vous aurez besoin sont les Bibliothèque de l'End, pour les obtenir, vous avez besoin de Souffle du Dragon infusé. Celle-ci s'est avérée être un défi à acquérir, cependant vous avez besoin d'au moins 40% d'Eterna, entre 15% et 25% de Quanta, et au moins 60% d'Arcana. Il doit être entre 15% et 25% de Quanta pour obtenir cela, vous pouvez essayer avec 9 Bibliothèques Skulk résonnantes et 4 Bibliothèques à Melons ou 2 Bibliothèques Skulk résonnantes et 10 Bibliothèque Marine Forgée par le Cœur.",
 	"atm9.quest.enchant.desc.pearlescent": "La Bibliothèque de l'End Nacrée est la bibliothèque la plus polyvalente. Elle donne également un maximum d'Eterna de 45, mais ce n'est pas la bibliothèque que nous recherchons pour obtenir la configuration parfaite.",
 	"atm9.quest.enchant.desc.draconic": "La Bibliothèque Draconique est la dernière bibliothèque dont nous aurons besoin pour une configuration parfaite. Il ne donne peut-être que de l'Eterna, mais il a un maximum d'Eterna de 50.",
-	"atm9.quest.enchant.desc.perfect": "Vous voulez LES enchantements les plus parfaits? Alors voici la configuration dont vous avez besoin, pour 100% de tout. 7 Bibliothèques Skulk résonnantes, 4 Bibliothèque Profonde touchée par l'Âme et 5 Bibliothèque Draconique vous donneront 50 Eterna, 100% de Quanta, 100% d'Arcana et 8 indices d'enchantement. 4 étagères de Rectification infusées donneront 100% de Rectification. Et la Bibliothèque Profonde des Trésors Arcanes couronnera le tout avec des enchantements de trésor.",
-	
-	
-    "item.kubejs.micro_universe_catalyst.tooltip": "Forgé dans le feu de mille soleils."
-	
-	
-	
+	"atm9.quest.enchant.desc.perfect": "Vous voulez LES enchantements les plus parfaits? Alors voici la configuration dont vous avez besoin, pour 100% de tout. 7 Bibliothèques Skulk résonnantes, 4 Bibliothèque Profonde touchée par l'Âme et 5 Bibliothèque Draconique vous donneront 50 Eterna, 100% de Quanta, 100% d'Arcana et 8 indices d'enchantement. 4 étagères de Rectification infusées donneront 100% de Rectification. Et la Bibliothèque Profonde des Trésors Arcanes couronnera le tout avec des enchantements de trésor."
 }

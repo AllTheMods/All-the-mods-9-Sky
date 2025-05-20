@@ -41,7 +41,7 @@
 		}
 		{
 			height: 2.0d
-			image: "minecraft:mob_effect/strength"
+			image: "minecraft:textures/mob_effect/strength.png"
 			rotation: 0.0d
 			width: 2.0d
 			x: -2.0d
@@ -225,7 +225,7 @@
 		}
 		{
 			height: 4.0d
-			image: "minecraft:particle/vibration"
+			image: "minecraft:textures/particle/vibration.png"
 			rotation: 0.0d
 			width: 4.0d
 			x: 7.5d
@@ -233,7 +233,7 @@
 		}
 		{
 			height: 4.0d
-			image: "minecraft:particle/vibration"
+			image: "minecraft:textures/particle/vibration.png"
 			rotation: 90.0d
 			width: 4.0d
 			x: 10.0d
@@ -241,7 +241,7 @@
 		}
 		{
 			height: 4.0d
-			image: "minecraft:particle/vibration"
+			image: "minecraft:textures/particle/vibration.png"
 			rotation: 180.0d
 			width: 4.0d
 			x: 7.5d
@@ -249,7 +249,7 @@
 		}
 		{
 			height: 4.0d
-			image: "minecraft:particle/vibration"
+			image: "minecraft:textures/particle/vibration.png"
 			rotation: -90.0d
 			width: 4.0d
 			x: 4.5d
@@ -281,7 +281,7 @@
 		}
 		{
 			height: 2.0d
-			image: "minecraft:mob_effect/night_vision"
+			image: "minecraft:textures/mob_effect/night_vision.png"
 			rotation: 0.0d
 			width: 2.0d
 			x: -0.5d
@@ -2217,8 +2217,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

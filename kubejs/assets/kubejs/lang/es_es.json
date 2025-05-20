@@ -1,6 +1,7 @@
 {
-	
-	"atm9.modpack.title": "All The Mods 9 To The Sky",
+	"atm9.modpack.title": "All the Mods 9 - To the Sky",
+
+
 	"atm9.chapters.1.title": "Bienvenidx",
 	"atm9.chapters.2.title": "Allthemodium",
 	"atm9.chapters.3.title": "Caceria de Monstruos",
@@ -4238,13 +4239,5 @@
     "atm9.quest.occultism.desc.demonsAndFamiliars.2": "¡Hay Demonios que pueden mover cosas por ti, talar madera y más!",
     "atm9.quest.occultism.desc.demonsAndFamiliars.3": "¡También hay formas de invocar amigos geniales conocidos como &dFamiliares&r que dan beneficios especiales e incluso luchan por ti! ¡Asegúrate de consultar los &dRituales de Familiares&r en tu libro guía!",
     "atm9.quest.occultism.familiars.1": "Familiares",
-    "atm9.quest.occultism.familiars.2": "&dFamiliares&r",
-	
-	
-    "item.kubejs.micro_universe_catalyst.tooltip": "Forged in the fire of a thousand suns.",
-	"kubejs.apiary_ii.tooltip.bee_requirements": "Requires Very High, Any, Metaturnal bees to run",
-	"kubejs.apiary_i.tooltip.bee_eater": "Occasionally eats the bees"
-	
-	
-	
+    "atm9.quest.occultism.familiars.2": "&dFamiliares"
 }

@@ -13,8 +13,8 @@
 			image: "atm:textures/questpics/biggerreactors/biggerreactorslogo.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: -5.5d
-			y: -2.5d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
 			click: "https://docs.google.com/spreadsheets/d/1NKnuSNmblMEZLxqS8FSFWp8U43vNH7Xd0sRF5vmvGYk/edit?usp=sharing"
@@ -78,19 +78,19 @@
 		{
 			dependencies: ["7C4E4793DA887DE4"]
 			description: ["{atm9.quest.biggerR.desc.graphite}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4FA6BEA4E646B742"
 			rewards: [
-				{
-					id: "07500C1CA8341D60"
-					type: "xp"
-					xp: 10
-				}
 				{
 					exclude_from_claim_all: true
 					id: "6E406BC76180F481"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "2460F34666D30BB8"
+					type: "xp"
+					xp: 10
 				}
 			]
 			subtitle: "{atm9.quest.biggerR.subt.graphite}"
@@ -140,15 +140,15 @@
 					type: "item"
 				}
 				{
-					id: "3FEA5D1C2E8907D8"
-					type: "xp"
-					xp: 500
-				}
-				{
 					exclude_from_claim_all: true
 					id: "0C32A80527EB8A8F"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "7C8DC01C8D433551"
+					type: "xp"
+					xp: 250
 				}
 			]
 			shape: "hexagon"
@@ -199,16 +199,16 @@
 			id: "4B9E9497E44D0096"
 			rewards: [
 				{
-					id: "0303247B6A6C3F08"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 4
 					id: "19C423870DAAA0DB"
 					item: "biggerreactors:reactor_casing"
 					random_bonus: 4
 					type: "item"
+				}
+				{
+					id: "0D9487F28D50AAD9"
+					type: "xp"
+					xp: 10
 				}
 			]
 			shape: "gear"
@@ -283,15 +283,15 @@
 					type: "item"
 				}
 				{
-					id: "38C141F047926833"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "5508199460B01082"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "63B3F0266221103A"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -318,14 +318,14 @@
 					type: "item"
 				}
 				{
-					id: "332E2A363D91F6E9"
-					type: "xp"
-					xp: 10
-				}
-				{
 					id: "56A9536AEFBA6C7E"
 					item: "biggerreactors:reactor_fuel_rod"
 					type: "item"
+				}
+				{
+					id: "43EF2F4A594CC9A5"
+					type: "xp"
+					xp: 10
 				}
 			]
 			shape: "diamond"
@@ -393,15 +393,15 @@
 			min_width: 300
 			rewards: [
 				{
-					id: "55FBD6A7422569AB"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "29C27647CB5FC0F6"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "2B5342D047468110"
+					type: "xp"
+					xp: 25
 				}
 			]
 			tasks: [{
@@ -417,7 +417,7 @@
 		{
 			dependencies: ["4AD8363D7359A072"]
 			description: ["{atm9.quest.biggerR.desc.waste}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4745152F6FF242B3"
 			rewards: [
 				{
@@ -447,20 +447,20 @@
 		{
 			dependencies: ["4745152F6FF242B3"]
 			description: ["{atm9.quest.biggerR.desc.reprocessingWaste}"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "biggerreactors:blutonium_ingot"
 			id: "354086C858E10154"
 			rewards: [
-				{
-					id: "601D8AF8D45F9818"
-					type: "xp"
-					xp: 100
-				}
 				{
 					exclude_from_claim_all: true
 					id: "080EADDE6EB76EAC"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "539E846951520267"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [
@@ -492,15 +492,15 @@
 					type: "item"
 				}
 				{
-					id: "4C0EE9B972E1C3E0"
-					type: "xp"
-					xp: 250
-				}
-				{
 					exclude_from_claim_all: true
 					id: "23C4AEE096F33CB3"
 					table_id: 5564196992594175882L
 					type: "random"
+				}
+				{
+					id: "5AD9A2961A2062CA"
+					type: "xp"
+					xp: 250
 				}
 			]
 			subtitle: "{atm9.quest.biggerR.subt.ludicrite}"
@@ -527,15 +527,15 @@
 					type: "item"
 				}
 				{
-					id: "5C20A5831F6F1EE9"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "01FB731CE2FD9481"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "4A0CFD60E2FF1527"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "hexagon"
@@ -576,15 +576,15 @@
 			min_width: 300
 			rewards: [
 				{
-					id: "56D7ED254FC3A540"
-					type: "xp"
-					xp: 50
-				}
-				{
 					exclude_from_claim_all: true
 					id: "6150F69F6D20EBFB"
 					table_id: 4196188979167302596L
 					type: "loot"
+				}
+				{
+					id: "5515365A370B7DE4"
+					type: "xp"
+					xp: 50
 				}
 			]
 			subtitle: "{atm9.quest.biggerR.subt.moderators}"
@@ -605,15 +605,15 @@
 			min_width: 300
 			rewards: [
 				{
-					id: "450F59D9CB0FEF7A"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "44BF0BA518FE9E1D"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "21E503F5D92F12D8"
+					type: "xp"
+					xp: 100
 				}
 			]
 			subtitle: "{atm9.quest.biggerR.subt.converting}"
@@ -634,15 +634,15 @@
 			min_width: 300
 			rewards: [
 				{
-					id: "2D71A6EF1CA59FA7"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "52181A03434A605B"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "461AE1960DE7E126"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -757,15 +757,15 @@
 			id: "3FC7FDAF84871963"
 			rewards: [
 				{
-					id: "54346236C9443772"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "2719368F51041BAD"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "76DE93B9231AFB7A"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -866,15 +866,15 @@
 			min_width: 300
 			rewards: [
 				{
-					id: "5AE542B84586D0BA"
-					type: "xp"
-					xp: 1000
-				}
-				{
 					exclude_from_claim_all: true
 					id: "6612F39435CC428F"
 					table_id: 5564196992594175882L
 					type: "random"
+				}
+				{
+					id: "4B0A342C01B353E0"
+					type: "xp"
+					xp: 500
 				}
 			]
 			shape: "hexagon"
@@ -982,8 +982,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1008,8 +1008,8 @@
 					type: "checkmark"
 				}
 			]
-			x: -4.0d
-			y: 0.5d
+			x: -5.5d
+			y: -1.0d
 		}
 	]
 	title: "{atm9.chapters.17.title}"

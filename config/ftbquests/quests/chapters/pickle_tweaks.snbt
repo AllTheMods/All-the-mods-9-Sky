@@ -645,7 +645,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{atm9.quest.pickleTweaks.subt.meshes}"
 			tasks: [{
@@ -803,6 +803,13 @@
 			dependencies: ["72A4FB909DE90192"]
 			description: ["{atm9.quest.pickleTweaks.desc.armor}"]
 			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "485BA237D9A86A5D"
 			min_width: 350
 			rewards: [{
@@ -810,13 +817,20 @@
 				type: "xp"
 				xp: 10
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{atm9.quest.pickleTweaks.subt.armor}"
 			tasks: [{
-				id: "2F52332A1132BF7C"
+				id: "48BAAA8C5E7CE9CD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:armors"
+					}
+				}
 				title: "{atm9.quest.pickleTweaks.armor}"
-				type: "checkmark"
+				type: "item"
 			}]
 			x: -4.0d
 			y: 7.0d
@@ -825,6 +839,13 @@
 			dependencies: ["72A4FB909DE90192"]
 			description: ["{atm9.quest.pickleTweaks.desc.tools}"]
 			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "6811E8C2651B2BBC"
 			min_width: 350
 			rewards: [{
@@ -832,13 +853,20 @@
 				type: "xp"
 				xp: 10
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{atm9.quest.pickleTweaks.subt.tools}"
 			tasks: [{
-				id: "0D70B0EC858D4AE5"
+				id: "2C4C5D619AC4185F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools"
+					}
+				}
 				title: "{atm9.quest.pickleTweaks.tools}"
-				type: "checkmark"
+				type: "item"
 			}]
 			x: 3.0d
 			y: 7.0d
@@ -1272,7 +1300,6 @@
 			dependencies: ["72A4FB909DE90192"]
 			description: ["{atm9.quest.pickleTweaks.desc.coalPieces}"]
 			hide_dependency_lines: true
-			icon: "pickletweaks:coal_piece"
 			id: "7B6AB8B39C5301A9"
 			rewards: [
 				{
@@ -1294,14 +1321,6 @@
 					id: "itemfilters:or"
 					tag: {
 						items: [
-							{
-								Count: 1b
-								id: "utilitix:tiny_charcoal"
-							}
-							{
-								Count: 1b
-								id: "utilitix:tiny_coal"
-							}
 							{
 								Count: 1b
 								id: "pickletweaks:coal_piece"
@@ -1659,8 +1678,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

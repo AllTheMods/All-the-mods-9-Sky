@@ -98,7 +98,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{atm9.quest.occultism.shubNiggurathFamiliar}"]
 			image: "occultism:textures/gui/book/familiar_shub_niggurath.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -107,7 +106,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{atm9.quest.occultism.drikwingFamiliar}"]
 			image: "occultism:textures/gui/book/otherworld_bird.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -385,20 +383,20 @@
 				""
 				"{atm9.quest.occultism.desc.spiritfireUse.4}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "4C873491F6F0FFAF"
 			min_width: 300
 			rewards: [
-				{
-					id: "70EE0C205B5B9BAC"
-					type: "xp"
-					xp: 50
-				}
 				{
 					exclude_from_claim_all: true
 					id: "156CCC976E663623"
 					table_id: 487623848494439020L
 					type: "loot"
+				}
+				{
+					id: "058708BE99EC96F3"
+					type: "xp"
+					xp: 50
 				}
 			]
 			shape: "diamond"
@@ -665,7 +663,7 @@
 			rewards: [{
 				id: "1B9CD287CB41E0E8"
 				type: "xp"
-				xp: 25
+				xp: 50
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -706,12 +704,19 @@
 			}
 			id: "7174A0CEC5CCC53B"
 			progression_mode: "linear"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "79159F5C77200118"
-				table_id: 487623848494439020L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "79159F5C77200118"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+				{
+					id: "48D277649F8F540F"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "rsquare"
 			size: 1.25d
 			tasks: [{
@@ -838,15 +843,15 @@
 			id: "666EA8B8F13EB292"
 			rewards: [
 				{
-					id: "7D6E46BD52D37617"
-					type: "xp"
-					xp: 25
-				}
-				{
 					exclude_from_claim_all: true
 					id: "017A49F5F0062DCA"
 					table_id: 487623848494439020L
 					type: "loot"
+				}
+				{
+					id: "23C8EAFA978A05A1"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "hexagon"
@@ -908,13 +913,13 @@
 				"{atm9.quest.occultism.desc.findIesnium.2}"
 			]
 			hide_dependency_lines: true
+			hide_details_until_startable: false
 			icon: "occultism:iesnium_ingot"
 			id: "33106E24A3B5DDD8"
-			min_width: 450
 			rewards: [{
-				id: "5D7A367FA795C5B3"
+				id: "245E073067289E3D"
 				type: "xp"
-				xp: 25
+				xp: 50
 			}]
 			tasks: [{
 				id: "2C341B16967645C9"
@@ -935,15 +940,15 @@
 			id: "57282D7E31EE61EE"
 			rewards: [
 				{
-					id: "725142351E7457CF"
-					type: "xp"
-					xp: 25
-				}
-				{
 					exclude_from_claim_all: true
 					id: "61301974F1DCE7C4"
 					table_id: 487623848494439020L
 					type: "loot"
+				}
+				{
+					id: "433DEA84C7A5667B"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -976,15 +981,15 @@
 			progression_mode: "linear"
 			rewards: [
 				{
-					id: "0B9447953960187F"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "4381289734981296"
 					table_id: 5564196992594175882L
 					type: "loot"
+				}
+				{
+					id: "7CE51DEE8D41027D"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "square"
@@ -1039,6 +1044,11 @@
 			]
 			id: "172D2A634E849562"
 			min_width: 350
+			rewards: [{
+				id: "07AF33265CE329D2"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [
@@ -1184,7 +1194,7 @@
 				{
 					id: "1AEF7C3C027531C5"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "hexagon"
@@ -1258,15 +1268,15 @@
 			id: "5831B3192C0E8C56"
 			rewards: [
 				{
-					id: "3CC49302B482FAE5"
-					type: "xp"
-					xp: 25
-				}
-				{
 					exclude_from_claim_all: true
 					id: "52721A6614C9C818"
 					table_id: 487623848494439020L
 					type: "loot"
+				}
+				{
+					id: "564F7DDAAF28654C"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [
@@ -1337,8 +1347,8 @@
 				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
