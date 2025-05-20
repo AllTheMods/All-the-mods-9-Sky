@@ -35,6 +35,7 @@ ServerEvents.recipes(event => {
   essenceCircle('allthemodium:unobtainium_nugget', 'unobtainium')
   essenceCircle('6x silentgear:azure_silver_ingot', 'azure_silver')
   essenceCircle('6x silentgear:crimson_iron_ingot', 'crimson_iron')
+  essenceCircle('4x mysticalagriculture:prosperity_shard', 'prosperity_shard')
 
   // infusion seed crafting
   function seedCrafting(output, middle, item1, item2, item3, item4, item5, item6, item7, item8){
