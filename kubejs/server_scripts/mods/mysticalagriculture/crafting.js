@@ -21,8 +21,8 @@ let cropAdjust = [
   {crop:"refined_glowstone", tier:"imperium", block:"mekanism:block_refined_glowstone"},
   {crop:"refined_obsidian", tier:"imperium", block:"mekanism:block_refined_obsidian"},
   {crop:"constantan", tier:"imperium"},
-  {crop:"cyanite", tier:"supremium", block:"bigreactors:cyanite_block"},
-  {crop:"graphite", tier:"tertium", block:"bigreactors:graphite_block"},
+  {crop:"cyanite", tier:"supremium", block:"biggerreactors:cyanite_block"},
+  {crop:"graphite", tier:"tertium", block:"biggerreactors:graphite_block"},
 ]
 
 ServerEvents.recipes(event => {

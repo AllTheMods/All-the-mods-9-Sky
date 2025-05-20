@@ -84,7 +84,7 @@ ServerEvents.recipes(allthemods => {
             }
         };
 
-        const name = outputId.split(':')[1];
+        const name = inputId.split(':')[1];
         allthemods.custom(recipe).id(
             customId || `allthemods:alchemistry/dissolver/${name}`
         );
@@ -114,20 +114,6 @@ ServerEvents.recipes(allthemods => {
         );
     }
 
-    const ores = [
-        'aluminum',
-        'copper',
-        'gold',
-        'iron',
-        'lead',
-        'nickel',
-        'osmium',
-        'platinum',
-        'silver',
-        'tin',
-        'uranium',
-        'zinc',
-    ]
 
     allthemods.remove({ id: 'alchemistry:atomizer/syrup' });
     allthemods.remove({ id: 'alchemistry:liquifier/syrup' });
@@ -144,17 +130,13 @@ ServerEvents.recipes(allthemods => {
     combiner(['3x chemlib:technetium',          '1x chemlib:aluminum',      '2x chemlib:oxygen'     ],'xycraft_world:xychorium_gem_light');
     combiner(['3x chemlib:technetium',          '1x chemlib:cadmium',       '2x chemlib:oxygen'     ],'xycraft_world:xychorium_gem_red');
 
-    dissolver('1x forge:fruits/banana',         '8x chemlib:potassium');
+    dissolver('1x #forge:fruits/banana',         '8x chemlib:potassium');
     dissolver('1x absentbydesign:slab_snow',    '8x chemlib:water');
     dissolver('1x #chipped:coal_block',         '18x chemlib:graphite');
-    dissolver('1x absentbydesign:slab_snow',    '8x chemlib:water');
-    dissolver('1x #chipped:coal_block',         '18x chemlib:graphite');
-    dissolver('1x forge:fruits/banana',   '8x chemlib:potassium');
     dissolver('1x farmersdelight:beef_patty', '2x chemlib:protein');
     dissolver('1x silentgear:diamond_shard','8x chemlib:graphite');
     dissolver('1x farmersdelight:minced_beef','2x chemlib:protein');
-    dissolver('1x forge:silicon',         '16x chemlib:silicon');
-
+    dissolver('1x #forge:silicon',         '16x chemlib:silicon');
 
 });
 

@@ -1,4 +1,4 @@
-{
+﻿{
   "type": "alchemistry:dissolver",
   "group": "alchemistry:dissolver",
   "input": {
@@ -15,8 +15,7 @@
         "probability": 100.0,
         "results": [
           {
-            "item": "chemlib:uranium
-",
+            "item": "chemlib:uranium",
             "count": 8
           }
         ]
