@@ -80,6 +80,11 @@ ServerEvents.tags('item', allthemods => {
         'exdeorum:crushed_blackstone',
         'exdeorum:crushed_netherrack',
     ]);
+
+    allthemods.add('curios:back', [
+        'mekanism:jetpack',
+        'mekanism:jetpack_armored'
+    ])
 });
 
 ServerEvents.tags('block', allthemods => {
