@@ -141,6 +141,10 @@
 		containerClass = "com.direwolf20.laserio.client.screens.CardHolderScreen"
 		sortRange = ""
 
+	[[sorting.containerOverrides]]
+		containerClass = "net.pedroksl.advanced_ae.gui.QuantumCrafterMenu"
+		sortRange = ""
+
 #Tweaks
 [tweaks]
 	#Enable auto-refill
