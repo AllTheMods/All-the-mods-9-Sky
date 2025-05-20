@@ -3,7 +3,6 @@
 
 ServerEvents.tags('item', event => {
 
-
     event.add('minecraft:boats', /byg:\w+?_boat/);
     event.add('minecraft:chest_boats', /byg:.+?_chest_boat/);
 
@@ -37,6 +36,9 @@ ServerEvents.tags('item', event => {
         'industrialforegoing:dryrubber',
         'thermal:cured_rubber',
     ]);
+
+    event.remove('forge:seeds', '#mysticalagriculture:seeds')
+    event.remove('tombstone:seeds', '#mysticalagriculture:seeds')
 
     event.add('ars_nouveau:golem/shard', [
         'minecraft:amethyst_shard',
@@ -145,6 +147,7 @@ ServerEvents.tags('fluid', event => {
         'createaddition:flowing_bioethanol',
     ]);
     event.add('forge:oil', 'thermal:crude_oil');
+    event.add('forge:ethanol', 'chemlib:ethanol_fluid')
 });
 
 ServerEvents.tags('entity_type', event => {
