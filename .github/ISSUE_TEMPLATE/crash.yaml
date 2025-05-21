@@ -39,13 +39,13 @@ body:
       description: When you crash, Crash Assistant should popup and click Upload all
         and copy message, wait for logs to be uploaded, after it is done, paste
         here.
-      placeholder: "All the Mods 10 - 2.47 crashed. The logs have been uploaded to
+      placeholder: "All the Mods 9: To the Sky - 1.0.0 crashed. The logs have been uploaded to
         `gnomebot.dev`:
 
         ###
         [latest.log](<https://gnomebot.dev/paste/mclogs/...>)   |   [debug.log]\
-        (<https://gnomebot.dev/paste/mclogs/...>)   |   [crash-2025-05-08_13.40\
-        .26-client.txt](<https://gnomebot.dev/paste/mclogs/...>)   |   CurseFor\
+        (<https://gnomebot.dev/paste/mclogs/...>)   |   [crash-2000-01-01_00.00\
+        .00-client.txt](<https://gnomebot.dev/paste/mclogs/...>)   |   CurseFor\
         ge:
         [launcher_log.txt](<https://gnomebot.dev/paste/mclogs/...>)   |   KubeJ\
         S: [client.log](<https://gnomebot.dev/paste/mclogs/...>) /
