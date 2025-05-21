@@ -1,55 +1,60 @@
-// kjs version of flux's in world conversion
-const $SoundEvents = Java.loadClass('net.minecraft.sounds.SoundEvents')
-const $SoundSource = Java.loadClass('net.minecraft.sounds.SoundSource')
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9: To the Sky.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
+const $SoundEvents   = Java.loadClass('net.minecraft.sounds.SoundEvents')
+const $SoundSource   = Java.loadClass('net.minecraft.sounds.SoundSource')
 const $ParticleTypes = Java.loadClass('net.minecraft.core.particles.ParticleTypes')
 
-BlockEvents.leftClicked('minecraft:obsidian', event => {
-    const { block, item, player, level } = event
-    let handField = event.class.getDeclaredField('hand')
-    handField.setAccessible(true)
-    let hand = handField.get(event)
-    //console.log(hand)
-    //console.log(level.side)
-    if (hand != 'MAIN_HAND') return
-    if (!item.isEmpty()) return
-    if (player.isFake()) return
-    let base = block.offset(0, -2, 0)
-    let pos = block.pos
-    if (base.id != 'allthecompressed:obsidian_1x') return
-    //if (base.id != 'minecraft:crying_obsidian') return
-    let fluxCount = 0
-    level.getEntitiesWithin(AABB.ofBlock(pos.below()))
-        .filter(entity => entity.type == 'minecraft:item' && entity.item.id == 'minecraft:redstone')
-        .stream()
-        .mapToInt(entity => {
-            if (fluxCount < 512) {
-                let count = entity.item.count
-                fluxCount += count
-                //console.log(fluxCount)
-                //console.log(count)
-                entity.discard()
-                return count
-            }
-            return 0
-        }).sum()
-    //console.log(fluxCount)
-    if (fluxCount == 0) return
-    let fluxOut = Item.of('fluxnetworks:flux_dust').withCount(fluxCount)
-    let itemEntity = block.createEntity('minecraft:item')
-    itemEntity.x += 0.5
-    itemEntity.z += 0.5
-    itemEntity.item = fluxOut
-    itemEntity.setDeltaMovement([0, 0.2, 0])
-    block.set('minecraft:air')
-    let replacement = block.down
-    itemEntity.spawn()
-    if (level.random.nextDouble() > Math.pow(0.9, fluxCount >> 3)) {
-        replacement.set('minecraft:cobblestone')
-        level.playSound(null, pos, $SoundEvents.DRAGON_FIREBALL_EXPLODE, $SoundSource.BLOCKS, 1.0, 1.0)
-    } else {
-        replacement.set('minecraft:obsidian')
-        level.playSound(null, pos, $SoundEvents.DRAGON_FIREBALL_EXPLODE, $SoundSource.BLOCKS, 1.0, 1.0)
+const recipes = [
+    {
+        clickedBlock: 'minecraft:obsidian',
+        baseBlock:    'allthecompressed:obsidian_1x',
+        inputItem:    'minecraft:redstone',
+        outputItem:   'fluxnetworks:flux_dust',
+        resultBlock:  'minecraft:cobblestone'
     }
-    let particles = Math.max(4, Math.min(fluxCount >> 2, 64))
-    level.sendParticles($ParticleTypes.LAVA, pos.x + 0.5, pos.y, pos.z + 0.5, particles, 0, 0, 0, 0)
-})
+];
+
+recipes.forEach(recipe => {
+    BlockEvents.leftClicked(recipe.clickedBlock, allthemods => {
+        const { block, player, level, item } = allthemods;
+        const pos = block.pos;
+        const handField = allthemods.class.getDeclaredField('hand');
+        handField.setAccessible(true);
+
+        if (handField.get(allthemods) !== 'MAIN_HAND' || !item.isEmpty() || player.isFake()) return;
+        if (block.offset(0, -2, 0).id !== recipe.baseBlock) return;
+
+        let count = 0;
+        level.getEntitiesWithin(AABB.ofBlock(pos.below()))
+            .filter(e => e.type === 'minecraft:item' && e.item.id === 'minecraft:redstone')
+            .forEach(e => {
+                if (count < 512) {
+                    count += e.item.count;
+                    e.discard();
+                }
+            });
+
+        if (count === 0) return;
+
+        const stack = Item.of(recipe.outputItem).withCount(count);
+        const entity = block.createEntity('minecraft:item');
+        entity.x += 0.5; entity.z += 0.5;
+        entity.item = stack;
+        entity.setDeltaMovement([0, 0.2, 0]);
+        block.set('minecraft:air');
+
+        entity.spawn();
+        let replacement = block.down;
+        if (level.random.nextDouble() > Math.pow(0.9, count >> 3)) {
+            replacement.set(recipe.resultBlock);
+        } else {
+            replacement.set(recipe.clickedBlock)
+        }
+        level.playSound(null, pos.x + 0.5, pos.y + 0.5, pos.z + 0.5, $SoundEvents.DRAGON_FIREBALL_EXPLODE, $SoundSource.BLOCKS, 1.0, 1.0);
+        level.sendParticles($ParticleTypes.LAVA, pos.x + 0.5, pos.y + 0.5, pos.z + 0.5, Math.max(4, Math.min(count >> 2, 64)), 0, 0, 0, 0);
+    });
+});
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9: To the Sky.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
