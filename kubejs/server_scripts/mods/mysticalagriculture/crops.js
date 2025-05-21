@@ -1,181 +1,171 @@
-const CropRegistry = Java.loadClass('com.blakebr0.mysticalagriculture.registry.CropRegistry')
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9: To the Sky.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
-// sets the chance for a seed to drop
-const SecondarySeed = 0.01
-const TierSecondaryCutoff = 5
+const CropRegistry = Java.loadClass('com.blakebr0.mysticalagriculture.registry.CropRegistry').getInstance();
+const SEED_SECONDARY_CHANCE = 0.01;
+const SECONDARY_CHANCE_TIER_THRESHOLD = 5;
 
-ServerEvents.tags('item', event => {
-  let CropRegistryInstance = CropRegistry.getInstance()
-  let cropTiers = CropRegistryInstance.getTiers()
-  let tiers = Array.apply(null, Array(cropTiers.length))
-  for (const CropTier of cropTiers) {
-    tiers[CropTier.getValue() - 1] = CropTier.getFarmland()
-    if (CropTier.getValue() >= TierSecondaryCutoff) {
-      CropTier.setSecondarySeedDrop(false)
-      CropTier.setBaseSecondaryChance(0)
-    } else {
-      CropTier.setBaseSecondaryChance(SecondarySeed)
-    }
-  }
-  for (let i = 0; i < tiers.length; i++) {
-    let farmA = tiers[i]
-    let farmB = null
-    if (i + 1 < tiers.length) {
-      if (!farmA.equals(tiers[i + 1])) {
-        farmB = tiers[i + 1]
-      }
-    }
-    let tierA = farmA.getIdLocation().getPath().replace('_farmland', '')
-    event.add(`kubejs:farmland/${tierA}`, farmA.getId())
-    if (farmB) {
-      let tierB = farmB.getIdLocation().getPath().replace('_farmland', '')
-      event.add(`kubejs:farmland/${tierA}`, `#kubejs:farmland/${tierB}`)
-    } else {
-      break
-    }
-  }
-})
+ServerEvents.tags('item', tags => {
+    const tiers = CropRegistry.getTiers().toArray();
+    const farmlandByTier = tiers.map(t => t.getFarmland());
 
-ServerEvents.recipes(event => {
-  let JsonExport = { enabled: [], disabled: [] }
-  let CropRegistryInstance = CropRegistry.getInstance()
-  let CropList = CropRegistryInstance.getCrops()
-  for (const Crop of CropList) {
-    let CropName = Crop.getName()
-    if (Crop.isEnabled()) {
-      JsonExport.enabled.push(CropName)
-    } else {
-      JsonExport.disabled.push(CropName)
-    }
-  }
-  JsonIO.write('kubejs/server_scripts/mods/mysticalagriculture/cropInfo.json', JsonExport)
-
-  // Botany Pots
-  if (Platform.isLoaded('botanypots')) {
-    let seenSeeds = []
-    let crux = {}
-    let disabledSeedRecipes = []
-
-    // Fix drops, fix cruxes, check for missing
-    event.forEachRecipe({ type: 'botanypots:crop' }, recipe => {
-      let seed = Ingredient.of(recipe.json.get('seed')).getFirst()
-      if (seed.getMod().contains('mystical')) {
-        let seedName = seed.getIdLocation().getPath().replace('_seeds', '')
-        let newDrops = []
-        let Crop = CropRegistryInstance.getCropByName(seedName)
-        let cruxBlock = Crop.getCruxBlock()
-        if (cruxBlock) {
-          recipe.json.add('categories', [`${cruxBlock.getIdLocation().getPath()}`])
-          crux[cruxBlock.getId()] = cruxBlock.getIdLocation().getPath()
+    // Configure secondary seed chance and tag farmlands
+    tiers.forEach((tier, i) => {
+        if (tier.getValue() >= SECONDARY_CHANCE_TIER_THRESHOLD) {
+            tier.setSecondarySeedDrop(false);
+            tier.setBaseSecondaryChance(0);
+        } else {
+            tier.setBaseSecondaryChance(SEED_SECONDARY_CHANCE);
         }
-        for (const drop of recipe.json.get('drops')) {
-          if (Ingredient.of(drop.get('output')).test(seed)) {
-            if (SecondarySeed > 0 && Crop.getTier().hasSecondarySeedDrop()) {
-              drop.add('chance', SecondarySeed)
-              newDrops.push(drop)
+
+        const current = farmlandByTier[i];
+        const tierName = current.getIdLocation().getPath().replace('_farmland', '');
+        tags.add(`allthemods:farmland/${tierName}`, current.getId());
+
+        const next = farmlandByTier[i + 1];
+        if (next && !current.equals(next)) {
+            const nextName = next.getIdLocation().getPath().replace('_farmland', '');
+            tags.add(`allthemods:farmland/${tierName}`, `#allthemods:farmland/${nextName}`);
+        }
+    });
+});
+
+ServerEvents.recipes(events => {
+    const cropInfo = { enabled: [], disabled: [] };
+    CropRegistry.getCrops().forEach(crop => (crop.isEnabled() ? cropInfo.enabled : cropInfo.disabled).push(crop.getName()));
+    JsonIO.write('kubejs/server_scripts/mods/mysticalagriculture/cropInfo.json', cropInfo);
+
+    // BOTANYPOTS
+    if (Platform.isLoaded('botanypots')) {
+        const processed = new Set(), cruxMap = {}, disabledIds = [];
+
+        events.forEachRecipe({ type: 'botanypots:crop' }, recipe => {
+            const seed = Ingredient.of(recipe.json.get('seed')).getFirst();
+            if (!seed.getMod().contains('mystical')) return;
+
+            const name = seed.getIdLocation().getPath().replace('_seeds', '');
+            const crop = CropRegistry.getCropByName(name);
+            const drops = [];
+
+            // categories/crux
+            const crux = crop.getCruxBlock();
+            if (crux) {
+                const path = crux.getIdLocation().getPath();
+                recipe.json.add('categories', [path]);
+                cruxMap[crux.getId()] = path;
             }
-          } else {
-            newDrops.push(drop)
-          }
-        }
-        recipe.json.add('drops', newDrops)
-        seenSeeds.push(seedName)
 
-        // add disabled seed recipes by recipe ID to an array
-        if (JsonExport.disabled.find((name) => name === Crop.getName())) {
-          disabledSeedRecipes.push(recipe.getId())
-        }
-      }
-    })
+            // adjust existing drops
+            recipe.json.get('drops').forEach(drop => {
+                if (
+                    Ingredient.of(drop.get('output')).test(seed) &&
+                    crop.getTier().hasSecondarySeedDrop()
+                ) {
+                    drop.add('chance', SEED_SECONDARY_CHANCE);
+                }
+                drops.push(drop);
+            });
+            recipe.json.add('drops', drops);
+            processed.add(name);
+            if (cropInfo.disabled.includes(name)) disabledIds.push(recipe.getId());
+        });
 
-    // add missing recipes
-    for (const seed of JsonExport.enabled) {
-      if (!seenSeeds.includes(seed)) {
-        let Crop = CropRegistryInstance.getCropByName(seed)
-        let drops = [{ chance: 1.0, output: Ingredient.of(Crop.getEssenceItem()).toJson() }]
-        if (SecondarySeed > 0 && Crop.getTier().hasSecondarySeedDrop()) {
-          drops.push({ chance: SecondarySeed, output: Ingredient.of(Crop.getSeedsItem()).toJson() })
-        }
-        drops.push({ chance: 0.01, output: Ingredient.of("mysticalagriculture:fertilized_essence").toJson(), minRolls: 1, maxRolls: 1 })
-        let category = `${Crop.getTier().getFarmland().getIdLocation().getPath().replace('_farmland', '')}`
-        let cruxBlock = Crop.getCruxBlock()
-        if (cruxBlock) {
-          category = `${cruxBlock.getIdLocation().getPath()}`
-          crux[cruxBlock.getId()] = cruxBlock.getIdLocation().getPath()
-        }
-        event.custom({
-          type: 'botanypots:crop',
-          seed: Ingredient.of(Crop.getSeedsItem()).toJson(),
-          categories: [category],
-          growthTicks: 1200 + (600 * Crop.getTier().getValue()),
-          display: {
-            type: 'botanypots:aging',
-            block: Crop.getCropBlock().getId()
-          },
-          drops: drops
-        }).id(`kubejs:botanypots/mysticalagriculture/${seed}`)
-      }
+        // add missing recipes for enabled crops
+        cropInfo.enabled.forEach(name => {
+            if (processed.has(name)) return;
+            const crop = CropRegistry.getCropByName(name);
+            const tier = crop.getTier();
+
+            const drops = [
+                { chance: 1.0, output: Ingredient.of(crop.getEssenceItem()).toJson() }
+            ];
+            if (tier.hasSecondarySeedDrop() && SEED_SECONDARY_CHANCE > 0) {
+                drops.push({
+                    chance: SEED_SECONDARY_CHANCE,
+                    output: Ingredient.of(crop.getSeedsItem()).toJson()
+                });
+            }
+            drops.push({
+                chance: 0.01,
+                output: Ingredient.of('mysticalagriculture:fertilized_essence').toJson(),
+                minRolls: 1,
+                maxRolls: 1
+            });
+
+            let category = tier.getFarmland().getIdLocation().getPath().replace('_farmland', '');
+            if (cruxMap[crop.getCruxBlock()?.getId()]) {
+                category = cruxMap[crop.getCruxBlock().getId()];
+            }
+
+            events
+                .custom({
+                    type: 'botanypots:crop',
+                    seed: Ingredient.of(crop.getSeedsItem()).toJson(),
+                    categories: [category],
+                    growthTicks: 1200 + 600 * tier.getValue(),
+                    display: { type: 'botanypots:aging', block: crop.getCropBlock().getId() },
+                    drops: drops
+                })
+                .id(`allthemods:botanypots/mysticalagriculture/${name}`);
+        });
+
+        // register crux soils & remove disabled
+        Object.entries(cruxMap).forEach(([id, cat]) =>
+            events
+                .custom({
+                    type: 'botanypots:soil',
+                    input: { item: id },
+                    display: { block: id },
+                    categories: [cat],
+                    growthModifier: 1.0
+                })
+                .id(`allthemods:botanypots/mysticalagriculture/crux/${cat}`)
+        );
+        disabledIds.forEach(id => events.remove({ id: id }));
     }
-    // add crux 'soils'
-    for (const block in crux) {
-      let category = crux[block]
-      event.custom({
-        type: 'botanypots:soil',
-        input: { item: block },
-        display: { block: block },
-        categories: [category],
-        growthModifier: 1.0
-      }).id(`kubejs:botanypots/mysticalagriculture/crux/${category}`)
+
+    // THERMAL INSOLATOR
+    if (Platform.isLoaded('thermal')) {
+        cropInfo.enabled.forEach(name => {
+            const crop = CropRegistry.getCropByName(name);
+            events
+                .custom({
+                    type: 'thermal:insolator',
+                    ingredient: Ingredient.of(crop.getSeedsItem()).toJson(),
+                    result: [
+                        { item: crop.getEssenceItem().getId(), chance: 1 + SEED_SECONDARY_CHANCE },
+                        {
+                            item: crop.getSeedsItem().getId(),
+                            chance: crop.getTier().hasSecondarySeedDrop() ? 1 + SEED_SECONDARY_CHANCE : 1,
+                            locked: true
+                        }
+                    ]
+                })
+                .id(`allthemods:thermal/machines/insolator/mysticalagriculture/${name}`);
+        });
     }
 
-    // remove disabled seed recipes by id using that array we made earlier
-    disabledSeedRecipes.forEach(id => {
-      event.remove({id: id})
-    })
-  }
+    // IMMERSIVE ENGINEERING CLOCHE
+    if (Platform.isLoaded('immersiveengineering')) {
+        cropInfo.enabled.forEach(name => {
+            const crop = CropRegistry.getCropByName(name);
+            const soil = crop.getCruxBlock()
+                ? Ingredient.of(crop.getCruxBlock()).toJson()
+                : Ingredient.of(`#allthemods:farmland/${crop.getTier().getFarmland().getIdLocation().getPath().replace('_farmland', '')}`).toJson();
 
-  // Thermal Insolator
-  if (Platform.isLoaded('thermal')) {
-    JsonExport.enabled.forEach(cropName => {
-      let Crop = CropRegistryInstance.getCropByName(cropName)
-      event.custom({
-        type: 'thermal:insolator',
-        ingredient: Ingredient.of(Crop.getSeedsItem()).toJson(),
-        result: [
-          {
-            item: Crop.getEssenceItem().getId(),
-            chance: 1 + SecondarySeed
-          },
-          {
-            item: Crop.getSeedsItem().getId(),
-            chance: Crop.getTier().hasSecondarySeedDrop() ? (1 + SecondarySeed) : 1,
-            locked: true
-          }
-        ]
-      }).id(`kubejs:thermal/machines/insolator/mysticalagriculture/${cropName}`)
-    })
-  }
+            events
+                .custom({
+                    type: 'immersiveengineering:cloche',
+                    results: [{ item: crop.getEssenceItem().getId(), count: 2 }],
+                    input: Ingredient.of(crop.getSeedsItem()).toJson(),
+                    soil: soil,
+                    time: 250 + 750 * crop.getTier().getValue(),
+                    render: { type: 'crop', block: crop.getCropBlock().getId() }
+                })
+                .id(`allthemods:immersiveengineering/cloche/mysticalagriculture/${name}`);
+        });
+    }
+});
 
-  // Immersive Engineering Cloche
-  if (Platform.isLoaded('immersiveengineering')) {
-    JsonExport.enabled.forEach(cropName => {
-      let Crop = CropRegistryInstance.getCropByName(cropName)
-      event.custom({
-        type: 'immersiveengineering:cloche',
-        results: [
-          {
-            item: Crop.getEssenceItem().getId(),
-            count: 2
-          }
-        ],
-        input: Ingredient.of(Crop.getSeedsItem()).toJson(),
-        soil: Ingredient.of(Crop.getCruxBlock() ?? `#kubejs:farmland/${Crop.getTier().getFarmland().getIdLocation().getPath().replace('_farmland', '')}`).toJson(),
-        time: 250 + (750 * Crop.getTier().getValue()),
-        render: {
-          type: 'crop',
-          block: Crop.getCropBlock().getId()
-        }
-      }).id(`kubejs:immersiveengineering/cloche/mysticalagriculture/${cropName}`)
-    })
-  }
-})
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9: To the Sky.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
