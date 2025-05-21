@@ -26,11 +26,10 @@ ServerEvents.recipes(allthemods => {
         NETHERITE:'exdeorum:netherite_mesh'
     });
 
-
-    Object.values(Meshes).forEach(meshId => {
-        if(meshId !== 'exdeorum:netherite_mesh')
-            allthemods.remove({id: meshId})
-    });
+    allthemods.remove({id: Meshes.FLINT})
+    allthemods.remove({id: Meshes.IRON})
+    allthemods.remove({id: Meshes.GOLD})
+    allthemods.remove({id: Meshes.DIAMOND})
 
     /**
      * @param {string} input
