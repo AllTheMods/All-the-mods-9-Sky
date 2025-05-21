@@ -13,6 +13,15 @@ ServerEvents.recipes(event =>{
         c: "minecraft:phantom_membrane",
         d: "minecraft:nether_star"
     })
+
+    event.shaped('minecraft:sculk',
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ], {
+        A: 'minecraft:echo_shard'
+    })
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9: To the Sky.

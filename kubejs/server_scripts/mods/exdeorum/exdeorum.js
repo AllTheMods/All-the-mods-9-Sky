@@ -14,8 +14,7 @@ ServerEvents.recipes(allthemods => {
         EndStone:       'exdeorum:crushed_end_stone',
         Deepslate:      'exdeorum:crushed_deepslate',
         Blackstone:     'exdeorum:crushed_blackstone',
-        Moss:           'minecraft:moss_block',
-        CompressedSand: 'exdeorum:compressed_sand',
+        Moss:           'minecraft:moss_block'
     });
 
     const Meshes = Object.freeze({
@@ -51,7 +50,7 @@ ServerEvents.recipes(allthemods => {
                 n: amount || 1,
                 p: chance || 1
             }
-        });
+        }).id(`allthemods:exdeorum/sieve/${mesh.split(':')[1]}/${result.split(':')[1]}`);
     }
 
     /**
@@ -65,7 +64,7 @@ ServerEvents.recipes(allthemods => {
             ingredient: [{ item: input }],
             result: result,
             result_amount: amount || 1.0
-        });
+        }).id(`allthemods:exdeorum/hammer/${result.split(':')[1]}`);
     }
 
     /**
@@ -81,7 +80,7 @@ ServerEvents.recipes(allthemods => {
             fluid_amount: fluidAmount || 1000,
             ingredient: Ingredient.of(input),
             result: result
-        });
+        }).id(`allthemods:exdeorum/barrel_mixing/item/${fluid.split(':')[1]}/${result.split(':')[1]}`);
     }
 
     /**
@@ -99,7 +98,7 @@ ServerEvents.recipes(allthemods => {
             additive_fluid: addFluid,
             consumes_additive: consumes,
             result: result
-        });
+        }).id(`allthemods:exdeorum/barrel_mixing/fluid/${addFluid.split(':')[1]}/${result.split(':')[1]}`);
     }
 
     /**
@@ -111,7 +110,7 @@ ServerEvents.recipes(allthemods => {
             type: 'exdeorum:crucible_heat_source',
             block_predicate: { block: block },
             heat_value: heatValue
-        });
+        }).id(`allthemods:exdeorum/heat_source/${block.split(':')[1]}`);
     }
 
     /**
@@ -124,7 +123,7 @@ ServerEvents.recipes(allthemods => {
             type: 'exdeorum:lava_crucible',
             ingredient: Ingredient.of(input),
             fluid: { FluidName: fluidName, Amount: amount }
-        });
+        }).id(`allthemods:exdeorum/lava_crucible/${fluidName}/${fluidName.split(':')[1]}`);
     }
 
     [
@@ -238,24 +237,6 @@ ServerEvents.recipes(allthemods => {
     ].forEach(entry => {
         sieving(Materials.SoulSand, entry.mesh, 'mysticalagriculture:inferium_essence', entry.amount, entry.chance);
     });
-
-    // Echor Shard
-    [
-        { mesh: Meshes.IRON,     amount: 1, chance: 0.05 },
-        { mesh: Meshes.GOLD,     amount: 1, chance: 0.05 },
-        { mesh: Meshes.DIAMOND,  amount: 1, chance: 0.05 },
-        { mesh: Meshes.NETHERITE,amount: 1, chance: 0.05 }
-    ].forEach(entry => {
-        sieving(Materials.Deepslate, entry.mesh, 'minecraft:echo_shard', entry.amount, entry.chance);
-    })
-
-    // Sculk
-    sieving(Materials.Deepslate, Meshes.GOLD,       'minecraft:sculk', 1, 0.07);
-    sieving(Materials.Deepslate, Meshes.DIAMOND,    'minecraft:sculk', 1, 0.09);
-    sieving(Materials.Deepslate, Meshes.NETHERITE,  'minecraft:sculk', 1, 0.11);
-
-    sieving(Materials.Deepslate, Meshes.DIAMOND,    'minecraft:sculk_sensor', 1, 0.05);
-    sieving(Materials.Deepslate, Meshes.NETHERITE,  'minecraft:sculk_sensor', 1, 0.07);
 
     // Forcegem
     sieving(Materials.Dust, Meshes.IRON,     'forcecraft:force_gem',  1, 0.06);
