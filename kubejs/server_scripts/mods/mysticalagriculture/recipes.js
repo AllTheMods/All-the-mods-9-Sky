@@ -57,11 +57,29 @@ ServerEvents.recipes(allthemods => {
     function infusion({ middle, ingredients }, output, customId) {
         const mid = middle || 'mysticalagriculture:prosperity_seed_base';
 
-        const slots = ingredients.length === 2
-            ? Array.from({ length: 8 }, (_, i) => ingredients[i % 2])
-            : ingredients;
+        ingredients.forEach(ingredient => {
+            console.log(`[MysticalAgriculture] ${output} Ingredient: ${ingredient}`)
+        })
 
-        const inputs = slots.map(item => Ingredient.of(item));
+        const slots = [];
+        if (ingredients.length === 2) {
+            for (let i = 0; i < 8; i++) {
+                slots.push(ingredients[i % 2]);
+            }
+        } else {
+            slots.push(ingredients);
+        }
+
+        slots.forEach(item => {
+            console.log(`[MysticalAgriculture] ${output} Slot: ${item}`)
+        })
+
+        const inputs = slots.map(item => Ingredient.of(item).toJson());
+
+        inputs.forEach(item => {
+            console.log(`[MysticalAgriculture] ${output} Input: ${item}`)
+        })
+
         const outName = output.includes(':')
             ? output.split(':')[1].replace(/^(\d+x\s*)?/, '')
             : output;
@@ -101,23 +119,14 @@ ServerEvents.recipes(allthemods => {
     }
 
     /**
-     * @param {{ crop: string, block?: string }} entry
+     * @param {{ crop: string, tier: Tier, block?: string }} entry
      * @returns {string}
      */
-    function getBlock({ crop, block }) {
+    function getBlock({ crop, tier, block }) {
         const compressed = `allthecompressed:${crop}_block_1x`;
-
-        if (Item.exists(compressed)) {
-            return compressed;
-        }
-
-        if (block) return block;
-
-        const [fallback] = Ingredient
-            .of(`#forge:storage_blocks/${crop}`)
-            .getItemIds();
-
-        return fallback;
+        if (Item.exists(compressed)) return compressed
+        if (block != null)return block
+        return `#forge:storage_blocks/${crop}`;
     }
 
     ESSENCE_RECIPES.forEach(entry =>

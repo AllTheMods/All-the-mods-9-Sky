@@ -253,7 +253,7 @@ ServerEvents.recipes(allthemods => {
 
     // Crucible heating blocks
     heatSource('botania:blaze_block',           8);
-    heatSource('#forge:storage_blocks/uranium', 20);
+    heatSource('alltheores:uranium_block',      20);
     heatSource('pneumaticcraft:heat_frame',     50);
     heatSource('mekanism:superheating_element', 60);
     heatSource('projecte:dark_matter_block',    100);
