@@ -151,7 +151,10 @@ ServerEvents.tags('fluid', allthemods => {
         'createaddition:bioethanol',
         'createaddition:flowing_bioethanol',
     ]);
-    allthemods.add('forge:oil', 'thermal:crude_oil');
+    allthemods.add('forge:oil', [
+        'pneumaticcraft:oil',
+        'thermal:crude_oil'
+    ]);
     allthemods.add('forge:ethanol', 'chemlib:ethanol_fluid')
 });
 
@@ -176,7 +179,7 @@ ServerEvents.tags('entity_type', allthemods => {
     ]);
 
     allthemods.removeAll('spawns_corrupt_lost_soul_chance')
-    allthemods.remove('spawns_lost_soul_chance')
+    allthemods.removeAll('spawns_lost_soul_chance')
 });
 
 ServerEvents.tags('worldgen/biome', allthemods => {
