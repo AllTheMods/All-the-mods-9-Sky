@@ -33,9 +33,9 @@
 [text]
 	#$CONFIG.text.support_name$ in lang files will be replaced with this value.
 	#For example this placeHolder used in: "Request help in the $CONFIG.text.support_name$"
-	support_name = "ATM10 Support Channel"
+	support_name = "ATM9sky Support Channel"
 	#$CONFIG.text.support_place$ in lang files will be replaced with this value.
-	support_place = "#atm10-techsupport channel"
+	support_place = "#9sky-techsupport channel"
 	#$CONFIG.text.modpack_name$ in lang files will be replaced with this value.
 	#For example this placeHolder used in: "Oops, $CONFIG.text.modpack_name$ crashed!"
 	#Supports Better Compatibility Checker integration. You can use $BCC.modpackName$, $BCC.modpackVersion$, etc and it will be replaced with value from BCC config.
@@ -77,7 +77,7 @@
 	#nicknames of players, who considered as modpack creator.
 	#Only this players can overwrite modlist.json
 	#If this feature is enabled and this array is empty, will be appended with nickname of current player.
-	modpack_creators = ["ATM Team"]
+	modpack_creators = ["Satherov"]
 	#If enabled, modlist.json will be overwritten on every launch(first tick of TitleScreen),
 	#then game is launched by modpack creator.
 	#So you won't forget to save it before publishing.
