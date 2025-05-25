@@ -61,10 +61,10 @@ ServerEvents.recipes(allthemods => {
             E: Press.ENGINEERING,
         }).id('kubejs:universal_press')
 
-    inscriber({ top: "#forge:dusts/sky" , middle: '#forge:silicon',             bottom: '#forge:plates/iron'}, Press.SILICON);
-    inscriber({ top: "#forge:dusts/sky" , middle: '#forge:ingots/gold',         bottom: '#forge:plates/iron'}, Press.LOGIC);
-    inscriber({ top: "#forge:dusts/sky" , middle: '#forge:gems/certus_quartz',  bottom: '#forge:plates/iron'}, Press.CALCULATION);
-    inscriber({ top: "#forge:dusts/sky" , middle: '#forge:gems/diamond',        bottom: '#forge:plates/iron'}, Press.ENGINEERING);
+    inscriber({ top: "#forge:dusts/sky_stone" , middle: '#forge:silicon',             bottom: '#forge:plates/iron'}, Press.SILICON);
+    inscriber({ top: "#forge:dusts/sky_stone" , middle: '#forge:ingots/gold',         bottom: '#forge:plates/iron'}, Press.LOGIC);
+    inscriber({ top: "#forge:dusts/sky_stone" , middle: '#forge:gems/certus_quartz',  bottom: '#forge:plates/iron'}, Press.CALCULATION);
+    inscriber({ top: "#forge:dusts/sky_stone" , middle: '#forge:gems/diamond',        bottom: '#forge:plates/iron'}, Press.ENGINEERING);
 
     inscriber({ top: Press.UNIVERSAL, middle: '#forge:silicon'              }, 'ae2:printed_silicon');
     inscriber({ top: Press.UNIVERSAL, middle: '#forge:gems/certus_quartz'   }, 'ae2:printed_calculation_processor');
