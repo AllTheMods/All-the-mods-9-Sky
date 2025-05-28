@@ -407,9 +407,9 @@
     "modId": "epherolib",
     "version": "0.1.2"
   },
-  "EuphoriaPatcher-1.6.3-r5.5.1-forge.jar": {
+  "EuphoriaPatcher-1.6.4-r5.5.1-forge.jar": {
     "modId": "euphoria_patcher",
-    "version": "1.6.3-r5.5.1-forge"
+    "version": "1.6.4-r5.5.1-forge"
   },
   "EverlastingAbilities-1.20.1-2.3.1.jar": {
     "modId": "everlastingabilities",
@@ -660,9 +660,9 @@
     "modId": "keybindbundles",
     "version": "1.20.1-1.1.0"
   },
-  "keybindspurger-1.20.1-forge-1.3.1.jar": {
+  "keybindspurger-1.20.1-forge-1.3.3.jar": {
     "modId": "keybindspurger",
-    "version": "1.3.1"
+    "version": "1.3.3"
   },
   "kotlinforforge-4.11.0-all.jar": {},
   "kubejs-forge-2001.6.5-build.16.jar": {
@@ -693,9 +693,9 @@
     "modId": "matc",
     "version": "1.6.0"
   },
-  "mcjtylib-1.20-8.0.6.jar": {
+  "mcjtylib-1.20-8.0.7.jar": {
     "modId": "mcjtylib",
-    "version": "1.20-8.0.6"
+    "version": "1.20-8.0.7"
   },
   "mcw-bridges-3.1.0-mc1.20.1forge.jar": {
     "modId": "mcwbridges",
@@ -789,9 +789,9 @@
     "modId": "mysticalagradditions",
     "version": "7.0.10"
   },
-  "MysticalAgriculture-1.20.1-7.0.19.jar": {
+  "MysticalAgriculture-1.20.1-7.0.20.jar": {
     "modId": "mysticalagriculture",
-    "version": "7.0.19"
+    "version": "7.0.20"
   },
   "MysticalCustomization-1.20.1-5.0.2.jar": {
     "modId": "mysticalcustomization",
@@ -1058,17 +1058,17 @@
     "modId": "solargeneration",
     "version": "6.0.2"
   },
-  "sophisticatedbackpacks-1.20.1-3.23.17.1246.jar": {
+  "sophisticatedbackpacks-1.20.1-3.23.19.1251.jar": {
     "modId": "sophisticatedbackpacks",
-    "version": "3.23.17.1246"
+    "version": "3.23.19.1251"
   },
-  "sophisticatedcore-1.20.1-1.2.63.993.jar": {
+  "sophisticatedcore-1.20.1-1.2.66.997.jar": {
     "modId": "sophisticatedcore",
-    "version": "1.2.63.993"
+    "version": "1.2.66.997"
   },
-  "sophisticatedstorage-1.20.1-1.3.44.1157.jar": {
+  "sophisticatedstorage-1.20.1-1.3.47.1163.jar": {
     "modId": "sophisticatedstorage",
-    "version": "1.3.44.1157"
+    "version": "1.3.47.1163"
   },
   "sound-physics-remastered-forge-1.20.1-1.4.10.jar": {
     "modId": "sound_physics_remastered",
@@ -1150,9 +1150,9 @@
     "modId": "titanium",
     "version": "3.8.32"
   },
-  "tombstone-1.20.1-8.9.5.jar": {
+  "tombstone-1.20.1-8.9.6.jar": {
     "modId": "tombstone",
-    "version": "8.9.5"
+    "version": "8.9.6"
   },
   "torchmaster-20.1.9.jar": {
     "modId": "torchmaster",
