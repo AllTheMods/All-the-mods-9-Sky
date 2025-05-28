@@ -57,10 +57,6 @@ ServerEvents.recipes(allthemods => {
     function infusion({ middle, ingredients }, output, customId) {
         const mid = middle || 'mysticalagriculture:prosperity_seed_base';
 
-        ingredients.forEach(ingredient => {
-            console.log(`[MysticalAgriculture] ${output} Ingredient: ${ingredient}`)
-        })
-
         const slots = [];
         if (ingredients.length === 2) {
             for (let i = 0; i < 8; i++) {
@@ -70,15 +66,7 @@ ServerEvents.recipes(allthemods => {
             slots.push(ingredients);
         }
 
-        slots.forEach(item => {
-            console.log(`[MysticalAgriculture] ${output} Slot: ${item}`)
-        })
-
         const inputs = slots.map(item => Ingredient.of(item).toJson());
-
-        inputs.forEach(item => {
-            console.log(`[MysticalAgriculture] ${output} Input: ${item}`)
-        })
 
         const outName = output.includes(':')
             ? output.split(':')[1].replace(/^(\d+x\s*)?/, '')

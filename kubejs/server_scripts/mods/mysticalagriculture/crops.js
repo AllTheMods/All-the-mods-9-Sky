@@ -37,7 +37,7 @@ ServerEvents.recipes(events => {
 
     // BOTANYPOTS
     if (Platform.isLoaded('botanypots')) {
-        const processed = new Set(), cruxMap = {}, disabledIds = [];
+        let processed = new Set(), cruxMap = {}, disabledIds = [];
 
         events.forEachRecipe({ type: 'botanypots:crop' }, recipe => {
             const seed = Ingredient.of(recipe.json.get('seed')).getFirst();
