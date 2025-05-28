@@ -1,0 +1,62 @@
+{
+    "entity": "minecraft:enderman",
+    "variants": [
+		"endermanoverhaul:badlands_enderman",
+		"endermanoverhaul:cave_enderman",
+		"endermanoverhaul:coral_enderman",
+		"endermanoverhaul:crimson_forest_enderman",
+		"endermanoverhaul:dark_oak_enderman",
+		"endermanoverhaul:desert_enderman",
+		"endermanoverhaul:end_enderman",
+		"endermanoverhaul:end_islands_enderman",
+		"endermanoverhaul:flower_fields_enderman",
+		"endermanoverhaul:ice_spikes_enderman",
+		"endermanoverhaul:mushroom_fields_enderman",
+		"endermanoverhaul:nether_wastes_enderman",
+		"endermanoverhaul:savanna_enderman",
+		"endermanoverhaul:snowy_enderman",
+		"endermanoverhaul:soulsand_valley_enderman",
+		"endermanoverhaul:swamp_enderman",
+		"endermanoverhaul:nether_wastes_enderman",
+		"endermanoverhaul:warped_forest_enderman",
+		"endermanoverhaul:windswept_hills_enderman"
+],
+    "name": "entity.minecraft.enderman",
+    "name_color": "#161616",
+    "gui_scale": 0.75,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 512,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:end_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.enderman",
+    "fabricator_drops": [
+        {
+            "item": "minecraft:ender_pearl",
+            "count": 16
+        },
+        {
+            "item": "minecraft:end_crystal",
+            "count": 1
+        },
+        {
+            "optional": true,
+            "item": "evilcraft:ender_tear",
+            "count": 4
+        },
+        {
+            "optional": true,
+            "item": "reliquary:nebulous_heart",
+            "count": 2
+        },
+        {
+            "item": "enderio:enderman_head",
+            "count": 1
+        }
+    ]
+}
