@@ -5,6 +5,30 @@
       "emc": 64
     },
     {
+      "item": "minecraft:dirt",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:gravel",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:sand",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:end_stone",
+      "emc": 8
+    },
+    {
+      "item": "exdeorum:dust",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:obsidian",
+      "emc": 256
+    },
+    {
       "item": "minecraft:cooked_beef",
       "emc": 64
     },
