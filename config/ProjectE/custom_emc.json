@@ -33,68 +33,27 @@
       "emc": 64
     },
     {
-      "item": "forcecraft:raw_bacon",
-      "emc": 32
-    },
-    {
-      "item": "forcecraft:cooked_bacon",
-      "emc": 32
-    },
-    {
       "item": "minecraft:porkchop",
       "emc": 64
     },
     {
-      "item": "croptopia:bacon",
-      "emc": 64
-    },
-    {
-      "item": "croptopia:cooked_bacon",
-      "emc": 64
-    },
-    {
-      "item": "farmersdelight:bacon",
-      "emc": 32
-    },
-    {
       "item": "minecraft:cooked_porkchop",
       "emc": 64
-    },
-    {
-      "item": "farmersdelight:cooked_bacon",
-      "emc": 32
-    },
     {
       "item": "minecraft:mutton",
       "emc": 64
-    },
-    {
-      "item": "farmersdelight:mutton_chops",
-      "emc": 32
     },
     {
       "item": "minecraft:cooked_mutton",
       "emc": 64
     },
     {
-      "item": "farmersdelight:cooked_mutton_chops",
-      "emc": 32
-    },
-    {
       "item": "minecraft:chicken",
       "emc": 64
     },
     {
-      "item": "farmersdelight:chicken_cuts",
-      "emc": 32
-    },
-    {
       "item": "minecraft:cooked_chicken",
       "emc": 64
-    },
-    {
-      "item": "farmersdelight:cooked_chicken_cuts",
-      "emc": 32
     },
     {
       "item": "minecraft:rabbit",
@@ -112,31 +71,6 @@
       "item": "minecraft:pufferfish",
       "emc": 64
     },
-    {
-      "item": "croptopia:shrimp",
-      "emc": 64
-    },
-    {
-      "item": "croptopia:cooked_shrimp",
-      "emc": 64
-    },
-    {
-      "item": "croptopia:tuna",
-      "emc": 64
-    },
-    {
-      "item": "croptopia:cooked_tuna",
-      "emc": 64
-    },
-    {
-      "item": "croptopia:anchovy",
-      "emc": 64
-    },
-    {
-      "item": "croptopia:cooked_anchovy",
-      "emc": 64
-    },
-    {
       "item": "croptopia:roe",
       "emc": 16
     },
@@ -145,32 +79,16 @@
       "emc": 64
     },
     {
-      "item": "farmersdelight:cod_slice",
-      "emc": 32
-    },
-    {
       "item": "minecraft:cooked_cod",
       "emc": 64
-    },
-    {
-      "item": "farmersdelight:cooked_cod_slice",
-      "emc": 32
     },
     {
       "item": "minecraft:salmon",
       "emc": 64
     },
     {
-      "item": "farmersdelight:salmon_slice",
-      "emc": 32
-    },
-    {
       "item": "minecraft:cooked_salmon",
       "emc": 64
-    },
-    {
-      "item": "farmersdelight:cooked_salmon_slice",
-      "emc": 32
     },
     {
       "item": "minecraft:bone",
@@ -201,23 +119,11 @@
       "emc": 32
     },
     {
-      "item": "croptopia:calamari",
-      "emc": 16
-    },
-    {
-      "item": "croptopia:cooked_calamari",
-      "emc": 16
-    },
-    {
       "item": "minecraft:ink_sac",
       "emc": 16
     },
     {
       "item": "minecraft:glow_ink_sac",
-      "emc": 16
-    },
-    {
-      "item": "croptopia:glowing_calamari",
       "emc": 16
     },
     {
