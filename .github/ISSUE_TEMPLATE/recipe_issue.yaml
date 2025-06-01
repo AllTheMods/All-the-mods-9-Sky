@@ -1,9 +1,7 @@
 name: 👨‍🍳 Recipe Issues
 description: Issues relating recipes like missing, incomplete, unbalanced, etc.
 title: "[Recipe Issue]: "
-labels:
-  - 'Recipe Issue'
-  - 'Needs Feedback'
+labels: ["Recipe Issue", "Needs Feedback"]
 body:
   - type: input
     id: pack-version
