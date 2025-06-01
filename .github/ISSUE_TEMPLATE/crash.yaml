@@ -3,7 +3,8 @@ name: 💥 Crash/Disconnect Report
 description: File a crash report or disconnect issue
 title: "[Crash]: "
 labels:
-  - Crash
+  - 'Crash'
+  - 'Needs Feedback'
 body:
   - type: markdown
     attributes:

@@ -1,7 +1,9 @@
 name: 🗺️ Modpack Content (Quests/etc)
 description: Issues relating modpack content and quests not completing, typos, inconsistent/incorrect information, or any translation issues in the quests.
 title: "[Quest Bug]: "
-labels: [ Quest Bug ]
+labels:
+  - 'Quest Bug'
+  - 'Needs Feedback'
 body:
   - type: input
     id: pack-version
