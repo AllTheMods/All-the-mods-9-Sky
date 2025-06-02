@@ -39,7 +39,7 @@
 	ResonantFECapacity = 16000000
 	#Defines at what XP Level to start displaying a warning of low XP for the Classic Angel Ring. Set to -1 to disable.
 	#Range: > -1
-	XPWarningLevel = 3
+	XPWarningLevel = -1
 	#Defines at what percentage to start displaying a warning of low power for Energy Angel Rings. Set to -1 to disable.
 	#Range: -1 ~ 100
 	EnergyWarningPercentage = 5
