@@ -8,6 +8,14 @@ StartupEvents.registry('block', event => {
 	event.create('magical_soil').displayName('§bMagical Soil').grassSoundType().mapColor('grass').hardness(0.6);
 })
 
+StartupEvents.registry('item', event => {
+	event.create('inert_dragon_heart')
+		.displayName('Inert Dragon Heart')
+		.rarity('epic')
+		.glow(true)
+		.tooltip("Must be draconically infused")
+})
+
 StartupEvents.modifyCreativeTab('ironfurnaces:ironfurnaces_tab', event => {
 	event.add('ironfurnaces:allthemodium_furnace')
 	event.add('ironfurnaces:vibranium_furnace')
