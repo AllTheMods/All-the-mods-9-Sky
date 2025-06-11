@@ -145,6 +145,71 @@
 		containerClass = "net.pedroksl.advanced_ae.gui.QuantumCrafterMenu"
 		sortRange = ""
 
+	[[sorting.containerOverrides]]
+		containerClass = "slimeknights.tconstruct.tables.client.inventory.CraftingStationScreen"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "slimeknights.tconstruct.tables.client.inventory.ModifierWorktableScreen"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "slimeknights.tconstruct.tables.client.inventory.PartBuilderScreen"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "slimeknights.tconstruct.tables.client.inventory.PartInfoPanelScreen"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "slimeknights.tconstruct.tables.client.inventory.PartInfoPanelScreen"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "slimeknights.tconstruct.tables.client.inventory.TinkerStationScreen"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "slimeknights.tconstruct.tables.client.inventory.ToolTableScreen"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "slimeknights.tconstruct.smeltery.client.screen.HeatingStructureScreen"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "slimeknights.tconstruct.smeltery.client.screen.AlloyerScreen"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "slimeknights.tconstruct.smeltery.client.screen.MelterScreen"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "slimeknights.tconstruct.smeltery.client.screen.module.ClickableTankModule"
+		sortRange = ""
+
+
+	[[sorting.containerOverrides]]
+		containerClass = "slimeknights.tconstruct.smeltery.client.screen.module.GuiFuelModule"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "slimeknights.tconstruct.smeltery.client.screen.module.GuiMeltingModule"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "slimeknights.tconstruct.smeltery.client.screen.module.GuiSmelteryTank"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "slimeknights.tconstruct.smeltery.client.screen.module.GuiTankModule"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "slimeknights.tconstruct.smeltery.client.screen.module.HeatingStructureSideInventoryScreen"
+		sortRange = ""
+
 #Tweaks
 [tweaks]
 	#Enable auto-refill
