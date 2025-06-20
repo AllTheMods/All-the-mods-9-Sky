@@ -249,15 +249,23 @@ ServerEvents.recipes(allthemods => {
     });
 
     // Forcegem
-    sieving(Materials.Dust, Meshes.IRON,     'forcecraft:force_gem',  1, 0.06);
-    sieving(Materials.Dust, Meshes.GOLD,     'forcecraft:force_gem',  1, 0.07);
-    sieving(Materials.Dust, Meshes.DIAMOND,  'forcecraft:force_gem',  2, 0.07);
-    sieving(Materials.Dust, Meshes.NETHERITE,'forcecraft:force_gem',  2, 0.09);
+    [
+        { mesh: Meshes.IRON,     amount: 1, chance: 0.06 },
+        { mesh: Meshes.GOLD,     amount: 1, chance: 0.07 },
+        { mesh: Meshes.DIAMOND,  amount: 2, chance: 0.07 },
+        { mesh: Meshes.NETHERITE,amount: 2, chance: 0.09 }
+    ].forEach(entry => {
+        sieving(Materials.Deepslate, entry.mesh, 'forcecraft:force_gem', entry.amount, entry.chance);
+    });
 
     // Arcane Crystal
-    sieving(Materials.Dust, Meshes.IRON,     'forbidden_arcanus:arcane_crystal',  1, 0.05);
-    sieving(Materials.Dust, Meshes.DIAMOND,  'forbidden_arcanus:arcane_crystal',  1, 0.06);
-    sieving(Materials.Dust, Meshes.NETHERITE,'forbidden_arcanus:arcane_crystal',  1, 0.08);
+    [
+        { mesh: Meshes.IRON,     amount: 1, chance: 0.05 },
+        { mesh: Meshes.DIAMOND,  amount: 2, chance: 0.06 },
+        { mesh: Meshes.NETHERITE,amount: 2, chance: 0.08 }
+    ].forEach(entry => {
+        sieving(Materials.Deepslate, entry.mesh, 'forbidden_arcanus:arcane_crystal', entry.amount, entry.chance);
+    });
 
     // Raw iesnium
     sieving(Materials.Blackstone, Meshes.NETHERITE, 'occultism:raw_iesnium', 1, 0.05);
