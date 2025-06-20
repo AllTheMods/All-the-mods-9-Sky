@@ -237,6 +237,17 @@ ServerEvents.recipes(allthemods => {
         sieving(Materials.SoulSand, entry.mesh, 'mysticalagriculture:inferium_essence', entry.amount, entry.chance);
     });
 
+    // Silent gear bort
+    [
+        { mesh: Meshes.FLINT,    amount: 1, chance: 0.1 },
+        { mesh: Meshes.IRON,     amount: 1, chance: 0.1 },
+        { mesh: Meshes.GOLD,     amount: 1, chance: 0.1 },
+        { mesh: Meshes.DIAMOND,  amount: 1, chance: 0.1 },
+        { mesh: Meshes.NETHERITE,amount: 1, chance: 0.1 }
+    ].forEach(entry => {
+        sieving(Materials.Deepslate, entry.mesh, 'silentgear:bort', entry.amount, entry.chance);
+    });
+
     // Forcegem
     sieving(Materials.Dust, Meshes.IRON,     'forcecraft:force_gem',  1, 0.06);
     sieving(Materials.Dust, Meshes.GOLD,     'forcecraft:force_gem',  1, 0.07);
