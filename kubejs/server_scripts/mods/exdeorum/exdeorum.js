@@ -3,7 +3,11 @@
 
 ServerEvents.recipes(allthemods => {
 
-    const Materials = Object.freeze({
+    /**
+     * @readonly
+     * @enum {string}
+     */
+    const Materials = {
         Dirt:           'minecraft:dirt',
         SoulSand:       'minecraft:soul_sand',
         RedSand:        'minecraft:red_sand',
@@ -15,16 +19,20 @@ ServerEvents.recipes(allthemods => {
         Deepslate:      'exdeorum:crushed_deepslate',
         Blackstone:     'exdeorum:crushed_blackstone',
         Moss:           'minecraft:moss_block'
-    });
+    };
 
-    const Meshes = Object.freeze({
+    /**
+     * @readonly
+     * @enum {string}
+     */
+    const Meshes = {
         STRING:   'exdeorum:string_mesh',
         FLINT:    'exdeorum:flint_mesh',
         IRON:     'exdeorum:iron_mesh',
         GOLD:     'exdeorum:golden_mesh',
         DIAMOND:  'exdeorum:diamond_mesh',
         NETHERITE:'exdeorum:netherite_mesh'
-    });
+    };
 
     allthemods.remove({id: Meshes.FLINT})
     allthemods.remove({id: Meshes.IRON})
@@ -32,8 +40,8 @@ ServerEvents.recipes(allthemods => {
     allthemods.remove({id: Meshes.DIAMOND})
 
     /**
-     * @param {string} input
-     * @param {string} mesh
+     * @param {Materials} input
+     * @param {Meshes} mesh
      * @param {string} result
      * @param {number} [amount]
      * @param {number} [chance]
@@ -260,10 +268,10 @@ ServerEvents.recipes(allthemods => {
 
     // Forcegem
     [
-        { mesh: Meshes.IRON,     amount: 1, chance: 0.06 },
-        { mesh: Meshes.GOLD,     amount: 1, chance: 0.07 },
-        { mesh: Meshes.DIAMOND,  amount: 2, chance: 0.07 },
-        { mesh: Meshes.NETHERITE,amount: 2, chance: 0.09 }
+        { mesh: Meshes.IRON,      amount: 1, chance: 0.06 },
+        { mesh: Meshes.GOLD,      amount: 1, chance: 0.07 },
+        { mesh: Meshes.DIAMOND,   amount: 2, chance: 0.07 },
+        { mesh: Meshes.NETHERITE, amount: 2, chance: 0.09 }
     ].forEach(entry => {
         sieving(Materials.Deepslate, entry.mesh, 'forcecraft:force_gem', entry.amount, entry.chance);
     });
@@ -279,6 +287,19 @@ ServerEvents.recipes(allthemods => {
 
     // Raw iesnium
     sieving(Materials.Blackstone, Meshes.NETHERITE, 'occultism:raw_iesnium', 1, 0.05);
+
+    // Flax Seeds
+    // Fluffy Seeds
+    [
+        { mesh: Meshes.FLINT,    amount: 1, chance: 0.08 },
+        { mesh: Meshes.IRON,     amount: 1, chance: 0.08 },
+        { mesh: Meshes.GOLD,     amount: 1, chance: 0.08 },
+        { mesh: Meshes.DIAMOND,  amount: 1, chance: 0.08 },
+        { mesh: Meshes.NETHERITE,amount: 1, chance: 0.08 }
+    ].forEach(entry => {
+        sieving(Materials.Dirt, entry.mesh, 'silentgear:flax_seeds', entry.amount, entry.chance);
+        sieving(Materials.Dirt, entry.mesh, 'silentgear:fluffy_seeds', entry.amount, entry.chance);
+    });
 
     // Crucible heating blocks
     heatSource('botania:blaze_block',           8);
