@@ -43,6 +43,8 @@ ServerEvents.recipes(allthemods => {
     compact(Item.of('exdeorum:zinc_ore_chunk', 4), Item.of('alltheores:zinc_ore'))
     compact(Item.of('exdeorum:platinum_ore_chunk', 4), Item.of('alltheores:platinum_ore'))
     compact(Item.of('exdeorum:osmium_ore_chunk', 4), Item.of('alltheores:osmium_ore'))
+
+    compact(Item.of('thermal:frost_melon_slice', 4), Item.of('thermal:melon_slice'))
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9: To the Sky.
