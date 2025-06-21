@@ -208,6 +208,16 @@ ServerEvents.recipes(allthemods => {
         sieving(Materials.Moss, entry.mesh, 'forbidden_arcanus:growing_edelwood',   entry.amount, entry.chance);
     });
 
+    // Rubberwood sapling
+    [
+        { mesh: Meshes.IRON,     amount: 1, chance: 0.05 },
+        { mesh: Meshes.GOLD,     amount: 1, chance: 0.05 },
+        { mesh: Meshes.DIAMOND,  amount: 1, chance: 0.05 },
+        { mesh: Meshes.NETHERITE,amount: 1, chance: 0.05 }
+    ].forEach(entry => {
+        sieving(Materials.Moss, entry.mesh, 'thermal:rubberwood_sapling', entry.amount, entry.chance);
+    });
+
     // Soulium dust
     [
         { mesh: Meshes.DIAMOND,  amount: 1, chance: 0.05 },
