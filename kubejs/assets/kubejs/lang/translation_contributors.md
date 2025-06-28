@@ -29,3 +29,4 @@ Korean (packmenu buttons)
 
 Portuguese 
 - oRuiva (https://github.com/oRuiva)
+- PrincessStellar (https://github.com/IzaDellaCruz)
