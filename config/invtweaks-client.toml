@@ -210,6 +210,10 @@
 		containerClass = "slimeknights.tconstruct.smeltery.client.screen.module.HeatingStructureSideInventoryScreen"
 		sortRange = ""
 
+	[[sorting.containerOverrides]]
+		containerClass = "net.permutated.exmachinis.machines.sieve.FluxSieveScreen"
+		sortRange = ""
+
 #Tweaks
 [tweaks]
 	#Enable auto-refill
