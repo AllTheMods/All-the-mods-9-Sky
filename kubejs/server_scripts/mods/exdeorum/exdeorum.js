@@ -308,7 +308,7 @@ ServerEvents.recipes(allthemods => {
     heatSource('mekanism:superheating_element', 60);
     heatSource('projecte:dark_matter_block',    100);
 
-    for(let i = 1; i < 10; i++) {
+    for(let i = 1; i < 4; i++) {
         heatSource(`allthecompressed:blaze_block_${i}x`,8 * Math.pow(i  + 1, 3));
     }
 })
