@@ -788,6 +788,11 @@
 					match_nbt: false
 					type: "item"
 				}
+				{
+					id: "45CDC9AAF60004F9"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
 			]
 			title: "{atm9.quest.occultism.capturingDemons}"
 			x: 9.5d
