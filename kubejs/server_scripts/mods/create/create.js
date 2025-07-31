@@ -75,4 +75,41 @@ ServerEvents.recipes(allthemods => {
     beeMixing('pulsating_alloy', { tag:  '#forge:nuggets/pulsating_alloy',      count: 12,  chance: 0.50 })
 
     allthemods.smelting('alltheores:platinum_ingot', 'create:crushed_raw_platinum')
+
+
+    let crushingIngredients = [
+        "#forge:deepslate_blocks",
+        "minecraft:end_stone",
+        "minecraft:blackstone",
+        "minecraft:sand",
+        "minecraft:netherrack"
+    ].map(ing => Ingredient.of(ing))
+
+    let crushingResults = [
+        "exdeorum:crushed_deepslate",
+        "exdeorum:crushed_end_stone",
+        "exdeorum:crushed_blackstone",
+        "exdeorum:dust",
+        "exdeorum:crushed_netherrack"
+    ].map(stack => Item.of(stack))
+
+    /**
+     * @param {Internal.Ingredient[]} ingredients
+     * @param {Internal.ItemStack[]} results
+     */
+    function crushing(ingredients, results) {
+        const recipe = {
+            type: "create:crushing",
+            ingredients: ingredients,
+            results: results
+        }
+        
+        let idType = ingredients[0].toJson().asMap().item || ingredients[0].toJson().asMap().tag
+        const defaultId = `allthemods:create/crushing/${idType.getAsString().split(":")[1]}`
+        allthemods.custom(recipe).id(defaultId)
+    }
+
+    for (let i = 0; i < crushingIngredients.length; i++) {
+        crushing([crushingIngredients[i]], [crushingResults[i]])
+    }
 })
