@@ -11,6 +11,11 @@ ServerEvents.tags('item', allthemods => {
     ])
     allthemods.add('forge:storage_blocks/raw_elementium', 'mythicbotany:raw_elementium_block');
 
+    allthemods.add('forge:deepslate_blocks', [
+        'minecraft:deepslate',
+        'minecraft:cobbled_deepslate'
+    ]);
+
     allthemods.add('forge:dusts', [
         '#forge:dusts/ender',
         '#forge:dusts/sky_stone',
