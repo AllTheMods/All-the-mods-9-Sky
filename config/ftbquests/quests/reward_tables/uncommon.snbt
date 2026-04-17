@@ -120,16 +120,6 @@
 		{ item: "sophisticatedstorage:stack_upgrade_tier_1", weight: 5.0f }
 		{ count: 2, item: "apotheosis:gem_dust", random_bonus: 4, weight: 10.0f }
 		{ item: "sophisticatedstorage:void_upgrade", weight: 10.0f }
-		{
-			item: {
-				Count: 1
-				id: "sophisticatedstorage:iron_chest"
-				tag: {
-					woodType: "oak"
-				}
-			}
-			weight: 10.0f
-		}
 		{ item: "ars_nouveau:glyph_explosion" }
 		{ item: "productivebees:upgrade_simulator" }
 		{ item: "dankstorage:dank_2", weight: 5.0f }

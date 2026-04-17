@@ -62,4 +62,9 @@ ItemEvents.tooltip(allthemods => {
   allthemods.addAdvanced('mob_grinding_utils:golden_egg', (stack, advanced, text) => {
     text.add(3, Text.of("Created from Nutritious Chicken Feed").yellow())
   })
+
+  // Mystical Customization
+  allthemods.addAdvanced('mysticalagriculture:prosperity_shard_seeds', (stack, advanced, text) => {
+    text.add(3, Text.of("Very slow growth, use a machine for faster results").yellow())
+  })
 })

@@ -541,20 +541,8 @@
 			description: ["{atm9.quest.bees.desc.fslab}"]
 			id: "4FFCDF32E33591B1"
 			rewards: [{
-				id: "6F81E28BCA094534"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:iron_chest"
-					tag: {
-						uuid: [I;
-							825113162
-							-1124249737
-							-1332596101
-							97658160
-						]
-						woodType: "oak"
-					}
-				}
+				id: "44D2A5B8B94453DA"
+				item: "minecraft:chest"
 				type: "item"
 			}]
 			tasks: [{
